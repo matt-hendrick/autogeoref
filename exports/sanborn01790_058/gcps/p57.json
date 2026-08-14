@@ -1,0 +1,138 @@
+{
+  "page": "57",
+  "n_streets": 4,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. PRATT AV.",
+      "N. WESTERN AV."
+    ],
+    [
+      "W. NORTH SHORE AV.",
+      "N. WESTERN AV."
+    ],
+    [
+      "N. WESTERN AV.",
+      "W. ALBION AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            714,
+            179
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PRATT AV. x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69007080772495,
+            42.00503336434628
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            714,
+            4141
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH SHORE AV. x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69002442696865,
+            42.00318870716451
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            714,
+            8289
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x W. ALBION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68997697290453,
+            42.00136778169932
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6901672321187,
+            42.004725217901324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5034,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68741902095043,
+            42.00477275868094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6900699565703,
+            42.00162008397716
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

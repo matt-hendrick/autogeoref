@@ -1,0 +1,116 @@
+{
+  "page": "98",
+  "n_streets": 3,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 43RD ST.",
+      "S. OAKLEY AV. (PRIVATE)"
+    ],
+    [
+      "S. OAKLEY AV. (PRIVATE)",
+      "W. 45TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            931,
+            221
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 43RD ST. x S. OAKLEY AV. (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68218502741142,
+            41.815718479362836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            931,
+            8011
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY AV. (PRIVATE) x W. 45TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6821161520362,
+            41.81216247644216
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68241034400096,
+            41.81545099362074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5270,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67949604005689,
+            41.815498864661755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68231706877835,
+            41.812296739749314
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 2 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

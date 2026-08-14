@@ -1,0 +1,145 @@
+{
+  "page": "14",
+  "n_streets": 9,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. BELMONT AVE.",
+      "N. WASHTENAW AVE."
+    ],
+    [
+      "W. FLETCHER",
+      "N. WASHTENAW AVE."
+    ],
+    [
+      "W. FLETCHER",
+      "N. ROCKWELL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            799,
+            302
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELMONT AVE. x N. WASHTENAW AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69529378922131,
+            41.93941004413027
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            799,
+            2142
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FLETCHER x N. WASHTENAW AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69529321198179,
+            41.93854186719082
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4764,
+            2142
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FLETCHER x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69294172674046,
+            41.93855589120372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69548653096223,
+            41.93914734196411
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69275182082666,
+            41.93917303793766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69543443284873,
+            41.936079342762135
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -2.476,
+    "dy_m": 0.537
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8568,
+    "separation_ratio": 1.092,
+    "best_offset_m": 5.8,
+    "n_junctions": 6
+  }
+}

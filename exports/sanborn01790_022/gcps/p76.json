@@ -1,0 +1,180 @@
+{
+  "page": "76",
+  "n_streets": 10,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. NORTH AV.",
+      "NOBLE"
+    ],
+    [
+      "W. NORTH AV.",
+      "MC HENRY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            848,
+            921
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66283122458435,
+            41.91069878382174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4760,
+            921
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x MC HENRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66039813426417,
+            41.910742475067735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6629776398211,
+            41.910784266993495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5237,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66012735777326,
+            41.91083095332229
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66289869036147,
+            41.90811483418958
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5641,
+    "separation_ratio": 1.316,
+    "best_offset_m": 0.2,
+    "n_junctions": 27
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 16,
+      "votable": 9,
+      "in_block": 9,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 9.9,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 9.9,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 9.9,
+          "addr_diff": 4.2
+        },
+        {
+          "perp_m": 9.9,
+          "addr_diff": 3.8
+        },
+        {
+          "perp_m": 9.9,
+          "addr_diff": 3.5
+        },
+        {
+          "perp_m": 9.9,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 10.4,
+          "addr_diff": 16.6
+        },
+        {
+          "perp_m": 10.3,
+          "addr_diff": 18.3
+        },
+        {
+          "perp_m": 11.0,
+          "addr_diff": 0.9
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

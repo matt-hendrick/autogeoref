@@ -1,0 +1,120 @@
+{
+  "page": "28",
+  "n_streets": 3,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "S. SPAULDING AV.",
+      "W. 51ST. ST."
+    ],
+    [
+      "S. KEDZIE AV.",
+      "W. 51ST. ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            747,
+            8015
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPAULDING AV. x W. 51ST. ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70620986978146,
+            41.80078747656186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4649,
+            8015
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEDZIE AV. x W. 51ST. ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70376588355697,
+            41.80082074696813
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70642524366376,
+            41.804147660965015
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70359999743937,
+            41.80419281708001
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70633639670005,
+            41.80105876168357
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6826,
+    "separation_ratio": 1.204,
+    "best_offset_m": 26.9,
+    "n_junctions": 3
+  }
+}

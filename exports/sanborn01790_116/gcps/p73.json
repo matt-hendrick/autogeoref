@@ -1,0 +1,115 @@
+{
+  "page": "73",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 0.56,
+  "auto_residuals_m": [
+    0.67,
+    1.33,
+    1.29,
+    0.66
+  ],
+  "inlier_streets": [
+    [
+      "WILSON AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "W. SUNNYSIDE AV.",
+      "N. LAMON AV."
+    ],
+    [
+      "N. LAMON AV.",
+      "MONTROSE AV."
+    ],
+    [
+      "N. CICERO AV.",
+      "MONTROSE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5332,
+            310
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILSON AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74759920959883,
+            41.964371148006634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1467,
+            4329
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUNNYSIDE AV. x N. LAMON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75001339047253,
+            41.96252233988976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1467,
+            8281
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAMON AV. x MONTROSE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74995089375558,
+            41.96069968196999
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5332,
+            8281
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CICERO AV. x MONTROSE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74751415649393,
+            41.96072697917076
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 2.359,
+    "dy_m": 0.674
+  }
+}

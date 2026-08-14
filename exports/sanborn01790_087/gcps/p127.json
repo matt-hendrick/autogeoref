@@ -1,0 +1,109 @@
+{
+  "page": "127",
+  "n_streets": 11,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "rotation_deg": 1.26,
+  "auto_residuals_m": [
+    0.23,
+    0.28,
+    0.28,
+    0.21
+  ],
+  "inlier_streets": [
+    [
+      "W. DICKENS AV.",
+      "N. SEDGWICK"
+    ],
+    [
+      "W. DICKENS AV.",
+      "N. ORLEANS (N. LANE CT.)"
+    ],
+    [
+      "N. SEDGWICK",
+      "W. ARMITAGE AV. (W. CENTER)"
+    ],
+    [
+      "N. ORLEANS (N. LANE CT.)",
+      "W. ARMITAGE AV. (W. CENTER)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            934,
+            595
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6388743756624,
+            41.920142647952524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2807,
+            595
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. x N. ORLEANS (N. LANE CT.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63776279145846,
+            41.92015985638318
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            934,
+            4613
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. ARMITAGE AV. (W. CENTER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63881550768535,
+            41.918322374553966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2807,
+            4613
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ORLEANS (N. LANE CT.) x W. ARMITAGE AV. (W. CENTER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6376953091943,
+            41.918341707547505
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

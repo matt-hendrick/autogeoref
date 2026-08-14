@@ -1,0 +1,136 @@
+{
+  "page": "83",
+  "n_streets": 10,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "rotation_deg": 1.41,
+  "auto_residuals_m": [
+    2.05,
+    2.35,
+    1.34,
+    0.39,
+    1.4
+  ],
+  "inlier_streets": [
+    [
+      "BLOOMINGDALE AV.",
+      "N. MENARD AV."
+    ],
+    [
+      "WABANSIA AV.",
+      "N. MENARD AV."
+    ],
+    [
+      "WABANSIA AV.",
+      "MANGO AV."
+    ],
+    [
+      "N. MENARD AV.",
+      "W. NORTH AV."
+    ],
+    [
+      "MANGO AV.",
+      "W. NORTH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3455,
+            710
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. x N. MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77047006728527,
+            41.912607830827824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3455,
+            3973
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7704186171444,
+            41.911143537429766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5404,
+            3973
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x MANGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76924001206193,
+            41.911158258592984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3455,
+            7919
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MENARD AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77035410551463,
+            41.909319112899816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5404,
+            7919
+          ],
+          "username": "autogeoref",
+          "note": "auto: MANGO AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76917010187044,
+            41.90933400944381
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -8.307,
+    "dy_m": 0.059
+  }
+}

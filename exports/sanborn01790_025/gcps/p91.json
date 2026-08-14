@@ -1,0 +1,159 @@
+{
+  "page": "91",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 6,
+  "rotation_deg": 1.1,
+  "auto_residuals_m": [
+    0.48,
+    0.68,
+    0.95,
+    1.11,
+    0.6,
+    0.54
+  ],
+  "inlier_streets": [
+    [
+      "W. 22ND ST.",
+      "S. LINCOLN"
+    ],
+    [
+      "W. 22ND ST.",
+      "S. WOOD"
+    ],
+    [
+      "W. 22ND PL.",
+      "S. LINCOLN"
+    ],
+    [
+      "W. 22ND PL.",
+      "S. WOOD"
+    ],
+    [
+      "S. LINCOLN",
+      "W. 23RD ST."
+    ],
+    [
+      "W. 23RD ST.",
+      "S. WOOD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            741,
+            134
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND ST. x S. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67338815500925,
+            41.85223140858856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4877,
+            134
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67093539384436,
+            41.8522681703551
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            741,
+            1761
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND PL. x S. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67336946730035,
+            41.85145679909771
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4877,
+            1761
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND PL. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67091271611173,
+            41.85149100948949
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            741,
+            3378
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LINCOLN x W. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67335175989993,
+            41.85070611491654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4877,
+            3378
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 23RD ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67089083487696,
+            41.850740959798436
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.282,
+    "dy_m": 3.024
+  }
+}

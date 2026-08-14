@@ -1,0 +1,141 @@
+{
+  "page": "84",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. LOYOLA AV.",
+      "N. WINTHROP AV."
+    ],
+    [
+      "W. LOYOLA AV.",
+      "N. WINTHROP AV."
+    ],
+    [
+      "W. SHERIDAN RD.",
+      "N. KENMORE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            446,
+            553
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LOYOLA AV. x N. WINTHROP AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65860973343159,
+            42.00153823473304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            449,
+            553
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LOYOLA AV. x N. WINTHROP AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65860973343159,
+            42.00153823473304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2770,
+            7913
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SHERIDAN RD. x N. KENMORE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65708976754578,
+            41.99820480115083
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65852712502034,
+            42.00141524090664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5282,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65561194622823,
+            42.00146360775152
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65843281816446,
+            41.99827618645822
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -3.025,
+    "dy_m": -3.406
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

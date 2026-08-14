@@ -1,0 +1,159 @@
+{
+  "page": "45",
+  "n_streets": 11,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 2.47,
+  "auto_residuals_m": [
+    3.86,
+    3.3,
+    4.92,
+    4.06,
+    1.87,
+    0.6
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVISION",
+      "N. HOWE"
+    ],
+    [
+      "W. DIVISION",
+      "N. LARRABEE"
+    ],
+    [
+      "W. ELM",
+      "N. HOWE"
+    ],
+    [
+      "W. ELM",
+      "N. CROSBY"
+    ],
+    [
+      "W. ELM",
+      "N. LARRABEE"
+    ],
+    [
+      "N. LARRABEE",
+      "W. HOBBIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3515,
+            1181
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. HOWE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64446240691193,
+            41.903692307205304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5583,
+            1181
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64319658201175,
+            41.90371372452044
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3515,
+            3507
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x N. HOWE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64441828265024,
+            41.90262673862501
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1170,
+            3507
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x N. CROSBY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64570913482584,
+            41.90256447720871
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5583,
+            3507
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x N. LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64315651931878,
+            41.902648719415915
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5583,
+            6086
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LARRABEE x W. HOBBIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6431111189103,
+            41.9014805353297
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.6,
+    "dy_m": -0.415
+  }
+}

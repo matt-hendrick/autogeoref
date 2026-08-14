@@ -1,0 +1,163 @@
+{
+  "page": "70",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 21ST ST.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "W. 21ST ST.",
+      "S. LEAVITT ST."
+    ],
+    [
+      "W. 21ST PL.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "W. 21ST PL.",
+      "S. LEAVITT ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            897,
+            2336
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68324351674,
+            41.853893275615924
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4939,
+            2336
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. LEAVITT ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68079343990175,
+            41.85392674073212
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            897,
+            4247
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST PL. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68321730353783,
+            41.852982734718665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4939,
+            4247
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST PL. x S. LEAVITT ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6807671170039,
+            41.853017915789806
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68346000617792,
+            41.85459615602581
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5258,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68061006829635,
+            41.85463903345412
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68338784675461,
+            41.85193521522792
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.571,
+    "separation_ratio": 1.167,
+    "best_offset_m": 1.4,
+    "n_junctions": 23
+  }
+}

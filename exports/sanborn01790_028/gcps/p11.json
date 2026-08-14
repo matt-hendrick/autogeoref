@@ -1,0 +1,228 @@
+{
+  "page": "11",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 0.8,
+  "auto_residuals_m": [
+    1.82,
+    3.15,
+    1.79,
+    3.1,
+    2.4,
+    4.09,
+    4.06,
+    3.13,
+    1.91
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. ROCKWELL"
+    ],
+    [
+      "W. NORTH AV.",
+      "N. MAPLEWOOD"
+    ],
+    [
+      "W. NORTH AV.",
+      "N. CAMPBELL"
+    ],
+    [
+      "N. ROCKWELL",
+      "LE MOYNE"
+    ],
+    [
+      "N. ROCKWELL",
+      "HIRSCH B'LVD"
+    ],
+    [
+      "N. MAPLEWOOD",
+      "LE MOYNE"
+    ],
+    [
+      "N. MAPLEWOOD",
+      "HIRSCH B'LVD"
+    ],
+    [
+      "N. CAMPBELL",
+      "LE MOYNE"
+    ],
+    [
+      "N. CAMPBELL",
+      "HIRSCH B'LVD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            798,
+            394
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69212561334452,
+            41.9102558756224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2708,
+            394
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. MAPLEWOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69091656501081,
+            41.910269293276876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4781,
+            394
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. CAMPBELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68968205000978,
+            41.91028457492952
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            798,
+            4331
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROCKWELL x LE MOYNE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6920908712747,
+            41.9084324870588
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            798,
+            8155
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROCKWELL x HIRSCH B'LVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69205428341932,
+            41.90661189001786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2708,
+            4331
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAPLEWOOD x LE MOYNE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69087263788627,
+            41.908445089013476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2708,
+            8155
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAPLEWOOD x HIRSCH B'LVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69082710681984,
+            41.90662074346444
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4781,
+            4331
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL x LE MOYNE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68964476289173,
+            41.908457383873
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4781,
+            8155
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL x HIRSCH B'LVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68959877112667,
+            41.906634400014156
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.665,
+    "dy_m": -1.431
+  }
+}

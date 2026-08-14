@@ -1,0 +1,157 @@
+{
+  "page": "67",
+  "n_streets": 11,
+  "n_candidates": 11,
+  "n_inliers": 6,
+  "rotation_deg": 0.68,
+  "auto_residuals_m": [
+    1.77,
+    0.3,
+    0.94,
+    5.36,
+    3.06,
+    1.14
+  ],
+  "inlier_streets": [
+    [
+      "W. 18TH ST.",
+      "S. JEFFERSON"
+    ],
+    [
+      "W. 18TH ST.",
+      "SEWARD"
+    ],
+    [
+      "W. 18TH ST.",
+      "S. CANAL"
+    ],
+    [
+      "S. JEFFERSON",
+      "W. 20TH ST."
+    ],
+    [
+      "S. JEFFERSON",
+      "W. 20TH PL."
+    ],
+    [
+      "SEWARD",
+      "LUMBER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            469,
+            718
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64186356938727,
+            41.857621402399346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3597,
+            718
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x SEWARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6399668219915,
+            41.8576481467653
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5295,
+            718
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63893572319792,
+            41.857665474705335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            469,
+            5029
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. JEFFERSON x W. 20TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64179609934061,
+            41.85566500139644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            469,
+            6331
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. JEFFERSON x W. 20TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64177605822313,
+            41.85500343311697
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3597,
+            6010
+          ],
+          "username": "autogeoref",
+          "note": "auto: SEWARD x LUMBER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63988102366156,
+            41.85518235354863
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

@@ -1,0 +1,163 @@
+{
+  "page": "39",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 16TH ST.",
+      "S. RACINE AV. (S. CENTRE AV.)"
+    ],
+    [
+      "W. 17TH ST.",
+      "S. RACINE AV. (S. CENTRE AV.)"
+    ],
+    [
+      "W. 18TH ST.",
+      "S. RACINE AV. (S. CENTRE AV.)"
+    ],
+    [
+      "W. 18TH ST.",
+      "S. MAY ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            483,
+            2363
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH ST. x S. RACINE AV. (S. CENTRE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65647915507309,
+            41.85976530355826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            483,
+            4344
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 17TH ST. x S. RACINE AV. (S. CENTRE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6564522159111,
+            41.858860347903914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            483,
+            6320
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x S. RACINE AV. (S. CENTRE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65642944224261,
+            41.85795320039364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3017,
+            6320
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x S. MAY ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65484713793414,
+            41.857980088641995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65642573470569,
+            41.86049897376205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65356457659625,
+            41.860542016026095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6563535752824,
+            41.85783827855156
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5521,
+    "separation_ratio": 1.1,
+    "best_offset_m": 2.2,
+    "n_junctions": 20
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "page": "68",
+  "n_streets": 9,
+  "n_candidates": 11,
+  "n_inliers": 8,
+  "rotation_deg": 1.5,
+  "auto_residuals_m": [
+    1.26,
+    0.84,
+    1.17,
+    3.17,
+    10.99,
+    2.16,
+    3.32,
+    1.99
+  ],
+  "inlier_streets": [
+    [
+      "W. BLACKHAWK",
+      "N. CLEVELAND AV."
+    ],
+    [
+      "W. BLACKHAWK",
+      "N. HUDSON AV."
+    ],
+    [
+      "W. BLACKHAWK",
+      "N. SEDGWICK"
+    ],
+    [
+      "N. CLEVELAND AV.",
+      "W. EVERGREEN AV."
+    ],
+    [
+      "N. HUDSON AV.",
+      "W. SCHILLER"
+    ],
+    [
+      "N. HUDSON AV.",
+      "W. EVERGREEN AV."
+    ],
+    [
+      "N. SEDGWICK",
+      "W. SCHILLER"
+    ],
+    [
+      "N. SEDGWICK",
+      "W. EVERGREEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            903,
+            661
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLACKHAWK x N. CLEVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64094561974548,
+            41.90922297844309
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2916,
+            661
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLACKHAWK x N. HUDSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63973528565896,
+            41.90924052473684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4967,
+            661
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLACKHAWK x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63852350173913,
+            41.90925497952883
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            903,
+            6724
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLEVELAND AV. x W. EVERGREEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64086522878867,
+            41.906493611092145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2916,
+            5792
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HUDSON AV. x W. SCHILLER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63966109615437,
+            41.9068449847142
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2916,
+            6724
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HUDSON AV. x W. EVERGREEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6396538173311,
+            41.90651065066496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4967,
+            4355
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. SCHILLER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6384729060816,
+            41.907613816750334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4967,
+            6724
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. EVERGREEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63843920062241,
+            41.90653356528918
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.18,
+    "dy_m": 1.964
+  }
+}

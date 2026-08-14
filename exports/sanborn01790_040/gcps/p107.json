@@ -1,0 +1,111 @@
+{
+  "page": "107",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 0.9,
+  "auto_residuals_m": [
+    2.19,
+    2.23,
+    1.6,
+    1.6
+  ],
+  "inlier_streets": [
+    [
+      "N. LAMON AV.",
+      "W. NORTH AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. LAVERGNE AV."
+    ],
+    [
+      "N. LAVERGNE AV.",
+      "HIRSCH"
+    ],
+    [
+      "N. LAMON AV.",
+      "HIRSCH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3249,
+            440
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAMON AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74920146585877,
+            41.90958558430885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            319,
+            440
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. LAVERGNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75103537254897,
+            41.90956255540644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            319,
+            8421
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAVERGNE AV. x HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75095554880735,
+            41.90593305383463
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4373,
+            8421
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAMON AV. x HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74850170402982,
+            41.90596075140308
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

@@ -1,0 +1,163 @@
+{
+  "page": "103",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 45TH ST.",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. 45TH ST.",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "S. CENTRAL PARK AV.",
+      "W. 47TH ST."
+    ],
+    [
+      "S. ST. LOUIS AV.",
+      "W. 47TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4550,
+            336
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 45TH ST. x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71127905877216,
+            41.811695720814136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4792,
+            336
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 45TH ST. x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71127905877216,
+            41.811695720814136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            325,
+            8236
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTRAL PARK AV. x W. 47TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7138738156668,
+            41.80798866799249
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4550,
+            8236
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x W. 47TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71132477781357,
+            41.80803216306669
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71382768673925,
+            41.8114064694411
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71092181042707,
+            41.811457948094606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71372754243778,
+            41.808265965430614
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6276,
+    "separation_ratio": 1.653,
+    "best_offset_m": 11.6,
+    "n_junctions": 12
+  }
+}

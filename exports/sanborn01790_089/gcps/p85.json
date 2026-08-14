@@ -1,0 +1,157 @@
+{
+  "page": "85",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.14,
+  "auto_residuals_m": [
+    6.54,
+    6.57,
+    5.97,
+    2.46,
+    7.14,
+    3.63
+  ],
+  "inlier_streets": [
+    [
+      "E. 25TH ST.",
+      "S. MICHIGAN AV. (BOULEVARD)"
+    ],
+    [
+      "E. 25TH ST.",
+      "S. MICHIGAN AV."
+    ],
+    [
+      "S. MICHIGAN AV. (BOULEVARD)",
+      "E. 26TH ST."
+    ],
+    [
+      "INDIANA AV.",
+      "E. 26TH ST."
+    ],
+    [
+      "E. 26TH ST.",
+      "S. MICHIGAN AV."
+    ],
+    [
+      "E. 26TH ST.",
+      "INDIANA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1635,
+            282
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 25TH ST. x S. MICHIGAN AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62366854302473,
+            41.847467724602566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1820,
+            282
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 25TH ST. x S. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62366854302473,
+            41.847467724602566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1635,
+            4291
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. (BOULEVARD) x E. 26TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62363620513878,
+            41.845638283663774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4108,
+            4291
+          ],
+          "username": "autogeoref",
+          "note": "auto: INDIANA AV. x E. 26TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62213773032782,
+            41.84566047016123
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1820,
+            4291
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 26TH ST. x S. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62363620513878,
+            41.845638283663774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4022,
+            4291
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 26TH ST. x INDIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62213773032782,
+            41.84566047016123
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

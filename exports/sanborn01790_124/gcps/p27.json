@@ -1,0 +1,185 @@
+{
+  "page": "27",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. JARVIS AV.",
+      "N. GREENVIEW AV."
+    ],
+    [
+      "W. SHERWIN AV.",
+      "N. GREENVIEW AV."
+    ],
+    [
+      "N. GREENVIEW AV.",
+      "W. CHASE AV."
+    ],
+    [
+      "N. GREENVIEW AV.",
+      "W. TOUHY AV."
+    ],
+    [
+      "W. TOUHY AV.",
+      "N. GLENWOOD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            415,
+            612
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JARVIS AV. x N. GREENVIEW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66813841631696,
+            42.01603049550029
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            415,
+            2996
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SHERWIN AV. x N. GREENVIEW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6680955723049,
+            42.01494481889986
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            415,
+            5423
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GREENVIEW AV. x W. CHASE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6680655504355,
+            42.01385823891923
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            415,
+            7860
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GREENVIEW AV. x W. TOUHY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66802607816427,
+            42.01273262776774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3935,
+            7860
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TOUHY AV. x N. GLENWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6659225928885,
+            42.01276769875496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.668036661027,
+            42.015952533503096
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5282,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6651214822349,
+            42.01600088929627
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66794235417113,
+            42.012814196298365
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 0.134,
+    "dy_m": -2.884
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

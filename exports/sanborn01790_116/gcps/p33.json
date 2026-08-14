@@ -1,0 +1,141 @@
+{
+  "page": "33",
+  "n_streets": 11,
+  "n_candidates": 8,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "ARGYLE",
+      "N. LOCKWOOD AV."
+    ],
+    [
+      "ARGYLE",
+      "N. LARAMIE AV."
+    ],
+    [
+      "STRONG",
+      "N. LARAMIE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1016,
+            264
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARGYLE x N. LOCKWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76012225397548,
+            41.97154851464552
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4922,
+            264
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARGYLE x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75764450474969,
+            41.971569826108166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4922,
+            2160
+          ],
+          "username": "autogeoref",
+          "note": "auto: STRONG x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75760953428887,
+            41.97065179161452
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76035241523059,
+            41.97125596966032
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5263,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75743412650615,
+            41.971289537125415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76028676065287,
+            41.9681007875126
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5683,
+    "separation_ratio": 1.071,
+    "best_offset_m": 12.7,
+    "n_junctions": 11
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "page": "36",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. HURON",
+      "N. OAKLEY BL'VD"
+    ],
+    [
+      "W. ERIE",
+      "N. OAKLEY BL'VD"
+    ],
+    [
+      "N. OAKLEY BL'VD",
+      "W. OHIO"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            853,
+            535
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. OAKLEY BL'VD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68434445287268,
+            41.893970627598286
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            853,
+            2614
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. OAKLEY BL'VD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68431863530978,
+            41.89305952051982
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            853,
+            4522
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY BL'VD x W. OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68429204406259,
+            41.892145586743496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6845017507415,
+            41.89386622606251
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5276,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68170413390503,
+            41.893912399392924
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68442426208875,
+            41.89126464857951
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7016,
+    "separation_ratio": 1.106,
+    "best_offset_m": 0.0,
+    "n_junctions": 24
+  }
+}

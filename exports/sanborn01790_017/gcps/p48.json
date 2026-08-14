@@ -1,0 +1,225 @@
+{
+  "page": "48",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 1.29,
+  "auto_residuals_m": [
+    5.12,
+    5.78,
+    3.71,
+    1.39,
+    6.65,
+    5.97,
+    6.19,
+    5.26,
+    7.81
+  ],
+  "inlier_streets": [
+    [
+      "MONROE",
+      "DEARBORN"
+    ],
+    [
+      "MONROE",
+      "STATE"
+    ],
+    [
+      "MARBLE PL.",
+      "DEARBORN"
+    ],
+    [
+      "MARBLE PL.",
+      "STATE"
+    ],
+    [
+      "ADAMS",
+      "DEARBORN"
+    ],
+    [
+      "ADAMS",
+      "STATE"
+    ],
+    [
+      "QUINCY",
+      "STATE"
+    ],
+    [
+      "JACKSON BLVD.",
+      "DEARBORN"
+    ],
+    [
+      "JACKSON BLVD.",
+      "STATE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1668,
+            1230
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONROE x DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62936866655289,
+            41.880719323474814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4291,
+            1230
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONROE x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62772748538443,
+            41.88074289819572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1668,
+            2708
+          ],
+          "username": "autogeoref",
+          "note": "auto: MARBLE PL. x DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62936135476521,
+            41.880081985627264
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4291,
+            2708
+          ],
+          "username": "autogeoref",
+          "note": "auto: MARBLE PL. x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62772440646663,
+            41.88009392050311
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1668,
+            4116
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADAMS x DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6293517449724,
+            41.87943816599015
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4291,
+            4116
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADAMS x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62771033107198,
+            41.87946164332028
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4291,
+            5514
+          ],
+          "username": "autogeoref",
+          "note": "auto: QUINCY x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62769479127789,
+            41.87880481777046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1668,
+            6651
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON BLVD. x DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62929898210513,
+            41.878167028097465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4291,
+            6651
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON BLVD. x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62767706288284,
+            41.87817592525118
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

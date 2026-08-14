@@ -1,0 +1,132 @@
+{
+  "page": "50",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 1.18,
+  "auto_residuals_m": [
+    1.46,
+    1.5,
+    2.96,
+    3.11,
+    2.22
+  ],
+  "inlier_streets": [
+    [
+      "W. GRAND AV.",
+      "N. MENARD AV."
+    ],
+    [
+      "N. MONITOR AV. (N. MANSFIELD AV.)",
+      "W. DICKENS AV."
+    ],
+    [
+      "N. MENARD AV.",
+      "W. DICKENS AV."
+    ],
+    [
+      "N. MANGO AV.",
+      "W. DICKENS AV."
+    ],
+    [
+      "N. MANGO AV.",
+      "W. ARMITAGE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3429,
+            1741
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77070051495883,
+            41.919657042093384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1431,
+            5611
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MONITOR AV. (N. MANSFIELD AV.) x W. DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77185758125377,
+            41.91796335935234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3429,
+            5611
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MENARD AV. x W. DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77063930627234,
+            41.9179798800845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5309,
+            5611
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MANGO AV. x W. DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76941903367444,
+            41.91801564616287
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5309,
+            8155
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MANGO AV. x W. ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7693697461846,
+            41.9168718793058
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

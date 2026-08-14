@@ -1,0 +1,155 @@
+{
+  "page": "1",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 0.73,
+  "auto_residuals_m": [
+    0.54,
+    0.31,
+    0.64,
+    0.52,
+    0.25,
+    0.41
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. HARDING AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "LE MOYNE",
+      "N. HARDING AV."
+    ],
+    [
+      "LE MOYNE",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "N. HARDING AV.",
+      "HIRSCH"
+    ],
+    [
+      "N. SPRINGFIELD AV.",
+      "HIRSCH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2685,
+            353
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72530065915204,
+            41.909899676058394
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4527,
+            353
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72409297535371,
+            41.909912058316564
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2685,
+            4115
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72525124247792,
+            41.90808634934346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4527,
+            4115
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72403474013342,
+            41.908097478795675
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2685,
+            7819
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HARDING AV. x HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72519467130857,
+            41.906289799186375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4527,
+            7819
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPRINGFIELD AV. x HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7239770872943,
+            41.906300900942085
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

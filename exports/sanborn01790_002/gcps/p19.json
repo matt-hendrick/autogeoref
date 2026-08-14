@@ -1,0 +1,159 @@
+{
+  "page": "19",
+  "n_streets": 7,
+  "n_candidates": 12,
+  "n_inliers": 6,
+  "rotation_deg": 0.94,
+  "auto_residuals_m": [
+    14.4,
+    14.32,
+    6.03,
+    8.39,
+    6.01,
+    8.34
+  ],
+  "inlier_streets": [
+    [
+      "N. RIDGEWAY",
+      "W. GEORGE (CARROLL)"
+    ],
+    [
+      "N. RIDGEWAY",
+      "W. DIVERSEY AVE."
+    ],
+    [
+      "W. GEORGE (CARROLL)",
+      "N. HAMLIN AVE."
+    ],
+    [
+      "W. GEORGE (CARROLL)",
+      "N. LAWNDALE AVE. (COOK ST.)"
+    ],
+    [
+      "N. HAMLIN AVE.",
+      "W. DIVERSEY AVE."
+    ],
+    [
+      "N. LAWNDALE AVE. (COOK ST.)",
+      "W. DIVERSEY AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3101,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RIDGEWAY x W. GEORGE (CARROLL)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72087218667214,
+            41.933693300849924
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3101,
+            8075
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RIDGEWAY x W. DIVERSEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72082834814925,
+            41.93186674152662
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            641,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GEORGE (CARROLL) x N. HAMLIN AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72210039969794,
+            41.93367594821046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4876,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GEORGE (CARROLL) x N. LAWNDALE AVE. (COOK ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71964882106676,
+            41.93370611468826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            641,
+            8075
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HAMLIN AVE. x W. DIVERSEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72205742944239,
+            41.93185066148448
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4876,
+            8075
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWNDALE AVE. (COOK ST.) x W. DIVERSEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71960608831402,
+            41.931879675291654
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.364,
+    "dy_m": -0.084
+  }
+}

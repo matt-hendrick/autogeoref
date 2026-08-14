@@ -1,0 +1,161 @@
+{
+  "page": "35",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.18,
+  "auto_residuals_m": [
+    0.24,
+    0.44,
+    0.23,
+    0.15,
+    0.29,
+    0.2
+  ],
+  "inlier_streets": [
+    [
+      "GARFIELD AV.",
+      "SHEFFIELD AV."
+    ],
+    [
+      "GARFIELD AV.",
+      "BISSELL"
+    ],
+    [
+      "GARFIELD AV.",
+      "FREMONT"
+    ],
+    [
+      "SHEFFIELD AV.",
+      "CENTER"
+    ],
+    [
+      "BISSELL",
+      "CENTER"
+    ],
+    [
+      "FREMONT",
+      "CENTER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            853,
+            260
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x SHEFFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65345324990065,
+            41.91992194075593
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2845,
+            260
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x BISSELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65223576521605,
+            41.91994097314954
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4847,
+            260
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x FREMONT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65102396905229,
+            41.919958264368326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            853,
+            4260
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHEFFIELD AV. x CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65339252124143,
+            41.91810421249095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2845,
+            4260
+          ],
+          "username": "autogeoref",
+          "note": "auto: BISSELL x CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65217714484875,
+            41.91812241679621
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4847,
+            4260
+          ],
+          "username": "autogeoref",
+          "note": "auto: FREMONT x CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65096357594197,
+            41.91814227319607
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -2.79,
+    "dy_m": -0.113
+  }
+}

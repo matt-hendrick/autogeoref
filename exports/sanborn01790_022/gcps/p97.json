@@ -1,0 +1,156 @@
+{
+  "page": "97",
+  "n_streets": 13,
+  "n_candidates": 19,
+  "n_inliers": 6,
+  "rotation_deg": 1.36,
+  "auto_residuals_m": [
+    1.79,
+    1.79,
+    2.4,
+    0.87,
+    0.2,
+    3.06
+  ],
+  "inlier_streets": [
+    [
+      "ELLEN",
+      "N. WOOD"
+    ],
+    [
+      "ELLEN",
+      "N. HERMITAGE ST."
+    ],
+    [
+      "N. WOOD",
+      "W. DIVISION"
+    ],
+    [
+      "N. PAULINA ST.",
+      "W. DIVISION"
+    ],
+    [
+      "N. PAULINA",
+      "W. DIVISION"
+    ],
+    [
+      "W. DIVISION",
+      "N. HERMITAGE ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            725,
+            1020
+          ],
+          "username": "autogeoref",
+          "note": "auto: ELLEN x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6724210860135,
+            41.90554871520483
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2772,
+            1020
+          ],
+          "username": "autogeoref",
+          "note": "auto: ELLEN x N. HERMITAGE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67112893123225,
+            41.90558007702015
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            725,
+            6030
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOOD x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67238060111524,
+            41.90326672341504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4698,
+            6030
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA ST. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66994431909417,
+            41.90330570937556
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3932,
+            6030
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67042546816337,
+            41.90329820921788
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2772,
+            6030
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. HERMITAGE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67116703910344,
+            41.90328583392248
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

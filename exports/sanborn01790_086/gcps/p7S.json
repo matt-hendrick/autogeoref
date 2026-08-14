@@ -1,0 +1,182 @@
+{
+  "page": "7S",
+  "n_streets": 6,
+  "n_candidates": 11,
+  "n_inliers": 7,
+  "rotation_deg": 0.57,
+  "auto_residuals_m": [
+    1.9,
+    0.63,
+    1.05,
+    3.47,
+    0.89,
+    5.71,
+    2.04
+  ],
+  "inlier_streets": [
+    [
+      "WACKER DRIVE",
+      "N. DEARBORN"
+    ],
+    [
+      "WACKER DRIVE",
+      "N. STATE"
+    ],
+    [
+      "W. WACKER DRIVE (W. SOUTH WATER)",
+      "N. DEARBORN"
+    ],
+    [
+      "W. WACKER DRIVE (W. SOUTH WATER)",
+      "N. STATE"
+    ],
+    [
+      "N. DEARBORN",
+      "W. LAKE"
+    ],
+    [
+      "HADDOCK PL.",
+      "N. STATE"
+    ],
+    [
+      "N. STATE",
+      "W. LAKE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1798,
+            1979
+          ],
+          "username": "autogeoref",
+          "note": "auto: WACKER DRIVE x N. DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62951926882523,
+            41.886920695335284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4322,
+            1979
+          ],
+          "username": "autogeoref",
+          "note": "auto: WACKER DRIVE x N. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62797302100851,
+            41.88691881790434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1798,
+            2210
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WACKER DRIVE (W. SOUTH WATER) x N. DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62951705936119,
+            41.886805404493366
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4322,
+            2210
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WACKER DRIVE (W. SOUTH WATER) x N. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62796307462422,
+            41.88680081979722
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1798,
+            4804
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DEARBORN x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62948558770873,
+            41.88573257744219
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4322,
+            3596
+          ],
+          "username": "autogeoref",
+          "note": "auto: HADDOCK PL. x N. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62794059918598,
+            41.886287958862106
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4322,
+            4804
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. STATE x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62792808128681,
+            41.88573598445841
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.328,
+    "dy_m": -1.919
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "page": "64",
+  "n_streets": 9,
+  "n_candidates": 9,
+  "n_inliers": 4,
+  "rotation_deg": 0.95,
+  "auto_residuals_m": [
+    0.72,
+    0.7,
+    0.68,
+    0.74
+  ],
+  "inlier_streets": [
+    [
+      "W. INDIANA",
+      "N. 48TH AV."
+    ],
+    [
+      "W. INDIANA",
+      "N. 47TH AV."
+    ],
+    [
+      "N. 48TH AV.",
+      "W. KINZIE"
+    ],
+    [
+      "N. 47TH AV.",
+      "W. KINZIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            904,
+            4169
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. INDIANA x N. 48TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74561596104111,
+            41.88956904988558
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5007,
+            4169
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. INDIANA x N. 47TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74315760951461,
+            41.88960885449863
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            904,
+            7768
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 48TH AV. x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7455511843944,
+            41.88791827380196
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5007,
+            7768
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 47TH AV. x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74309430159445,
+            41.88793909064466
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

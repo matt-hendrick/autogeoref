@@ -1,0 +1,111 @@
+{
+  "page": "71",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.17,
+  "auto_residuals_m": [
+    0.24,
+    0.22,
+    0.21,
+    0.26
+  ],
+  "inlier_streets": [
+    [
+      "POLK",
+      "S. WOLCOTT AV. (S LINCOLN)"
+    ],
+    [
+      "POLK",
+      "S. WOOD"
+    ],
+    [
+      "W. TAYLOR",
+      "S. WOLCOTT AV. (S LINCOLN)"
+    ],
+    [
+      "W. TAYLOR",
+      "S. WOOD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1263,
+            1036
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x S. WOLCOTT AV. (S LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67376412275794,
+            41.87151604372501
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5036,
+            1036
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67148779177454,
+            41.87154895074603
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1263,
+            6234
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TAYLOR x S. WOLCOTT AV. (S LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67370022897323,
+            41.86915636023222
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5036,
+            6234
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TAYLOR x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67141710509645,
+            41.86919278571332
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

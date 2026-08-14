@@ -1,0 +1,141 @@
+{
+  "page": "95",
+  "n_streets": 7,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 35TH ST.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "W. 35TH ST.",
+      "CHARLTON ST."
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 36TH ST. (PRIVATE)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            549,
+            1671
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66556825196098,
+            41.83050135363262
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2592,
+            1671
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x CHARLTON ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6642996660856,
+            41.830519258565246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            549,
+            5735
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 36TH ST. (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66551763003764,
+            41.828677272973
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66553739737482,
+            41.83091671058073
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5272,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66273403757084,
+            41.83095244185812
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66547745899534,
+            41.82830579950997
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.6871,
+    "separation_ratio": 0.878,
+    "best_offset_m": 95.7,
+    "n_junctions": 10
+  }
+}

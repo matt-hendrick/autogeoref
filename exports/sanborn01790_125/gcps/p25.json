@@ -1,0 +1,182 @@
+{
+  "page": "25",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 7,
+  "rotation_deg": 1.21,
+  "auto_residuals_m": [
+    16.95,
+    3.92,
+    12.46,
+    16.01,
+    9.63,
+    6.12,
+    12.25
+  ],
+  "inlier_streets": [
+    [
+      "E. 105TH ST.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "E. 105TH PL.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "E. 106TH ST.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "E. 106TH ST.",
+      "S. CHAMPLAIN AV."
+    ],
+    [
+      "E. 106TH ST.",
+      "S. LANGLEY AV."
+    ],
+    [
+      "E. 107TH ST.",
+      "S. CHAMPLAIN AV."
+    ],
+    [
+      "E. 107TH ST.",
+      "S. LANGLEY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            974,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 105TH ST. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60730455204559,
+            41.70375543270336
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            974,
+            2245
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 105TH PL. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6075036683834,
+            41.70283692747682
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            974,
+            4293
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 106TH ST. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60771100727248,
+            41.70193255452739
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1644,
+            4293
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 106TH ST. x S. CHAMPLAIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60736743969103,
+            41.70193215211549
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3544,
+            4293
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 106TH ST. x S. LANGLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6062426742477,
+            41.701944651192974
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1644,
+            8284
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 107TH ST. x S. CHAMPLAIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60731224646048,
+            41.700097077738064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3544,
+            8284
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 107TH ST. x S. LANGLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60618950062421,
+            41.700113576068084
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 5.454,
+    "dy_m": -0.189
+  }
+}

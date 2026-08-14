@@ -1,0 +1,161 @@
+{
+  "page": "33",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.03,
+  "auto_residuals_m": [
+    6.64,
+    6.08,
+    15.4,
+    8.79,
+    14.89,
+    8.84
+  ],
+  "inlier_streets": [
+    [
+      "W. 16TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "W. 16TH ST.",
+      "S. PAULINA"
+    ],
+    [
+      "S. WOOD",
+      "W. 17TH ST."
+    ],
+    [
+      "S. WOOD",
+      "W. 18TH ST."
+    ],
+    [
+      "S. PAULINA",
+      "W. 17TH ST."
+    ],
+    [
+      "S. PAULINA",
+      "W. 18TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            801,
+            2946
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67113930301922,
+            41.85952307949977
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4755,
+            2946
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH ST. x S. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66870190549723,
+            41.859559458584044
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            801,
+            5102
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x W. 17TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67111885342756,
+            41.85861962624362
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            801,
+            6646
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6710932410658,
+            41.85770526785923
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4755,
+            5102
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PAULINA x W. 17TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66867384473987,
+            41.85864893121504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4755,
+            6646
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PAULINA x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6686512842997,
+            41.857737651770215
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 0.461,
+    "dy_m": -2.786
+  }
+}

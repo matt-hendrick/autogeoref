@@ -1,0 +1,116 @@
+{
+  "page": "136",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "GRACELAND AVE.",
+      "PINEGROVE AVE."
+    ],
+    [
+      "PINEGROVE AVE.",
+      "SHERIDAN ROAD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            135,
+            932
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACELAND AVE. x PINEGROVE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64793629595654,
+            41.95459205683802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            135,
+            4716
+          ],
+          "username": "autogeoref",
+          "note": "auto: PINEGROVE AVE. x SHERIDAN ROAD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64789638039134,
+            41.95284925936224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64768543839926,
+            41.95463142919116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64498142308123,
+            41.95467144035355
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64760429678948,
+            41.95159860319362
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

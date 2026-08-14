@@ -1,0 +1,160 @@
+{
+  "page": "102",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. CLIFTON AV.",
+      "N. MARCY"
+    ],
+    [
+      "N. KINGSBURY",
+      "W. CLAY"
+    ],
+    [
+      "N. MARCY",
+      "W. CLAY"
+    ],
+    [
+      "N. CLYBOURN AV.",
+      "W. CLAY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4084,
+            379
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLIFTON AV. x N. MARCY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65778112883059,
+            41.91616546335037
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2431,
+            4872
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KINGSBURY x W. CLAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65683971005305,
+            41.914123378384964
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4084,
+            4872
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MARCY x W. CLAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65603733770112,
+            41.91455264347621
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5425,
+            4872
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLYBOURN AV. x W. CLAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65529244718017,
+            41.915053126589854
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            574,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6592746410457,
+            41.91499568669158
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5170,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65714914909977,
+            41.91635632952091
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            574,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65694389463229,
+            41.912979558849074
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": 40.3193,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

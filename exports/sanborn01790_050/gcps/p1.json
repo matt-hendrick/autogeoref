@@ -1,0 +1,208 @@
+{
+  "page": "1",
+  "n_streets": 9,
+  "n_candidates": 10,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. CENTRAL AV.",
+      "FOSTER AV. (GETTYSBURG)"
+    ],
+    [
+      "PARKSIDE AV.",
+      "CARMEN AV."
+    ],
+    [
+      "N. MAJOR AV.",
+      "CARMEN AV."
+    ],
+    [
+      "FOSTER AV. (GETTYSBURG)",
+      "N. MENARD AV."
+    ],
+    [
+      "CARMEN AV.",
+      "MANGO AV."
+    ],
+    [
+      "CARMEN AV.",
+      "N. MENARD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            784,
+            281
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL AV. x FOSTER AV. (GETTYSBURG)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76848083819813,
+            41.97568276527396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4709,
+            2226
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARKSIDE AV. x CARMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76975252665349,
+            41.973864372811626
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4709,
+            4165
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAJOR AV. x CARMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77094101548404,
+            41.973878148882356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            784,
+            8196
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. (GETTYSBURG) x N. MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77333928786895,
+            41.97567531675528
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4709,
+            6189
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x MANGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77215458571568,
+            41.97387721269674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4709,
+            8196
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x N. MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77336670665014,
+            41.973875688012754
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76886639117097,
+            41.975813644102914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5113,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76882150751712,
+            41.97371432863413
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77309337466455,
+            41.975763695275674
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -90.2143,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.733,
+    "separation_ratio": 1.038,
+    "best_offset_m": 2.5,
+    "n_junctions": 15
+  }
+}

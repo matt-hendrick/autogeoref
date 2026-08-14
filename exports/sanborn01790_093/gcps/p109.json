@@ -1,0 +1,163 @@
+{
+  "page": "109",
+  "n_streets": 12,
+  "n_candidates": 11,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. MAY ST.",
+      "W. ROOSEVELT ROAD (W. 12TH ST.)"
+    ],
+    [
+      "W. ROOSEVELT ROAD (W. 12TH ST.)",
+      "S. RACINE AV. (S. CENTRE AV.)"
+    ],
+    [
+      "S. RACINE AV. (S. CENTRE AV.)",
+      "W. 13TH ST."
+    ],
+    [
+      "S. RACINE AV. (S. CENTRE AV.)",
+      "HASTINGS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2872,
+            930
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MAY ST. x W. ROOSEVELT ROAD (W. 12TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6551840350091,
+            41.867020536222014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            463,
+            930
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROOSEVELT ROAD (W. 12TH ST.) x S. RACINE AV. (S. CENTRE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65668122621706,
+            41.86699661456119
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            463,
+            4892
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RACINE AV. (S. CENTRE AV.) x W. 13TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65662955845889,
+            41.86523678733586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            463,
+            6840
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RACINE AV. (S. CENTRE AV.) x HASTINGS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65660569631383,
+            41.86431965496382
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65660026851559,
+            41.86710061697741
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5300,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65372435267126,
+            41.86714563712995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65652509303408,
+            41.864437372252866
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6073,
+    "separation_ratio": 1.393,
+    "best_offset_m": 1.6,
+    "n_junctions": 20
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "page": "85",
+  "n_streets": 11,
+  "n_candidates": 15,
+  "n_inliers": 5,
+  "rotation_deg": 1.29,
+  "auto_residuals_m": [
+    0.03,
+    0.06,
+    0.17,
+    0.07,
+    0.13
+  ],
+  "inlier_streets": [
+    [
+      "W. 65TH",
+      "WENTWORTH AVE."
+    ],
+    [
+      "W. 65TH",
+      "YALE"
+    ],
+    [
+      "WENTWORTH AVE.",
+      "W. 66TH"
+    ],
+    [
+      "PERRY AVE.",
+      "W. 66TH"
+    ],
+    [
+      "YALE",
+      "W. 66TH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2862,
+            149
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 65TH x WENTWORTH AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63004697934142,
+            41.77659386448473
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            72,
+            149
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 65TH x YALE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63170672086754,
+            41.77656654476306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2862,
+            4443
+          ],
+          "username": "autogeoref",
+          "note": "auto: WENTWORTH AVE. x W. 66TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62999310619138,
+            41.77453154773584
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5555,
+            4443
+          ],
+          "username": "autogeoref",
+          "note": "auto: PERRY AVE. x W. 66TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62838936067944,
+            41.77455812105256
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            72,
+            4443
+          ],
+          "username": "autogeoref",
+          "note": "auto: YALE x W. 66TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63164985299944,
+            41.77450307564385
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.576,
+    "dy_m": -0.38
+  }
+}

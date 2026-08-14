@@ -1,0 +1,120 @@
+{
+  "page": "72",
+  "n_streets": 5,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "HARRISON",
+      "LASALLE"
+    ],
+    [
+      "POLK",
+      "LASALLE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4659,
+            1089
+          ],
+          "username": "autogeoref",
+          "note": "auto: HARRISON x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6316931057154,
+            41.87450506606572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4659,
+            6645
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63162224104485,
+            41.87218334105636
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63403702532484,
+            41.874657899040194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5313,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63131391349678,
+            41.87469537116826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63397460322204,
+            41.87214278318829
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5474,
+    "separation_ratio": 1.052,
+    "best_offset_m": 22.9,
+    "n_junctions": 25
+  }
+}

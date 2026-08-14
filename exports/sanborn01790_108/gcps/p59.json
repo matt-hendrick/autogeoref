@@ -1,0 +1,220 @@
+{
+  "page": "59",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (verified: corroboration+addresses)",
+  "rescue_anchors": [
+    [
+      "W. PALMER",
+      "N. KILPATRICK AV."
+    ],
+    [
+      "W. SHAKESPEARE AV.",
+      "N. KILPATRICK AV."
+    ],
+    [
+      "W. DICKENS AV.",
+      "N. KILPATRICK AV."
+    ],
+    [
+      "N. KILPATRICK AV.",
+      "MCLEAN AV."
+    ],
+    [
+      "N. KILPATRICK AV.",
+      "W. ARMITAGE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3021,
+            293
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PALMER x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74377919117053,
+            41.92061595122699
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3021,
+            2207
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SHAKESPEARE AV. x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74376322582346,
+            41.919703694913814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3021,
+            4135
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74374168822587,
+            41.91878753663523
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3021,
+            6074
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILPATRICK AV. x MCLEAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74372014846229,
+            41.91787078599188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3021,
+            8058
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILPATRICK AV. x W. ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74369547200985,
+            41.91696075343885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            581,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74528438317043,
+            41.920288318060656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5233,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74240760476046,
+            41.920325526656434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            581,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74521123981062,
+            41.91715732565324
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.6665,
+    "separation_ratio": 0.994,
+    "best_offset_m": 95.6,
+    "n_junctions": 12
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": null,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 3,
+      "votable": 3,
+      "in_block": 3,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 13.6,
+          "addr_diff": 2.3
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 1.3
+        },
+        {
+          "perp_m": 13.1,
+          "addr_diff": 0.1
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

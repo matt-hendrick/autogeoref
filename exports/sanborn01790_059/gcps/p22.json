@@ -1,0 +1,182 @@
+{
+  "page": "22",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "rotation_deg": 1.08,
+  "auto_residuals_m": [
+    10.75,
+    0.92,
+    9.47,
+    12.74,
+    4.87,
+    0.83,
+    8.23
+  ],
+  "inlier_streets": [
+    [
+      "E. 105TH ST.",
+      "S. MICHIGAN AV."
+    ],
+    [
+      "E. 105TH ST.",
+      "S. EDBROOKE AV."
+    ],
+    [
+      "E. 105TH ST.",
+      "S. INDIANA AV."
+    ],
+    [
+      "S. MICHIGAN AV.",
+      "E. 107TH ST."
+    ],
+    [
+      "S. EDBROOKE AV.",
+      "E. 107TH ST."
+    ],
+    [
+      "S. INDIANA AV.",
+      "E. 106TH ST."
+    ],
+    [
+      "S. INDIANA AV.",
+      "E. 107TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            376,
+            319
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 105TH ST. x S. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62067502557157,
+            41.70350107642593
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2243,
+            319
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 105TH ST. x S. EDBROOKE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6196606329217,
+            41.70351511700191
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4205,
+            319
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 105TH ST. x S. INDIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61856140099219,
+            41.703532736336285
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            376,
+            8157
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. x E. 107TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62094858796807,
+            41.69990222098008
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2243,
+            8157
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EDBROOKE AV. x E. 107TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61967125917043,
+            41.69992143107097
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4205,
+            4165
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. INDIANA AV. x E. 106TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61851269569523,
+            41.70176420920283
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4205,
+            8157
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. INDIANA AV. x E. 107TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61846503750188,
+            41.699938812668705
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.186,
+    "dy_m": -0.477
+  }
+}

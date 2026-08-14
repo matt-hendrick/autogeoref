@@ -1,0 +1,159 @@
+{
+  "page": "15",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.68,
+  "auto_residuals_m": [
+    0.68,
+    2.43,
+    6.26,
+    0.33,
+    5.64,
+    2.62
+  ],
+  "inlier_streets": [
+    [
+      "E. 101ST ST.",
+      "S. MUSKEGON AV."
+    ],
+    [
+      "E. 101ST ST.",
+      "S. ESCANABA AV."
+    ],
+    [
+      "E. 102ND ST.",
+      "S. MUSKEGON AV."
+    ],
+    [
+      "E. 102ND ST.",
+      "S. ESCANABA AV."
+    ],
+    [
+      "E. 103RD ST.",
+      "S. MUSKEGON AV."
+    ],
+    [
+      "E. 103RD ST.",
+      "S. ESCANABA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1105,
+            321
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 101ST ST. x S. MUSKEGON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55511166946638,
+            41.71183239116121
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3287,
+            321
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 101ST ST. x S. ESCANABA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55366649403324,
+            41.711838940260314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1105,
+            4029
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 102ND ST. x S. MUSKEGON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55512967502477,
+            41.71001855477306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3287,
+            4029
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 102ND ST. x S. ESCANABA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55364307409633,
+            41.710019578721145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1105,
+            7736
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 103RD ST. x S. MUSKEGON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55498371883188,
+            41.70817608900645
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3287,
+            7736
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 103RD ST. x S. ESCANABA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55362358591313,
+            41.70820629835445
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.217,
+    "dy_m": -0.989
+  }
+}

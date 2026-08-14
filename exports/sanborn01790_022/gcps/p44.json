@@ -1,0 +1,109 @@
+{
+  "page": "44",
+  "n_streets": 9,
+  "n_candidates": 9,
+  "n_inliers": 4,
+  "rotation_deg": 0.94,
+  "auto_residuals_m": [
+    0.96,
+    2.27,
+    0.95,
+    2.22
+  ],
+  "inlier_streets": [
+    [
+      "CHURCHILL",
+      "N. LEAVITT"
+    ],
+    [
+      "CHURCHILL",
+      "N. HOYNE AV."
+    ],
+    [
+      "N. LEAVITT",
+      "WABANSIA AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "WILLOW ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            560,
+            1981
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHURCHILL x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68244686307833,
+            41.91461915474849
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4311,
+            1981
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHURCHILL x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68001388420382,
+            41.91467004445536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            560,
+            6367
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x WABANSIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68239434826403,
+            41.912653425286074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4311,
+            3867
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x WILLOW ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67999810902798,
+            41.913789690261126
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

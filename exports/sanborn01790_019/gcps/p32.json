@@ -1,0 +1,120 @@
+{
+  "page": "32",
+  "n_streets": 12,
+  "n_candidates": 9,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "GARFIELD AV.",
+      "LEWIS"
+    ],
+    [
+      "GARFIELD AV.",
+      "RACINE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3240,
+            696
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x LEWIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6594977656609,
+            41.91983626887583
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5282,
+            696
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65827908625168,
+            41.91984698460864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66112502406448,
+            41.91978832482648
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5261,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65827924561934,
+            41.91983504098188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66104637793605,
+            41.917135793858165
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7333,
+    "separation_ratio": 1.555,
+    "best_offset_m": 0.9,
+    "n_junctions": 11
+  }
+}

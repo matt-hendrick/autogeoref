@@ -1,0 +1,116 @@
+{
+  "page": "52",
+  "n_streets": 10,
+  "n_candidates": 8,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N. MELVINA AV.",
+      "W. PETERSON AV."
+    ],
+    [
+      "W. PETERSON AV.",
+      "N. MERRIMAC AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5136,
+            7188
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MELVINA AV. x W. PETERSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78275168556885,
+            41.9901670456631
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3200,
+            7188
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PETERSON AV. x N. MERRIMAC AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78396232168434,
+            41.99015596503422
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78560839326857,
+            41.99309072503085
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5117,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78277563629767,
+            41.9930959824184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7855978137526,
+            41.989941838121965
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

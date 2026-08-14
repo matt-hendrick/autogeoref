@@ -1,0 +1,207 @@
+{
+  "page": "45",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 8,
+  "rotation_deg": 1.13,
+  "auto_residuals_m": [
+    7.32,
+    8.6,
+    6.71,
+    16.04,
+    1.42,
+    5.09,
+    6.91,
+    13.02
+  ],
+  "inlier_streets": [
+    [
+      "W. 95TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "W. 95TH ST.",
+      "S. VANDERPOEL AV."
+    ],
+    [
+      "W. 95TH PL.",
+      "S. WOOD"
+    ],
+    [
+      "W. 95TH PL.",
+      "S. VANDERPOEL AV."
+    ],
+    [
+      "W. 96TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "W. 96TH ST.",
+      "S. VANDERPOEL AV."
+    ],
+    [
+      "W. 97TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "W. 97TH ST.",
+      "S. VANDERPOEL AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            408,
+            285
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66743788628295,
+            41.72117498708513
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2413,
+            285
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH ST. x S. VANDERPOEL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66625263814737,
+            41.72119085476949
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            408,
+            2026
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH PL. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66740998365424,
+            41.72029414251806
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2413,
+            2026
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH PL. x S. VANDERPOEL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66639974242057,
+            41.720313120262254
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            408,
+            4018
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 96TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66738738460823,
+            41.71940877654378
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2413,
+            4018
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 96TH ST. x S. VANDERPOEL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66625248327851,
+            41.71942099300469
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            408,
+            7390
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 97TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66734211315969,
+            41.71786925224363
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2413,
+            7390
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 97TH ST. x S. VANDERPOEL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6659989706251,
+            41.717891207906696
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 0.835,
+    "dy_m": 4.095
+  }
+}

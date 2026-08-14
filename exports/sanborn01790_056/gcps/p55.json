@@ -1,0 +1,205 @@
+{
+  "page": "55",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 8,
+  "rotation_deg": 1.0,
+  "auto_residuals_m": [
+    4.9,
+    4.22,
+    6.18,
+    6.37,
+    0.66,
+    1.94,
+    0.3,
+    2.46
+  ],
+  "inlier_streets": [
+    [
+      "W. 95TH ST.",
+      "S. THROOP"
+    ],
+    [
+      "W. 95TH ST.",
+      "S. RACINE AV."
+    ],
+    [
+      "W. 95TH PL.",
+      "S. THROOP"
+    ],
+    [
+      "W. 95TH PL.",
+      "S. RACINE AV."
+    ],
+    [
+      "S. THROOP",
+      "W. 96TH ST."
+    ],
+    [
+      "S. THROOP",
+      "W. 97TH ST."
+    ],
+    [
+      "W. 96TH ST.",
+      "S. RACINE AV."
+    ],
+    [
+      "S. RACINE AV.",
+      "W. 97TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            810,
+            176
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH ST. x S. THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65538490962906,
+            41.72132414423723
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4862,
+            176
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH ST. x S. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65294830798106,
+            41.72135126486835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            810,
+            2241
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH PL. x S. THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65535963291863,
+            41.72029937251963
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4862,
+            2241
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH PL. x S. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65291988032602,
+            41.72032982071928
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            810,
+            4736
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. THROOP x W. 96TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65532771662546,
+            41.71918800860903
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            810,
+            7113
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. THROOP x W. 97TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65529851731715,
+            41.71811137342011
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4862,
+            4736
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 96TH ST. x S. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65289010022778,
+            41.71922213059742
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4862,
+            7113
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RACINE AV. x W. 97TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65286148181308,
+            41.71814657763956
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.15,
+    "dy_m": 2.311
+  }
+}

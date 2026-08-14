@@ -1,0 +1,163 @@
+{
+  "page": "109",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. CENTER",
+      "N. ORCHARD"
+    ],
+    [
+      "W. CENTER",
+      "N. HOWE"
+    ],
+    [
+      "W. CENTER",
+      "N. LARRABEE"
+    ],
+    [
+      "N. LARRABEE",
+      "W. WISCONSIN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            897,
+            1113
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CENTER x N. ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64611764942781,
+            41.91821424044822
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2900,
+            1113
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CENTER x N. HOWE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64488967631318,
+            41.918234525178526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4880,
+            1113
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CENTER x N. LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64366706335835,
+            41.918253159381614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4880,
+            5197
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LARRABEE x W. WISCONSIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6436084105792,
+            41.91646244563519
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64631066961884,
+            41.91839696953036
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5124,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64353304942705,
+            41.918445801492375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64622626556931,
+            41.915738693692944
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.4556,
+    "separation_ratio": 0.961,
+    "best_offset_m": 99.9,
+    "n_junctions": 6
+  }
+}

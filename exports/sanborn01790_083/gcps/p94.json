@@ -1,0 +1,116 @@
+{
+  "page": "94",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. EUGENIE",
+      "N. WELLS"
+    ],
+    [
+      "N. WELLS",
+      "W. NORTH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            366,
+            1657
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EUGENIE x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63476428370531,
+            41.91288409052891
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            366,
+            5536
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63471084674639,
+            41.91116140604561
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            572,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63465317153683,
+            41.91332487821285
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5150,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63186140221708,
+            41.9133739628243
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            572,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63456875595985,
+            41.91066602802193
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

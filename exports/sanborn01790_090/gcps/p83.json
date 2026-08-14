@@ -1,0 +1,119 @@
+{
+  "page": "83",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 35TH ST.",
+      "LAKE PARK AV."
+    ],
+    [
+      "COTTAGE GROVE AV.",
+      "E. 36TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4284,
+            546
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 35TH ST. x LAKE PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60828613364302,
+            41.831209305504984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2219,
+            5146
+          ],
+          "username": "autogeoref",
+          "note": "auto: COTTAGE GROVE AV. x E. 36TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60954055278776,
+            41.82913179072716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6105518620219,
+            41.83110478579776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5246,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60772598418262,
+            41.83113998690326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61049251093822,
+            41.82845945441665
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.267,
+    "separation_ratio": 0.944,
+    "best_offset_m": 58.0,
+    "n_junctions": 16
+  }
+}

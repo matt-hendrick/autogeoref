@@ -1,0 +1,160 @@
+{
+  "page": "42",
+  "n_streets": 6,
+  "n_candidates": 11,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. TOUHY AV.",
+      "N. GLENWOOD AV."
+    ],
+    [
+      "W. ESTES AV.",
+      "N. GLENWOOD AV."
+    ],
+    [
+      "N. GLENWOOD AV.",
+      "W. GREENLEAF AV."
+    ],
+    [
+      "N. GLENWOOD AV.",
+      "W. LUNT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            521,
+            319
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TOUHY AV. x N. GLENWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.665923796631,
+            42.01278694784833
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            521,
+            2915
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ESTES AV. x N. GLENWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66587006282339,
+            42.01156257047222
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            521,
+            5615
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GLENWOOD AV. x W. GREENLEAF AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66581839697234,
+            42.01034507929538
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            521,
+            8272
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GLENWOOD AV. x W. LUNT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66577917844333,
+            42.00912803563618
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66587329526934,
+            42.0125212945915
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5034,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66312508410107,
+            42.01256882954523
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66577601972094,
+            42.009416541174666
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

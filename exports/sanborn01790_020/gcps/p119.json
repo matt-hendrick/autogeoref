@@ -1,0 +1,141 @@
+{
+  "page": "119",
+  "n_streets": 4,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. MICHIGAN AV. (BOULEVARD)",
+      "E. 28TH ST."
+    ],
+    [
+      "S. MICHIGAN AV. (BOULEVARD)",
+      "E. 29TH ST."
+    ],
+    [
+      "INDIANA AV.",
+      "E. 29TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1675,
+            2407
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. (BOULEVARD) x E. 28TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62358014255314,
+            41.84338392172296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1675,
+            5492
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. (BOULEVARD) x E. 29TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62354562986057,
+            41.84199606422672
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4238,
+            5492
+          ],
+          "username": "autogeoref",
+          "note": "auto: INDIANA AV. x E. 29TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62197808118749,
+            41.841992719603816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62426315273555,
+            41.84412779898218
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5280,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62141164583075,
+            41.84417299222413
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62418743245331,
+            41.84147630440116
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5992,
+    "separation_ratio": 1.095,
+    "best_offset_m": 21.4,
+    "n_junctions": 11
+  }
+}

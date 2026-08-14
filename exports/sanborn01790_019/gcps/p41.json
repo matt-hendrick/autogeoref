@@ -1,0 +1,132 @@
+{
+  "page": "41",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.61,
+  "auto_residuals_m": [
+    1.96,
+    2.01,
+    1.9,
+    2.95,
+    1.66
+  ],
+  "inlier_streets": [
+    [
+      "GARFIELD AV.",
+      "HOWE"
+    ],
+    [
+      "GARFIELD AV.",
+      "LARRABEE"
+    ],
+    [
+      "CENTER",
+      "ORCHARD"
+    ],
+    [
+      "CENTER",
+      "HOWE"
+    ],
+    [
+      "CENTER",
+      "LARRABEE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2916,
+            317
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x HOWE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6449199577178,
+            41.92002110968801
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4842,
+            317
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64372839313447,
+            41.92007180535405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            851,
+            4366
+          ],
+          "username": "autogeoref",
+          "note": "auto: CENTER x ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64611764942781,
+            41.91821424044822
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2916,
+            4366
+          ],
+          "username": "autogeoref",
+          "note": "auto: CENTER x HOWE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64488967631318,
+            41.918234525178526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4842,
+            4366
+          ],
+          "username": "autogeoref",
+          "note": "auto: CENTER x LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64366706335835,
+            41.918253159381614
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

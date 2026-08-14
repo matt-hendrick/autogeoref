@@ -1,0 +1,176 @@
+{
+  "page": "35",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "EASTWOOD AV.",
+      "N. FRANCISCO AV."
+    ],
+    [
+      "N. FRANCISCO AV.",
+      "WILSON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3402,
+            6608
+          ],
+          "username": "autogeoref",
+          "note": "auto: EASTWOOD AV. x N. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70104937974652,
+            41.96564136310531
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3402,
+            8406
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANCISCO AV. x WILSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70102011382565,
+            41.964756493454296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70280007501032,
+            41.96820755636772
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5283,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69993168737172,
+            41.96823175202559
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70275293036762,
+            41.96511780279713
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6167,
+    "separation_ratio": 1.411,
+    "best_offset_m": 1.6,
+    "n_junctions": 11
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 8,
+      "votable": 8,
+      "in_block": 8,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 13.9,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 11.4,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 13.0,
+          "addr_diff": 1.8
+        },
+        {
+          "perp_m": 14.0,
+          "addr_diff": 1.7
+        },
+        {
+          "perp_m": 14.0,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 14.1,
+          "addr_diff": 2.2
+        },
+        {
+          "perp_m": 15.5,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 12.8,
+          "addr_diff": 5.0
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

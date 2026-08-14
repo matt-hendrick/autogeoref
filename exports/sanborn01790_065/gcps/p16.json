@@ -1,0 +1,181 @@
+{
+  "page": "16",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 101ST ST.",
+      "S. EXCHANGE AV."
+    ],
+    [
+      "E. 101ST ST.",
+      "S. ESCANABA AV."
+    ],
+    [
+      "S. EXCHANGE AV.",
+      "E. 102ND ST."
+    ],
+    [
+      "E. 102ND ST.",
+      "S. ESCANABA AV."
+    ],
+    [
+      "S. ESCANABA AV.",
+      "E. 103RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2460,
+            349
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 101ST ST. x S. EXCHANGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55230717243064,
+            41.711847393585494
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            370,
+            349
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 101ST ST. x S. ESCANABA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55368640968308,
+            41.71184557242472
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2460,
+            4229
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EXCHANGE AV. x E. 102ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55224851217115,
+            41.71002804990958
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            370,
+            4229
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 102ND ST. x S. ESCANABA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55366298974619,
+            41.71002621107326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            370,
+            8179
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ESCANABA AV. x E. 103RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55364350156297,
+            41.70821293089365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            563,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55350937751231,
+            41.71160978646189
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5064,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55070315652284,
+            41.711608143496285
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            563,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55351270367149,
+            41.708443788190586
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

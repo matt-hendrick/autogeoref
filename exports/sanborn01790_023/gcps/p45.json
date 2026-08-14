@@ -1,0 +1,206 @@
+{
+  "page": "45",
+  "n_streets": 10,
+  "n_candidates": 9,
+  "n_inliers": 8,
+  "rotation_deg": 1.16,
+  "auto_residuals_m": [
+    5.12,
+    6.25,
+    3.51,
+    7.93,
+    8.3,
+    1.39,
+    9.18,
+    6.81
+  ],
+  "inlier_streets": [
+    [
+      "W. HURON",
+      "NOBLE"
+    ],
+    [
+      "W. HURON",
+      "N. ELIZABETH"
+    ],
+    [
+      "W. ERIE",
+      "NOBLE"
+    ],
+    [
+      "W. ERIE",
+      "N. ADA"
+    ],
+    [
+      "W. ERIE",
+      "N. ELIZABETH"
+    ],
+    [
+      "W. OHIO",
+      "NOBLE"
+    ],
+    [
+      "W. OHIO",
+      "N. ADA"
+    ],
+    [
+      "W. OHIO",
+      "N. ELIZABETH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            533,
+            425
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66238010497827,
+            41.89432644200692
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5470,
+            425
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65945182930008,
+            41.89437368244917
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            533,
+            2515
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6623538520321,
+            41.89341457132991
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2967,
+            2515
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. ADA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66086629896665,
+            41.89343924993566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5470,
+            2515
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65956697675199,
+            41.89346145294497
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            533,
+            4529
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.662330706468,
+            41.89248663110899
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2967,
+            4529
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. ADA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66084219572376,
+            41.89250630685643
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5470,
+            4529
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65954622295467,
+            41.892520783113966
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": -2.887,
+    "dy_m": -0.245
+  }
+}

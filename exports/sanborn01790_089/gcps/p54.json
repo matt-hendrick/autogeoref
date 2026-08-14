@@ -1,0 +1,120 @@
+{
+  "page": "54",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "E. 24TH ST.",
+      "S. PRAIRIE AV. BLVD."
+    ],
+    [
+      "S. PRAIRIE AV. BLVD.",
+      "E. 25TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1596,
+            2658
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 24TH ST. x S. PRAIRIE AV. BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62057251224404,
+            41.84933314716475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1596,
+            6653
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PRAIRIE AV. BLVD. x E. 25TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62055127997037,
+            41.8475026528722
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62122183521076,
+            41.85018964706756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5287,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61835902426752,
+            41.85023000629562
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62115428839846,
+            41.8475310653945
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6293,
+    "separation_ratio": 1.392,
+    "best_offset_m": 1.6,
+    "n_junctions": 14
+  }
+}

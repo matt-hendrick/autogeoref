@@ -1,0 +1,159 @@
+{
+  "page": "7",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.8,
+  "auto_residuals_m": [
+    0.25,
+    0.26,
+    0.5,
+    0.39,
+    0.39,
+    0.51
+  ],
+  "inlier_streets": [
+    [
+      "E. 13TH ST.",
+      "S. STATE"
+    ],
+    [
+      "E. 13TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "S. STATE",
+      "W. 14TH ST."
+    ],
+    [
+      "S. STATE",
+      "E. 14TH ST."
+    ],
+    [
+      "S. WABASH AV.",
+      "W. 14TH ST."
+    ],
+    [
+      "S. WABASH AV.",
+      "E. 14TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1715,
+            1853
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 13TH ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62740135658697,
+            41.86574784069711
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4319,
+            1853
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 13TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62581445100749,
+            41.86576582716529
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1715,
+            5604
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x W. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62736090705471,
+            41.864057479438756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1715,
+            5591
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x E. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62736090705471,
+            41.864057479438756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4319,
+            5604
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x W. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62576834124197,
+            41.86407326615418
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4319,
+            5591
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62576834124197,
+            41.86407326615418
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.939,
+    "dy_m": 0.743
+  }
+}

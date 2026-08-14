@@ -1,0 +1,157 @@
+{
+  "page": "66",
+  "n_streets": 12,
+  "n_candidates": 16,
+  "n_inliers": 6,
+  "rotation_deg": 0.84,
+  "auto_residuals_m": [
+    13.15,
+    8.8,
+    14.12,
+    7.81,
+    2.69,
+    2.69
+  ],
+  "inlier_streets": [
+    [
+      "RUBLE",
+      "W. 21ST ST."
+    ],
+    [
+      "STRING",
+      "W. 21ST ST."
+    ],
+    [
+      "W. 21ST ST.",
+      "S. UNION AV. (S. UNION ST.)"
+    ],
+    [
+      "W. 21ST ST.",
+      "S. JEFFERSON"
+    ],
+    [
+      "S. UNION AV. (S. UNION ST.)",
+      "W. 22ND ST."
+    ],
+    [
+      "W. 22ND ST.",
+      "LUMBER ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2160,
+            3129
+          ],
+          "username": "autogeoref",
+          "note": "auto: RUBLE x W. 21ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6436841225227,
+            41.85423260195402
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3693,
+            3129
+          ],
+          "username": "autogeoref",
+          "note": "auto: STRING x W. 21ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64274415395413,
+            41.85424272947385
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            546,
+            3129
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. UNION AV. (S. UNION ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64438775762548,
+            41.854224561135574
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5126,
+            3129
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64175279527042,
+            41.854254852447006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            546,
+            6580
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. UNION AV. (S. UNION ST.) x W. 22ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6447417348026,
+            41.85266762547187
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5490,
+            6580
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND ST. x LUMBER ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64178794404329,
+            41.85269882352144
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

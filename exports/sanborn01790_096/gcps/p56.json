@@ -1,0 +1,134 @@
+{
+  "page": "56",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 5,
+  "rotation_deg": -0.53,
+  "auto_residuals_m": [
+    5.41,
+    3.73,
+    10.11,
+    7.11,
+    3.72
+  ],
+  "inlier_streets": [
+    [
+      "LOGAN BL'VD",
+      "N. SACRAMENTO AV."
+    ],
+    [
+      "LOGAN BL'VD",
+      "N. ALBANY AV."
+    ],
+    [
+      "N. SACRAMENTO AV.",
+      "LINDEN PL."
+    ],
+    [
+      "N. SACRAMENTO AV.",
+      "FULLERTON AV."
+    ],
+    [
+      "N. ALBANY AV.",
+      "FULLERTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5051,
+            323
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOGAN BL'VD x N. SACRAMENTO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70241336396731,
+            41.92815001269186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1214,
+            323
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOGAN BL'VD x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70486858750856,
+            41.92813639885653
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5051,
+            5511
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO AV. x LINDEN PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70234178031153,
+            41.92571655851348
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5051,
+            7868
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO AV. x FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70231833542829,
+            41.924762715904784
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1214,
+            7868
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ALBANY AV. x FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70464325876037,
+            41.92474159475245
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

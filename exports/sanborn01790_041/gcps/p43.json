@@ -1,0 +1,142 @@
+{
+  "page": "43",
+  "n_streets": 7,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 38TH ST.",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. 38TH PL.",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. 39TH ST.",
+      "S. ST. LOUIS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4658,
+            4437
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71180436102856,
+            41.82429263141112
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4658,
+            6404
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH PL. x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71178109060487,
+            41.82339230273838
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4658,
+            8406
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 39TH ST. x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7117576987695,
+            41.82248807776615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71438261399086,
+            41.825914784446965
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5307,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71146088294007,
+            41.82596653224793
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7142824696894,
+            41.82277499181952
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6064,
+    "separation_ratio": 1.106,
+    "best_offset_m": 14.6,
+    "n_junctions": 7
+  }
+}

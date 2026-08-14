@@ -1,0 +1,226 @@
+{
+  "page": "20",
+  "n_streets": 6,
+  "n_candidates": 12,
+  "n_inliers": 9,
+  "rotation_deg": 1.24,
+  "auto_residuals_m": [
+    1.33,
+    2.68,
+    1.37,
+    1.72,
+    2.63,
+    1.2,
+    1.23,
+    2.49,
+    1.15
+  ],
+  "inlier_streets": [
+    [
+      "E. 89TH ST.",
+      "S. BLACKSTONE AV."
+    ],
+    [
+      "E. 89TH ST.",
+      "S. HARPER AV."
+    ],
+    [
+      "E. 89TH ST.",
+      "S. STONY ISLAND AV."
+    ],
+    [
+      "E. 90TH ST.",
+      "S. BLACKSTONE AV."
+    ],
+    [
+      "E. 90TH ST.",
+      "S. HARPER AV."
+    ],
+    [
+      "E. 90TH ST.",
+      "S. STONY ISLAND AV."
+    ],
+    [
+      "E. 91ST ST.",
+      "S. BLACKSTONE AV."
+    ],
+    [
+      "E. 91ST ST.",
+      "S. HARPER AV."
+    ],
+    [
+      "E. 91ST ST.",
+      "S. STONY ISLAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1486,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 89TH ST. x S. BLACKSTONE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5880531257221,
+            41.73323603200003
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3499,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 89TH ST. x S. HARPER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58683805640932,
+            41.73325283524521
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5491,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 89TH ST. x S. STONY ISLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58556733720727,
+            41.73328067542802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1486,
+            4214
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 90TH ST. x S. BLACKSTONE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58801461821136,
+            41.731413753460195
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3499,
+            4214
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 90TH ST. x S. HARPER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58679982656759,
+            41.73143014020721
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5491,
+            4214
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 90TH ST. x S. STONY ISLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58553036028722,
+            41.731447687697866
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1486,
+            8149
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST ST. x S. BLACKSTONE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58797630732238,
+            41.72956828207145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3499,
+            8149
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST ST. x S. HARPER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58675875820126,
+            41.72958257476451
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5491,
+            8149
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST ST. x S. STONY ISLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58549196782425,
+            41.72960985304735
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

@@ -1,0 +1,155 @@
+{
+  "page": "92",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.01,
+  "auto_residuals_m": [
+    0.15,
+    0.48,
+    0.52,
+    0.48,
+    0.6,
+    0.43
+  ],
+  "inlier_streets": [
+    [
+      "N. CRILLY CT.",
+      "W. EUGENIE"
+    ],
+    [
+      "W. EUGENIE",
+      "N. NORTH PARK"
+    ],
+    [
+      "W. EUGENIE",
+      "N. WELLS"
+    ],
+    [
+      "N. NORTH PARK",
+      "W. NORTH AV."
+    ],
+    [
+      "N. WELLS",
+      "W. NORTH AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. WIELAND"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2980,
+            1659
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CRILLY CT. x W. EUGENIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63575618645818,
+            41.912867851301186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1380,
+            1659
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EUGENIE x N. NORTH PARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63671781462789,
+            41.91285180540414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4623,
+            1659
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EUGENIE x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63476428370531,
+            41.91288409052891
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1380,
+            5580
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NORTH PARK x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63666242055488,
+            41.91114223523955
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4623,
+            5580
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63471084674639,
+            41.91116140604561
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2986,
+            5580
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. WIELAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63570119384946,
+            41.91115356033721
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

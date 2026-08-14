@@ -1,0 +1,132 @@
+{
+  "page": "111",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.07,
+  "auto_residuals_m": [
+    0.19,
+    0.12,
+    0.2,
+    0.03,
+    0.14
+  ],
+  "inlier_streets": [
+    [
+      "W. 36TH ST.",
+      "PARNELL AV."
+    ],
+    [
+      "W. 36TH ST.",
+      "BUTLER"
+    ],
+    [
+      "PARNELL AV.",
+      "W. 37TH ST."
+    ],
+    [
+      "BUTLER",
+      "W. 37TH ST."
+    ],
+    [
+      "BUTLER",
+      "W. 37TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            399
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x PARNELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63997046048243,
+            41.82900784617834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2572,
+            399
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x BUTLER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63875496537976,
+            41.829026656648914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            4460
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARNELL AV. x W. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6399253692552,
+            41.82718266501639
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2572,
+            4460
+          ],
+          "username": "autogeoref",
+          "note": "auto: BUTLER x W. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63871099019897,
+            41.827198295996354
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2572,
+            6475
+          ],
+          "username": "autogeoref",
+          "note": "auto: BUTLER x W. 37TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63868843140908,
+            41.82629038292393
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

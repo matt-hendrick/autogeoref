@@ -1,0 +1,111 @@
+{
+  "page": "87",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.3,
+  "auto_residuals_m": [
+    0.64,
+    0.68,
+    0.65,
+    0.66
+  ],
+  "inlier_streets": [
+    [
+      "HARMON PL.",
+      "STATE"
+    ],
+    [
+      "HARMON PL.",
+      "WABASH AV."
+    ],
+    [
+      "STATE",
+      "12TH ST."
+    ],
+    [
+      "WABASH AV.",
+      "12TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1679,
+            1710
+          ],
+          "username": "autogeoref",
+          "note": "auto: HARMON PL. x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62746758965345,
+            41.86923545234676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4278,
+            1710
+          ],
+          "username": "autogeoref",
+          "note": "auto: HARMON PL. x WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62587503708025,
+            41.86927103601151
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1679,
+            5594
+          ],
+          "username": "autogeoref",
+          "note": "auto: STATE x 12TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62741867652336,
+            41.86741358798877
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4278,
+            5594
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABASH AV. x 12TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62582986257473,
+            41.86743185537576
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

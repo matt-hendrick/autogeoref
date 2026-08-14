@@ -1,0 +1,132 @@
+{
+  "page": "23",
+  "n_streets": 5,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 0.12,
+  "auto_residuals_m": [
+    0.2,
+    0.47,
+    0.17,
+    0.64,
+    0.99
+  ],
+  "inlier_streets": [
+    [
+      "RANDOLPH",
+      "CLARK"
+    ],
+    [
+      "RANDOLPH",
+      "DEARBORN"
+    ],
+    [
+      "WASHINGTON",
+      "CLARK"
+    ],
+    [
+      "WASHINGTON",
+      "DEARBORN"
+    ],
+    [
+      "DEARBORN",
+      "COURT PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1710,
+            2153
+          ],
+          "username": "autogeoref",
+          "note": "auto: RANDOLPH x CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6309349560629,
+            41.884476682934555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4185,
+            2153
+          ],
+          "username": "autogeoref",
+          "note": "auto: RANDOLPH x DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62945714001543,
+            41.884481938532005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1710,
+            5045
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON x CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6309068674027,
+            41.88321075181364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4185,
+            5045
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON x DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62943536686878,
+            41.88321488938261
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4185,
+            3569
+          ],
+          "username": "autogeoref",
+          "note": "auto: DEARBORN x COURT PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62943718029729,
+            41.8838541114061
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

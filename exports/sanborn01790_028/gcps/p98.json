@@ -1,0 +1,142 @@
+{
+  "page": "98",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. WASHINGTON B'LVD",
+      "N. KEDZIE AV."
+    ],
+    [
+      "N. KEDZIE AV.",
+      "WARREN AV."
+    ],
+    [
+      "N. KEDZIE AV.",
+      "W. MADISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4872,
+            4106
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON B'LVD x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70617046525842,
+            41.88279431932727
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4872,
+            6076
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE AV. x WARREN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70614805662237,
+            41.88188164193248
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4872,
+            8052
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70612273769949,
+            41.8809727424174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70890590869894,
+            41.88431973071586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70607105697317,
+            41.884347929118825
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70885035734331,
+            41.88122421039698
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6253,
+    "separation_ratio": 1.107,
+    "best_offset_m": 3.2,
+    "n_junctions": 18
+  }
+}

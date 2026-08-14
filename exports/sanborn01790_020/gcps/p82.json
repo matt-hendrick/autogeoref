@@ -1,0 +1,233 @@
+{
+  "page": "82",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 7,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 25TH ST.",
+      "S. STATE"
+    ],
+    [
+      "E. 25TH ST.",
+      "S. STATE"
+    ],
+    [
+      "S. STATE",
+      "W. 26TH ST."
+    ],
+    [
+      "S. STATE",
+      "W. 27TH ST."
+    ],
+    [
+      "S. DEARBORN",
+      "W. 26TH ST."
+    ],
+    [
+      "S. DEARBORN",
+      "W. 26TH PL."
+    ],
+    [
+      "S. DEARBORN",
+      "W. 27TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5091,
+            128
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 25TH ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62691328892745,
+            41.8474332856513
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5091,
+            121
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 25TH ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62691328892745,
+            41.8474332856513
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5091,
+            4313
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x W. 26TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62677518394223,
+            41.84557746187326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5091,
+            7103
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x W. 27TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6267356613603,
+            41.84430978205423
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2968,
+            4313
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DEARBORN x W. 26TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62813792934793,
+            41.845559225917015
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2968,
+            5306
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DEARBORN x W. 26TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62815132112618,
+            41.845016355252724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2968,
+            7103
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DEARBORN x W. 27TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62811059199345,
+            41.84429217458533
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6296169330152,
+            41.84712952908414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5292,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62675910778935,
+            41.84717482033949
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.629541212733,
+            41.844478158897864
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7222,
+    "separation_ratio": 1.186,
+    "best_offset_m": 3.9,
+    "n_junctions": 27
+  },
+  "seam_adjusted": {
+    "dx_m": -1.696,
+    "dy_m": -1.728
+  }
+}

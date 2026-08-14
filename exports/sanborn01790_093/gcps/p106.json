@@ -1,0 +1,142 @@
+{
+  "page": "106",
+  "n_streets": 7,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 13TH ST.",
+      "S. LOOMIS"
+    ],
+    [
+      "S. LOOMIS",
+      "W. HASTINGS"
+    ],
+    [
+      "S. LOOMIS",
+      "W. 14TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4954,
+            3131
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6615200584672,
+            41.86515863808758
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4954,
+            5086
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LOOMIS x W. HASTINGS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66149358159959,
+            41.864252303401415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4954,
+            7080
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LOOMIS x W. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66146862363144,
+            41.86335758125317
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66421513094842,
+            41.866199424973935
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5295,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66134214522722,
+            41.866244399891734
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66413995546694,
+            41.863536142708725
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.3493,
+    "separation_ratio": 0.884,
+    "best_offset_m": 96.8,
+    "n_junctions": 37
+  }
+}

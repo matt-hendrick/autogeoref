@@ -1,0 +1,165 @@
+{
+  "page": "91",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N. TALMAN AV.",
+      "FULTON"
+    ],
+    [
+      "N. WASHTENAW AV.",
+      "FULTON"
+    ],
+    [
+      "FULTON",
+      "N. FAIRFIELD AV."
+    ],
+    [
+      "FULTON",
+      "N. CALIFORNIA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4760,
+            2188
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. TALMAN AV. x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69273716976932,
+            41.88657435818392
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4760,
+            4197
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WASHTENAW AV. x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69397153883907,
+            41.88656130574616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4760,
+            6177
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. FAIRFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69520555601274,
+            41.88655064917573
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4760,
+            8122
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69643255878168,
+            41.8865379582733
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6918942820842,
+            41.88855960733641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69184563224786,
+            41.886449304037534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69605182345688,
+            41.888506488869396
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -89.017,
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6083,
+    "separation_ratio": 1.076,
+    "best_offset_m": 3.3,
+    "n_junctions": 9
+  }
+}

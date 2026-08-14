@@ -1,0 +1,205 @@
+{
+  "page": "6",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.06,
+  "auto_residuals_m": [
+    0.64,
+    1.07,
+    0.47,
+    9.53,
+    8.34,
+    9.37,
+    8.57,
+    18.58
+  ],
+  "inlier_streets": [
+    [
+      "W. BELMONT AV.",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "W. BELMONT AV.",
+      "BERNARD"
+    ],
+    [
+      "W. BELMONT AV.",
+      "KIMBALL AV."
+    ],
+    [
+      "N. ST. LOUIS AV.",
+      "BARRY AV."
+    ],
+    [
+      "BERNARD",
+      "BARRY AV."
+    ],
+    [
+      "KIMBALL AV.",
+      "BARRY AV."
+    ],
+    [
+      "BARRY AV.",
+      "ELBRIDGE AV."
+    ],
+    [
+      "BARRY AV.",
+      "GRESHAM AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1065,
+            170
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELMONT AV. x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71496902219094,
+            41.93923174226778
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3115,
+            170
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELMONT AV. x BERNARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71373797256724,
+            41.93924518311821
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5190,
+            170
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELMONT AV. x KIMBALL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71251999129608,
+            41.93926537815385
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1065,
+            4139
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ST. LOUIS AV. x BARRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71490784857535,
+            41.93741500457201
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3115,
+            4139
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERNARD x BARRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71368077750148,
+            41.9374309585913
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5190,
+            4139
+          ],
+          "username": "autogeoref",
+          "note": "auto: KIMBALL AV. x BARRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71245895461219,
+            41.93744858483657
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1361,
+            4139
+          ],
+          "username": "autogeoref",
+          "note": "auto: BARRY AV. x ELBRIDGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7145696353585,
+            41.93741920614865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3893,
+            4139
+          ],
+          "username": "autogeoref",
+          "note": "auto: BARRY AV. x GRESHAM AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7129774240378,
+            41.93744119072734
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.167,
+    "dy_m": -2.11
+  }
+}

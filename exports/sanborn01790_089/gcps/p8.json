@@ -1,0 +1,109 @@
+{
+  "page": "8",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.53,
+  "auto_residuals_m": [
+    0.75,
+    0.76,
+    0.75,
+    0.74
+  ],
+  "inlier_streets": [
+    [
+      "E. 13TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 13TH ST.",
+      "S. MICHIGAN AV. (BOULEVARD)"
+    ],
+    [
+      "E. 14TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 14TH ST.",
+      "S. MICHIGAN AV. (BOULEVARD)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1529,
+            1794
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 13TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62579703267413,
+            41.86576085660824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4055,
+            1794
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 13TH ST. x S. MICHIGAN AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.624113877657,
+            41.86578522985619
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1529,
+            5602
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 14TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62575092290862,
+            41.86406829546555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4055,
+            5602
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 14TH ST. x S. MICHIGAN AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62407958576364,
+            41.86411070221403
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

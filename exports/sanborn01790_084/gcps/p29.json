@@ -1,0 +1,141 @@
+{
+  "page": "29",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. NORTH AV.",
+      "N. WELLS"
+    ],
+    [
+      "W. NORTH AV.",
+      "N. CLARK"
+    ],
+    [
+      "W. GERMANIA PL.",
+      "N. CLARK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            355,
+            1461
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63471084674637,
+            41.9111614060456
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5218,
+            1461
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63168235201154,
+            41.91118052852088
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5218,
+            3147
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GERMANIA PL. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63164522600285,
+            41.91037443506449
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63453133244626,
+            41.91146012213378
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5158,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63174810554858,
+            41.91150320157097
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63445736306373,
+            41.908813493288164
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5569,
+    "separation_ratio": 1.154,
+    "best_offset_m": 15.9,
+    "n_junctions": 10
+  }
+}

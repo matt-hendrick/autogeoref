@@ -1,0 +1,182 @@
+{
+  "page": "35",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 2.37,
+  "auto_residuals_m": [
+    5.43,
+    2.56,
+    2.4,
+    4.82,
+    0.34,
+    1.61,
+    3.14
+  ],
+  "inlier_streets": [
+    [
+      "W. 35TH ST.",
+      "S. RICHMOND"
+    ],
+    [
+      "W. 35TH ST.",
+      "S. FRANCISCO AV."
+    ],
+    [
+      "W. 35TH ST.",
+      "S. MOZART"
+    ],
+    [
+      "S. RICHMOND",
+      "W. 36TH ST."
+    ],
+    [
+      "S. FRANCISCO AV.",
+      "W. 36TH ST."
+    ],
+    [
+      "S. FRANCISCO AV.",
+      "W. 36TH PL."
+    ],
+    [
+      "S. MOZART",
+      "W. 36TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            476,
+            372
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x S. RICHMOND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69840328935894,
+            41.82994567106257
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2377,
+            372
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x S. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69729480085765,
+            41.830008977920755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4367,
+            372
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x S. MOZART"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69607013418064,
+            41.83004480649458
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            476,
+            4286
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RICHMOND x W. 36TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69845372225376,
+            41.82820325237921
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2377,
+            4286
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x W. 36TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69724136243354,
+            41.82822717921577
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2377,
+            6344
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x W. 36TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69721176583963,
+            41.82730357888815
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4367,
+            4286
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MOZART x W. 36TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69599835435208,
+            41.82825183593815
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.05,
+    "dy_m": 1.035
+  }
+}

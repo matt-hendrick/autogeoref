@@ -1,0 +1,142 @@
+{
+  "page": "128",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. GLADYS AV.",
+      "S. KILPATRICK (S. 47TH AV.)"
+    ],
+    [
+      "S. KILPATRICK (S. 47TH AV.)",
+      "W. VAN BUREN"
+    ],
+    [
+      "S. KILPATRICK (S. 47TH AV.)",
+      "W. CONGRESS ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            993,
+            2056
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GLADYS AV. x S. KILPATRICK (S. 47TH AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7426648632121,
+            41.87595572942358
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            993,
+            3956
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KILPATRICK (S. 47TH AV.) x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74263373722636,
+            41.875051996137124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            993,
+            5906
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KILPATRICK (S. 47TH AV.) x W. CONGRESS ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74260076410009,
+            41.874140713092665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74291373235253,
+            41.87648188873883
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5303,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74000349868356,
+            41.87651718057275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74284532225292,
+            41.873354271214524
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.714,
+    "separation_ratio": 0.973,
+    "best_offset_m": 91.8,
+    "n_junctions": 10
+  }
+}

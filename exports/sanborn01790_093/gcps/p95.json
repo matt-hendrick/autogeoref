@@ -1,0 +1,120 @@
+{
+  "page": "95",
+  "n_streets": 9,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. TAYLOR",
+      "S. MORGAN"
+    ],
+    [
+      "S. MORGAN",
+      "W. ROOSEVELT ROAD (W. 12TH ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3670,
+            800
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TAYLOR x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65112403566353,
+            41.86950772491444
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3670,
+            6191
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MORGAN x W. ROOSEVELT ROAD (W. 12TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65104650952729,
+            41.86708733158558
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65300379290086,
+            41.86952413186946
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5269,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6501449694414,
+            41.869568882758
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65292862768503,
+            41.866861351779704
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.2273,
+    "separation_ratio": 0.873,
+    "best_offset_m": 89.5,
+    "n_junctions": 17
+  }
+}

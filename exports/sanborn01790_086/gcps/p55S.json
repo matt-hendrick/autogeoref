@@ -1,0 +1,203 @@
+{
+  "page": "55S",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. JACKSON BLVD.",
+      "S. FEDERAL"
+    ],
+    [
+      "W. JACKSON BLVD.",
+      "S. DEARBORN"
+    ],
+    [
+      "W. JACKSON BLVD.",
+      "S. PLYMOUTH CT."
+    ],
+    [
+      "S. FEDERAL",
+      "W. VAN BUREN"
+    ],
+    [
+      "S. DEARBORN",
+      "W. VAN BUREN"
+    ],
+    [
+      "S. PLYMOUTH CT.",
+      "W. VAN BUREN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2093,
+            2307
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD. x S. FEDERAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62973107799266,
+            41.87816116307448
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2922,
+            2307
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD. x S. DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62929898210514,
+            41.87816702809748
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3731,
+            2307
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD. x S. PLYMOUTH CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62875155287537,
+            41.87817367516826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2093,
+            5126
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FEDERAL x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6297251882194,
+            41.876891633337955
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2922,
+            5126
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DEARBORN x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62926225051025,
+            41.87689878238152
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3731,
+            5126
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PLYMOUTH CT. x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62873959125238,
+            41.87690697946368
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63069427936334,
+            41.87887230168499
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5267,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.627843374422,
+            41.878900318223174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63064719237758,
+            41.87621601544845
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

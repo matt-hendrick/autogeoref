@@ -1,0 +1,116 @@
+{
+  "page": "89",
+  "n_streets": 9,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "DICKENS AV.",
+      "KIMBALL AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "KIMBALL AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5438,
+            4212
+          ],
+          "username": "autogeoref",
+          "note": "auto: DICKENS AV. x KIMBALL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71193277395415,
+            41.91916619748637
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5438,
+            8267
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x KIMBALL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71190508385426,
+            41.91734226071864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71498718421847,
+            41.92071733399127
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7122524740829,
+            41.92074303738988
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71493508610499,
+            41.917648448292496
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

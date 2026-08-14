@@ -1,0 +1,226 @@
+{
+  "page": "14",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 9,
+  "rotation_deg": 0.97,
+  "auto_residuals_m": [
+    5.46,
+    9.93,
+    2.4,
+    0.89,
+    5.87,
+    2.61,
+    6.26,
+    3.22,
+    0.53
+  ],
+  "inlier_streets": [
+    [
+      "FOSTER AV.",
+      "N. LAVERGNE AV."
+    ],
+    [
+      "FOSTER AV.",
+      "N. LAMON AV."
+    ],
+    [
+      "W. WINONA",
+      "N. LAVERGNE AV."
+    ],
+    [
+      "N. LAVERGNE AV.",
+      "W. CARMEN AV."
+    ],
+    [
+      "N. LAVERGNE AV.",
+      "WINNEMAC AV."
+    ],
+    [
+      "N. LAVERGNE AV.",
+      "ARGYLE"
+    ],
+    [
+      "W. CARMEN AV.",
+      "N. LAMON AV."
+    ],
+    [
+      "WINNEMAC AV.",
+      "N. LAMON AV."
+    ],
+    [
+      "N. LAMON AV.",
+      "ARGYLE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            708,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x N. LAVERGNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7529024251561,
+            41.975274111897996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4762,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x N. LAMON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7506352902429,
+            41.97529754316761
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            708,
+            2273
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WINONA x N. LAVERGNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75287851334103,
+            41.97435924803917
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            708,
+            4263
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAVERGNE AV. x W. CARMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75284483075853,
+            41.97344409395989
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            708,
+            6233
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAVERGNE AV. x WINNEMAC AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75284742646609,
+            41.972518258307495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            708,
+            8211
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAVERGNE AV. x ARGYLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75276874596902,
+            41.971619145960574
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4762,
+            4263
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CARMEN AV. x N. LAMON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75038706911464,
+            41.9734731828014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4762,
+            6233
+          ],
+          "username": "autogeoref",
+          "note": "auto: WINNEMAC AV. x N. LAMON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7503629294095,
+            41.97256040124558
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4762,
+            8211
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAMON AV. x ARGYLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7503357444515,
+            41.97164796548893
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

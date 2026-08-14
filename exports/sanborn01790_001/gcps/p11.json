@@ -1,0 +1,138 @@
+{
+  "page": "11",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "WRIGHTWOOD AVE.",
+      "N. HALSTED"
+    ],
+    [
+      "LILL AVE.",
+      "N. HALSTED"
+    ],
+    [
+      "N. HALSTED",
+      "FULLERTON AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5116,
+            104
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64888865639122,
+            41.929083547107545
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5116,
+            2202
+          ],
+          "username": "autogeoref",
+          "note": "auto: LILL AVE. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64885832357032,
+            41.928181165969306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5116,
+            8188
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x FULLERTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64876128806412,
+            41.925453841712276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65166302586745,
+            41.92874574091429
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64895901054943,
+            41.928785768322996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65158188425767,
+            41.92571168349041
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

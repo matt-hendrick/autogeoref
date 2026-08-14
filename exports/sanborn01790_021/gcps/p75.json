@@ -1,0 +1,163 @@
+{
+  "page": "75",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 35TH ST.",
+      "ARMOUR AV."
+    ],
+    [
+      "W. 36TH ST.",
+      "ARMOUR AV."
+    ],
+    [
+      "RR JOLIET SUB DISTRICT",
+      "W. 35TH ST."
+    ],
+    [
+      "RR JOLIET SUB DISTRICT",
+      "W. 35TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4970,
+            3011
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x ARMOUR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6289956829958,
+            41.83097494947965
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4970,
+            7011
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x ARMOUR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62885134333612,
+            41.829146839165716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4086,
+            3011
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR JOLIET SUB DISTRICT x W. 35TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62943009907853,
+            41.830971105411145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4086,
+            3011
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR JOLIET SUB DISTRICT x W. 35TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62937756144808,
+            41.830971207629304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6315546311194,
+            41.83194740742126
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5284,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62874505013458,
+            41.83198321741642
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63149469273995,
+            41.82933653838955
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.693,
+    "separation_ratio": 1.148,
+    "best_offset_m": 8.8,
+    "n_junctions": 10
+  }
+}

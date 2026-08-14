@@ -1,0 +1,116 @@
+{
+  "page": "20",
+  "n_streets": 7,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N. ASTOR",
+      "E. DIVISION"
+    ],
+    [
+      "N. STONE",
+      "E. DIVISION"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1197,
+            1060
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASTOR x E. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62685744560224,
+            41.90397096331406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2955,
+            1060
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. STONE x E. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62584779921897,
+            41.90398759340939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6272606188282,
+            41.90411350695583
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5298,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6243986543256,
+            41.90415779051569
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62718660533591,
+            41.90146381717697
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

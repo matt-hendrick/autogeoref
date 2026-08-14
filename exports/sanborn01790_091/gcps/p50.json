@@ -1,0 +1,167 @@
+{
+  "page": "50",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. BOSWORTH AV. (DICKSON)",
+      "W. WABANSIA AV."
+    ],
+    [
+      "W. WABANSIA AV.",
+      "N. ASHLAND AV."
+    ],
+    [
+      "N. ASHLAND AV.",
+      "W. NORTH AV."
+    ],
+    [
+      "N. BOSWORTH AV. (DICKSON)",
+      "W. NORTH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2585,
+            2147
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BOSWORTH AV. (DICKSON) x W. WABANSIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66681255519164,
+            41.912448139311195
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            937,
+            2147
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WABANSIA AV. x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66771791714856,
+            41.91244796985428
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            937,
+            6160
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66766763387652,
+            41.91062812728863
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2843,
+            6160
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BOSWORTH AV. (DICKSON) x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66647381365665,
+            41.910645108921614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66797091835485,
+            41.91307981699695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5253,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66512777259669,
+            41.913127426174185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6678906646501,
+            41.91042573726916
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 2.67,
+    "dy_m": -0.323
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5696,
+    "separation_ratio": 1.141,
+    "best_offset_m": 0.9,
+    "n_junctions": 24
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "page": "15",
+  "n_streets": 4,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "GRANVILLE AV",
+      "N.ROBEY"
+    ],
+    [
+      "N.ROBEY",
+      "NORWOOD"
+    ],
+    [
+      "N.ROBEY",
+      "PETERSON AV"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5453,
+            128
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRANVILLE AV x N.ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6799267899748,
+            41.994262705515425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5453,
+            5315
+          ],
+          "username": "autogeoref",
+          "note": "auto: N.ROBEY x NORWOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67986148947428,
+            41.99188727243882
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5453,
+            8068
+          ],
+          "username": "autogeoref",
+          "note": "auto: N.ROBEY x PETERSON AV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6798275245191,
+            41.9906753675766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            581,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68287380044731,
+            41.99388024183512
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5229,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6800517996256,
+            41.99392161172265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            581,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68279232694614,
+            41.99081030140016
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

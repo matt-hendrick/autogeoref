@@ -1,0 +1,141 @@
+{
+  "page": "135",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 38TH ST.",
+      "VINCENNES AV."
+    ],
+    [
+      "E. 38TH ST.",
+      "LANGLEY AV."
+    ],
+    [
+      "LANGLEY AV.",
+      "E. 39TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            811,
+            1349
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 38TH ST. x VINCENNES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61212792870876,
+            41.825722741393655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4657,
+            1349
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 38TH ST. x LANGLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60980537771258,
+            41.82573957527275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4657,
+            5311
+          ],
+          "username": "autogeoref",
+          "note": "auto: LANGLEY AV. x E. 39TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60984136699297,
+            41.82392073716453
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61228021131004,
+            41.82597009501958
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5270,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60947828716317,
+            41.8260058107579
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6122202647445,
+            41.82335862558362
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4332,
+    "separation_ratio": 1.104,
+    "best_offset_m": 25.1,
+    "n_junctions": 24
+  }
+}

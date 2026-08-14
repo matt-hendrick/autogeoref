@@ -1,0 +1,116 @@
+{
+  "page": "43",
+  "n_streets": 4,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "AUGUSTA",
+      "N. HOMAN AV."
+    ],
+    [
+      "N. HOMAN AV.",
+      "W. CHICAGO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4900,
+            340
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71155614250067,
+            41.89914902879822
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4900,
+            8366
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOMAN AV. x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71143590961469,
+            41.89550661978552
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            566,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71416903893883,
+            41.89889130999531
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5097,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71140547953178,
+            41.898919401701136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            566,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71411236379888,
+            41.89580230724987
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

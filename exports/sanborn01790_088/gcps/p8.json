@@ -1,0 +1,142 @@
+{
+  "page": "8",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "E. DELAWARE PL.",
+      "N. MICHIGAN AV."
+    ],
+    [
+      "E. CHESTNUT",
+      "N. MICHIGAN AV."
+    ],
+    [
+      "N. MICHIGAN AV.",
+      "E. PEARSON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1064,
+            967
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. DELAWARE PL. x N. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6241274181147,
+            41.899210133706084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1064,
+            2796
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CHESTNUT x N. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62410269890987,
+            41.898385577274915
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1064,
+            4601
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MICHIGAN AV. x E. PEARSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62412869455383,
+            41.89757900956231
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            596,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6244298256045,
+            41.899316835078366
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5363,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62153285830858,
+            41.89936166360835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            596,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62435581211221,
+            41.89666694625211
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5403,
+    "separation_ratio": 1.035,
+    "best_offset_m": 29.5,
+    "n_junctions": 23
+  }
+}

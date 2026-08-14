@@ -1,0 +1,120 @@
+{
+  "page": "111",
+  "n_streets": 3,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. CERMAK RD. (W. 22ND ST.)",
+      "S. LAFLIN"
+    ],
+    [
+      "W. CERMAK RD. (W. 22ND ST.)",
+      "LOOMIS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            848,
+            848
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CERMAK RD. (W. 22ND ST.) x S. LAFLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66361391682535,
+            41.85237952823581
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4831,
+            848
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CERMAK RD. (W. 22ND ST.) x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66116442851143,
+            41.85241839618291
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            577,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66379014264895,
+            41.852437442037186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5193,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6609352334656,
+            41.852479134198234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            577,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66372024947549,
+            41.84978199621916
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.2728,
+    "separation_ratio": 0.658,
+    "best_offset_m": 97.4,
+    "n_junctions": 9
+  }
+}

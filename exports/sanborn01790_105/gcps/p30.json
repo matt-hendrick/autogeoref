@@ -1,0 +1,142 @@
+{
+  "page": "30",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "AUGUSTA BLVD",
+      "N. KILPATRICK AV. (N. 47TH AV.)"
+    ],
+    [
+      "W. WALTON",
+      "N. KILPATRICK AV. (N. 47TH AV.)"
+    ],
+    [
+      "N. KILPATRICK AV. (N. 47TH AV.)",
+      "W. IOWA"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1008,
+            253
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA BLVD x N. KILPATRICK AV. (N. 47TH AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74362327701822,
+            41.89873784037073
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1008,
+            2149
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALTON x N. KILPATRICK AV. (N. 47TH AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74359448075948,
+            41.897813849479846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1008,
+            4044
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILPATRICK AV. (N. 47TH AV.) x W. IOWA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74357020698498,
+            41.896901965107105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74387022331724,
+            41.89841136018375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5262,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74098221648386,
+            41.89844637045747
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74380181321766,
+            41.8952848160378
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5974,
+    "separation_ratio": 1.252,
+    "best_offset_m": 7.2,
+    "n_junctions": 11
+  }
+}

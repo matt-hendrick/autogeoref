@@ -1,0 +1,149 @@
+[importlinter]
+root_package = autogeoref
+include_external_packages = False
+# `make lint` puts scripts/lint on PYTHONPATH so this resolves. A custom type is
+# registered here by short name; `type =` below cannot take a dotted path.
+contract_types =
+    reachable_from: import_contracts.ReachableFrom
+    max_fan_out: import_contracts.MaxFanOut
+
+[importlinter:contract:reachable]
+name = Every module is reachable from the CLI entry point
+type = reachable_from
+# The console script, not the package: grimp reports nothing upstream of a
+# package module, so naming `autogeoref.cli` here would flag the whole tree.
+root = autogeoref.cli.entry
+# Empty on purpose. An entry here is a written claim that a module is
+# deliberately outside the product, and code that is belongs under scripts/.
+allow =
+
+[importlinter:contract:fan-out]
+name = No module imports more than 19 others
+type = max_fan_out
+max = 19
+# A ceiling, not a contract: lower it freely, never raise it. `name` repeats
+# the number, and a test fails when the two drift.
+#
+# Splitting means moving the imports to the modules that use them. Routing them
+# through one re-export module satisfies the arithmetic and leaves the coupling
+# where it was, so it is not a split.
+
+[importlinter:contract:status]
+name = rendering the status index reads it, never the other way
+type = layers
+layers =
+    autogeoref.status_render
+    autogeoref.status
+
+[importlinter:contract:spine]
+name = The dependency spine runs one way
+type = layers
+layers =
+    autogeoref.cli
+    autogeoref.console
+    autogeoref.runplan
+    autogeoref.runcontext
+    autogeoref.stages | autogeoref.run_inputs
+    autogeoref.escalate : autogeoref.verified_accept : autogeoref.verify : autogeoref.bake : autogeoref.score_pass
+    autogeoref.rescue : autogeoref.seam : autogeoref.corroborate : autogeoref.scoring
+    autogeoref.volume
+    autogeoref.matching
+    autogeoref.centerlines
+    autogeoref.bounds | autogeoref.names
+    autogeoref.affine
+    autogeoref.paths
+    autogeoref.slugs
+    autogeoref.errors
+
+[importlinter:contract:cli]
+name = cli: the command families sit under one parser, under one entry point
+type = layers
+layers =
+    autogeoref.cli.entry
+    autogeoref.cli.parser
+    autogeoref.cli.run | autogeoref.cli.report | autogeoref.cli.queue | autogeoref.cli.data | autogeoref.cli.viewer | autogeoref.cli.review
+
+[importlinter:contract:cli-siblings]
+name = cli: no command family imports another
+type = independence
+# `|` in the layers contract above makes that one forbid this too. This names
+# them a second way, because dropping a module from a layer list is silent
+# where naming one that does not exist is not.
+modules =
+    autogeoref.cli.run
+    autogeoref.cli.report
+    autogeoref.cli.queue
+    autogeoref.cli.data
+    autogeoref.cli.viewer
+    autogeoref.cli.review
+
+[importlinter:contract:stages]
+name = stages: no stage imports another
+type = independence
+# A stage is a file target the runner sequences, not a caller of the next one.
+# They were one module and never called one another; this is what says so.
+modules =
+    autogeoref.stages.match
+    autogeoref.stages.rescue
+    autogeoref.stages.corroborate
+    autogeoref.stages.seam
+    autogeoref.stages.report
+
+[importlinter:contract:bake]
+name = bake: layers < warp | masks | mosaic | tiles
+type = layers
+layers =
+    autogeoref.bake.warp | autogeoref.bake.masks | autogeoref.bake.mosaic | autogeoref.bake.tiles
+    autogeoref.bake.layers
+
+[importlinter:contract:runplan]
+name = runplan: the back half never reaches for the placement half
+type = layers
+layers =
+    autogeoref.runplan.placement
+    autogeoref.runplan.backhalf
+
+[importlinter:contract:config]
+name = config: model < fields < escalation < load
+type = layers
+layers =
+    autogeoref.config.load
+    autogeoref.config.escalation
+    autogeoref.config.fields
+    autogeoref.config.model
+
+[importlinter:contract:viewer]
+name = viewer: era < stories < coverage < config < sources < manifest
+type = layers
+layers =
+    autogeoref.viewer.manifest
+    autogeoref.viewer.sources
+    autogeoref.viewer.config
+    autogeoref.viewer.coverage
+    autogeoref.viewer.stories
+    autogeoref.viewer.era
+
+[importlinter:contract:review]
+name = review: ops < sidecars < materialize < app
+type = layers
+layers =
+    autogeoref.review.app
+    autogeoref.review.materialize
+    autogeoref.review.sidecars
+    autogeoref.review.ops
+
+[importlinter:contract:mask]
+name = mask: geometry < qa < move
+type = layers
+layers =
+    autogeoref.mask.move
+    autogeoref.mask.qa
+    autogeoref.mask.geometry
+
+[importlinter:contract:mask-below-bake]
+name = the mask family never imports the bake stage
+type = forbidden
+source_modules =
+    autogeoref.mask
+forbidden_modules =
+    autogeoref.bake

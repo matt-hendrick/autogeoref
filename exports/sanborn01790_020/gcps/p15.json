@@ -1,0 +1,157 @@
+{
+  "page": "15",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 0.37,
+  "auto_residuals_m": [
+    1.92,
+    1.59,
+    1.65,
+    3.43,
+    2.14,
+    2.39
+  ],
+  "inlier_streets": [
+    [
+      "W. 16TH ST.",
+      "S. LA SALLE"
+    ],
+    [
+      "W. 16TH ST.",
+      "S. CLARK"
+    ],
+    [
+      "WENTWORTH AV.",
+      "W. 18TH ST."
+    ],
+    [
+      "S. LA SALLE",
+      "W. 18TH ST."
+    ],
+    [
+      "S. CLARK",
+      "W. 17TH ST."
+    ],
+    [
+      "S. CLARK",
+      "W. 18TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4187,
+            1316
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH ST. x S. LA SALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63116918229063,
+            41.860134543085465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5604,
+            1316
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH ST. x S. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6302642695011,
+            41.860121166691336
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2938,
+            6400
+          ],
+          "username": "autogeoref",
+          "note": "auto: WENTWORTH AV. x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63189239658108,
+            41.85775255887414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4187,
+            6400
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LA SALLE x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63106825694688,
+            41.85776139743298
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5604,
+            3813
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLARK x W. 17TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63025497274282,
+            41.85895540612924
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5604,
+            6400
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLARK x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63022640692107,
+            41.85777914942591
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

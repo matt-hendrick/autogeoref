@@ -1,0 +1,185 @@
+{
+  "page": "110",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. ORCHARD",
+      "W. WILLOW"
+    ],
+    [
+      "N. HOWE",
+      "W. WILLOW"
+    ],
+    [
+      "N. LARRABEE",
+      "W. MENOMONEE"
+    ],
+    [
+      "N. LARRABEE",
+      "W. WILLOW"
+    ],
+    [
+      "W. WILLOW",
+      "N. VINE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            941,
+            6203
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ORCHARD x W. WILLOW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64595215834244,
+            41.913865372658144
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2929,
+            6203
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOWE x W. WILLOW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64473702580203,
+            41.91388187163158
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5040,
+            4654
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LARRABEE x W. MENOMONEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64354980601284,
+            41.91462498176474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5040,
+            6203
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LARRABEE x W. WILLOW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64352544972701,
+            41.91389824656265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3402,
+            6203
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WILLOW x N. VINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64444886660368,
+            41.913885760645634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64624374759869,
+            41.916324330838705
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5309,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64339418931459,
+            41.916366381015074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6461735964316,
+            41.91369199776491
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5054,
+    "separation_ratio": 1.052,
+    "best_offset_m": 22.7,
+    "n_junctions": 7
+  }
+}

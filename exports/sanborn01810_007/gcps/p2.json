@@ -1,0 +1,116 @@
+{
+  "page": "2",
+  "n_streets": 16,
+  "n_candidates": 26,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "PRAIRIE",
+      "MAIN"
+    ],
+    [
+      "PRAIRIE",
+      "ELLSWORTH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4963,
+            2886
+          ],
+          "username": "autogeoref",
+          "note": "auto: PRAIRIE x MAIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.3160999,
+            42.2456136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5889,
+            2886
+          ],
+          "username": "autogeoref",
+          "note": "auto: PRAIRIE x ELLSWORTH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.3148563,
+            42.2456117
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            645,
+            765
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.32143283501078,
+            42.247496432457
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5805,
+            765
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.31504455592292,
+            42.247561205244175
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            645,
+            6885
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.32132905407659,
+            42.24188747868671
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

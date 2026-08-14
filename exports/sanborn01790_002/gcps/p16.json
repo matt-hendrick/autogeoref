@@ -1,0 +1,132 @@
+{
+  "page": "16",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 5,
+  "rotation_deg": 0.78,
+  "auto_residuals_m": [
+    1.37,
+    5.48,
+    1.37,
+    8.68,
+    3.27
+  ],
+  "inlier_streets": [
+    [
+      "W. BELMONT AVE",
+      "N. CAMPBELL AVE."
+    ],
+    [
+      "W. BELMONT AVE",
+      "N. WESTERN AVE."
+    ],
+    [
+      "N. CAMPBELL AVE.",
+      "W. FLETCHER"
+    ],
+    [
+      "W. FLETCHER",
+      "N. WESTERN AVE."
+    ],
+    [
+      "N. WESTERN AVE.",
+      "NELSON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1220,
+            196
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELMONT AVE x N. CAMPBELL AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69012231184588,
+            41.939442325760496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4641,
+            196
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELMONT AVE x N. WESTERN AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68805208773605,
+            41.9394604735144
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1220,
+            2179
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL AVE. x W. FLETCHER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69010720249398,
+            41.93850167603518
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4641,
+            2179
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FLETCHER x N. WESTERN AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68814980736842,
+            41.93851760254936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4641,
+            6069
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AVE. x NELSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68799262666317,
+            41.93672310897399
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

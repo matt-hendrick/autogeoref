@@ -1,0 +1,109 @@
+{
+  "page": "72",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.09,
+  "auto_residuals_m": [
+    0.14,
+    0.09,
+    0.11,
+    0.09
+  ],
+  "inlier_streets": [
+    [
+      "LAWRENCE AV.",
+      "N.IRVING AV."
+    ],
+    [
+      "LAWRENCE AV.",
+      "N.LEAVITT"
+    ],
+    [
+      "AINSLIE",
+      "N.IRVING AV."
+    ],
+    [
+      "AINSLIE",
+      "N.LEAVITT"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1254,
+            8308
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x N.IRVING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6852557238939,
+            41.96866673798059
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3223,
+            8308
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x N.LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68404138845166,
+            41.968684735976915
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1254,
+            4261
+          ],
+          "username": "autogeoref",
+          "note": "auto: AINSLIE x N.IRVING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68531938700399,
+            41.970486765047525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3223,
+            4261
+          ],
+          "username": "autogeoref",
+          "note": "auto: AINSLIE x N.LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68410195084284,
+            41.97050317370096
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

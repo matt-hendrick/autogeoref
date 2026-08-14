@@ -1,0 +1,132 @@
+{
+  "page": "98",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "rotation_deg": 1.4,
+  "auto_residuals_m": [
+    1.12,
+    0.77,
+    1.09,
+    2.45,
+    1.71
+  ],
+  "inlier_streets": [
+    [
+      "WASHBURN AV.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "WASHBURN AV.",
+      "S. LEAVITT"
+    ],
+    [
+      "W. 13TH ST.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "W. 13TH ST.",
+      "S. LEAVITT"
+    ],
+    [
+      "S. LEAVITT",
+      "HASTINGS ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            990,
+            1055
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHBURN AV. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68356564706754,
+            41.865721049166616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5016,
+            1055
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHBURN AV. x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68111865148552,
+            41.865763300619676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            990,
+            2975
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6835413018417,
+            41.86483665126367
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5016,
+            2975
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68109231987597,
+            41.86487223999861
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5016,
+            5029
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT x HASTINGS ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68107407701358,
+            41.8639693463979
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,251 @@
+{
+  "page": "5",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 10,
+  "rotation_deg": 0.79,
+  "auto_residuals_m": [
+    6.93,
+    2.43,
+    3.81,
+    1.27,
+    4.0,
+    2.65,
+    1.84,
+    2.03,
+    1.72,
+    3.39
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "PIERCE AV.",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "PIERCE AV.",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "LE MOYNE",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "LE MOYNE",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "N. CENTRAL PARK AV.",
+      "W. BEACH AV."
+    ],
+    [
+      "N. CENTRAL PARK AV.",
+      "HIRSCH"
+    ],
+    [
+      "N. ST. LOUIS AV.",
+      "W. BEACH AV."
+    ],
+    [
+      "N. ST. LOUIS AV.",
+      "HIRSCH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            810,
+            496
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71671453266593,
+            41.909972719121846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4800,
+            496
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71437337548426,
+            41.90999940933381
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            810,
+            2410
+          ],
+          "username": "autogeoref",
+          "note": "auto: PIERCE AV. x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71678677407266,
+            41.90904837167119
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4800,
+            2410
+          ],
+          "username": "autogeoref",
+          "note": "auto: PIERCE AV. x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71433957215754,
+            41.90907809854631
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            810,
+            4335
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71675704647541,
+            41.908157262193434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4800,
+            4335
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71431314353414,
+            41.908178078447094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            810,
+            6197
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL PARK AV. x W. BEACH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71672674309242,
+            41.90725123318375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            810,
+            8021
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL PARK AV. x HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71669593897333,
+            41.90635234184028
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4800,
+            6197
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ST. LOUIS AV. x W. BEACH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71428379600107,
+            41.907275857780206
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4800,
+            8021
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ST. LOUIS AV. x HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71425183510398,
+            41.90637472962724
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.542,
+    "dy_m": -3.206
+  }
+}

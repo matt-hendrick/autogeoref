@@ -1,0 +1,156 @@
+{
+  "page": "39",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 2.35,
+  "auto_residuals_m": [
+    2.58,
+    0.68,
+    3.6,
+    3.0,
+    1.05,
+    2.3
+  ],
+  "inlier_streets": [
+    [
+      "MADISON",
+      "STATE"
+    ],
+    [
+      "MADISON",
+      "WABASH AV."
+    ],
+    [
+      "MONROE",
+      "STATE"
+    ],
+    [
+      "MONROE",
+      "WABASH AV."
+    ],
+    [
+      "ADAMS",
+      "STATE"
+    ],
+    [
+      "ADAMS",
+      "WABASH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1543,
+            710
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62780610570388,
+            41.88204203869142
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4200,
+            710
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON x WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62621475896046,
+            41.8820799050458
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1543,
+            3493
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONROE x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62772748538443,
+            41.88074289819573
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4200,
+            3493
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONROE x WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62617095442687,
+            41.88078924796243
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1543,
+            6356
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADAMS x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62771033107198,
+            41.87946164332028
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4200,
+            6356
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADAMS x WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62612624318926,
+            41.879522003540956
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

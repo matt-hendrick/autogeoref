@@ -1,0 +1,109 @@
+{
+  "page": "93",
+  "n_streets": 8,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.92,
+  "auto_residuals_m": [
+    2.96,
+    3.0,
+    2.98,
+    2.94
+  ],
+  "inlier_streets": [
+    [
+      "ARMITAGE AV.",
+      "N. HARDING AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "N. HARDING AV.",
+      "CORTLAND"
+    ],
+    [
+      "N. SPRINGFIELD AV.",
+      "CORTLAND"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2275,
+            117
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72533525224296,
+            41.917182616656966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4242,
+            117
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7242166937736,
+            41.917195884636705
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2275,
+            4240
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HARDING AV. x CORTLAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72528441924322,
+            41.91535835939405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4242,
+            4240
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPRINGFIELD AV. x CORTLAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72405917598269,
+            41.91537314404456
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

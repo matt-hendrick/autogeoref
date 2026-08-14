@@ -1,0 +1,159 @@
+{
+  "page": "48",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": -89.04,
+  "auto_residuals_m": [
+    1.05,
+    0.77,
+    0.8,
+    0.75,
+    0.74,
+    0.86
+  ],
+  "inlier_streets": [
+    [
+      "WENTWORTH AV.",
+      "W. 33RD ST."
+    ],
+    [
+      "S. WELLS (S. 5TH AV.)",
+      "W. 33RD ST."
+    ],
+    [
+      "S. WELLS (S. 5TH AV.)",
+      "W. 34TH ST."
+    ],
+    [
+      "W. 33RD ST.",
+      "PRINCETON AV."
+    ],
+    [
+      "W. 33RD ST.",
+      "SHIELDS AV."
+    ],
+    [
+      "W. 34TH ST.",
+      "SHIELDS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1677,
+            716
+          ],
+          "username": "autogeoref",
+          "note": "auto: WENTWORTH AV. x W. 33RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63162809314069,
+            41.83459224139281
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1677,
+            2744
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WELLS (S. 5TH AV.) x W. 33RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63282332154763,
+            41.83457544305752
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5619,
+            2744
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WELLS (S. 5TH AV.) x W. 34TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63278591537097,
+            41.832732698756004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1677,
+            4782
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x PRINCETON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63403986945517,
+            41.83455810291565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1677,
+            6805
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x SHIELDS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63525877594986,
+            41.83453950432915
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5619,
+            6805
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 34TH ST. x SHIELDS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63521594700957,
+            41.832711956221566
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.023,
+    "dy_m": -0.653
+  }
+}

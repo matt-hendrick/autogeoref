@@ -1,0 +1,142 @@
+{
+  "page": "47",
+  "n_streets": 7,
+  "n_candidates": 15,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "E. 79TH ST.",
+      "EAST END AV."
+    ],
+    [
+      "E. 79TH ST.",
+      "STONY ISLAND AV."
+    ],
+    [
+      "E. 79TH ST.",
+      "CORNELL AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4546,
+            198
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 79TH ST. x EAST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5828920822433,
+            41.7515197692939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            250,
+            198
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 79TH ST. x STONY ISLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58565529834297,
+            41.75150194251394
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2234,
+            198
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 79TH ST. x CORNELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58440676494945,
+            41.751500236668555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58541684682692,
+            41.75120248922307
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58262262113787,
+            41.75123881143842
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5853454399924,
+            41.74814498308299
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8458,
+    "separation_ratio": 1.426,
+    "best_offset_m": 8.8,
+    "n_junctions": 3
+  }
+}

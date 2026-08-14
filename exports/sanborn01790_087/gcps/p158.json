@@ -1,0 +1,159 @@
+{
+  "page": "158",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.2,
+  "auto_residuals_m": [
+    0.19,
+    0.52,
+    0.31,
+    0.34,
+    0.59,
+    0.25
+  ],
+  "inlier_streets": [
+    [
+      "W. WEBSTER AV.",
+      "N. SEMINARY AV."
+    ],
+    [
+      "W. WEBSTER AV.",
+      "N. KENMORE AV. (N. OSGOOD)"
+    ],
+    [
+      "W. WEBSTER AV.",
+      "N. SHEFFIELD AV."
+    ],
+    [
+      "N. SEMINARY AV.",
+      "W. DICKENS AV. (W. GARFIELD AV.)"
+    ],
+    [
+      "N. KENMORE AV. (N. OSGOOD)",
+      "W. DICKENS AV. (W. GARFIELD AV.)"
+    ],
+    [
+      "N. SHEFFIELD AV.",
+      "W. DICKENS AV. (W. GARFIELD AV.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            963,
+            2682
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. SEMINARY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65593925987746,
+            41.921701496686715
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2991,
+            2682
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. KENMORE AV. (N. OSGOOD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65472747020169,
+            41.921720910958385
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5003,
+            2682
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. SHEFFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65351151441271,
+            41.92174001609372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            963,
+            6736
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEMINARY AV. x W. DICKENS AV. (W. GARFIELD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65587766759721,
+            41.919887154826675
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2991,
+            6736
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENMORE AV. (N. OSGOOD) x W. DICKENS AV. (W. GARFIELD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65466771964742,
+            41.919906848324004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5003,
+            6736
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SHEFFIELD AV. x W. DICKENS AV. (W. GARFIELD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65345199225928,
+            41.919924226744776
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.65,
+    "dy_m": 0.229
+  }
+}

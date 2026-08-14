@@ -1,0 +1,136 @@
+{
+  "page": "37",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 5,
+  "rotation_deg": 0.51,
+  "auto_residuals_m": [
+    5.23,
+    7.3,
+    0.77,
+    5.27,
+    6.9
+  ],
+  "inlier_streets": [
+    [
+      "W. 93RD ST.",
+      "S. VANDERPOEL AV."
+    ],
+    [
+      "S. BEVERLY AV.",
+      "W. 93RD PL."
+    ],
+    [
+      "W. 94TH ST.",
+      "S. VANDERPOEL AV."
+    ],
+    [
+      "S. VANDERPOEL AV.",
+      "W. 95TH ST."
+    ],
+    [
+      "S. CHARLES",
+      "W. 95TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2585,
+            276
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 93RD ST. x S. VANDERPOEL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66642412310989,
+            41.72483811304335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5102,
+            2279
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. BEVERLY AV. x W. 93RD PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66477376308036,
+            41.72391888211324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2585,
+            4237
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 94TH ST. x S. VANDERPOEL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66637924882944,
+            41.72301658016526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2585,
+            8200
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. VANDERPOEL AV. x W. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66632916562641,
+            41.72117986534851
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5245,
+            8200
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CHARLES x W. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66481222753512,
+            41.72120157234988
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -7.684,
+    "dy_m": 2.456
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "page": "8",
+  "n_streets": 11,
+  "n_candidates": 16,
+  "n_inliers": 11,
+  "rotation_deg": -89.63,
+  "auto_residuals_m": [
+    5.36,
+    9.26,
+    2.61,
+    5.96,
+    3.44,
+    7.21,
+    2.67,
+    2.15,
+    1.74,
+    0.97,
+    4.21
+  ],
+  "inlier_streets": [
+    [
+      "VOGE",
+      "WILLIAMS"
+    ],
+    [
+      "WILLIAMS",
+      "E. PEARL"
+    ],
+    [
+      "E. PEARL",
+      "IRENE"
+    ],
+    [
+      "E. PEARL",
+      "HENRIETTA"
+    ],
+    [
+      "IRENE",
+      "E. MILL"
+    ],
+    [
+      "IRENE",
+      "E. HENRY"
+    ],
+    [
+      "HENRIETTA",
+      "E. MILL"
+    ],
+    [
+      "HENRIETTA",
+      "E. HENRY"
+    ],
+    [
+      "E. MILL",
+      "MADISON (ASHLAND)"
+    ],
+    [
+      "E. HENRY",
+      "MADISON (ASHLAND)"
+    ],
+    [
+      "E. MAIN",
+      "MADISON (ASHLAND)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            614,
+            702
+          ],
+          "username": "autogeoref",
+          "note": "auto: VOGE x WILLIAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.77871618302052,
+            39.01213052766147
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2546,
+            702
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILLIAMS x E. PEARL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.77882518302049,
+            39.011271527595014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2546,
+            1406
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. PEARL x IRENE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.7791701830205,
+            39.01126552759455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2546,
+            3395
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. PEARL x HENRIETTA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.78033518302051,
+            39.01125352759361
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4311,
+            1406
+          ],
+          "username": "autogeoref",
+          "note": "auto: IRENE x E. MILL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.77914618302049,
+            39.010445527531104
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            6049,
+            1406
+          ],
+          "username": "autogeoref",
+          "note": "auto: IRENE x E. HENRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.77913918302049,
+            39.00956752746317
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4311,
+            3395
+          ],
+          "username": "autogeoref",
+          "note": "auto: HENRIETTA x E. MILL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.7803751830205,
+            39.010417527528936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            6049,
+            3395
+          ],
+          "username": "autogeoref",
+          "note": "auto: HENRIETTA x E. HENRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.78035618302049,
+            39.00957652746387
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4311,
+            7348
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. MILL x MADISON (ASHLAND)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.78276018302049,
+            39.010362527524684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            6049,
+            7348
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. HENRY x MADISON (ASHLAND)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.78274668302049,
+            39.00954932746175
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            291,
+            7348
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. MAIN x MADISON (ASHLAND)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.78277288302051,
+            39.01219482766646
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.026,
+    "dy_m": -0.784
+  }
+}

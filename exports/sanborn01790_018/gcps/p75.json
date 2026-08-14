@@ -1,0 +1,156 @@
+{
+  "page": "75",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.57,
+  "auto_residuals_m": [
+    2.01,
+    1.38,
+    2.08,
+    3.05,
+    1.08,
+    2.32
+  ],
+  "inlier_streets": [
+    [
+      "W. RANDOLPH",
+      "S. CLINTON"
+    ],
+    [
+      "W. RANDOLPH",
+      "S. CANAL"
+    ],
+    [
+      "W. WASHINGTON",
+      "S. CLINTON"
+    ],
+    [
+      "W. WASHINGTON",
+      "S. CANAL"
+    ],
+    [
+      "W. MADISON",
+      "S. CLINTON"
+    ],
+    [
+      "W. MADISON",
+      "S. CANAL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1765,
+            775
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64127315284793,
+            41.88443692263149
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4157,
+            775
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63979996275563,
+            41.88444207852083
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1765,
+            3422
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64123274818785,
+            41.88317650732504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4157,
+            3422
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63974198471853,
+            41.8831810922778
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1765,
+            6277
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64119315861623,
+            41.881860417605445
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4157,
+            6277
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63968471744,
+            41.88188400704552
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

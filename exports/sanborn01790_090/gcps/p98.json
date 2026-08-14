@@ -1,0 +1,211 @@
+{
+  "page": "98",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. JASPER PL. (PRIVATE)",
+      "W. 37TH ST. (PRIVATE)"
+    ],
+    [
+      "LOOMIS PL.",
+      "W. 37TH ST. (PRIVATE)"
+    ],
+    [
+      "LOOMIS PL.",
+      "W. 37TH PL. (PRIVATE)"
+    ],
+    [
+      "W. 37TH ST. (PRIVATE)",
+      "S. IRON (PRIVATE)"
+    ],
+    [
+      "W. 37TH ST. (PRIVATE)",
+      "S. LOOMIS PL. (PRIVATE)"
+    ],
+    [
+      "S. IRON (PRIVATE)",
+      "W. 37TH PL. (PRIVATE)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            467,
+            4207
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. JASPER PL. (PRIVATE) x W. 37TH ST. (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66226578612293,
+            41.82690108359368
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2135,
+            4207
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOOMIS PL. x W. 37TH ST. (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66124288695292,
+            41.8269086783394
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2135,
+            6144
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOOMIS PL. x W. 37TH PL. (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66113765068506,
+            41.82598558158187
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5344,
+            4207
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH ST. (PRIVATE) x S. IRON (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65935118394472,
+            41.82692845342699
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2047,
+            4207
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH ST. (PRIVATE) x S. LOOMIS PL. (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66124288695292,
+            41.8269086783394
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5344,
+            6144
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. IRON (PRIVATE) x W. 37TH PL. (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65937261886532,
+            41.826031120575216
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6622189173095,
+            41.82845367163281
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5290,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6593692844498,
+            41.82848917011742
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66215956622582,
+            41.82580823069837
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -2.638,
+    "dy_m": 0.485
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6702,
+    "separation_ratio": 1.403,
+    "best_offset_m": 6.6,
+    "n_junctions": 11
+  }
+}

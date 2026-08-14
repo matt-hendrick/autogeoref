@@ -1,0 +1,228 @@
+{
+  "page": "60",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 9,
+  "rotation_deg": 0.8,
+  "auto_residuals_m": [
+    3.58,
+    1.17,
+    1.52,
+    0.8,
+    1.05,
+    0.15,
+    1.44,
+    1.06,
+    3.19
+  ],
+  "inlier_streets": [
+    [
+      "N. BISHOP (BICKERDIKE)",
+      "W. GRAND AV."
+    ],
+    [
+      "W. GRAND AV.",
+      "ARMOUR"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. NOBLE"
+    ],
+    [
+      "ARMOUR",
+      "W. FERDINAND ST."
+    ],
+    [
+      "ARMOUR",
+      "W. HUBBARD (W. AUSTIN AV.)"
+    ],
+    [
+      "ARMOUR",
+      "W. KINZIE"
+    ],
+    [
+      "W. FERDINAND ST.",
+      "N. NOBLE"
+    ],
+    [
+      "N. NOBLE",
+      "W. HUBBARD (W. AUSTIN AV.)"
+    ],
+    [
+      "W. HUBBARD (W. AUSTIN AV.)",
+      "N. BISHOP (BIXBY CT.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2946,
+            1756
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BISHOP (BICKERDIKE) x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66384925085583,
+            41.891021062119016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            229,
+            1756
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x ARMOUR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66547975806957,
+            41.891007935016454
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5505,
+            1756
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66222897328679,
+            41.8910368652564
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            229,
+            2960
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMOUR x W. FERDINAND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66546373872934,
+            41.89046047743259
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            229,
+            4159
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMOUR x W. HUBBARD (W. AUSTIN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66544677692981,
+            41.88991368034123
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            229,
+            6488
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMOUR x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66541765299665,
+            41.8888662728639
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5505,
+            2960
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FERDINAND ST. x N. NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66221279356512,
+            41.89049018898169
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5505,
+            4159
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NOBLE x W. HUBBARD (W. AUSTIN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66219691452264,
+            41.889952070127684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3938,
+            4159
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HUBBARD (W. AUSTIN AV.) x N. BISHOP (BIXBY CT.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66319620873108,
+            41.889952459425466
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.032,
+    "dy_m": 1.289
+  }
+}

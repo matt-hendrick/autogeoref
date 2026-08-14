@@ -1,0 +1,141 @@
+{
+  "page": "33",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 36TH ST.",
+      "S. KEDZIE AV."
+    ],
+    [
+      "W. 36TH ST.",
+      "S. ALBANY AV."
+    ],
+    [
+      "S. KEDZIE AV.",
+      "W. 36TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            349,
+            4059
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7045498025968,
+            41.828078602568404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4120,
+            4059
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70210562773322,
+            41.82812531679748
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            349,
+            5932
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEDZIE AV. x W. 36TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7045316829026,
+            41.82716630750592
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70441531616108,
+            41.82955615516536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5284,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70149354729912,
+            41.82960413825567
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70432204093844,
+            41.82640259603315
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7897,
+    "separation_ratio": 1.353,
+    "best_offset_m": 13.3,
+    "n_junctions": 5
+  }
+}

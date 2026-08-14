@@ -1,0 +1,189 @@
+{
+  "page": "83",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 20TH PL.",
+      "S. PEORIA"
+    ],
+    [
+      "W. 21ST ST.",
+      "S. SANGAMON (BROWN)"
+    ],
+    [
+      "W. 21ST ST.",
+      "S. PEORIA"
+    ],
+    [
+      "W. 21ST ST.",
+      "S. HALSTED"
+    ],
+    [
+      "CANALPORT AV.",
+      "S. PEORIA"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2830,
+            2204
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 20TH PL. x S. PEORIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64821142368147,
+            41.85460847875296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            216,
+            3735
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. SANGAMON (BROWN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6498272552438,
+            41.853898783203874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2830,
+            3735
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. PEORIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.648189319809,
+            41.853921448237
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5492,
+            3735
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6465516864936,
+            41.85394589523851
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2830,
+            3883
+          ],
+          "username": "autogeoref",
+          "note": "auto: CANALPORT AV. x S. PEORIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.648189319809,
+            41.853921448237
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64960307658926,
+            41.85527670722602
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5252,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64675606572366,
+            41.855319540161496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64953091716598,
+            41.85261579474109
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8175,
+    "separation_ratio": 1.755,
+    "best_offset_m": 1.9,
+    "n_junctions": 17
+  },
+  "seam_adjusted": {
+    "dx_m": -2.421,
+    "dy_m": -0.623
+  }
+}

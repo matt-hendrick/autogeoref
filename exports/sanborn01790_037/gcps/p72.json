@@ -1,0 +1,120 @@
+{
+  "page": "72",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. KINZIE",
+      "S. 51ST AV."
+    ],
+    [
+      "FULTON",
+      "S. 51ST AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1246,
+            353
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x S. 51ST AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75411956602558,
+            41.88782671035775
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1246,
+            5175
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x S. 51ST AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75404075478241,
+            41.88565571376983
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75450329226366,
+            41.88761801816605
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5265,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75161024664196,
+            41.887644641933825
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75445130487006,
+            41.88448709610033
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.4357,
+    "separation_ratio": 0.534,
+    "best_offset_m": 96.2,
+    "n_junctions": 7
+  }
+}

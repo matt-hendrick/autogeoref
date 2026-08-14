@@ -1,0 +1,205 @@
+{
+  "page": "87",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 8,
+  "rotation_deg": -88.71,
+  "auto_residuals_m": [
+    0.31,
+    0.51,
+    0.32,
+    0.44,
+    0.31,
+    0.08,
+    1.01,
+    0.44
+  ],
+  "inlier_streets": [
+    [
+      "N. SACRAMENTO",
+      "CARROLL AV."
+    ],
+    [
+      "N. SACRAMENTO",
+      "FULTON"
+    ],
+    [
+      "CARROLL AV.",
+      "N. WHIPPLE"
+    ],
+    [
+      "CARROLL AV.",
+      "N. ALBANY AV."
+    ],
+    [
+      "CARROLL AV.",
+      "N. KEDZIE AV."
+    ],
+    [
+      "N. WHIPPLE",
+      "FULTON"
+    ],
+    [
+      "N. ALBANY AV.",
+      "FULTON"
+    ],
+    [
+      "FULTON",
+      "N. KEDZIE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2456,
+            219
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO x CARROLL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70137610693878,
+            41.88757419859152
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4775,
+            219
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70134454321446,
+            41.88647304474717
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2456,
+            2498
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARROLL AV. x N. WHIPPLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70278156916308,
+            41.8875549012954
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2456,
+            4212
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARROLL AV. x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70384096228452,
+            41.88754216650106
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2456,
+            8174
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARROLL AV. x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70629946881593,
+            41.88751336434927
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4775,
+            2498
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WHIPPLE x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70275028241159,
+            41.886457000154024
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4775,
+            4212
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ALBANY AV. x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70380278284149,
+            41.88644547070578
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4775,
+            8174
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70626708060153,
+            41.88641198000642
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.662,
+    "dy_m": -1.126
+  }
+}

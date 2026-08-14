@@ -1,0 +1,160 @@
+{
+  "page": "8",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 1.28,
+  "auto_residuals_m": [
+    0.54,
+    1.12,
+    0.57,
+    0.13,
+    0.29,
+    0.16
+  ],
+  "inlier_streets": [
+    [
+      "AUGUSTA",
+      "N. PAULINA"
+    ],
+    [
+      "AUGUSTA",
+      "N. MARSHFIELD"
+    ],
+    [
+      "AUGUSTA",
+      "N. ASHLAND"
+    ],
+    [
+      "W. WALTON",
+      "N. PAULINA"
+    ],
+    [
+      "W. WALTON",
+      "N. MARSHFIELD"
+    ],
+    [
+      "W. WALTON",
+      "N. ASHLAND"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            864,
+            1227
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66983897955338,
+            41.8996445050049
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2885,
+            1227
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. MARSHFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66860184265154,
+            41.89966351734018
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4910,
+            1227
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. ASHLAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6673920822828,
+            41.89968379887692
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            864,
+            3716
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALTON x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6698081796377,
+            41.89850628241455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2885,
+            3716
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALTON x N. MARSHFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66858253105865,
+            41.89852573033247
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4910,
+            3716
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALTON x N. ASHLAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66736053607262,
+            41.89854812323833
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": 0.042,
+    "dy_m": -3.616
+  }
+}

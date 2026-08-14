@@ -1,0 +1,116 @@
+{
+  "page": "47",
+  "n_streets": 3,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 16TH ST.",
+      "STEWART"
+    ],
+    [
+      "W. 18TH ST.",
+      "STEWART"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            322,
+            1490
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH ST. x STEWART"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63779881779202,
+            41.86001255351631
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            322,
+            6635
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x STEWART"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63776666278032,
+            41.85768189919938
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63766259690912,
+            41.86036209008886
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63480143879967,
+            41.86040513244503
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63759043748581,
+            41.85770138918297
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

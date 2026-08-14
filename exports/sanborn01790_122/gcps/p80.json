@@ -1,0 +1,136 @@
+{
+  "page": "80",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 0.24,
+  "auto_residuals_m": [
+    1.04,
+    12.55,
+    1.44,
+    1.04,
+    9.92
+  ],
+  "inlier_streets": [
+    [
+      "W. 103RD ST.",
+      "S. VINCENNES AV."
+    ],
+    [
+      "S. LOOMIS",
+      "W. 104TH ST."
+    ],
+    [
+      "S. VINCENNES AV.",
+      "W. 104TH ST."
+    ],
+    [
+      "S. VINCENNES AV.",
+      "W. 105TH ST."
+    ],
+    [
+      "W. 104TH ST.",
+      "S. CHARLES"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2647,
+            302
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 103RD ST. x S. VINCENNES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6559885142679,
+            41.706778013898344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1220,
+            4343
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LOOMIS x W. 104TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65741932149592,
+            41.704940030836916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2647,
+            4343
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. VINCENNES AV. x W. 104TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65667641553999,
+            41.70494764378196
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2647,
+            8330
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. VINCENNES AV. x W. 105TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65735380170706,
+            41.70311935971144
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            842,
+            4343
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 104TH ST. x S. CHARLES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65784991123924,
+            41.704934766735
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.421,
+    "dy_m": -1.116
+  }
+}

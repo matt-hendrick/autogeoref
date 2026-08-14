@@ -1,0 +1,228 @@
+{
+  "page": "42",
+  "n_streets": 8,
+  "n_candidates": 14,
+  "n_inliers": 9,
+  "rotation_deg": 1.09,
+  "auto_residuals_m": [
+    1.45,
+    0.95,
+    0.62,
+    0.55,
+    5.33,
+    1.46,
+    1.41,
+    1.16,
+    0.71
+  ],
+  "inlier_streets": [
+    [
+      "W. 32ND PL.",
+      "S. LITUANICA AV. (AUBURN)"
+    ],
+    [
+      "S. LITUANICA AV. (AUBURN)",
+      "W. 33RD ST."
+    ],
+    [
+      "S. LITUANICA AV. (AUBURN)",
+      "W. 33RD PL."
+    ],
+    [
+      "S. LITUANICA AV. (AUBURN)",
+      "W. 34TH ST."
+    ],
+    [
+      "S. GREEN (LIME)",
+      "W. 33RD ST."
+    ],
+    [
+      "W. 33RD ST.",
+      "S. HALSTED"
+    ],
+    [
+      "W. 33RD ST.",
+      "S. HALSTED"
+    ],
+    [
+      "S. HALSTED",
+      "W. 33RD PL."
+    ],
+    [
+      "S. HALSTED",
+      "W. 34TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1031,
+            383
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 32ND PL. x S. LITUANICA AV. (AUBURN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64863866989408,
+            41.8356468948765
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1031,
+            2213
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LITUANICA AV. (AUBURN) x W. 33RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6486174946516,
+            41.83481114716402
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1031,
+            4399
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LITUANICA AV. (AUBURN) x W. 33RD PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64859461667447,
+            41.83381911396652
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1031,
+            6686
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LITUANICA AV. (AUBURN) x W. 34TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.648572073329,
+            41.83278833026338
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3499,
+            2213
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. GREEN (LIME) x W. 33RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64716695564158,
+            41.83483022259483
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4998,
+            2213
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64619179630395,
+            41.834844281752105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4998,
+            3187
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64618338850308,
+            41.834413079997454
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4998,
+            4399
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. 33RD PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64617046167635,
+            41.83385040059676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4998,
+            6686
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. 34TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64614301195054,
+            41.83282545327079
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.154,
+    "dy_m": 2.086
+  }
+}

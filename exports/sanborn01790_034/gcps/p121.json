@@ -1,0 +1,228 @@
+{
+  "page": "121",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 1.06,
+  "auto_residuals_m": [
+    7.87,
+    3.83,
+    4.54,
+    8.36,
+    7.46,
+    4.78,
+    3.88,
+    5.16,
+    4.18
+  ],
+  "inlier_streets": [
+    [
+      "BERTEAU AV.",
+      "N. CLAREMONT AV."
+    ],
+    [
+      "BERTEAU AV.",
+      "N. WESTERN AV."
+    ],
+    [
+      "BERTEAU AV.",
+      "N. OAKLEY"
+    ],
+    [
+      "N. CLAREMONT AV.",
+      "BELLE-PLAINE AV."
+    ],
+    [
+      "N. CLAREMONT AV.",
+      "IRVING PARK BLD"
+    ],
+    [
+      "N. WESTERN AV.",
+      "BELLE-PLAINE AV."
+    ],
+    [
+      "N. WESTERN AV.",
+      "IRVING PARK BLD"
+    ],
+    [
+      "N. OAKLEY",
+      "BELLE-PLAINE AV."
+    ],
+    [
+      "N. OAKLEY",
+      "IRVING PARK BLD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2562,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x N. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68733236405845,
+            41.95766588729962
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            244,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68854421778448,
+            41.957650099770184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4517,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x N. OAKLEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68611757399778,
+            41.95768284223301
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2562,
+            4326
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLAREMONT AV. x BELLE-PLAINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68727897846435,
+            41.955842324311256
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2562,
+            8248
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLAREMONT AV. x IRVING PARK BLD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68722019322088,
+            41.954011484249605
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            244,
+            4326
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x BELLE-PLAINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68849067469856,
+            41.95582760967011
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            244,
+            8248
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x IRVING PARK BLD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6884364129365,
+            41.9539934270642
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4517,
+            4326
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY x BELLE-PLAINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68606431422876,
+            41.95585956785818
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4517,
+            8248
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY x IRVING PARK BLD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68601197499055,
+            41.95402940955737
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.32,
+    "dy_m": -2.891
+  }
+}

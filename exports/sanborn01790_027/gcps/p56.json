@@ -1,0 +1,113 @@
+{
+  "page": "56",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 4,
+  "rotation_deg": 0.56,
+  "auto_residuals_m": [
+    3.67,
+    3.64,
+    3.6,
+    3.64
+  ],
+  "inlier_streets": [
+    [
+      "LOGAN BLVD",
+      "N. ALBANY AV."
+    ],
+    [
+      "LOGAN BLVD",
+      "N. SACRAMENTO AV."
+    ],
+    [
+      "N. ALBANY AV.",
+      "FULLERTON AV."
+    ],
+    [
+      "N. SACRAMENTO AV.",
+      "FULLERTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1172,
+            270
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOGAN BLVD x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7048574933148,
+            41.92812416170099
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4884,
+            270
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOGAN BLVD x N. SACRAMENTO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70240226977356,
+            41.928137775538936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1172,
+            7778
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ALBANY AV. x FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70463216456662,
+            41.924729356945726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4884,
+            7778
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO AV. x FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70230724123454,
+            41.92475047810211
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.235,
+    "dy_m": -1.831
+  }
+}

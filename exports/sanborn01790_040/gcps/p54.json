@@ -1,0 +1,161 @@
+{
+  "page": "54",
+  "n_streets": 8,
+  "n_candidates": 16,
+  "n_inliers": 6,
+  "rotation_deg": 1.96,
+  "auto_residuals_m": [
+    2.16,
+    2.75,
+    3.79,
+    12.58,
+    9.1,
+    5.86
+  ],
+  "inlier_streets": [
+    [
+      "PALMER",
+      "N. LONG AV."
+    ],
+    [
+      "PALMER",
+      "N. LOREL AV."
+    ],
+    [
+      "PALMER",
+      "N. LOCKWOOD AV."
+    ],
+    [
+      "N. LOCKWOOD AV.",
+      "DICKENS AV."
+    ],
+    [
+      "N. LOCKWOOD AV.",
+      "W. GRAND AV."
+    ],
+    [
+      "W. GRAND AV.",
+      "N. LOCKWOOD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            472,
+            170
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER x N. LONG AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76092774544301,
+            41.92039477703536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2524,
+            170
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER x N. LOREL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75970115590721,
+            41.92040980095717
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4667,
+            170
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER x N. LOCKWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75847458087706,
+            41.92042691420262
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4667,
+            4105
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LOCKWOOD AV. x DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7584189463964,
+            41.91863573247686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4667,
+            6393
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LOCKWOOD AV. x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75838000981987,
+            41.917396017673504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4061,
+            6393
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. LOCKWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75864114768999,
+            41.91744355670742
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 2.347,
+    "dy_m": 0.294
+  }
+}

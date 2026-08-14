@@ -1,0 +1,255 @@
+{
+  "page": "13",
+  "n_streets": 9,
+  "n_candidates": 12,
+  "n_inliers": 8,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. AUGUSTA BLVD.",
+      "N. RACINE AV."
+    ],
+    [
+      "W. AUGUSTA BLVD.",
+      "N. ELSTON AV."
+    ],
+    [
+      "N. RACINE AV.",
+      "FRY ST."
+    ],
+    [
+      "N. ELSTON AV.",
+      "W. CHESTNUT"
+    ],
+    [
+      "N. ELSTON AV.",
+      "W. FRY"
+    ],
+    [
+      "N. MAY",
+      "W. FRY"
+    ],
+    [
+      "RR UP HARVARD SUBDIVISION",
+      "N. RACINE AV."
+    ],
+    [
+      "RR UP HARVARD SUBDIVISION",
+      "N. RACINE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1080,
+            707
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. AUGUSTA BLVD. x N. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6576218964689,
+            41.89984927785726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2578,
+            707
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. AUGUSTA BLVD. x N. ELSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65667357938023,
+            41.89986756805531
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1080,
+            6580
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RACINE AV. x FRY ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65756780411687,
+            41.897145461307225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2578,
+            3883
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELSTON AV. x W. CHESTNUT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65662461217948,
+            41.898355508225976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2578,
+            6263
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELSTON AV. x W. FRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65658510119991,
+            41.89729372136815
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4742,
+            6263
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAY x W. FRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65528344489573,
+            41.897315761300945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1080,
+            1747
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR UP HARVARD SUBDIVISION x N. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65760821283975,
+            41.89944842329802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1080,
+            1747
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR UP HARVARD SUBDIVISION x N. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65760667570582,
+            41.89940195818284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65790592664979,
+            41.899819303934215
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65504631048145,
+            41.899866488197766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65782676106416,
+            41.89716122520628
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -2.97,
+    "dy_m": -2.442
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.4649,
+    "separation_ratio": 0.962,
+    "best_offset_m": 98.0,
+    "n_junctions": 29
+  }
+}

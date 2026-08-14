@@ -1,0 +1,163 @@
+{
+  "page": "97",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "WASHBURN AV.",
+      "S. WESTERN AV."
+    ],
+    [
+      "WASHBURN AV.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "W. 13TH ST.",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. 13TH ST.",
+      "S. OAKLEY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            945,
+            2757
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHBURN AV. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68600830343935,
+            41.86541574068389
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5068,
+            2223
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHBURN AV. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68356564706754,
+            41.865721049166616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            945,
+            4156
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68598880695542,
+            41.86479202771487
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5068,
+            4156
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6835413018417,
+            41.86483665126367
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68626265644359,
+            41.86632790195365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68344350990019,
+            41.86637187871564
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68618892363273,
+            41.8637065146101
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.532,
+    "separation_ratio": 1.244,
+    "best_offset_m": 14.0,
+    "n_junctions": 18
+  }
+}

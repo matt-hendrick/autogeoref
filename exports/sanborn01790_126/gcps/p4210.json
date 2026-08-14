@@ -1,0 +1,136 @@
+{
+  "page": "4210",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 0.69,
+  "auto_residuals_m": [
+    0.87,
+    1.56,
+    1.15,
+    1.29,
+    1.52
+  ],
+  "inlier_streets": [
+    [
+      "E. KENSINGTON AV.",
+      "S. MICHIGAN AV."
+    ],
+    [
+      "E. KENSINGTON AV.",
+      "S. INDIANA AV."
+    ],
+    [
+      "S. MICHIGAN AV.",
+      "E. 116TH ST."
+    ],
+    [
+      "S. MICHIGAN AV.",
+      "E. 117TH ST."
+    ],
+    [
+      "S. INDIANA AV.",
+      "E. 116TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            712,
+            2985
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. KENSINGTON AV. x S. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62071210789138,
+            41.68395266768912
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5212,
+            2985
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. KENSINGTON AV. x S. INDIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61796151295343,
+            41.68397535160829
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            712,
+            5856
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. x E. 116TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6206712665692,
+            41.682575310693004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            712,
+            7891
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. x E. 117TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62063983678235,
+            41.681578617006345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5212,
+            5856
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. INDIANA AV. x E. 116TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61795484105428,
+            41.68259496730126
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.431,
+    "dy_m": 2.719
+  }
+}

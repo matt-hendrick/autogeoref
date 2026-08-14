@@ -1,0 +1,167 @@
+{
+  "page": "22",
+  "n_streets": 9,
+  "n_candidates": 12,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. ROGERS AV.",
+      "N. HONORE (CLAYTON CT.)"
+    ],
+    [
+      "N. HONORE (CLAYTON CT.)",
+      "W. CHASE AV."
+    ],
+    [
+      "N. HONORE (CLAYTON CT.)",
+      "W. CHASE AV."
+    ],
+    [
+      "N. CLARK",
+      "W. CHASE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1765,
+            1569
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROGERS AV. x N. HONORE (CLAYTON CT.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67673310777951,
+            42.01530319388462
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1765,
+            5243
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HONORE (CLAYTON CT.) x W. CHASE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67667374286646,
+            42.0137156860359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1765,
+            5098
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HONORE (CLAYTON CT.) x W. CHASE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67667374286646,
+            42.0137156860359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4679,
+            5098
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. CHASE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67480528023279,
+            42.01373797209033
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            561,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67745667359178,
+            42.01564989641743
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5053,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67469814373328,
+            42.01569760750326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            561,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6773593980434,
+            42.0125452957161
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 2.176,
+    "dy_m": -2.881
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.3301,
+    "separation_ratio": 0.509,
+    "best_offset_m": 98.0,
+    "n_junctions": 3
+  }
+}

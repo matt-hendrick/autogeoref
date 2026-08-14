@@ -1,0 +1,159 @@
+{
+  "page": "116",
+  "n_streets": 9,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 1.32,
+  "auto_residuals_m": [
+    1.29,
+    4.92,
+    9.8,
+    2.41,
+    9.86,
+    4.91
+  ],
+  "inlier_streets": [
+    [
+      "GRACE",
+      "STELLA"
+    ],
+    [
+      "GRACE",
+      "SHEFFIELD AVE."
+    ],
+    [
+      "WAVELAND AVE.",
+      "STELLA"
+    ],
+    [
+      "WAVELAND AVE.",
+      "SHEFFIELD AVE."
+    ],
+    [
+      "ADDISON",
+      "STELLA"
+    ],
+    [
+      "ADDISON",
+      "SHEFFIELD AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1407,
+            46
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACE x STELLA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65676791496568,
+            41.951103760634275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5420,
+            46
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACE x SHEFFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65440591455827,
+            41.95114149404484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1407,
+            4404
+          ],
+          "username": "autogeoref",
+          "note": "auto: WAVELAND AVE. x STELLA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65674527416296,
+            41.94902178270839
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5420,
+            4404
+          ],
+          "username": "autogeoref",
+          "note": "auto: WAVELAND AVE. x SHEFFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6543454402585,
+            41.94906045751628
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1407,
+            8267
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADDISON x STELLA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65647771853602,
+            41.9472190827298
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5420,
+            8267
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADDISON x SHEFFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65429182626094,
+            41.947261617654945
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.29,
+    "dy_m": 2.549
+  }
+}

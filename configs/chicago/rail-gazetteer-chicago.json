@@ -1,0 +1,106 @@
+{
+  "description": "Era railroad-label gazetteer for Chicago: normalize_rail_name output -> modern OSM name/operator groups (rail-chicago-cta-overpass.json or a corridor extract). rail_crossing_candidates pairs a printed label ONLY with its bound groups; a label absent from bindings is unbound and yields zero candidates. Hand-built by reading historic rasters (IDOT 1928 historic rail map, ICC valuation maps); 'unbound' entries are documentation only — the reason a label deliberately has no row.",
+  "bindings": {
+    "C M ST P R R EVANSTON DIV": ["NORTH SIDE MAIN LINE"],
+    "EVANSTON BRANCH C M ST PAUL R R": ["NORTH SIDE MAIN LINE"],
+    "EVANSTON BRANCH CHIC MIL ST PAUL R R": ["NORTH SIDE MAIN LINE"],
+    "EVANSTON BRANCH CHICAGO MILWAUKEE ST PAUL R R": ["NORTH SIDE MAIN LINE"],
+    "EVANSTON BRANCH MILWAUKEE ST PAUL R R": ["NORTH SIDE MAIN LINE"],
+    "MILWAUKEE ST PAUL R R EVANSTON BRANCH": ["NORTH SIDE MAIN LINE"],
+
+    "C M ST P R R": ["C M SUBDIVISION", "ELGIN SUBDIVISION"],
+    "C M ST P RY": ["C M SUBDIVISION", "ELGIN SUBDIVISION"],
+    "C M ST P R Y": ["C M SUBDIVISION", "ELGIN SUBDIVISION"],
+    "CHICAGO MIL ST P RY": ["C M SUBDIVISION", "ELGIN SUBDIVISION"],
+    "CHICAGO MILWAUKEE ST PAUL R R": ["C M SUBDIVISION", "ELGIN SUBDIVISION"],
+    "CHICAGO MILWAUKEE ST PAUL RY": ["C M SUBDIVISION", "ELGIN SUBDIVISION"],
+    "CHICAGO MILWAUKEE ST PAUL R Y": ["C M SUBDIVISION", "ELGIN SUBDIVISION"],
+    "CHICAGO MILWAUKEE ST PAUL R R EVANSTON BRANCH": ["NORTH SIDE MAIN LINE"],
+
+    "MILWAUKEE DIV C N W R R": ["UP KENOSHA SUBDIVISION"],
+    "MILWAUKEE DIV CHICAGO NORTHWESTERN R R": ["UP KENOSHA SUBDIVISION"],
+    "MILWAUKEE DIVISION CHICAGO NORTHWESTERN R R": ["UP KENOSHA SUBDIVISION"],
+    "MILWAUKEE DIVISION CHICAGO NORTH WESTERN R R": ["UP KENOSHA SUBDIVISION"],
+    "MILWAUKEE DIVN CHICAGO NORTHWESTERN R R": ["UP KENOSHA SUBDIVISION"],
+    "C N W RY MILWAUKEE DIV": ["UP KENOSHA SUBDIVISION"],
+    "CHICAGO NORTHWESTERN R R MILWAUKEE DIV": ["UP KENOSHA SUBDIVISION"],
+    "CHICAGO NORTHWESTERN R R MILWAUKEE DIVISION": ["UP KENOSHA SUBDIVISION"],
+    "CHICAGO NORTHWESTERN R Y MILWAUKEE DIV": ["UP KENOSHA SUBDIVISION"],
+    "MILWAUKEE DIVISION": ["UP KENOSHA SUBDIVISION"],
+
+    "C N W R R": ["UP KENOSHA SUBDIVISION", "UP HARVARD SUBDIVISION", "HARVARD SUBDIVISION", "UP GENEVA SUBDIVISION", "GENEVA SUBDIVISION"],
+    "C N W RY": ["UP KENOSHA SUBDIVISION", "UP HARVARD SUBDIVISION", "HARVARD SUBDIVISION", "UP GENEVA SUBDIVISION", "GENEVA SUBDIVISION"],
+    "C N W R Y": ["UP KENOSHA SUBDIVISION", "UP HARVARD SUBDIVISION", "HARVARD SUBDIVISION", "UP GENEVA SUBDIVISION", "GENEVA SUBDIVISION"],
+    "CHICAGO NORTHWESTERN R R": ["UP KENOSHA SUBDIVISION", "UP HARVARD SUBDIVISION", "HARVARD SUBDIVISION", "UP GENEVA SUBDIVISION", "GENEVA SUBDIVISION"],
+    "CHICAGO NORTH WESTERN R R": ["UP KENOSHA SUBDIVISION", "UP HARVARD SUBDIVISION", "HARVARD SUBDIVISION", "UP GENEVA SUBDIVISION", "GENEVA SUBDIVISION"],
+    "N WESTERN R R": ["UP KENOSHA SUBDIVISION", "UP HARVARD SUBDIVISION", "HARVARD SUBDIVISION", "UP GENEVA SUBDIVISION", "GENEVA SUBDIVISION"],
+
+    "NORTH WESTERN ELEVATED RAIL ROAD CO": ["NORTH SIDE MAIN LINE"],
+    "NORTHWESTERN ELEVATED": ["NORTH SIDE MAIN LINE"],
+    "NORTHWESTERN ELEVATED R R": ["NORTH SIDE MAIN LINE"],
+
+    "C GT R R": ["ELSDON SUBDIVISION", "ELSDON INDUSTRIAL LEAD"],
+    "C G T R R": ["ELSDON SUBDIVISION", "ELSDON INDUSTRIAL LEAD"],
+    "G T RY": ["ELSDON SUBDIVISION", "ELSDON INDUSTRIAL LEAD"],
+    "GRAND TRUNK RY": ["ELSDON SUBDIVISION", "ELSDON INDUSTRIAL LEAD"],
+
+    "ROCK ISLAND": ["JOLIET SUB DISTRICT", "BEVERLY SUB DISTRICT", "BLUE ISLAND SUB DISTRICT"],
+    "C R I P R R": ["JOLIET SUB DISTRICT", "BEVERLY SUB DISTRICT", "BLUE ISLAND SUB DISTRICT"],
+    "C R I P RY": ["JOLIET SUB DISTRICT", "BEVERLY SUB DISTRICT", "BLUE ISLAND SUB DISTRICT"],
+
+    "BELT RAILWAY OF CHICAGO": ["BELT RAILWAY OF CHICAGO"],
+    "BELT RY OF CHICAGO": ["BELT RAILWAY OF CHICAGO"],
+
+    "I H B R R": ["INDIANA HARBOR BELT RAILROAD", "INDIANA HARBOR BELT MAINLINE", "IHB"],
+    "INDIANA HARBOR BELT R R": ["INDIANA HARBOR BELT RAILROAD", "INDIANA HARBOR BELT MAINLINE", "IHB"],
+
+    "UNION EL LOOP R R": ["LOOP L"],
+    "UNION ELEV LOOP R R": ["LOOP L"],
+
+    "SOUTH SIDE ELEV R R": ["SOUTH SIDE ELEVATED"],
+    "SOUTHSIDE ELEV R R": ["SOUTH SIDE ELEVATED"],
+    "S S ELEVATED R R": ["SOUTH SIDE ELEVATED"],
+    "C S S R T CO": ["SOUTH SIDE ELEVATED"],
+    "C S S R T CO ELEVATED R R": ["SOUTH SIDE ELEVATED"],
+    "CHIC AND S S R T CO ELEVATED R R": ["SOUTH SIDE ELEVATED"],
+
+    "CHIC OAK PARK EL R R": ["LAKE BRANCH"],
+    "CHIC OAK PARK ELEV R R": ["LAKE BRANCH"],
+    "CHICAGO OAK PARK EL R R": ["LAKE BRANCH"],
+
+    "CHICAGO EVANSTON R R": ["NORTH SIDE MAIN LINE", "EVANSTON BRANCH"]
+  },
+  "binding_notes": {
+    "NORTH SIDE MAIN LINE": "CM&StP Evanston Division / Northwestern Elevated right-of-way is today's CTA North Side Main Line; carried by the citywide merged extract (rail-chicago-cta-overpass.json) and corridor extracts (tests/data/f5_rail.json). Bound only from corridor-naming rows (Evanston Div/Branch, Northwestern Elevated, Chicago & Evanston) — with CTA geometry live citywide, generic C.M.&ST.P. labels crossing the el bound ~400 m off that road's actual Kingsbury trackage, so the generic rows dropped this group (measured on _018 p17).",
+    "LOOP L / SOUTH SIDE ELEVATED / LAKE BRANCH / EVANSTON BRANCH": "CTA elevated alignments still on their original structures: Union Loop, South Side Elevated (Chicago & South Side Rapid Transit), Lake Street Elevated (Chicago & Oak Park), Evanston Branch (Chicago & Evanston). Adopted from a measured trial.",
+    "UP KENOSHA SUBDIVISION": "C&NW Milwaukee Division (grade-separated 1900s-10s, hence the sheets' '(ELEVATED)') -> C&NW -> UP; Metra UP-N. Bare 'MILWAUKEE DIVISION' follows Sanborn's C&NW division style; CM&StP branches print as 'C.M.&ST.P.' with parentheticals.",
+    "C M SUBDIVISION / ELGIN SUBDIVISION": "surviving Milwaukee Road main lines (Chicago & Milwaukee; West/Elgin) for a generic CM&StP label.",
+    "ELSDON SUBDIVISION": "Chicago & Grand Trunk -> Grand Trunk Western -> CN Elsdon Sub.",
+    "JOLIET/BEVERLY/BLUE ISLAND SUB DISTRICT": "CRI&P main + branches -> Metra Rock Island District.",
+    "BELT RAILWAY OF CHICAGO / IHB": "belt lines still operating on their original alignments under their own names."
+  },
+  "unbound": {
+    "CHICAGO JUNCTION R Y": "stockyards belt; trackage demolished with the Union Stock Yards — no modern successor geometry (measured 856-1205 m noise)",
+    "CHICAGO JUNCTION RY": "see CHICAGO JUNCTION R Y",
+    "C JUNCTION R Y": "see CHICAGO JUNCTION R Y",
+    "CHICAGO JUNCTION R Y 47TH ST YARD": "see CHICAGO JUNCTION R Y",
+    "CHICAGO LOOMIS JUNCTION R Y ST YARD": "see CHICAGO JUNCTION R Y",
+    "STOCK YARDS TRANSIT CO": "stockyards trackage demolished",
+    "TRANSIT CO": "stockyards trackage demolished",
+    "SWIFT R R": "packer-owned yard trackage demolished",
+    "SWIFT CO CAR REPAIR TRACKS": "packer-owned yard trackage demolished",
+    "M C R R": "Michigan Central's Chicago approach rode IC lakefront trackage — no distinct modern group",
+    "ERIE R R": "entered Chicago on C&WI trackage rights — no distinct modern group",
+    "N Y C ST L R R": "Nickel Plate; South Side approach absorbed/abandoned — no confident modern group",
+    "METROPOLITAN WEST SIDE ELEVATED R R": "the Garfield Park main line was demolished for the Congress alignment; only the Paulina Connector and parts of the Douglas branch survive — binding needs per-branch raster verification, not initialism matching. Covers the whole ~50-label family of spelling variants (MET WEST SIDE ELEV RY, METROPOLITAN WESTSIDE EL RY, branch-qualified forms, ...).",
+    "METROPOLITAN WEST SIDE ELEVATED R R ELECTRIC": "see METROPOLITAN WEST SIDE ELEVATED R R",
+    "MET WEST SIDE ELEV RY": "see METROPOLITAN WEST SIDE ELEVATED R R",
+    "METROPOLITAN WESTSIDE EL RY": "see METROPOLITAN WEST SIDE ELEVATED R R",
+    "N W ELEV R R": "ambiguous initialism: Northwestern Elevated (north side) vs the Metropolitan's Northwest branch (west side) — resolve per volume against the raster before adding rows (~40 labels incl. N W EL R R)",
+    "N W EL R R": "see N W ELEV R R",
+    "ELECTRIC R R ON ELEVATED PLATFORM": "not a railroad name",
+    "ELECTRIC R R ON ELEVATED PLATFORM FROM PLANS": "not a railroad name",
+    "D DIVISION": "not a railroad name",
+    "DIV B": "not a railroad name"
+  }
+}

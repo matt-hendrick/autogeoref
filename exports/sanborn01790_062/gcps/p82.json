@@ -1,0 +1,146 @@
+{
+  "page": "82",
+  "n_streets": 10,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. OSHKOSH AV.",
+      "N. ORIOLE AV."
+    ],
+    [
+      "N. OXFORD AV.",
+      "N. ONARGA AV."
+    ],
+    [
+      "N. ONARGA AV.",
+      "N. OLYMPIA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4337,
+            1044
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OSHKOSH AV. x N. ORIOLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.816479924911,
+            42.004164469773485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5185,
+            5445
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OXFORD AV. x N. ONARGA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.81400865113324,
+            42.003274861775814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5185,
+            7443
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ONARGA AV. x N. OLYMPIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.81308139547201,
+            42.00268727371036
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            567,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.81805560899741,
+            42.002909860549416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5106,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.81628645882344,
+            42.00454772358448
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            567,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.8147516089739,
+            42.00093909260047
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": 51.4153,
+  "seam_adjusted": {
+    "dx_m": 0.193,
+    "dy_m": 2.205
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8199,
+    "separation_ratio": 1.307,
+    "best_offset_m": 31.0,
+    "n_junctions": 4
+  }
+}

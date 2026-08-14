@@ -1,0 +1,206 @@
+{
+  "page": "52",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "E. 24TH ST.",
+      "PRAIRIE AV. BLVD."
+    ],
+    [
+      "E. 25TH ST.",
+      "PRAIRIE AV. BLVD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4516,
+            2655
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 24TH ST. x PRAIRIE AV. BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62057251224404,
+            41.84933314716475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4516,
+            6752
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 25TH ST. x PRAIRIE AV. BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62055127997037,
+            41.8475026528722
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62300073168885,
+            41.85017710390096
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5279,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62014971080876,
+            41.850222285167575
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62292501140662,
+            41.847525860016695
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6847,
+    "separation_ratio": 1.261,
+    "best_offset_m": 13.8,
+    "n_junctions": 11
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5"
+      ],
+      "consensus_numerals": 16,
+      "votable": 16,
+      "in_block": 15,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 13.6,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 13.7,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 13.7,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 13.9,
+          "addr_diff": 5.2
+        },
+        {
+          "perp_m": 3.9,
+          "addr_diff": 3.5
+        },
+        {
+          "perp_m": 4.0,
+          "addr_diff": 3.7
+        },
+        {
+          "perp_m": 4.1,
+          "addr_diff": 2.9
+        },
+        {
+          "perp_m": 4.1,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 4.2,
+          "addr_diff": 2.7
+        },
+        {
+          "perp_m": 3.9,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 3.8,
+          "addr_diff": 2.1
+        },
+        {
+          "perp_m": 38.8,
+          "addr_diff": 14.0
+        },
+        {
+          "perp_m": 26.0,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 25.8,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 27.1,
+          "addr_diff": 4.0
+        },
+        {
+          "perp_m": 65.0,
+          "addr_diff": 52.0
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

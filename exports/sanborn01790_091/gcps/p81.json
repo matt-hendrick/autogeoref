@@ -1,0 +1,132 @@
+{
+  "page": "81",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.32,
+  "auto_residuals_m": [
+    0.95,
+    1.12,
+    0.2,
+    0.59,
+    0.64
+  ],
+  "inlier_streets": [
+    [
+      "HIRSCH ST.",
+      "N. LEAVITT"
+    ],
+    [
+      "N. LEAVITT",
+      "EVERGREEN AV."
+    ],
+    [
+      "N. LEAVITT",
+      "W. POTOMAC AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "EVERGREEN AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. POTOMAC AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            866,
+            2607
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH ST. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68224647442692,
+            41.906746135048536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            866,
+            4422
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x EVERGREEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68222310599846,
+            41.90593403810239
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            866,
+            6628
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x W. POTOMAC AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68219368797513,
+            41.90492137839087
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4898,
+            4422
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x EVERGREEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67978191967073,
+            41.9059723384874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4898,
+            6628
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. POTOMAC AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67975371610774,
+            41.90496029159919
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

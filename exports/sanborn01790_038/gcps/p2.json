@@ -1,0 +1,138 @@
+{
+  "page": "2",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N. AVERS AV.",
+      "ARGYLE"
+    ],
+    [
+      "N. HAMLIN AV.",
+      "ARGYLE"
+    ],
+    [
+      "N. RIDGEWAY AV.",
+      "ARGYLE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1054,
+            7928
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AVERS AV. x ARGYLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72449778115745,
+            41.971925637169946
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3149,
+            7928
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HAMLIN AV. x ARGYLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72324042674758,
+            41.97193936172452
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5051,
+            7928
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RIDGEWAY AV. x ARGYLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72201586392279,
+            41.97195259537559
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72482690629687,
+            41.975140284940224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5271,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72196487113514,
+            41.97516442438568
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72477976165415,
+            41.97205086762899
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 2 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

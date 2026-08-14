@@ -1,0 +1,159 @@
+{
+  "page": "14S",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.05,
+  "auto_residuals_m": [
+    1.67,
+    0.42,
+    2.77,
+    1.76,
+    1.39,
+    1.5
+  ],
+  "inlier_streets": [
+    [
+      "W. LAKE",
+      "N. WELLS"
+    ],
+    [
+      "W. LAKE",
+      "N. LA SALLE"
+    ],
+    [
+      "W. COUCH PL.",
+      "N. WELLS"
+    ],
+    [
+      "W. COUCH PL.",
+      "N. LA SALLE"
+    ],
+    [
+      "W. RANDOLPH",
+      "N. WELLS"
+    ],
+    [
+      "W. RANDOLPH",
+      "N. LA SALLE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1574,
+            2169
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6339405098637,
+            41.88574030110449
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4203,
+            2169
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. LA SALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63245766465734,
+            41.88574889080321
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1574,
+            3682
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. COUCH PL. x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6339229383512,
+            41.88511445957243
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4203,
+            3682
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. COUCH PL. x N. LA SALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63243483590762,
+            41.88510517639944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1574,
+            5084
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63390538571848,
+            41.88448098498042
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4203,
+            5084
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. LA SALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63244565788398,
+            41.88448430948827
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.163,
+    "dy_m": 1.718
+  }
+}

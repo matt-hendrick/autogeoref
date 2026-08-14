@@ -1,0 +1,214 @@
+{
+  "page": "78",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 4,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "S. FRANCISCO AV.",
+      "W. 42ND ST."
+    ],
+    [
+      "S. FRANCISCO AV.",
+      "W. 42ND ST."
+    ],
+    [
+      "W. 42ND ST.",
+      "S. MOZART AV."
+    ],
+    [
+      "W. 42ND ST.",
+      "S. CALIFORNIA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            948,
+            4403
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x W. 42ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69693349228055,
+            41.81731124311116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            938,
+            4403
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x W. 42ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69693349228055,
+            41.81731124311116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2917,
+            4403
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. MOZART AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69570827037964,
+            41.81733059513861
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4962,
+            4403
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.694482155008,
+            41.81735993530741
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69721517345457,
+            41.81894762912662
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5280,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69430830622123,
+            41.81899911927169
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6971150291531,
+            41.815807494855044
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6772,
+    "separation_ratio": 1.387,
+    "best_offset_m": 2.4,
+    "n_junctions": 10
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 7,
+      "votable": 7,
+      "in_block": 7,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 16.0,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 15.5,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 15.1,
+          "addr_diff": 0.5
+        },
+        {
+          "perp_m": 14.1,
+          "addr_diff": 0.9
+        },
+        {
+          "perp_m": 14.9,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 15.4,
+          "addr_diff": 3.4
+        },
+        {
+          "perp_m": 15.2,
+          "addr_diff": 3.1
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

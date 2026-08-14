@@ -1,0 +1,157 @@
+{
+  "page": "3606",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.01,
+  "auto_residuals_m": [
+    0.36,
+    0.37,
+    0.71,
+    0.63,
+    0.43,
+    0.33
+  ],
+  "inlier_streets": [
+    [
+      "W. 81ST ST.",
+      "S. WINCHESTER"
+    ],
+    [
+      "W. 81ST ST.",
+      "S. HONORE"
+    ],
+    [
+      "W. 82ND ST.",
+      "S. WINCHESTER"
+    ],
+    [
+      "W. 82ND ST.",
+      "S. HONORE"
+    ],
+    [
+      "W. 83RD ST.",
+      "S. WINCHESTER"
+    ],
+    [
+      "W. 83RD ST.",
+      "S. HONORE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1278,
+            319
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 81ST ST. x S. WINCHESTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6718326754735,
+            41.746603685649234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5313,
+            319
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 81ST ST. x S. HONORE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66941034757447,
+            41.746635377212094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1278,
+            4282
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 82ND ST. x S. WINCHESTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67178924625895,
+            41.74478270860039
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5313,
+            4282
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 82ND ST. x S. HONORE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66936535498233,
+            41.74481508381292
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1278,
+            8279
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 83RD ST. x S. WINCHESTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67174858304149,
+            41.742960528419985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5313,
+            8279
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 83RD ST. x S. HONORE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66932297474902,
+            41.7429919387683
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

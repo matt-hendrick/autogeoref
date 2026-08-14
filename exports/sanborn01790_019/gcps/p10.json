@@ -1,0 +1,132 @@
+{
+  "page": "10",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "rotation_deg": 1.07,
+  "auto_residuals_m": [
+    7.44,
+    7.4,
+    0.38,
+    1.2,
+    1.57
+  ],
+  "inlier_streets": [
+    [
+      "FULLERTON AV.",
+      "N. HALSTED"
+    ],
+    [
+      "FULLERTON AV.",
+      "LINCOLN AV."
+    ],
+    [
+      "BELDEN AV.",
+      "FREMONT"
+    ],
+    [
+      "BELDEN AV.",
+      "N. HALSTED"
+    ],
+    [
+      "BELDEN AV.",
+      "DAYTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4767,
+            205
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64876128806412,
+            41.925453841712276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4983,
+            205
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x LINCOLN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64876128806412,
+            41.925453841712276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            849,
+            4116
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x FREMONT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65112281125067,
+            41.92359639575993
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4767,
+            4116
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64869672275621,
+            41.923630133703945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2838,
+            4116
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x DAYTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64991227009133,
+            41.923615569233334
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

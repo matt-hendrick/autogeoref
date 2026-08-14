@@ -1,0 +1,159 @@
+{
+  "page": "112",
+  "n_streets": 8,
+  "n_candidates": 21,
+  "n_inliers": 6,
+  "rotation_deg": 1.39,
+  "auto_residuals_m": [
+    9.61,
+    16.02,
+    19.12,
+    6.78,
+    3.96,
+    9.61
+  ],
+  "inlier_streets": [
+    [
+      "W. RANDOLPH",
+      "N. CARPENTER"
+    ],
+    [
+      "W. RANDOLPH",
+      "N. MORGAN"
+    ],
+    [
+      "W. WASHINGTON BLVD.",
+      "N. CARPENTER"
+    ],
+    [
+      "W. WASHINGTON BLVD.",
+      "N. MORGAN"
+    ],
+    [
+      "W. MADISON",
+      "N. MORGAN"
+    ],
+    [
+      "W. MADISON",
+      "ABERDEEN ST"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3570,
+            696
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. CARPENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65322680446201,
+            41.88429902290527
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5245,
+            696
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6520607654655,
+            41.88431993785564
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3570,
+            3515
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD. x N. CARPENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65319159449142,
+            41.8830363638099
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5245,
+            3515
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD. x N. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65202816153263,
+            41.88305689708337
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5245,
+            6426
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x N. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65198866027372,
+            41.881693685884365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            265,
+            6426
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x ABERDEEN ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65465946300337,
+            41.881656779554945
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.769,
+    "dy_m": -0.953
+  }
+}

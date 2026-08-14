@@ -1,0 +1,157 @@
+{
+  "page": "64",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.77,
+  "auto_residuals_m": [
+    0.76,
+    1.42,
+    0.69,
+    0.75,
+    1.43,
+    0.71
+  ],
+  "inlier_streets": [
+    [
+      "W. GRAND AV.",
+      "N. CURTIS"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. CARPENTER"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. MORGAN"
+    ],
+    [
+      "W. AUSTIN AV.",
+      "N. CURTIS"
+    ],
+    [
+      "W. AUSTIN AV.",
+      "N. CARPENTER"
+    ],
+    [
+      "W. AUSTIN AV.",
+      "N. MORGAN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1009,
+            3702
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. CURTIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65462942894905,
+            41.89110888017152
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2948,
+            3702
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. CARPENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65346195930498,
+            41.89112032055311
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4950,
+            3702
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65229567208492,
+            41.89113309114846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1009,
+            6102
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. AUSTIN AV. x N. CURTIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65459871894876,
+            41.89001573500341
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2948,
+            6102
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. AUSTIN AV. x N. CARPENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6534312950125,
+            41.89002720117048
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4950,
+            6102
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. AUSTIN AV. x N. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65226522059076,
+            41.89003816456849
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

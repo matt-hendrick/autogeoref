@@ -1,0 +1,157 @@
+{
+  "page": "17",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.79,
+  "auto_residuals_m": [
+    1.93,
+    1.53,
+    1.18,
+    1.97,
+    1.63,
+    1.19
+  ],
+  "inlier_streets": [
+    [
+      "W. 14TH ST.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "W. 14TH PL.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "W. 14TH PL.",
+      "LAFLIN"
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 15TH ST."
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 15TH PL."
+    ],
+    [
+      "LAFLIN",
+      "W. 15TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1275,
+            855
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 14TH ST. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66629589917501,
+            41.86326770666442
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1275,
+            2808
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 14TH PL. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66627081239423,
+            41.862359458411234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5185,
+            2808
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 14TH PL. x LAFLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66390775143286,
+            41.86238890783071
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1275,
+            4805
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 15TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66624204986117,
+            41.86145150534789
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1275,
+            6772
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 15TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66622327651467,
+            41.86058333681131
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5185,
+            4805
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAFLIN x W. 15TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66386526856262,
+            41.86149431890017
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

@@ -1,0 +1,159 @@
+{
+  "page": "80",
+  "n_streets": 5,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 1.13,
+  "auto_residuals_m": [
+    10.86,
+    7.66,
+    3.27,
+    13.54,
+    6.97,
+    6.64
+  ],
+  "inlier_streets": [
+    [
+      "POLK",
+      "SHERMAN"
+    ],
+    [
+      "POLK",
+      "LASALLE"
+    ],
+    [
+      "POLK",
+      "5TH AV."
+    ],
+    [
+      "TAYLOR",
+      "SHERMAN"
+    ],
+    [
+      "TAYLOR",
+      "LASALLE"
+    ],
+    [
+      "TAYLOR",
+      "5TH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2480,
+            1181
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x SHERMAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63253315818659,
+            41.87217237516404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3743,
+            1181
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63159544429995,
+            41.8721876154398
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            613,
+            1181
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x 5TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63354662086317,
+            41.8721553390729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2480,
+            6837
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x SHERMAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63249711218015,
+            41.86987500102313
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3743,
+            6837
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63154149778418,
+            41.86989103783089
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            613,
+            6837
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x 5TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63345646035204,
+            41.86986630670598
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.983,
+    "dy_m": 0.639
+  }
+}

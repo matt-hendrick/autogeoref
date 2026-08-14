@@ -1,0 +1,142 @@
+{
+  "page": "28",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 14TH PL.",
+      "S. CANAL"
+    ],
+    [
+      "S. CANAL",
+      "W. 15TH PL."
+    ],
+    [
+      "S. CANAL",
+      "W. 16TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1287,
+            979
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 14TH PL. x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63909389535362,
+            41.86246819666646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1287,
+            3660
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CANAL x W. 15TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63905030849746,
+            41.86130601545495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1287,
+            6316
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CANAL x W. 16TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6390136663112,
+            41.86001802673476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63951599866327,
+            41.862583513682004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5275,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6366567918978,
+            41.86262652518853
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63944383923997,
+            41.85992290520578
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.2781,
+    "separation_ratio": 0.943,
+    "best_offset_m": 84.4,
+    "n_junctions": 11
+  }
+}

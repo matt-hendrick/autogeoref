@@ -1,0 +1,142 @@
+{
+  "page": "117",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "TELL PL.",
+      "N. ASHLAND AV."
+    ],
+    [
+      "EMILY ST.",
+      "N. ASHLAND AV."
+    ],
+    [
+      "N. ASHLAND AV.",
+      "AUGUSTA"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            998,
+            1746
+          ],
+          "username": "autogeoref",
+          "note": "auto: TELL PL. x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66744355790661,
+            41.90152434375603
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            998,
+            2782
+          ],
+          "username": "autogeoref",
+          "note": "auto: EMILY ST. x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66742950274819,
+            41.90104161932043
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            998,
+            5698
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND AV. x AUGUSTA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66739245957523,
+            41.89970797652407
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6677122067288,
+            41.901973681701676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5241,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66485996538759,
+            41.90202040657058
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66763326805018,
+            41.89930424507417
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6696,
+    "separation_ratio": 1.226,
+    "best_offset_m": 2.8,
+    "n_junctions": 14
+  }
+}

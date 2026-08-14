@@ -1,0 +1,206 @@
+{
+  "page": "9",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 8,
+  "rotation_deg": 2.42,
+  "auto_residuals_m": [
+    3.63,
+    7.49,
+    13.96,
+    7.33,
+    6.35,
+    19.31,
+    8.97,
+    2.69
+  ],
+  "inlier_streets": [
+    [
+      "WRIGHTWOOD AVE.",
+      "SEMINARY AVE."
+    ],
+    [
+      "WRIGHTWOOD AVE.",
+      "SHEFFIELD AVE."
+    ],
+    [
+      "WRIGHTWOOD AVE.",
+      "LINCOLN AVE."
+    ],
+    [
+      "LILL AVE.",
+      "SEMINARY AVE."
+    ],
+    [
+      "LILL AVE.",
+      "SHEFFIELD AVE."
+    ],
+    [
+      "MONTANA",
+      "SEMINARY AVE."
+    ],
+    [
+      "FULLERTON AVE.",
+      "SEMINARY AVE."
+    ],
+    [
+      "FULLERTON AVE.",
+      "SHEFFIELD AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            874,
+            83
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE. x SEMINARY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65614484701038,
+            41.92893713030219
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4933,
+            83
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE. x SHEFFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65371909617774,
+            41.92897879110667
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5255,
+            83
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE. x LINCOLN AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65371909617774,
+            41.92897879110667
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            874,
+            2164
+          ],
+          "username": "autogeoref",
+          "note": "auto: LILL AVE. x SEMINARY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65611003133978,
+            41.928029986716716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4933,
+            2164
+          ],
+          "username": "autogeoref",
+          "note": "auto: LILL AVE. x SHEFFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65368735216163,
+            41.9280719553619
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            874,
+            5682
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTANA x SEMINARY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65604849397425,
+            41.92627228416202
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            874,
+            8229
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AVE. x SEMINARY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65601175995452,
+            41.92531440814169
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4933,
+            8229
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AVE. x SHEFFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65359735685217,
+            41.925346845159446
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": 1.695,
+    "dy_m": -4.333
+  }
+}

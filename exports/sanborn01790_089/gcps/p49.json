@@ -1,0 +1,120 @@
+{
+  "page": "49",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "E. CERMAK RD. (E. 22ND ST.)",
+      "S. MICHIGAN AV. (BOULEVARD)"
+    ],
+    [
+      "E. CERMAK RD. (E. 22ND ST.)",
+      "INDIANA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1651,
+            833
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CERMAK RD. (E. 22ND ST.) x S. MICHIGAN AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62381024363914,
+            41.852865516706714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4159,
+            833
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CERMAK RD. (E. 22ND ST.) x INDIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62227410889163,
+            41.852887712156274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62446012175238,
+            41.852902333272205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5218,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62163435092349,
+            41.85294216862831
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62439257494009,
+            41.85024386433975
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6002,
+    "separation_ratio": 1.152,
+    "best_offset_m": 2.7,
+    "n_junctions": 15
+  }
+}

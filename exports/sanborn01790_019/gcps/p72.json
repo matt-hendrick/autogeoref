@@ -1,0 +1,204 @@
+{
+  "page": "72",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "CLEVELAND AV.",
+      "REES ST."
+    ],
+    [
+      "CLEVELAND AV.",
+      "SIGEL ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4928,
+            4590
+          ],
+          "username": "autogeoref",
+          "note": "auto: CLEVELAND AV. x REES ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64087582890905,
+            41.90648048060301
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4928,
+            4635
+          ],
+          "username": "autogeoref",
+          "note": "auto: CLEVELAND AV. x SIGEL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64087582890905,
+            41.90648048060301
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64357160635727,
+            41.908194267038105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5253,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64073020902846,
+            41.90824091974712
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64349296022883,
+            41.90554125420221
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5666,
+    "separation_ratio": 1.254,
+    "best_offset_m": 1.6,
+    "n_junctions": 21
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 15,
+      "votable": 15,
+      "in_block": 15,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 22.3,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 22.3,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 22.3,
+          "addr_diff": 2.3
+        },
+        {
+          "perp_m": 22.3,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 22.3,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 22.3,
+          "addr_diff": 2.1
+        },
+        {
+          "perp_m": 22.4,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 15.8,
+          "addr_diff": 1.8
+        },
+        {
+          "perp_m": 15.7,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 15.7,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 15.5,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 15.1,
+          "addr_diff": 1.3
+        },
+        {
+          "perp_m": 15.1,
+          "addr_diff": 1.5
+        },
+        {
+          "perp_m": 15.0,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 15.0,
+          "addr_diff": 0.0
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

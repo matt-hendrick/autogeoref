@@ -1,0 +1,161 @@
+{
+  "page": "84",
+  "n_streets": 11,
+  "n_candidates": 11,
+  "n_inliers": 6,
+  "rotation_deg": -88.64,
+  "auto_residuals_m": [
+    0.31,
+    0.06,
+    2.96,
+    2.64,
+    7.15,
+    7.17
+  ],
+  "inlier_streets": [
+    [
+      "N. WESTERN AV.",
+      "MCLEAN AV."
+    ],
+    [
+      "N. WESTERN AV.",
+      "ARMITAGE AV."
+    ],
+    [
+      "N. WESTERN AV.",
+      "CHARLESTON"
+    ],
+    [
+      "N. WESTERN AV.",
+      "CHARLESTON ST."
+    ],
+    [
+      "CHARLESTON",
+      "N. MAPLEWOOD AV."
+    ],
+    [
+      "N. MAPLEWOOD AV.",
+      "CHARLESTON ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3184,
+            1720
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x MCLEAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68742731101904,
+            41.91855524719296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5356,
+            1720
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68739406313611,
+            41.91753803377672
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            256,
+            1720
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x CHARLESTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68747097018391,
+            41.919950522259875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            460,
+            1720
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x CHARLESTON ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68746729845131,
+            41.919817406228674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            256,
+            8007
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHARLESTON x N. MAPLEWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6913355909606,
+            41.91992611832592
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            460,
+            8007
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAPLEWOOD AV. x CHARLESTON ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6913355909606,
+            41.91992611832592
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 1.773,
+    "dy_m": -4.444
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "page": "97",
+  "n_streets": 9,
+  "n_candidates": 13,
+  "n_inliers": 5,
+  "rotation_deg": 0.81,
+  "auto_residuals_m": [
+    0.38,
+    0.71,
+    0.74,
+    1.74,
+    0.83
+  ],
+  "inlier_streets": [
+    [
+      "E. 85TH ST.",
+      "S. CRANDON AV."
+    ],
+    [
+      "E. 85TH ST.",
+      "S. OGLESBY AV."
+    ],
+    [
+      "E. 85TH ST.",
+      "S. YATES AV."
+    ],
+    [
+      "S. YATES AV.",
+      "E. 86TH ST."
+    ],
+    [
+      "S. YATES AV.",
+      "E. 87TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1254,
+            259
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 85TH ST. x S. CRANDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56848250616544,
+            41.74079733620408
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3319,
+            259
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 85TH ST. x S. OGLESBY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56726699768653,
+            41.74081322416818
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5351,
+            259
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 85TH ST. x S. YATES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56605422805038,
+            41.74082870399319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5351,
+            4267
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. YATES AV. x E. 86TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56602926870059,
+            41.73901385744443
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5351,
+            8359
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. YATES AV. x E. 87TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56600562469013,
+            41.737194663349456
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.048,
+    "dy_m": 0.235
+  }
+}

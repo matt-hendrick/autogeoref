@@ -1,0 +1,157 @@
+{
+  "page": "25",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.92,
+  "auto_residuals_m": [
+    1.53,
+    1.56,
+    0.05,
+    0.45,
+    0.69,
+    1.07
+  ],
+  "inlier_streets": [
+    [
+      "E. 31ST ST.",
+      "S. PRAIRIE AV."
+    ],
+    [
+      "E. 31ST ST.",
+      "S. GILES AV."
+    ],
+    [
+      "E. 31ST ST.",
+      "S. CALUMET AV."
+    ],
+    [
+      "S. PRAIRIE AV.",
+      "E. 32ND ST."
+    ],
+    [
+      "S. GILES AV.",
+      "E. 32ND ST."
+    ],
+    [
+      "S. CALUMET AV.",
+      "E. 32ND ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            921,
+            531
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 31ST ST. x S. PRAIRIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6206359633079,
+            41.83838087437809
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2785,
+            531
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 31ST ST. x S. GILES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61948226942317,
+            41.83839533461886
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4678,
+            531
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 31ST ST. x S. CALUMET AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61826869239965,
+            41.83840917693462
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            921,
+            4570
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PRAIRIE AV. x E. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62062349000679,
+            41.83655421588968
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2785,
+            4570
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. GILES AV. x E. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6194440874807,
+            41.83656764991059
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4678,
+            4570
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALUMET AV. x E. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61822850771965,
+            41.83658283562698
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

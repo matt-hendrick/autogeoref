@@ -1,0 +1,249 @@
+{
+  "page": "60",
+  "n_streets": 10,
+  "n_candidates": 18,
+  "n_inliers": 10,
+  "rotation_deg": 1.53,
+  "auto_residuals_m": [
+    5.69,
+    3.15,
+    2.65,
+    8.78,
+    4.24,
+    4.22,
+    5.89,
+    3.84,
+    2.89,
+    3.98
+  ],
+  "inlier_streets": [
+    [
+      "WILMOT AV.",
+      "N. HOYNE AV."
+    ],
+    [
+      "WILMOT AV.",
+      "N. HOYNE AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "WABANSIA AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "ALICE PL."
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. NORTH AV."
+    ],
+    [
+      "WABANSIA AV.",
+      "N. ROBEY"
+    ],
+    [
+      "WABANSIA AV.",
+      "N. HOYNE AV."
+    ],
+    [
+      "N. ROBEY",
+      "W. NORTH AV."
+    ],
+    [
+      "ALICE PL.",
+      "N. HOYNE AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. NORTH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            842,
+            600
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILMOT AV. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67997950470489,
+            41.913027758627976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            714,
+            600
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILMOT AV. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67997950470489,
+            41.913027758627976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            842,
+            2288
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x WABANSIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67995569871448,
+            41.91225625148727
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            842,
+            4485
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x ALICE PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68001003374178,
+            41.91124773381966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            842,
+            6353
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67990665847684,
+            41.91044005696264
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4848,
+            2288
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67750625948122,
+            41.91230740562289
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            714,
+            2288
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67995569871448,
+            41.91225625148727
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4848,
+            6353
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROBEY x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67758604860713,
+            41.910472743733905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            714,
+            4485
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALICE PL. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68001003374178,
+            41.91124773381966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            714,
+            6353
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67998606159256,
+            41.91043895087851
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

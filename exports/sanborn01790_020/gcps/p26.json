@@ -1,0 +1,120 @@
+{
+  "page": "26",
+  "n_streets": 4,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "E. 18TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 18TH ST.",
+      "S. MICHIGAN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1547,
+            998
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 18TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62561064449152,
+            41.857855084134805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4458,
+            998
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 18TH ST. x S. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62393332320357,
+            41.85787798307047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62624231644124,
+            41.85796340729986
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5291,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62338497724008,
+            41.85800868318334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62616659615902,
+            41.85531248614098
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4059,
+    "separation_ratio": 1.169,
+    "best_offset_m": 23.1,
+    "n_junctions": 33
+  }
+}

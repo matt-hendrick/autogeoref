@@ -1,0 +1,159 @@
+{
+  "page": "60",
+  "n_streets": 10,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 0.91,
+  "auto_residuals_m": [
+    2.51,
+    3.64,
+    0.94,
+    2.56,
+    3.35,
+    1.12
+  ],
+  "inlier_streets": [
+    [
+      "65TH PL. (65TH TERRACE)",
+      "WASHINGTON AVE."
+    ],
+    [
+      "65TH PL. (65TH TERRACE)",
+      "STONY ISLAND AVE."
+    ],
+    [
+      "66TH PL.",
+      "WASHINGTON AVE."
+    ],
+    [
+      "66TH PL.",
+      "STONY ISLAND AVE."
+    ],
+    [
+      "67TH",
+      "WASHINGTON AVE."
+    ],
+    [
+      "67TH",
+      "STONY ISLAND AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            862,
+            2244
+          ],
+          "username": "autogeoref",
+          "note": "auto: 65TH PL. (65TH TERRACE) x WASHINGTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58884507126984,
+            41.77607525733395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4791,
+            2244
+          ],
+          "username": "autogeoref",
+          "note": "auto: 65TH PL. (65TH TERRACE) x STONY ISLAND AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58628056511184,
+            41.7761059378829
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            862,
+            6202
+          ],
+          "username": "autogeoref",
+          "note": "auto: 66TH PL. x WASHINGTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58880235619225,
+            41.774244658067744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4791,
+            6202
+          ],
+          "username": "autogeoref",
+          "note": "auto: 66TH PL. x STONY ISLAND AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58630744169623,
+            41.77427300074878
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            862,
+            8196
+          ],
+          "username": "autogeoref",
+          "note": "auto: 67TH x WASHINGTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58874974807202,
+            41.77332582096066
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4791,
+            8196
+          ],
+          "username": "autogeoref",
+          "note": "auto: 67TH x STONY ISLAND AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58628026263348,
+            41.77335565697711
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.769,
+    "dy_m": 2.443
+  }
+}

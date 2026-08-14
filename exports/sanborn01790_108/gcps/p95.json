@@ -1,0 +1,123 @@
+{
+  "page": "95",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. KILBOURN AV.",
+      "W. NORTH AV."
+    ],
+    [
+      "N. KOSTNER AV.",
+      "WABANSIA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            880,
+            8204
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILBOURN AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7385813168704,
+            41.90972817768271
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4764,
+            4278
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KOSTNER AV. x WABANSIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7361963801959,
+            41.91158771129854
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7388290107557,
+            41.913121159158166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5288,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73592204942813,
+            41.91315876236603
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7387558673959,
+            41.9099898151214
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -3.805,
+    "dy_m": 1.09
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6192,
+    "separation_ratio": 1.457,
+    "best_offset_m": 8.4,
+    "n_junctions": 10
+  }
+}

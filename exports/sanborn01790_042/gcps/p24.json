@@ -1,0 +1,137 @@
+{
+  "page": "24",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 49TH ST.",
+      "S. LAWNDALE AV."
+    ],
+    [
+      "S. LAWNDALE AV.",
+      "W. 51ST ST."
+    ],
+    [
+      "S. CENTRAL PARK AV.",
+      "W. 51ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            683,
+            142
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 49TH ST. x S. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71610646163518,
+            41.80430890062427
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            683,
+            8015
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LAWNDALE AV. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71600646791829,
+            41.80065417276484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4814,
+            8015
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTRAL PARK AV. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71349802214783,
+            41.80068996799378
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7162051345073,
+            41.80400614435827
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71337988828293,
+            41.80405130057299
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7161162875436,
+            41.80091723825461
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "page": "45",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.39,
+  "auto_residuals_m": [
+    1.06,
+    1.54,
+    0.98,
+    0.65,
+    1.61,
+    1.53,
+    2.29,
+    1.21
+  ],
+  "inlier_streets": [
+    [
+      "W. ARDMORE AV.",
+      "N. SACRAMENTO AV."
+    ],
+    [
+      "W. ARDMORE AV.",
+      "N. RICHMOND"
+    ],
+    [
+      "N. SACRAMENTO AV.",
+      "W. HOLLYWOOD AV."
+    ],
+    [
+      "N. SACRAMENTO AV.",
+      "W. BRYN MAWR AV."
+    ],
+    [
+      "W. HOLLYWOOD AV.",
+      "N. RICHMOND"
+    ],
+    [
+      "W. HOLLYWOOD AV.",
+      "N. FRANCISCO AV."
+    ],
+    [
+      "N. RICHMOND",
+      "W. BRYN MAWR AV."
+    ],
+    [
+      "N. FRANCISCO AV.",
+      "W. BRYN MAWR AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            897,
+            257
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARDMORE AV. x N. SACRAMENTO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70409255448963,
+            41.98673310347513
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2924,
+            257
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARDMORE AV. x N. RICHMOND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70287898262268,
+            41.98673729652968
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            897,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO AV. x W. HOLLYWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70403204304917,
+            41.984915367532885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            897,
+            8241
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO AV. x W. BRYN MAWR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70397379259808,
+            41.983098464725984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2924,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HOLLYWOOD AV. x N. RICHMOND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70281848919495,
+            41.984921495027024
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4867,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HOLLYWOOD AV. x N. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70160482087256,
+            41.98492783326187
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2924,
+            8241
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RICHMOND x W. BRYN MAWR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70276337261433,
+            41.98310475046515
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4867,
+            8241
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANCISCO AV. x W. BRYN MAWR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70154648213064,
+            41.98311058388621
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.232,
+    "dy_m": 0.125
+  }
+}

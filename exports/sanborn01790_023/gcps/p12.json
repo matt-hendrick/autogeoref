@@ -1,0 +1,111 @@
+{
+  "page": "12",
+  "n_streets": 9,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 1.26,
+  "auto_residuals_m": [
+    0.97,
+    3.06,
+    3.09,
+    1.0
+  ],
+  "inlier_streets": [
+    [
+      "AUGUSTA",
+      "N. RACINE AV. (N. CENTRE AV.)"
+    ],
+    [
+      "CORNELL",
+      "N. ELIZABETH"
+    ],
+    [
+      "N. ELIZABETH",
+      "FRY"
+    ],
+    [
+      "N. RACINE AV. (N. CENTRE AV.)",
+      "FRY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5401,
+            707
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. RACINE AV. (N. CENTRE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65759521650494,
+            41.89986560575132
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1360,
+            4751
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORNELL x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66005609721543,
+            41.898009534291276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1360,
+            6702
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELIZABETH x FRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65998406084304,
+            41.897109140068004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5401,
+            6702
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RACINE AV. (N. CENTRE AV.) x FRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65754112415293,
+            41.89716178989263
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

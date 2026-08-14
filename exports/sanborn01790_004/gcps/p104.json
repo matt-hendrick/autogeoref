@@ -1,0 +1,156 @@
+{
+  "page": "104",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 6,
+  "rotation_deg": 0.91,
+  "auto_residuals_m": [
+    4.82,
+    8.37,
+    3.56,
+    4.51,
+    8.72,
+    4.21
+  ],
+  "inlier_streets": [
+    [
+      "S. FRANCISCO AV.",
+      "W. 25TH"
+    ],
+    [
+      "S. FRANCISCO AV.",
+      "W. 25TH PL."
+    ],
+    [
+      "S. FRANCISCO AV.",
+      "W. 26TH"
+    ],
+    [
+      "W. 25TH",
+      "S. CALIFORNIA AV."
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. 25TH PL."
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. 26TH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            861,
+            3599
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x W. 25TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.697746463847,
+            41.84642274949083
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            861,
+            5496
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x W. 25TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69771766708513,
+            41.845540080060836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            861,
+            7792
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x W. 26TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69769361378097,
+            41.844658152994676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4900,
+            3599
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 25TH x S. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69527239425777,
+            41.84644988838171
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4900,
+            5496
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. 25TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69523962117098,
+            41.845567107377825
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4900,
+            7792
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. 26TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69521534421762,
+            41.84469194348625
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

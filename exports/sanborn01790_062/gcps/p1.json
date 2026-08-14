@@ -1,0 +1,132 @@
+{
+  "page": "1",
+  "n_streets": 9,
+  "n_candidates": 11,
+  "n_inliers": 5,
+  "rotation_deg": 0.27,
+  "auto_residuals_m": [
+    3.03,
+    3.68,
+    0.65,
+    2.17,
+    2.17
+  ],
+  "inlier_streets": [
+    [
+      "W. BRYN MAWR AV.",
+      "N. AUSTIN AV."
+    ],
+    [
+      "W. BRYN MAWR AV.",
+      "N. MASON AV."
+    ],
+    [
+      "W. BRYN MAWR AV.",
+      "N. MARMORA AV."
+    ],
+    [
+      "N. MASON AV.",
+      "W. CATALPA AV."
+    ],
+    [
+      "W. CATALPA AV.",
+      "N. MARMORA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            814,
+            432
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BRYN MAWR AV. x N. AUSTIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7780384734645,
+            41.982904855603095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2802,
+            432
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BRYN MAWR AV. x N. MASON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77682613156604,
+            41.98290499367521
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4960,
+            432
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BRYN MAWR AV. x N. MARMORA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77561396701084,
+            41.98291229150401
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2802,
+            4401
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MASON AV. x W. CATALPA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77686094324032,
+            41.981095001272145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4960,
+            4401
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CATALPA AV. x N. MARMORA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7756490371912,
+            41.981100929213646
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

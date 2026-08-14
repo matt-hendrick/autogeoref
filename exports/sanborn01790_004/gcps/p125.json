@@ -1,0 +1,228 @@
+{
+  "page": "125",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 1.3,
+  "auto_residuals_m": [
+    7.47,
+    7.32,
+    7.56,
+    16.44,
+    8.87,
+    16.35,
+    16.34,
+    9.13,
+    8.81
+  ],
+  "inlier_streets": [
+    [
+      "W. 28TH",
+      "S. TRUMBULL AV."
+    ],
+    [
+      "W. 28TH",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. 28TH",
+      "S. HOMAN AV."
+    ],
+    [
+      "S. TRUMBULL AV.",
+      "W. 30TH"
+    ],
+    [
+      "S. TRUMBULL AV.",
+      "W. 31ST"
+    ],
+    [
+      "W. 30TH",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. 30TH",
+      "S. HOMAN AV."
+    ],
+    [
+      "S. ST. LOUIS AV.",
+      "W. 31ST"
+    ],
+    [
+      "S. HOMAN AV.",
+      "W. 31ST"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2254,
+            268
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 28TH x S. TRUMBULL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71102986051953,
+            41.840749502726744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            187,
+            268
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 28TH x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7122525640196,
+            41.84072988018046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4341,
+            268
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 28TH x S. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70981053999901,
+            41.84076941767007
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2254,
+            4295
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. TRUMBULL AV. x W. 30TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71097931253965,
+            41.838922056648215
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2254,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. TRUMBULL AV. x W. 31ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71092789502323,
+            41.837095089626445
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            187,
+            4295
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 30TH x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7121996861964,
+            41.83890057509427
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4341,
+            4295
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 30TH x S. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70975839475886,
+            41.83894204860692
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            187,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x W. 31ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71212157328911,
+            41.837074031153136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4341,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOMAN AV. x W. 31ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70971322078324,
+            41.83711635018704
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.073,
+    "dy_m": -4.315
+  }
+}

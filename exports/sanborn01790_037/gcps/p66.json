@@ -1,0 +1,207 @@
+{
+  "page": "66",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 8,
+  "rotation_deg": 1.6,
+  "auto_residuals_m": [
+    1.21,
+    1.36,
+    3.08,
+    2.4,
+    3.54,
+    2.81,
+    3.7,
+    3.82
+  ],
+  "inlier_streets": [
+    [
+      "N. PRAIRIE AV.",
+      "FRINK"
+    ],
+    [
+      "N. PRAIRIE AV.",
+      "WEST END"
+    ],
+    [
+      "S. FRANKLIN AV.",
+      "FRINK"
+    ],
+    [
+      "S. FRANKLIN AV.",
+      "WEST END"
+    ],
+    [
+      "FRINK",
+      "S. PRAIRIE AV."
+    ],
+    [
+      "FRINK",
+      "S. WALLER AV."
+    ],
+    [
+      "S. PRAIRIE AV.",
+      "WEST END"
+    ],
+    [
+      "S. WALLER AV.",
+      "WEST END"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3232,
+            4896
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PRAIRIE AV. x FRINK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7699386747109,
+            41.88566492596027
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3232,
+            8170
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PRAIRIE AV. x WEST END"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76988621656353,
+            41.884155581359416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            196,
+            4896
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANKLIN AV. x FRINK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77196444737413,
+            41.88563626350441
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            196,
+            8170
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANKLIN AV. x WEST END"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77191620336423,
+            41.88410304207685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3263,
+            4896
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRINK x S. PRAIRIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7699386747109,
+            41.88566492596027
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5566,
+            4896
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRINK x S. WALLER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76832515911424,
+            41.88568831382085
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3263,
+            8170
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PRAIRIE AV. x WEST END"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76988621656353,
+            41.884155581359416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5566,
+            8170
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WALLER AV. x WEST END"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76826292240351,
+            41.884203353286665
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 0.932,
+    "dy_m": 2.93
+  }
+}

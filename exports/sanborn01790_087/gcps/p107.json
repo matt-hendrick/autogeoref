@@ -1,0 +1,142 @@
+{
+  "page": "107",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. ARMITAGE AV. (W. CENTER)",
+      "N. HALSTED"
+    ],
+    [
+      "W. ARMITAGE AV. (W. CENTER)",
+      "N. BURLING"
+    ],
+    [
+      "W. ARMITAGE AV. (W. CENTER)",
+      "N. ORCHARD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            961,
+            1247
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARMITAGE AV. (W. CENTER) x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64850888668978,
+            41.91817970832017
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2971,
+            1247
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARMITAGE AV. (W. CENTER) x N. BURLING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64731152245535,
+            41.91819449461465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4985,
+            1247
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARMITAGE AV. (W. CENTER) x N. ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64611764942781,
+            41.91821424044822
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64875765091624,
+            41.91840605621035
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5307,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64590905874786,
+            41.91844809075885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64868749974914,
+            41.91577380899858
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.3871,
+    "separation_ratio": 0.881,
+    "best_offset_m": 96.2,
+    "n_junctions": 13
+  }
+}

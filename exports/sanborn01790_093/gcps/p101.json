@@ -1,0 +1,155 @@
+{
+  "page": "101",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.18,
+  "auto_residuals_m": [
+    0.36,
+    0.29,
+    0.43,
+    0.19,
+    0.65,
+    0.44
+  ],
+  "inlier_streets": [
+    [
+      "W. 13TH ST.",
+      "S. DAMEN AV. (S. ROBEY)"
+    ],
+    [
+      "W. 13TH ST.",
+      "S. WOLCOTT AV. (S. LINCOLN)"
+    ],
+    [
+      "S. DAMEN AV. (S. ROBEY)",
+      "HASTINGS"
+    ],
+    [
+      "S. DAMEN AV. (S. ROBEY)",
+      "W. 14TH ST."
+    ],
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "HASTINGS"
+    ],
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "W. 14TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            970,
+            3046
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. DAMEN AV. (S. ROBEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67619716655297,
+            41.864938115191315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4939,
+            3046
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. WOLCOTT AV. (S. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67374941583688,
+            41.86497590618876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            970,
+            5055
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAMEN AV. (S. ROBEY) x HASTINGS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67617393836548,
+            41.86403297256853
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            970,
+            7047
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAMEN AV. (S. ROBEY) x W. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6761501007273,
+            41.86312716522255
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4939,
+            5055
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x HASTINGS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67372401432556,
+            41.864072156799395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4939,
+            7047
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x W. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67369542037936,
+            41.863163391917006
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

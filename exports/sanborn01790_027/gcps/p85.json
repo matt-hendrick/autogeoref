@@ -1,0 +1,120 @@
+{
+  "page": "85",
+  "n_streets": 10,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "DICKENS AV.",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. SPRINGFIELD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4538,
+            3923
+          ],
+          "username": "autogeoref",
+          "note": "auto: DICKENS AV. x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72416751830775,
+            41.91902479014699
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4538,
+            7757
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7242166937736,
+            41.917195884636705
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72671980915534,
+            41.920420462829306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72390476134126,
+            41.92044788895749
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72666574863885,
+            41.91734830532305
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.7858,
+    "separation_ratio": 0.984,
+    "best_offset_m": 90.2,
+    "n_junctions": 4
+  }
+}

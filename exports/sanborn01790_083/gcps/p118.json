@@ -1,0 +1,120 @@
+{
+  "page": "118",
+  "n_streets": 9,
+  "n_candidates": 10,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N. SHEFFIELD AV.",
+      "W. CLAY"
+    ],
+    [
+      "N. SHEFFIELD AV.",
+      "W. WILLOW"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4738,
+            2215
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SHEFFIELD AV. x W. CLAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65329484379353,
+            41.9159649694027
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4738,
+            7028
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SHEFFIELD AV. x W. WILLOW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65321230417834,
+            41.91373478925521
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65584955786181,
+            41.91657035827798
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5160,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65305242163146,
+            41.91661953474917
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6557651422848,
+            41.91391164328456
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.8427,
+    "separation_ratio": 0.914,
+    "best_offset_m": 61.8,
+    "n_junctions": 5
+  }
+}

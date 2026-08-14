@@ -1,0 +1,205 @@
+{
+  "page": "56",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 8,
+  "rotation_deg": 0.98,
+  "auto_residuals_m": [
+    0.96,
+    1.29,
+    0.74,
+    1.21,
+    1.0,
+    1.0,
+    1.47,
+    1.18
+  ],
+  "inlier_streets": [
+    [
+      "W. 63RD ST.",
+      "S. BELL AV. (S. IRVING AV.)"
+    ],
+    [
+      "W. 63RD ST.",
+      "S. HAMILTON AV."
+    ],
+    [
+      "S. BELL AV. (S. IRVING AV.)",
+      "W. 64TH ST."
+    ],
+    [
+      "S. BELL AV. (S. IRVING AV.)",
+      "W. 64TH ST."
+    ],
+    [
+      "S. BELL AV. (S. IRVING AV.)",
+      "W. 65TH ST."
+    ],
+    [
+      "W. 64TH ST.",
+      "S. HAMILTON AV."
+    ],
+    [
+      "S. HAMILTON AV.",
+      "W. 64TH ST."
+    ],
+    [
+      "S. HAMILTON AV.",
+      "W. 65TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1218,
+            334
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD ST. x S. BELL AV. (S. IRVING AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67985877744843,
+            41.779217804775406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4658,
+            334
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD ST. x S. HAMILTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67756828590566,
+            41.779249023646464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1218,
+            4233
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. BELL AV. (S. IRVING AV.) x W. 64TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67981309727192,
+            41.77743010332704
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1218,
+            4226
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. BELL AV. (S. IRVING AV.) x W. 64TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67981309727192,
+            41.77743010332704
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1218,
+            8247
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. BELL AV. (S. IRVING AV.) x W. 65TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67976859727332,
+            41.77561279295492
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4658,
+            4233
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 64TH ST. x S. HAMILTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67751903827516,
+            41.77745761873013
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4658,
+            4226
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HAMILTON AV. x W. 64TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67751903827516,
+            41.77745761873013
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4658,
+            8247
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HAMILTON AV. x W. 65TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.677475076193,
+            41.77564323716115
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.532,
+    "dy_m": -2.385
+  }
+}

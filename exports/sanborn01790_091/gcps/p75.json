@@ -1,0 +1,119 @@
+{
+  "page": "75",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. NORTH AV.",
+      "N. NOBLE"
+    ],
+    [
+      "N. GREENVIEW AV.(HOLT)",
+      "W. LE MOYNE (BLANCHE)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4897,
+            879
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66283122458435,
+            41.91069878382174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            888,
+            4928
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GREENVIEW AV.(HOLT) x W. LE MOYNE (BLANCHE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66520188337334,
+            41.90884355682947
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66544972068704,
+            41.91073136679413
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5285,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66258952677029,
+            41.91077926320906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66536946698226,
+            41.90807718941823
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.6741,
+    "separation_ratio": 0.972,
+    "best_offset_m": 99.9,
+    "n_junctions": 11
+  }
+}

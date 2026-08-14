@@ -1,0 +1,181 @@
+{
+  "page": "45",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "AUGUSTA",
+      "N. KEDZIE AV."
+    ],
+    [
+      "N. KEDZIE AV.",
+      "W. CHICAGO AV."
+    ],
+    [
+      "N. SAWYER AV. (MEAD)",
+      "W. CHICAGO AV."
+    ],
+    [
+      "N. SPAULDING AV. (SHERIDAN)",
+      "W. CHICAGO AV."
+    ],
+    [
+      "N. SPAULDING AV. (SHERIDAN)",
+      "W. CHICAGO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3850,
+            298
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70667445662725,
+            41.899195400613614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3850,
+            8270
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE AV. x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70655633278601,
+            41.895553409489146
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2028,
+            8270
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SAWYER AV. (MEAD) x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70777674459333,
+            41.895541372564665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            98,
+            8270
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPAULDING AV. (SHERIDAN) x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70885052773097,
+            41.89553133767514
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            98,
+            8270
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPAULDING AV. (SHERIDAN) x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70899948180526,
+            41.89552977768269
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            566,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70868532628798,
+            41.89890641089737
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5097,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70592176688093,
+            41.89893450259657
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            566,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.708628651148,
+            41.895817408882365
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

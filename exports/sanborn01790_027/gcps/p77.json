@@ -1,0 +1,202 @@
+{
+  "page": "77",
+  "n_streets": 18,
+  "n_candidates": 10,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "N. CALIFORNIA AV.",
+      "FRANCIS"
+    ],
+    [
+      "N. CALIFORNIA AV.",
+      "ARMITAGE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            458,
+            6520
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CALIFORNIA AV. x FRANCIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69721942360239,
+            41.918142410373406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            458,
+            7918
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CALIFORNIA AV. x ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69720058244529,
+            41.91748948322077
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6971969242875,
+            41.92079271829975
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69438187647341,
+            41.92082014426795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.697142863771,
+            41.91772057871503
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7757,
+    "separation_ratio": 1.587,
+    "best_offset_m": 6.4,
+    "n_junctions": 16
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 15,
+      "votable": 15,
+      "in_block": 15,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 18.5,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 18.3,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 18.2,
+          "addr_diff": 1.7
+        },
+        {
+          "perp_m": 18.1,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 18.0,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 17.9,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 17.8,
+          "addr_diff": 1.0
+        },
+        {
+          "perp_m": 17.7,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 17.4,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 17.3,
+          "addr_diff": 0.5
+        },
+        {
+          "perp_m": 17.2,
+          "addr_diff": 1.8
+        },
+        {
+          "perp_m": 17.1,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 17.0,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 16.9,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 16.9,
+          "addr_diff": 1.0
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

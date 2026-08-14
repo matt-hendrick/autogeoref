@@ -1,0 +1,167 @@
+{
+  "page": "89",
+  "n_streets": 9,
+  "n_candidates": 15,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 22ND ST.",
+      "S. ROBEY"
+    ],
+    [
+      "W. 22ND ST.",
+      "S. LINCOLN"
+    ],
+    [
+      "S. ROBEY",
+      "W. 22ND PL."
+    ],
+    [
+      "S. LINCOLN",
+      "W. 22ND PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            877,
+            4167
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND ST. x S. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67583791331022,
+            41.85219323403057
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4890,
+            4167
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND ST. x S. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67338828975655,
+            41.85222845774118
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            877,
+            6151
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROBEY x W. 22ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67581040403246,
+            41.85128614383784
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4890,
+            6151
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LINCOLN x W. 22ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67336664974746,
+            41.85132056978151
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67605776525804,
+            41.85374669233725
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5252,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6732107543924,
+            41.8537895262974
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67598560583473,
+            41.85108571619965
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 0.267,
+    "dy_m": 2.583
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.5447,
+    "separation_ratio": 0.975,
+    "best_offset_m": 96.2,
+    "n_junctions": 19
+  }
+}

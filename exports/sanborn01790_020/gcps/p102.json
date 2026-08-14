@@ -1,0 +1,156 @@
+{
+  "page": "102",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.04,
+  "auto_residuals_m": [
+    1.54,
+    2.64,
+    1.13,
+    1.19,
+    2.81,
+    1.65
+  ],
+  "inlier_streets": [
+    [
+      "W. 30TH ST.",
+      "S. HALSTED"
+    ],
+    [
+      "W. 30TH ST.",
+      "EMERALD AV."
+    ],
+    [
+      "W. 30TH ST.",
+      "UNION AV."
+    ],
+    [
+      "W. 31ST ST.",
+      "S. HALSTED"
+    ],
+    [
+      "W. 31ST ST.",
+      "EMERALD AV."
+    ],
+    [
+      "W. 31ST ST.",
+      "UNION AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            979,
+            2407
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 30TH ST. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6463223216326,
+            41.83986432116146
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2957,
+            2407
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 30TH ST. x EMERALD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6451119887972,
+            41.83988318855668
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4824,
+            2407
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 30TH ST. x UNION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64390048194653,
+            41.83989933085378
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            979,
+            6404
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64627815788684,
+            41.838045567805636
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2957,
+            6404
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x EMERALD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64506609703855,
+            41.83805968427135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4824,
+            6404
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x UNION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64384849089586,
+            41.83807635566946
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

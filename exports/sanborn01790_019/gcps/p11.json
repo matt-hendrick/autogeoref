@@ -1,0 +1,248 @@
+{
+  "page": "11",
+  "n_streets": 9,
+  "n_candidates": 13,
+  "n_inliers": 10,
+  "rotation_deg": 0.88,
+  "auto_residuals_m": [
+    5.83,
+    6.47,
+    13.55,
+    5.92,
+    6.2,
+    13.51,
+    5.84,
+    5.88,
+    14.3,
+    7.95
+  ],
+  "inlier_streets": [
+    [
+      "FULLERTON AV.",
+      "N. HALSTED"
+    ],
+    [
+      "FULLERTON AV.",
+      "ORCHARD"
+    ],
+    [
+      "FULLERTON AV.",
+      "BURLING"
+    ],
+    [
+      "FULLERTON PARKWAY",
+      "N. HALSTED"
+    ],
+    [
+      "FULLERTON PARKWAY",
+      "ORCHARD"
+    ],
+    [
+      "FULLERTON PARKWAY",
+      "BURLING"
+    ],
+    [
+      "N. HALSTED",
+      "BELDEN AV."
+    ],
+    [
+      "BELDEN AV.",
+      "ORCHARD"
+    ],
+    [
+      "BELDEN AV.",
+      "BURLING"
+    ],
+    [
+      "ORCHARD",
+      "KEMPER PL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            304,
+            403
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64876128806412,
+            41.925453841712276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4077,
+            403
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64633630227519,
+            41.92549325162828
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2477,
+            403
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x BURLING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64753992050736,
+            41.925472114098206
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            304,
+            384
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON PARKWAY x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64876128806412,
+            41.925453841712276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4077,
+            384
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON PARKWAY x ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64633630227519,
+            41.92549325162828
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2477,
+            384
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON PARKWAY x BURLING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64753992050736,
+            41.925472114098206
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            304,
+            4540
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64869672275621,
+            41.923630133703945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4077,
+            4540
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6462761234021,
+            41.92366833399041
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2477,
+            4540
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x BURLING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64748230872586,
+            41.92364948156665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4077,
+            2362
+          ],
+          "username": "autogeoref",
+          "note": "auto: ORCHARD x KEMPER PL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6463070551758,
+            41.9245810418859
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

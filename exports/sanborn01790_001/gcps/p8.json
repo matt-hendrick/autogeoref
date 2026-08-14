@@ -1,0 +1,109 @@
+{
+  "page": "8",
+  "n_streets": 9,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 1.36,
+  "auto_residuals_m": [
+    0.15,
+    0.13,
+    0.1,
+    0.12
+  ],
+  "inlier_streets": [
+    [
+      "WRIGHTWOOD AVE.",
+      "RACINE AVE."
+    ],
+    [
+      "WRIGHTWOOD AVE.",
+      "SEMINARY AVE."
+    ],
+    [
+      "MONTANA",
+      "RACINE AVE."
+    ],
+    [
+      "MONTANA",
+      "SEMINARY AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            599,
+            100
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE. x RACINE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6585781370291,
+            41.928923315891346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4762,
+            100
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE. x SEMINARY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65616007345444,
+            41.928966088746904
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            599,
+            5873
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTANA x RACINE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65848615441115,
+            41.926258612672434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4762,
+            5873
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTANA x SEMINARY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65606372041833,
+            41.92630124381641
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

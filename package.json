@@ -1,0 +1,16 @@
+{
+  "name": "autogeoref-frontend-checks",
+  "private": true,
+  "description": "Dev-only lint toolchain for the hand-written frontend. NOTHING here is a runtime dependency: the viewer is four files plus a vendored tree copied verbatim into the deploy bundle, with no bundler and no module graph, so a visitor's page cannot be broken by a toolchain that is not installed. That property is why `make lint-js` may own an npm dependency and the deploy path may not. Install with `make setup-js`.",
+  "scripts": {
+    "lint": "node node_modules/eslint/bin/eslint.js ."
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.13.0",
+    "@eslint/js": "^9.39.0",
+    "eslint": "^9.39.0",
+    "eslint-plugin-html": "^8.1.3",
+    "eslint-plugin-no-unsanitized": "^4.1.5",
+    "globals": "^16.5.0"
+  }
+}

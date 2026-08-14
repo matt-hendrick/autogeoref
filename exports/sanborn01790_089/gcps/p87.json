@@ -1,0 +1,141 @@
+{
+  "page": "87",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 25TH ST.",
+      "PRAIRIE AV. (BOULEVARD)"
+    ],
+    [
+      "PRAIRIE AV. (BOULEVARD)",
+      "E. 26TH ST."
+    ],
+    [
+      "E. 26TH ST.",
+      "CALUMET AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1580,
+            269
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 25TH ST. x PRAIRIE AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62055127997037,
+            41.8475026528722
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1580,
+            4330
+          ],
+          "username": "autogeoref",
+          "note": "auto: PRAIRIE AV. (BOULEVARD) x E. 26TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62048133166658,
+            41.84568496332805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4308,
+            4330
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 26TH ST. x CALUMET AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61886420373885,
+            41.84571019803325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6211532509617,
+            41.847301222743944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5240,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61831578325459,
+            41.847341226495374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6210857041494,
+            41.84464252103307
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7421,
+    "separation_ratio": 1.198,
+    "best_offset_m": 1.8,
+    "n_junctions": 15
+  }
+}

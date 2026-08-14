@@ -1,0 +1,120 @@
+{
+  "page": "25",
+  "n_streets": 4,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "S. CENTRAL PARK AV.",
+      "W. 51ST ST."
+    ],
+    [
+      "S. ST. LOUIS AV.",
+      "W. 51ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            705,
+            7706
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTRAL PARK AV. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71349802214783,
+            41.80068996799378
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4624,
+            7706
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71112626224446,
+            41.80071612403714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71372462601694,
+            41.80390214257865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71089937979255,
+            41.80394729886667
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71363577905325,
+            41.8008132314613
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.1577,
+    "separation_ratio": 0.986,
+    "best_offset_m": 99.6,
+    "n_junctions": 4
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "page": "123",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 7,
+  "rotation_deg": 1.42,
+  "auto_residuals_m": [
+    0.92,
+    2.01,
+    0.74,
+    2.68,
+    1.38,
+    1.26,
+    0.96
+  ],
+  "inlier_streets": [
+    [
+      "W. 38TH ST.",
+      "S. HALSTED AV."
+    ],
+    [
+      "W. 38TH ST.",
+      "S. EMERALD AV."
+    ],
+    [
+      "W. 38TH ST.",
+      "S. UNION AV."
+    ],
+    [
+      "W. 38TH PL.",
+      "S. HALSTED AV."
+    ],
+    [
+      "W. PERSHING ROAD (W. 39TH ST.)",
+      "S. HALSTED AV."
+    ],
+    [
+      "W. PERSHING ROAD (W. 39TH ST.)",
+      "S. EMERALD AV."
+    ],
+    [
+      "W. PERSHING ROAD (W. 39TH ST.)",
+      "S. UNION AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            513,
+            1681
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x S. HALSTED AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64598399272312,
+            41.82555758870922
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2525,
+            2320
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x S. EMERALD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64475998515901,
+            41.825294341868734
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4628,
+            2320
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x S. UNION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64353489537177,
+            41.82531332171265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            513,
+            3962
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH PL. x S. HALSTED AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64596102503106,
+            41.824517071344346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            513,
+            6389
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PERSHING ROAD (W. 39TH ST.) x S. HALSTED AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64592818942018,
+            41.82345905709028
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2525,
+            6389
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PERSHING ROAD (W. 39TH ST.) x S. EMERALD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64472041754387,
+            41.82347388346668
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4628,
+            6389
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PERSHING ROAD (W. 39TH ST.) x S. UNION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64348999458716,
+            41.82349159654484
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

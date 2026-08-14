@@ -1,0 +1,141 @@
+{
+  "page": "84",
+  "n_streets": 9,
+  "n_candidates": 9,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 35TH PL.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "S. OAKLEY AV.",
+      "W. 36TH ST."
+    ],
+    [
+      "W. 36TH ST.",
+      "S. WESTERN AV. BLVD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3569,
+            524
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH PL. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68257467805512,
+            41.829313767579265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3569,
+            2332
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY AV. x W. 36TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68254736478926,
+            41.82847474533105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            289,
+            2332
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. WESTERN AV. BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68440515979154,
+            41.82846018999262
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6843166695422,
+            41.82917955955841
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5272,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68151330973822,
+            41.829215291805454
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68425673116273,
+            41.82656857763634
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5894,
+    "separation_ratio": 1.656,
+    "best_offset_m": 5.1,
+    "n_junctions": 18
+  }
+}

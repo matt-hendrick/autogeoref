@@ -1,0 +1,228 @@
+{
+  "page": "16",
+  "n_streets": 8,
+  "n_candidates": 19,
+  "n_inliers": 9,
+  "rotation_deg": 0.73,
+  "auto_residuals_m": [
+    7.8,
+    17.56,
+    6.99,
+    1.36,
+    0.54,
+    1.21,
+    3.27,
+    2.69,
+    0.39
+  ],
+  "inlier_streets": [
+    [
+      "HIRSCH",
+      "N. LAWNDALE AV."
+    ],
+    [
+      "HIRSCH",
+      "N. MONTICELLO AV."
+    ],
+    [
+      "HIRSCH",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "N. LAWNDALE AV.",
+      "POTOMAC AV."
+    ],
+    [
+      "N. LAWNDALE AV.",
+      "W. DIVISION"
+    ],
+    [
+      "POTOMAC AV.",
+      "N. MONTICELLO AV."
+    ],
+    [
+      "POTOMAC AV.",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "N. MONTICELLO AV.",
+      "W. DIVISION"
+    ],
+    [
+      "N. CENTRAL PARK AV.",
+      "W. DIVISION"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1315,
+            144
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71908637309767,
+            41.906348087148366
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3343,
+            144
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. MONTICELLO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71807235600377,
+            41.90635910221176
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5300,
+            144
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71665371815499,
+            41.90637457145379
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1315,
+            4126
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWNDALE AV. x POTOMAC AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71905202046776,
+            41.90453983310382
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1315,
+            8120
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWNDALE AV. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71896811553553,
+            41.90273517563735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3343,
+            4126
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. MONTICELLO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71781171845052,
+            41.904551513119785
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5300,
+            4126
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7165945264021,
+            41.90456269079174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3343,
+            8120
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MONTICELLO AV. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71775290923571,
+            41.90274580408847
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5300,
+            8120
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL PARK AV. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71653402037536,
+            41.902755094464794
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.158,
+    "dy_m": 0.119
+  }
+}

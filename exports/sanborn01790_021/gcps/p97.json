@@ -1,0 +1,141 @@
+{
+  "page": "97",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 36TH ST. (PRIVATE)",
+      "S. ASHLAND AV."
+    ],
+    [
+      "W. 37TH ST. (PRIVATE)",
+      "S. ASHLAND AV."
+    ],
+    [
+      "W. 37TH ST. (PRIVATE)",
+      "LAFLIN PL. (PRIVATE)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            245,
+            243
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. (PRIVATE) x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66551789953222,
+            41.82869068050708
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            245,
+            4157
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH ST. (PRIVATE) x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66548189829864,
+            41.826869291155944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3822,
+            4157
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH ST. (PRIVATE) x LAFLIN PL. (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66327712136508,
+            41.826902512708564
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66529017983528,
+            41.828426125826425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5272,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6624868200313,
+            41.828461858494016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66523024145584,
+            41.8258151131756
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  },
+  "seam_adjusted": {
+    "dx_m": -0.03,
+    "dy_m": 2.003
+  }
+}

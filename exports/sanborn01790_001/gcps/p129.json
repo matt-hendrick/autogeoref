@@ -1,0 +1,228 @@
+{
+  "page": "129",
+  "n_streets": 6,
+  "n_candidates": 12,
+  "n_inliers": 9,
+  "rotation_deg": 1.09,
+  "auto_residuals_m": [
+    1.75,
+    5.09,
+    3.32,
+    3.51,
+    3.03,
+    5.71,
+    3.06,
+    5.99,
+    2.88
+  ],
+  "inlier_streets": [
+    [
+      "GRACELAND AVE.",
+      "PERRY"
+    ],
+    [
+      "GRACELAND AVE.",
+      "SHELDON"
+    ],
+    [
+      "GRACELAND AVE.",
+      "SOUTHPORT AVE."
+    ],
+    [
+      "PERRY",
+      "BYRON"
+    ],
+    [
+      "PERRY",
+      "GRACE"
+    ],
+    [
+      "BYRON",
+      "SHELDON"
+    ],
+    [
+      "BYRON",
+      "SOUTHPORT AVE."
+    ],
+    [
+      "SHELDON",
+      "GRACE"
+    ],
+    [
+      "SOUTHPORT AVE.",
+      "GRACE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            83,
+            60
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACELAND AVE. x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66750308240245,
+            41.954296224737405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2895,
+            60
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACELAND AVE. x SHELDON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66582906607358,
+            41.95431802026984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5417,
+            60
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACELAND AVE. x SOUTHPORT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66419904942556,
+            41.9543410110502
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            83,
+            4104
+          ],
+          "username": "autogeoref",
+          "note": "auto: PERRY x BYRON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66743650659488,
+            41.95247388955364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            83,
+            8204
+          ],
+          "username": "autogeoref",
+          "note": "auto: PERRY x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66738835777656,
+            41.950648112105185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2895,
+            4104
+          ],
+          "username": "autogeoref",
+          "note": "auto: BYRON x SHELDON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66578307773254,
+            41.95249731759892
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5417,
+            4104
+          ],
+          "username": "autogeoref",
+          "note": "auto: BYRON x SOUTHPORT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66415249604421,
+            41.95251954188915
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2895,
+            8204
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHELDON x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66573527872487,
+            41.95067213129595
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5417,
+            8204
+          ],
+          "username": "autogeoref",
+          "note": "auto: SOUTHPORT AVE. x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6641019039661,
+            41.95069746133852
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.81,
+    "dy_m": -2.079
+  }
+}

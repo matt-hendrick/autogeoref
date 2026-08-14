@@ -1,0 +1,120 @@
+{
+  "page": "47",
+  "n_streets": 14,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "S. CALIFORNIA AV.",
+      "W. 99TH ST."
+    ],
+    [
+      "S. WASHTENAW AV.",
+      "W. 99TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            697,
+            8200
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. 99TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69172883380338,
+            41.71356566713699
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2670,
+            8200
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WASHTENAW AV. x W. 99TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68925596737712,
+            41.713593431792944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69202459890988,
+            41.72027844090348
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5108,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68646439267941,
+            41.72035472536004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69187147465749,
+            41.71406022248077
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.0155,
+    "separation_ratio": 0.472,
+    "best_offset_m": 96.6,
+    "n_junctions": 6
+  }
+}

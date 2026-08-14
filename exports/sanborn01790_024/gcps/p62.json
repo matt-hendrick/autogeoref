@@ -1,0 +1,136 @@
+{
+  "page": "62",
+  "n_streets": 10,
+  "n_candidates": 9,
+  "n_inliers": 5,
+  "rotation_deg": 2.35,
+  "auto_residuals_m": [
+    5.09,
+    3.37,
+    7.23,
+    7.0,
+    6.15
+  ],
+  "inlier_streets": [
+    [
+      "ABERDEEN ST",
+      "POLK"
+    ],
+    [
+      "W. HARRISON",
+      "S. MORGAN"
+    ],
+    [
+      "VERNON PARK PL.",
+      "S. MORGAN"
+    ],
+    [
+      "ABERDEEN",
+      "POLK"
+    ],
+    [
+      "MILLER",
+      "POLK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            223,
+            6238
+          ],
+          "username": "autogeoref",
+          "note": "auto: ABERDEEN ST x POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65422062401002,
+            41.87181391961025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5352,
+            926
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65179555793904,
+            41.87435916848668
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5352,
+            3796
+          ],
+          "username": "autogeoref",
+          "note": "auto: VERNON PARK PL. x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65165361537308,
+            41.87305783307849
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            417,
+            6238
+          ],
+          "username": "autogeoref",
+          "note": "auto: ABERDEEN x POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65422062401002,
+            41.87181391961025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3712,
+            6238
+          ],
+          "username": "autogeoref",
+          "note": "auto: MILLER x POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65227168384259,
+            41.87184947722049
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.61,
+    "dy_m": -1.412
+  }
+}

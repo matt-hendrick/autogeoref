@@ -1,0 +1,109 @@
+{
+  "page": "128",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 2.01,
+  "auto_residuals_m": [
+    1.42,
+    2.89,
+    2.87,
+    1.38
+  ],
+  "inlier_streets": [
+    [
+      "W. 28TH",
+      "S. SACRAMENTO AV."
+    ],
+    [
+      "W. 30TH",
+      "S. ALBANY AV."
+    ],
+    [
+      "W. 31ST (NOT OPEN)",
+      "S. ALBANY AV."
+    ],
+    [
+      "W. 31ST (NOT OPEN)",
+      "S. SACRAMENTO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5438,
+            176
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 28TH x S. SACRAMENTO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70003623170663,
+            41.840975058977435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1346,
+            4258
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 30TH x S. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70248484254053,
+            41.83905886734724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1346,
+            8277
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST (NOT OPEN) x S. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70237830408384,
+            41.83727670822171
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5438,
+            8277
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST (NOT OPEN) x S. SACRAMENTO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69992452946293,
+            41.837324424286265
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

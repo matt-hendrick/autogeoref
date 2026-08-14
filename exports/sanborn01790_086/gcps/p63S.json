@@ -1,0 +1,141 @@
+{
+  "page": "63S",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W.CONGRESS",
+      "S.FRANKLIN"
+    ],
+    [
+      "S.FRANKLIN",
+      "W.HARRISON"
+    ],
+    [
+      "S.WELLS (S.5TH AV.)",
+      "W.HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1701,
+            2810
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.CONGRESS x S.FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63515429632963,
+            41.876063225539816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1701,
+            6270
+          ],
+          "username": "autogeoref",
+          "note": "auto: S.FRANKLIN x W.HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63508465261208,
+            41.87446049998123
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4189,
+            6270
+          ],
+          "username": "autogeoref",
+          "note": "auto: S.WELLS (S.5TH AV.) x W.HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63362882424464,
+            41.874481206533396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63584292674038,
+            41.87697811427192
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5256,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63299786781053,
+            41.877006074188664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63579583975459,
+            41.87432174930423
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.711,
+    "separation_ratio": 1.181,
+    "best_offset_m": 28.1,
+    "n_junctions": 14
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "page": "106",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 0.96,
+  "auto_residuals_m": [
+    0.5,
+    0.67,
+    0.28,
+    0.23,
+    0.42,
+    0.35
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. LECLAIRE AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. LAWLER AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. LAVERGNE AV."
+    ],
+    [
+      "W. HIRSCH",
+      "N. LECLAIRE AV."
+    ],
+    [
+      "W. HIRSCH",
+      "N. LAWLER AV."
+    ],
+    [
+      "W. HIRSCH",
+      "N. LAVERGNE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1342,
+            468
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. LECLAIRE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7534714801163,
+            41.90953425612091
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3368,
+            468
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. LAWLER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75224051093454,
+            41.90954981790245
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5415,
+            468
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. LAVERGNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75101541198337,
+            41.909566259042045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1342,
+            8413
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HIRSCH x N. LECLAIRE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75338747671438,
+            41.90590775657141
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3368,
+            8413
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HIRSCH x N. LAWLER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75216195857011,
+            41.905921379438794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5415,
+            8413
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HIRSCH x N. LAVERGNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75093558824173,
+            41.90593675768079
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.222,
+    "dy_m": 0.554
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "page": "6",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. HOWARD",
+      "N. EASTLAKE TER."
+    ],
+    [
+      "W. BIRCHWOOD AV.",
+      "W. SHERIDAN RD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2934,
+            710
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HOWARD x N. EASTLAKE TER."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66447653120643,
+            42.019302741503346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            959,
+            3019
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BIRCHWOOD AV. x W. SHERIDAN RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.665642065486,
+            42.018236171590814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66591615845374,
+            42.01922319880855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5298,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66299203891904,
+            42.01927170041253
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66582186268758,
+            42.016085392032956
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 9.516,
+    "dy_m": 4.455
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

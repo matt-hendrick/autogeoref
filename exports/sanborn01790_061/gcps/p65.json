@@ -1,0 +1,159 @@
+{
+  "page": "65",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.98,
+  "auto_residuals_m": [
+    5.39,
+    4.81,
+    9.54,
+    4.28,
+    9.4,
+    4.71
+  ],
+  "inlier_streets": [
+    [
+      "W. BRYN MAWR AV.",
+      "N. SAWYER AV."
+    ],
+    [
+      "W. BRYN MAWR AV.",
+      "N. KEDZIE AV."
+    ],
+    [
+      "N. SAWYER AV.",
+      "W. CATALPA AV."
+    ],
+    [
+      "N. SAWYER AV.",
+      "W. BALMORAL AV."
+    ],
+    [
+      "N. KEDZIE AV.",
+      "W. CATALPA AV."
+    ],
+    [
+      "N. KEDZIE AV.",
+      "W. BALMORAL AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            291,
+            249
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BRYN MAWR AV. x N. SAWYER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7100911397329,
+            41.98306859714114
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2232,
+            249
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BRYN MAWR AV. x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70889586044675,
+            41.98307980679444
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            291,
+            4012
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SAWYER AV. x W. CATALPA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71005220922424,
+            41.98125508935011
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            291,
+            8247
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SAWYER AV. x W. BALMORAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71000748920247,
+            41.97941797905959
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2232,
+            4012
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE AV. x W. CATALPA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70883600419965,
+            41.98127168500801
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2232,
+            8247
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE AV. x W. BALMORAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70878981893061,
+            41.97943649741652
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.14,
+    "dy_m": 1.823
+  }
+}

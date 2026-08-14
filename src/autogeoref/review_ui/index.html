@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Review &amp; adjust</title>
+<!-- Owner-only review/adjust UI, served by `autogeoref review` (localhost).
+     Data + math contract lives in src/autogeoref/review.py: the affine is
+     2x3 with [X,Y] = M @ [1,px,py] in EPSG:3857; every edit is a WORLD-space
+     op (translate / uniform scale / rotate) composed onto the base affine —
+     affine.js mirrors compose_ops() for display only, the server recomputes
+     everything from the op log on save. The UI writes sidecars ONLY. -->
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<style>
+  :root {
+    --paper: #f4eddd; --paper-edge: #e7dcc4; --ink: #221b12;
+    --ink-soft: #5c5142; --carmine: #b0403a; --carmine-dark: #8d2f2b;
+    --ok: #3d6b35; --hairline: rgba(34,27,18,.28);
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; overflow: hidden; }
+  body { font-family: Georgia, "Times New Roman", serif; color: var(--ink); background: #14110c; }
+  #map { position: fixed; inset: 0; }
+
+  #panel {
+    position: fixed; top: 14px; left: 14px; width: 330px;
+    max-height: calc(100% - 28px); display: flex; flex-direction: column;
+    background: var(--paper); border: 1px solid var(--paper-edge);
+    box-shadow: 0 14px 34px -14px rgba(0,0,0,.65); z-index: 30;
+  }
+  #panel header { padding: 12px 16px 10px; border-bottom: 1px solid var(--hairline); }
+  .kicker { font-size: 10.5px; letter-spacing: .22em; text-transform: uppercase; color: var(--carmine-dark); }
+  h1 { font-size: 21px; line-height: 1.05; margin-top: 3px; font-weight: 900; }
+  select, button, input[type=text] {
+    font: 500 13px/1.2 Georgia, serif; color: var(--ink);
+    background: rgba(255,255,255,.5); border: 1px solid var(--hairline); padding: 5px 8px;
+  }
+  button { cursor: pointer; }
+  button:hover { border-color: var(--carmine); }
+  button.primary { background: var(--carmine); border-color: var(--carmine-dark); color: #fdf6ea; }
+  button.primary:hover { background: var(--carmine-dark); }
+  button:disabled { opacity: .4; cursor: default; }
+  #vol-row { display: flex; gap: 6px; padding: 10px 16px; border-bottom: 1px solid var(--hairline); align-items: center; }
+  #vol-row select { flex: 1; min-width: 0; }
+  #vol-row label { font-size: 11.5px; color: var(--ink-soft); white-space: nowrap; }
+
+  #queue { flex: 1; overflow-y: auto; padding: 6px 8px 6px 16px; scrollbar-width: thin; min-height: 90px; }
+  .qi {
+    display: flex; gap: 7px; align-items: baseline; width: 100%; text-align: left;
+    padding: 4px 6px; border: 0; background: transparent; cursor: pointer;
+    font: 500 13px/1.25 Georgia, serif; border-left: 2px solid transparent; color: var(--ink);
+  }
+  .qi:hover { border-left-color: var(--carmine); background: rgba(176,64,58,.06); }
+  .qi.active { border-left-color: var(--carmine-dark); background: rgba(176,64,58,.12); }
+  .qi .pg { font-weight: 700; min-width: 34px; }
+  .qi .st { font-size: 10.5px; color: var(--ink-soft); flex: 1; }
+  .qi .vd { font-size: 10px; padding: 1px 6px; border-radius: 999px; border: 1px solid var(--hairline); }
+  .vd.accept, .vd.adjusted { color: #fdf6ea; background: var(--ok); border-color: var(--ok); }
+  .vd.reject { color: #fdf6ea; background: var(--carmine-dark); border-color: var(--carmine-dark); }
+  .vd.needs-manual-mask { background: #c9a13d; color: #14110c; }
+
+  #sheetbox { border-top: 1px solid var(--hairline); padding: 10px 16px 12px; }
+  #sheet-title { font-size: 15px; font-weight: 900; }
+  #sheet-status { font-size: 11px; color: var(--ink-soft); margin: 2px 0 8px; line-height: 1.35; }
+  #sheet-status b.warn { color: var(--carmine-dark); }
+  .ctl-row { display: flex; gap: 6px; margin-top: 6px; flex-wrap: wrap; align-items: center; }
+  .ctl-row .lab { font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft); min-width: 52px; }
+  input[type=range] { flex: 1; accent-color: var(--carmine); }
+  #ops-log { font-size: 10.5px; color: var(--ink-soft); max-height: 52px; overflow-y: auto; margin-top: 6px; font-family: ui-monospace, Consolas, monospace; }
+  #verdicts { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-top: 10px; }
+  #msg { font-size: 11.5px; margin-top: 8px; min-height: 15px; color: var(--ink-soft); white-space: pre-wrap; }
+  #msg.err { color: var(--carmine-dark); font-weight: 700; }
+  #msg.ok { color: var(--ok); }
+  #timer { position: fixed; top: 14px; right: 14px; z-index: 25; font: 700 13px/1 ui-monospace, Consolas, monospace;
+    color: #f0c9b2; background: rgba(20,17,12,.78); border: 1px solid rgba(244,237,221,.25); padding: 7px 12px; }
+  #qcount { font-size: 11px; color: var(--ink-soft); white-space: nowrap; }
+  #evidence { margin: 2px 0 6px; }
+  #evidence summary { font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--ink-soft); cursor: pointer; }
+  #ev-body { font: 11px/1.5 ui-monospace, Consolas, monospace; color: var(--ink-soft);
+    max-height: 130px; overflow-y: auto; padding: 4px 0 2px; white-space: pre-wrap; }
+  .hint { font-size: 10.5px; color: var(--ink-soft); margin-top: 8px; line-height: 1.45; }
+  .hint b { color: var(--carmine-dark); }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div id="timer" title="per-sheet decision timer (step-0 measurement)">0:00 · avg –</div>
+
+<aside id="panel">
+  <header>
+    <div class="kicker">Owner review · sidecars only</div>
+    <h1>Ghost overlay review</h1>
+  </header>
+  <div id="vol-row">
+    <select id="vol"></select>
+    <span id="qcount"></span>
+    <label><input type="checkbox" id="show-all"> all sheets</label>
+  </div>
+  <nav id="queue"></nav>
+  <div id="sheetbox">
+    <div id="sheet-title">–</div>
+    <div id="sheet-status">pick a sheet from the queue</div>
+    <details id="evidence"><summary>Pipeline evidence</summary><div id="ev-body"></div></details>
+    <div class="ctl-row"><span class="lab">Ghost</span><input type="range" id="opacity" min="0" max="100" value="65"><span id="op-out" style="font-size:11px">65%</span>
+      <label style="font-size:11px"><input type="checkbox" id="show-nbrs" checked> neighbors</label></div>
+    <div class="ctl-row">
+      <button id="mode-move" class="primary">Move</button>
+      <button id="mode-pin" title="place by point pairs: click a sheet point, then its modern map point">Pin</button>
+      <button id="mode-mask">Mask</button>
+      <button id="mask-init" title="start a mask from the sheet frame">Init rect</button>
+      <button id="undo" title="undo last edit (Ctrl-Z)">Undo</button>
+      <button id="reset">Reset</button>
+    </div>
+    <div class="ctl-row" id="pin-row" style="display:none">
+      <span class="lab">Pins</span>
+      <button id="pin-fit" disabled>Fit</button>
+      <button id="pin-clear" disabled>Clear</button>
+      <span id="pin-status" style="font-size:11px; flex:1"></span>
+    </div>
+    <div id="ops-log"></div>
+    <div class="ctl-row"><input type="text" id="note" placeholder="note (why — saved with the verdict)" style="flex:1"></div>
+    <div id="verdicts">
+      <button id="v-accept" class="primary">Accept</button>
+      <button id="v-adjusted" class="primary">Save adjusted</button>
+      <button id="v-reject">Reject</button>
+      <button id="v-mask">Needs manual mask</button>
+    </div>
+    <div class="ctl-row"><button id="apply-btn" style="flex:1" title="materialize every saved verdict for this volume (review --apply, warps deferred)">Apply saved verdicts</button></div>
+    <div id="msg"></div>
+    <p class="hint"><b>Drag</b> the ghost to translate · drag a <b>corner dot</b> for uniform
+      scale · drag the <b>rotate stem</b> or <b>Q/E</b> ±0.2° (shift: ±1°) · <b>arrows</b>
+      nudge 1 m (shift: 10 m) · hold <b>F</b> to flash the ghost off · <b>[ ]</b> prev/next ·
+      pin mode: click a <b>sheet point</b>, then its <b>modern point</b>, ×2+, then Fit ·
+      mask mode: drag vertices, drag a <b>midpoint</b> to insert, <b>right-click</b> a vertex
+      to delete. Red ring→yellow dot: a GCP's sheet anchor tied to the modern node it
+      matched (the tie length is that GCP's residual).</p>
+  </div>
+</aside>
+
+<script src="vendor/maplibre-gl.js"></script>
+<script src="affine.js"></script>
+<script>
+(async function () {
+  "use strict";
+  const $ = (id) => document.getElementById(id);
+  const jf = async (url, opts) => {
+    const r = await fetch(url, opts);
+    const body = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(body.error || (url + " -> " + r.status));
+    return body;
+  };
+  // a result's status and a sidecar's verdict are free strings off disk: a
+  // stray `<` would otherwise eat the rest of the row it is written into
+  const esc = (s) =>
+    String(s ?? "").replace(/[&<>"']/g, (c) =>
+      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+
+  // --- placement math: affine.js, run against the Python that owns each piece
+  // (compose_ops, apply_affine, invert_affine, and pyproj's 3857) ------------
+  const { applyAff, composeOps, toMerc, toLngLat, invAff, pxOf, similarityOps,
+          coalesce, cloneEdits } = ReviewAffine;
+
+  // --- state ---------------------------------------------------------------
+  let volumes = [], vol = null, queue = [], sheet = null;
+  let ops = [], pending = null;      // pending = live gesture op (not yet logged)
+  let maskPx = null, maskDirty = false, mode = "move";
+  let pins = [];                     // [{px, py, w:[x,y]|null}] sheet-px -> world targets
+  let hist = [];                     // undo snapshots (ops + mask + pins)
+  let placed = [];                   // committed placements of this volume (neighbor refs)
+  let t0 = Date.now();
+  const times = [];
+
+  function snapshot() {
+    hist.push(cloneEdits({ ops, maskPx, maskDirty, pins }));
+    if (hist.length > 200) hist.shift();
+  }
+  function undo() {
+    const h = hist.pop();
+    if (!h) return;
+    ops = h.ops; maskPx = h.maskPx; maskDirty = h.maskDirty; pins = h.pins;
+    setGhost(); paint();
+  }
+
+  const curAffine = () => sheet && sheet.affine
+    ? composeOps(sheet.affine, pending ? ops.concat([pending]) : ops) : null;
+  const overlayCorners = () => {
+    const m = curAffine();
+    return m ? sheet.corners_px.map(([px, py]) => toLngLat(...applyAff(m, px, py))) : null;
+  };
+  const overlayCenter3857 = () => {
+    const m = curAffine();
+    const pts = sheet.corners_px.map(([px, py]) => applyAff(m, px, py));
+    return [pts.reduce((s, p) => s + p[0], 0) / 4, pts.reduce((s, p) => s + p[1], 0) / 4];
+  };
+
+  // --- map -----------------------------------------------------------------
+  const map = new maplibregl.Map({
+    container: "map",
+    style: { version: 8, sources: {
+        base: { type: "raster", tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
+                tileSize: 256, maxzoom: 19, attribution: "© OpenStreetMap contributors" } },
+      layers: [
+        { id: "bg", type: "background", paint: { "background-color": "#14110c" } },
+        { id: "base", type: "raster", source: "base",
+          paint: { "raster-saturation": -0.9, "raster-brightness-max": 0.6 } }] },
+    center: [-87.65, 41.85], zoom: 11, attributionControl: false,
+  });
+  map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
+  await new Promise(res => map.on("load", res));
+
+  const empty = { type: "FeatureCollection", features: [] };
+  map.addSource("centerlines", { type: "geojson", data: empty });
+  map.addLayer({ id: "centerlines", type: "line", source: "centerlines",
+    paint: { "line-color": "#7fd4ff", "line-width": 1.4, "line-opacity": .85 } });
+  map.addSource("quad", { type: "geojson", data: empty });
+  map.addLayer({ id: "quad", type: "fill", source: "quad",
+    paint: { "fill-color": "#b0403a", "fill-opacity": 0.02 } });
+  map.addLayer({ id: "quad-line", type: "line", source: "quad",
+    paint: { "line-color": "#b0403a", "line-width": 1.6, "line-dasharray": [3, 2] } });
+  map.addSource("gcp-ties", { type: "geojson", data: empty });
+  map.addLayer({ id: "gcp-tie", type: "line", source: "gcp-ties",
+    filter: ["==", ["get", "kind"], "tie"],
+    paint: { "line-color": "#c62f28", "line-width": 1.5 } });
+  map.addLayer({ id: "gcp-anchor", type: "circle", source: "gcp-ties",
+    filter: ["==", ["get", "kind"], "anchor"],
+    paint: { "circle-radius": 5.5, "circle-color": "rgba(0,0,0,0)",
+             "circle-stroke-color": "#c62f28", "circle-stroke-width": 2 } });
+  map.addSource("gcps", { type: "geojson", data: empty });
+  map.addLayer({ id: "gcps", type: "circle", source: "gcps",
+    paint: { "circle-radius": 3.5, "circle-color": "#ffd21f",
+             "circle-stroke-color": "#14110c", "circle-stroke-width": 1 } });
+  map.addSource("nbr-quads", { type: "geojson", data: empty });
+  map.addLayer({ id: "nbr-quads", type: "line", source: "nbr-quads",
+    paint: { "line-color": "#c9a13d", "line-width": 1, "line-opacity": .55 } });
+  map.addSource("handles", { type: "geojson", data: empty });
+  map.addLayer({ id: "handle-stem", type: "line", source: "handles",
+    filter: ["==", ["get", "kind"], "stem"],
+    paint: { "line-color": "#8d2f2b", "line-width": 1.5 } });
+  map.addLayer({ id: "handles", type: "circle", source: "handles",
+    filter: ["==", ["get", "kind"], "corner"],
+    paint: { "circle-radius": 6, "circle-color": "#fdf6ea",
+             "circle-stroke-color": "#8d2f2b", "circle-stroke-width": 2 } });
+  map.addLayer({ id: "handle-rot", type: "circle", source: "handles",
+    filter: ["==", ["get", "kind"], "rot"],
+    paint: { "circle-radius": 7, "circle-color": "#8d2f2b",
+             "circle-stroke-color": "#fdf6ea", "circle-stroke-width": 2 } });
+  map.addSource("pins", { type: "geojson", data: empty });
+  map.addLayer({ id: "pin-lines", type: "line", source: "pins",
+    filter: ["==", ["get", "kind"], "link"],
+    paint: { "line-color": "#ffd21f", "line-width": 1.5, "line-dasharray": [2, 2] } });
+  map.addLayer({ id: "pin-src", type: "circle", source: "pins",
+    filter: ["==", ["get", "kind"], "src"],
+    paint: { "circle-radius": 5.5, "circle-color": "#b0403a",
+             "circle-stroke-color": "#fdf6ea", "circle-stroke-width": 2 } });
+  map.addLayer({ id: "pin-tgt", type: "circle", source: "pins",
+    filter: ["==", ["get", "kind"], "tgt"],
+    paint: { "circle-radius": 5.5, "circle-color": "#3d6b35",
+             "circle-stroke-color": "#fdf6ea", "circle-stroke-width": 2 } });
+  map.addSource("mask", { type: "geojson", data: empty });
+  map.addLayer({ id: "mask-fill", type: "fill", source: "mask",
+    paint: { "fill-color": "#3d6b35", "fill-opacity": 0.08 } });
+  map.addLayer({ id: "mask-line", type: "line", source: "mask",
+    paint: { "line-color": "#3d6b35", "line-width": 2 } });
+  map.addSource("mask-verts", { type: "geojson", data: empty });
+  map.addLayer({ id: "mask-mids", type: "circle", source: "mask-verts",
+    filter: ["==", ["get", "kind"], "mid"],
+    paint: { "circle-radius": 4, "circle-color": "#f4eddd", "circle-opacity": .7,
+             "circle-stroke-color": "#3d6b35", "circle-stroke-width": 1 } });
+  map.addLayer({ id: "mask-vert", type: "circle", source: "mask-verts",
+    filter: ["==", ["get", "kind"], "vert"],
+    paint: { "circle-radius": 6, "circle-color": "#3d6b35",
+             "circle-stroke-color": "#fdf6ea", "circle-stroke-width": 2 } });
+
+  let ghostOn = false;
+  function setGhost() {
+    const coords = sheet && sheet.affine ? overlayCorners() : null;
+    if (!coords) {
+      if (ghostOn) { map.removeLayer("ghost"); map.removeSource("ghost"); ghostOn = false; }
+      map.getSource("quad").setData(empty);
+      map.getSource("handles").setData(empty);
+      renderPins();
+      renderGcpTies();
+      return;
+    }
+    if (!ghostOn) {
+      map.addSource("ghost", { type: "image", url: sheet.small_url, coordinates: coords });
+      map.addLayer({ id: "ghost", type: "raster", source: "ghost",
+        paint: { "raster-opacity": $("opacity").value / 100, "raster-fade-duration": 0 } },
+        "quad");
+      ghostOn = true;
+    } else {
+      map.getSource("ghost").setCoordinates(coords);
+    }
+    map.getSource("quad").setData({ type: "Feature", properties: {},
+      geometry: { type: "Polygon", coordinates: [coords.concat([coords[0]])] } });
+    const handles = [];
+    if (mode === "move") {
+      coords.forEach((c, i) => handles.push({ type: "Feature",
+        properties: { kind: "corner", idx: i }, geometry: { type: "Point", coordinates: c } }));
+      // rotate handle: a stem off the sheet's top edge, tracking its orientation
+      const m = curAffine();
+      const pts = sheet.corners_px.map(([px, py]) => applyAff(m, px, py));
+      const ctr = overlayCenter3857();
+      const mid = [(pts[0][0] + pts[1][0]) / 2, (pts[0][1] + pts[1][1]) / 2];
+      const d = Math.hypot(mid[0] - ctr[0], mid[1] - ctr[1]) || 1;
+      const rot = [mid[0] + (mid[0] - ctr[0]) / d * Math.max(0.25 * d, 20),
+                   mid[1] + (mid[1] - ctr[1]) / d * Math.max(0.25 * d, 20)];
+      handles.push({ type: "Feature", properties: { kind: "stem" },
+        geometry: { type: "LineString", coordinates: [toLngLat(...mid), toLngLat(...rot)] } });
+      handles.push({ type: "Feature", properties: { kind: "rot" },
+        geometry: { type: "Point", coordinates: toLngLat(...rot) } });
+    }
+    map.getSource("handles").setData({ type: "FeatureCollection", features: handles });
+    setMaskLayers();
+    renderPins();
+    renderGcpTies();
+  }
+
+  // per-GCP residual: each label anchor through the current placement, tied to
+  // the modern node it matched — the one view the static overlays had that a
+  // map ghost alone does not. Seeded placements are excluded: anchors through
+  // a volume-constants seed are not residuals.
+  function renderGcpTies() {
+    const m = curAffine();
+    const feats = [];
+    if (m && sheet && sheet.gcps && !sheet.seeded) {
+      sheet.gcps.forEach(g => {
+        if (!g.image) return;
+        const a = toLngLat(...applyAff(m, g.image[0], g.image[1]));
+        feats.push({ type: "Feature", properties: { kind: "anchor" },
+          geometry: { type: "Point", coordinates: a } });
+        feats.push({ type: "Feature", properties: { kind: "tie" },
+          geometry: { type: "LineString", coordinates: [a, g.coordinates] } });
+      });
+    }
+    map.getSource("gcp-ties").setData({ type: "FeatureCollection", features: feats });
+  }
+
+  function renderPins() {
+    const m = curAffine();
+    const feats = [];
+    if (mode === "pin" && m) {
+      pins.forEach((p, i) => {
+        const s = toLngLat(...applyAff(m, p.px, p.py));
+        feats.push({ type: "Feature", properties: { kind: "src", idx: i },
+          geometry: { type: "Point", coordinates: s } });
+        if (p.w) {
+          const t = toLngLat(...p.w);
+          feats.push({ type: "Feature", properties: { kind: "tgt", idx: i },
+            geometry: { type: "Point", coordinates: t } });
+          feats.push({ type: "Feature", properties: { kind: "link", idx: i },
+            geometry: { type: "LineString", coordinates: [s, t] } });
+        }
+      });
+    }
+    map.getSource("pins").setData({ type: "FeatureCollection", features: feats });
+    const complete = pins.filter(p => p.w).length;
+    $("pin-fit").disabled = !complete;
+    $("pin-clear").disabled = !pins.length;
+    $("pin-status").textContent = !pins.length ? "click a sheet point to start"
+      : pins[pins.length - 1].w
+        ? `${complete} pair${complete === 1 ? "" : "s"} — ${complete >= 2 ? "Fit = move+scale+rotate" : "Fit = move only"}`
+        : "now click the matching modern point";
+  }
+  function dropGhost() {
+    if (ghostOn) { map.removeLayer("ghost"); map.removeSource("ghost"); ghostOn = false; }
+  }
+
+  function setMaskLayers() {
+    const m = curAffine();
+    if (!maskPx || !m) {
+      map.getSource("mask").setData(empty);
+      map.getSource("mask-verts").setData(empty);
+      return;
+    }
+    const world = maskPx.map(([px, py]) => toLngLat(...applyAff(m, px, py)));
+    map.getSource("mask").setData({ type: "Feature", properties: {},
+      geometry: { type: "Polygon", coordinates: [world.concat([world[0]])] } });
+    const feats = [];
+    if (mode === "mask") {
+      world.forEach((c, i) => feats.push({ type: "Feature",
+        properties: { kind: "vert", idx: i }, geometry: { type: "Point", coordinates: c } }));
+      world.forEach((c, i) => {
+        const n = world[(i + 1) % world.length];
+        feats.push({ type: "Feature", properties: { kind: "mid", idx: i },
+          geometry: { type: "Point", coordinates: [(c[0] + n[0]) / 2, (c[1] + n[1]) / 2] } });
+      });
+    }
+    map.getSource("mask-verts").setData({ type: "FeatureCollection", features: feats });
+  }
+
+  // --- gestures ------------------------------------------------------------
+  const hit = (pt, layers) => map.queryRenderedFeatures(pt, { layers }).filter(
+    f => layers.includes(f.layer.id));
+  let drag = null;   // {kind, start3857, ...}
+
+  map.on("mousedown", (e) => {
+    if (!sheet) return;
+    if (mode === "mask" && maskPx) {
+      const v = hit(e.point, ["mask-vert"]);
+      if (v.length) { snapshot(); drag = { kind: "vert", idx: v[0].properties.idx }; begin(e); return; }
+      const mds = hit(e.point, ["mask-mids"]);
+      if (mds.length) {
+        const i = mds[0].properties.idx;
+        const m = curAffine(), inv = invAff(m);
+        const w = toMerc(e.lngLat.lng, e.lngLat.lat);
+        snapshot();
+        maskPx.splice(i + 1, 0, pxOf(inv, w));
+        maskDirty = true;
+        drag = { kind: "vert", idx: i + 1 }; begin(e); return;
+      }
+    }
+    if (!sheet.affine) return;
+    if (mode === "move") {
+      const rotH = hit(e.point, ["handle-rot"]);
+      if (rotH.length) {
+        const c = overlayCenter3857(), s = toMerc(e.lngLat.lng, e.lngLat.lat);
+        drag = { kind: "rotate", center: c, a0: Math.atan2(s[1] - c[1], s[0] - c[0]) };
+        begin(e); return;
+      }
+      const h = hit(e.point, ["handles"]);
+      if (h.length) {
+        const c = overlayCenter3857(), s = toMerc(e.lngLat.lng, e.lngLat.lat);
+        drag = { kind: "scale", center: c, d0: Math.hypot(s[0] - c[0], s[1] - c[1]) };
+        begin(e); return;
+      }
+      if (hit(e.point, ["quad"]).length) {
+        drag = { kind: "pan", last: toMerc(e.lngLat.lng, e.lngLat.lat), dx: 0, dy: 0 };
+        begin(e);
+      }
+    }
+  });
+  map.on("click", (e) => {
+    if (mode !== "pin" || !sheet) return;
+    const m = curAffine();
+    if (!m) { setMsg("no placement basis to pin against", "err"); return; }
+    const w = toMerc(e.lngLat.lng, e.lngLat.lat);
+    snapshot();
+    const last = pins[pins.length - 1];
+    if (last && !last.w) {
+      last.w = w;                       // second click: the modern target
+    } else {
+      const p = pxOf(invAff(m), w);     // first click: a point ON the sheet
+      pins.push({ px: p[0], py: p[1], w: null });
+    }
+    renderPins();
+  });
+  function begin(e) { map.dragPan.disable(); e.preventDefault(); map.getCanvas().style.cursor = "grabbing"; }
+  map.on("mousemove", (e) => {
+    if (!drag) return;
+    const w = toMerc(e.lngLat.lng, e.lngLat.lat);
+    if (drag.kind === "pan") {
+      drag.dx += w[0] - drag.last[0]; drag.dy += w[1] - drag.last[1]; drag.last = w;
+      pending = { type: "translate", dx_m: drag.dx, dy_m: drag.dy };
+    } else if (drag.kind === "scale") {
+      const d = Math.hypot(w[0] - drag.center[0], w[1] - drag.center[1]);
+      pending = { type: "scale", factor: Math.max(d / drag.d0, 1e-6), center_3857: drag.center };
+    } else if (drag.kind === "rotate") {
+      const a = Math.atan2(w[1] - drag.center[1], w[0] - drag.center[0]);
+      let deg = (a - drag.a0) * 180 / Math.PI;
+      deg = ((deg + 540) % 360) - 180;
+      pending = { type: "rotate", deg, center_3857: drag.center };
+    } else if (drag.kind === "vert") {
+      const inv = invAff(curAffine());
+      maskPx[drag.idx] = pxOf(inv, w);
+      maskDirty = true;
+      setMaskLayers();
+      return;
+    }
+    setGhost(); paint();
+  });
+  window.addEventListener("mouseup", () => {
+    if (!drag) return;
+    if (pending && drag.kind !== "vert") pushOp(pending);
+    pending = null; drag = null;
+    map.dragPan.enable(); map.getCanvas().style.cursor = "";
+  });
+  map.on("contextmenu", (e) => {
+    if (mode !== "mask" || !maskPx || maskPx.length <= 3) return;
+    const v = hit(e.point, ["mask-vert"]);
+    if (v.length) {
+      snapshot();
+      maskPx.splice(v[0].properties.idx, 1);
+      maskDirty = true; setMaskLayers(); paint();
+      e.preventDefault();
+    }
+  });
+  function pushOp(op) {
+    // the snapshot precedes the merge, which is what keeps undo per-nudge
+    // while the log stays merged
+    snapshot();
+    ops = coalesce(ops, op);
+    paint();
+  }
+
+  let flashing = false;
+  function ghostOpacity() {
+    if (ghostOn) map.setPaintProperty("ghost", "raster-opacity", flashing ? 0 : $("opacity").value / 100);
+  }
+  window.addEventListener("keyup", (e) => {
+    if (e.key === "f" || e.key === "F") { flashing = false; ghostOpacity(); }
+  });
+  window.addEventListener("blur", () => { flashing = false; ghostOpacity(); });
+
+  window.addEventListener("keydown", (e) => {
+    if (!sheet || e.target.tagName === "INPUT" || e.target.tagName === "SELECT") return;
+    if (e.key === "z" && (e.ctrlKey || e.metaKey)) { undo(); return; }
+    if (e.key === "[") { step(-1); return; }
+    if (e.key === "]") { step(1); return; }
+    if (e.key === "f" || e.key === "F") { flashing = true; ghostOpacity(); return; }
+    if (!sheet.affine) return;
+    const st = e.shiftKey ? 10 : 1;
+    const nudges = { ArrowLeft: [-st, 0], ArrowRight: [st, 0], ArrowUp: [0, st], ArrowDown: [0, -st] };
+    if (nudges[e.key]) {
+      pushOp({ type: "translate", dx_m: nudges[e.key][0], dy_m: nudges[e.key][1] });
+    } else if (e.key === "q" || e.key === "Q" || e.key === "e" || e.key === "E") {
+      const deg = (e.key.toLowerCase() === "q" ? 1 : -1) * (e.shiftKey ? 1 : 0.2);
+      pushOp({ type: "rotate", deg, center_3857: overlayCenter3857() });
+    } else return;
+    setGhost();
+    e.preventDefault();
+  });
+
+  // --- panel wiring ----------------------------------------------------------
+  $("opacity").addEventListener("input", () => {
+    $("op-out").textContent = $("opacity").value + "%";
+    ghostOpacity();
+  });
+  $("mode-move").onclick = () => setMode("move");
+  $("mode-pin").onclick = () => setMode("pin");
+  $("mode-mask").onclick = () => setMode("mask");
+  function setMode(m) {
+    mode = m;
+    $("mode-move").classList.toggle("primary", m === "move");
+    $("mode-pin").classList.toggle("primary", m === "pin");
+    $("mode-mask").classList.toggle("primary", m === "mask");
+    $("pin-row").style.display = m === "pin" ? "flex" : "none";
+    map.getCanvas().style.cursor = m === "pin" ? "crosshair" : "";
+    setGhost();
+  }
+  $("mask-init").onclick = () => {
+    if (!sheet || !sheet.affine) return;
+    snapshot();
+    const [w, h] = sheet.full_size;
+    maskPx = [[w * .02, h * .02], [w * .98, h * .02], [w * .98, h * .98], [w * .02, h * .98]];
+    maskDirty = true; setMode("mask"); paint();
+  };
+  $("undo").onclick = undo;
+  $("reset").onclick = () => {
+    snapshot();
+    ops = []; maskDirty = false; maskPx = sheet ? sheet.mask_px : null; pins = [];
+    setGhost(); paint();
+  };
+  $("pin-clear").onclick = () => { snapshot(); pins = []; renderPins(); };
+
+  // The fit itself is affine.js's `similarityOps`, run against the server's
+  // own composition by a test. Everything left here is the DOM half: the undo
+  // snapshot, the redraw, and the message.
+  $("pin-fit").onclick = () => {
+    const pairs = pins.filter(p => p.w);
+    const m = curAffine();
+    if (!pairs.length || !m) return;
+    snapshot();
+    const fit = similarityOps(pairs.map(p => applyAff(m, p.px, p.py)), pairs.map(p => p.w));
+    if (fit.error) {
+      hist.pop();                       // nothing was pushed: undo owes nothing
+      setMsg(fit.error, "err");
+      return;
+    }
+    ops.push(...fit.ops);
+    setGhost(); paint();
+    setMsg(`fitted ${pairs.length} pin${pairs.length === 1 ? "" : "s"} — max residual ` +
+      `${fit.maxResidualM.toFixed(1)} m`, "ok");
+  };
+
+  $("show-nbrs").onchange = () => renderNeighbors();
+  $("apply-btn").onclick = async () => {
+    if (!vol) return;
+    const saved = queue.filter(q => q.verdict && q.verdict !== "invalid-sidecar" && !q.applied).length;
+    if (!window.confirm(`Materialize saved verdicts for ${vol} (${saved} unapplied)? ` +
+        "Results become reviewer-verified; warps are deferred to the next --warp run.")) return;
+    setMsg("applying…");
+    $("apply-btn").disabled = true;
+    try {
+      // Content-Type matters: both servers refuse a bare POST as a CSRF bar
+      const s = await jf(`/api/apply/${vol}`, {
+        method: "POST", headers: { "Content-Type": "application/json" }, body: "{}" });
+      const bits = [`applied ${s.applied.length}`];
+      if (s.already_applied.length) bits.push(`already ${s.already_applied.length}`);
+      if (s.skipped.length) bits.push(`skipped ${s.skipped.join(", ")}`);
+      if (s.masks_written.length) bits.push(`masks ${s.masks_written.length}`);
+      let text = bits.join(" · ");
+      if (s.warnings.length) text += "\n" + s.warnings.join("\n");
+      if (s.rerun_hint) text += "\n" + s.rerun_hint;
+      placedFetched = false;               // committed pool likely grew
+      const cur = sheet && sheet.page;
+      await loadQueue();
+      if (cur) await loadSheet(cur);       // base sha changed under us — reload
+      setMsg(text, s.skipped.length || s.warnings.length ? "err" : "ok");
+    } catch (err) { setMsg(err.message, "err"); }
+    $("apply-btn").disabled = false;
+  };
+
+  const setMsg = (text, cls) => { $("msg").textContent = text || ""; $("msg").className = cls || ""; };
+
+  async function saveVerdict(verdict) {
+    if (!sheet) return;
+    if ((verdict === "accept" || verdict === "adjusted") && !curAffine()) {
+      setMsg("no placement to " + verdict, "err"); return;
+    }
+    const body = {
+      base_result_sha256: sheet.base_result_sha256,
+      verdict, ops,
+      affine: verdict === "reject" ? null : curAffine(),
+      mask_px: (verdict === "reject") ? null : maskPx,
+      note: $("note").value.trim(),
+    };
+    setMsg("saving…");
+    try {
+      const res = await jf(`/api/sidecar/${vol}/${sheet.page}`, {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body) });
+      times.push((Date.now() - t0) / 1000);
+      setMsg("saved (" + verdict + ", mask dry-run: " + res.dryrun + ")", "ok");
+      const qi = queue.find(q => q.page === sheet.page);
+      if (qi) { qi.verdict = verdict; qi.applied = false; }
+      renderQueue();
+      step(1);
+    } catch (err) { setMsg(err.message, "err"); }
+  }
+  $("v-accept").onclick = () => saveVerdict(ops.length || maskDirty ? "adjusted" : "accept");
+  $("v-adjusted").onclick = () => saveVerdict("adjusted");
+  $("v-reject").onclick = () => saveVerdict("reject");
+  $("v-mask").onclick = () => saveVerdict("needs-manual-mask");
+
+  function paint() {
+    const parts = [];
+    for (const op of ops) {
+      if (op.type === "translate") parts.push(`move ${op.dx_m.toFixed(1)},${op.dy_m.toFixed(1)} m`);
+      else if (op.type === "scale") parts.push(`scale ×${op.factor.toFixed(4)}`);
+      else parts.push(`rotate ${op.deg.toFixed(2)}°`);
+    }
+    if (maskDirty) parts.push("mask edited");
+    $("ops-log").textContent = parts.length ? parts.join(" · ") : "no edits";
+  }
+
+  // --- neighbor references ---------------------------------------------------
+  let placedFetched = false;
+  const nbrIds = [];
+  async function ensurePlaced() {
+    if (placedFetched) return;
+    try { placed = (await jf(`/api/placed/${vol}`)).placed; placedFetched = true; }
+    catch { placed = []; }
+  }
+  function clearNeighbors() {
+    for (const id of nbrIds) { map.removeLayer(id); map.removeSource(id); }
+    nbrIds.length = 0;
+    map.getSource("nbr-quads").setData(empty);
+  }
+  async function renderNeighbors() {
+    clearNeighbors();
+    if (!$("show-nbrs").checked || !sheet) return;
+    const forPage = sheet.page;
+    await ensurePlaced();
+    // a sheet switch may have raced the fetch; the newer call owns the layers
+    if (!sheet || sheet.page !== forPage) return;
+    clearNeighbors();
+    const others = placed.filter(p => p.page !== sheet.page);
+    if (!others.length) return;
+    // nearest committed sheets to the one under review (or to the view when
+    // it has no placement yet) — the adjoining 1906 fabric to align against
+    const mine = overlayCorners();
+    const ref = mine
+      ? [mine.reduce((a, c) => a + c[0], 0) / 4, mine.reduce((a, c) => a + c[1], 0) / 4]
+      : [map.getCenter().lng, map.getCenter().lat];
+    const center = (p) => [p.corners.reduce((a, c) => a + c[0], 0) / 4,
+                           p.corners.reduce((a, c) => a + c[1], 0) / 4];
+    const chosen = others
+      .map(p => ({ p, d: Math.hypot(center(p)[0] - ref[0], center(p)[1] - ref[1]) }))
+      .sort((a, b) => a.d - b.d).slice(0, 8).map(x => x.p);
+    const quads = [];
+    for (const p of chosen) {
+      const id = `nbr-${p.page}`;
+      map.addSource(id, { type: "image", url: p.small_url, coordinates: p.corners });
+      map.addLayer({ id, type: "raster", source: id,
+        paint: { "raster-opacity": 0.38, "raster-fade-duration": 0 } }, "centerlines");
+      nbrIds.push(id);
+      quads.push({ type: "Feature", properties: { page: p.page },
+        geometry: { type: "Polygon", coordinates: [p.corners.concat([p.corners[0]])] } });
+    }
+    map.getSource("nbr-quads").setData({ type: "FeatureCollection", features: quads });
+  }
+
+  // --- pipeline evidence -----------------------------------------------------
+  function renderEvidence() {
+    const ev = (sheet && sheet.evidence) || {};
+    const lines = [];
+    const counts = [["streets", ev.n_streets], ["candidates", ev.n_candidates],
+                    ["inliers", ev.n_inliers]]
+      .filter(([, v]) => v != null).map(([k, v]) => `${k} ${v}`);
+    if (counts.length) lines.push(counts.join(" · "));
+    if (ev.rotation_deg != null) lines.push(`rotation ${(+ev.rotation_deg).toFixed(2)}°`);
+    if (ev.pinned_orientation) {
+      lines.push("PINNED ORIENTATION: rotation and scale were pinned, not fitted from this " +
+        "sheet's anchors. The corner GCP ties you see are synthetic and lie exactly on the " +
+        "model, so they are not evidence.");
+    }
+    if (ev.auto_residuals_m) {
+      lines.push(`auto residuals: mean ${ev.auto_residuals_m.mean} m · ` +
+        `max ${ev.auto_residuals_m.max} m (n=${ev.auto_residuals_m.n})`);
+    }
+    if (ev.inlier_streets) lines.push(`inlier streets: ${ev.inlier_streets.join(", ")}`);
+    if (ev.rescue_anchors) {
+      const uniq = [...new Set(ev.rescue_anchors.map(a => a.join(" × ")))];
+      lines.push(`rescue anchors (${uniq.length}): ${uniq.slice(0, 4).join("; ")}` +
+        (uniq.length > 4 ? " …" : ""));
+    }
+    const js = ev.junction_snap;
+    if (js) {
+      lines.push(js.skipped ? `junction: skipped — ${js.skipped}`
+        : `junction: ${js.supports ? "SUPPORTS" : "abstains"} · score ${(+js.score_at_prior).toFixed(2)}` +
+          ` · sep ×${(+js.separation_ratio).toFixed(2)} · offset ${(+js.best_offset_m).toFixed(1)} m` +
+          ` · n=${js.n_junctions}`);
+    }
+    const va = ev.verified_accept;
+    if (va) {
+      const votes = Object.entries(va.votes || {})
+        .map(([k, v]) => `${k}=${v === null ? "–" : v}`).join(" ");
+      lines.push(`verify: ${va.accepted ? "ACCEPTED" : "not accepted"} · ${votes}`);
+      if (va.addresses && va.addresses.skipped) lines.push(`addresses: skipped — ${va.addresses.skipped}`);
+    }
+    if (ev.escalated_model) lines.push(`escalated: ${ev.escalated_model}`);
+    if (ev.seam_adjusted) lines.push("seam-adjusted");
+    $("ev-body").textContent = lines.length ? lines.join("\n") : "no recorded evidence";
+    $("evidence").open = lines.length > 0 && !(sheet.status || "").startsWith("OK");
+  }
+
+  // --- queue + sheet loading -------------------------------------------------
+  async function loadQueue() {
+    queue = await jf(`/api/queue/${vol}` + ($("show-all").checked ? "?all=1" : ""));
+    renderQueue();
+  }
+  function renderQueue() {
+    const decided = queue.filter(q => q.verdict && q.verdict !== "invalid-sidecar").length;
+    $("qcount").textContent = queue.length ? `${decided}/${queue.length} decided` : "";
+    const nav = $("queue");
+    nav.innerHTML = "";
+    for (const q of queue) {
+      const b = document.createElement("button");
+      b.className = "qi" + (sheet && q.page === sheet.page ? " active" : "");
+      const vd = q.verdict
+        ? `<span class="vd ${esc(q.verdict)}">${esc(q.verdict)}${q.applied ? " ✓" : ""}</span>`
+        : "";
+      // eslint-disable-next-line no-unsanitized/property -- the row's own markup; every free string in it (page, status, verdict) goes through esc()
+      b.innerHTML = `<span class="pg">p${esc(q.page)}</span><span class="st">${esc(q.status)}` +
+        (q.has_placement ? "" : " · no placement") + `</span>${vd}`;
+      b.onclick = () => loadSheet(q.page);
+      nav.appendChild(b);
+    }
+  }
+  function step(d) {
+    if (!queue.length) return;
+    const i = sheet ? queue.findIndex(q => q.page === sheet.page) : -1;
+    const n = queue[(i + d + queue.length) % queue.length];
+    if (n) loadSheet(n.page);
+  }
+
+  async function loadSheet(page) {
+    setMsg("");
+    dropGhost();
+    sheet = await jf(`/api/sheet/${vol}/${page}`);
+    ops = []; pending = null; maskDirty = false; hist = []; pins = [];
+    maskPx = sheet.mask_px ? sheet.mask_px.map(p => p.slice()) : null;
+    if (sheet.sidecar && sheet.sidecar.ops) {
+      ops = sheet.sidecar.ops.map(o => Object.assign({}, o));  // restore saved edits
+      if (sheet.sidecar.mask_px) maskDirty = true;
+    }
+    $("note").value = (sheet.sidecar && sheet.sidecar.note) || "";
+    renderEvidence();
+    $("sheet-title").textContent = `p${page} · ${sheet.slug}`;
+    // the warn markers below are meant to render, so this line stays innerHTML
+    // and the free strings entering it are escaped one by one
+    const bits = [esc(sheet.status)];
+    if (sheet.seeded) bits.push("<b class='warn'>seeded placement (volume constants — drag into place)</b>");
+    if (!sheet.affine) bits.push("<b class='warn'>no placement basis: no GCPs and no volume constants</b>");
+    if (sheet.committed) bits.push("<b class='warn'>COMMITTED — moving it needs a reason</b>");
+    if (!sheet.has_region) bits.push("no full-res scan (mask dry-run deferred to apply)");
+    if (sheet.rmse_vs_human_m != null) bits.push(`RMSE vs human ${esc(sheet.rmse_vs_human_m)} m`);
+    if (sheet.sidecar) bits.push(`saved verdict: ${esc(sheet.sidecar.verdict)}`);
+    // eslint-disable-next-line no-unsanitized/property -- the warn markers above are meant to render; the free strings joined with them are esc()'d one by one
+    $("sheet-status").innerHTML = bits.join(" · ");
+    map.getSource("gcps").setData({ type: "FeatureCollection",
+      features: (sheet.gcps || []).map(g => ({ type: "Feature",
+        properties: { note: g.note }, geometry: { type: "Point", coordinates: g.coordinates } })) });
+    setMode("move");
+    setGhost(); paint();
+    const coords = overlayCorners();
+    if (coords) {
+      const xs = coords.map(c => c[0]), ys = coords.map(c => c[1]);
+      map.fitBounds([[Math.min(...xs), Math.min(...ys)], [Math.max(...xs), Math.max(...ys)]],
+        { padding: 90, duration: 500, maxZoom: 17 });
+    }
+    renderNeighbors();
+    renderQueue();
+    t0 = Date.now();
+  }
+
+  // --- timer (step-0 measurement aid) ---------------------------------------
+  setInterval(() => {
+    const s = Math.floor((Date.now() - t0) / 1000);
+    const avg = times.length
+      ? (times.reduce((a, b) => a + b, 0) / times.length).toFixed(0) + " s over " + times.length
+      : "–";
+    $("timer").textContent = `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")} · avg ${avg}`;
+  }, 1000);
+
+  // --- boot ------------------------------------------------------------------
+  const meta = await jf("/api/volumes");
+  volumes = meta.volumes;
+  document.title = `Review · ${meta.city}`;
+  const sel = $("vol");
+  for (const v of volumes) {
+    const o = document.createElement("option"); o.value = o.textContent = v; sel.appendChild(o);
+  }
+  sel.onchange = async () => {
+    vol = sel.value; sheet = null; dropGhost();
+    placedFetched = false; placed = []; clearNeighbors();
+    pins = []; hist = [];
+    map.getSource("centerlines").setData(empty);
+    await loadQueue();
+    jf(`/api/centerlines/${vol}`).then(fc => map.getSource("centerlines").setData(fc))
+      .catch(() => {});
+    if (queue.length) loadSheet(queue[0].page);
+  };
+  $("show-all").onchange = loadQueue;
+  const preset = new URLSearchParams(location.search).get("volume");
+  sel.value = preset && volumes.includes(preset) ? preset : (volumes[0] || "");
+  if (sel.value) sel.onchange();
+})();
+</script>
+</body>
+</html>

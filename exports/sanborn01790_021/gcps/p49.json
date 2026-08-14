@@ -1,0 +1,109 @@
+{
+  "page": "49",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": -88.8,
+  "auto_residuals_m": [
+    0.38,
+    0.58,
+    0.61,
+    0.42
+  ],
+  "inlier_streets": [
+    [
+      "WENTWORTH AV.",
+      "W. 35TH ST."
+    ],
+    [
+      "S. 5TH AV.",
+      "W. 34TH ST."
+    ],
+    [
+      "W. 34TH ST.",
+      "SHIELDS AV."
+    ],
+    [
+      "W. 35TH ST.",
+      "SHIELDS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4985,
+            741
+          ],
+          "username": "autogeoref",
+          "note": "auto: WENTWORTH AV. x W. 35TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63150429536597,
+            41.83093870170313
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            925,
+            2737
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 5TH AV. x W. 34TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63275875929993,
+            41.832737069482775
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            925,
+            6801
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 34TH ST. x SHIELDS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63518879093854,
+            41.83271632694976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4985,
+            6801
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x SHIELDS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63514394439382,
+            41.83089547612178
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

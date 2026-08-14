@@ -1,0 +1,207 @@
+{
+  "page": "22",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. GOETHE",
+      "N. DEARBORN"
+    ],
+    [
+      "W. GOETHE",
+      "N. STATE"
+    ],
+    [
+      "N. DEARBORN",
+      "W. DIVISION"
+    ],
+    [
+      "N. DEARBORN",
+      "E. DIVISION"
+    ],
+    [
+      "N. STATE",
+      "W. DIVISION"
+    ],
+    [
+      "N. STATE",
+      "E. DIVISION"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2512,
+            1670
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GOETHE x N. DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63005533473773,
+            41.90579276768308
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4524,
+            1670
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GOETHE x N. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6287559963333,
+            41.90580912604494
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2512,
+            5833
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DEARBORN x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62999914657217,
+            41.903913311447205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2512,
+            5868
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DEARBORN x E. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62999914657217,
+            41.903913311447205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4524,
+            5833
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. STATE x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62869106289767,
+            41.903932021987714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4524,
+            5868
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. STATE x E. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62869106289767,
+            41.903932021987714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63119990332608,
+            41.906203759523834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5158,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62841667642843,
+            41.90624684250833
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63112593394357,
+            41.90355691275176
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  },
+  "seam_adjusted": {
+    "dx_m": -1.454,
+    "dy_m": -1.477
+  }
+}

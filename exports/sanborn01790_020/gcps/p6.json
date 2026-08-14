@@ -1,0 +1,109 @@
+{
+  "page": "6",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 0.97,
+  "auto_residuals_m": [
+    0.42,
+    0.4,
+    0.43,
+    0.4
+  ],
+  "inlier_streets": [
+    [
+      "E. 13TH ST.",
+      "S. MICHIGAN"
+    ],
+    [
+      "E. 13TH ST.",
+      "INDIANA"
+    ],
+    [
+      "E. 14TH ST.",
+      "S. MICHIGAN"
+    ],
+    [
+      "E. 14TH ST.",
+      "INDIANA"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            769,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 13TH ST. x S. MICHIGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.624113877657,
+            41.86578522985619
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3564,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 13TH ST. x INDIANA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62251317842227,
+            41.865799898588364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            769,
+            4075
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 14TH ST. x S. MICHIGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62407958576364,
+            41.86411070221403
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3564,
+            4075
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 14TH ST. x INDIANA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62247733169295,
+            41.86413637550922
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,163 @@
+{
+  "page": "59",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "MADISON AVE.",
+      "67TH"
+    ],
+    [
+      "65TH PL. (65TH TERRACE)",
+      "WASHINGTON AVE."
+    ],
+    [
+      "66TH PL.",
+      "WASHINGTON AVE."
+    ],
+    [
+      "67TH",
+      "WASHINGTON AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            187,
+            8227
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON AVE. x 67TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.59157530562916,
+            41.773293641934806
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4770,
+            2235
+          ],
+          "username": "autogeoref",
+          "note": "auto: 65TH PL. (65TH TERRACE) x WASHINGTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58885103608331,
+            41.77607166654955
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4770,
+            6083
+          ],
+          "username": "autogeoref",
+          "note": "auto: 66TH PL. x WASHINGTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58880832100574,
+            41.77424106718084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4770,
+            8227
+          ],
+          "username": "autogeoref",
+          "note": "auto: 67TH x WASHINGTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58875571288551,
+            41.7733222300223
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.59143903835586,
+            41.77667377523939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58871880244875,
+            41.776703849131565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.59137821880383,
+            41.77361425183699
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  },
+  "seam_adjusted": {
+    "dx_m": 1.105,
+    "dy_m": 1.907
+  }
+}

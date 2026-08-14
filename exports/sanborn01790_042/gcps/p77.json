@@ -1,0 +1,186 @@
+{
+  "page": "77",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 55TH ST.",
+      "S. SPRINGFIELD AV."
+    ],
+    [
+      "W. 55TH PL.",
+      "S. SPRINGFIELD AV."
+    ],
+    [
+      "S. SPRINGFIELD AV.",
+      "W. 56TH ST."
+    ],
+    [
+      "S. SPRINGFIELD AV.",
+      "W. 56TH PL."
+    ],
+    [
+      "S. SPRINGFIELD AV.",
+      "W. 57TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4579,
+            388
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 55TH ST. x S. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7207112032117,
+            41.79323720363816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4579,
+            2273
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 55TH PL. x S. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72068416944471,
+            41.792321305588054
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4579,
+            4104
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. x W. 56TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72065967331734,
+            41.79143577222555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4579,
+            5994
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. x W. 56TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7206320450531,
+            41.790525282177
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4579,
+            7854
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. x W. 57TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72060830050145,
+            41.78961565903343
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72322500072517,
+            41.79293029026135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72039975450076,
+            41.7929754542811
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72313615376146,
+            41.78984085027234
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.828,
+    "separation_ratio": 0.999,
+    "best_offset_m": 91.7,
+    "n_junctions": 9
+  }
+}

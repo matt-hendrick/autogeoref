@@ -1,0 +1,111 @@
+{
+  "page": "52",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "rotation_deg": 0.42,
+  "auto_residuals_m": [
+    0.97,
+    1.36,
+    2.3,
+    1.9
+  ],
+  "inlier_streets": [
+    [
+      "W. 97TH ST.",
+      "S. WINSTON AV."
+    ],
+    [
+      "S. BEVERLY AV.",
+      "W. 99TH ST."
+    ],
+    [
+      "S. WINSTON AV.",
+      "W. 99TH ST."
+    ],
+    [
+      "S. LOOMIS",
+      "W. 98TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3540,
+            151
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 97TH ST. x S. WINSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65936888611517,
+            41.71772405100053
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            908,
+            8233
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. BEVERLY AV. x W. 99TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6596423014178,
+            41.71400626689505
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3540,
+            8233
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WINSTON AV. x W. 99TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65799092958821,
+            41.71402547959291
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5435,
+            4144
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LOOMIS x W. 98TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6575494195492,
+            41.71589324560969
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

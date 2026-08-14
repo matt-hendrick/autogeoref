@@ -1,0 +1,120 @@
+{
+  "page": "15",
+  "n_streets": 7,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "E. WALTON",
+      "N. MICHIGAN AV."
+    ],
+    [
+      "N. MICHIGAN AV.",
+      "E. DELAWARE PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            954,
+            3662
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. WALTON x N. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6241614509527,
+            41.90000567211061
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            954,
+            5425
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MICHIGAN AV. x E. DELAWARE PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6241274181147,
+            41.899210133706084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6244236678345,
+            41.90132613634007
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5158,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62164044093686,
+            41.90136922261594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.624349698452,
+            41.89867908736386
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.4906,
+    "separation_ratio": 0.943,
+    "best_offset_m": 97.4,
+    "n_junctions": 14
+  }
+}

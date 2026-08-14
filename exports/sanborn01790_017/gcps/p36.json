@@ -1,0 +1,138 @@
+{
+  "page": "36",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "MADISON",
+      "LASALLE"
+    ],
+    [
+      "LASALLE",
+      "ARCADE PL."
+    ],
+    [
+      "LASALLE",
+      "MONROE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1007,
+            2223
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63236016501149,
+            41.8819606761068
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1007,
+            3786
+          ],
+          "username": "autogeoref",
+          "note": "auto: LASALLE x ARCADE PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6323459045026,
+            41.881268938718044
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1007,
+            5068
+          ],
+          "username": "autogeoref",
+          "note": "auto: LASALLE x MONROE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63232859642024,
+            41.88067795123985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63261660574787,
+            41.8825698808294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5314,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62989303261,
+            41.88260735466558
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6325541751198,
+            41.88005473287707
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

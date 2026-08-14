@@ -1,0 +1,137 @@
+{
+  "page": "33",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "NELSON",
+      "N.WESTERN AVE."
+    ],
+    [
+      "NELSON",
+      "N.OAKLEY AVE."
+    ],
+    [
+      "N.OAKLEY AVE.",
+      "OAKDALE AV"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            937,
+            1698
+          ],
+          "username": "autogeoref",
+          "note": "auto: NELSON x N.WESTERN AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68799262666317,
+            41.93672310897399
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4891,
+            1698
+          ],
+          "username": "autogeoref",
+          "note": "auto: NELSON x N.OAKLEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68556403727614,
+            41.93675045919937
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4891,
+            5632
+          ],
+          "username": "autogeoref",
+          "note": "auto: N.OAKLEY AVE. x OAKDALE AV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68552109805832,
+            41.9349318970263
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68823548804896,
+            41.93709939448728
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68553147273093,
+            41.93713941665397
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68815434643919,
+            41.934065734393265
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 2 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

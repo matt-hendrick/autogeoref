@@ -1,0 +1,145 @@
+{
+  "page": "100",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 37TH PL. (PRIVATE)",
+      "LOOMIS PL."
+    ],
+    [
+      "W. 37TH PL. (PRIVATE)",
+      "IRON (PRIVATE)"
+    ],
+    [
+      "LOOMIS PL.",
+      "W. 38TH ST. (PRIVATE)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2221,
+            978
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH PL. (PRIVATE) x LOOMIS PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66113683321817,
+            41.8259897653371
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5320,
+            978
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH PL. (PRIVATE) x IRON (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65937180139842,
+            41.82603530432747
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2221,
+            3057
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOOMIS PL. x W. 38TH ST. (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66118966341425,
+            41.82510447594116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66219122378742,
+            41.82611355284668
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5290,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65934159092771,
+            41.8261490526289
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66213187270374,
+            41.823468015215056
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -2.547,
+    "dy_m": 1.11
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.35,
+    "separation_ratio": 0.848,
+    "best_offset_m": 86.4,
+    "n_junctions": 10
+  }
+}

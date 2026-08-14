@@ -1,0 +1,181 @@
+{
+  "page": "111",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. CUSTER",
+      "N. SOUTHPORT AV."
+    ],
+    [
+      "N. DOMINICK",
+      "W. GARFIELD AV."
+    ],
+    [
+      "W. GARFIELD AV.",
+      "N. SOUTHPORT AV."
+    ],
+    [
+      "N. SOUTHPORT AV.",
+      "W. McLEAN AV."
+    ],
+    [
+      "N. SOUTHPORT AV.",
+      "W. CENTER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5450,
+            864
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CUSTER x N. SOUTHPORT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66318501695339,
+            41.92074098837623
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2343,
+            2808
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DOMINICK x W. GARFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6650379074236,
+            41.9198414451453
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5450,
+            2808
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GARFIELD AV. x N. SOUTHPORT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66314912463456,
+            41.919853624948814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5450,
+            4747
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SOUTHPORT AV. x W. McLEAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66310482427673,
+            41.91901491216769
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5450,
+            6369
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SOUTHPORT AV. x W. CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66309256555766,
+            41.91823464073612
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66614979517085,
+            41.92075628106289
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5153,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66335607424723,
+            41.92080539426793
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66606537959385,
+            41.918097740455764
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

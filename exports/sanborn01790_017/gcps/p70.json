@@ -1,0 +1,156 @@
+{
+  "page": "70",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.43,
+  "auto_residuals_m": [
+    1.38,
+    1.34,
+    3.02,
+    2.5,
+    1.57,
+    1.1
+  ],
+  "inlier_streets": [
+    [
+      "VANBUREN",
+      "WABASH AV."
+    ],
+    [
+      "VANBUREN",
+      "MICHIGAN AV."
+    ],
+    [
+      "CONGRESS",
+      "WABASH AV."
+    ],
+    [
+      "CONGRESS",
+      "MICHIGAN AV."
+    ],
+    [
+      "HARRISON",
+      "WABASH AV."
+    ],
+    [
+      "HARRISON",
+      "MICHIGAN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1521,
+            805
+          ],
+          "username": "autogeoref",
+          "note": "auto: VANBUREN x WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6260573122568,
+            41.876971974785484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4338,
+            805
+          ],
+          "username": "autogeoref",
+          "note": "auto: VANBUREN x MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62429116622431,
+            41.87700454921313
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1521,
+            3558
+          ],
+          "username": "autogeoref",
+          "note": "auto: CONGRESS x WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62602727867466,
+            41.87568830942094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4338,
+            3558
+          ],
+          "username": "autogeoref",
+          "note": "auto: CONGRESS x MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62425996523025,
+            41.875724658083534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1521,
+            6434
+          ],
+          "username": "autogeoref",
+          "note": "auto: HARRISON x WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62599636874643,
+            41.87440857416595
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4338,
+            6434
+          ],
+          "username": "autogeoref",
+          "note": "auto: HARRISON x MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62423477648768,
+            41.874438094657904
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

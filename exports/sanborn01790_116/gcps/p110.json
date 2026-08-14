@@ -1,0 +1,113 @@
+{
+  "page": "110",
+  "n_streets": 4,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 1.13,
+  "auto_residuals_m": [
+    0.05,
+    0.03,
+    0.03,
+    0.02
+  ],
+  "inlier_streets": [
+    [
+      "BERTEAU AV.",
+      "N. KOLMAR AV."
+    ],
+    [
+      "BERTEAU AV.",
+      "N. KILBOURN AV."
+    ],
+    [
+      "N. KOLMAR AV.",
+      "IRVING PARK RD. (BLVD)"
+    ],
+    [
+      "N. KILBOURN AV.",
+      "IRVING PARK RD. (BLVD)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2302,
+            415
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x N. KOLMAR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7418833426331,
+            41.95709902757007
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4399,
+            415
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x N. KILBOURN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74066198390783,
+            41.95711687788861
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2302,
+            8151
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KOLMAR AV. x IRVING PARK RD. (BLVD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74177885341291,
+            41.95348533400717
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4399,
+            8151
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILBOURN AV. x IRVING PARK RD. (BLVD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74055745580762,
+            41.95350331949792
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.23,
+    "dy_m": 0.297
+  }
+}

@@ -1,0 +1,929 @@
+{
+ "meta": {
+  "volume": "sanborn01790_034",
+  "title": "Chicago, Ill., 1905, Vol. 17",
+  "sheets": 133,
+  "scan_credit": "scan: Library of Congress, Sanborn Fire Insurance Map Collection",
+  "centerline_credit": "street centrelines: City of Chicago open data"
+ },
+ "funnel": {
+  "total": 133,
+  "stages": {
+   "match": {
+    "placed": 80,
+    "provisional": 0,
+    "flagged": 53
+   },
+   "rescue": {
+    "placed": 91,
+    "provisional": 20,
+    "flagged": 22
+   },
+   "corroborate": {
+    "placed": 102,
+    "provisional": 9,
+    "flagged": 22
+   },
+   "verified-accept": {
+    "placed": 107,
+    "provisional": 0,
+    "flagged": 26
+   }
+  },
+  "order": [
+   "match",
+   "rescue",
+   "corroborate",
+   "verified-accept"
+  ],
+  "labels": {
+   "match": "after the strict fit",
+   "rescue": "after the slide",
+   "corroborate": "after the neighbours",
+   "verified-accept": "after the vote"
+  }
+ },
+ "glossary": [
+  {
+   "term": "sheet",
+   "gloss": "one page of a bound atlas, and the unit everything here works on"
+  },
+  {
+   "term": "volume",
+   "gloss": "one bound atlas: a few hundred sheets printed at the same scale"
+  },
+  {
+   "term": "corner",
+   "gloss": "a street junction the pipeline believes it has found on both the scan and a modern map"
+  },
+  {
+   "term": "placement",
+   "gloss": "the single slide, turn and stretch that puts a whole sheet on the ground"
+  },
+  {
+   "term": "flagged",
+   "gloss": "a sheet the pipeline refused to place, and says so about"
+  },
+  {
+   "term": "gate",
+   "gloss": "one of the seven checks a placement clears before it can be published"
+  },
+  {
+   "term": "strict accept",
+   "gloss": "a sheet that cleared all seven gates on its first fit"
+  },
+  {
+   "term": "rescue",
+   "gloss": "a second attempt at a sheet the gates refused, using what the rest of the volume knows"
+  },
+  {
+   "term": "revoked",
+   "gloss": "a rescued placement held back as a proposal because all its corners sat on one street"
+  },
+  {
+   "term": "corroboration",
+   "gloss": "agreement with sheets already placed, measured where they overlap"
+  },
+  {
+   "term": "verified accept",
+   "gloss": "the vote that can commit a revoked sheet on evidence the matcher never used"
+  }
+ ],
+ "panels": [
+  {
+   "number": 1,
+   "slug": "the-problem",
+   "act": "I. From a scan to a reading",
+   "title": "A map of somewhere, and nowhere",
+   "dek": "What georeferencing is, and why it is normally done by hand.",
+   "caption": "This is one sheet of a fire-insurance atlas: a block-by-block survey of a city, drawn so an underwriter could see what every building was made of. It is exact about the things it cares about and silent about the one a computer needs. There is a scale bar and a north arrow, but no coordinates anywhere on the page, so nothing tells software which patch of ground the drawing covers. Someone has to say. Doing it by hand means clicking a street corner on the scan, clicking the same corner on a modern map, and repeating until the sheet stops sliding around. That is a few minutes per sheet, and there are thousands of sheets.",
+   "stage": "",
+   "note": "",
+   "figures": [
+    {
+     "label": "Sheet",
+     "value": "page 52"
+    },
+    {
+     "label": "Volume",
+     "value": "Chicago, Ill., 1905, Vol. 17"
+    }
+   ],
+   "states": [
+    {
+     "key": "main",
+     "label": "The sheet",
+     "file": "panel-01-the-problem.jpg",
+     "alt": "A scanned atlas sheet, page 52, with its compass rose and scale bar called out."
+    }
+   ],
+   "tally": ""
+  },
+  {
+   "number": 2,
+   "slug": "prep",
+   "act": "I. From a scan to a reading",
+   "title": "One scan, two sizes",
+   "dek": "Names are read on the small copy; everything else is measured on the full one.",
+   "caption": "Preparation makes a second, smaller copy of each scan and writes down the ratio between them. The two sizes have different jobs. The small copy is what a vision model reads, because a model sees a whole image at once and a 5,000-pixel-wide page would arrive as mush. The full-resolution scan is what every measurement afterwards uses, because a corner located to the nearest small pixel is only located to within 4 full pixels on the ground. Keeping both, and keeping the conversion in exactly one file, is what stops the two frames being mixed up later.",
+   "stage": "prep",
+   "note": "",
+   "figures": [
+    {
+     "label": "Full scan",
+     "value": "5802 x 8504 px"
+    },
+    {
+     "label": "Small copy",
+     "value": "1365 x 2000 px"
+    },
+    {
+     "label": "Ratio",
+     "value": "0.235183"
+    }
+   ],
+   "states": [
+    {
+     "key": "main",
+     "label": "Two frames",
+     "file": "panel-02-prep.jpg",
+     "alt": "The scan beside the same detail at full and reduced resolution."
+    }
+   ],
+   "tally": ""
+  },
+  {
+   "number": 3,
+   "slug": "reading",
+   "act": "I. From a scan to a reading",
+   "title": "Reading the street names",
+   "dek": "A vision model returns each name, its box on the page, and its direction.",
+   "caption": "This is the only step that looks at the drawing. A vision model is given the small copy and asked for the street names it can see, where each one sits on the page, and whether it runs across the sheet or down it. Nothing else on the sheet is read: not the buildings, not the house numbers, not the colours that tell an underwriter what a wall is made of. Each reading is kept on disk, so the same reader is never paid twice for the same sheet, and everything after this point is arithmetic on those few names.",
+   "stage": "annotate",
+   "note": "",
+   "figures": [
+    {
+     "label": "Names returned",
+     "value": "8"
+    }
+   ],
+   "states": [
+    {
+     "key": "main",
+     "label": "The reading",
+     "file": "panel-03-reading.jpg",
+     "alt": "Street-name labels boxed on the scan."
+    }
+   ],
+   "tally": ""
+  },
+  {
+   "number": 4,
+   "slug": "escalate",
+   "act": "I. From a scan to a reading",
+   "title": "When the first read comes back wrong",
+   "dek": "A refused sheet is read again by a stronger model before anyone gives up on it.",
+   "caption": "Readers make mistakes, and one bad name can sink a sheet. The heavy W. LAKE down one edge of this sheet came back as WALLACE. Wallace is a real Chicago street, but it is miles from these blocks, so nothing on the modern map of them answers to it. Every corner the pipeline could still find, all 4 of them, was then a crossing of FULTON, and they fell in a straight line down one side of the page. A line will not hold a sheet down. Slide the whole placement along it and the corners still match, so the checks refuse it: they want corners spread across the sheet, not strung along an edge. Refusal is not the end. A sheet that fails is offered to a stronger reader, cheapest first, and if a later reading passes the same unchanged checks it is kept. Nothing is loosened to let it through; the sheet simply gets a better look.",
+   "stage": "escalate",
+   "note": "Order note: a run does this AFTER the fit of steps 5 to 10, on the sheets those steps refused. It is told here because it is about reading, and because a re-read sheet is put through those same steps, unchanged, to earn its place. This one sheet comes from another atlas in the same corpus: the volume the rest of this walkthrough follows has no sheet whose first read went wrong this plainly.",
+   "figures": [
+    {
+     "label": "Sheet",
+     "value": "page 94, Chicago, Ill., 1922, Vol. 11"
+    },
+    {
+     "label": "Corners offered",
+     "value": "4, then 9"
+    },
+    {
+     "label": "Second reader",
+     "value": "codex:gpt-5.6-terra"
+    },
+    {
+     "label": "Corners the fit kept",
+     "value": "0, then 8"
+    }
+   ],
+   "states": [
+    {
+     "key": "first",
+     "label": "First reading",
+     "file": "panel-04-escalate-first.jpg",
+     "alt": "First reading of the same sheet."
+    },
+    {
+     "key": "second",
+     "label": "Second reading",
+     "file": "panel-04-escalate-second.jpg",
+     "alt": "Second reading of the same sheet."
+    }
+   ],
+   "tally": ""
+  },
+  {
+   "number": 5,
+   "slug": "the-volume",
+   "act": "II. From a reading to a fit",
+   "title": "The book decides, not the page",
+   "dek": "Scale and orientation are measured across the whole volume, then applied per sheet.",
+   "caption": "This is the idea most often missed about the system. A single sheet cannot be checked on its own: any three corners can be joined by some stretch of the page, and a wrong stretch looks as convincing as a right one. A bound volume can be checked, because its sheets were printed at one scale and bound the same way up. So a first pass fits every sheet with no constraints at all and takes the middle value of what comes back. Every sheet is then refitted against a narrow window, and a fit landing outside it is refused however neat it looks by itself. A volume whose scale and turn are already known can declare them instead, and this one does, so the marks below read as a check: the measurement and the declaration land in the same place.",
+   "stage": "match",
+   "note": "",
+   "figures": [
+    {
+     "label": "Measured scale",
+     "value": "0.067577 m per pixel"
+    },
+    {
+     "label": "Measured rotation",
+     "value": "1.126 deg"
+    },
+    {
+     "label": "Scale window",
+     "value": "0.06084 to 0.07436"
+    },
+    {
+     "label": "Rotation window",
+     "value": "-0.37 to 2.63 deg"
+    }
+   ],
+   "states": [
+    {
+     "key": "main",
+     "label": "The book",
+     "file": "panel-05-the-volume.jpg",
+     "alt": "Per-sheet measurements against the window the volume derived."
+    }
+   ],
+   "tally": "match"
+  },
+  {
+   "number": 6,
+   "slug": "label-axes",
+   "act": "II. From a reading to a fit",
+   "title": "A name points along its street",
+   "dek": "Each name becomes a line across the page, in the direction it was printed.",
+   "caption": "Street names on an atlas sheet are set along the roadway they name, so the line the lettering sits on is a good stand-in for the street itself. Extending each name into a full-width line turns a handful of words into a handful of lines, and lines can be crossed. This is why the reading step asks for a direction as well as a name: a name printed across the sheet and the same name printed down it produce completely different lines.",
+   "stage": "match",
+   "note": "",
+   "figures": [
+    {
+     "label": "Names on this sheet",
+     "value": "8"
+    }
+   ],
+   "states": [
+    {
+     "key": "main",
+     "label": "Axes",
+     "file": "panel-06-label-axes.jpg",
+     "alt": "Each street name extended into a line across the sheet."
+    }
+   ],
+   "tally": "match"
+  },
+  {
+   "number": 7,
+   "slug": "candidates",
+   "act": "II. From a reading to a fit",
+   "title": "Where two names cross",
+   "dek": "Every crossing on the page becomes a guess to check, and can become more than one.",
+   "caption": "Two crossed lines on the page are the sheet saying that these streets meet here`. That claim is looked up on a modern street map, and the answer is not always a single point. Streets jog around a park and pick up again; a name can belong to two separate stretches of road. Each possible modern location becomes its own guess, so the guesses can outnumber the crossings: here each of the 15 found exactly one. Nothing is chosen yet. The next step is what decides which of them can be true at the same time.",
+   "stage": "match",
+   "note": "",
+   "figures": [
+    {
+     "label": "Crossings on the page",
+     "value": "15"
+    },
+    {
+     "label": "Corner guesses",
+     "value": "15"
+    }
+   ],
+   "states": [
+    {
+     "key": "main",
+     "label": "Crossings",
+     "file": "panel-07-candidates.jpg",
+     "alt": "Every crossing of two label lines, ringed."
+    }
+   ],
+   "tally": "match"
+  },
+  {
+   "number": 8,
+   "slug": "the-world-side",
+   "act": "II. From a reading to a fit",
+   "title": "The same corner on a modern map",
+   "dek": "Historic names are looked up on today's street centrelines, after renames.",
+   "caption": "Every corner guess is now looked up in a modern file of street centrelines: two street names go in, real-world coordinates come out. This is where a century gets in the way. Streets are renamed, and a name printed in 1905 may match nothing at all today, so the volume carries a small table of historic-to-modern names. It is a plain list, written and checked by hand for each volume, not a guess made at run time. The table belongs to the whole book, so most of it says nothing about any one sheet: of its 7 entries only 1 reaches a name printed on this one, ROBEY to DAMEN. That entry is the whole of the difference below: the same sheet, the same reading, and fewer corners left to work with once it is switched off.",
+   "stage": "match",
+   "note": "",
+   "figures": [
+    {
+     "label": "Renames in this volume's table",
+     "value": "7"
+    },
+    {
+     "label": "Of those, used by this sheet",
+     "value": "1"
+    },
+    {
+     "label": "Corner guesses with the table",
+     "value": "15"
+    },
+    {
+     "label": "Corner guesses without it",
+     "value": "10"
+    }
+   ],
+   "states": [
+    {
+     "key": "on",
+     "label": "Renames on",
+     "file": "panel-08-the-world-side-on.jpg",
+     "alt": "Modern centrelines with the volume's renames on."
+    },
+    {
+     "key": "off",
+     "label": "Renames off",
+     "file": "panel-08-the-world-side-off.jpg",
+     "alt": "Modern centrelines with the volume's renames off."
+    }
+   ],
+   "tally": "match"
+  },
+  {
+   "number": 9,
+   "slug": "the-fit",
+   "act": "II. From a reading to a fit",
+   "title": "Which corners agree",
+   "dek": "One placement is found by repeatedly guessing three corners and counting who agrees.",
+   "caption": "A placement here is one flat transformation (slide, turn, stretch) applied to the whole sheet at once. Because it is one transformation, the corner guesses have to agree with each other, and most of the wrong ones cannot. The search is simple and repeatable: take three guesses at random, work out the placement they imply, count how many of the rest land within 25 metres of where that placement predicts, and remember the best. The random draws start from the same fixed point every run, so the same sheet always gives the same answer.",
+   "stage": "match",
+   "note": "",
+   "figures": [
+    {
+     "label": "Corner guesses",
+     "value": "15"
+    },
+    {
+     "label": "Corners kept",
+     "value": "10"
+    },
+    {
+     "label": "Agreement tolerance",
+     "value": "25 m"
+    },
+    {
+     "label": "Tries",
+     "value": "5,000"
+    },
+    {
+     "label": "Worst kept corner",
+     "value": "7.15 m"
+    }
+   ],
+   "states": [
+    {
+     "key": "main",
+     "label": "The fit",
+     "file": "panel-09-the-fit.jpg",
+     "alt": "Kept corners ringed, dropped guesses crossed out."
+    }
+   ],
+   "tally": "match"
+  },
+  {
+   "number": 10,
+   "slug": "the-gates",
+   "act": "II. From a reading to a fit",
+   "title": "Seven ways to say no",
+   "dek": "Every check a placement must clear, shown passing and shown refusing.",
+   "caption": "A placement can agree with itself and still be wrong. Seven checks, called the gates, stand between a fit and a committed sheet, and they were added one at a time, each after a confidently wrong placement got past the ones already there. A sheet that clears all seven is a strict accept. Four of the checks ask about the shape of the transformation: is the page flipped, resized, turned, or stretched out of true. Three ask about the corners it rests on: are they spread across the page, do they form a shape rather than a line, and does that shape survive losing any one of them. Each panel here hands the matcher a broken version of this sheet's own corners and shows how it reports the refusal.",
+   "stage": "match",
+   "note": "",
+   "figures": [
+    {
+     "label": "Checks",
+     "value": "7"
+    },
+    {
+     "label": "Minimum corners",
+     "value": "4"
+    },
+    {
+     "label": "Spread across the page",
+     "value": "30% each way"
+    },
+    {
+     "label": "Spread off the line",
+     "value": "5%"
+    }
+   ],
+   "states": [
+    {
+     "key": "pass",
+     "label": "All seven pass",
+     "file": "panel-10-the-gates-pass.jpg",
+     "alt": "Every check with what it measured on this sheet."
+    },
+    {
+     "key": "handedness",
+     "label": "Not a mirror image",
+     "file": "panel-10-the-gates-handedness.jpg",
+     "alt": "Not a mirror image: a counterexample refused."
+    },
+    {
+     "key": "scale_window",
+     "label": "Printed at the book's scale",
+     "file": "panel-10-the-gates-scale_window.jpg",
+     "alt": "Printed at the book's scale: a counterexample refused."
+    },
+    {
+     "key": "rotation_window",
+     "label": "Bound the same way up",
+     "file": "panel-10-the-gates-rotation_window.jpg",
+     "alt": "Bound the same way up: a counterexample refused."
+    },
+    {
+     "key": "aspect",
+     "label": "Not stretched one way",
+     "file": "panel-10-the-gates-aspect.jpg",
+     "alt": "Not stretched one way: a counterexample refused."
+    },
+    {
+     "key": "span",
+     "label": "Corners spread across the page",
+     "file": "panel-10-the-gates-span.jpg",
+     "alt": "Corners spread across the page: a counterexample refused."
+    },
+    {
+     "key": "perp",
+     "label": "Corners not all in a line",
+     "file": "panel-10-the-gates-perp.jpg",
+     "alt": "Corners not all in a line: a counterexample refused."
+    },
+    {
+     "key": "leave_one_out",
+     "label": "Not held up by one corner",
+     "file": "panel-10-the-gates-leave_one_out.jpg",
+     "alt": "Not held up by one corner: a counterexample refused."
+    }
+   ],
+   "tally": "match"
+  },
+  {
+   "number": 11,
+   "slug": "rescue",
+   "act": "III. Second chances",
+   "title": "A second chance, on the book's terms",
+   "dek": "With the volume's scale and turn held fixed, only a slide is left to find.",
+   "caption": "The strict fit has to discover six things at once, two for position and four more for size, turn and stretch, so it insists on four well-spread corners: three would pin the six down exactly, with nothing left over to contradict a mistake. Once the rest of the volume has been placed, four of those six are already known and are simply held fixed. All that remains is how far the page slides north and east. Two corners that agree on the same slide are then real evidence rather than a coincidence, and sheets that could never have cleared the strict fit come back. This second attempt is called rescue. Some sheets are not drawn the way the rest of the book is: a district printed sideways, or on a local street grid at its own angle. Holding the book's turn fixed is then holding the wrong one, and nothing can agree, so when the book's turn finds nothing the page's own turn is tried instead, read off which of its street labels it calls horizontal and vertical. That is a weaker source than the book, so it is asked for more: three agreeing corners rather than two, and only ever where the book's own turn had already come up empty.",
+   "stage": "rescue",
+   "note": "",
+   "figures": [
+    {
+     "label": "Sheet",
+     "value": "page 59"
+    },
+    {
+     "label": "Pinned scale",
+     "value": "0.0676 m per pixel"
+    },
+    {
+     "label": "Pinned turn",
+     "value": "1.13 deg"
+    },
+    {
+     "label": "Corners that agreed",
+     "value": "6"
+    },
+    {
+     "label": "Agreement tolerance",
+     "value": "12 m"
+    },
+    {
+     "label": "Status",
+     "value": "OK (rescued)"
+    }
+   ],
+   "states": [
+    {
+     "key": "main",
+     "label": "The slide",
+     "file": "panel-11-rescue.jpg",
+     "alt": "Each guess plotted by the slide it implies."
+    }
+   ],
+   "tally": "rescue"
+  },
+  {
+   "number": 12,
+   "slug": "revoked",
+   "act": "III. Second chances",
+   "title": "All on one street is not enough",
+   "dek": "Corners strung along a single street cannot tell it from the street next door.",
+   "caption": "This is the failure the rescue step is most exposed to. A city grid is full of parallel streets a block apart, and a set of corners that all lie on one of them fits the street next door exactly as well. Nothing in the arithmetic can see the difference, so the answer is a rule about the evidence rather than a cleverer measurement: unless two of the agreeing corners share no street between them, the placement is withdrawn. A sheet in that state is called revoked. It is recorded as a proposal rather than discarded, and passed to the two steps that follow, which can settle it with evidence the matcher never saw.",
+   "stage": "rescue",
+   "note": "",
+   "figures": [
+    {
+     "label": "Sheet",
+     "value": "page 44"
+    },
+    {
+     "label": "Corners that agreed",
+     "value": "3"
+    },
+    {
+     "label": "Street they all share",
+     "value": "WAYNE AV."
+    },
+    {
+     "label": "Status",
+     "value": "OK (verified: junction+addresses)"
+    }
+   ],
+   "states": [
+    {
+     "key": "main",
+     "label": "One street",
+     "file": "panel-12-revoked.jpg",
+     "alt": "Every agreeing corner sitting on the same street."
+    }
+   ],
+   "tally": "rescue"
+  },
+  {
+   "number": 13,
+   "slug": "corroborate",
+   "act": "III. Second chances",
+   "title": "The neighbours already know",
+   "dek": "A withheld sheet is reinstated when placed neighbours agree about a shared corner.",
+   "caption": "Sheets in an atlas overlap at their edges, so the same street corner often appears on two of them. That is the opening. Take a sheet whose placement was withdrawn, find corners it shares with sheets already accepted, and measure how far apart the two placements put each one. This check is called corroboration, and agreement here cannot be arranged: a sheet placed one block off along a street simply has no corners in common with the sheets around it, so it has nothing to agree with and stays withheld.",
+   "stage": "corroborate",
+   "note": "Order note: a run does this AFTER the seam solve of step 16, not before it. The neighbours have already been nudged into line with each other by then, so what is compared here is the tidied frame, which is the whole reason the seam solve runs first.",
+   "figures": [
+    {
+     "label": "Sheet",
+     "value": "page 124"
+    },
+    {
+     "label": "Shared corners agreeing",
+     "value": "3"
+    },
+    {
+     "label": "Needed",
+     "value": "2 within 8 m"
+    },
+    {
+     "label": "Status",
+     "value": "OK (rescued, neighbor-corroborated)"
+    }
+   ],
+   "states": [
+    {
+     "key": "main",
+     "label": "Shared corners",
+     "file": "panel-13-corroborate.jpg",
+     "alt": "A withheld sheet beside the neighbours that vouch for it."
+    }
+   ],
+   "tally": "corroborate"
+  },
+  {
+   "number": 14,
+   "slug": "independent-evidence",
+   "act": "III. Second chances",
+   "title": "Evidence the matcher never saw",
+   "dek": "Drawn street crossings and printed house numbers, checked against the placement.",
+   "caption": "The matcher only ever looked at street names. Two other things on the same page can be checked against the placement it proposed, and neither had any part in producing it. The first is the ink itself: where the drawn streets cross, compared with where a modern map says those crossings are. The second is the house numbers printed along every block, compared with the numbers a modern address grid expects there. Both are simply asked whether the proposed placement makes sense; neither can move it.",
+   "stage": "junction-verify",
+   "note": "",
+   "figures": [
+    {
+     "label": "Sheet",
+     "value": "page 56"
+    },
+    {
+     "label": "Drawn crossings found",
+     "value": "6"
+    },
+    {
+     "label": "Best agreement",
+     "value": "4.5 m"
+    },
+    {
+     "label": "House numbers two readers agreed on",
+     "value": "13"
+    },
+    {
+     "label": "Of those, on the right block",
+     "value": "9"
+    }
+   ],
+   "states": [
+    {
+     "key": "main",
+     "label": "Two channels",
+     "file": "panel-14-independent-evidence.jpg",
+     "alt": "Drawn crossings and house numbers checked against the placement."
+    }
+   ],
+   "tally": "corroborate"
+  },
+  {
+   "number": 15,
+   "slug": "verified-accept",
+   "act": "III. Second chances",
+   "title": "Two voices, and nothing against",
+   "dek": "Three independent checks; two agreeing and none objecting puts a sheet back.",
+   "caption": "The last of the second chances is a vote, and its value is entirely in the independence of the voters. The neighbours check knows about corners shared with other sheets. The crossings check knows about ink on this page. The house-number check knows about printed numbers and a modern address grid. None of them uses the street names the placement was built from, so agreement between two of them is not the same reasoning counted twice. One voice is never enough, and the house-number check is the only one allowed to object. This vote is called verified accept, and if the house numbers object, the sheet stays flagged however many others agreed.",
+   "stage": "verified-accept",
+   "note": "",
+   "figures": [
+    {
+     "label": "Sheet",
+     "value": "page 56"
+    },
+    {
+     "label": "Checks available",
+     "value": "3"
+    },
+    {
+     "label": "Agreement needed",
+     "value": "2"
+    },
+    {
+     "label": "Result",
+     "value": "OK (verified: junction+addresses)"
+    }
+   ],
+   "states": [
+    {
+     "key": "main",
+     "label": "The vote",
+     "file": "panel-15-verified-accept.jpg",
+     "alt": "The three checks and how each voted."
+    }
+   ],
+   "tally": "verified-accept"
+  },
+  {
+   "number": 16,
+   "slug": "seams",
+   "act": "IV. The volume settles",
+   "title": "Closing the seams",
+   "dek": "Neighbouring sheets are nudged until the corners they share line up.",
+   "caption": "Each sheet is placed on its own, so two neighbours can be wrong in opposite directions and the street that runs between them arrives at the shared edge twice, in two different places. The fix treats the whole volume at once. Every corner that appears on two sheets becomes a request that those two sheets agree there, and one calculation finds the small nudge for each sheet that satisfies as many requests as possible. Only sliding is allowed, with no sheet resized or turned, and a pull towards where each sheet already was keeps the volume anchored to its own evidence rather than drifting off together.",
+   "stage": "seam",
+   "note": "Order note: a run does this BEFORE the neighbour check of step 13. It is told here because a seam is easier to see once the second chances are in view, but the comparison in step 13 is made against the tidied positions this step produces.",
+   "figures": [
+    {
+     "label": "Shared corners",
+     "value": "274"
+    },
+    {
+     "label": "Typical gap before (RMS)",
+     "value": "7.79 m"
+    },
+    {
+     "label": "Typical gap after (RMS)",
+     "value": "6.59 m"
+    },
+    {
+     "label": "Sheets nudged",
+     "value": "47"
+    },
+    {
+     "label": "The corner shown, before",
+     "value": "26.3 m apart"
+    },
+    {
+     "label": "The same corner, after",
+     "value": "8.97 m apart"
+    }
+   ],
+   "states": [
+    {
+     "key": "before",
+     "label": "Before",
+     "file": "panel-16-seams-before.jpg",
+     "alt": "The shared edge before the seam solve."
+    },
+    {
+     "key": "after",
+     "label": "After",
+     "file": "panel-16-seams-after.jpg",
+     "alt": "The shared edge after the seam solve."
+    }
+   ],
+   "tally": "verified-accept"
+  },
+  {
+   "number": 17,
+   "slug": "warp",
+   "act": "V. Becoming a map",
+   "title": "Onto the ground",
+   "dek": "The accepted corners become control points, and the scan is stretched to fit them.",
+   "caption": "Up to here the placement has been a handful of numbers. This is where it becomes an image sitting on the ground. The corners the fit kept are written out as control points and passed to standard mapping software, which stretches the scan so that every one of them lands on its modern coordinates. What comes out is a cloud-optimised GeoTIFF, a plain, widely readable format that any mapping tool can open, and that a web viewer can read a piece of at a time instead of downloading whole.",
+   "stage": "warp",
+   "note": "",
+   "figures": [
+    {
+     "label": "Sheet",
+     "value": "page 52"
+    },
+    {
+     "label": "Control points written",
+     "value": "10"
+    }
+   ],
+   "states": [
+    {
+     "key": "main",
+     "label": "Placed",
+     "file": "panel-17-warp.jpg",
+     "alt": "The scan stretched onto modern street centrelines."
+    }
+   ],
+   "tally": "verified-accept"
+  },
+  {
+   "number": 18,
+   "slug": "masks",
+   "act": "V. Becoming a map",
+   "title": "Trimming the margins",
+   "dek": "Each sheet is cut back to its mapped area so it cannot paint over its neighbour.",
+   "caption": "An atlas page is not all map. There is a printed border, a page number, a compass rose, a title block and a scale bar, and once the page is stretched onto the ground all of that lies over real streets, usually the ones the next sheet along is drawing properly. So each sheet gets a cutting outline that follows the edge of its mapped area, and everything outside it is made transparent. The furniture stays in the archived scan and disappears from the map.",
+   "stage": "mask",
+   "note": "",
+   "figures": [
+    {
+     "label": "Sheet",
+     "value": "page 52"
+    },
+    {
+     "label": "Neighbour",
+     "value": "page 51"
+    }
+   ],
+   "states": [
+    {
+     "key": "before",
+     "label": "Whole page",
+     "file": "panel-18-masks-before.jpg",
+     "alt": "Two sheets, whole page."
+    },
+    {
+     "key": "after",
+     "label": "Trimmed",
+     "file": "panel-18-masks-after.jpg",
+     "alt": "Two sheets, trimmed."
+    }
+   ],
+   "tally": "verified-accept"
+  },
+  {
+   "number": 19,
+   "slug": "mosaic",
+   "act": "V. Becoming a map",
+   "title": "One surface, cut into tiles",
+   "dek": "Trimmed sheets are composited into a single layer and packed for the browser.",
+   "caption": "This is the volume, assembled. Every accepted sheet has been trimmed to its mapped area and composited into one continuous surface, and the gaps are the sheets the pipeline refused. They are not filled in or approximated. The surface is then cut into square tiles at every zoom level a reader might want and packed into a single file that a web map reads a piece at a time. No server is involved: the file sits in storage and the browser asks for the bytes it needs.",
+   "stage": "tile",
+   "note": "",
+   "figures": [
+    {
+     "label": "Sheets in the surface",
+     "value": "107"
+    },
+    {
+     "label": "Zoom levels",
+     "value": "12 to 20"
+    }
+   ],
+   "states": [
+    {
+     "key": "main",
+     "label": "The volume",
+     "file": "panel-19-mosaic.jpg",
+     "alt": "The assembled volume over modern centrelines."
+    }
+   ],
+   "tally": "verified-accept"
+  },
+  {
+   "number": 20,
+   "slug": "the-funnel",
+   "act": "VI. Grading, afterwards",
+   "title": "Where the sheets ended up",
+   "dek": "The whole volume, stage by stage, including the sheets nothing could place.",
+   "caption": "The pipeline does not place every sheet. It places every sheet the evidence supports and flags the rest. How large that rest is varies enormously from one volume to the next, and the spread is itself the honest picture: a book of ordinary street grids gives up almost everything, while a book of rail yards or a world's fair site can give up nothing at all. Refusing is the design working. A wrong sheet published quietly is worse than a missing one, because a reader has no way to tell it is wrong. Each status below is the literal text written into that sheet's record, so an operator reading the files sees the same vocabulary as a reader of this page.",
+   "stage": "report",
+   "note": "",
+   "figures": [
+    {
+     "label": "Sheets",
+     "value": "133"
+    },
+    {
+     "label": "Placed",
+     "value": "107"
+    },
+    {
+     "label": "Flagged",
+     "value": "26"
+    },
+    {
+     "label": "Flagged share",
+     "value": "20%"
+    },
+    {
+     "label": "Volumes measured",
+     "value": "72"
+    },
+    {
+     "label": "Flagged share across them",
+     "value": "3% to 98%"
+    },
+    {
+     "label": "Middle volume",
+     "value": "21% flagged"
+    },
+    {
+     "label": "The strict fit was clean",
+     "value": "OK"
+    },
+    {
+     "label": "Placed by a slide at the book's pinned scale and turn",
+     "value": "OK (rescued)"
+    },
+    {
+     "label": "Put back by corners shared with placed neighbours",
+     "value": "OK (rescued, neighbor-corroborated)"
+    },
+    {
+     "label": "Put back by two independent checks",
+     "value": "OK (verified: junction+addresses)"
+    },
+    {
+     "label": "A proposal nothing could confirm",
+     "value": "REJECTED (rescue revoked: anchors share one street)"
+    },
+    {
+     "label": "No placement the checks would accept",
+     "value": "REJECTED (no valid RANSAC model)"
+    }
+   ],
+   "states": [
+    {
+     "key": "main",
+     "label": "The funnel",
+     "file": "panel-20-the-funnel.jpg",
+     "alt": "Placed, proposed and flagged counts after each stage."
+    }
+   ],
+   "tally": "verified-accept"
+  },
+  {
+   "number": 21,
+   "slug": "the-score",
+   "act": "VI. Grading, afterwards",
+   "title": "Marked afterwards, never during",
+   "dek": "Hand placements are the ruler, and no run stage is allowed to read one.",
+   "caption": "There is an obvious temptation with a system like this: if someone has already placed a sheet by hand, use it. Doing so would destroy the only honest measurement available, because a pipeline that has seen the answer cannot be tested against it. So hand placements are kept strictly outside every run. They are used by one separate command, afterwards, which writes its comparison to a file beside the results and never onto a sheet's record. The volume this walkthrough follows has no hand placements at all; the figures here come from one that does. The yardstick exists only where a volunteer happened to place a volume by hand, which is a small part of the corpus and never the part a run reads.",
+   "stage": "score",
+   "note": "",
+   "figures": [
+    {
+     "label": "Volume graded",
+     "value": "Chicago, Ill., Vol. 29"
+    },
+    {
+     "label": "Sheets scored",
+     "value": "91"
+    },
+    {
+     "label": "Typical distance",
+     "value": "8.83 m"
+    },
+    {
+     "label": "Within the gate",
+     "value": "90 of 91"
+    }
+   ],
+   "states": [
+    {
+     "key": "main",
+     "label": "The score",
+     "file": "panel-21-the-score.jpg",
+     "alt": "How far placements fall from hand-placed ones."
+    }
+   ],
+   "tally": "verified-accept"
+  }
+ ]
+}

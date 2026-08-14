@@ -1,0 +1,167 @@
+{
+  "page": "61",
+  "n_streets": 9,
+  "n_candidates": 14,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. PRATT AV.",
+      "N. WOLCOTT AV. (HILLDALE AV.)"
+    ],
+    [
+      "W. PRATT BLVD.",
+      "N. WOLCOTT AV. (HILLDALE AV.)"
+    ],
+    [
+      "W. COLUMBIA AV.",
+      "N. DAMEN AV."
+    ],
+    [
+      "N. DAMEN AV.",
+      "W. ALBION AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4922,
+            364
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PRATT AV. x N. WOLCOTT AV. (HILLDALE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67795662786695,
+            42.00527308731102
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4922,
+            317
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PRATT BLVD. x N. WOLCOTT AV. (HILLDALE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67795662786695,
+            42.00527308731102
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            901,
+            2281
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. COLUMBIA AV. x N. DAMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68036786678375,
+            42.00425982917001
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            901,
+            8223
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAMEN AV. x W. ALBION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6802829390352,
+            42.00160242373436
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68061220229514,
+            42.00497591665912
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5270,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67770397741396,
+            42.005024165428864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68051789543927,
+            42.00183703786932
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -2.999,
+    "dy_m": 2.762
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.3302,
+    "separation_ratio": 1.043,
+    "best_offset_m": 21.0,
+    "n_junctions": 17
+  }
+}

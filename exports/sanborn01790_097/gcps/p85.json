@@ -1,0 +1,142 @@
+{
+  "page": "85",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "CARROLL AV.",
+      "N. HOMAN AV."
+    ],
+    [
+      "W. FULTON",
+      "N. HOMAN AV."
+    ],
+    [
+      "N. HOMAN AV.",
+      "W. WALNUT"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            836,
+            1377
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARROLL AV. x N. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71119904614389,
+            41.88745945204848
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            836,
+            3822
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULTON x N. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71116697225096,
+            41.88635408120814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            836,
+            6132
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOMAN AV. x W. WALNUT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71113965277951,
+            41.885328723254446
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            592,
+            862
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71134278332936,
+            41.88771069269372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5324,
+            862
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70843899573684,
+            41.88773978754309
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            592,
+            7760
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71128582493382,
+            41.88456008938317
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5924,
+    "separation_ratio": 1.266,
+    "best_offset_m": 2.1,
+    "n_junctions": 12
+  }
+}

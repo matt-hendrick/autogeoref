@@ -1,0 +1,120 @@
+{
+  "page": "23",
+  "n_streets": 5,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "ARTHINGTON",
+      "S. KILDARE AV."
+    ],
+    [
+      "S. KILDARE AV.",
+      "TAYLOR"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4090,
+            3559
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARTHINGTON x S. KILDARE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73260909770836,
+            41.86993859649947
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4090,
+            5528
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KILDARE AV. x TAYLOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73257763295065,
+            41.868998937044296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            578,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7348478039957,
+            41.8711675577494
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5201,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73193892161648,
+            41.87120893564711
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            578,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73476603505492,
+            41.8679799983026
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.588,
+    "separation_ratio": 1.184,
+    "best_offset_m": 8.1,
+    "n_junctions": 10
+  }
+}

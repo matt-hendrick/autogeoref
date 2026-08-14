@@ -1,0 +1,163 @@
+{
+  "page": "66",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. POLK",
+      "S. OAKLEY BLV'D"
+    ],
+    [
+      "W. POLK",
+      "S. BELL AV. (S. IRVING AV.)"
+    ],
+    [
+      "W. POLK",
+      "S. LEAVITT"
+    ],
+    [
+      "S. OAKLEY BLV'D",
+      "TAYLOR"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            895,
+            1064
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POLK x S. OAKLEY BLV'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68371951070426,
+            41.871365221981485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2934,
+            1064
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POLK x S. BELL AV. (S. IRVING AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68249755409443,
+            41.871384171085275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4994,
+            1064
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POLK x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68126947612535,
+            41.871402554314656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            895,
+            6227
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY BLV'D x TAYLOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68365384053045,
+            41.86901167393483
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6839339069186,
+            41.87151068799441
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5235,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68109315255172,
+            41.87155515465472
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68385874170278,
+            41.868847990652895
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4585,
+    "separation_ratio": 1.201,
+    "best_offset_m": 5.3,
+    "n_junctions": 43
+  }
+}

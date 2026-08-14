@@ -1,0 +1,157 @@
+{
+  "page": "41",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.6,
+  "auto_residuals_m": [
+    2.62,
+    1.27,
+    1.73,
+    1.73,
+    0.3,
+    1.68
+  ],
+  "inlier_streets": [
+    [
+      "FULLERTON AV.",
+      "N. LAVERGNE AV."
+    ],
+    [
+      "MEDILL AV.",
+      "N. LAVERGNE AV."
+    ],
+    [
+      "BELDEN AV.",
+      "N. LAVERGNE AV."
+    ],
+    [
+      "BELDEN AV.",
+      "LAPORTE AV."
+    ],
+    [
+      "PALMER AV.",
+      "N. LAVERGNE AV."
+    ],
+    [
+      "PALMER AV.",
+      "LAPORTE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            355
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. LAVERGNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75122728790853,
+            41.924174934488356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            2362
+          ],
+          "username": "autogeoref",
+          "note": "auto: MEDILL AV. x N. LAVERGNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75120256349564,
+            41.923281046543664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            4390
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x N. LAVERGNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7511733685217,
+            41.92235465316219
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2513,
+            4390
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x LAPORTE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74994358950191,
+            41.92238025010781
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            8361
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER AV. x N. LAVERGNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75112596305085,
+            41.920521193267554
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2513,
+            8361
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER AV. x LAPORTE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74989641060655,
+            41.92053760020485
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

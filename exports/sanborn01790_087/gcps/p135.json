@@ -1,0 +1,132 @@
+{
+  "page": "135",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 1.09,
+  "auto_residuals_m": [
+    0.11,
+    0.23,
+    0.11,
+    0.44,
+    0.25
+  ],
+  "inlier_streets": [
+    [
+      "W. BELDEN AV.",
+      "N. ORCHARD"
+    ],
+    [
+      "W. BELDEN AV.",
+      "N. GENEVA"
+    ],
+    [
+      "N. ORCHARD",
+      "W. WEBSTER AV."
+    ],
+    [
+      "N. GENEVA",
+      "W. GRANT PL."
+    ],
+    [
+      "N. GENEVA",
+      "W. WEBSTER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            952,
+            1726
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELDEN AV. x N. ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6462761234021,
+            41.92366833399041
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5044,
+            1726
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELDEN AV. x N. GENEVA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64384582673996,
+            41.92370447605907
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            952,
+            5749
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ORCHARD x W. WEBSTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64621390688448,
+            41.92185224627248
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5044,
+            3733
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GENEVA x W. GRANT PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64381691171721,
+            41.9227938404375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5044,
+            5749
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GENEVA x W. WEBSTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64378718627633,
+            41.92188789022798
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

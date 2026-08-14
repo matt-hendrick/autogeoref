@@ -1,0 +1,119 @@
+{
+  "page": "14",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. BIRCHWOOD AV.",
+      "N. CLARK"
+    ],
+    [
+      "N. HERMITAGE AV.",
+      "N. ROGERS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1301,
+            3995
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BIRCHWOOD AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67568366236245,
+            42.01792109562639
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4326,
+            6665
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HERMITAGE AV. x N. ROGERS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67376325158756,
+            42.01677382347
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            561,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67617135437719,
+            42.019367576946244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5046,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67341626408209,
+            42.019415225756404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            561,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67607407882879,
+            42.01626315772702
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 0.843,
+    "dy_m": 5.055
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

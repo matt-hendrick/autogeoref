@@ -1,0 +1,182 @@
+{
+  "page": "14",
+  "n_streets": 4,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (verified: corroboration+junction+addresses)",
+  "rescue_anchors": [
+    [
+      "AUGUSTA ST.",
+      "ELSTON AV."
+    ],
+    [
+      "ELSTON AV.",
+      "W. CHESTNUT (CORNELL)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1708,
+            3555
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA ST. x ELSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65664689941629,
+            41.89988389594471
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1708,
+            6971
+          ],
+          "username": "autogeoref",
+          "note": "auto: ELSTON AV. x W. CHESTNUT (CORNELL)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65659793221555,
+            41.89837183650199
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65737169352006,
+            41.90117204128118
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5212,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65454767625697,
+            41.90121863716847
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65729253874498,
+            41.898514381836975
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7966,
+    "separation_ratio": 1.198,
+    "best_offset_m": 2.4,
+    "n_junctions": 6
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 10,
+      "votable": 10,
+      "in_block": 10,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 14.7,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 14.6,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 14.6,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 14.6,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 14.6,
+          "addr_diff": 1.0
+        },
+        {
+          "perp_m": 14.6,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 14.6,
+          "addr_diff": 3.0
+        },
+        {
+          "perp_m": 14.6,
+          "addr_diff": 2.9
+        },
+        {
+          "perp_m": 14.6,
+          "addr_diff": 4.6
+        },
+        {
+          "perp_m": 14.6,
+          "addr_diff": 6.1
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

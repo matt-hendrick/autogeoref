@@ -1,0 +1,141 @@
+{
+  "page": "86",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 44TH ST.",
+      "S. SPRINGFIELD AV."
+    ],
+    [
+      "S. SPRINGFIELD AV.",
+      "W. 45TH ST."
+    ],
+    [
+      "S. HAMLIN AV.",
+      "W. 45TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            895,
+            4137
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 44TH ST. x S. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72134899080729,
+            41.81339627241956
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            895,
+            7932
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. x W. 45TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72127376337966,
+            41.81158223312924
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4620,
+            7932
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HAMLIN AV. x W. 45TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71888255374792,
+            41.81157637296443
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72154476152758,
+            41.81486604404018
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5294,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71861751839253,
+            41.81491412806246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72145148630499,
+            41.81171176136163
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4143,
+    "separation_ratio": 1.185,
+    "best_offset_m": 20.4,
+    "n_junctions": 7
+  }
+}

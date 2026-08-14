@@ -1,0 +1,205 @@
+{
+  "page": "53",
+  "n_streets": 13,
+  "n_candidates": 14,
+  "n_inliers": 8,
+  "rotation_deg": 0.35,
+  "auto_residuals_m": [
+    2.48,
+    2.76,
+    7.03,
+    2.19,
+    9.25,
+    4.6,
+    9.22,
+    6.16
+  ],
+  "inlier_streets": [
+    [
+      "W. EVERGREEN AV. (W. SIGEL)",
+      "NORTH PARK AV."
+    ],
+    [
+      "W. EVERGREEN AV. (W. SIGEL)",
+      "N. SEDGWICK"
+    ],
+    [
+      "W. SULLIVAN",
+      "N. SEDGWICK"
+    ],
+    [
+      "W. GOETHE",
+      "N. SEDGWICK"
+    ],
+    [
+      "N. SEDGWICK",
+      "W. SCOTT (W. BEETHOVEN PL.)"
+    ],
+    [
+      "N. SEDGWICK",
+      "W. DIVISION"
+    ],
+    [
+      "W. SCOTT (W. BEETHOVEN PL.)",
+      "N. ORLEANS"
+    ],
+    [
+      "W. DIVISION",
+      "N. ORLEANS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4472,
+            586
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EVERGREEN AV. (W. SIGEL) x NORTH PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63652391573126,
+            41.90669266315588
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1298,
+            586
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EVERGREEN AV. (W. SIGEL) x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63844870854027,
+            41.9066616002542
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1298,
+            2156
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SULLIVAN x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63842754835306,
+            41.90598964272676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1298,
+            2733
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GOETHE x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6384158851616,
+            41.905689477129414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1298,
+            4379
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. SCOTT (W. BEETHOVEN PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63838880178436,
+            41.9048507743735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1298,
+            6784
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63833124737634,
+            41.903820788424746
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2649,
+            4379
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SCOTT (W. BEETHOVEN PL.) x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63753692374098,
+            41.904853383245985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2649,
+            6784
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63743988438146,
+            41.90383167790062
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.518,
+    "dy_m": 4.073
+  }
+}

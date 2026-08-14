@@ -1,0 +1,120 @@
+{
+  "page": "72",
+  "n_streets": 6,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 21ST ST.",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. 21ST PL.",
+      "S. HOYNE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            956,
+            2664
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67834387748651,
+            41.85397664455953
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            956,
+            4674
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST PL. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67831824070574,
+            41.85305955265339
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67859373827208,
+            41.85484846982651
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5258,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6757438003905,
+            41.85489134708567
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67852157884877,
+            41.85218753952557
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5551,
+    "separation_ratio": 1.013,
+    "best_offset_m": 22.5,
+    "n_junctions": 38
+  }
+}

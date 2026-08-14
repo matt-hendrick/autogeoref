@@ -1,0 +1,155 @@
+{
+  "page": "31",
+  "n_streets": 8,
+  "n_candidates": 14,
+  "n_inliers": 6,
+  "rotation_deg": 1.31,
+  "auto_residuals_m": [
+    0.8,
+    0.35,
+    1.16,
+    0.58,
+    0.86,
+    1.42
+  ],
+  "inlier_streets": [
+    [
+      "N. ELSTON AV.",
+      "FRY (FRONT)"
+    ],
+    [
+      "FRY (FRONT)",
+      "N. MAY"
+    ],
+    [
+      "FRY (FRONT)",
+      "N. CARPENTER"
+    ],
+    [
+      "N. MAY",
+      "W. CHICAGO AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. MAY ST."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. CARPENTER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            520,
+            976
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELSTON AV. x FRY (FRONT)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65655842123597,
+            41.897310049915646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2673,
+            976
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRY (FRONT) x N. MAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65525676493178,
+            41.8973320898428
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5333,
+            976
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRY (FRONT) x N. CARPENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6536557358836,
+            41.897363229296396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2673,
+            3292
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAY x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65523592976658,
+            41.89626980397525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1521,
+            3292
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. MAY ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65593775438029,
+            41.8962573783691
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5333,
+            3292
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. CARPENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6536055715453,
+            41.89629251217083
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

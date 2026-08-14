@@ -1,0 +1,230 @@
+{
+  "page": "113",
+  "n_streets": 4,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "S. 5TH AV.",
+      "W. 37TH ST."
+    ],
+    [
+      "WENTWORTH AV.",
+      "W. 37TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2971,
+            4705
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 5TH AV. x W. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63262720019404,
+            41.82728103401127
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4939,
+            4705
+          ],
+          "username": "autogeoref",
+          "note": "auto: WENTWORTH AV. x W. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63142092000234,
+            41.82729580222768
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63407901928304,
+            41.82903354888304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5292,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63126513132684,
+            41.82906941540602
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6340190727175,
+            41.82642220440372
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6602,
+    "separation_ratio": 1.128,
+    "best_offset_m": 0.3,
+    "n_junctions": 14
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 22,
+      "votable": 22,
+      "in_block": 18,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 87.2,
+          "addr_diff": 24.0
+        },
+        {
+          "perp_m": 77.4,
+          "addr_diff": 20.0
+        },
+        {
+          "perp_m": 67.6,
+          "addr_diff": 18.0
+        },
+        {
+          "perp_m": 57.8,
+          "addr_diff": 16.0
+        },
+        {
+          "perp_m": 48.2,
+          "addr_diff": 14.0
+        },
+        {
+          "perp_m": 38.8,
+          "addr_diff": 12.0
+        },
+        {
+          "perp_m": 29.5,
+          "addr_diff": 10.0
+        },
+        {
+          "perp_m": 20.5,
+          "addr_diff": 6.0
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 4.0
+        },
+        {
+          "perp_m": 10.6,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 10.6,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 10.5,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 10.4,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 10.3,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 10.2,
+          "addr_diff": 1.7
+        },
+        {
+          "perp_m": 10.2,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 10.1,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 10.0,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 9.9,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 9.8,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 13.7,
+          "addr_diff": 7.3
+        },
+        {
+          "perp_m": 13.9,
+          "addr_diff": 1.4
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

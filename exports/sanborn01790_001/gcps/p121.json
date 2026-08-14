@@ -1,0 +1,109 @@
+{
+  "page": "121",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.12,
+  "auto_residuals_m": [
+    0.04,
+    0.09,
+    0.03,
+    0.09
+  ],
+  "inlier_streets": [
+    [
+      "GRACELAND AVE.",
+      "N. WESTERN AVE."
+    ],
+    [
+      "GRACELAND AVE.",
+      "N. OAKLEY AVE."
+    ],
+    [
+      "N. WESTERN AVE.",
+      "GRACE"
+    ],
+    [
+      "N. OAKLEY AVE.",
+      "GRACE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            693,
+            219
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACELAND AVE. x N. WESTERN AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68846623700392,
+            41.95401274069885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4714,
+            219
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACELAND AVE. x N. OAKLEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.686041799058,
+            41.95404872318113
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            693,
+            8081
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AVE. x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68836123871692,
+            41.950379071024514
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4714,
+            8081
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AVE. x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68593578687795,
+            41.95041365803368
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

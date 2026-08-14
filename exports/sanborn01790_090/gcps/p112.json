@@ -1,0 +1,142 @@
+{
+  "page": "112",
+  "n_streets": 7,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 37TH ST.",
+      "PRINCETON AV."
+    ],
+    [
+      "PRINCETON AV.",
+      "W. 37TH PL."
+    ],
+    [
+      "PRINCETON AV.",
+      "W. 37TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5348,
+            4454
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH ST. x PRINCETON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63384152226732,
+            41.82726463193655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5348,
+            6527
+          ],
+          "username": "autogeoref",
+          "note": "auto: PRINCETON AV. x W. 37TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63383087778108,
+            41.82634959895094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5348,
+            6431
+          ],
+          "username": "autogeoref",
+          "note": "auto: PRINCETON AV. x W. 37TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63383087778108,
+            41.82634959895094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63677114647167,
+            41.82890887982841
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5277,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.633928785557,
+            41.82894428747313
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63671179538801,
+            41.82626345770438
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.5472,
+    "separation_ratio": 0.835,
+    "best_offset_m": 98.8,
+    "n_junctions": 7
+  }
+}

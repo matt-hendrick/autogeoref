@@ -1,0 +1,371 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "autogeoref"
+version = "0.1.0"
+description = "Auto-georeferencing for scanned Sanborn fire-insurance maps: street-label vision, intersection matching, constrained RANSAC, rescue, corroboration, seam adjustment."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [
+    { name = "Matt Hendrick", email = "75456865+matt-hendrick@users.noreply.github.com" },
+]
+dependencies = [
+    "numpy>=2.0",
+    "shapely>=2.0",
+    "pyproj>=3.6",
+    "httpx>=0.27",
+    "pillow>=10.0",
+]
+
+[project.optional-dependencies]
+# One extra per direct-API provider, so installing one SDK does not pull the
+# other. Neither is needed to drive a model CLI.
+annotate = [
+    "anthropic>=0.40",
+]
+openai = [
+    # 1.66 is the floor because `client.responses` arrives there; an older
+    # resolve would fail with AttributeError at the first read instead.
+    "openai>=1.66",
+]
+cv = [
+    "opencv-python-headless>=4.10",
+    "scikit-image>=0.24",
+]
+tiles = [
+    "pmtiles>=3.2",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-xdist>=3.5",
+    "pytest-cov>=6.0",
+    "ruff>=0.15,<0.16",
+    "mypy>=1.13",
+    "hypothesis>=6.100",
+    "import-linter>=2.13",
+    # CITATION.cff is YAML and must agree with the metadata above; the release
+    # metadata test reads it rather than trusting two hand-edited copies.
+    "pyyaml>=6.0",
+    "types-PyYAML>=6.0",
+]
+
+[project.scripts]
+autogeoref = "autogeoref.cli.entry:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/autogeoref"]
+
+[tool.ruff]
+# An unbounded floor lets two environments lint the same tree to different
+# answers; ruff exits with an error when it falls outside this range. 0.16 is
+# excluded on measurement, not caution: it stops flagging an unbound
+# `except Exception`, which turns three BLE001 suppressions into RUF100
+# failures. Widening the range means deleting those three first.
+required-version = ">=0.15,<0.16"
+line-length = 100
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint.isort]
+# Stated rather than inferred. Ruff resolves each submodule against `src`, so a
+# renamed module reads as third-party and its import moves to another block,
+# rewriting import blocks in files nobody touched.
+known-first-party = ["autogeoref"]
+
+[tool.ruff.lint]
+select = [
+    "E", "F", "W",      # pycodestyle, pyflakes
+    "I",                # isort
+    "UP",               # pyupgrade
+    "B",                # bugbear
+    "C4",               # comprehensions
+    "SIM",              # simplify
+    "RUF",              # ruff-specific
+    "ARG",              # unused arguments
+    "PTH",              # pathlib
+    "N",                # pep8-naming
+    "T20",              # no stray prints outside the CLI surfaces
+    "PIE",              # misc lint
+    "TC001", "TC002",   # type-only imports into TYPE_CHECKING (NOT TC003)
+    "FURB", "PERF",     # modernization, comprehensions over accumulator loops
+    "A", "DTZ", "PT", "PYI", "SLF", "BLE", "ERA",
+    "TID251",           # banned-api: retired re-export shims
+    "C901",             # cyclomatic complexity ceiling
+    "PLR0913",          # argument-count ceiling
+    "PLR0911",          # return-count ceiling
+    "PLR0912",          # branch-count ceiling
+    "PLR0915",          # statement-count ceiling
+]
+ignore = [
+    "SIM108",  # ternary is not always clearer
+    "PT018",   # composite asserts: a pytest rule that also fires on narrowing
+               # asserts in library code, where it means nothing
+]
+# scripts/lint/check_docstrings.py's codes, so its `# noqa: DSNNN` is one convention
+# with ruff's rather than a second spelling ruff then reports as invalid.
+external = ["DS"]
+
+# Budget ceilings, not contracts: lower them freely, never raise them. Each was
+# adopted at the worst function that existed then, which is a rule that cannot
+# fire until something new is worse than everything old; they are being walked
+# down from there toward ruff's defaults.
+[tool.ruff.lint.mccabe]
+max-complexity = 20
+
+[tool.ruff.lint.pylint]
+max-args = 10
+# Each comment names the function the ceiling currently rests on. That function
+# is not always in `src`: only PLR0912 and PLR0915 are ignored under `scripts/*`,
+# so a script can be what holds a number up.
+max-returns = 11     # scripts/renumber_transcribe.classify_row
+max-branches = 18    # a three-way tie: viewer.config.load_viewer_config,
+                     # report.build_report, alias.sweep.render_report
+max-statements = 50  # ruff's own default; viewer.config.load_viewer_config sits at it
+
+# Load-bearing, not cosmetic. Printing is the job on the CLI, console, and
+# review surfaces; the experiment probes print their results, catch broadly,
+# and keep dead code they may revive; tests reach into private members and
+# catch broadly to carry a worker thread's failure back to the assertion.
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["ARG001", "SLF001", "BLE001", "T20"]
+"src/autogeoref/queue/run.py" = ["SLF001"]
+"src/autogeoref/cli/*" = ["T20"]
+"src/autogeoref/cli_context.py" = ["T20"]
+"src/autogeoref/console/*" = ["T20"]
+"src/autogeoref/review/server.py" = ["T20"]
+# The size ceilings were calibrated on `src`, and `scripts/` is a different
+# population: one-shot probes and argparse `main` dispatchers. Ratchet this
+# tree separately. `PLR0911` is deliberately absent: at the adopted ceiling the
+# whole tree is already clear.
+"scripts/*" = [
+    "T20", "SLF001", "ERA001", "BLE001", "C901", "PLR0913",
+    "PLR0912", "PLR0915",
+]
+
+# Names a module re-exported for compatibility after a refactor moved them out.
+# The shims are gone; these entries stop them growing back. Ruff resolves
+# relative imports against `src`, so `from .run_inputs import resolve_constants`
+# matches the absolute pattern too.
+[tool.ruff.lint.flake8-tidy-imports.banned-api]
+"autogeoref.run_inputs.PipelineError".msg = "import from autogeoref.errors"
+"autogeoref.run_inputs.VolumePaths".msg = "import from autogeoref.paths"
+"autogeoref.run_inputs.VouchNodes".msg = "import from autogeoref.vouchers"
+"autogeoref.run_inputs.committed_vouch_nodes".msg = "import from autogeoref.vouchers"
+"autogeoref.run_inputs.annotation_in_source_frame".msg = "import from autogeoref.sheet_inputs"
+"autogeoref.run_inputs.load_sheet_inputs".msg = "import from autogeoref.sheet_inputs"
+"autogeoref.run_inputs.sheet_input_from".msg = "import from autogeoref.sheet_inputs"
+"autogeoref.run_inputs.persisted_constants".msg = "import from autogeoref.volume_constants"
+"autogeoref.run_inputs.resolve_constants".msg = "import from autogeoref.volume_constants"
+"autogeoref.run_inputs.score_record_vs_ground_truth".msg = "import from autogeoref.scoring"
+"autogeoref.run_inputs.score_placements_vs_ground_truth".msg = "import from autogeoref.scoring"
+"autogeoref.run_inputs.match_sheet".msg = "import from autogeoref.volume"
+"autogeoref.orient.rotate_annotation".msg = "import from autogeoref.frames"
+"autogeoref.orient.rotate_bbox".msg = "import from autogeoref.frames"
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+# One pass, one regime: the package and the script tiers are held to the same
+# bar, so moving code out of `src/` no longer costs its typing.
+files = ["src/autogeoref", "scripts", "tests"]
+# Mirrors the `scripts/experiments/` ignore entries: mypy walks the disk, not
+# the index, so a checkout that still holds the untracked harnesses would
+# type-check files nobody ships. The three named here are the tracked ones and
+# are held to the same bar as the package. Harmless where nothing else exists.
+exclude = "^scripts/experiments/(?!(numeral_rules|qualification|water)\\.py$)"
+# A script imports its libraries by bare name (`from renumber_transcribe
+# import ...`), and that edge is invisible to the AST scan, which follows only
+# `autogeoref` imports. This search path is the only thing that checks it, so a
+# missing import stays an ERROR here — do not replace it with a blanket
+# `ignore_missing_imports`. `scripts/experiments` is on it because
+# `water_overlay_calibrate.py` reaches ACROSS directories for `water.py` that
+# way, which is the only shape that needs an entry: mypy already searches a
+# file's own directory, so a family importing its siblings needs nothing here.
+mypy_path = ["scripts", "scripts/experiments"]
+warn_unreachable = true
+# shapely/pyproj ship partial stubs; keep untyped-call noise out of strict mode
+[[tool.mypy.overrides]]
+module = ["shapely.*", "pyproj.*"]
+ignore_missing_imports = true
+
+# pmtiles ships annotations for data structures but untyped writer/reader
+# entry points (tiles packs archives; viewer.bounds reads header bounds; the
+# two test modules read an archive back through the same reader)
+[[tool.mypy.overrides]]
+module = [
+    "autogeoref.tiles",
+    "autogeoref.viewer.bounds",
+    "test_tiles",
+    "test_backhalf",
+]
+disallow_untyped_calls = false
+
+# Optional OCR and vision extras, imported inside the function that needs one
+# so the tool runs without them. Not installed, and not worth a stub.
+[[tool.mypy.overrides]]
+module = ["easyocr.*", "torch.*", "pypdfium2.*", "rapidocr_onnxruntime.*"]
+ignore_missing_imports = true
+
+# --- Not yet strict: the tests ratchet -------------------------------------
+# One entry per test module still failing a strict rule, naming the exact codes
+# it needs. The list ONLY EVER SHRINKS: `tests/test_typing_ratchet.py` counts
+# both the modules and the codes, executes every claim, and fails on one the
+# module no longer breaks. Do not add a module or a code to land a change.
+# Clearing an entry means a payload needing a shape gets a typed accessor,
+# never a `cast()`.
+#
+# Modules are named by BARE stem — neither `tests/` nor `scripts/` has an
+# `__init__.py`, so that is what mypy calls them.
+
+[[tool.mypy.overrides]]
+module = ["test_annotation_cache"]
+disable_error_code = ["attr-defined"]
+
+[[tool.mypy.overrides]]
+module = ["test_centerlines"]
+disable_error_code = ["attr-defined"]
+
+[[tool.mypy.overrides]]
+module = ["test_cli"]
+disable_error_code = ["no-any-return", "no-untyped-def"]
+
+[[tool.mypy.overrides]]
+module = ["test_conduct"]
+disable_error_code = ["comparison-overlap"]
+
+[[tool.mypy.overrides]]
+module = ["test_console_actions"]
+disable_error_code = ["arg-type", "attr-defined"]
+
+[[tool.mypy.overrides]]
+module = ["test_dag"]
+disable_error_code = ["attr-defined"]
+
+[[tool.mypy.overrides]]
+module = ["test_escalate"]
+disable_error_code = ["arg-type"]
+
+[[tool.mypy.overrides]]
+module = ["test_escalate_parallel"]
+disable_error_code = ["arg-type", "call-arg"]
+
+[[tool.mypy.overrides]]
+module = ["test_frontend_browser"]
+disable_error_code = ["arg-type", "attr-defined", "index", "operator", "type-arg", "var-annotated"]
+
+[[tool.mypy.overrides]]
+module = ["test_frontend_js"]
+disable_error_code = ["no-any-return"]
+
+[[tool.mypy.overrides]]
+module = ["test_gate_contracts"]
+disable_error_code = ["arg-type"]
+
+[[tool.mypy.overrides]]
+module = ["test_golden_replay"]
+disable_error_code = ["arg-type"]
+
+[[tool.mypy.overrides]]
+module = ["test_mask_qa"]
+disable_error_code = ["arg-type", "union-attr"]
+
+[[tool.mypy.overrides]]
+module = ["test_migrate_rescue_corners"]
+disable_error_code = ["arg-type", "union-attr"]
+
+[[tool.mypy.overrides]]
+module = ["test_mosaic_stratification"]
+disable_error_code = ["arg-type", "no-any-return", "union-attr"]
+
+[[tool.mypy.overrides]]
+module = ["test_page_scale_override"]
+disable_error_code = ["arg-type", "attr-defined", "no-untyped-call"]
+
+[[tool.mypy.overrides]]
+module = ["test_prep"]
+disable_error_code = ["arg-type"]
+
+[[tool.mypy.overrides]]
+module = ["test_rail"]
+disable_error_code = ["arg-type", "comparison-overlap", "unreachable"]
+
+[[tool.mypy.overrides]]
+module = ["test_report_config"]
+disable_error_code = ["arg-type"]
+
+[[tool.mypy.overrides]]
+module = ["test_rescue_wiring"]
+disable_error_code = ["arg-type", "attr-defined"]
+
+[[tool.mypy.overrides]]
+module = ["test_review_page"]
+disable_error_code = ["misc"]
+
+[[tool.mypy.overrides]]
+module = ["test_review_render"]
+disable_error_code = ["arg-type", "operator", "union-attr"]
+
+[[tool.mypy.overrides]]
+module = ["test_review_transactions"]
+disable_error_code = ["attr-defined"]
+
+[[tool.mypy.overrides]]
+module = ["test_run_preflight"]
+disable_error_code = ["attr-defined"]
+
+[[tool.mypy.overrides]]
+module = ["test_runplan"]
+disable_error_code = ["arg-type", "attr-defined"]
+
+[[tool.mypy.overrides]]
+module = ["test_runpolicy"]
+disable_error_code = ["arg-type"]
+
+[[tool.mypy.overrides]]
+module = ["test_scale_frame"]
+disable_error_code = ["arg-type", "index"]
+
+[[tool.mypy.overrides]]
+module = ["test_verified_accept"]
+disable_error_code = ["arg-type"]
+
+[[tool.mypy.overrides]]
+module = ["test_verify_stage"]
+disable_error_code = ["arg-type"]
+
+[[tool.mypy.overrides]]
+module = ["test_viewer_coverage"]
+disable_error_code = ["arg-type"]
+
+[[tool.mypy.overrides]]
+module = ["test_viewer_publish_rollback"]
+disable_error_code = ["union-attr"]
+
+[[tool.mypy.overrides]]
+module = ["test_viewer_stories"]
+disable_error_code = ["attr-defined"]
+
+
+[tool.coverage.run]
+source = ["autogeoref"]
+branch = true
+relative_files = true
+
+[tool.coverage.report]
+precision = 1
+exclude_also = [
+    "if TYPE_CHECKING:",
+    "raise NotImplementedError",
+    "@overload",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = [
+    "golden: integration tests replaying fixtures (slower)",
+    "gdal: tests requiring the system GDAL binaries",
+]

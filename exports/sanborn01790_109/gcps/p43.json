@@ -1,0 +1,120 @@
+{
+  "page": "43",
+  "n_streets": 7,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "S. ST. LOUIS AV.",
+      "W. 38TH PL."
+    ],
+    [
+      "S. ST. LOUIS AV.",
+      "W. PERSHING (W. 39TH ST.) ROAD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4943,
+            6153
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x W. 38TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71178109060487,
+            41.82339230273838
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4943,
+            7938
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x W. PERSHING (W. 39TH ST.) ROAD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7117576987695,
+            41.82248807776615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71456462739569,
+            41.82576755050501
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5275,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71164783514567,
+            41.82581545470121
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71447135217306,
+            41.82261380474913
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6894,
+    "separation_ratio": 1.038,
+    "best_offset_m": 14.8,
+    "n_junctions": 5
+  }
+}

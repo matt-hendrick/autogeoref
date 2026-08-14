@@ -1,0 +1,132 @@
+{
+  "page": "5",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 2.0,
+  "auto_residuals_m": [
+    0.76,
+    1.21,
+    1.01,
+    1.26,
+    0.58
+  ],
+  "inlier_streets": [
+    [
+      "W. 31ST ST.",
+      "S. WOOD"
+    ],
+    [
+      "W. 31ST PL.",
+      "S. LINCOLN"
+    ],
+    [
+      "W. 31ST PL.",
+      "S. WOOD"
+    ],
+    [
+      "S. LINCOLN",
+      "W. 32ND ST."
+    ],
+    [
+      "S. WOOD",
+      "ARCHER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4961,
+            331
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67056358638558,
+            41.837690839618936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            945,
+            2290
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST PL. x S. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6730020018243,
+            41.83677021683039
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4961,
+            2290
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST PL. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67055974858154,
+            41.836824652002115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            945,
+            4322
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LINCOLN x W. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67298400307098,
+            41.83585478114212
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4961,
+            6939
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x ARCHER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67050251162232,
+            41.83477219959216
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

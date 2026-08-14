@@ -1,0 +1,116 @@
+{
+  "page": "21",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "RANDOLPH",
+      "LASALLE"
+    ],
+    [
+      "WASHINGTON",
+      "LASALLE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3460,
+            2134
+          ],
+          "username": "autogeoref",
+          "note": "auto: RANDOLPH x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63243521047721,
+            41.8844728196944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3460,
+            5052
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63240735265198,
+            41.883208929824065
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63410691875556,
+            41.88504636987344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5304,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63138842002566,
+            41.885083772440765
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63404449665278,
+            41.882531662855186
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

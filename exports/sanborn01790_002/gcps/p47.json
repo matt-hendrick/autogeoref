@@ -1,0 +1,109 @@
+{
+  "page": "47",
+  "n_streets": 10,
+  "n_candidates": 12,
+  "n_inliers": 4,
+  "rotation_deg": 1.05,
+  "auto_residuals_m": [
+    0.06,
+    0.11,
+    0.1,
+    0.1
+  ],
+  "inlier_streets": [
+    [
+      "W. WRIGHTWOOD AVE.",
+      "N. HARDING AVE."
+    ],
+    [
+      "W. WRIGHTWOOD AVE.",
+      "N. SPRINGFIELD AVE."
+    ],
+    [
+      "W. FULLERTON AVE.",
+      "N. HARDING AVE."
+    ],
+    [
+      "W. FULLERTON AVE.",
+      "N. SPRINGFIELD AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2810,
+            196
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WRIGHTWOOD AVE. x N. HARDING AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72565455098942,
+            41.92816083720374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4787,
+            196
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WRIGHTWOOD AVE. x N. SPRINGFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72443259681991,
+            41.928178219449826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2810,
+            8079
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AVE. x N. HARDING AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72555139712588,
+            41.92449914138997
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4787,
+            8079
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AVE. x N. SPRINGFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72432683986098,
+            41.92451509692798
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,228 @@
+{
+  "page": "3",
+  "n_streets": 7,
+  "n_candidates": 13,
+  "n_inliers": 9,
+  "rotation_deg": 0.76,
+  "auto_residuals_m": [
+    1.18,
+    0.8,
+    0.27,
+    1.12,
+    0.99,
+    1.29,
+    1.03,
+    0.49,
+    0.69
+  ],
+  "inlier_streets": [
+    [
+      "E. 71ST. ST.",
+      "BENNETT ST."
+    ],
+    [
+      "E. 71ST. ST.",
+      "CONSTANCE AV."
+    ],
+    [
+      "E. 71ST. ST.",
+      "EUCLID AV."
+    ],
+    [
+      "BENNETT ST.",
+      "E. 72ND ST."
+    ],
+    [
+      "BENNETT ST.",
+      "E. 73RD ST."
+    ],
+    [
+      "E. 72ND ST.",
+      "CONSTANCE AV."
+    ],
+    [
+      "E. 72ND ST.",
+      "EUCLID AV."
+    ],
+    [
+      "CONSTANCE AV.",
+      "E. 73RD ST."
+    ],
+    [
+      "EUCLID AV.",
+      "E. 73RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2958,
+            574
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 71ST. ST. x BENNETT ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57934135165861,
+            41.766050640119204
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            936,
+            574
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 71ST. ST. x CONSTANCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58056883273633,
+            41.76603732852682
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5016,
+            574
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 71ST. ST. x EUCLID AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57811210581116,
+            41.76605870597664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2958,
+            4289
+          ],
+          "username": "autogeoref",
+          "note": "auto: BENNETT ST. x E. 72ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5793101318053,
+            41.764307104969916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2958,
+            8222
+          ],
+          "username": "autogeoref",
+          "note": "auto: BENNETT ST. x E. 73RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57925690762733,
+            41.762486265736925
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            936,
+            4289
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 72ND ST. x CONSTANCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58052494670899,
+            41.76429384677679
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5016,
+            4289
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 72ND ST. x EUCLID AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57807209116304,
+            41.764319841431785
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            936,
+            8222
+          ],
+          "username": "autogeoref",
+          "note": "auto: CONSTANCE AV. x E. 73RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5804819391829,
+            41.76247331539021
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5016,
+            8222
+          ],
+          "username": "autogeoref",
+          "note": "auto: EUCLID AV. x E. 73RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57802966663446,
+            41.762498360815016
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.232,
+    "dy_m": 0.728
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "page": "80",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 8,
+  "rotation_deg": 1.05,
+  "auto_residuals_m": [
+    3.94,
+    4.87,
+    2.31,
+    2.52,
+    10.75,
+    11.6,
+    9.18,
+    9.3
+  ],
+  "inlier_streets": [
+    [
+      "ROSCOE",
+      "SOUTHPORT AVE."
+    ],
+    [
+      "ROSCOE",
+      "HERNDON"
+    ],
+    [
+      "SCHOOL",
+      "SOUTHPORT AVE."
+    ],
+    [
+      "SCHOOL",
+      "HERNDON"
+    ],
+    [
+      "MELROSE",
+      "SOUTHPORT AVE."
+    ],
+    [
+      "MELROSE",
+      "HERNDON"
+    ],
+    [
+      "BELMONT AVE",
+      "SOUTHPORT AVE."
+    ],
+    [
+      "BELMONT AVE",
+      "HERNDON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            96,
+            150
+          ],
+          "username": "autogeoref",
+          "note": "auto: ROSCOE x SOUTHPORT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66391563789689,
+            41.943461536959546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4217,
+            150
+          ],
+          "username": "autogeoref",
+          "note": "auto: ROSCOE x HERNDON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6614928729122,
+            41.94350087988423
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            96,
+            4073
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHOOL x SOUTHPORT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66386457324434,
+            41.94163093813879
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4217,
+            4073
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHOOL x HERNDON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.661445270835,
+            41.94166268845863
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            96,
+            5961
+          ],
+          "username": "autogeoref",
+          "note": "auto: MELROSE x SOUTHPORT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66384052235078,
+            41.94071361093591
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4217,
+            5961
+          ],
+          "username": "autogeoref",
+          "note": "auto: MELROSE x HERNDON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6614158341439,
+            41.940741136125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            96,
+            8238
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AVE x SOUTHPORT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66381921008805,
+            41.939808314001134
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4217,
+            8238
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AVE x HERNDON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66139804838402,
+            41.93984223643779
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.191,
+    "dy_m": 6.5
+  }
+}

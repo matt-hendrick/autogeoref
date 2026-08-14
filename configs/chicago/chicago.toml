@@ -1,0 +1,574 @@
+# Chicago configuration. Paths resolve relative to this file.
+
+[city]
+name = "Chicago, Ill."
+loc_query = "sanborn maps chicago illinois"
+centerlines = "../../fixtures/reference/street_center_lines.geojson"
+community_areas = "../../fixtures/reference/community_areas.geojson"
+aliases_dir = "aliases"
+loc_catalog = "../../fixtures/loc-catalog-chicago.json"
+# Chicago's numbered-street grid advances by this many addresses per block.
+address_block_size = 100
+# Console planning estimate, not an acceptance threshold.
+gated_fraction = 0.41
+# Rail rescue uses gazetteer-bound labels and rescue clustering, never strict-gate evidence.
+# The extract includes rail and transit alignments needed for historic elevated routes.
+rail_geojson = "../../fixtures/reference/rail-chicago-cta-overpass.json"
+rail_gazetteer = "rail-gazetteer-chicago.json"
+renumbering_table = "renumbering-chicago-1909.json"
+# This supports operator-era selection; every Chicago volume still declares its address grid.
+renumbering_year = 1909
+renumbering_note = "Chicago renumbered in 1909; the Loop separately in 1911, and those volumes need the Loop table"
+# Primary reads use Codex Terra with its high reasoning effort. Escalation is
+# cheap-first within this trial: retry Terra before spending on Sol.
+annotation_model = "codex:gpt-5.6-terra"
+annotation_variant = "high"
+escalation_models = ["codex:gpt-5.6-terra", "codex:gpt-5.6-sol"]
+escalation_variants = ["high", "high"]
+
+# Chicago normally corroborates street junctions with the declared address grid.
+evidence_channels = ["junction", "addresses"]
+
+# The pinned documented street-rename list the alias proposer reads (`autogeoref
+# alias-sweep`). The text is extracted offline from the cached PDF and is NOT
+# committed — it is a third-party document; see docs/OPERATIONS.md for the
+# one-liner. A city that configures none is scanned and reported, never proposed for.
+rename_source_parser = "martin1948"
+rename_source_text = "../../cache/renumbering/martin1948.txt"
+rename_source_pdf = "../../cache/renumbering/chm_namechanges.pdf"
+rename_source_citation = "'Chicago Streets', William Martin 1948 (Chicago History Museum street-name-changes list, http://chsmedia.org/househistory/nameChanges/start.pdf, accessed 2026-07-25)"
+
+# Chicago's house-number grid: numbering runs outward from State & Madison at
+# 800 numbers per mile. Read ONLY by the alias proposer's numeral corroboration;
+# the placement pipeline never uses it. A city without one gets no numeral check,
+# which shrinks the proposer's auto-write tier rather than loosening it.
+address_grid_origin = [-87.6278, 41.8819]
+address_grid_units_per_mile = 800
+
+# Volumes the alias sweep must never propose for. Each is flagged by the match
+# tripwire for a reason that is not a historic-name gap, and the reason is quoted
+# in the sweep report so this list cannot rot into folklore.
+[city.alias_sweep_skip]
+sanborn01790_013 = "1896 suburb index item: 2 street reads over 2 segments, a novelty overlay rather than a funnel"
+sanborn01790_016 = "1903 Loop block-line map: 2 segments carrying block lines, not a labelled street vocabulary"
+sanborn01790_190 = "1933 Century of Progress fairgrounds: temporary streets that never entered the modern grid"
+sanborn01790_014 = "flagged with 34 of 55 zero-candidate pages but undiagnosed; hold until its own diagnosis says whether names are the cause"
+
+# Bounds narrow the Chicago search area: a bbox follows a volume key map,
+# bounds_from reuses a counterpart footprint, and bounds_areas joins named community areas.
+# addresses_modern selects the current Chicago grid; false uses the configured historic conversion.
+#
+# This file is also a TEST INPUT: ~20 test modules load it as the config under
+# contract. The golden suite bakes _024's scale_m_per_px and rotation_deg into
+# its recorded-replay constraints; tests/test_report_config.py pins those
+# values and tests/test_escalate.py pins the city escalation ladder — run
+# `make test` after editing anything a volume's placement depends on.
+[volumes.sanborn01790_024]
+# Volume 024 keeps its known scan scale and north-up correction. Its footprint
+# was bounds_from = "sanborn01790_093", a volunteer-placed layer retired from the
+# viewer manifest; declaring no bounds source lets the run derive its own
+# (bounds_bootstrap), which is what every volume does now.
+scale_m_per_px = 0.0669
+rotation_deg = 1.20
+addresses_modern = true
+
+[volumes.sanborn01790_021]
+# Volume 021's fixed scale and rotation stabilize this sheet format. Its
+# footprint was bounds_from = "sanborn01790_090", retired for the same reason
+# as Volume 024's above.
+addresses_modern = true
+scale_m_per_px = 0.0666
+rotation_deg = 0.98
+
+[volumes.sanborn01790_034]
+# Volume 034 is the Uptown, Lincoln Square, Edgewater, and Lake View set; its community-area extent and historic grid keep candidates local.
+bounds_areas = ["UPTOWN", "LINCOLN SQUARE", "EDGEWATER", "LAKE VIEW"]
+scale_m_per_px = 0.0676
+rotation_deg = 1.13
+addresses_modern = false
+
+[volumes.sanborn01790_038]
+# Volume 038 covers Avondale, Irving Park, and North Center, using their combined extent and the current address grid.
+bounds_areas = ["AVONDALE", "IRVING PARK", "NORTH CENTER"]
+scale_m_per_px = 0.0680
+rotation_deg = 0.65
+addresses_modern = true
+
+[volumes.sanborn01790_015]
+# The Union Stock Yards special is bounded to the yards and rail belt; retain the historic address grid for its industrial sheets.
+bounds_bbox = [-87.69, 41.77, -87.61, 41.85]
+addresses_modern = false
+
+[volumes.sanborn01790_001]
+# Lake View volume: the bbox confines matching to its North Side key-map extent and uses historic addresses.
+bounds_bbox = [-87.7035, 41.9101, -87.6243, 41.9696]
+addresses_modern = false
+
+[volumes.sanborn01790_017]
+# South Division's downtown Loop sheets use a Loop-and-city address conversion and a Loop key-map extent.
+bounds_bbox = [-87.6627, 41.8594, -87.6053, 41.9117]
+addresses_modern = false
+renumbering_table = "renumbering-chicago-loop-merged.json"
+page_scale_multiples = { cbd1 = 4.0, cbd2 = 4.0 }
+# The Congested District pages use a larger printed scale, so these page-specific multiples recenter scale checks.
+# Content masks preserve the mapped block on this sparse one-block sheet format.
+content_masks = true
+# The Congested District pages are district-scale overviews: hull-clipped masks, a separate archive nothing serves, withheld from the seam solve.
+overview_pages = ["cbd1", "cbd2"]
+
+[volumes.sanborn01790_018]
+# North and West Division is the companion Loop set, with the same address conversion and enlarged Congested District pages.
+bounds_bbox = [-87.6627, 41.8522, -87.6077, 41.9117]
+renumbering_table = "renumbering-chicago-loop-merged.json"
+addresses_modern = false
+page_scale_multiples = { cbd1 = 4.0, cbd2 = 4.0 }
+content_masks = true
+# These rail-yard pages need full page-rectangle masks because content masking would discard drawn track fields.
+content_mask_exempt = ["57", "59", "63"]
+overview_pages = ["cbd1", "cbd2"]
+
+[volumes."sanborn01790_006.5"]
+# The South Side supplemental half-volume uses the historic Chicago address grid.
+addresses_modern = false
+
+[volumes.sanborn01790_040]
+# Keep the current Chicago address grid explicit for this volume.
+addresses_modern = true
+
+[volumes.sanborn01790_110]
+# Keep the current Chicago address grid explicit for this volume.
+addresses_modern = true
+
+# Chicago swipe-viewer copy and initial map behavior.
+[viewer]
+title = "Chicago {era} / Now — Sanborn Atlas"
+kicker = "Sanborn Fire Insurance Atlas"
+heading = "Chicago {era}"
+heading_note = "against now"
+dek = "Compare Chicago against what it was decades ago. Look up an address, toggle on different decades, and adjust the slider to see how the city has changed."
+loading_text = "unrolling the atlas…"
+now_label = "NOW"
+# Every era opens together, so the atlas starts at its full extent; each chip
+# stays individually toggleable. Where two eras cover the same ground the newer
+# sheets draw on top, and turning one off reveals the older ones beneath.
+default_eras = ["1890s", "1900s", "1910s", "1920s", "1930s", "1940s", "1950s"]
+# Open at State and Madison so the viewer starts in central Chicago.
+home_point = [-87.6280, 41.8820]
+footer_source = "Maps: Library of Congress, Sanborn Maps Collection"
+# Who georeferenced these layers. One line for the whole site: every layer this
+# city serves is placed by this pipeline. `serving_dirs` below is what keeps
+# that true — an undeclared directory is refused rather than credited to us.
+# HTML, and the link is the honest form of the claim: the walkthrough is where a
+# reader checks the method. Relative, because the two roots differ — the local
+# server puts the page under /viewer/ and the deploy bundle IS the web root.
+optional_credits = 'auto-georeferenced by <a href="walkthrough.html">this pipeline</a>'
+
+# deploy/tiles/ subdirectories this city vouches for. A manifest build refuses
+# any other one rather than publish it under the credit above. Declared here
+# rather than left to the default so the guarantee is visible where the credit is.
+serving_dirs = ["autogeoref"]
+
+[viewer.geocoder]
+# Limit address searches to greater Chicago and append the city for unqualified queries.
+suffix = ", Chicago, IL"
+bbox = [-87.95, 41.62, -87.5, 42.05] # west, south, east, north
+
+[viewer.basemap]
+# A self-hosted Protomaps extract, not OSMF's raster tiles: a public swipe
+# viewer pulls a few hundred basemap tiles per pane per session, which their
+# tile policy forbids (HANDOFF-VIEWER-DEPLOY-2026-07-24.md §1-2). The archive
+# name carries the planet build date; docs/OPERATIONS.md owns the rule about
+# publishing a refresh under a new name.
+type = "vector"
+pmtiles = "../deploy/tiles/basemap/basemap-chicago-20260723.pmtiles"
+# One flavor per pane: muted grey under the atlas sheets, light for today.
+style_atlas = "vendor/basemap/style-grayscale.json"
+style_now = "vendor/basemap/style-light.json"
+attribution = '© OpenStreetMap contributors, <a href="https://protomaps.com" target="_blank">Protomaps</a>'
+
+# Group map years into decade labels shown by the viewer.
+[[viewer.era]]
+years = [1890, 1899]
+label = "1890s"
+
+[[viewer.era]]
+years = [1900, 1909]
+label = "1900s"
+
+[[viewer.era]]
+years = [1910, 1919]
+label = "1910s"
+
+[[viewer.era]]
+years = [1920, 1929]
+label = "1920s"
+
+[[viewer.era]]
+years = [1930, 1939]
+label = "1930s"
+
+[[viewer.era]]
+years = [1940, 1949]
+label = "1940s"
+
+[[viewer.era]]
+years = [1950, 1959]
+label = "1950s"
+
+# Outside a community-area match, derive a Chicago side label from these latitude and longitude bands.
+[viewer.region_labels]
+combine = "{lat} {lng}"
+collapse = [["Central Side", "Central"]]
+lat = [
+    { above = 41.94, label = "Far North" },
+    { above = 41.885, label = "North" },
+    { above = 41.84, label = "Central" },
+    { above = 41.76, label = "South" },
+    { label = "Far South" },
+]
+lng = [
+    { below = -87.72, label = "West Side" },
+    { above = -87.63, label = "Lakefront" },
+    { label = "Side" },
+]
+
+# District names shown in the atlas panel, overriding the catalogue subject.
+# These three volumes are placed or corrected in the review UI rather than by
+# the gates, and every one of their sheets is, so the name says so. A volume
+# whose sheets are mostly automated must not be labelled this way.
+[viewer.labels]
+"sanborn01790_188" = "Central Business District (placement adjusted by hand)"
+"sanborn01790_189" = "North Central Business District (placement adjusted by hand)"
+"sanborn01790_190" = "A Century of Progress International Exposition (placed manually in review)"
+
+[volumes."sanborn01790_002"]
+# Northwest Side volume, from Belmont to North and Crawford to Western; use the historic address grid within this key-map extent.
+bounds_bbox = [-87.732, 41.905, -87.680, 41.945]
+addresses_modern = false
+
+[volumes."sanborn01790_003"]
+# Humboldt Park volume, from North to Harrison and Crawford to Western; its key-map extent uses historic addresses.
+bounds_bbox = [-87.732, 41.868, -87.680, 41.916]
+addresses_modern = false
+
+[volumes."sanborn01790_004"]
+# West Side volume, from Harrison toward 31st and Crawford to Western; constrain matching to that key-map extent and historic grid.
+bounds_bbox = [-87.732, 41.833, -87.680, 41.880]
+addresses_modern = false
+
+[volumes."sanborn01790_006"]
+# West Englewood volume, between 57th and 71st from Damen toward State; use this key-map extent and historic addresses.
+bounds_bbox = [-87.684, 41.759, -87.621, 41.795]
+addresses_modern = false
+
+[volumes."sanborn01790_019"]
+# North Side lakefront volume, from Fullerton to Chicago Avenue and the North Branch to the lake; use current addresses.
+bounds_bbox = [-87.675, 41.891, -87.615, 41.931]
+addresses_modern = true
+
+[volumes."sanborn01790_020"]
+# Near South Side volume, from 12th to 31st and Western to the lake; its key-map bbox and current grid guide matching.
+bounds_bbox = [-87.693, 41.833, -87.598, 41.872]
+addresses_modern = true
+
+[volumes."sanborn01790_022"]
+# Near North and West Side volume, from Diversey toward Division-Augusta and Western to the North Branch; use current addresses.
+bounds_bbox = [-87.693, 41.895, -87.640, 41.937]
+addresses_modern = true
+
+[volumes."sanborn01790_023"]
+# West Loop-adjacent volume, from Augusta to Madison and Western toward the river; use its key-map bbox and current grid.
+bounds_bbox = [-87.693, 41.877, -87.640, 41.904]
+addresses_modern = true
+
+[volumes."sanborn01790_025"]
+# Southwest central volume, from 12th toward 26th and Western to the river; its key-map bbox uses current addresses.
+bounds_bbox = [-87.693, 41.838, -87.635, 41.872]
+addresses_modern = true
+
+[volumes."sanborn01790_027"]
+# Northwest Side companion volume, from Belmont to North and Crawford to Western; retain that key-map extent with current addresses.
+bounds_bbox = [-87.732, 41.905, -87.680, 41.945]
+addresses_modern = true
+
+[volumes."sanborn01790_028"]
+# Humboldt Park companion volume, from North toward Congress and Crawford to Western; use the current address grid.
+bounds_bbox = [-87.732, 41.868, -87.680, 41.916]
+addresses_modern = true
+
+[volumes."sanborn01790_037"]
+# Austin volume, from Division to Harrison and the city limit at Austin Boulevard; its historic grid matches this west-edge key map.
+bounds_bbox = [-87.781, 41.868, -87.719, 41.909]
+addresses_modern = false
+
+[volumes."sanborn01790_039"]
+# Cicero and Columbus Park volume, from Harrison to 31st and Austin to Crawford; use current addresses within this extent.
+bounds_bbox = [-87.781, 41.833, -87.719, 41.879]
+addresses_modern = true
+
+[volumes."sanborn01790_047"]
+# South Chicago volume, from 71st toward 95th and Stony Island to the lake; constrain matching to its lakefront key-map extent.
+bounds_bbox = [-87.593, 41.717, -87.515, 41.770]
+addresses_modern = true
+
+[volumes."sanborn01790_050"]
+# Portage and Jefferson Park volume, from Foster to Irving Park and Austin toward Pulaski; use current addresses.
+bounds_bbox = [-87.785, 41.949, -87.719, 41.981]
+addresses_modern = true
+
+[volumes."sanborn01790_056"]
+# Beverly and Washington Heights volume, from about 87th to 110th and Western toward Stewart; use current addresses.
+bounds_bbox = [-87.694, 41.686, -87.627, 41.742]
+addresses_modern = true
+
+[volumes."sanborn01790_057"]
+# Key map gives prose only for this coarse special — the southwest city-limits strip from Stickney
+# and Hawthorne to Clearing and across to Evergreen Park — and states no edge as a feature. The
+# east edge was -87.680, short of Auburn Gresham: the 1600-2000 W avenues the sheets name (Ashland,
+# Damen, Hermitage, Honore, Hoyne, Marshfield, Paulina, Winchester, Wood) lie east of the cited
+# Evergreen Park. Bounds is a search area, not a gate: do not re-tighten this edge. This volume
+# also carries the batch's largest read-side normalization deficit, so its funnel is not a clean
+# read of the edge alone.
+bounds_bbox = [-87.815, 41.715, -87.660, 41.845]
+addresses_modern = true
+
+[volumes."sanborn01790_058"]
+# Rogers Park volume, from the Evanston line to Devon and Western to the lake; use current addresses.
+bounds_bbox = [-87.697, 41.993, -87.648, 42.028]
+addresses_modern = true
+
+[volumes."sanborn01790_059"]
+# Key map hedges its west boundary as about Stewart; every other edge is a hard feature (89th,
+# 115th, Lake Calumet). The west edge was -87.642 and excluded the 800-1200 W streets the sheets
+# name. Bounds is a search area, not a gate: do not re-tighten this edge to Stewart.
+bounds_bbox = [-87.652, 41.679, -87.575, 41.741]
+addresses_modern = true
+
+[volumes."sanborn01790_060"]
+# West Pullman and Riverdale volume, from about 107th to the south city limit and Ashland to Lake Calumet; use current addresses.
+bounds_bbox = [-87.672, 41.638, -87.570, 41.705]
+addresses_modern = true
+
+[volumes."sanborn01790_061"]
+# West Ridge and North Park volume, from Howard to Foster and Cicero to Western; use current addresses.
+bounds_bbox = [-87.755, 41.971, -87.684, 42.024]
+addresses_modern = true
+
+[volumes."sanborn01790_062"]
+# Key map states north-south only, Touhy to Foster; it gives no east or west boundary, so both
+# are read off the Caldwell strip. The west edge was -87.800 and excluded Norwood Park along with
+# Harlem Ave at -87.806, the city limit, which is where this volume's missing streets are. Bounds
+# is a search area, not a gate: do not re-tighten this edge.
+bounds_bbox = [-87.820, 41.970, -87.740, 42.017]
+addresses_modern = true
+
+[volumes."sanborn01790_063"]
+# Dunning and Big Oaks volume, from Bryn Mawr to Belmont and the city limit toward Austin; use current addresses.
+bounds_bbox = [-87.828, 41.934, -87.770, 41.988]
+addresses_modern = true
+
+[volumes."sanborn01790_064"]
+# Key map states east-west only, State to the Calumet River mouth; it gives no north or south
+# boundary, so both are read off the strip. The north edge was 41.732 and clipped the 87th-89th
+# corridor the sheets name out of bounds entirely, starving them of candidates. Bounds is a
+# search area, not a gate: do not re-tighten this edge to the key-map strip.
+bounds_bbox = [-87.642, 41.700, -87.515, 41.742]
+addresses_modern = true
+
+[volumes."sanborn01790_065"]
+# Key map hedges its north boundary as about 100th; the other three are hard features (city limit,
+# Lake Calumet, the Indiana line). The hedged edge was the clipped one: at 41.718 it excluded 95th
+# through 97th. Bounds is a search area, not a gate: do not re-tighten this edge to 100th.
+bounds_bbox = [-87.610, 41.638, -87.518, 41.728]
+addresses_modern = true
+
+[volumes."sanborn01790_066"]
+# Key map states Western as the east boundary, firmly, and the sheets exceed it: the eastern
+# Beverly and Morgan Park ridge streets they name (Prospect, Monterey, Vincennes, Pryor, Esmond,
+# Montvale) sat outside an east edge of -87.673. Either the key map was misread or the volume runs past its own
+# index sheet; unresolved, and the remedy is the same. Bounds is a search area, not a gate: do not
+# re-tighten this edge to Western.
+bounds_bbox = [-87.735, 41.660, -87.663, 41.742]
+addresses_modern = true
+
+[volumes."sanborn01790_083"]
+# North half of the central lakefront volume, from Fullerton to North Avenue and the river to the lake; use current addresses.
+bounds_bbox = [-87.672, 41.905, -87.618, 41.931]
+addresses_modern = true
+
+[volumes."sanborn01790_084"]
+# South half of the central lakefront volume, from North to Chicago Avenue and the river to the lake; use current addresses.
+bounds_bbox = [-87.672, 41.891, -87.618, 41.916]
+addresses_modern = true
+
+[volumes."sanborn01790_014"]
+# The grain-elevator special scatters sites from Goose Island through the Calumet, so it needs near-citywide bounds and historic addresses.
+bounds_bbox = [-87.87, 41.60, -87.53, 41.94]
+addresses_modern = false
+
+[volumes."sanborn01790_042"]
+# Printed after the 1909 renumbering, so the printed numbers are the current grid.
+addresses_modern = true
+
+[volumes."sanborn01790_013"]
+# County-scale Chicago index sheets are reference overviews, not placement targets; the metro bbox represents their full coverage.
+addresses_modern = false
+bounds_bbox = [-88.30, 41.44, -87.51, 42.16]
+
+[volumes."sanborn01790_188"]
+# Central business district sheet, from Kinzie to Roosevelt and Canal to the lakefront; use current addresses within that compact bbox.
+addresses_modern = true
+bounds_bbox = [-87.6450, 41.8620, -87.6000, 41.8930]
+# An overview-only volume: the declaration keeps its two sheets unsplit; with no detail sheets the archive stays single.
+overview_pages = ["cbd1", "cbd2"]
+
+[volumes."sanborn01790_189"]
+# North central business district overview, from the river toward North Avenue and Wells to the lake; current addresses fit this extent.
+addresses_modern = true
+bounds_bbox = [-87.6400, 41.8840, -87.6000, 41.9170]
+# Its overview pages lack enough regular sheets to derive reliable constants, so retain the measured scale and rotation pins.
+scale_m_per_px = 0.28
+rotation_deg = 1.0
+overview_pages = ["cbd1", "cbd2"]
+
+[volumes."sanborn01790_016"]
+# Loop block-line map, from Chicago Avenue to 12th and Halsted to the lake; use the merged Loop conversion and this downtown bbox.
+addresses_modern = false
+renumbering_table = "renumbering-chicago-loop-merged.json"
+bounds_bbox = [-87.6520, 41.8620, -87.6000, 41.9000]
+# Overview-only volume: both committed sheets are block-line segments, so the seam tie set empties (a safe no-op) and the archive stays single.
+overview_pages = ["cbda", "cbdb"]
+
+[volumes."sanborn01790_190"]
+# Century of Progress fairgrounds volume: temporary Burnham Park street layouts need explicit current-grid handling and a lakefront bbox.
+addresses_modern = true
+bounds_bbox = [-87.6250, 41.8180, -87.5900, 41.8720]
+# Preserve the pinned EPSG:3857 scale and east-up rotation for this special-sheet format.
+scale_m_per_px = 0.199
+rotation_deg = 285.5
+
+[volumes."sanborn01790_041"]
+# Printed after the 1909 renumbering, so the printed numbers are the current grid.
+addresses_modern = true
+
+[volumes."sanborn01790_043"]
+# Printed after the 1909 renumbering, so the printed numbers are the current grid.
+addresses_modern = true
+
+[volumes."sanborn01790_046"]
+# Printed after the 1909 renumbering, so the printed numbers are the current grid.
+addresses_modern = true
+
+# Guided story mode. The sidecar carries the prose; the schema is in
+# docs/ADDING-A-CITY.md. Every stop's camera is checked against placed
+# sheets at manifest-build time, so a stop cannot be published over a hole.
+[viewer.stories]
+file = "stories/chicago.json"
+
+[volumes."sanborn01790_085"]
+addresses_modern = true
+
+[volumes."sanborn01790_086"]
+addresses_modern = true
+# The Congested District pages are district-scale overviews, as in the 1906 volume this one revises.
+# Their larger printed scale is deliberately not declared here: both pages are rejected, and a scale multiple moves placement.
+overview_pages = ["cbd1", "cbd2"]
+
+[volumes."sanborn01790_087"]
+addresses_modern = true
+
+[volumes."sanborn01790_088"]
+addresses_modern = true
+
+[volumes."sanborn01790_089"]
+addresses_modern = true
+
+[volumes."sanborn01790_091"]
+addresses_modern = true
+
+[volumes."sanborn01790_092"]
+addresses_modern = true
+
+[volumes."sanborn01790_094"]
+addresses_modern = true
+
+[volumes."sanborn01790_096"]
+addresses_modern = true
+
+[volumes."sanborn01790_097"]
+addresses_modern = true
+
+[volumes."sanborn01790_105"]
+addresses_modern = true
+
+[volumes."sanborn01790_107"]
+addresses_modern = true
+
+[volumes."sanborn01790_108"]
+addresses_modern = true
+
+[volumes."sanborn01790_109"]
+addresses_modern = true
+
+[volumes."sanborn01790_111"]
+addresses_modern = true
+
+[volumes."sanborn01790_114"]
+addresses_modern = true
+
+[volumes."sanborn01790_116"]
+addresses_modern = true
+
+[volumes."sanborn01790_122"]
+addresses_modern = true
+
+[volumes."sanborn01790_123"]
+addresses_modern = true
+
+[volumes."sanborn01790_124"]
+addresses_modern = true
+
+[volumes."sanborn01790_125"]
+addresses_modern = true
+
+[volumes."sanborn01790_126"]
+addresses_modern = true
+
+[volumes."sanborn01790_127"]
+addresses_modern = true
+
+[volumes."sanborn01790_128"]
+addresses_modern = true
+
+[volumes."sanborn01790_129"]
+addresses_modern = true
+
+[volumes."sanborn01790_130"]
+addresses_modern = true
+
+[volumes."sanborn01790_131"]
+addresses_modern = true
+
+[volumes."sanborn01790_132"]
+addresses_modern = true
+
+[volumes."sanborn01790_090"]
+addresses_modern = true
+
+[volumes."sanborn01790_093"]
+addresses_modern = true
+
+[volumes."sanborn01790_138"]
+addresses_modern = true
+
+[volumes."sanborn01790_133"]
+addresses_modern = true
+
+[volumes."sanborn01790_136"]
+addresses_modern = true
+
+[volumes."sanborn01790_137"]
+addresses_modern = true
+
+[volumes."sanborn01790_139"]
+addresses_modern = true

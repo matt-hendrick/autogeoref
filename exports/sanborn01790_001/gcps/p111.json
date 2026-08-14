@@ -1,0 +1,155 @@
+{
+  "page": "111",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.01,
+  "auto_residuals_m": [
+    0.44,
+    0.52,
+    0.94,
+    0.56,
+    0.91,
+    0.46
+  ],
+  "inlier_streets": [
+    [
+      "GRACE",
+      "N. PAULINA"
+    ],
+    [
+      "GRACE",
+      "WOODSIDE AVE."
+    ],
+    [
+      "N. PAULINA",
+      "WAVELAND AVE."
+    ],
+    [
+      "N. PAULINA",
+      "ADDISON"
+    ],
+    [
+      "WAVELAND AVE.",
+      "WOODSIDE AVE."
+    ],
+    [
+      "WOODSIDE AVE.",
+      "ADDISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2383,
+            273
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACE x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67138919451838,
+            41.9506083206565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4196,
+            273
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACE x WOODSIDE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67017735914473,
+            41.95062402696346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2383,
+            4250
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x WAVELAND AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67134042454828,
+            41.948781799716336
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2383,
+            8179
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x ADDISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67129463048302,
+            41.946958692131886
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4196,
+            4250
+          ],
+          "username": "autogeoref",
+          "note": "auto: WAVELAND AVE. x WOODSIDE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67012434231935,
+            41.94879743273171
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4196,
+            8179
+          ],
+          "username": "autogeoref",
+          "note": "auto: WOODSIDE AVE. x ADDISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67007608864789,
+            41.946974941401436
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

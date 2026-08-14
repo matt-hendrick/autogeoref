@@ -1,0 +1,109 @@
+{
+  "page": "34",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.2,
+  "auto_residuals_m": [
+    0.03,
+    0.06,
+    0.05,
+    0.06
+  ],
+  "inlier_streets": [
+    [
+      "FULLERTON AV.",
+      "N. MENARD AV."
+    ],
+    [
+      "FULLERTON AV.",
+      "MANGO AV."
+    ],
+    [
+      "BELDEN AV.",
+      "N. MENARD AV."
+    ],
+    [
+      "BELDEN AV.",
+      "MANGO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3431,
+            147
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7708537717966,
+            41.92390534036007
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5431,
+            147
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x MANGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.769637757777,
+            41.92392468959167
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3431,
+            4090
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x N. MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77078842842249,
+            41.922081249177275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5431,
+            4090
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x MANGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76957132486534,
+            41.92209969505144
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

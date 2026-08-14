@@ -1,0 +1,132 @@
+{
+  "page": "87",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 1.68,
+  "auto_residuals_m": [
+    3.86,
+    4.87,
+    3.06,
+    0.97,
+    3.0
+  ],
+  "inlier_streets": [
+    [
+      "WEST END AV. (RANDOLPH)",
+      "S. WILLOW AV."
+    ],
+    [
+      "WASHINGTON B'L'V'D",
+      "S. WILLOW AV."
+    ],
+    [
+      "WASHINGTON B'L'V'D",
+      "BAIRD AV."
+    ],
+    [
+      "S. WILLOW AV.",
+      "W. MADISON"
+    ],
+    [
+      "BAIRD AV.",
+      "W. MADISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2315,
+            153
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. (RANDOLPH) x S. WILLOW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76024525233761,
+            41.88429862100451
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2315,
+            4331
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON B'L'V'D x S. WILLOW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7601903914309,
+            41.88230710853638
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4501,
+            4331
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON B'L'V'D x BAIRD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7588064315225,
+            41.882325027533945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2315,
+            8328
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WILLOW AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76011939561964,
+            41.88030801286868
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4501,
+            8328
+          ],
+          "username": "autogeoref",
+          "note": "auto: BAIRD AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75872945933713,
+            41.88032517311827
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

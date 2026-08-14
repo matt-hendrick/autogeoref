@@ -1,0 +1,136 @@
+{
+  "page": "77",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 5,
+  "rotation_deg": 0.71,
+  "auto_residuals_m": [
+    1.02,
+    2.08,
+    2.58,
+    2.62,
+    5.46
+  ],
+  "inlier_streets": [
+    [
+      "E. 93RD ST.",
+      "S. ESCANABA AV."
+    ],
+    [
+      "S. ESCANABA AV.",
+      "E. 94TH ST."
+    ],
+    [
+      "S. ESCANABA AV.",
+      "E. 95TH ST."
+    ],
+    [
+      "S. COMMERCIAL AV.",
+      "E. 95TH ST."
+    ],
+    [
+      "S. EXCHANGE AV.",
+      "E. 95TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            480,
+            453
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 93RD ST. x S. ESCANABA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55396946575654,
+            41.72643561954049
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            480,
+            4297
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ESCANABA AV. x E. 94TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55392310229037,
+            41.72458059009278
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            480,
+            8041
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ESCANABA AV. x E. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55388316532647,
+            41.72273638576238
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4939,
+            8041
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. COMMERCIAL AV. x E. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55111321768548,
+            41.72276848960726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2600,
+            8041
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EXCHANGE AV. x E. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55249451362943,
+            41.7227531544567
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -4.116,
+    "dy_m": 0.538
+  }
+}

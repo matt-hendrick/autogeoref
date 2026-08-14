@@ -1,0 +1,182 @@
+{
+  "page": "24",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 1.19,
+  "auto_residuals_m": [
+    3.36,
+    15.2,
+    12.79,
+    0.66,
+    13.88,
+    1.58,
+    12.91
+  ],
+  "inlier_streets": [
+    [
+      "N. RITCHIE CT.",
+      "E. GOETHE"
+    ],
+    [
+      "E. GOETHE",
+      "N. ASTOR"
+    ],
+    [
+      "E. GOETHE",
+      "N. STONE"
+    ],
+    [
+      "N. ASTOR",
+      "E. SCOTT"
+    ],
+    [
+      "N. ASTOR",
+      "E. DIVISION"
+    ],
+    [
+      "E. SCOTT",
+      "N. STONE"
+    ],
+    [
+      "N. STONE",
+      "E. DIVISION"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2396,
+            1595
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RITCHIE CT. x E. GOETHE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62661429774913,
+            41.90583002109782
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1415,
+            1595
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. GOETHE x N. ASTOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62736394761596,
+            41.90581871509789
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3519,
+            1595
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. GOETHE x N. STONE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62586234625134,
+            41.90584088486075
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1415,
+            3709
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASTOR x E. SCOTT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62713127390423,
+            41.90487210351466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1415,
+            5725
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASTOR x E. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62690723023528,
+            41.903960219154484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3519,
+            3709
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. SCOTT x N. STONE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62589062452471,
+            41.9048912927528
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3519,
+            5725
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. STONE x E. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62589758385201,
+            41.90397684925263
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -5.542,
+    "dy_m": -1.607
+  }
+}

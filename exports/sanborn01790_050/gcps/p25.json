@@ -1,0 +1,205 @@
+{
+  "page": "25",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 8,
+  "rotation_deg": 0.38,
+  "auto_residuals_m": [
+    3.56,
+    8.28,
+    2.67,
+    3.54,
+    2.55,
+    2.34,
+    3.59,
+    2.93
+  ],
+  "inlier_streets": [
+    [
+      "N. AUSTIN AV.",
+      "STRONG"
+    ],
+    [
+      "N. AUSTIN AV.",
+      "GUNNISON"
+    ],
+    [
+      "STRONG",
+      "N. MASON AV."
+    ],
+    [
+      "STRONG",
+      "MARMORA AV."
+    ],
+    [
+      "N. MASON AV.",
+      "GUNNISON"
+    ],
+    [
+      "N. MASON AV.",
+      "LAWRENCE AV."
+    ],
+    [
+      "MARMORA AV.",
+      "GUNNISON"
+    ],
+    [
+      "N. AUSTIN AV.",
+      "LAWRENCE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            697,
+            1482
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AUSTIN AV. x STRONG"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77829866353939,
+            41.97029339149561
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            697,
+            5117
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AUSTIN AV. x GUNNISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77824463937438,
+            41.968521290724894
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2636,
+            1482
+          ],
+          "username": "autogeoref",
+          "note": "auto: STRONG x N. MASON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77708528012877,
+            41.97028389828369
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4496,
+            1482
+          ],
+          "username": "autogeoref",
+          "note": "auto: STRONG x MARMORA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7758734921898,
+            41.97027155068184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2636,
+            5117
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MASON AV. x GUNNISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77712296762115,
+            41.96854258819738
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2636,
+            7014
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MASON AV. x LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77714130345913,
+            41.96764089031547
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4496,
+            5117
+          ],
+          "username": "autogeoref",
+          "note": "auto: MARMORA AV. x GUNNISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77591062936416,
+            41.96856631566071
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2426,
+            7014
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AUSTIN AV. x LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77727853449056,
+            41.96763783832512
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.138,
+    "dy_m": -1.741
+  }
+}

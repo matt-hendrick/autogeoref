@@ -1,0 +1,134 @@
+{
+  "page": "4",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 1.06,
+  "auto_residuals_m": [
+    1.69,
+    3.08,
+    1.38,
+    0.29,
+    0.29
+  ],
+  "inlier_streets": [
+    [
+      "FULLERTON AV.",
+      "COOPER"
+    ],
+    [
+      "FULLERTON AV.",
+      "PERRY"
+    ],
+    [
+      "FULLERTON AV.",
+      "HIGH"
+    ],
+    [
+      "PERRY",
+      "BELDEN AV."
+    ],
+    [
+      "HIGH",
+      "BELDEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1058,
+            769
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x COOPER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66698915141698,
+            41.925167201270895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3004,
+            769
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66576854881737,
+            41.92518349888314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5044,
+            769
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x HIGH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66457389548633,
+            41.92520056747628
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3004,
+            4756
+          ],
+          "username": "autogeoref",
+          "note": "auto: PERRY x BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6657395540188,
+            41.92338585213313
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5044,
+            4756
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIGH x BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66451008291399,
+            41.92340269325007
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

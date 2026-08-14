@@ -1,0 +1,163 @@
+{
+  "page": "79",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 41ST. ST.",
+      "S. CALIFORNIA AV."
+    ],
+    [
+      "W. 42ND ST.",
+      "S. CALIFORNIA AV."
+    ],
+    [
+      "W. 42ND ST.",
+      "S. FAIRFIELD AV."
+    ],
+    [
+      "W. 42ND ST.",
+      "S. WASHTENAW AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            398,
+            281
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 41ST. ST. x S. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6945440663804,
+            41.81928098810689
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            398,
+            4454
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.694482155008,
+            41.81735993530741
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2215,
+            4454
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. FAIRFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69325904647613,
+            41.81738720062533
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4252,
+            4454
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69203328060378,
+            41.81740637320126
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69438176200815,
+            41.819032980576466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5243,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69148238789988,
+            41.819080603712905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69428848678554,
+            41.815878903115035
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6843,
+    "separation_ratio": 1.254,
+    "best_offset_m": 8.4,
+    "n_junctions": 13
+  }
+}

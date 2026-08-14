@@ -1,0 +1,163 @@
+{
+  "page": "51",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (verified: corroboration+junction)",
+  "rescue_anchors": [
+    [
+      "ADAMS",
+      "LASALLE"
+    ],
+    [
+      "QUINCY",
+      "LASALLE"
+    ],
+    [
+      "JACKSON B'L'V'D",
+      "LASALLE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4180,
+            870
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADAMS x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63229169038397,
+            41.87940059554372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4180,
+            2334
+          ],
+          "username": "autogeoref",
+          "note": "auto: QUINCY x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6322736197051,
+            41.87875981522304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4180,
+            3740
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'L'V'D x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6322558768032,
+            41.87813351765724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63436025951177,
+            41.879415542203766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5314,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63163668637391,
+            41.879453017889844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63429782888369,
+            41.87690027009414
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.729,
+    "separation_ratio": 1.266,
+    "best_offset_m": 4.3,
+    "n_junctions": 17
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": null
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5"
+      ],
+      "consensus_numerals": 0,
+      "votable": 0,
+      "in_block": 0,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": []
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

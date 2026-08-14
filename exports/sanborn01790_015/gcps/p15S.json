@@ -1,0 +1,113 @@
+{
+  "page": "15S",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.42,
+  "auto_residuals_m": [
+    2.56,
+    5.28,
+    2.58,
+    5.28
+  ],
+  "inlier_streets": [
+    [
+      "W. 44TH",
+      "PACKERS AV."
+    ],
+    [
+      "W. 44TH PL.",
+      "S. CENTRE AV."
+    ],
+    [
+      "W. 45TH",
+      "PACKERS AV."
+    ],
+    [
+      "W. 45TH",
+      "S. CENTRE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            438,
+            867
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 44TH x PACKERS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65861115411674,
+            41.81414341849411
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            6343,
+            2952
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 44TH PL. x S. CENTRE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6552721616744,
+            41.8133043580749
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            438,
+            4882
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 45TH x PACKERS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65856481243554,
+            41.812342659246205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            6343,
+            4882
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 45TH x S. CENTRE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65524664949197,
+            41.81235146251212
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.114,
+    "dy_m": -2.729
+  }
+}

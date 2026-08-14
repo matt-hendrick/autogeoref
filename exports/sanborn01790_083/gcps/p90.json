@@ -1,0 +1,185 @@
+{
+  "page": "90",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. EUGENIE",
+      "N. ST. MICHAEL'S CT."
+    ],
+    [
+      "W. EUGENIE",
+      "N. HUDSON AV."
+    ],
+    [
+      "W. EUGENIE",
+      "N. SEDGWICK"
+    ],
+    [
+      "N. HUDSON AV.",
+      "W. NORTH"
+    ],
+    [
+      "N. SEDGWICK",
+      "W. NORTH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1485,
+            1635
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EUGENIE x N. ST. MICHAEL'S CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64032306016311,
+            41.912840936147326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2439,
+            1635
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EUGENIE x N. HUDSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63983050922204,
+            41.91287115451253
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4143,
+            1635
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EUGENIE x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63860725752562,
+            41.91284599752664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2439,
+            5600
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HUDSON AV. x W. NORTH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63977596996398,
+            41.911093227951184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4143,
+            5600
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. NORTH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63856206748345,
+            41.9111109465706
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6408956527168,
+            41.913256640025146
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5116,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63812242363369,
+            41.91330539871624
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64081123713981,
+            41.9105977869917
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 3.383,
+    "dy_m": -0.535
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "page": "7",
+  "n_streets": 18,
+  "n_candidates": 34,
+  "n_inliers": 5,
+  "rotation_deg": 1.1,
+  "auto_residuals_m": [
+    1.03,
+    4.71,
+    2.65,
+    16.96,
+    8.62
+  ],
+  "inlier_streets": [
+    [
+      "W. CRYSTAL LAKE AV.",
+      "DOLE AV."
+    ],
+    [
+      "W. CRYSTAL LAKE AV.",
+      "MAPLE"
+    ],
+    [
+      "W. CRYSTAL LAKE AV.",
+      "MCHENRY AV."
+    ],
+    [
+      "ASH",
+      "MAPLE"
+    ],
+    [
+      "MAPLE",
+      "CHURCH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1756,
+            377
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CRYSTAL LAKE AV. x DOLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.32982966252102,
+            42.2410171680612
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4695,
+            377
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CRYSTAL LAKE AV. x MAPLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.32589486252101,
+            42.24105916807068
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5833,
+            377
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CRYSTAL LAKE AV. x MCHENRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.324339062521,
+            42.24108566807666
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4695,
+            3905
+          ],
+          "username": "autogeoref",
+          "note": "auto: ASH x MAPLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.328149862521,
+            42.238697867538086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4695,
+            7302
+          ],
+          "username": "autogeoref",
+          "note": "auto: MAPLE x CHURCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.33059296252101,
+            42.23619026697253
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.533,
+    "dy_m": -2.14
+  }
+}

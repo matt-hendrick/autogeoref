@@ -1,0 +1,116 @@
+{
+  "page": "52",
+  "n_streets": 4,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. WRIGHTWOOD AVE.",
+      "KIMBALL AVE."
+    ],
+    [
+      "W. FULLERTON AVE.",
+      "KIMBALL AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4841,
+            283
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WRIGHTWOOD AVE. x KIMBALL AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71220167385148,
+            41.92831616223309
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4841,
+            8111
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AVE. x KIMBALL AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71210529762187,
+            41.924660982202305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71483585813166,
+            41.92801370759614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71210114799608,
+            41.928039408055525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71478376001816,
+            41.92494517282028
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 1 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

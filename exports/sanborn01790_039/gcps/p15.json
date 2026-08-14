@@ -1,0 +1,109 @@
+{
+  "page": "15",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.03,
+  "auto_residuals_m": [
+    0.1,
+    0.05,
+    0.05,
+    0.1
+  ],
+  "inlier_streets": [
+    [
+      "W. HARRISON",
+      "S. TRIPP AV."
+    ],
+    [
+      "W. HARRISON",
+      "S. KEDVALE AV."
+    ],
+    [
+      "S. TRIPP AV.",
+      "ARTHINGTON"
+    ],
+    [
+      "S. KEDVALE AV.",
+      "ARTHINGTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            283,
+            512
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. TRIPP AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73154132817717,
+            41.87336789571146
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4214,
+            512
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. KEDVALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72909745166498,
+            41.87340152570598
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            283,
+            8002
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. TRIPP AV. x ARTHINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73142384456102,
+            41.86995029527032
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4214,
+            8002
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEDVALE AV. x ARTHINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72898070313815,
+            41.86998202944594
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

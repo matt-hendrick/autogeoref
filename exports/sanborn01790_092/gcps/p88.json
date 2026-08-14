@@ -1,0 +1,205 @@
+{
+  "page": "88",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 8,
+  "rotation_deg": 2.5,
+  "auto_residuals_m": [
+    0.45,
+    9.08,
+    1.1,
+    6.64,
+    3.14,
+    2.16,
+    2.41,
+    0.4
+  ],
+  "inlier_streets": [
+    [
+      "WALNUT ST.",
+      "N. WOLCOTT AV. (N. LINCOLN)"
+    ],
+    [
+      "WALNUT ST.",
+      "N. WOOD"
+    ],
+    [
+      "WALNUT",
+      "N. WOLCOTT AV. (N. LINCOLN)"
+    ],
+    [
+      "WALNUT",
+      "N. WOOD"
+    ],
+    [
+      "W. LAKE",
+      "N. WOLCOTT AV. (N. LINCOLN)"
+    ],
+    [
+      "W. LAKE",
+      "N. WOOD"
+    ],
+    [
+      "N. WOLCOTT AV. (N. LINCOLN)",
+      "MAYPOLE AV. (PARK)"
+    ],
+    [
+      "N. WOOD",
+      "MAYPOLE AV. (PARK)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            868,
+            1662
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT ST. x N. WOLCOTT AV. (N. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6743149545823,
+            41.885916133045264
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4861,
+            1662
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT ST. x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67187219890978,
+            41.88605903712369
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            868,
+            1433
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. WOLCOTT AV. (N. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67431836718195,
+            41.88603146542014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4861,
+            1433
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67187219890978,
+            41.88605903712369
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            868,
+            3438
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. WOLCOTT AV. (N. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67428827843497,
+            41.885082557040434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4861,
+            3438
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67184645530078,
+            41.88516839424933
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            868,
+            5591
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOLCOTT AV. (N. LINCOLN) x MAYPOLE AV. (PARK)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67426035488639,
+            41.884131073652554
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4861,
+            5591
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOOD x MAYPOLE AV. (PARK)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67181919477834,
+            41.88419181777517
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.583,
+    "dy_m": 1.96
+  }
+}

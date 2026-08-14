@@ -1,0 +1,186 @@
+{
+  "page": "98",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 57TH ST.",
+      "S. LAWNDALE AV."
+    ],
+    [
+      "W. 57TH PL.",
+      "S. LAWNDALE AV."
+    ],
+    [
+      "W. 58TH ST.",
+      "S. LAWNDALE AV."
+    ],
+    [
+      "S. LAWNDALE AV.",
+      "W. 58TH PL."
+    ],
+    [
+      "S. LAWNDALE AV.",
+      "W. 59TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            794,
+            159
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 57TH ST. x S. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71571268575917,
+            41.78968909083114
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            794,
+            2110
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 57TH PL. x S. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71568598849055,
+            41.788780863247
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            794,
+            4076
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 58TH ST. x S. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71566020295424,
+            41.787869166967084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            794,
+            6047
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LAWNDALE AV. x W. 58TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7156344645313,
+            41.78696156088547
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            794,
+            7998
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LAWNDALE AV. x W. 59TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71560338580908,
+            41.7860524187761
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71584851841806,
+            41.7893910819863
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71302327219367,
+            41.789436248499726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71575967145436,
+            41.786301471422455
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.751,
+    "separation_ratio": 1.012,
+    "best_offset_m": 13.1,
+    "n_junctions": 7
+  }
+}

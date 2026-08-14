@@ -1,0 +1,142 @@
+{
+  "page": "23",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N. DAMEN AV. (N. ROBEY)",
+      "W. DICKENS AV."
+    ],
+    [
+      "N. WINCHESTER AV.",
+      "W. DICKENS AV."
+    ],
+    [
+      "N. WOLCOTT AV. (N. LINCOLN)",
+      "W. DICKENS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1065,
+            6794
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAMEN AV. (N. ROBEY) x W. DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67768648255917,
+            41.91957522614286
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3046,
+            6794
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WINCHESTER AV. x W. DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67646489591826,
+            41.91959692975436
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5121,
+            6794
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOLCOTT AV. (N. LINCOLN) x W. DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67523208014254,
+            41.91961801320075
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67806312612906,
+            41.922317413494454
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5245,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6752243641831,
+            41.922364942383396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67798286146368,
+            41.919663355472196
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5858,
+    "separation_ratio": 1.219,
+    "best_offset_m": 4.3,
+    "n_junctions": 35
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "page": "63",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.04,
+  "auto_residuals_m": [
+    2.55,
+    1.18,
+    3.11,
+    4.97,
+    3.63,
+    4.12
+  ],
+  "inlier_streets": [
+    [
+      "W. CHICAGO AV.",
+      "N. FAIRFIELD PL."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. WASHTENAW AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. CALIFORNIA AV."
+    ],
+    [
+      "W. SUPERIOR",
+      "N. WASHTENAW AV."
+    ],
+    [
+      "W. SUPERIOR",
+      "N. CALIFORNIA AV."
+    ],
+    [
+      "N. WASHTENAW AV.",
+      "W. HURON ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2852,
+            440
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. FAIRFIELD PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69547188555104,
+            41.895672388401806
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4772,
+            440
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69424149005907,
+            41.895682949132144
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            834,
+            440
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69670700852481,
+            41.89566804185241
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4772,
+            2414
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x N. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69421306606435,
+            41.8947611379445
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            834,
+            2414
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x N. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6966740587045,
+            41.89473678460897
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4772,
+            4559
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WASHTENAW AV. x W. HURON ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69418576457394,
+            41.89385784110285
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.487,
+    "dy_m": 2.172
+  }
+}

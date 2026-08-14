@@ -1,0 +1,232 @@
+{
+  "page": "14",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "AINSLIE (LEO PL.)",
+      "N. WESTERN AV."
+    ],
+    [
+      "LAWRENCE AV.",
+      "N. WESTERN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5713,
+            4305
+          ],
+          "username": "autogeoref",
+          "note": "auto: AINSLIE (LEO PL.) x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68896461410442,
+            41.97041223446462
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5713,
+            8308
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68890658229626,
+            41.968614925010755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69210369161307,
+            41.9719651026512
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5290,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68923139475793,
+            41.971989329855234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69205654697038,
+            41.96887553132792
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6406,
+    "separation_ratio": 1.348,
+    "best_offset_m": 0.3,
+    "n_junctions": 10
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 30,
+      "votable": 22,
+      "in_block": 22,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 10.9,
+          "addr_diff": 3.1
+        },
+        {
+          "perp_m": 15.7,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 15.6,
+          "addr_diff": 2.7
+        },
+        {
+          "perp_m": 15.4,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 15.7,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 15.9,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 16.1,
+          "addr_diff": 1.2
+        },
+        {
+          "perp_m": 16.9,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 16.4,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 16.4,
+          "addr_diff": 1.2
+        },
+        {
+          "perp_m": 11.9,
+          "addr_diff": 2.9
+        },
+        {
+          "perp_m": 12.3,
+          "addr_diff": 2.2
+        },
+        {
+          "perp_m": 13.6,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 10.3,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 10.2,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 10.2,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 10.0,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 10.0,
+          "addr_diff": 2.2
+        },
+        {
+          "perp_m": 10.0,
+          "addr_diff": 3.9
+        },
+        {
+          "perp_m": 10.2,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 11.4,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 16.1,
+          "addr_diff": 0.4
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

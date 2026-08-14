@@ -1,0 +1,163 @@
+{
+  "page": "94",
+  "n_streets": 9,
+  "n_candidates": 9,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 24TH ST.",
+      "S. LEAVITT"
+    ],
+    [
+      "W. 24TH ST.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "W. 24TH PL.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "S. OAKLEY AV.",
+      "W. 25TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4760,
+            1249
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 24TH ST. x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68064385430078,
+            41.848473811081504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            915,
+            1249
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 24TH ST. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6830941427042,
+            41.84843536864387
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            915,
+            3255
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 24TH PL. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68306768046435,
+            41.8475311586587
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            915,
+            5280
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY AV. x W. 25TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68304764325887,
+            41.84664729930519
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6832761699519,
+            41.84868033706322
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5258,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68042623207033,
+            41.8487232184572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6832040105286,
+            41.84601915016533
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.609,
+    "separation_ratio": 1.274,
+    "best_offset_m": 9.1,
+    "n_junctions": 34
+  }
+}

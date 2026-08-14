@@ -1,0 +1,164 @@
+{
+  "page": "82",
+  "n_streets": 12,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "TAYLOR",
+      "S. OAKLEY BLV'D"
+    ],
+    [
+      "TAYLOR",
+      "S. OAKLEY AV."
+    ],
+    [
+      "S. OAKLEY BLV'D",
+      "GRENSHAW ST."
+    ],
+    [
+      "GRENSHAW ST.",
+      "S. OAKLEY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            924,
+            578
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x S. OAKLEY BLV'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68365384053045,
+            41.86901167393483
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            934,
+            578
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68365384053045,
+            41.86901167393483
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            924,
+            3758
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY BLV'D x GRENSHAW ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68361303298815,
+            41.86755810017526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            934,
+            3758
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRENSHAW ST. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68361303298815,
+            41.86755810017526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68385734575077,
+            41.86892420608677
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68103867988026,
+            41.868968173564966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68378362300857,
+            41.866303283156675
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4399,
+    "separation_ratio": 1.138,
+    "best_offset_m": 2.8,
+    "n_junctions": 21
+  }
+}

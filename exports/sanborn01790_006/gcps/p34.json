@@ -1,0 +1,159 @@
+{
+  "page": "34",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": -88.87,
+  "auto_residuals_m": [
+    4.05,
+    5.53,
+    1.58,
+    3.93,
+    5.37,
+    1.56
+  ],
+  "inlier_streets": [
+    [
+      "W.60TH ST",
+      "WENTWORTH AVE"
+    ],
+    [
+      "W.60TH ST",
+      "LA SALLE ST"
+    ],
+    [
+      "W.60TH ST",
+      "STATE ST"
+    ],
+    [
+      "WENTWORTH AVE",
+      "W.61ST ST"
+    ],
+    [
+      "LA SALLE ST",
+      "W.61ST ST"
+    ],
+    [
+      "STATE ST",
+      "W.61ST ST"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            249,
+            8402
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.60TH ST x WENTWORTH AVE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63024790552558,
+            41.78545150652173
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            249,
+            6168
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.60TH ST x LA SALLE ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62901881393546,
+            41.78547199431501
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            249,
+            215
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.60TH ST x STATE ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62545100604488,
+            41.785525848351476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5464,
+            8402
+          ],
+          "username": "autogeoref",
+          "note": "auto: WENTWORTH AVE x W.61ST ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63018711358744,
+            41.78311623849019
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5464,
+            6168
+          ],
+          "username": "autogeoref",
+          "note": "auto: LA SALLE ST x W.61ST ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62895544568772,
+            41.78313626259632
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5464,
+            215
+          ],
+          "username": "autogeoref",
+          "note": "auto: STATE ST x W.61ST ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62538954907372,
+            41.78319879697454
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.616,
+    "dy_m": -1.669
+  }
+}

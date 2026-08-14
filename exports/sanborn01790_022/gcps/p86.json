@@ -1,0 +1,136 @@
+{
+  "page": "86",
+  "n_streets": 13,
+  "n_candidates": 11,
+  "n_inliers": 5,
+  "rotation_deg": 0.71,
+  "auto_residuals_m": [
+    4.08,
+    4.75,
+    5.48,
+    5.6,
+    2.28
+  ],
+  "inlier_streets": [
+    [
+      "BRIGHAM",
+      "N. PAULINA"
+    ],
+    [
+      "BRIGHAM",
+      "N. ASHLAND AV."
+    ],
+    [
+      "BLACKHAWK",
+      "N. PAULINA"
+    ],
+    [
+      "BLACKHAWK",
+      "N. ASHLAND AV."
+    ],
+    [
+      "MAUTENE CT.",
+      "MILWAUKEE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            778,
+            238
+          ],
+          "username": "autogeoref",
+          "note": "auto: BRIGHAM x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67006766769677,
+            41.907572220374405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4989,
+            238
+          ],
+          "username": "autogeoref",
+          "note": "auto: BRIGHAM x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66762498341832,
+            41.90760324955337
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            778,
+            1626
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLACKHAWK x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67004849053947,
+            41.9069901349575
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4989,
+            1626
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLACKHAWK x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66760973931942,
+            41.90700469482525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2343,
+            7021
+          ],
+          "username": "autogeoref",
+          "note": "auto: MAUTENE CT. x MILWAUKEE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66866462315247,
+            41.90474524948757
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.174,
+    "dy_m": -0.298
+  }
+}

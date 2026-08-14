@@ -1,0 +1,159 @@
+{
+  "page": "38",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 0.89,
+  "auto_residuals_m": [
+    2.29,
+    3.07,
+    3.78,
+    4.05,
+    1.48,
+    0.97
+  ],
+  "inlier_streets": [
+    [
+      "W. CHICAGO AV.",
+      "N. FRANKLIN"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. PRAIRIE"
+    ],
+    [
+      "CEDAR AV.",
+      "N. FRANKLIN"
+    ],
+    [
+      "CEDAR AV.",
+      "N. PRAIRIE"
+    ],
+    [
+      "N. FRANKLIN",
+      "W. ERIE"
+    ],
+    [
+      "N. PRAIRIE",
+      "W. ERIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            436,
+            219
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77229627291109,
+            41.89476869815923
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3859,
+            219
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. PRAIRIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77014639832976,
+            41.894798689502004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            436,
+            2166
+          ],
+          "username": "autogeoref",
+          "note": "auto: CEDAR AV. x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77226332313181,
+            41.893842630646795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3859,
+            2166
+          ],
+          "username": "autogeoref",
+          "note": "auto: CEDAR AV. x N. PRAIRIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77011030066501,
+            41.89386572999801
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            436,
+            6461
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANKLIN x W. ERIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77219596492709,
+            41.89192445023712
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3859,
+            6461
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PRAIRIE x W. ERIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7700426116277,
+            41.891945966926414
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.497,
+    "dy_m": 2.09
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "page": "85",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "ROSCOE",
+      "N. HALSTED"
+    ],
+    [
+      "BUCKINGHAM PL.",
+      "N. HALSTED"
+    ],
+    [
+      "BELMONT AVE",
+      "N. HALSTED"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            728,
+            177
+          ],
+          "username": "autogeoref",
+          "note": "auto: ROSCOE x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64937492158377,
+            41.94361618418947
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            728,
+            2181
+          ],
+          "username": "autogeoref",
+          "note": "auto: BUCKINGHAM PL. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64935757648666,
+            41.9427090526993
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            728,
+            8211
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AVE x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64926661399988,
+            41.93998093427661
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64947385180368,
+            41.94332581209755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64676983648565,
+            41.94336583035655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6493927101939,
+            41.94029244819636
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6833,
+    "separation_ratio": 1.016,
+    "best_offset_m": 5.0,
+    "n_junctions": 11
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "page": "60",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 0.83,
+  "auto_residuals_m": [
+    1.83,
+    2.76,
+    3.59,
+    2.77,
+    1.72
+  ],
+  "inlier_streets": [
+    [
+      "W. GRAND AV.",
+      "ARMOUR"
+    ],
+    [
+      "W. GRAND AV.",
+      "NOBLE"
+    ],
+    [
+      "FERDINAND ST.",
+      "ARMOUR"
+    ],
+    [
+      "FERDINAND ST.",
+      "NOBLE"
+    ],
+    [
+      "ARMOUR",
+      "W. KINZIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            92,
+            1758
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x ARMOUR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66551597814181,
+            41.890999315207566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5772,
+            1758
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66226519335903,
+            41.891028245451416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            92,
+            2960
+          ],
+          "username": "autogeoref",
+          "note": "auto: FERDINAND ST. x ARMOUR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6654999588016,
+            41.89045185754981
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5772,
+            2960
+          ],
+          "username": "autogeoref",
+          "note": "auto: FERDINAND ST. x NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66224901363735,
+            41.89048156910294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            92,
+            6170
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMOUR x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66545387306888,
+            41.88885765276601
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,182 @@
+{
+  "page": "79",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 7,
+  "rotation_deg": 0.76,
+  "auto_residuals_m": [
+    6.74,
+    1.19,
+    3.44,
+    5.98,
+    2.07,
+    1.67,
+    4.49
+  ],
+  "inlier_streets": [
+    [
+      "N. RACINE AV.",
+      "W. KINZIE"
+    ],
+    [
+      "W. KINZIE",
+      "N. RACINE AV."
+    ],
+    [
+      "W. KINZIE",
+      "N. MAY"
+    ],
+    [
+      "N. RACINE AV.",
+      "W. CARROLL AV."
+    ],
+    [
+      "N. RACINE AV.",
+      "FULTON MARKET"
+    ],
+    [
+      "W. CARROLL AV.",
+      "N. MAY"
+    ],
+    [
+      "N. MAY",
+      "FULTON MARKET"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            719,
+            2037
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RACINE AV. x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65737001615074,
+            41.888946943963305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1237,
+            2037
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6569977671128,
+            41.88895117527582
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3330,
+            2037
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. MAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6557596905751,
+            41.88896700919306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1237,
+            4714
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RACINE AV. x W. CARROLL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65688533643358,
+            41.8877054601046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1237,
+            6989
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RACINE AV. x FULTON MARKET"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65686068339616,
+            41.88667917696332
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3330,
+            4714
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CARROLL AV. x N. MAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65572358252169,
+            41.88771920619005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3330,
+            6989
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAY x FULTON MARKET"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65569728982095,
+            41.886687862651435
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.607,
+    "dy_m": 0.419
+  }
+}

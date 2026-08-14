@@ -1,0 +1,185 @@
+{
+  "page": "81",
+  "n_streets": 9,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. KINZIE ST.",
+      "N. PULASKI RD."
+    ],
+    [
+      "CARROLL AV.",
+      "N. PULASKI RD."
+    ],
+    [
+      "W. LAKE",
+      "N. PULASKI RD."
+    ],
+    [
+      "W. LAKE",
+      "N. HARDING AV."
+    ],
+    [
+      "W. LAKE",
+      "N. HARDING AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            836,
+            1528
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE ST. x N. PULASKI RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72586265035136,
+            41.887811519463895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            836,
+            3404
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARROLL AV. x N. PULASKI RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72583764592989,
+            41.88687222418585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            836,
+            6630
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. PULASKI RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72579927772978,
+            41.88550929163224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2610,
+            6630
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72463650104906,
+            41.885456874617866
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2759,
+            6630
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72463650104906,
+            41.885456874617866
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            592,
+            862
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7259921631402,
+            41.888089105935805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5324,
+            862
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72308837554769,
+            41.888118200612844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            592,
+            7760
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72593520474467,
+            41.884938521286955
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 0.619,
+    "dy_m": 6.35
+  },
+  "junction_snap": {
+    "skipped": "only 2 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

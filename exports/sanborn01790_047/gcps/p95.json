@@ -1,0 +1,137 @@
+{
+  "page": "95",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 85TH ST.",
+      "S. CHAPPEL AV."
+    ],
+    [
+      "S. MERRILL AV.",
+      "E. 87TH ST."
+    ],
+    [
+      "S. CHAPPEL AV.",
+      "E. 87TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            355,
+            346
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 85TH ST. x S. CHAPPEL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57457144846735,
+            41.74070887112832
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4334,
+            8082
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MERRILL AV. x E. 87TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57208477283066,
+            41.73710886624159
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            355,
+            8082
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CHAPPEL AV. x E. 87TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57451495717268,
+            41.737073450829726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            576,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57445770292625,
+            41.74043448889722
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5180,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5716117394346,
+            41.74047164023806
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            576,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57438413906122,
+            41.73729684454211
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 1 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

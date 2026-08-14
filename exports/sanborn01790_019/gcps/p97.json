@@ -1,0 +1,252 @@
+{
+  "page": "97",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 10,
+  "rotation_deg": 2.05,
+  "auto_residuals_m": [
+    2.67,
+    0.49,
+    1.76,
+    3.8,
+    1.3,
+    1.21,
+    13.03,
+    15.83,
+    1.11,
+    24.42
+  ],
+  "inlier_streets": [
+    [
+      "W. GOETHE",
+      "WELLS"
+    ],
+    [
+      "W. GOETHE",
+      "LA SALLE AV."
+    ],
+    [
+      "W. GOETHE",
+      "N. CLARK"
+    ],
+    [
+      "W. DIVISION",
+      "WELLS"
+    ],
+    [
+      "W. DIVISION",
+      "LA SALLE AV."
+    ],
+    [
+      "W. DIVISION",
+      "N. CLARK"
+    ],
+    [
+      "W. ELM",
+      "LA SALLE AV."
+    ],
+    [
+      "W. ELM",
+      "N. CLARK"
+    ],
+    [
+      "W. ELM",
+      "WELLS"
+    ],
+    [
+      "W. ELM",
+      "N. CLARK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            425,
+            776
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GOETHE x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63455184038098,
+            41.905706500952824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2962,
+            776
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GOETHE x LA SALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63299580294336,
+            41.90573310888375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5364,
+            776
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GOETHE x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63151725687082,
+            41.90575790785133
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            425,
+            4928
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63448760656124,
+            41.90383064718035
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2962,
+            4928
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x LA SALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63293032715582,
+            41.90385536968687
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5364,
+            4928
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63145488155708,
+            41.903878045511014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2962,
+            6400
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x LA SALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63290428211528,
+            41.90309183433779
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5364,
+            6400
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63143371773607,
+            41.903112291892384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            425,
+            6993
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63445180075931,
+            41.90286136943493
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5364,
+            6993
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63143371773607,
+            41.903112291892384
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8",
+  "seam_adjusted": {
+    "dx_m": -1.088,
+    "dy_m": -3.412
+  }
+}

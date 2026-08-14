@@ -1,0 +1,159 @@
+{
+  "page": "47",
+  "n_streets": 5,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 0.91,
+  "auto_residuals_m": [
+    0.74,
+    1.11,
+    1.33,
+    0.66,
+    2.11,
+    1.06
+  ],
+  "inlier_streets": [
+    [
+      "E. 87TH ST.",
+      "S. BALTIMORE AV."
+    ],
+    [
+      "E. 87TH ST.",
+      "S. BURLEY AV."
+    ],
+    [
+      "S. BALTIMORE AV.",
+      "E. 88TH ST."
+    ],
+    [
+      "S. BALTIMORE AV.",
+      "E. 89TH ST."
+    ],
+    [
+      "E. 88TH ST.",
+      "S. BURLEY AV."
+    ],
+    [
+      "S. BURLEY AV.",
+      "E. 89TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            499,
+            277
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 87TH ST. x S. BALTIMORE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54866577231687,
+            41.73741057021866
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4872,
+            277
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 87TH ST. x S. BURLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5458182695769,
+            41.73744657077622
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            499,
+            3927
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. BALTIMORE AV. x E. 88TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54862005977178,
+            41.73558360518394
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            499,
+            7629
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. BALTIMORE AV. x E. 89TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54857207403188,
+            41.73375773795245
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4872,
+            3927
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 88TH ST. x S. BURLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54577950441,
+            41.73561241564844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4872,
+            7629
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. BURLEY AV. x E. 89TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5457304719428,
+            41.73379439386394
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.02,
+    "dy_m": -0.829
+  }
+}

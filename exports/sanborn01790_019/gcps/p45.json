@@ -1,0 +1,155 @@
+{
+  "page": "45",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 6,
+  "rotation_deg": 1.1,
+  "auto_residuals_m": [
+    3.72,
+    3.61,
+    7.39,
+    0.89,
+    0.83,
+    1.77
+  ],
+  "inlier_streets": [
+    [
+      "GARFIELD AV.",
+      "CLEVELAND AV."
+    ],
+    [
+      "GARFIELD AV.",
+      "SEDGWICK"
+    ],
+    [
+      "GARFIELD AV.",
+      "HUDSON AV."
+    ],
+    [
+      "CLEVELAND AV.",
+      "CENTER AV."
+    ],
+    [
+      "SEDGWICK",
+      "CENTER AV."
+    ],
+    [
+      "CENTER AV.",
+      "HUDSON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            851,
+            641
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x CLEVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64130482357899,
+            41.92010947376688
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4992,
+            641
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6388743756624,
+            41.920142647952524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2883,
+            641
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x HUDSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64001290504804,
+            41.92012648854846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            851,
+            4623
+          ],
+          "username": "autogeoref",
+          "note": "auto: CLEVELAND AV. x CENTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64124565347356,
+            41.918285980429864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4992,
+            4623
+          ],
+          "username": "autogeoref",
+          "note": "auto: SEDGWICK x CENTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63881550768535,
+            41.918322374553966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2883,
+            4623
+          ],
+          "username": "autogeoref",
+          "note": "auto: CENTER AV. x HUDSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64002962756503,
+            41.91830326571291
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

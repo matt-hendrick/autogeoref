@@ -1,0 +1,141 @@
+{
+  "page": "56",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "POLK",
+      "S. PAULINA"
+    ],
+    [
+      "POLK",
+      "S. MARSHFIELD AV."
+    ],
+    [
+      "S. PAULINA",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            919,
+            6496
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x S. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.669036500921,
+            41.871588159174486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2868,
+            6496
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x S. MARSHFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6678138297673,
+            41.87160703185319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            919,
+            846
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PAULINA x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66911115938461,
+            41.874159889042076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66930615704881,
+            41.874206223631084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5235,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66646540268194,
+            41.874250688416204
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66923099183298,
+            41.871543638574835
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4858,
+    "separation_ratio": 1.316,
+    "best_offset_m": 1.6,
+    "n_junctions": 33
+  }
+}

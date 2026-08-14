@@ -1,0 +1,110 @@
+{
+  "page": "11",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 0.94,
+  "auto_residuals_m": [
+    0.26,
+    0.29,
+    0.3,
+    0.26
+  ],
+  "inlier_streets": [
+    [
+      "FULLERTON AV.",
+      "N. WESTERN AV."
+    ],
+    [
+      "FULLERTON AV.",
+      "N. OAKLEY AV."
+    ],
+    [
+      "LYNDALE (PLEASANT PL.)",
+      "N. WESTERN AV."
+    ],
+    [
+      "LYNDALE (PLEASANT PL.)",
+      "N. OAKLEY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            888,
+            1256
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68764191263543,
+            41.92490068242143
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4915,
+            1256
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68520910256512,
+            41.924931958973914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            888,
+            6279
+          ],
+          "username": "autogeoref",
+          "note": "auto: LYNDALE (PLEASANT PL.) x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68757166026275,
+            41.92261938724188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4915,
+            6279
+          ],
+          "username": "autogeoref",
+          "note": "auto: LYNDALE (PLEASANT PL.) x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68512969823543,
+            41.92264773372578
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

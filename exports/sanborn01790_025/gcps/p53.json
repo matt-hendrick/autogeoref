@@ -1,0 +1,120 @@
+{
+  "page": "53",
+  "n_streets": 6,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 18TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "S. WOOD",
+      "W. 19TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4990,
+            663
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67109738229927,
+            41.857723908121905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4990,
+            4629
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x W. 19TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67104763416896,
+            41.855902803467394
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67378237597777,
+            41.857642155194355
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5262,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67092999891622,
+            41.8576850672764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67371022640828,
+            41.8549817044799
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6042,
+    "separation_ratio": 1.088,
+    "best_offset_m": 3.5,
+    "n_junctions": 16
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "page": "60",
+  "n_streets": 6,
+  "n_candidates": 12,
+  "n_inliers": 5,
+  "rotation_deg": 1.64,
+  "auto_residuals_m": [
+    0.25,
+    3.46,
+    0.24,
+    5.01,
+    8.5
+  ],
+  "inlier_streets": [
+    [
+      "W. 16TH",
+      "S. HOMAN AV."
+    ],
+    [
+      "W. 16TH",
+      "S. SPAULDING AV."
+    ],
+    [
+      "W. 19TH",
+      "S. HOMAN AV."
+    ],
+    [
+      "W. 19TH",
+      "S. SPAULDING AV."
+    ],
+    [
+      "S. SPAULDING AV.",
+      "OGDEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            925,
+            266
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH x S. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71033304717358,
+            41.859025208022956
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4964,
+            266
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH x S. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70789364099357,
+            41.85905266369557
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            925,
+            8238
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH x S. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71023125764383,
+            41.85537716743348
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4964,
+            8238
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH x S. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70779552174467,
+            41.85539685375508
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4964,
+            5156
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPAULDING AV. x OGDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70784128676131,
+            41.85689639355132
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

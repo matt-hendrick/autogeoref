@@ -1,0 +1,109 @@
+{
+  "page": "54",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.17,
+  "auto_residuals_m": [
+    5.02,
+    5.02,
+    5.01,
+    5.0
+  ],
+  "inlier_streets": [
+    [
+      "W. HARRISON",
+      "S. WOLCOTT AV. (S. LINCOLN)"
+    ],
+    [
+      "W. HARRISON",
+      "S. WOOD"
+    ],
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "W. POLK"
+    ],
+    [
+      "S. WOOD",
+      "W. POLK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1113,
+            1080
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. WOLCOTT AV. (S. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67401717196883,
+            41.87408098662272
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4858,
+            1080
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6715608971895,
+            41.87411983789862
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1113,
+            6701
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x W. POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67376412275794,
+            41.87151604372501
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4858,
+            6701
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x W. POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67148779177454,
+            41.87154895074603
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

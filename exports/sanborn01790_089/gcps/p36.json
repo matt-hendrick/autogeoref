@@ -1,0 +1,116 @@
+{
+  "page": "36",
+  "n_streets": 7,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "S. CALUMET AV.",
+      "E. 21ST ST."
+    ],
+    [
+      "S. CALUMET AV.",
+      "E. CERMAK RD. (E. 22ND ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            95,
+            3440
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALUMET AV. x E. 21ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61907623482728,
+            41.854349985418764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            95,
+            6464
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALUMET AV. x E. CERMAK RD. (E. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6190406680195,
+            41.85300185053043
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61880999273647,
+            41.8555949465963
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5246,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61596911343987,
+            41.855634993252956
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61874244592418,
+            41.85293658957612
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

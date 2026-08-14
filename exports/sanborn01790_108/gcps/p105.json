@@ -1,0 +1,159 @@
+{
+  "page": "105",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 0.95,
+  "auto_residuals_m": [
+    5.66,
+    9.64,
+    3.99,
+    1.8,
+    1.72,
+    0.13
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. LATROBE AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. LARAMIE AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. LEAMINGTON AV."
+    ],
+    [
+      "HIRSCH",
+      "N. LATROBE AV."
+    ],
+    [
+      "HIRSCH",
+      "N. LARAMIE AV."
+    ],
+    [
+      "HIRSCH",
+      "N. LEAMINGTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            440,
+            453
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. LATROBE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75713441022349,
+            41.909494746669466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2532,
+            453
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75573778896353,
+            41.90951230817623
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4535,
+            453
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. LEAMINGTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75465461751457,
+            41.90952620042773
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            440,
+            8432
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. LATROBE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75702965320357,
+            41.905869891420664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2532,
+            8432
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75580215883215,
+            41.90588562677928
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4535,
+            8432
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. LEAMINGTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.754581935761,
+            41.90589940596588
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 6.438,
+    "dy_m": 1.651
+  }
+}

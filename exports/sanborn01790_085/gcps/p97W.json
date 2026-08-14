@@ -1,0 +1,109 @@
+{
+  "page": "97W",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.96,
+  "auto_residuals_m": [
+    1.55,
+    1.6,
+    1.62,
+    1.56
+  ],
+  "inlier_streets": [
+    [
+      "W. HARRISON",
+      "S. CLINTON"
+    ],
+    [
+      "W. HARRISON",
+      "S. CANAL"
+    ],
+    [
+      "S. CLINTON",
+      "W. POLK"
+    ],
+    [
+      "S. CANAL",
+      "W. POLK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1033,
+            1124
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64095562260128,
+            41.87438953807814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3389,
+            1124
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63948808356642,
+            41.87440636987412
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1033,
+            6226
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLINTON x W. POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64087654462146,
+            41.87200820564217
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3389,
+            6226
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CANAL x W. POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6393523500342,
+            41.87202856053897
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

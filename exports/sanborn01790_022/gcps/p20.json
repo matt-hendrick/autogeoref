@@ -1,0 +1,207 @@
+{
+  "page": "20",
+  "n_streets": 10,
+  "n_candidates": 14,
+  "n_inliers": 8,
+  "rotation_deg": 1.21,
+  "auto_residuals_m": [
+    6.48,
+    5.37,
+    12.6,
+    11.09,
+    11.58,
+    1.34,
+    9.85,
+    12.35
+  ],
+  "inlier_streets": [
+    [
+      "LYNDALE (PLEASANT PL.)",
+      "N. OAKLEY AV."
+    ],
+    [
+      "LYNDALE (PLEASANT PL.)",
+      "N. LEAVITT"
+    ],
+    [
+      "N. OAKLEY AV.",
+      "HAMBURG"
+    ],
+    [
+      "N. OAKLEY AV.",
+      "FRANKFORT"
+    ],
+    [
+      "N. IRVING AV.",
+      "HAMBURG"
+    ],
+    [
+      "N. LEAVITT",
+      "WEBSTER AV."
+    ],
+    [
+      "N. LEAVITT",
+      "HAMBURG"
+    ],
+    [
+      "N. LEAVITT",
+      "FRANKFORT"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1021,
+            745
+          ],
+          "username": "autogeoref",
+          "note": "auto: LYNDALE (PLEASANT PL.) x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68513624695385,
+            41.92269182066543
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5027,
+            745
+          ],
+          "username": "autogeoref",
+          "note": "auto: LYNDALE (PLEASANT PL.) x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68269473301119,
+            41.92272288088602
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1021,
+            4849
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. x HAMBURG"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68506460469641,
+            41.920697749223045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1021,
+            6861
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. x FRANKFORT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68503974876594,
+            41.91994085139365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3306,
+            4849
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. IRVING AV. x HAMBURG"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68365806838221,
+            41.920727402269
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5027,
+            3650
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x WEBSTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68264658729204,
+            41.921357180732606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5027,
+            4849
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x HAMBURG"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.682622688881,
+            41.920754687643395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5027,
+            6861
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x FRANKFORT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68259594180789,
+            41.91998789364038
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -0.729,
+    "dy_m": 6.596
+  }
+}

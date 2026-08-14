@@ -1,0 +1,165 @@
+{
+  "page": "71",
+  "n_streets": 9,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N CALIFORNIA AV.",
+      "FULLERTON AV."
+    ],
+    [
+      "N MOZART ST.",
+      "FULLERTON AV."
+    ],
+    [
+      "FULLERTON AV.",
+      "N FRANCISCO AV."
+    ],
+    [
+      "FULLERTON AV.",
+      "N SACRAMENTO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1192,
+            305
+          ],
+          "username": "autogeoref",
+          "note": "auto: N CALIFORNIA AV. x FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69741269691491,
+            41.92480728504207
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1192,
+            2310
+          ],
+          "username": "autogeoref",
+          "note": "auto: N MOZART ST. x FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69863590164601,
+            41.92479582725549
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1192,
+            4296
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69986440710989,
+            41.92478521553423
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1192,
+            8159
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N SACRAMENTO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70231833542829,
+            41.924762715904784
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69772371958017,
+            41.92510380743769
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69767641829199,
+            41.923009440511734
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.701852227438,
+            41.925052190942175
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -89.0221,
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5444,
+    "separation_ratio": 1.261,
+    "best_offset_m": 4.2,
+    "n_junctions": 15
+  }
+}

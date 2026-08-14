@@ -1,0 +1,142 @@
+{
+  "page": "96",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. BERTEAU AV.",
+      "N. KILPATRICK AV."
+    ],
+    [
+      "BELLE PLAINE AV.",
+      "N. KILPATRICK AV."
+    ],
+    [
+      "N. KILPATRICK AV.",
+      "W. CUYLER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            346,
+            1477
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BERTEAU AV. x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74568229267285,
+            41.95650120118224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            346,
+            3546
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELLE PLAINE AV. x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74564833145938,
+            41.95549695490643
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            346,
+            5648
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILPATRICK AV. x W. CUYLER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7456190869485,
+            41.95447392539239
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7455260674312,
+            41.956748043595795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5282,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7425972992158,
+            41.95678173927243
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74546042057393,
+            41.953592514056474
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5325,
+    "separation_ratio": 1.259,
+    "best_offset_m": 10.4,
+    "n_junctions": 12
+  }
+}

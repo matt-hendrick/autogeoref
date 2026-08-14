@@ -1,0 +1,138 @@
+{
+  "page": "88",
+  "n_streets": 7,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "S. KOSTNER AV.",
+      "W. 19TH ST."
+    ],
+    [
+      "S. KOSTNER AV.",
+      "W. 21ST ST."
+    ],
+    [
+      "S. KOSTNER AV.",
+      "W. 21ST PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4823,
+            731
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KOSTNER AV. x W. 19TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73461085518656,
+            41.854893640682256
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4823,
+            3907
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KOSTNER AV. x W. 21ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73456219841816,
+            41.85335989338981
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4823,
+            5867
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KOSTNER AV. x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73453441953187,
+            41.85244843481642
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            578,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73727183961572,
+            41.85477196669716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5206,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73435993711288,
+            41.85481339817763
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            578,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73719008029028,
+            41.85158396475173
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 1 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

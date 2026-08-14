@@ -1,0 +1,109 @@
+{
+  "page": "68",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 1.17,
+  "auto_residuals_m": [
+    0.14,
+    0.19,
+    0.2,
+    0.15
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "DAYTON"
+    ],
+    [
+      "W. NORTH AV.",
+      "N. HALSTED ST."
+    ],
+    [
+      "WEED",
+      "DAYTON"
+    ],
+    [
+      "WEED",
+      "N. HALSTED ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2645,
+            1106
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x DAYTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64950135419905,
+            41.910900485452906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4540,
+            1106
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. HALSTED ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64827157387043,
+            41.91091961909867
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2645,
+            3376
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEED x DAYTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64947204961265,
+            41.90985677004447
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4540,
+            3376
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEED x N. HALSTED ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64824822881481,
+            41.909874831668326
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

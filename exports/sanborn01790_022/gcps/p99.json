@@ -1,0 +1,163 @@
+{
+  "page": "99",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. ASHLAND AV.",
+      "W. DIVISION"
+    ],
+    [
+      "DICKSON",
+      "W. DIVISION"
+    ],
+    [
+      "HOLT",
+      "BRADLEY ST"
+    ],
+    [
+      "HOLT",
+      "W. DIVISION"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1126,
+            5181
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND AV. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66749526016973,
+            41.90334633244783
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3297,
+            5181
+          ],
+          "username": "autogeoref",
+          "note": "auto: DICKSON x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66615287962502,
+            41.903361503530185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5104,
+            1227
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOLT x BRADLEY ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66509934382078,
+            41.90517007945347
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5104,
+            5181
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOLT x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66504489912231,
+            41.903372288140794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66787732358257,
+            41.90535847046755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5248,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66502116365457,
+            41.905405257049615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66779837412292,
+            41.90268881078011
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.437,
+    "separation_ratio": 1.247,
+    "best_offset_m": 2.0,
+    "n_junctions": 23
+  }
+}

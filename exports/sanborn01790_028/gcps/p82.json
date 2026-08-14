@@ -1,0 +1,207 @@
+{
+  "page": "82",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. AVERS AV.",
+      "FULTON"
+    ],
+    [
+      "N. AVERS AV.",
+      "W. LAKE"
+    ],
+    [
+      "FULTON",
+      "N. HAMLIN AV."
+    ],
+    [
+      "N. HAMLIN AV.",
+      "W. LAKE"
+    ],
+    [
+      "RR UP GENEVA SUBDIVISION",
+      "N. HAMLIN AV."
+    ],
+    [
+      "RR UP GENEVA SUBDIVISION",
+      "N. HAMLIN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2386,
+            3651
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AVERS AV. x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72253133284184,
+            41.88680080186901
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2386,
+            6961
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AVERS AV. x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7224892799154,
+            41.88529353831635
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4929,
+            3651
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. HAMLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7209472055806,
+            41.886821947967604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4929,
+            6961
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HAMLIN AV. x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7209204157385,
+            41.88520404072105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4929,
+            926
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR UP GENEVA SUBDIVISION x N. HAMLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72098222016211,
+            41.88802655491273
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4929,
+            926
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR UP GENEVA SUBDIVISION x N. HAMLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72098320064765,
+            41.88806326360885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72371778557323,
+            41.888096453897106
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72088293384748,
+            41.88812465063319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7236622342176,
+            41.88500111655787
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.3071,
+    "separation_ratio": 0.896,
+    "best_offset_m": 96.9,
+    "n_junctions": 14
+  }
+}

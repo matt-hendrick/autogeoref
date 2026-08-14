@@ -1,0 +1,156 @@
+{
+  "page": "96",
+  "n_streets": 12,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.68,
+  "auto_residuals_m": [
+    0.49,
+    0.67,
+    1.11,
+    0.66,
+    1.08,
+    0.5
+  ],
+  "inlier_streets": [
+    [
+      "N.WOOD ST.",
+      "ELLEN"
+    ],
+    [
+      "N.WOOD ST.",
+      "W. DIVISION"
+    ],
+    [
+      "ELLEN",
+      "MARION CT."
+    ],
+    [
+      "ELLEN",
+      "N. WOOD"
+    ],
+    [
+      "MARION CT.",
+      "W. DIVISION"
+    ],
+    [
+      "N. WOOD",
+      "W. DIVISION"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5135,
+            564
+          ],
+          "username": "autogeoref",
+          "note": "auto: N.WOOD ST. x ELLEN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6724210860135,
+            41.90554871520483
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5135,
+            5686
+          ],
+          "username": "autogeoref",
+          "note": "auto: N.WOOD ST. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67238060111524,
+            41.90326672341504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2578,
+            564
+          ],
+          "username": "autogeoref",
+          "note": "auto: ELLEN x MARION CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67387679394021,
+            41.9055077903219
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5130,
+            564
+          ],
+          "username": "autogeoref",
+          "note": "auto: ELLEN x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6724210860135,
+            41.90554871520483
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2578,
+            5686
+          ],
+          "username": "autogeoref",
+          "note": "auto: MARION CT. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67382025996044,
+            41.903244598642274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5130,
+            5686
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOOD x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67238060111524,
+            41.90326672341504
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

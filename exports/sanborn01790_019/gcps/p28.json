@@ -1,0 +1,157 @@
+{
+  "page": "28",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.91,
+  "auto_residuals_m": [
+    0.43,
+    0.8,
+    0.62,
+    0.58,
+    1.3,
+    1.3
+  ],
+  "inlier_streets": [
+    [
+      "WEBSTER AV.",
+      "N. HALSTED"
+    ],
+    [
+      "WEBSTER AV.",
+      "EDWARD CT."
+    ],
+    [
+      "WEBSTER AV.",
+      "BURLING"
+    ],
+    [
+      "WEBSTER AV.",
+      "ORCHARD"
+    ],
+    [
+      "GARFIELD AV.",
+      "N. HALSTED"
+    ],
+    [
+      "GARFIELD AV.",
+      "BURLING"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1384,
+            2054
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64863255832864,
+            41.921817050100444
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2234,
+            2054
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x EDWARD CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64812465670688,
+            41.92182442529306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3365,
+            2054
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x BURLING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64742814551032,
+            41.921834563295384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5379,
+            2054
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64621390688448,
+            41.92185224627248
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1384,
+            6014
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64857459457885,
+            41.91999391592971
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3365,
+            6014
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x BURLING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64738861431982,
+            41.919993354354595
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

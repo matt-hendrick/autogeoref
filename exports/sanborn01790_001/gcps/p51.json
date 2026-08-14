@@ -1,0 +1,167 @@
+{
+  "page": "51",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "WELLINGTON",
+      "WAUBUN AVE."
+    ],
+    [
+      "OAKDALE AVE.",
+      "WAUBUN AVE."
+    ],
+    [
+      "SURF",
+      "WAUBUN AVE."
+    ],
+    [
+      "DIVERSEY AVE.",
+      "LAKE VIEW AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            980,
+            166
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLINGTON x WAUBUN AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64183826163855,
+            41.936554027809365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            980,
+            2289
+          ],
+          "username": "autogeoref",
+          "note": "auto: OAKDALE AVE. x WAUBUN AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64180384033924,
+            41.93556149644832
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            980,
+            5120
+          ],
+          "username": "autogeoref",
+          "note": "auto: SURF x WAUBUN AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6417614068987,
+            41.93429802226651
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4858,
+            8117
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AVE. x LAKE VIEW AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63930425345848,
+            41.93291090279548
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64207031388564,
+            41.9362261990362
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63936629856764,
+            41.936266221750884
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64198917227587,
+            41.93319249740685
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 2.232,
+    "dy_m": -0.01
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7798,
+    "separation_ratio": 1.611,
+    "best_offset_m": 2.3,
+    "n_junctions": 8
+  }
+}

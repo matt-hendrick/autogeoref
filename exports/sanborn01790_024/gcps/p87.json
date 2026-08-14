@@ -1,0 +1,136 @@
+{
+  "page": "87",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 0.71,
+  "auto_residuals_m": [
+    1.67,
+    3.1,
+    1.51,
+    2.81,
+    1.46
+  ],
+  "inlier_streets": [
+    [
+      "TAYLOR",
+      "S. WOOD"
+    ],
+    [
+      "TAYLOR",
+      "S. HERMITAGE AV."
+    ],
+    [
+      "TAYLOR",
+      "S. PAULINA"
+    ],
+    [
+      "SELDEN ST.",
+      "S. WOOD"
+    ],
+    [
+      "YEATON ST.",
+      "S. WOOD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            873,
+            538
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67143800889313,
+            41.869191909390224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2790,
+            538
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x S. HERMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67021774247942,
+            41.86920567700425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4851,
+            538
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x S. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66898825549677,
+            41.86922337284181
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            873,
+            2200
+          ],
+          "username": "autogeoref",
+          "note": "auto: SELDEN ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67141585015531,
+            41.868404020018005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            873,
+            3769
+          ],
+          "username": "autogeoref",
+          "note": "auto: YEATON ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67139357605139,
+            41.86760820776507
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.327,
+    "dy_m": -0.131
+  }
+}

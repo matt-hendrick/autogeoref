@@ -1,0 +1,109 @@
+{
+  "page": "105",
+  "n_streets": 7,
+  "n_candidates": 14,
+  "n_inliers": 4,
+  "rotation_deg": 0.49,
+  "auto_residuals_m": [
+    0.28,
+    0.27,
+    0.28,
+    0.24
+  ],
+  "inlier_streets": [
+    [
+      "W. 37TH ST. (PRIVATE)",
+      "S. RACINE AV. (S. CENTRE AV.)"
+    ],
+    [
+      "W. 37TH ST. (PRIVATE)",
+      "S. MAY (WALLY) (PRIVATE)"
+    ],
+    [
+      "S. RACINE AV. (S. CENTRE AV.)",
+      "W. 38TH ST. (66' WIDE) (PRIVATE)"
+    ],
+    [
+      "S. MAY (WALLY) (PRIVATE)",
+      "W. 38TH ST. (66' WIDE) (PRIVATE)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            260,
+            187
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH ST. (PRIVATE) x S. RACINE AV. (S. CENTRE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65561850522754,
+            41.82697624363568
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2160,
+            187
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH ST. (PRIVATE) x S. MAY (WALLY) (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65455580620834,
+            41.82698086386959
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            260,
+            3815
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RACINE AV. (S. CENTRE AV.) x W. 38TH ST. (66' WIDE) (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65557536539974,
+            41.82519084138324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2160,
+            3815
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MAY (WALLY) (PRIVATE) x W. 38TH ST. (66' WIDE) (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65452032073715,
+            41.825199697548854
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

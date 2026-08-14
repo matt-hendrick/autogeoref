@@ -1,0 +1,116 @@
+{
+  "page": "117",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "S. KEDVALE AV.",
+      "W. 24TH ST."
+    ],
+    [
+      "S. KARLOV AV.",
+      "W. 24TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            236,
+            7827
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEDVALE AV. x W. 24TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7278760216534,
+            41.84783625447762
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2683,
+            7827
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KARLOV AV. x W. 24TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72626878021744,
+            41.847885087635845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7277096472979,
+            41.8511226794994
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5218,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72479120119394,
+            41.851164206453475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72762788797246,
+            41.84793449566845
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 2 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

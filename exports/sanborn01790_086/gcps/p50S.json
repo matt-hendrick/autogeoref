@@ -1,0 +1,159 @@
+{
+  "page": "50S",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. QUINCY",
+      "S. FRANKLIN"
+    ],
+    [
+      "W. QUINCY",
+      "S. WELLS"
+    ],
+    [
+      "W. JACKSON BLVD.",
+      "S. FRANKLIN"
+    ],
+    [
+      "W. JACKSON BLVD.",
+      "S. WELLS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1693,
+            1547
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. QUINCY x S. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63521661245477,
+            41.87870032779037
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4213,
+            1547
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. QUINCY x S. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63375071677599,
+            41.878727172402094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1693,
+            2871
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD. x S. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63520384906357,
+            41.87810378243773
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4213,
+            2871
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD. x S. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63372916148309,
+            41.87811865482363
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63593231763134,
+            41.87906773569703
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5216,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63310918124462,
+            41.87909547926206
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63588523064557,
+            41.87641145758378
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "page": "15S",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. RANDOLPH",
+      "N. LA SALLE"
+    ],
+    [
+      "N. LA SALLE",
+      "W. COUCH PL."
+    ],
+    [
+      "N. LA SALLE",
+      "W. LAKE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2409,
+            5047
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. LA SALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63243521047721,
+            41.8844728196944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2409,
+            3621
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LA SALLE x W. COUCH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63242438850087,
+            41.88509368671722
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2409,
+            2228
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LA SALLE x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63244721725057,
+            41.885737401236746
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6335689657013,
+            41.88640508983128
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63071221474846,
+            41.88643316051015
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63352187871553,
+            41.883749116720814
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

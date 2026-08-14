@@ -1,0 +1,142 @@
+{
+  "page": "45",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "CHURCHILL",
+      "N. HOYNE AV."
+    ],
+    [
+      "WILLOW (PETERSON)",
+      "N. HOYNE AV."
+    ],
+    [
+      "WILMOT AV.",
+      "N. HOYNE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            994,
+            2032
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHURCHILL x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68001388420382,
+            41.91467004445536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            994,
+            4020
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILLOW (PETERSON) x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67999810902798,
+            41.913789690261126
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            994,
+            5675
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILMOT AV. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67997950470489,
+            41.913027758627976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68029058379835,
+            41.91527255890952
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5263,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67742609687349,
+            41.91531947460851
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6802116343387,
+            41.912603313804794
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7041,
+    "separation_ratio": 1.125,
+    "best_offset_m": 10.1,
+    "n_junctions": 19
+  }
+}

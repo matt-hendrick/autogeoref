@@ -1,0 +1,138 @@
+{
+  "page": "81",
+  "n_streets": 4,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 55TH ST.",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. 56TH ST.",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. 57TH ST.",
+      "S. ST. LOUIS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4428,
+            322
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 55TH ST. x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71090122422086,
+            41.79340497331952
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4428,
+            4228
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 56TH ST. x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71085583849572,
+            41.79158560683327
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4428,
+            8052
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 57TH ST. x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7108042866828,
+            41.78976770555366
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71332622887844,
+            41.79312741018661
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71050098265404,
+            41.79317257406747
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71323738191474,
+            41.79003797969828
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 1 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

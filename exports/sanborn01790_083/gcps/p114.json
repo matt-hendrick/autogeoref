@@ -1,0 +1,132 @@
+{
+  "page": "114",
+  "n_streets": 11,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 1.34,
+  "auto_residuals_m": [
+    5.99,
+    7.46,
+    2.11,
+    10.14,
+    10.15
+  ],
+  "inlier_streets": [
+    [
+      "N. HERNDON",
+      "W. GARFIELD AV."
+    ],
+    [
+      "W. GARFIELD AV.",
+      "N. LEWIS"
+    ],
+    [
+      "W. GARFIELD AV.",
+      "N. RACINE AV."
+    ],
+    [
+      "N. RACINE AV.",
+      "W. CORTLAND"
+    ],
+    [
+      "W. CORTLAND",
+      "N. MARCY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            871,
+            588
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HERNDON x W. GARFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6607150092147,
+            41.919821170671405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3222,
+            588
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GARFIELD AV. x N. LEWIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6594977656609,
+            41.91983626887583
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5221,
+            588
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GARFIELD AV. x N. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65827908625168,
+            41.91984698460864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5221,
+            6627
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RACINE AV. x W. CORTLAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65828011998039,
+            41.91719395969904
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4057,
+            6627
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CORTLAND x N. MARCY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65910240308868,
+            41.917118017100854
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

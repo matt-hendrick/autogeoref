@@ -1,0 +1,167 @@
+{
+  "page": "20",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 16TH ST. (BOULEVARD)",
+      "S. PRAIRIE AV. BLVD."
+    ],
+    [
+      "INDIANA AV.",
+      "E. 18TH ST."
+    ],
+    [
+      "S. PRAIRIE AV. BLVD.",
+      "E. 18TH ST."
+    ],
+    [
+      "E. 18TH ST.",
+      "CALUMET AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3532,
+            1109
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 16TH ST. (BOULEVARD) x S. PRAIRIE AV. BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62082946851613,
+            41.860267133216226
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            897,
+            6294
+          ],
+          "username": "autogeoref",
+          "note": "auto: INDIANA AV. x E. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6223053228054,
+            41.857931570774994
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3532,
+            6294
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PRAIRIE AV. BLVD. x E. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62073968417317,
+            41.85795226515433
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5549,
+            6294
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 18TH ST. x CALUMET AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61959561352984,
+            41.85788923308744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62261913426734,
+            41.860421520464826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5245,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6197787423407,
+            41.86046155722945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62255158745506,
+            41.85776336406474
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 2.988,
+    "dy_m": 4.732
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4692,
+    "separation_ratio": 1.345,
+    "best_offset_m": 3.2,
+    "n_junctions": 25
+  }
+}

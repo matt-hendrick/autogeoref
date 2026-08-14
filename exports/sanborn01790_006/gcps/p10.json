@@ -1,0 +1,228 @@
+{
+  "page": "10",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 1.2,
+  "auto_residuals_m": [
+    4.34,
+    4.54,
+    4.24,
+    9.21,
+    4.7,
+    9.03,
+    9.21,
+    5.12,
+    4.95
+  ],
+  "inlier_streets": [
+    [
+      "W. 57TH",
+      "S. GREEN"
+    ],
+    [
+      "W. 57TH",
+      "S. HALSTED"
+    ],
+    [
+      "W. 57TH",
+      "EMERALD AVE."
+    ],
+    [
+      "S. GREEN",
+      "W. 58TH"
+    ],
+    [
+      "S. GREEN",
+      "W. 59TH"
+    ],
+    [
+      "W. 58TH",
+      "S. HALSTED"
+    ],
+    [
+      "W. 58TH",
+      "EMERALD AVE."
+    ],
+    [
+      "S. HALSTED",
+      "W. 59TH"
+    ],
+    [
+      "EMERALD AVE.",
+      "W. 59TH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1307,
+            283
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 57TH x S. GREEN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64628720760199,
+            41.790626539704405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3300,
+            283
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 57TH x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6450742369648,
+            41.790644314443746
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5343,
+            283
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 57TH x EMERALD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64385625753049,
+            41.790664979130575
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1307,
+            4290
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. GREEN x W. 58TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64624081495238,
+            41.78880643918874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1307,
+            7915
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. GREEN x W. 59TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64619327297123,
+            41.78698526423376
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3300,
+            4290
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 58TH x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64502608347094,
+            41.788823823136546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5343,
+            4290
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 58TH x EMERALD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64380696734561,
+            41.788844517322964
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3300,
+            7915
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. 59TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6449782676464,
+            41.78700242819963
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5343,
+            7915
+          ],
+          "username": "autogeoref",
+          "note": "auto: EMERALD AVE. x W. 59TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64377160763397,
+            41.78702226255117
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.077,
+    "dy_m": -3.392
+  }
+}

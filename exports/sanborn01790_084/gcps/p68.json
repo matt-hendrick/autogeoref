@@ -1,0 +1,163 @@
+{
+  "page": "68",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. BLACKHAWK",
+      "N. CLEVELAND AV."
+    ],
+    [
+      "W. BLACKHAWK",
+      "N. HUDSON AV."
+    ],
+    [
+      "W. BLACKHAWK",
+      "N. SEDGWICK"
+    ],
+    [
+      "N. SEDGWICK",
+      "W. SCHILLER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            793,
+            672
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLACKHAWK x N. CLEVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64095621986584,
+            41.909209848515324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2813,
+            672
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLACKHAWK x N. HUDSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63974588577932,
+            41.90922739481267
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4823,
+            672
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLACKHAWK x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63853410185948,
+            41.90924184960764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4823,
+            4395
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. SCHILLER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63848350620195,
+            41.90760068649159
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            575,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64110334214354,
+            41.90918744213626
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5172,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63831234493873,
+            41.90923064338211
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            575,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64102938286199,
+            41.90654108049718
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.3669,
+    "separation_ratio": 0.931,
+    "best_offset_m": 99.5,
+    "n_junctions": 9
+  }
+}

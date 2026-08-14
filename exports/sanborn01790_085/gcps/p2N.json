@@ -1,0 +1,160 @@
+{
+  "page": "2N",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. CHICAGO AV.",
+      "N. KINGSBURY"
+    ],
+    [
+      "W. SUPERIOR",
+      "N. KINGSBURY"
+    ],
+    [
+      "N. KINGSBURY",
+      "W. HURON"
+    ],
+    [
+      "N. KINGSBURY",
+      "W. ERIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3737,
+            676
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. KINGSBURY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64152366011751,
+            41.896493130145686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3737,
+            2927
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x N. KINGSBURY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64150252554221,
+            41.89549986594319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3737,
+            4736
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KINGSBURY x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64148366496863,
+            41.894700480781395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3737,
+            6554
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KINGSBURY x W. ERIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64146602940176,
+            41.89389716957264
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64343517395662,
+            41.89646970694746
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5260,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64060428711929,
+            41.896508017832254
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64337069053605,
+            41.893829641044526
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,74 @@
+#!/bin/sh
+# Pre-commit: the cheap CI checks (see .github/workflows/ci.yml) run at commit
+# time so a red push is caught before it leaves the machine. Enable once per
+# clone:  git config core.hooksPath .githooks
+#
+# Green here only predicts green in CI if the venv matches the committed
+# uv.lock that CI installs from — after dependency changes, resync with
+# `uv sync --all-extras --inexact` (see README Setup for why --inexact).
+#
+# Ruff validates the STAGED content of the Python files `make lint` covers —
+# keep this set in step with LINT_PATHS in the Makefile (exactly what
+# the commit will contain, so another agent's unstaged WIP cannot block an
+# unrelated commit). Mypy is whole-tree because it follows imports (~2 s with
+# a warm cache). The fast pytest suite stays CI-only — minutes, not
+# commit-time material.
+
+cd "$(git rev-parse --show-toplevel)" || exit 1
+RUFF=.venv/bin/ruff
+MYPY=.venv/bin/mypy
+
+# The venv holds native Linux executables. Git driven from Windows against a
+# WSL working tree cannot exec them — so run them inside the distro that owns
+# them. From that side a tree reads //wsl.localhost/... — local-path-ok, a
+# shape to match rather than a path anyone owns. Only the TOOL crosses the
+# boundary; staged content still comes from this git, so $GIT_INDEX_FILE keeps
+# working.
+case "$(pwd)" in
+    //wsl.localhost/*|//wsl$/*)  # local-path-ok
+        distro=$(pwd | cut -d/ -f4)
+        linuxdir=/$(pwd | cut -d/ -f5-)
+        # MSYS_NO_PATHCONV stops git-bash rewriting /home/... into a Windows
+        # path on its way to wsl.exe.
+        run() { MSYS_NO_PATHCONV=1 wsl.exe -d "$distro" --cd "$linuxdir" -- "$@"; }
+        ;;
+    *)
+        run() { "$@"; }
+        ;;
+esac
+
+files=$(git diff --cached --name-only --diff-filter=ACMR | grep -E '^(src|tests|scripts)/.*\.py$')
+[ -z "$files" ] && exit 0
+
+# A tool that cannot RUN is an environment fault, never a verdict on the code.
+# Checking this up front is what keeps the loop below honest: it reads exit
+# status alone, so an unrunnable ruff would otherwise surface as "needs
+# formatting" on files that are perfectly clean.
+for tool in "$RUFF" "$MYPY"; do
+    if ! run "$tool" --version >/dev/null 2>&1; then
+        echo "pre-commit: cannot execute $tool — nothing was checked."
+        echo "  the venv is not usable from here; resync it (uv sync --all-extras --inexact)"
+        exit 1
+    fi
+done
+
+status=0
+for f in $files; do
+    if ! git show ":$f" | run "$RUFF" check --quiet --stdin-filename "$f" -; then
+        status=1
+    fi
+    if ! git show ":$f" | run "$RUFF" format --check --quiet --stdin-filename "$f" - >/dev/null; then
+        echo "needs formatting: $f  (run: $RUFF format $f)"
+        status=1
+    fi
+done
+if [ "$status" -ne 0 ]; then
+    echo "pre-commit: ruff failed on staged files (see above)."
+    exit 1
+fi
+
+if ! run "$MYPY"; then
+    echo "pre-commit: mypy failed."
+    exit 1
+fi
+exit 0

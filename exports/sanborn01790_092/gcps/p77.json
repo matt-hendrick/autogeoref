@@ -1,0 +1,185 @@
+{
+  "page": "77",
+  "n_streets": 9,
+  "n_candidates": 20,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. ADA ST.",
+      "W. KINZIE"
+    ],
+    [
+      "W. KINZIE",
+      "N. ADA"
+    ],
+    [
+      "W. KINZIE",
+      "N. ELIZABETH"
+    ],
+    [
+      "W. CARROLL AV.",
+      "N. ELIZABETH"
+    ],
+    [
+      "N. ELIZABETH",
+      "FULTON MARKET"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2323,
+            1126
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ADA ST. x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66067605044135,
+            41.88886122729058
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2378,
+            1126
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. ADA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66067605044135,
+            41.88886122729058
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5140,
+            1126
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65892071786473,
+            41.888950205693384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5140,
+            3932
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CARROLL AV. x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65891759914676,
+            41.88767697815061
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5140,
+            6361
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELIZABETH x FULTON MARKET"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65889141676503,
+            41.88664782357842
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66174056616384,
+            41.88907330389087
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5254,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65889362905766,
+            41.88912028685149
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66166141138875,
+            41.88641514096331
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5009,
+    "separation_ratio": 1.102,
+    "best_offset_m": 18.4,
+    "n_junctions": 22
+  }
+}

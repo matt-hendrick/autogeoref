@@ -1,0 +1,109 @@
+{
+  "page": "117",
+  "n_streets": 4,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 1.08,
+  "auto_residuals_m": [
+    0.01,
+    0.05,
+    0.04,
+    0.01
+  ],
+  "inlier_streets": [
+    [
+      "S. WABASH AV.",
+      "E. 28TH ST."
+    ],
+    [
+      "S. WABASH AV.",
+      "E. 29TH ST."
+    ],
+    [
+      "S. MICHIGAN AV. (BOULEVARD)",
+      "E. 28TH ST."
+    ],
+    [
+      "S. MICHIGAN AV. (BOULEVARD)",
+      "E. 29TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1615,
+            2453
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 28TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62527150537991,
+            41.8433604522259
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1615,
+            5309
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 29TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62523665694088,
+            41.84197187136513
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4533,
+            2453
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. (BOULEVARD) x E. 28TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62333357864202,
+            41.843387499109504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4533,
+            5309
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. (BOULEVARD) x E. 29TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62329813393313,
+            41.841999480187035
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

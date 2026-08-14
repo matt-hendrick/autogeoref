@@ -1,0 +1,159 @@
+{
+  "page": "50",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 2.27,
+  "auto_residuals_m": [
+    1.43,
+    6.29,
+    0.83,
+    10.92,
+    0.64,
+    4.63
+  ],
+  "inlier_streets": [
+    [
+      "W. HARRISON",
+      "S. OAKLEY"
+    ],
+    [
+      "W. HARRISON",
+      "S. LEAVITT"
+    ],
+    [
+      "FLOURNOY",
+      "S. OAKLEY"
+    ],
+    [
+      "FLOURNOY",
+      "S. LEAVITT"
+    ],
+    [
+      "S. OAKLEY",
+      "POLK"
+    ],
+    [
+      "S. LEAVITT",
+      "POLK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            934
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. OAKLEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68375476717057,
+            41.87392238293086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4926,
+            934
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68131873581257,
+            41.873960861783495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            2854
+          ],
+          "username": "autogeoref",
+          "note": "auto: FLOURNOY x S. OAKLEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68374040645907,
+            41.8730541989502
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4926,
+            2854
+          ],
+          "username": "autogeoref",
+          "note": "auto: FLOURNOY x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68129740840875,
+            41.87319433440149
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            6540
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY x POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68369361227461,
+            41.871360700040356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4926,
+            6540
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT x POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6812435776957,
+            41.87139803237616
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.883,
+    "dy_m": -0.676
+  }
+}

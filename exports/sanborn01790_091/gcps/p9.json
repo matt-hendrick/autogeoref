@@ -1,0 +1,136 @@
+{
+  "page": "9",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 1.01,
+  "auto_residuals_m": [
+    2.13,
+    0.55,
+    2.09,
+    4.19,
+    4.17
+  ],
+  "inlier_streets": [
+    [
+      "W. ALTGELD (GREENWOOD TER.)",
+      "N. WESTERN AV."
+    ],
+    [
+      "N. WESTERN AV.",
+      "W. MONTANA"
+    ],
+    [
+      "N. WESTERN AV.",
+      "W. FULLERTON AV."
+    ],
+    [
+      "W. MONTANA",
+      "N. OAKLEY AV."
+    ],
+    [
+      "N. OAKLEY AV.",
+      "W. FULLERTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1142,
+            3445
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ALTGELD (GREENWOOD TER.) x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68768354418783,
+            41.92641464732024
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1142,
+            5124
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x W. MONTANA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68765444966215,
+            41.92565927297214
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1142,
+            6801
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x W. FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6876262999158,
+            41.92489345738836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5097,
+            5124
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONTANA x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68531580532418,
+            41.92568775500046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5097,
+            6801
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. x W. FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68519348984549,
+            41.92492473394438
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.738,
+    "dy_m": -1.081
+  }
+}

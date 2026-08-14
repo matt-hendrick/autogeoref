@@ -1,0 +1,141 @@
+{
+  "page": "77",
+  "n_streets": 10,
+  "n_candidates": 8,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "HARRISON",
+      "STATE"
+    ],
+    [
+      "HARRISON",
+      "WABASH"
+    ],
+    [
+      "STATE",
+      "POLK ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1666,
+            794
+          ],
+          "username": "autogeoref",
+          "note": "auto: HARRISON x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62760697486215,
+            41.87437097704082
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4397,
+            794
+          ],
+          "username": "autogeoref",
+          "note": "auto: HARRISON x WABASH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62599636874644,
+            41.87440857416595
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1666,
+            5492
+          ],
+          "username": "autogeoref",
+          "note": "auto: STATE x POLK ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62754038268264,
+            41.872302615173936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62821035683766,
+            41.87437729108069
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5313,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62548724500962,
+            41.874414763373245
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62814793473488,
+            41.871862164186716
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.679,
+    "separation_ratio": 1.259,
+    "best_offset_m": 2.6,
+    "n_junctions": 27
+  }
+}

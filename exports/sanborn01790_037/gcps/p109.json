@@ -1,0 +1,186 @@
+{
+  "page": "109",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. MADISON",
+      "S. 48TH AV."
+    ],
+    [
+      "W. MONROE",
+      "S. 48TH AV."
+    ],
+    [
+      "W. ADAMS",
+      "S. 48TH AV."
+    ],
+    [
+      "S. 48TH AV.",
+      "W. QUINCY"
+    ],
+    [
+      "S. 48TH AV.",
+      "W. JACKSON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5621,
+            259
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. 48TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74527756103481,
+            41.880497997509394
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5621,
+            2273
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. 48TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74524304453708,
+            41.87950038938709
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5621,
+            4397
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. 48TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74520779247392,
+            41.87859663672335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5621,
+            6318
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 48TH AV. x W. QUINCY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74517761810945,
+            41.87769340442797
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5621,
+            8257
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 48TH AV. x W. JACKSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74514594382941,
+            41.87680798217802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74835014872556,
+            41.88017876994707
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5262,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74545858671702,
+            41.880205383160096
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74829816133197,
+            41.877047483330585
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7241,
+    "separation_ratio": 1.092,
+    "best_offset_m": 10.8,
+    "n_junctions": 4
+  }
+}

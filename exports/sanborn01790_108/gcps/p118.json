@@ -1,0 +1,159 @@
+{
+  "page": "118",
+  "n_streets": 9,
+  "n_candidates": 10,
+  "n_inliers": 6,
+  "rotation_deg": -0.07,
+  "auto_residuals_m": [
+    5.66,
+    5.22,
+    2.58,
+    2.66,
+    6.65,
+    7.9
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. KARLOV AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. KEYSTONE AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. PULASKI RD."
+    ],
+    [
+      "PIERCE AV.",
+      "N. KARLOV AV."
+    ],
+    [
+      "N. KARLOV AV.",
+      "W. HIRSCH"
+    ],
+    [
+      "N. KEYSTONE AV.",
+      "W. GRAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            935,
+            402
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. KARLOV AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72894959217659,
+            41.909855093816525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2987,
+            402
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. KEYSTONE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72753215580863,
+            41.90987493138654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4941,
+            402
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. PULASKI RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72630742272128,
+            41.90989205760572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            935,
+            3047
+          ],
+          "username": "autogeoref",
+          "note": "auto: PIERCE AV. x N. KARLOV AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72890821653273,
+            41.908658089693056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            935,
+            8208
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KARLOV AV. x W. HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72883776159318,
+            41.9062487068694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2987,
+            7241
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEYSTONE AV. x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7276201283981,
+            41.90664743602228
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.592,
+    "dy_m": 0.803
+  }
+}

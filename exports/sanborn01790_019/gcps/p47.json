@@ -1,0 +1,142 @@
+{
+  "page": "47",
+  "n_streets": 9,
+  "n_candidates": 9,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "GARFIELD AV.",
+      "SEDGWICK"
+    ],
+    [
+      "GARFIELD B'L'V'D",
+      "SEDGWICK"
+    ],
+    [
+      "SEDGWICK",
+      "CENTER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            339,
+            458
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6388743756624,
+            41.920142647952524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            339,
+            439
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD B'L'V'D x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6388743756624,
+            41.920142647952524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            339,
+            4485
+          ],
+          "username": "autogeoref",
+          "note": "auto: SEDGWICK x CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63881550768535,
+            41.918322374553966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63871876498818,
+            41.92001912362661
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5270,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63586811863604,
+            41.920065919524056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63864011885975,
+            41.91736660225177
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6186,
+    "separation_ratio": 1.656,
+    "best_offset_m": 27.7,
+    "n_junctions": 22
+  }
+}

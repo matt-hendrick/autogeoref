@@ -1,0 +1,159 @@
+{
+  "page": "73",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.3,
+  "auto_residuals_m": [
+    0.96,
+    2.09,
+    1.11,
+    1.09,
+    1.85,
+    0.75
+  ],
+  "inlier_streets": [
+    [
+      "W. ARTHUR AV.",
+      "N. LEAVITT"
+    ],
+    [
+      "W. ARTHUR AV.",
+      "N. HAMILTON AV. (ST. ANTHONY CT.)"
+    ],
+    [
+      "W. ARTHUR AV.",
+      "N. HOYNE AV."
+    ],
+    [
+      "N. LEAVITT",
+      "W. DEVON AV."
+    ],
+    [
+      "N. HAMILTON AV. (ST. ANTHONY CT.)",
+      "W. DEVON AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. DEVON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            957,
+            4267
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARTHUR AV. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68511066643963,
+            41.999626805138725
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2923,
+            4267
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARTHUR AV. x N. HAMILTON AV. (ST. ANTHONY CT.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68389450810255,
+            41.99964675115143
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4983,
+            4267
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARTHUR AV. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68267765323516,
+            41.99966757466005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            957,
+            8247
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x W. DEVON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68505927779943,
+            41.9978142687505
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2923,
+            8247
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HAMILTON AV. (ST. ANTHONY CT.) x W. DEVON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6838441244529,
+            41.99783331025885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4983,
+            8247
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. DEVON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68262183134084,
+            41.99785544601242
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -5.422,
+    "dy_m": 0.211
+  }
+}

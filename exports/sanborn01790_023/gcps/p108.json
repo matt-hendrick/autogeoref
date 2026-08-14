@@ -1,0 +1,138 @@
+{
+  "page": "108",
+  "n_streets": 7,
+  "n_candidates": 12,
+  "n_inliers": 5,
+  "rotation_deg": 1.11,
+  "auto_residuals_m": [
+    1.82,
+    1.58,
+    1.87,
+    1.54,
+    0.1
+  ],
+  "inlier_streets": [
+    [
+      "W. RANDOLPH",
+      "LOOMIS ST."
+    ],
+    [
+      "W. WASHINGTON BLVD",
+      "N. BISHOP"
+    ],
+    [
+      "W. WASHINGTON BLVD",
+      "LOOMIS ST."
+    ],
+    [
+      "N. BISHOP",
+      "W. MADISON"
+    ],
+    [
+      "W. MADISON",
+      "LOOMIS ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4357,
+            851
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x LOOMIS ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66238327817364,
+            41.884067685113884
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1856,
+            3574
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD x N. BISHOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66372954156185,
+            41.88289170445735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4357,
+            3574
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD x LOOMIS ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6623146645192,
+            41.882912357824544
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1856,
+            6726
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BISHOP x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66369490345028,
+            41.88151780416143
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4357,
+            6726
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x LOOMIS ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6622754495043,
+            41.881546539645996
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -0.157,
+    "dy_m": 2.037
+  }
+}

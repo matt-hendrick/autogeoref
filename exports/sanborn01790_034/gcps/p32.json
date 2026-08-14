@@ -1,0 +1,141 @@
+{
+  "page": "32",
+  "n_streets": 11,
+  "n_candidates": 18,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "EDGEWATER AV",
+      "N. ASHLAND AV"
+    ],
+    [
+      "HOLLYWOOD AV",
+      "N. ASHLAND AV"
+    ],
+    [
+      "OLIVE AV",
+      "N. CLARK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3997,
+            2334
+          ],
+          "username": "autogeoref",
+          "note": "auto: EDGEWATER AV x N. ASHLAND AV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.669871642673,
+            41.98593640215115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3997,
+            4110
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOLLYWOOD AV x N. ASHLAND AV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66986090569762,
+            41.98511731571827
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5528,
+            5491
+          ],
+          "username": "autogeoref",
+          "note": "auto: OLIVE AV x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6689641748003,
+            41.984450001146634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67198626592116,
+            41.98654464412974
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5236,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66916037938404,
+            41.98658607575523
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67190479241997,
+            41.98347434990673
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8188,
+    "separation_ratio": 1.103,
+    "best_offset_m": 38.6,
+    "n_junctions": 15
+  }
+}

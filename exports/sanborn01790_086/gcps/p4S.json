@@ -1,0 +1,204 @@
+{
+  "page": "4S",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "WELLS ST.",
+      "W. WACKER DRIVE (W. SOUTH WATER)"
+    ],
+    [
+      "WELLS ST.",
+      "HADDOCK PL."
+    ],
+    [
+      "WELLS ST.",
+      "W. LAKE"
+    ],
+    [
+      "W. WACKER DRIVE (W. SOUTH WATER)",
+      "N. WELLS (N. 5TH AV.)"
+    ],
+    [
+      "N. WELLS (N. 5TH AV.)",
+      "HADDOCK PL."
+    ],
+    [
+      "N. WELLS (N. 5TH AV.)",
+      "W. LAKE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1651,
+            2468
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLS ST. x W. WACKER DRIVE (W. SOUTH WATER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63396536700346,
+            41.88693211931528
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1651,
+            3899
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLS ST. x HADDOCK PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63394442913071,
+            41.886276921648616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1651,
+            5095
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLS ST. x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63393006245694,
+            41.88572881153648
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1693,
+            2468
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WACKER DRIVE (W. SOUTH WATER) x N. WELLS (N. 5TH AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63396536700346,
+            41.88693211931528
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1693,
+            3899
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS (N. 5TH AV.) x HADDOCK PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63394442913071,
+            41.886276921648616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1693,
+            5095
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS (N. 5TH AV.) x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63393006245694,
+            41.88572881153648
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63463428963694,
+            41.887706259743744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5255,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63178971787471,
+            41.88773421017961
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63458720265116,
+            41.885050340725506
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

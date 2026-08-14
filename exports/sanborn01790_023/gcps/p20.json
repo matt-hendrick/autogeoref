@@ -1,0 +1,186 @@
+{
+  "page": "20",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "RICE",
+      "N. HOYNE AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. HOYNE AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "LEE PL."
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. SUPERIOR"
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. HURON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            674
+          ],
+          "username": "autogeoref",
+          "note": "auto: RICE x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6795280393034,
+            41.89679361270083
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            2636
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6795001916212,
+            41.8958678801736
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            4214
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x LEE PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6794760620754,
+            41.89516420641111
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            4950
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. SUPERIOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67947117659651,
+            41.894951472082056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            6682
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67945008110954,
+            41.89405370417565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67973230284016,
+            41.896738937938395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5276,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67693468600369,
+            41.89678510919203
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67965481418742,
+            41.89413747746639
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7359,
+    "separation_ratio": 1.3,
+    "best_offset_m": 5.0,
+    "n_junctions": 29
+  }
+}

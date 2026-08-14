@@ -1,0 +1,183 @@
+{
+  "page": "35",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 1.23,
+  "auto_residuals_m": [
+    0.31,
+    0.16,
+    0.16,
+    0.24,
+    0.25,
+    0.42,
+    0.5
+  ],
+  "inlier_streets": [
+    [
+      "W. HURON",
+      "N. WESTERN AV."
+    ],
+    [
+      "W. HURON",
+      "N. OAKLEY BLVD"
+    ],
+    [
+      "W. ERIE",
+      "N. WESTERN AV."
+    ],
+    [
+      "W. ERIE",
+      "N. OAKLEY BLVD"
+    ],
+    [
+      "W. OHIO",
+      "N. WESTERN AV."
+    ],
+    [
+      "W. OHIO",
+      "N. OAKLEY BLVD"
+    ],
+    [
+      "W. OHIO",
+      "N. CLAREMONT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            956,
+            533
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68678996662058,
+            41.89394779734129
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5005,
+            533
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. OAKLEY BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68434633035163,
+            41.89398999284517
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            956,
+            2550
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68676522543011,
+            41.893039196821725
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5005,
+            2550
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. OAKLEY BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68432051278873,
+            41.89307888604295
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            956,
+            4564
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6867401842321,
+            41.89212929644059
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5005,
+            4564
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. OAKLEY BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68429392154154,
+            41.89216495254372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2990,
+            4564
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68551734612059,
+            41.89214637881872
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8",
+  "seam_adjusted": {
+    "dx_m": -0.209,
+    "dy_m": 2.896
+  }
+}

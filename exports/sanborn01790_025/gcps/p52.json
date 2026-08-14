@@ -1,0 +1,182 @@
+{
+  "page": "52",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 1.59,
+  "auto_residuals_m": [
+    4.55,
+    1.6,
+    8.32,
+    0.67,
+    3.06,
+    1.84,
+    0.22
+  ],
+  "inlier_streets": [
+    [
+      "W. 18TH ST.",
+      "S. ROBEY"
+    ],
+    [
+      "W. 18TH ST.",
+      "S. LINCOLN"
+    ],
+    [
+      "W. 18TH PL.",
+      "S. ROBEY"
+    ],
+    [
+      "S. ROBEY",
+      "W. 19TH ST."
+    ],
+    [
+      "S. ROBEY",
+      "W. 20TH ST."
+    ],
+    [
+      "S. LINCOLN",
+      "W. 19TH ST."
+    ],
+    [
+      "S. LINCOLN",
+      "W. 20TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1117,
+            666
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x S. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67599282456952,
+            41.85768622549863
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4928,
+            666
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x S. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67354993526982,
+            41.85771692166398
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1117,
+            2500
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH PL. x S. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67596811156147,
+            41.85677070080214
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1117,
+            4649
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROBEY x W. 19TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67594541586404,
+            41.85585853659396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1117,
+            6692
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROBEY x W. 20TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6759184618141,
+            41.854950866557
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4928,
+            4649
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LINCOLN x W. 19TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67349471966061,
+            41.85589279021693
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4928,
+            6692
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LINCOLN x W. 20TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67346897121634,
+            41.85498229725803
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.195,
+    "dy_m": 3.505
+  }
+}

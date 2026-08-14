@@ -1,0 +1,251 @@
+{
+  "page": "1",
+  "n_streets": 10,
+  "n_candidates": 20,
+  "n_inliers": 10,
+  "rotation_deg": 0.64,
+  "auto_residuals_m": [
+    7.88,
+    8.14,
+    8.32,
+    7.0,
+    2.67,
+    7.13,
+    7.02,
+    6.05,
+    5.45,
+    4.33
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. PULASKI RD."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. HARDING AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "LE MOYNE",
+      "N. PULASKI RD."
+    ],
+    [
+      "LE MOYNE",
+      "N. HARDING AV."
+    ],
+    [
+      "LE MOYNE",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "N. HARDING AV.",
+      "HIRSCH ST."
+    ],
+    [
+      "N. HARDING AV.",
+      "HIRSCH"
+    ],
+    [
+      "N. SPRINGFIELD AV.",
+      "HIRSCH ST."
+    ],
+    [
+      "N. SPRINGFIELD AV.",
+      "HIRSCH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            907,
+            466
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. PULASKI RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7263109081846,
+            41.90986482866415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2811,
+            466
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72528086028316,
+            41.90987781536001
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4854,
+            466
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72387464537978,
+            41.90989223192626
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            907,
+            4440
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. PULASKI RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72644525875144,
+            41.90805543905061
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2811,
+            4440
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72523144360906,
+            41.9080644880241
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4854,
+            4440
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72401494126456,
+            41.90807561748013
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2811,
+            8247
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HARDING AV. x HIRSCH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7251748724397,
+            41.906267937251805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2811,
+            8389
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HARDING AV. x HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7251748724397,
+            41.906267937251805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4854,
+            8247
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPRINGFIELD AV. x HIRSCH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72395728842544,
+            41.90627903901132
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4854,
+            8389
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPRINGFIELD AV. x HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72395728842544,
+            41.90627903901132
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.204,
+    "dy_m": -3.27
+  }
+}

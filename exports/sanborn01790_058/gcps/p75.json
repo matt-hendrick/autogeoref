@@ -1,0 +1,145 @@
+{
+  "page": "75",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. LOYOLA AV.",
+      "N. WINCHESTER AV."
+    ],
+    [
+      "W. LOYOLA AV.",
+      "N. DAMEN AV."
+    ],
+    [
+      "N. DAMEN AV.",
+      "W. DEVON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2196,
+            2881
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LOYOLA AV. x N. WINCHESTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67901566064945,
+            42.000326694779744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            172,
+            2881
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LOYOLA AV. x N. DAMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68022818776693,
+            42.00030310798982
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            172,
+            8157
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAMEN AV. x W. DEVON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68014865298332,
+            41.997883353703216
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6800285461375,
+            42.00123090719627
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67728230043404,
+            42.00127841658481
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67993127058915,
+            41.99812560274208
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -1.449,
+    "dy_m": -1.774
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7763,
+    "separation_ratio": 1.239,
+    "best_offset_m": 29.0,
+    "n_junctions": 3
+  }
+}

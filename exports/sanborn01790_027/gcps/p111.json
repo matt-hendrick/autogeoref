@@ -1,0 +1,142 @@
+{
+  "page": "111",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "BLOOMINGDALE AV.",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "WABANSIA AV.",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. CENTRAL PARK AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            177,
+            365
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71665595986536,
+            41.91354916525296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            177,
+            4108
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71660417146664,
+            41.91181618978127
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            177,
+            8015
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71670068064427,
+            41.909994151933795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7164400227966,
+            41.91334269984646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71362497498254,
+            41.91337012901646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71638596228011,
+            41.91027020161974
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8055,
+    "separation_ratio": 1.746,
+    "best_offset_m": 1.3,
+    "n_junctions": 4
+  }
+}

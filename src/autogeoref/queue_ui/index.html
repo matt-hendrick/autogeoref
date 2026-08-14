@@ -1,0 +1,869 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>autogeoref console</title>
+<!-- inline: the console serves exactly one page, and a favicon route would be a
+     route that exists to stop a 404 in the devtools console -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2213%22 font-size=%2213%22>🗺</text></svg>">
+<style>
+  :root {
+    --bg: #fbfaf7; --panel: #fff; --ink: #1a1a18; --muted: #6b6a65;
+    --line: #e4e1da; --accent: #8a5a2b; --ok: #2f7d4f; --warn: #b4791a; --bad: #a83232;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161614; --panel: #1e1d1a; --ink: #ece9e3; --muted: #9b978e;
+      --line: #33302b; --accent: #d0a06a; --ok: #6cc08c; --warn: #e0ac52; --bad: #e07a7a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2rem 1.25rem 4rem; background: var(--bg); color: var(--ink);
+    font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; }
+  header { display: flex; align-items: baseline; gap: .75rem; margin-bottom: .25rem; }
+  h1 { font-size: 1.3rem; margin: 0; letter-spacing: -.01em; }
+  .stamp { color: var(--muted); font-size: .8rem; }
+  h2 {
+    font-size: .78rem; text-transform: uppercase; letter-spacing: .09em;
+    color: var(--muted); margin: 2rem 0 .6rem; font-weight: 600;
+  }
+  h2 .sub { text-transform: none; letter-spacing: 0; font-weight: 400; }
+  .panel {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    overflow-x: auto;
+  }
+  table { border-collapse: collapse; width: 100%; font-size: .88rem; }
+  th {
+    text-align: left; font-weight: 600; color: var(--muted); font-size: .72rem;
+    text-transform: uppercase; letter-spacing: .05em; padding: .6rem .8rem;
+    border-bottom: 1px solid var(--line); white-space: nowrap;
+  }
+  td { padding: .6rem .8rem; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  tr:last-child td { border-bottom: 0; }
+  td.vol { font-family: ui-monospace, "SF Mono", Menlo, monospace; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }
+  td.num.has { color: var(--ink); }
+  .empty { padding: 1rem .8rem; color: var(--muted); font-style: italic; }
+  .pill {
+    display: inline-block; padding: .1rem .5rem; border-radius: 999px;
+    font-size: .72rem; font-weight: 600; border: 1px solid var(--line);
+  }
+  .pill.running { color: var(--accent); border-color: var(--accent); }
+  .pill.done { color: var(--ok); border-color: var(--ok); }
+  .pill.needs-review { color: var(--warn); border-color: var(--warn); }
+  .pill.failed { color: var(--bad); border-color: var(--bad); }
+  .bar {
+    height: 5px; border-radius: 3px; background: var(--line);
+    min-width: 70px; overflow: hidden;
+  }
+  .bar > i { display: block; height: 100%; background: var(--accent); }
+  .callout {
+    border-left: 3px solid var(--warn); background: var(--panel);
+    border-radius: 0 8px 8px 0; padding: .8rem 1rem; margin-bottom: .5rem;
+  }
+  .callout.bad { border-left-color: var(--bad); }
+  .callout code {
+    font-family: ui-monospace, Menlo, monospace; font-size: .82rem;
+    background: var(--bg); padding: .1rem .35rem; border-radius: 4px;
+  }
+  .why { color: var(--muted); font-size: .85rem; margin-top: .2rem; }
+  a { color: var(--accent); }
+  pre.log {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+    padding: .8rem; overflow-x: auto; font-size: .78rem; max-height: 22rem;
+  }
+  /* the four columns: what can I run · what is running · what needs my eyes ·
+     what is served. On a narrow screen they stack in that same order. */
+  .board {
+    display: grid; gap: 1rem; align-items: start;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+  .col > h2 { margin-top: 0; }
+  .card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    padding: .7rem .8rem; margin-bottom: .5rem;
+  }
+  .card.blocked { border-left: 3px solid var(--bad); }
+  .card .vol {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: .85rem;
+    font-weight: 600; overflow-wrap: anywhere;
+  }
+  .card .meta { color: var(--muted); font-size: .78rem; margin-top: .15rem; }
+  .card .meta.bad { color: var(--bad); }
+  .copy {
+    display: block; width: 100%; text-align: left; margin-top: .4rem; cursor: pointer;
+    font: inherit; font-size: .75rem; color: var(--accent); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 6px; padding: .3rem .5rem;
+    overflow-wrap: anywhere;
+  }
+  .note {
+    color: var(--muted); font-size: .78rem; margin: .5rem 0 0; padding-left: .1rem;
+  }
+  /* --- the acting half --- */
+  .btn {
+    cursor: pointer; font: inherit; font-size: .78rem; font-weight: 600;
+    color: var(--ink); background: var(--bg); border: 1px solid var(--line);
+    border-radius: 6px; padding: .3rem .6rem;
+  }
+  .btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+  .btn:disabled { opacity: .45; cursor: not-allowed; }
+  .btn.primary { color: #fff; background: var(--accent); border-color: var(--accent); }
+  .btn.primary:hover:not(:disabled) { filter: brightness(1.1); color: #fff; }
+  .btn.danger { color: var(--bad); border-color: var(--bad); }
+  .btn.danger:hover:not(:disabled) { color: #fff; background: var(--bad); }
+  .acts { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .5rem; align-items: center; }
+  .acts label { font-size: .74rem; color: var(--muted); display: flex; gap: .25rem; align-items: center; }
+  .drainbar {
+    display: flex; flex-wrap: wrap; gap: .75rem; align-items: center;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    padding: .7rem .9rem; margin-top: 1rem;
+  }
+  .dstate { display: flex; align-items: center; gap: .45rem; font-size: .85rem; font-weight: 600; }
+  .dot {
+    width: 9px; height: 9px; border-radius: 50%; background: var(--muted); flex: none;
+  }
+  .dot.on { background: var(--ok); box-shadow: 0 0 0 3px color-mix(in srgb, var(--ok) 25%, transparent); }
+  .dctl { display: flex; gap: .4rem; align-items: center; }
+  .dctl select {
+    font: inherit; font-size: .78rem; color: var(--ink); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 6px; padding: .3rem .4rem;
+  }
+  .dspend { margin-left: auto; color: var(--muted); font-size: .78rem; font-variant-numeric: tabular-nums; }
+  #pane { margin-top: 2rem; }
+  #pane h2 { display: flex; align-items: center; gap: .6rem; }
+  #pane h2 .sub { margin-right: auto; font-family: ui-monospace, Menlo, monospace; }
+  #pane-frame {
+    width: 100%; height: 78vh; margin-top: .6rem; border: 1px solid var(--line);
+    border-radius: 10px; background: var(--panel);
+  }
+  #pane-msg:empty { display: none; }
+  #pane-msg.err { color: var(--bad); }
+  #pane-msg.ok { color: var(--ok); }
+  #log-panel { margin-top: 2rem; }
+  #log-panel h2 { display: flex; align-items: center; gap: .6rem; }
+  #log-panel h2 .sub { margin-right: auto; font-family: ui-monospace, Menlo, monospace; }
+  .toast {
+    position: fixed; left: 50%; bottom: 1.5rem; transform: translateX(-50%);
+    background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--accent);
+    border-radius: 8px; padding: .6rem .9rem; font-size: .82rem; max-width: 44rem;
+    box-shadow: 0 6px 24px rgba(0,0,0,.18); z-index: 9;
+  }
+  .toast.err { border-left-color: var(--bad); color: var(--bad); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>autogeoref console</h1>
+    <span class="stamp" id="stamp">loading…</span>
+  </header>
+  <p class="note">
+    This page RUNS the pipeline. Every number on it is read off the work tree when you load
+    it, and every button is the same call the CLI makes — <code>autogeoref queue</code> still
+    does everything it does today. Queueing a volume spends model budget (~1 call/sheet):
+    the estimate is on the button.
+  </p>
+
+  <div class="callout bad" id="nocity" hidden>
+    <strong>This console is READ-ONLY — it was started without <code>--city</code>.</strong>
+    <div class="why">Every action below is greyed out because a run needs a city config (and so
+      does the ghost-overlay review, and the address-era check that decides what is even
+      runnable). Stop this server (ctrl-c) and restart it to ACT:
+      <br><code>autogeoref queue --serve --city &lt;your-city.toml&gt; --work &lt;work&gt;</code>
+      <br>Then Start drain, Queue, and Review light up. Everything else on the page — the board,
+      the backlog, the estimates — is live either way.</div>
+  </div>
+
+  <!-- The drains: the controls that spend money. The three queues drain in PARALLEL,
+       each with its own lock (drain_lock.drain_lock) — start all (the default) and fetch
+       feeds place feeds serve while all three move. One drain per queue: the place lock
+       is the only exclusion that is correctness, not budget (two writers of one
+       annotation cache); the fetch lock is LOC conduct (one request lane). -->
+  <div class="drainbar" id="drainbar" hidden>
+    <div class="dstate">
+      <span class="dot" id="ddot-fetch"></span><span id="dtext-fetch">fetch: idle</span>
+    </div>
+    <div class="dstate">
+      <span class="dot" id="ddot-place"></span><span id="dtext-place">place: idle</span>
+    </div>
+    <div class="dstate">
+      <span class="dot" id="ddot-serve"></span><span id="dtext-serve">serve: idle</span>
+    </div>
+    <div class="dctl">
+      <select id="dtarget" title="which queue(s) to drain">
+        <option value="both">all — fetch + place + serve, in parallel</option>
+        <option value="fetch">fetch only (no model budget)</option>
+        <option value="place">place only</option>
+        <option value="serve">serve only (free)</option>
+      </select>
+      <!-- The two parallelism dials, applied to THIS drain only. Neither changes what
+           a drain SPENDS: annotate jobs multiply the rate of the same per-page calls
+           (a rate limit or budget stop lands with up to N-1 calls still in flight, so
+           the overshoot grows with N), and serve lanes are free CPU work. The place
+           queue itself stays one volume at a time — queue.run.run_queue's contract. -->
+       <select id="djobs" title="pages annotated or escalated at once on the volume being placed
+(autogeoref run --annotate-jobs). Same total spend, faster — but a rate limit or budget
+stop lands with up to N-1 calls still in flight, so the overshoot grows with N.">
+        <option value="1">pages ×1</option>
+        <option value="2">pages ×2</option>
+        <option value="4">pages ×4</option>
+        <option value="6">pages ×6</option>
+        <option value="8">pages ×8</option>
+        <option value="10">pages ×10</option>
+      </select>
+      <select id="dlanes" title="volumes the serve queue bakes at once (--serve-lanes).
+Auto derives from CPU and is deliberately conservative: GDAL is already multithreaded
+and baking is memory-heavy — this box has been OOM'd by it before.">
+        <option value="">serve lanes: auto</option>
+        <option value="1">serve lanes: 1</option>
+        <option value="2">serve lanes: 2</option>
+        <option value="4">serve lanes: 4</option>
+        <option value="6">serve lanes: 6</option>
+        <option value="8">serve lanes: 8</option>
+      </select>
+      <button class="btn primary" data-act="drain-start">Start drain</button>
+      <button class="btn danger" data-act="drain-stop" id="dstop" hidden>Stop</button>
+    </div>
+    <div class="dspend" id="dspend"></div>
+  </div>
+  <p class="note" id="dwarn" hidden>
+    Stopping kills the drain and the run under it. Model reads already paid for are cached and
+    replay free, so a stopped volume does not burn its spend again — but a stage killed
+    mid-write can leave a partial output, and the stopped volume is marked failed so you can
+    clear or retry it.
+  </p>
+
+  <div class="board">
+    <div class="col"><h2>Runnable <span class="sub">— what you could start</span></h2><div id="runnable"></div></div>
+    <div class="col"><h2>Running <span class="sub">— and queued behind it</span></h2><div id="running"></div></div>
+    <div class="col"><h2>Needs you</h2><div id="needs"></div></div>
+    <div class="col"><h2>Served</h2><div id="served"></div></div>
+  </div>
+
+  <!-- The review pane: review.py's OWN UI, on this port. Not a reimplementation — the
+       iframe means a verdict recorded here goes through the same sidecar, the same
+       overlay gate (ReviewApp.overlay_shown) and the same --apply as `autogeoref review`.
+       An accept button that never drew the sheet is the one thing the acting console
+       forbids, and the only way to
+       draw the sheet is to be this UI. -->
+  <section id="pane" hidden>
+    <h2>Review <span class="sub" id="pane-vol"></span>
+      <button class="btn" data-act="pane-close">close</button>
+      <button class="btn primary" data-act="apply">Apply verdicts</button>
+    </h2>
+    <div class="note">
+      A diagnostic, not a gate — a volume may be served with no human look. Verdicts land in
+      sidecars; <b>Apply</b> materialises them into results (it does not warp; the serve leg
+      does that). A sheet you have not opened cannot be given a verdict.
+    </div>
+    <div id="pane-msg" class="note"></div>
+    <iframe id="pane-frame" title="review"></iframe>
+  </section>
+
+  <h2>Fetch queue <span class="sub">download jp2 masters from LOC · no model budget · one lane at ≥5 s · promotes to place</span></h2>
+  <div class="panel" id="fetch"></div>
+
+  <h2>Place queue <span class="sub">annotate · match · verify · model budget · one at a time · promotes to serve</span></h2>
+  <div class="panel" id="place"></div>
+
+  <h2>Serve queue <span class="sub">warp · mask · mosaic · tile · no model budget · N lanes · runs alongside place</span></h2>
+  <div class="panel" id="serve"></div>
+
+  <section id="log-panel" hidden>
+    <h2>Log <span class="sub" id="log-title"></span>
+      <button class="btn" data-act="log-close">close</button>
+    </h2>
+    <div class="note" id="log-note"></div>
+    <pre class="log" id="log"></pre>
+  </section>
+</div>
+
+<script src="board.js"></script>
+<script>
+// The queues, in pipeline order. The SERVER sends them (`console.board`'s `tracks`,
+// from `queue.store.TRACKS`) so this page cannot disagree with the queue about what a track
+// is; the fallback covers a payload from an older server. Each one needs a dot
+// (`ddot-<t>`/`dtext-<t>`), a panel (`<div id="<t>">`), and a `#dtarget` option in the
+// markup above, because the prose describing a queue belongs with the queue's heading.
+// A track the server names and this page has no element for is reported, never dropped
+// in silence — see trackEl.
+let TRACKS = ["fetch", "place", "serve"];
+const missingTracks = new Set();
+function trackEl(id, track) {
+  const el = document.getElementById(id);
+  if (!el && !missingTracks.has(id)) {
+    missingTracks.add(id);
+    console.warn(`queue console: no element #${id} for the "${track}" queue — this page ` +
+      "is older than the queue it is rendering; its rows are not shown.");
+  }
+  return el;
+}
+
+// board.js: the decisions that need no DOM, so a test can run them directly
+const { contextText, board, withinWindow, readsPerMin } = Board;
+const ago = (t) => Board.ago(t, Date.now() / 1000);
+const n = (v) => (v === null || v === undefined ? "—" : v);
+// board text includes marker error strings (tracebacks): a stray `<` would
+// otherwise eat the rest of the row.
+//
+// The convention the whole page rests on: `rows`, `runnable`, `running`,
+// `needsYou` and `served` each RETURN ESCAPED HTML — their own tags plus board
+// values passed through `esc`. That is what the disable comments on the five
+// `innerHTML` writes in `refresh` are asserting; a builder that interpolates a
+// board value raw breaks it silently there, not here.
+const esc = (s) =>
+  String(s ?? "").replace(/[&<>"']/g, (c) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+
+const contextLine = (volume, context) => {
+  const text = contextText(volume, context);
+  return text ? `<div class="meta">${esc(text)}</div>` : "";
+};
+
+function rows(entries, context) {
+  if (!entries.length) return '<div class="empty">nothing queued</div>';
+  const body = entries.map((e) => {
+    const p = e.progress;
+    // reads/pages is the honest denominator: a page can be read more than once
+    // (every escalation tier caches its own), so this is progress, never a
+    // budget total
+    const pct = p.pages ? Math.min(100, Math.round((p.reads / p.pages) * 100)) : 0;
+    const age = ago(e.status === "running" ? e.started : e.finished);
+    const stage = p.stage ? esc(p.stage) + (p.stage_status === "failed" ? " ✗" : "") : "—";
+    return `<tr>
+      <td class="vol">${esc(e.volume)}</td>
+      <td>${esc(contextText(e.volume, context) || "—")}</td>
+      <td class="num ${p.pages ? "has" : ""}">${n(p.pages || null)}</td>
+      <td class="num ${p.reads ? "has" : ""}">${p.reads}</td>
+      <td class="num ${p.accepted ? "has" : ""}">${n(p.accepted)}</td>
+      <td class="num ${p.flagged ? "has" : ""}">${n(p.flagged)}</td>
+      <td><div class="bar"><i style="width:${pct}%"></i></div></td>
+      <td>${stage}</td>
+      <td><span class="pill ${e.status}">${e.status}</span></td>
+      <td class="num">${age}</td>
+    </tr>`;
+  }).join("");
+  return `<table>
+    <thead><tr>
+      <th>volume</th><th>context</th><th>pages</th><th>reads</th><th>acc</th><th>flag</th>
+      <th>read</th><th>stage</th><th>status</th><th>age</th>
+    </tr></thead>
+    <tbody>${body}</tbody>
+  </table>`;
+}
+
+const empty = (what) => `<div class="empty">${what}</div>`;
+
+// The server tails the current end of a per-leg log on each request, bounded to
+// 200 lines. Keeping this separate from the board payload avoids making every
+// board poll read logs for jobs the operator has not opened.
+let openLog = null;
+async function refreshLog() {
+  if (!openLog) return;
+  const requested = openLog;
+  const pre = document.getElementById("log");
+  try {
+    const r = await fetch("/api/log/" + requested.path, { cache: "no-store" });
+    if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
+    const text = await r.text();
+    if (openLog === requested) pre.textContent = text;
+  } catch (err) {
+    if (openLog === requested) pre.textContent = "Could not load log: " + err.message;
+  }
+}
+async function showLog(path, live) {
+  openLog = { path, live };
+  const panel = document.getElementById("log-panel");
+  panel.hidden = false;
+  document.getElementById("log-title").textContent = path;
+  document.getElementById("log-note").textContent = live
+    ? "Live tail: updates every 5 seconds while this job runs."
+    : "Latest 200 lines.";
+  await refreshLog();
+  panel.scrollIntoView({ behavior: "smooth" });
+}
+
+// The CLI command, still copyable. It is what agents and scripts drive, and a human
+// should be able to see exactly what a button does — but they should not HAVE to
+// type it.
+const copy = (cmd) => `<button class="copy" data-copy="${esc(cmd)}">${esc(cmd)}</button>`;
+
+let canAct = false;
+const act = (a, vol, extra = "") =>
+  `<button class="btn primary" data-act="${a}" data-vol="${esc(vol)}" ${extra}
+     ${canAct ? "" : "disabled title='no --city: this console cannot run anything'"}>`;
+
+// How many runnable cards to show before folding the rest away: a 29-volume
+// backlog rendered in full buries the other three columns under a wall of
+// identical cards, and the ones past the fold are a click away, not gone.
+const RUNNABLE_CAP = 8;
+let showAllRunnable = false;
+
+function runnable(cands, links, context) {
+  if (!cands.length) return empty("nothing runnable — every volume with sheets is placed or queued");
+  const ready = cands.filter((c) => !c.blocked);
+  const blocked = cands.filter((c) => c.blocked);
+  const shown = showAllRunnable ? ready : ready.slice(0, RUNNABLE_CAP);
+  let html = shown.map((c) => {
+    const calls = c.calls ? `~${c.calls.low}–${c.calls.ceiling} calls (est.)` : "no model spend";
+    const cached = c.cached_reads ? `, ${c.cached_reads} cached` : "";
+    const notes = (c.notes || []).map((t) => `<div class="meta">· ${esc(t)}</div>`).join("");
+    const serve = c.track === "serve";
+    const cmd = serve
+      ? `autogeoref queue --track serve --add ${c.volume}`
+      : `autogeoref queue --add ${c.volume}`;
+    // The ESTIMATE is on the button, because pressing it is what spends the money.
+    // It is a range and it is labelled one: `budget.SpendEstimate` is explicit that it
+    // is a planning aid and never a budget authorisation, and a button that rounded it
+    // to a single confident number would be lying in the one place it costs.
+    const label = serve
+      ? "Bake it — free"
+      : `Queue it — ~${c.calls ? c.calls.low + "–" + c.calls.ceiling : "?"} calls`;
+    return `<div class="card">
+      <div class="vol">${esc(c.volume)}</div>
+      <div class="meta">${esc(serve ? "serve" : "place")} queue · ${c.sheets} sheets${esc(cached)} · ${esc(calls)}</div>
+      ${contextLine(c.volume, context) || (c.year ? `<div class="meta">${c.year}</div>` : "")}
+      ${notes}
+      <div class="acts">
+        ${act("enqueue", c.volume, `data-track="${serve ? "serve" : "place"}"`)}${esc(label)}</button>
+        ${serve ? "" : `<label title="place it and park it at needs-review, instead of promoting it to serve">
+          <input type="checkbox" data-review="${esc(c.volume)}"> review first</label>`}
+      </div>
+      ${copy(cmd)}
+      ${serve
+        ? `<div class="meta">Already placed — this only bakes it. Free: no model spend.</div>`
+        : ""}
+    </div>`;
+  }).join("");
+  if (!ready.length) html = empty("nothing you can start right now");
+  // ONE explainer for the whole column, not one line per card — 29 copies of
+  // "places it, then promotes itself" was most of what made this column a wall.
+  if (shown.some((c) => c.track === "place")) {
+    html = `<div class="note" style="margin:0 0 .5rem">Queueing a place volume runs it end to
+      end: placed, then promoted to the serve queue and baked. Nothing runs until a drain is
+      started.</div>` + html;
+  }
+  if (ready.length > RUNNABLE_CAP) {
+    html += `<button class="btn" data-act="show-runnable" style="width:100%;margin:.2rem 0 .5rem">
+      ${showAllRunnable ? "show fewer" : `show all ${ready.length} runnable`}</button>`;
+  }
+  // ONE card per blocked REASON, not one per volume: repeating the same reason
+  // 29 times buries the volumes you can actually start — but a bounds-blocked
+  // volume under an era headline sends the operator to the wrong tool, so the
+  // pool splits on the reason the server sent (`console._blocked_reason` owns
+  // the wording; these cards only group on it).
+  const volList = (cs) => cs
+    .map((c) => `${esc(c.volume)}${c.year ? " (" + c.year + ")" : ""}`)
+    .join(", ");
+  const eraBlocked = blocked.filter((c) => (c.blocked || "").includes("addresses_modern"));
+  const otherBlocked = blocked.filter((c) => !eraBlocked.includes(c));
+  // The era unblock goes through `autogeoref era` — the tool that shows its
+  // arithmetic and makes you confirm — NOT hand-pasted stanzas: an era guessed
+  // wrong arms the one channel allowed to REFUTE. The server composes the
+  // command prefix (city and catalog paths are its facts, not this page's); the
+  // volume ids appended here are already in the payload.
+  if (eraBlocked.length) {
+    const era = links.era
+      ? `${links.era} ${eraBlocked.map((c) => c.volume).join(" ")}`
+      : links.candidates;
+    html += `<div class="card blocked">
+      <div class="vol">${eraBlocked.length} blocked — no address era declared</div>
+      <div class="meta bad">A run REFUSES these. The addresses channel is the only one that
+        may REFUTE, and an undeclared era means MODERN — on a volume printed before the city
+        renumbered that vetoes CORRECT sheets.</div>
+      <div class="meta">${volList(eraBlocked)}</div>
+      <div class="meta">Declare each volume's era with the era tool — it reads the edition
+        year from the LOC catalog, proposes <code>addresses_modern</code>, and writes the
+        city TOML after you confirm. Don't paste values by hand: a guessed era vetoes
+        correct sheets in the confident language of evidence.</div>
+      ${copy(era)}
+      <div class="meta">Volumes it proposes as pre-renumbering need one more check — WHICH
+        conversion table — and the tool walks you through it.</div>
+    </div>`;
+  }
+  // No bounds card: a missing bounds source is a NOTE on the candidate card
+  // (the run derives its own bounds — bounds_bootstrap), never a block.
+  // Whatever _blocked_reason says next (prep halts today) renders verbatim: an
+  // unexplained greyed-out volume is the failure mode this column exists to close.
+  for (const c of otherBlocked) {
+    html += `<div class="card blocked">
+      <div class="vol">${esc(c.volume)} — blocked</div>
+      <div class="meta bad">${esc(c.blocked)}</div>
+    </div>`;
+  }
+  return html;
+}
+
+// The window and the rate are board.js's; this holds the samples.
+const READ_RATES = new Map(); // "volume/track" -> [{t, reads}, ...]
+function noteReads(key, reads) {
+  const now = Date.now();
+  READ_RATES.set(key, withinWindow(READ_RATES.get(key) || [], now).concat([{ t: now, reads }]));
+}
+
+function running(live, context) {
+  if (!live.length) return empty("nothing running or queued");
+  return live.map((e) => {
+    const p = e.progress;
+    const pct = p.pages ? Math.min(100, Math.round((p.reads / p.pages) * 100)) : 0;
+    // A queued entry has not STARTED: any stage/progress on its tree is a previous
+    // run's leftovers, and rendering them as motion is how a stopped drain went on
+    // looking alive. Waiting is waiting — say so, and offer the exit (Remove is the
+    // only control a queued-but-not-running volume has; a RUNNING one is stopped by
+    // stopping the drain, never by deleting its row out from under it).
+    const body = e.status === "queued"
+      ? `<div class="meta">waiting for a ${esc(e.track)} drain</div>
+         <div class="acts"><button class="btn" data-act="dequeue" data-vol="${esc(e.volume)}"
+           data-track="${esc(e.track)}">Remove</button></div>`
+      : (() => {
+          const rate = readsPerMin(READ_RATES.get(`${e.volume}/${e.track}`) || []);
+          return `<div class="meta">${esc(p.stage || "—")}${p.stage_status === "failed" ? " ✗" : ""}
+             · ${p.reads}/${n(p.pages)} read${rate ? ` · ~${rate.toFixed(1)}/min` : ""} · ${ago(e.started)}</div>
+           <div class="bar"><i style="width:${pct}%"></i></div>`;
+        })();
+    return `<div class="card">
+      <div class="vol">${esc(e.volume)}</div>
+      <div class="meta">${esc(e.track)} queue ·
+        <span class="pill ${esc(e.status)}">${esc(e.status)}</span></div>
+      ${contextLine(e.volume, context)}
+      ${body}
+      ${e.status === "running" ? `<div class="meta"><a href="#" data-log="${esc(e.volume)}/${esc(e.track)}"
+        data-live-log="true">live log →</a></div>` : ""}
+    </div>`;
+  }).join("");
+}
+
+function needsYou(needs, failed, links, context) {
+  if (!needs.length && !failed.length) return empty("nothing waiting on you");
+  // Only a volume that ASKED to be reviewed (--review) is ever here: review is a
+  // diagnostic, not a gate. Nothing is baked; the placements are on disk.
+  const review = needs.map((e) => `<div class="card">
+    <div class="vol">${esc(e.volume)}</div>
+    ${contextLine(e.volume, context)}
+    <div class="meta">${n(e.progress.accepted)} accepted, ${n(e.progress.flagged)} flagged</div>
+    <div class="meta">Placed, and you asked to look before it bakes.</div>
+    <div class="acts">
+      <button class="btn" data-act="review" data-vol="${esc(e.volume)}">Review sheets</button>
+      ${act("enqueue", e.volume, 'data-track="serve"')}Send to serve</button>
+    </div>
+  </div>`).join("");
+  // The log is written per QUEUE (`queue.store.log_path`): a place entry has a <vol>.place.log,
+  // a serve entry a <vol>.serve.log. Ask for the one it failed on (== its track).
+  const bad = failed.map((e) => {
+    // Retry markers make a plain Retry fail again INSTANTLY at zero spend (a marked
+    // page counts as cached), so when they exist the honest offer is the one that
+    // clears them — and it names its price: each cleared marker is one re-read.
+    const marks = e.track === "place" ? (e.progress.failed_markers || 0) : 0;
+    const clearRetry = marks
+      ? `${act("retry-reads", e.volume)}Clear ${marks} failed read${marks === 1 ? "" : "s"}
+          &amp; retry</button>`
+      : "";
+    const how = marks
+      ? `${marks} read${marks === 1 ? "" : "s"} failed and left retry marker${marks === 1 ? "" : "s"}
+         behind, and a marked page is never silently re-spent — so a plain Retry re-runs
+         without re-reading and fails the same way at once. “Clear … &amp; retry” deletes the
+         markers and re-queues: the cleared pages are re-read (that is the spend), everything
+         already read replays free.`
+      : `Retrying re-queues it as it was. Reads it already paid for are cached
+         and replay free, so a retry costs only what it never got to.`;
+    return `<div class="card blocked">
+    <div class="vol">${esc(e.volume)}</div>
+    ${contextLine(e.volume, context)}
+    <div class="meta bad">failed — ${esc(e.progress.error || e.note || "see the log")}</div>
+    <div class="meta"><a href="#" data-log="${esc(e.volume)}/${esc(e.track)}">show log →</a></div>
+    <div class="acts">
+      <button class="btn" data-act="dequeue" data-vol="${esc(e.volume)}"
+        data-track="${esc(e.track)}">Clear it</button>
+      ${act("enqueue", e.volume, `data-track="${esc(e.track)}"`)}Retry</button>
+      ${clearRetry}
+    </div>
+    <div class="meta">${how}</div>
+  </div>`;
+  }).join("");
+  return review + bad;
+}
+
+// --- the drains: the buttons that spend money --------------------------------
+// Three queues, each with its own drain and its own lock, so every indicator can be lit
+// at once (console.drain_state). "Start" launches whichever the selector names; "both"
+// (the default, and the wire value for EVERY track) runs them in parallel, fetch feeding
+// place feeding serve.
+function oneDrain(track, s) {
+  const dot = trackEl("ddot-" + track, track);
+  const text = trackEl("dtext-" + track, track);
+  if (!dot || !text) return;
+  dot.className = "dot" + (s.running ? " on" : "");
+  text.textContent = `${track}: ` + (s.running ? `running (pid ${s.pid})` : "idle");
+}
+function drainbar(data) {
+  const d = data.drain || { running: false };
+  document.getElementById("drainbar").hidden = false;
+  for (const t of TRACKS) oneDrain(t, d[t] || {});
+  const stop = document.getElementById("dstop");
+  stop.hidden = !d.running;
+  // A drain started from a terminal lives in that terminal's session, and signalling
+  // its process group could take the shell down with it (console._stoppable). The
+  // button says so instead of pretending, or worse, trying.
+  const stoppable = TRACKS.some((t) => d[t] && d[t].stoppable);
+  stop.disabled = !stoppable;
+  stop.title = stoppable ? "SIGTERM the drain(s) and the runs under them"
+    : "started from a terminal — stop it there (ctrl-c)";
+  document.getElementById("dwarn").hidden = !d.running;
+  // Start is disabled only when the SELECTED target's queue already has a drain.
+  const tgt = document.getElementById("dtarget").value;
+  const busy = tgt === "both" ? d.running : !!(d[tgt] && d[tgt].running);
+  document.querySelector('[data-act="drain-start"]').disabled = busy || !canAct;
+  const sp = data.spend || {};
+  document.getElementById("dspend").textContent =
+    `${sp.reads || 0} model reads spent on queued volumes` +
+    (sp.reads_running ? ` · ${sp.reads_running} by what is running now` : "");
+}
+
+// --- the review pane ---------------------------------------------------------
+// It IS the review UI (review_ui/index.html), served from this origin at /review/.
+// Not an iframe for convenience: an accept must be impossible on a sheet whose ghost
+// overlay was never drawn, and the only thing that draws it is this UI. The server
+// enforces the same rule independently (ReviewApp.overlay_shown), so a hand-rolled
+// POST cannot get around it either.
+function openPane(volume) {
+  const pane = document.getElementById("pane");
+  pane.hidden = false;
+  document.getElementById("pane-vol").textContent = volume;
+  // NO trailing slash: the review UI loads its vendor assets with RELATIVE urls
+  // (`vendor/maplibre-gl.js`), so its document base must be "/" for those to resolve
+  // to `/vendor/…` — which the inherited review routes serve. A `/review/` base would
+  // resolve them to `/review/vendor/…`, which 404s, and MapLibre never loads: the map
+  // stays blank, /media is never fetched, and every verdict is then refused by the
+  // overlay gate. So the pane would look present and accept nothing.
+  document.getElementById("pane-frame").src = "/review?volume=" + encodeURIComponent(volume);
+  document.querySelector('[data-act="apply"]').dataset.vol = volume;
+  paneMsg("");
+  pane.scrollIntoView({ behavior: "smooth" });
+}
+const paneMsg = (t, cls) => {
+  const el = document.getElementById("pane-msg");
+  el.textContent = t || "";
+  el.className = "note " + (cls || "");
+};
+
+function served(vols, links, context) {
+  if (!vols.length) return empty("nothing served by this pipeline yet");
+  return vols.map((v) => `<div class="card">
+    <div class="vol">${esc(v.volume)}</div>
+    ${contextLine(v.volume, context)}
+    <div class="meta">${n(v.accepted)} accepted, ${n(v.flagged)} flagged ·
+      <a href="${esc(links.viewer)}" target="_blank">on the map →</a></div>
+  </div>`).join("");
+}
+
+async function refresh() {
+  const r = await fetch("/api/board");
+  const data = await r.json();
+  const es = data.entries;
+  const links = data.links || {};
+  const context = data.context || {};
+  if (Array.isArray(data.tracks) && data.tracks.length) TRACKS = data.tracks;
+  for (const e of es) {
+    if (e.status === "running") noteReads(`${e.volume}/${e.track}`, e.progress.reads);
+  }
+  canAct = !!data.can_act;
+  // The banner is keyed to the SAME signal the buttons are (`can_act`), not to the
+  // era check: a page whose every action is greyed out must say WHY where you are
+  // looking, not leave the reason on a button's hover title. Without a city both are
+  // false together, but can_act is the one that governs the disabling, so it governs
+  // the explanation. (cli also warns on stderr, which a browser user never sees.)
+  document.getElementById("nocity").hidden = data.can_act !== false;
+  drainbar(data);
+  // the poll rebuilds this column's DOM, and a "review first" box the operator just
+  // ticked must not quietly untick itself while they reach for the Queue button
+  const reviewFirst = new Set(
+    [...document.querySelectorAll("[data-review]")].filter((x) => x.checked)
+      .map((x) => x.dataset.review));
+  // eslint-disable-next-line no-unsanitized/property -- runnable()/empty() return this page's own markup; every board string in it goes through esc()
+  document.getElementById("runnable").innerHTML =
+    data.runnable ? runnable(data.runnable, links, context) : empty("backlog not available");
+  for (const vol of reviewFirst) {
+    const box = document.querySelector(`[data-review="${CSS.escape(vol)}"]`);
+    if (box) box.checked = true;
+  }
+  // WHICH table each entry belongs in is board.js's; this only renders it
+  const tables = board(es, TRACKS);
+  // eslint-disable-next-line no-unsanitized/property -- running() returns this page's own markup; every board string in it goes through esc()
+  document.getElementById("running").innerHTML = running(tables.live, context);
+  // eslint-disable-next-line no-unsanitized/property -- needsYou() returns this page's own markup; every board string in it goes through esc()
+  document.getElementById("needs").innerHTML =
+    needsYou(tables.needsReview, tables.failed, links, context);
+  // eslint-disable-next-line no-unsanitized/property -- served() returns this page's own markup; every board string in it goes through esc()
+  document.getElementById("served").innerHTML = served(data.served || [], links, context);
+  // Three queues, three tables. "End to end" is not a fourth queue — it is a fetch
+  // entry that promotes itself to place and a place entry that promotes itself to
+  // serve, so each lives in its own table until it does.
+  for (const t of TRACKS) {
+    const panel = trackEl(t, t);
+    // eslint-disable-next-line no-unsanitized/property -- rows() returns this page's own table markup; every board string in it goes through esc()
+    if (panel) panel.innerHTML = rows(tables.byTrack[t], context);
+  }
+  document.getElementById("stamp").textContent = "refreshed " + new Date().toLocaleTimeString();
+  if (openLog && openLog.live) {
+    const [volume, track] = openLog.path.split("/");
+    if (!es.some((e) => e.volume === volume && e.track === track && e.status === "running")) {
+      openLog.live = false;
+      document.getElementById("log-note").textContent = "Job finished. Latest 200 lines.";
+    }
+    await refreshLog();
+  }
+}
+
+// A refusal from the server is the INTERESTING case, not an edge case: it is the
+// queue saying "already queued", "a drain is running", "no results to serve", or the
+// review app saying "you have not looked at that sheet". Every one of those is a
+// contract this console must not paper over, so the message comes through verbatim.
+function toast(text, cls) {
+  document.querySelectorAll(".toast").forEach((t) => t.remove());
+  const el = document.createElement("div");
+  el.className = "toast " + (cls || "");
+  el.textContent = text;
+  document.body.appendChild(el);
+  setTimeout(() => el.remove(), cls === "err" ? 9000 : 4000);
+}
+
+async function post(path, body) {
+  const r = await fetch(path, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body || {}),
+  });
+  const data = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(data.error || `${r.status} ${r.statusText}`);
+  return data;
+}
+
+const ACTS = {
+  async enqueue(b) {
+    const vol = b.dataset.vol;
+    const track = b.dataset.track || "place";
+    // "review first" (a place candidate only) => then_serve=false: place it and park
+    // at needs-review instead of promoting it to the serve queue.
+    const box = document.querySelector(`[data-review="${CSS.escape(vol)}"]`);
+    const then_serve = !(box && box.checked);
+    const d = await post("/api/enqueue", { volume: vol, track, then_serve });
+    const how = d.track === "serve" ? "serve queue"
+      : d.then_serve ? "place queue (will promote to serve)"
+      : "place queue (stops at needs-review)";
+    toast(`queued ${d.volume} on the ${how}. Nothing runs until a drain is started.`);
+  },
+  async "retry-reads"(b) {
+    const d = await post("/api/retry-failed-reads", { volume: b.dataset.vol, track: "place" });
+    toast(`cleared ${d.cleared} retry marker${d.cleared === 1 ? "" : "s"}; ${d.volume} is back on
+      the ${d.track} queue. The cleared pages are re-read when a drain runs — that is the spend;
+      everything already read replays free.`);
+  },
+  async dequeue(b) {
+    // scoped to the entry's own track: an untracked remove deletes the volume's
+    // entries on BOTH queues, done history included
+    const d = await post("/api/dequeue", { volume: b.dataset.vol, track: b.dataset.track || null });
+    toast(`removed ${d.removed} queue entr${d.removed === 1 ? "y" : "ies"}`);
+  },
+  async "drain-start"(_b) {
+    const target = document.getElementById("dtarget").value;
+    const body = { target };
+    const jobs = +document.getElementById("djobs").value;
+    const lanes = document.getElementById("dlanes").value;
+    if (jobs > 1) body.annotate_jobs = jobs;
+    if (lanes) body.serve_lanes = +lanes;
+    const d = await post("/api/drain", body);
+    const dials = [
+      d.annotate_jobs ? `annotate ×${d.annotate_jobs}` : "",
+      d.serve_lanes ? `${d.serve_lanes} serve lanes` : "",
+    ].filter(Boolean).join(", ");
+    toast(`drain started (pid ${d.pid}, ${d.target}${dials ? ", " + dials : ""}). It is
+      detached — closing this page will not stop it.`);
+  },
+  async "drain-stop"(_b) {
+    const d = await post("/api/drain/stop", { target: "both" });
+    const cleared = (d.interrupted || []).length
+      ? ` — ${d.interrupted.join(", ")} marked failed (retry from “Needs you”)`
+      : "";
+    toast(d.stopped ? `SIGTERM sent to drain(s) ${(d.pids || []).join(", ")}${cleared}` : d.reason);
+  },
+  async "show-runnable"() {
+    showAllRunnable = !showAllRunnable;
+  },
+  async review(b) {
+    openPane(b.dataset.vol);
+  },
+  async apply(b) {
+    const vol = b.dataset.vol;
+    if (!vol) return;
+    paneMsg("applying…");
+    const s = await post("/api/apply/" + encodeURIComponent(vol), {});
+    const bits = [`applied ${s.applied.length}`, `already ${s.already_applied.length}`,
+      `skipped ${s.skipped.length}`, `masks ${s.masks_written.length}`];
+    paneMsg(bits.join(" · ") + (s.warnings.length ? " — " + s.warnings.join("; ") : ""),
+      s.warnings.length ? "err" : "ok");
+    // Apply does NOT warp here (an HTTP request is no place for gdalwarp); the serve
+    // leg re-warps from these very records. Say what is still owed.
+    if (s.rerun_hint) paneMsg(bits.join(" · ") + " — next: " + s.rerun_hint, "ok");
+  },
+  async "pane-close"() {
+    document.getElementById("pane").hidden = true;
+    document.getElementById("pane-frame").src = "about:blank";
+  },
+  async "log-close"() {
+    openLog = null;
+    document.getElementById("log-panel").hidden = true;
+  },
+};
+
+document.addEventListener("click", async (ev) => {
+  const c = ev.target.closest("[data-copy]");
+  if (c) {
+    await navigator.clipboard.writeText(c.dataset.copy);
+    const was = c.textContent;
+    c.textContent = "copied — paste it in a terminal";
+    setTimeout(() => { c.textContent = was; }, 1500);
+    return;
+  }
+  const b = ev.target.closest("[data-act]");
+  if (b) {
+    ev.preventDefault();
+    const fn = ACTS[b.dataset.act];
+    if (!fn) return;
+    b.disabled = true;
+    try {
+      await fn(b);
+    } catch (err) {
+      toast(err.message, "err");
+    } finally {
+      b.disabled = false;
+    }
+    // AFTER re-enabling, never before: `drainbar` decides whether Start is pressable
+    // from the live drain state, and a `finally` that ran later would clobber that and
+    // re-offer a Start button for a drain that is already running.
+    await refresh();
+    return;
+  }
+  const a = ev.target.closest("[data-log]");
+  if (!a) return;
+  ev.preventDefault();
+  await showLog(a.dataset.log, a.dataset.liveLog === "true");
+});
+
+// The Start button's disabled state depends on which target is selected (a serve
+// drain can start while place is busy), so re-evaluate it when the selector changes
+// without waiting for the 5 s poll.
+document.getElementById("dtarget").addEventListener("change", () => {
+  fetch("/api/board").then((r) => r.json()).then(drainbar).catch(() => {});
+});
+
+refresh();
+// The board re-reads the work tree; the review pane must NOT be re-rendered under a
+// reviewer mid-drag, so it lives outside this loop and only changes when you ask it to.
+setInterval(refresh, 5000);
+</script>
+</body>
+</html>

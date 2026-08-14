@@ -1,0 +1,142 @@
+{
+  "page": "72W",
+  "n_streets": 7,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. WASHINGTON BLVD",
+      "N. DESPLAINES (S.)"
+    ],
+    [
+      "N. DESPLAINES (S.)",
+      "W. WARREN AV. (W. MERIDIAN)"
+    ],
+    [
+      "N. DESPLAINES (S.)",
+      "W. MADISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4194,
+            3513
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD x N. DESPLAINES (S.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64416613025985,
+            41.88316527748311
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4194,
+            4981
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DESPLAINES (S.) x W. WARREN AV. (W. MERIDIAN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64414957552096,
+            41.88249115428945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4194,
+            6492
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DESPLAINES (S.) x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6441272357135,
+            41.88182012116629
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            581,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64638187931143,
+            41.88438412962671
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5232,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64356649091357,
+            41.88442223797774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            581,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64631739589086,
+            41.88174356419982
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.7014,
+    "separation_ratio": 0.994,
+    "best_offset_m": 71.8,
+    "n_junctions": 12
+  }
+}

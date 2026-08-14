@@ -1,0 +1,132 @@
+{
+  "page": "3",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 0.6,
+  "auto_residuals_m": [
+    0.84,
+    0.94,
+    1.66,
+    0.92,
+    0.46
+  ],
+  "inlier_streets": [
+    [
+      "FOSTER AV.",
+      "MONTICELLO AV."
+    ],
+    [
+      "N. RIDGEWAY AV.",
+      "ARGYLE"
+    ],
+    [
+      "N. LAWNDALE AV.",
+      "CARMEN AV."
+    ],
+    [
+      "N. LAWNDALE AV.",
+      "ARGYLE"
+    ],
+    [
+      "MONTICELLO AV.",
+      "ARGYLE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4456,
+            404
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x MONTICELLO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7196764917331,
+            41.975622814587
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            432,
+            8274
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RIDGEWAY AV. x ARGYLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72201586392279,
+            41.97195259537559
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2462,
+            4377
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWNDALE AV. x CARMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72084116190864,
+            41.9737862741301
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2462,
+            8274
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWNDALE AV. x ARGYLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72079740116631,
+            41.97196546679134
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4456,
+            8274
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTICELLO AV. x ARGYLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7195755711931,
+            41.97197701063448
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

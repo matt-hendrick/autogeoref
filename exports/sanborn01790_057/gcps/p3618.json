@@ -1,0 +1,109 @@
+{
+  "page": "3618",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.89,
+  "auto_residuals_m": [
+    0.06,
+    0.07,
+    0.07,
+    0.05
+  ],
+  "inlier_streets": [
+    [
+      "S. WINCHESTER AV.",
+      "W. 76 TH ST."
+    ],
+    [
+      "S. WINCHESTER AV.",
+      "W. 77 TH ST."
+    ],
+    [
+      "W. 76 TH ST.",
+      "S. HONORE"
+    ],
+    [
+      "S. HONORE",
+      "W. 77 TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1346,
+            4222
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WINCHESTER AV. x W. 76 TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67207540991465,
+            41.75571262799621
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1346,
+            8221
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WINCHESTER AV. x W. 77 TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67202394556257,
+            41.75389062763865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5398,
+            4222
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 76 TH ST. x S. HONORE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66964650868303,
+            41.75574026436597
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5398,
+            8221
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HONORE x W. 77 TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66959639922368,
+            41.75391952610395
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

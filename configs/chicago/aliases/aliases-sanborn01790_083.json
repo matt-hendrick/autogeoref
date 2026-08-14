@@ -1,0 +1,72 @@
+{
+  "_comment": [
+    "Four entries the sweep HELD were added by an agent pass under the per-entry sheet-check method described in docs/OPERATIONS.md. Each entry below carries its own measurement. Every one-sheet locality was left held; see _comment2.",
+    "GARFIELD -> DICKENS: 28 reads, this volume's largest unmatched family. Locality 202 m over 18 sheets against Shakespeare 1351 m. Martin documents both stretches of the old Garfield Ave: Dickens for 325 to 1300W and 1400 to 1450W, Shakespeare for 3400 to 3600W, which is outside these bounds. All 164 attributed numerals (339-1444) fall inside Martin's two Dickens ranges. The sweep could not use them because the 1400 to 1450W range is under one block wide and its parser drops it.",
+    "MARCY -> MARCEY: a spelling normalization, not an erasure. Locality 56 m over 6 sheets against Wood St 1611 m; 12 numerals 1634-1840, all inside Martin's 1634 to 1943N. Re-derived independently here and already landed in _019.",
+    "HIGH -> JANSSEN: locality 99 m over 3 sheets against Burton Pl 2891 m; 5 numerals 2253-2263 inside Martin's 2200 to 2799N. The Clybourn-corridor High St, the same one _019 aliases; Martin's other High St entries are out of these bounds.",
+    "HAMMOND -> ORLEANS: locality 59 m over 3 sheets against Hampden Ct 1622 m, no attributed numerals. p91 also reads N. ORLEANS as a separate label, which the _019 HAMILTON CT test treats as a refutation. It is not one here: georeferenced through p91's and p97's own GCPs (fit residuals 0.7 and 1.5 m), all three HAMMOND labels land 2 m from modern Orleans St's centerline, i.e. ON it, where the sheet's directly-matched reads land 0-3 m from theirs and the nearest distinct street lands 33 m off. The sheet labels one street twice, historic and modern, at opposite ends of its run. Measure through the sheet's own GCPs, never in pixels.",
+    "HERNDON -> LAKEWOOD: the source line quoted below is the narrower of Martin's two. The other, Herndon St. to Lakewood Ave. 1300W 2000 to 3899N, covers this volume's reads: all 9 attributed numerals (2057-2258) are inside it and none inside the 3200 to 3899N line quoted. The proposer keeps only the first source line per value, so the quote understates the corroboration.",
+    "CUSTER -> SHAKESPEARE is written volume-wide even though Shakespeare Ave's in-bounds geometry does not reach p129/p130/p131, where the read's locality sits 1212-1613 m from it. The mapping is confirmed structurally by the on-sheet order north to south (Webster, Custer, Garfield, McLean, Center), and it is inert on those three sheets: Shakespeare crosses none of their in-bounds co-reads, so no junction candidate can form. On the four near sheets it crosses two or three."
+  ],
+  "_comment2": [
+    "Deliberately NOT aliased. Every one-sheet locality in the held list below was left alone in this pass; the strongest of them for a later one is COURTLAND -> CORTLAND (0 m, a spelling variant).",
+    "SMITH -> FREMONT is held on the one-sheet rule alone, and the co-read on p85 is NOT a reason: georeferenced through p85's GCPs (fit residual 0.5 m) the N. SMITH AV. label lands 5 m from modern Fremont St's centerline and the sheet's own N. FREMONT label lands 1 m from it, the two sitting 272 m apart ALONG the street rather than across it. An earlier pass read their 218 px separation as two parallel streets; that was a bad inference from an axis taken off the label orientation. Martin documents the rename for 1500 to 1600N, the south edge of this sheet, and _084 carries the entry for its own band. This is the queue's second-strongest promotion candidate after _084's CONNOR."
+  ],
+  "_generated": [
+    "Entries below were written by `autogeoref alias-sweep` for sanborn01790_083 from the city's pinned rename source: 'Chicago Streets', William Martin 1948 (Chicago History Museum street-name-changes list, http://chsmedia.org/househistory/nameChanges/start.pdf, accessed 2026-07-25). Tier rules and their bars: docs/INTERNALS.md. An auto-written entry is either a UNIQUE in-bounds candidate whose locality is within 400 m on at least 2 sheets, or an ambiguous one the locality decided by 2x / 300 m AND printed address numerals corroborated.",
+    "CENTER -> ARMITAGE: 18 unmatched read(s); unique in-bounds candidate; locality 131 m over 10 sheets. Source: -Center Ave., Armitage Ave. 2000N 225 to 1475W.",
+    "CHESTER -> MEDILL: 3 unmatched read(s); unique in-bounds candidate; locality 111 m over 2 sheets. Source: -Chester St., Medill Ave. 2346N 1625 to 1799W.",
+    "CLAY -> WISCONSIN: 11 unmatched read(s); unique in-bounds candidate; locality 217 m over 7 sheets. Source: -Clay St., Wisconsin St. 1900N 800 to 1000W. 1100 to 1150W SW.",
+    "CUSTER -> SHAKESPEARE: 8 unmatched read(s); unique in-bounds candidate; locality 98 m over 7 sheets. Source: -Custer St., Shakespeare Ave.",
+    "FLORIMOND -> ST PAUL: 3 unmatched read(s); unique in-bounds candidate; locality 56 m over 3 sheets. Source: St. Paul Ave., 1720N 200 to 5174W. Named after saint and city in Minn. Florimond St., Wilmot Ave., Walnut St.",
+    "HERNDON -> LAKEWOOD: 7 unmatched read(s); unique in-bounds candidate; locality 202 m over 6 sheets. Source: -Herndon Ave., Lakewood Ave 1300W 3200 to 3899N.",
+    "LASALLE -> LA SALLE: 3 unmatched read(s); unique in-bounds candidate; locality 131 m over 2 sheets. Source: -LaSalle Ave., LaSalle St. 316 to 1750N.",
+    "LEWIS -> MAGNOLIA: 6 unmatched read(s); unique in-bounds candidate; locality 166 m over 4 sheets. Source: -Lewis St., Magnolia Ave. 1950 to 2399N., 2600 to 2800N, 3600 to 3800N.",
+    "OSGOOD -> KENMORE: 7 unmatched read(s); unique in-bounds candidate; locality 100 m over 4 sheets. Source: Kenmore Ave., 1039W 1840 to 6358N. Named for the home of Col. Fielding Lewis brother of George Washington. Named in honor because Col. Lewis married George Washington\u2019s sister. His home was in Frederi",
+    "STARR -> CONCORD: 4 unmatched read(s); unique in-bounds candidate; locality 82 m over 3 sheets. Source: Concord Pl.,1700N 300 to 5200W. Named after Revolution War battle. Alice Pl., Carl Martin ?, Chestnut St., Columbia St., Cox St., Knern ?, Knerr St., Rawson St., Raymond St., Starr St., Walnut St., Sh",
+    "W HUBER PL -> MEDILL: 2 unmatched read(s); unique in-bounds candidate; locality 100 m over 2 sheets. Source: -Huber Pl., and St., Medill Ave., 2332N 1200 to 1299W.",
+    "WARD -> WAYNE: 3 unmatched read(s); unique in-bounds candidate; locality 101 m over 3 sheets. Source: -Ward St., Wayne Ave., 2100 to 3099N."
+  ],
+  "_generated_keys": [
+    "CENTER",
+    "CHESTER",
+    "CLAY",
+    "CUSTER",
+    "FLORIMOND",
+    "HERNDON",
+    "LASALLE",
+    "LEWIS",
+    "OSGOOD",
+    "STARR",
+    "W HUBER PL",
+    "WARD"
+  ],
+  "_generated_held": [
+    "HELD, not aliased: GARFIELD (28 read(s)), best candidate DICKENS -- locality decided DICKENS 202 m over SHAKESPEARE 1351 m, but numerals did not corroborate: no documented along-street range for the runner-up SHAKESPEARE",
+    "HELD, not aliased: MARCY (6 read(s)), best candidate MARCEY -- locality decided MARCEY 56 m over WOOD 1611 m, but numerals did not corroborate: no documented along-street range for MARCEY",
+    "HELD, not aliased: HAMMOND (4 read(s)), best candidate ORLEANS -- locality decided ORLEANS 59 m over HAMPDEN 1622 m, but numerals did not corroborate: 0 attributed numerals (need 2)",
+    "HELD, not aliased: HIGH (4 read(s)), best candidate JANSSEN -- locality decided JANSSEN 99 m over BURTON 2891 m, but numerals did not corroborate: no documented along-street range for the runner-up BURTON",
+    "HELD, not aliased: MAPLE (2 read(s)), best candidate MAGNOLIA -- locality measured on 1 sheet(s), need 2",
+    "HELD, not aliased: N LANE CT (2 read(s)), best candidate ORLEANS -- locality measured on 1 sheet(s), need 2",
+    "HELD, not aliased: SMITH (2 read(s)), best candidate FREMONT -- locality measured on 1 sheet(s), need 2",
+    "HELD, not aliased: COURTLAND (1 read(s)), best candidate CORTLAND -- locality measured on 1 sheet(s), need 2",
+    "HELD, not aliased: LONERGAN (1 read(s)), best candidate ORLEANS -- locality measured on 1 sheet(s), need 2",
+    "HELD, not aliased: W SHADES PL (1 read(s)), best candidate CONCORD -- locality measured on 1 sheet(s), need 2"
+  ],
+  "CENTER": "ARMITAGE",
+  "CLAY": "WISCONSIN",
+  "CUSTER": "SHAKESPEARE",
+  "OSGOOD": "KENMORE",
+  "HERNDON": "LAKEWOOD",
+  "LEWIS": "MAGNOLIA",
+  "STARR": "CONCORD",
+  "LASALLE": "LA SALLE",
+  "WARD": "WAYNE",
+  "CHESTER": "MEDILL",
+  "FLORIMOND": "ST PAUL",
+  "W HUBER PL": "MEDILL",
+  "GARFIELD": "DICKENS",
+  "MARCY": "MARCEY",
+  "HIGH": "JANSSEN",
+  "HAMMOND": "ORLEANS"
+}

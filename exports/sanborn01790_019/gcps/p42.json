@@ -1,0 +1,136 @@
+{
+  "page": "42",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 0.45,
+  "auto_residuals_m": [
+    3.36,
+    7.31,
+    3.54,
+    1.33,
+    4.44
+  ],
+  "inlier_streets": [
+    [
+      "ORCHARD",
+      "WILLOW"
+    ],
+    [
+      "HOWE",
+      "WILLOW"
+    ],
+    [
+      "LARRABEE",
+      "WILLOW"
+    ],
+    [
+      "LARRABEE",
+      "WISCONSIN ST."
+    ],
+    [
+      "LARRABEE",
+      "MENOMONEE ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            934,
+            7008
+          ],
+          "username": "autogeoref",
+          "note": "auto: ORCHARD x WILLOW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64595746738574,
+            41.91387937733855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2973,
+            7008
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOWE x WILLOW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64474233484535,
+            41.91389587630838
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4720,
+            7008
+          ],
+          "username": "autogeoref",
+          "note": "auto: LARRABEE x WILLOW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64353075877032,
+            41.91391225123585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4720,
+            1428
+          ],
+          "username": "autogeoref",
+          "note": "auto: LARRABEE x WISCONSIN ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64361371962251,
+            41.91647644974575
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4720,
+            5338
+          ],
+          "username": "autogeoref",
+          "note": "auto: LARRABEE x MENOMONEE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64355511505617,
+            41.91463898627848
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.591,
+    "dy_m": 2.095
+  }
+}

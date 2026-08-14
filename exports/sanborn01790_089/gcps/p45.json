@@ -1,0 +1,109 @@
+{
+  "page": "45",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 0.06,
+  "auto_residuals_m": [
+    1.57,
+    1.6,
+    1.62,
+    1.56
+  ],
+  "inlier_streets": [
+    [
+      "E. CERMAK RD (E. 22ND ST.)",
+      "S. STATE"
+    ],
+    [
+      "E. CERMAK RD (E. 22ND ST.)",
+      "S. WABASH AV."
+    ],
+    [
+      "S. STATE",
+      "W. 23RD ST."
+    ],
+    [
+      "S. WABASH AV.",
+      "W. 23RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1615,
+            657
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CERMAK RD (E. 22ND ST.) x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62708869837377,
+            41.8528703962105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4220,
+            657
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CERMAK RD (E. 22ND ST.) x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62549959326661,
+            41.85285034556064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1615,
+            4505
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x W. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62704433654828,
+            41.85106600778147
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4220,
+            4505
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x W. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62545947187377,
+            41.8510883600714
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

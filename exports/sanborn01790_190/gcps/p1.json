@@ -1,0 +1,109 @@
+{
+  "page": "1",
+  "n_streets": 5,
+  "n_candidates": 0,
+  "n_inliers": 0,
+  "status": "OK (reviewer-verified)",
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            634,
+            760
+          ],
+          "username": "reviewer",
+          "note": "synthetic: reviewer placement corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60868596799669,
+            41.870078475350375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5708,
+            760
+          ],
+          "username": "reviewer",
+          "note": "synthetic: reviewer placement corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60626229062488,
+            41.86356388495762
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5708,
+            6844
+          ],
+          "username": "reviewer",
+          "note": "synthetic: reviewer placement corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61675239528134,
+            41.861399385206035
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            634,
+            6844
+          ],
+          "username": "reviewer",
+          "note": "synthetic: reviewer placement corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61917607265315,
+            41.86791419614398
+          ]
+        }
+      }
+    ]
+  },
+  "reviewer_review": {
+    "verdict": "accept",
+    "ops": [],
+    "timestamp": "2026-07-19T02:16:58+00:00",
+    "note": "Draft placement (Claude): fitted to Shedd/Adler/Field Museum centers, residuals <16 m. Verify against Soldier Field and apply.",
+    "previous_status": "OK (reviewer-verified)"
+  },
+  "reviewer_mask_px": [
+    [
+      16.0,
+      16.0
+    ],
+    [
+      6321.0,
+      16.0
+    ],
+    [
+      6321.0,
+      7584.0
+    ],
+    [
+      16.0,
+      7584.0
+    ]
+  ]
+}

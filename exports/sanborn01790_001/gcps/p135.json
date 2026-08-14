@@ -1,0 +1,137 @@
+{
+  "page": "135",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "GRACELAND AVE.",
+      "PINEGROVE AVE."
+    ],
+    [
+      "N. HALSTED",
+      "GRACE"
+    ],
+    [
+      "SHERIDAN ROAD",
+      "PINEGROVE AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4169,
+            464
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACELAND AVE. x PINEGROVE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64793629595654,
+            41.95459205683802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1322,
+            7836
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64961999006826,
+            41.95119789524769
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4169,
+            4371
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHERIDAN ROAD x PINEGROVE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64789638039134,
+            41.95284925936224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65015902513927,
+            41.95439978238606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64745500982126,
+            41.95443979369387
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6500778835295,
+            41.95136694536593
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

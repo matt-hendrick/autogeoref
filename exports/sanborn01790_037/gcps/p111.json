@@ -1,0 +1,251 @@
+{
+  "page": "111",
+  "n_streets": 9,
+  "n_candidates": 17,
+  "n_inliers": 10,
+  "rotation_deg": 0.84,
+  "auto_residuals_m": [
+    3.71,
+    3.98,
+    4.15,
+    3.93,
+    0.92,
+    0.46,
+    1.48,
+    0.67,
+    5.27,
+    3.8
+  ],
+  "inlier_streets": [
+    [
+      "W. MADISON",
+      "S. 47TH AV."
+    ],
+    [
+      "W. MADISON",
+      "S. 46TH AV."
+    ],
+    [
+      "W. MONROE",
+      "S. 47TH AV."
+    ],
+    [
+      "W. MONROE",
+      "S. 46TH AV."
+    ],
+    [
+      "S. 47TH AV.",
+      "W. ADAMS"
+    ],
+    [
+      "S. 47TH AV.",
+      "W. JACKSON"
+    ],
+    [
+      "S. 46TH AV.",
+      "W. ADAMS"
+    ],
+    [
+      "S. 46TH AV.",
+      "W. JACKSON"
+    ],
+    [
+      "S. 46TH AV.",
+      "W. MONROE ST."
+    ],
+    [
+      "S. 46TH AV.",
+      "W. ADAMS ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            838,
+            323
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. 47TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74283193157383,
+            41.88053912444129
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4492,
+            323
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. 46TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74061666517561,
+            41.88056516285603
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            838,
+            2921
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. 47TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74278492517142,
+            41.879291253731864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4492,
+            2921
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. 46TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74057352001516,
+            41.879316820558785
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            838,
+            5617
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 47TH AV. x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74274168568358,
+            41.87808456640846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            838,
+            8194
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 47TH AV. x W. JACKSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74269947668594,
+            41.87688969509927
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4492,
+            5617
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 46TH AV. x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74052687823573,
+            41.87811207319567
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4492,
+            8194
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 46TH AV. x W. JACKSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74049461974003,
+            41.876917018413245
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4492,
+            2292
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 46TH AV. x W. MONROE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74058169611614,
+            41.87959735220748
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4492,
+            6304
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 46TH AV. x W. ADAMS ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74051820628729,
+            41.87781180802835
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.209,
+    "dy_m": 2.002
+  }
+}

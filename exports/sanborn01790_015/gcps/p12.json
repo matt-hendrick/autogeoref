@@ -1,0 +1,116 @@
+{
+  "page": "12",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 43RD",
+      "PACKERS AV."
+    ],
+    [
+      "W. 44TH (PRIVATE ST.)",
+      "PACKERS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            6275,
+            3321
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 43RD x PACKERS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6586515042524,
+            41.8159378561693
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            6275,
+            7132
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 44TH (PRIVATE ST.) x PACKERS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65861013003732,
+            41.81416168981951
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            661,
+            780
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66210217523432,
+            41.8169964723578
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5946,
+            780
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65889711695347,
+            41.81705582107342
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            661,
+            7016
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66200822347972,
+            41.814178246842935
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

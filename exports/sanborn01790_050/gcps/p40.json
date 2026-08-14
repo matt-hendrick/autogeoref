@@ -1,0 +1,164 @@
+{
+  "page": "40",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "ARGYLE",
+      "N. KENNETH AV."
+    ],
+    [
+      "AINSLIE",
+      "N. KENNETH AV."
+    ],
+    [
+      "N. KENNETH AV.",
+      "W. GUNNISON (BLAINE PL.)"
+    ],
+    [
+      "N. KENNETH AV.",
+      "W. LAWRENCE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4528,
+            349
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARGYLE x N. KENNETH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73927977551583,
+            41.97176722204515
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4528,
+            4303
+          ],
+          "username": "autogeoref",
+          "note": "auto: AINSLIE x N. KENNETH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73922761132523,
+            41.9699380337389
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4528,
+            6467
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENNETH AV. x W. GUNNISON (BLAINE PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73920325181848,
+            41.96902810560742
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4528,
+            8272
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENNETH AV. x W. LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73917633332846,
+            41.96812085368274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            571,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7417182428232,
+            41.97153254960318
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5137,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7388809998378,
+            41.971564428354796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            571,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74165436162527,
+            41.96838976815085
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5963,
+    "separation_ratio": 1.675,
+    "best_offset_m": 4.0,
+    "n_junctions": 20
+  }
+}

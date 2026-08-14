@@ -1,0 +1,141 @@
+{
+  "page": "4",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "WRIGHTWOOD AVE.",
+      "N. ASHLAND AVE."
+    ],
+    [
+      "N. ASHLAND AVE.",
+      "FULLERTON AVE."
+    ],
+    [
+      "FULLERTON AVE.",
+      "CLYBOURN AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2108,
+            212
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE. x N. ASHLAND AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6682917503708,
+            41.92875881190057
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2108,
+            8177
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND AVE. x FULLERTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66816604487755,
+            41.92513418151296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            83,
+            8177
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AVE. x CLYBOURN AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66932775216168,
+            41.925118717536996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66919195168407,
+            41.92846574796207
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66648793636605,
+            41.928505775546476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66911081007432,
+            41.925431677221844
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -2.252,
+    "dy_m": -2.603
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

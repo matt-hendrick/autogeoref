@@ -1,0 +1,109 @@
+{
+  "page": "103",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 1.12,
+  "auto_residuals_m": [
+    0.31,
+    0.28,
+    0.27,
+    0.32
+  ],
+  "inlier_streets": [
+    [
+      "W. MADISON",
+      "S. WALLER AV."
+    ],
+    [
+      "W. MADISON",
+      "S. CENTRAL AV."
+    ],
+    [
+      "S. WALLER AV.",
+      "W. ADAMS"
+    ],
+    [
+      "S. CENTRAL AV.",
+      "W. ADAMS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            219,
+            240
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. WALLER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76812153950834,
+            41.880194667922865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5545,
+            240
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76486366332797,
+            41.88024599018326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            219,
+            5523
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WALLER AV. x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76802995943164,
+            41.87770882807795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5545,
+            5523
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTRAL AV. x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76477118322498,
+            41.877752354999686
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,178 @@
+{
+  "page": "109",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (verified: corroboration+junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. NORTH AV.",
+      "N. KEATING AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. KILPATRICK AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            406,
+            338
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. KEATING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.744656188412,
+            41.90964508994132
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2126,
+            338
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.743601056792,
+            41.909651496966546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74454334494074,
+            41.90940702037898
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5279,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74164083683051,
+            41.90944456816664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74447020158092,
+            41.90627549414139
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7587,
+    "separation_ratio": 1.233,
+    "best_offset_m": 11.5,
+    "n_junctions": 5
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 9,
+      "votable": 9,
+      "in_block": 8,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 16.6,
+          "addr_diff": 3.5
+        },
+        {
+          "perp_m": 16.6,
+          "addr_diff": 3.9
+        },
+        {
+          "perp_m": 16.5,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 16.3,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 16.2,
+          "addr_diff": 2.9
+        },
+        {
+          "perp_m": 16.0,
+          "addr_diff": 1.2
+        },
+        {
+          "perp_m": 15.7,
+          "addr_diff": 103.0
+        },
+        {
+          "perp_m": 15.9,
+          "addr_diff": 19.2
+        },
+        {
+          "perp_m": 16.3,
+          "addr_diff": 1.0
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

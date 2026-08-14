@@ -1,0 +1,159 @@
+{
+  "page": "93",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.99,
+  "auto_residuals_m": [
+    1.37,
+    3.45,
+    2.08,
+    1.61,
+    2.88,
+    1.26
+  ],
+  "inlier_streets": [
+    [
+      "W. 36TH ST.",
+      "S. PAULINA"
+    ],
+    [
+      "W. 36TH ST.",
+      "S. MARSHFIELD AV."
+    ],
+    [
+      "W. 36TH ST.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "S. PAULINA",
+      "W. 37TH ST."
+    ],
+    [
+      "S. MARSHFIELD AV.",
+      "W. 37TH ST."
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 37TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            899,
+            1807
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66788368442378,
+            41.82864525122131
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2962,
+            1807
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. MARSHFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66666344233226,
+            41.82865848346765
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4795,
+            1807
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66549140821449,
+            41.82867444822008
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            899,
+            5858
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PAULINA x W. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66783759372073,
+            41.82682046299503
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2962,
+            5858
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MARSHFIELD AV. x W. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66661447606579,
+            41.82683418361085
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4795,
+            5858
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66545540698091,
+            41.82685305840711
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.919,
+    "dy_m": -0.422
+  }
+}

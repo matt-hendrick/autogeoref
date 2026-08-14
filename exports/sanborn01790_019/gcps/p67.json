@@ -1,0 +1,132 @@
+{
+  "page": "67",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 1.3,
+  "auto_residuals_m": [
+    6.4,
+    6.41,
+    8.31,
+    8.17,
+    16.47
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "SHEFFIELD AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "SMITH AV."
+    ],
+    [
+      "SHEFFIELD AV.",
+      "WEED"
+    ],
+    [
+      "WEED",
+      "SMITH AV."
+    ],
+    [
+      "WEED",
+      "HAWTHORN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2155,
+            527
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x SHEFFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65310748102343,
+            41.910839882756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5428,
+            527
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x SMITH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65110572367728,
+            41.91087378492588
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2155,
+            2849
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHEFFIELD AV. x WEED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65319207612971,
+            41.909778343742474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5428,
+            2849
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEED x SMITH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65107653364369,
+            41.909814201229935
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2499,
+            2849
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEED x HAWTHORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65319207612971,
+            41.909778343742474
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

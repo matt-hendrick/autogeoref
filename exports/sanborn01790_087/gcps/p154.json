@@ -1,0 +1,159 @@
+{
+  "page": "154",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.73,
+  "auto_residuals_m": [
+    2.01,
+    2.23,
+    3.96,
+    1.93,
+    4.12,
+    1.88
+  ],
+  "inlier_streets": [
+    [
+      "N. LAKEWOOD AV. (N. KENNON)",
+      "W. WEBSTER AV."
+    ],
+    [
+      "N. LAKEWOOD AV. (N. KENNON)",
+      "W. DICKENS AV. (W. GARFIELD AV.)"
+    ],
+    [
+      "W. WEBSTER AV.",
+      "N. MAGNOLIA AV. (N. LEWIS)"
+    ],
+    [
+      "W. WEBSTER AV.",
+      "N. RACINE AV."
+    ],
+    [
+      "N. MAGNOLIA AV. (N. LEWIS)",
+      "W. DICKENS AV. (W. GARFIELD AV.)"
+    ],
+    [
+      "N. RACINE AV.",
+      "W. DICKENS AV. (W. GARFIELD AV.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1005,
+            2735
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAKEWOOD AV. (N. KENNON) x W. WEBSTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66080603836677,
+            41.92164279223149
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1005,
+            6691
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAKEWOOD AV. (N. KENNON) x W. DICKENS AV. (W. GARFIELD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66075227133268,
+            41.91982306229674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2995,
+            2735
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. MAGNOLIA AV. (N. LEWIS)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65959190328716,
+            41.92165276431852
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5177,
+            2735
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65837221018174,
+            41.92166333304059
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2995,
+            6691
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAGNOLIA AV. (N. LEWIS) x W. DICKENS AV. (W. GARFIELD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65953502777889,
+            41.91983816050072
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5177,
+            6691
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RACINE AV. x W. DICKENS AV. (W. GARFIELD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65831634836967,
+            41.91984887623321
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -4.148,
+    "dy_m": 0.283
+  }
+}

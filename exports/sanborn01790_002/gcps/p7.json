@@ -1,0 +1,109 @@
+{
+  "page": "7",
+  "n_streets": 12,
+  "n_candidates": 10,
+  "n_inliers": 4,
+  "rotation_deg": 0.62,
+  "auto_residuals_m": [
+    0.48,
+    0.49,
+    0.51,
+    0.49
+  ],
+  "inlier_streets": [
+    [
+      "W. BELMONT AVE.",
+      "CHRISTIANA AVE."
+    ],
+    [
+      "W. BELMONT AVE.",
+      "N. SPAULDING AVE."
+    ],
+    [
+      "W. WELLINGTON",
+      "CHRISTIANA AVE."
+    ],
+    [
+      "W. WELLINGTON",
+      "N. SPAULDING AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2753,
+            306
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELMONT AVE. x CHRISTIANA AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71127365896564,
+            41.93930181928665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4818,
+            306
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELMONT AVE. x N. SPAULDING AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71005093139222,
+            41.939305832184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2753,
+            8173
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WELLINGTON x CHRISTIANA AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7111677495616,
+            41.93566606131131
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4818,
+            8173
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WELLINGTON x N. SPAULDING AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.709953768969,
+            41.935681527845254
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

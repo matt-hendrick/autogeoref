@@ -1,0 +1,226 @@
+{
+  "page": "39",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 1.12,
+  "auto_residuals_m": [
+    1.67,
+    1.46,
+    4.73,
+    4.13,
+    4.39,
+    4.97,
+    2.26,
+    1.95,
+    1.64
+  ],
+  "inlier_streets": [
+    [
+      "FULLERTON AV.",
+      "N. LARAMIE AV."
+    ],
+    [
+      "FULLERTON AV.",
+      "N. LATROBE AV."
+    ],
+    [
+      "MEDILL AV.",
+      "N. LARAMIE AV."
+    ],
+    [
+      "N. BELDEN AV.",
+      "N. LEAMINGTON AV."
+    ],
+    [
+      "N. BELDEN AV.",
+      "N. LARAMIE AV."
+    ],
+    [
+      "N. BELDEN AV.",
+      "N. LATROBE AV."
+    ],
+    [
+      "N. LEAMINGTON AV.",
+      "PALMER"
+    ],
+    [
+      "N. LARAMIE AV.",
+      "PALMER"
+    ],
+    [
+      "N. LATROBE AV.",
+      "PALMER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2530,
+            317
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75614607861584,
+            41.924107115579844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            546,
+            317
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. LATROBE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75737186436024,
+            41.92409100189157
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2530,
+            2213
+          ],
+          "username": "autogeoref",
+          "note": "auto: MEDILL AV. x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75610961192395,
+            41.923195359243785
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4533,
+            4286
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BELDEN AV. x N. LEAMINGTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75486299424387,
+            41.92229563348691
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2530,
+            4286
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BELDEN AV. x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75609261380278,
+            41.92227967840899
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            546,
+            4286
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BELDEN AV. x N. LATROBE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75732113793592,
+            41.92226562535325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4533,
+            8068
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAMINGTON AV. x PALMER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75481205600437,
+            41.920473323443886
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2530,
+            8068
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LARAMIE AV. x PALMER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75604217093212,
+            41.92045751652372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            546,
+            8068
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LATROBE AV. x PALMER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75726821063732,
+            41.92044159721908
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

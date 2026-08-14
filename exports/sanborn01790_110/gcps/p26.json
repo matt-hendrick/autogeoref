@@ -1,0 +1,116 @@
+{
+  "page": "26",
+  "n_streets": 5,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "S. ST. LOUIS AV.",
+      "W. 51ST ST."
+    ],
+    [
+      "S. HOMAN AV.",
+      "W. 51ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            859,
+            7768
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71112626224446,
+            41.80071612403714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4694,
+            7768
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOMAN AV. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70867238942789,
+            41.80075352906877
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71134198141345,
+            41.803890919074846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5267,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70845706268474,
+            41.803937473689366
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71125122558365,
+            41.8007657724172
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "page": "60",
+  "n_streets": 7,
+  "n_candidates": 13,
+  "n_inliers": 8,
+  "rotation_deg": 0.45,
+  "auto_residuals_m": [
+    9.35,
+    12.09,
+    5.08,
+    7.48,
+    5.02,
+    11.64,
+    12.78,
+    10.53
+  ],
+  "inlier_streets": [
+    [
+      "W. CHICAGO AV.",
+      "N. TROY"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. ALBANY AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. SACRAMENTO BLVD."
+    ],
+    [
+      "N. TROY",
+      "W. HURON"
+    ],
+    [
+      "N. TROY",
+      "W. OHIO"
+    ],
+    [
+      "W. HURON",
+      "N. ALBANY AV."
+    ],
+    [
+      "N. ALBANY AV.",
+      "W. OHIO"
+    ],
+    [
+      "N. SACRAMENTO BLVD.",
+      "W. OHIO"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            295
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. TROY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70529023507422,
+            41.89555635729365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2740,
+            295
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70409378540471,
+            41.89556999288162
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5494,
+            295
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. SACRAMENTO BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70216841989235,
+            41.89558592531454
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            4432
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. TROY x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70523510512962,
+            41.89372817553487
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            8387
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. TROY x W. OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70517824777806,
+            41.89190059706653
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2740,
+            4432
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70400369607864,
+            41.8937405572802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2740,
+            8387
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ALBANY AV. x W. OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70394547430145,
+            41.89191453334742
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5494,
+            8387
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO BLVD. x W. OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7019648715693,
+            41.891934622474366
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.966,
+    "dy_m": -1.34
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "page": "19",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "KENNISON AV.",
+      "N. KOLMAR AV."
+    ],
+    [
+      "N. KIMBERLY AV.",
+      "ELSTON AV."
+    ],
+    [
+      "N. KOLMAR AV.",
+      "ELSTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4084,
+            1943
+          ],
+          "username": "autogeoref",
+          "note": "auto: KENNISON AV. x N. KOLMAR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7421012027531,
+            41.97288216059033
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2083,
+            8009
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KIMBERLY AV. x ELSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74543979255964,
+            41.97135594362891
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4084,
+            8009
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KOLMAR AV. x ELSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74445727447718,
+            41.97075145094694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7433004229596,
+            41.9743265274625
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5113,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7411388245016,
+            41.97297530687757
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7460210656538,
+            41.97192088940981
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -40.0488,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7952,
+    "separation_ratio": 1.702,
+    "best_offset_m": 2.8,
+    "n_junctions": 9
+  }
+}

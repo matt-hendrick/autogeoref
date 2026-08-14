@@ -1,0 +1,133 @@
+{
+  "page": "78",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": -88.63,
+  "auto_residuals_m": [
+    0.16,
+    0.16,
+    0.18,
+    0.43,
+    0.34
+  ],
+  "inlier_streets": [
+    [
+      "W. MONROE",
+      "S. HALSTED"
+    ],
+    [
+      "W. MONROE",
+      "S.DESPLAINES"
+    ],
+    [
+      "S. HALSTED",
+      "W. ADAMS"
+    ],
+    [
+      "S.DESPLAINES",
+      "MARBLE PL."
+    ],
+    [
+      "S.DESPLAINES",
+      "W. ADAMS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1378,
+            6385
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64732177158577,
+            41.88049224033456
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1378,
+            748
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S.DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64408202022257,
+            41.88052976618306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4164,
+            6385
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6472802199686,
+            41.879217050574475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2760,
+            748
+          ],
+          "username": "autogeoref",
+          "note": "auto: S.DESPLAINES x MARBLE PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6440637946589,
+            41.879894880547944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4164,
+            748
+          ],
+          "username": "autogeoref",
+          "note": "auto: S.DESPLAINES x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64404179026305,
+            41.879258374460925
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

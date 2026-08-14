@@ -1,0 +1,157 @@
+{
+  "page": "53",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 0.67,
+  "auto_residuals_m": [
+    0.52,
+    0.66,
+    0.21,
+    0.99,
+    2.15,
+    1.17
+  ],
+  "inlier_streets": [
+    [
+      "JACKSON B'LVD",
+      "SHERMAN"
+    ],
+    [
+      "JACKSON B'LVD",
+      "LASALLE"
+    ],
+    [
+      "JACKSON B'LVD",
+      "CLARK"
+    ],
+    [
+      "SHERMAN",
+      "VANBUREN"
+    ],
+    [
+      "LASALLE",
+      "VANBUREN"
+    ],
+    [
+      "CLARK",
+      "VANBUREN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1325,
+            2246
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'LVD x SHERMAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63273453403706,
+            41.87812882266276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2810,
+            2246
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'LVD x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63182998929015,
+            41.87813772455818
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4557,
+            2246
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'LVD x CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6307852767682,
+            41.878147948261876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1325,
+            5084
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHERMAN x VANBUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63269387041281,
+            41.87686953366247
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2810,
+            5084
+          ],
+          "username": "autogeoref",
+          "note": "auto: LASALLE x VANBUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63177168575506,
+            41.87687503139372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4557,
+            5084
+          ],
+          "username": "autogeoref",
+          "note": "auto: CLARK x VANBUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63074938259172,
+            41.876884173255945
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

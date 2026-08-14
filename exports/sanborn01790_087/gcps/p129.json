@@ -1,0 +1,159 @@
+{
+  "page": "129",
+  "n_streets": 10,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.91,
+  "auto_residuals_m": [
+    0.82,
+    0.87,
+    3.73,
+    3.89,
+    3.44,
+    3.45
+  ],
+  "inlier_streets": [
+    [
+      "W. WEBSTER AV.",
+      "N. HALSTED"
+    ],
+    [
+      "W. WEBSTER AV.",
+      "N. EDWARD CT."
+    ],
+    [
+      "W. WEBSTER AV.",
+      "N. BURLING"
+    ],
+    [
+      "W. WEBSTER AV.",
+      "N. ORCHARD"
+    ],
+    [
+      "N. HALSTED",
+      "W. DICKENS AV."
+    ],
+    [
+      "N. BURLING",
+      "W. DICKENS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            978,
+            1412
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64861200487492,
+            41.92182626062354
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1851,
+            1412
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. EDWARD CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64810410325317,
+            41.921833635815084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3059,
+            1412
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. BURLING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64740759205661,
+            41.92184377381595
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4976,
+            1412
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64619335343077,
+            41.921861456790495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            978,
+            5335
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x W. DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64855404112514,
+            41.92000312671596
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3059,
+            5335
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BURLING x W. DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6473680608661,
+            41.92000256514093
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.288,
+    "dy_m": 1.378
+  }
+}

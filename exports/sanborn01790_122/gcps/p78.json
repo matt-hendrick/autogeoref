@@ -1,0 +1,141 @@
+{
+  "page": "78",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 105TH PL.",
+      "S. CHURCH"
+    ],
+    [
+      "W. 105TH PL.",
+      "S. PROSPECT AV."
+    ],
+    [
+      "W. 106TH ST.",
+      "S. PROSPECT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4309,
+            2056
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 105TH PL. x S. CHURCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6598541907042,
+            41.70221076788856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1263,
+            2375
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 105TH PL. x S. PROSPECT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6618011061411,
+            41.70207572426828
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1263,
+            4352
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 106TH ST. x S. PROSPECT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66184601685484,
+            41.70116635195977
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66225908930438,
+            41.70278489858362
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5301,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65927754964612,
+            41.70282390862987
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66218365078318,
+            41.69957086220861
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -2.086,
+    "dy_m": 1.197
+  },
+  "junction_snap": {
+    "skipped": "only 2 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

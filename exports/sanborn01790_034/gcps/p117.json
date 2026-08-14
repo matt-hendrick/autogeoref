@@ -1,0 +1,136 @@
+{
+  "page": "117",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 0.82,
+  "auto_residuals_m": [
+    3.13,
+    11.32,
+    8.23,
+    1.6,
+    1.57
+  ],
+  "inlier_streets": [
+    [
+      "MONTROSE AV.",
+      "KENMORE AV."
+    ],
+    [
+      "MONTROSE AV.",
+      "EVANSTON AV."
+    ],
+    [
+      "MONTROSE AV.",
+      "SHERIDAN R'D"
+    ],
+    [
+      "KENMORE AV.",
+      "BUENA AV."
+    ],
+    [
+      "SHERIDAN R'D",
+      "BUENA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2462,
+            395
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x KENMORE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6562847161333,
+            41.96175631495753
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4772,
+            395
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x EVANSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65508562915399,
+            41.96177332735096
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5155,
+            395
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x SHERIDAN R'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6546898058042,
+            41.961778772646994
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2462,
+            8265
+          ],
+          "username": "autogeoref",
+          "note": "auto: KENMORE AV. x BUENA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65617338128922,
+            41.958418372799834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5155,
+            8265
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHERIDAN R'D x BUENA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65459728006547,
+            41.95842874418338
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 6.535,
+    "dy_m": 0.008
+  }
+}

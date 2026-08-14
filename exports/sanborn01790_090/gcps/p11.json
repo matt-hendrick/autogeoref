@@ -1,0 +1,178 @@
+{
+  "page": "11",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 7,
+  "rotation_deg": 1.55,
+  "auto_residuals_m": [
+    11.01,
+    6.89,
+    6.84,
+    14.35,
+    12.94,
+    4.59,
+    5.98
+  ],
+  "inlier_streets": [
+    [
+      "HAYNES CT.",
+      "W. 31ST ST."
+    ],
+    [
+      "W. 31ST ST.",
+      "S. RACINE AV. (CENTRE)"
+    ],
+    [
+      "W. 31ST ST.",
+      "S. MAY AV. (WALL)"
+    ],
+    [
+      "W. 31ST PL.",
+      "S. RACINE AV. (CENTRE)"
+    ],
+    [
+      "W. 31ST PL.",
+      "S. MAY AV. (WALL)"
+    ],
+    [
+      "S. RACINE AV. (CENTRE)",
+      "W. 32ND PL."
+    ],
+    [
+      "S. MAY AV. (WALL)",
+      "W. 32ND PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3835,
+            849
+          ],
+          "username": "autogeoref",
+          "note": "auto: HAYNES CT. x W. 31ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6556751446813,
+            41.83791848094644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3438,
+            849
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x S. RACINE AV. (CENTRE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6560196010038,
+            41.83791393113911
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5628,
+            849
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x S. MAY AV. (WALL)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65480421117289,
+            41.83793066865168
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3438,
+            3088
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST PL. x S. RACINE AV. (CENTRE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65599472141918,
+            41.83700608564618
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5628,
+            3088
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST PL. x S. MAY AV. (WALL)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65477807828195,
+            41.83702300240384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3438,
+            6746
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RACINE AV. (CENTRE) x W. 32ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65594553503888,
+            41.83518842556997
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5628,
+            6746
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MAY AV. (WALL) x W. 32ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65472916157228,
+            41.83520530476222
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

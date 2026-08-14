@@ -1,0 +1,163 @@
+{
+  "page": "3",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 31ST ST.",
+      "S. ROBEY"
+    ],
+    [
+      "S. ROBEY",
+      "W. 32ND ST."
+    ],
+    [
+      "W. 32ND ST.",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. 32ND ST.",
+      "S. SEELEY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5316,
+            672
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x S. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6754438965433,
+            41.83759192353842
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5316,
+            4723
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROBEY x W. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6754208517642,
+            41.83586431211148
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1174,
+            4723
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 32ND ST. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67789921917466,
+            41.83580906382527
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3471,
+            4723
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 32ND ST. x S. SEELEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67659333499597,
+            41.83582503614249
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67830293996303,
+            41.837575162706045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5288,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67549096621633,
+            41.83761100004727
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6782429933975,
+            41.83496416667401
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6978,
+    "separation_ratio": 1.439,
+    "best_offset_m": 3.6,
+    "n_junctions": 9
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "page": "51",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 33RD ST.",
+      "WENTWORTH AV."
+    ],
+    [
+      "W. 33RD ST.",
+      "ARMOUR AV."
+    ],
+    [
+      "W. 33RD ST.",
+      "ARMOUR AV."
+    ],
+    [
+      "ARMOUR AV.",
+      "W. 34TH ST."
+    ],
+    [
+      "RR JOLIET SUB DISTRICT",
+      "W. 33RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            875,
+            1655
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x WENTWORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63162461666055,
+            41.83459179295453
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5318,
+            1655
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x ARMOUR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6288940895944,
+            41.83463809651868
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5258,
+            1655
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x ARMOUR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62909967539385,
+            41.8346327561964
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5258,
+            5703
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMOUR AV. x W. 34TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62906149035199,
+            41.832800000692124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4154,
+            1655
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR JOLIET SUB DISTRICT x W. 33RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62955710223677,
+            41.83462202804055
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63180915502281,
+            41.83500169145288
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5296,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62899335285714,
+            41.83503757902861
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63174920845728,
+            41.83239059043235
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6641,
+    "separation_ratio": 1.016,
+    "best_offset_m": 7.2,
+    "n_junctions": 13
+  },
+  "seam_adjusted": {
+    "dx_m": -2.636,
+    "dy_m": -0.72
+  }
+}

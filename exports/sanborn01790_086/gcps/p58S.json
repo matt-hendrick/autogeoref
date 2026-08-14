@@ -1,0 +1,113 @@
+{
+  "page": "58S",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.43,
+  "auto_residuals_m": [
+    0.04,
+    0.05,
+    0.07,
+    0.08
+  ],
+  "inlier_streets": [
+    [
+      "S. WABASH AV.",
+      "E. ADAMS"
+    ],
+    [
+      "S. WABASH AV.",
+      "E. JACKSON BLVD."
+    ],
+    [
+      "E. ADAMS",
+      "S. MICHIGAN AV."
+    ],
+    [
+      "S. MICHIGAN AV.",
+      "E. JACKSON BLVD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1441,
+            1999
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62611858954304,
+            41.8795052624532
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1441,
+            5044
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. JACKSON BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62607481902344,
+            41.878229192224055
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4401,
+            1999
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. ADAMS x S. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62434454853958,
+            41.87953756899886
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4401,
+            5044
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. x E. JACKSON BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62430022445406,
+            41.878262948362995
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.852,
+    "dy_m": -2.503
+  }
+}

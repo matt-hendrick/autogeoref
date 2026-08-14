@@ -1,0 +1,120 @@
+{
+  "page": "23",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "E. 31ST ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "S. WABASH AV.",
+      "E. 32ND ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1091,
+            531
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 31ST ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62514319497602,
+            41.83832136806617
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1091,
+            4679
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62515599629695,
+            41.836422074653036
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62547297729704,
+            41.83821351042758
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5299,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62261849647396,
+            41.83824906388266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62541362621337,
+            41.835568472831845
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4651,
+    "separation_ratio": 1.309,
+    "best_offset_m": 9.6,
+    "n_junctions": 17
+  }
+}

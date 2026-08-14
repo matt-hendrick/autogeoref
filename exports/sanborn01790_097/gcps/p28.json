@@ -1,0 +1,159 @@
+{
+  "page": "28",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 0.73,
+  "auto_residuals_m": [
+    0.66,
+    0.77,
+    1.49,
+    0.87,
+    1.25,
+    0.52
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVISION",
+      "N. LAWNDALE AV."
+    ],
+    [
+      "W. DIVISION",
+      "N. MONTICELLO AV."
+    ],
+    [
+      "N. LAWNDALE AV.",
+      "THOMAS"
+    ],
+    [
+      "N. LAWNDALE AV.",
+      "W. AUGUSTA BLVD. (ST.)"
+    ],
+    [
+      "N. MONTICELLO AV.",
+      "THOMAS"
+    ],
+    [
+      "N. MONTICELLO AV.",
+      "W. AUGUSTA BLVD. (ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1039,
+            390
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71897503256322,
+            41.90273298263654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3074,
+            390
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. MONTICELLO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71775982626339,
+            41.90274361108802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1039,
+            4440
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWNDALE AV. x THOMAS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71891507071179,
+            41.9009083074169
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1039,
+            8426
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWNDALE AV. x W. AUGUSTA BLVD. (ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71885177203751,
+            41.89908278443117
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3074,
+            4440
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MONTICELLO AV. x THOMAS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71769633144906,
+            41.900918215738535
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3074,
+            8426
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MONTICELLO AV. x W. AUGUSTA BLVD. (ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71763266188081,
+            41.89909671676372
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.388,
+    "dy_m": -0.209
+  }
+}

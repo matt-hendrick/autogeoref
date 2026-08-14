@@ -1,0 +1,116 @@
+{
+  "page": "51",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. LUNT AV.",
+      "N. PAULINA"
+    ],
+    [
+      "N. PAULINA",
+      "W. MORSE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3963,
+            321
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LUNT AV. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67224166514679,
+            42.00901299674879
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3963,
+            2872
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x W. MORSE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6721998813284,
+            42.00780154972611
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67432193854461,
+            42.008711680746984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5034,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67157372737634,
+            42.008759218547695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67422466299622,
+            42.00560674138508
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

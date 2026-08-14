@@ -1,0 +1,233 @@
+{
+  "page": "10",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 7,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 109TH ST.",
+      "S. VERNON AV."
+    ],
+    [
+      "E. 109TH ST.",
+      "S. EBERHART AV."
+    ],
+    [
+      "E. 109TH ST.",
+      "S. VERNON AV."
+    ],
+    [
+      "E. 109TH ST.",
+      "S. EBERHART AV."
+    ],
+    [
+      "E. 110TH ST.",
+      "S. VERNON AV."
+    ],
+    [
+      "E. 110TH PL.",
+      "S. VERNON AV."
+    ],
+    [
+      "E. 111TH ST.",
+      "S. VERNON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2313,
+            310
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 109TH ST. x S. VERNON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61226394928838,
+            41.69635336765745
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4329,
+            310
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 109TH ST. x S. EBERHART AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61104235059615,
+            41.696368093084864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2313,
+            495
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 109TH ST. x S. VERNON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61226394928838,
+            41.69635336765745
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4329,
+            495
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 109TH ST. x S. EBERHART AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61104235059615,
+            41.696368093084864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2313,
+            4335
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 110TH ST. x S. VERNON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61221927618264,
+            41.69453476838089
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2313,
+            7337
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 110TH PL. x S. VERNON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61218284480755,
+            41.69318336804883
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2313,
+            8245
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 111TH ST. x S. VERNON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61217198257351,
+            41.692714562012455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61332100426846,
+            41.69612697751381
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5312,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61041966531774,
+            41.69616605258594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61324560144358,
+            41.69300543392749
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -1.305,
+    "dy_m": -5.379
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5973,
+    "separation_ratio": 1.217,
+    "best_offset_m": 13.2,
+    "n_junctions": 12
+  }
+}

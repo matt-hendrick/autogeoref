@@ -1,0 +1,160 @@
+{
+  "page": "119",
+  "n_streets": 10,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 1.06,
+  "auto_residuals_m": [
+    2.95,
+    2.7,
+    1.41,
+    1.29,
+    1.17,
+    1.42
+  ],
+  "inlier_streets": [
+    [
+      "LOCUST",
+      "WELLS"
+    ],
+    [
+      "W. CHESTNUT",
+      "WELLS"
+    ],
+    [
+      "W. CHESTNUT",
+      "N. CLARK"
+    ],
+    [
+      "INSTITUTE PL.",
+      "WELLS"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "WELLS"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. CLARK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            491,
+            1206
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOCUST x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63431818720181,
+            41.898989849513626
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            491,
+            2920
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHESTNUT x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6342888302407,
+            41.898212284153665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5410,
+            3477
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHESTNUT x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63130619088163,
+            41.89797864646473
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            491,
+            4551
+          ],
+          "username": "autogeoref",
+          "note": "auto: INSTITUTE PL. x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63426027133647,
+            41.8974272043387
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            491,
+            6248
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63422969125446,
+            41.896603979039035
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5410,
+            6248
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63127205752107,
+            41.896643813334
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8",
+  "seam_adjusted": {
+    "dx_m": -2.986,
+    "dy_m": 1.222
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "page": "37",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. DIVERSEY AVE.",
+      "N. CENTRAL PARK AVE."
+    ],
+    [
+      "SCHUBERT AVE.",
+      "N. CENTRAL PARK AVE."
+    ],
+    [
+      "N. CENTRAL PARK AVE.",
+      "W. WRIGHTWOOD AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            832,
+            229
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AVE. x N. CENTRAL PARK AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71719504599346,
+            41.93191091575848
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            832,
+            4144
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHUBERT AVE. x N. CENTRAL PARK AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71714494004449,
+            41.93009126441517
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            832,
+            8186
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL PARK AVE. x W. WRIGHTWOOD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71708765673763,
+            41.92825492886154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71734248727532,
+            41.93162911715739
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71460777713973,
+            41.93165481616019
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71729038916182,
+            41.92856075628498
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.9821,
+    "separation_ratio": 1.081,
+    "best_offset_m": 6.3,
+    "n_junctions": 3
+  }
+}

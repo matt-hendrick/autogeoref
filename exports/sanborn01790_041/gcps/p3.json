@@ -1,0 +1,109 @@
+{
+  "page": "3",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.27,
+  "auto_residuals_m": [
+    0.2,
+    0.17,
+    0.21,
+    0.16
+  ],
+  "inlier_streets": [
+    [
+      "W. 31ST ST.",
+      "S. LAWNDALE AV."
+    ],
+    [
+      "W. 31ST ST.",
+      "S. MILLARD AV."
+    ],
+    [
+      "W. 32ND ST.",
+      "S. LAWNDALE AV."
+    ],
+    [
+      "W. 32ND ST.",
+      "S. MILLARD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1376,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x S. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71703130248157,
+            41.83701187258359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3385,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x S. MILLARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71581068498993,
+            41.83703445498972
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1376,
+            4255
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 32ND ST. x S. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7169802086664,
+            41.835188508823876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3385,
+            4255
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 32ND ST. x S. MILLARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71576051983135,
+            41.83520626938746
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,136 @@
+{
+  "page": "26",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.84,
+  "auto_residuals_m": [
+    1.08,
+    0.78,
+    0.84,
+    0.61,
+    0.73
+  ],
+  "inlier_streets": [
+    [
+      "E. 105TH ST.",
+      "S. CORLISS AV."
+    ],
+    [
+      "E. 105TH ST.",
+      "S. MARYLAND AV."
+    ],
+    [
+      "E. 105TH PL.",
+      "S. CORLISS AV."
+    ],
+    [
+      "S. CORLISS AV.",
+      "E. 106TH ST."
+    ],
+    [
+      "S. MARYLAND AV.",
+      "E. 106TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2755,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 105TH ST. x S. CORLISS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60390313043702,
+            41.70378686661076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4679,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 105TH ST. x S. MARYLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60269527327098,
+            41.70380598270547
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2755,
+            2294
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 105TH PL. x S. CORLISS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60387619657051,
+            41.70287388278371
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2755,
+            4326
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CORLISS AV. x E. 106TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60384876669688,
+            41.701958600854375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4679,
+            4326
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MARYLAND AV. x E. 106TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60266164151986,
+            41.70199125539172
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.305,
+    "dy_m": -3.032
+  }
+}

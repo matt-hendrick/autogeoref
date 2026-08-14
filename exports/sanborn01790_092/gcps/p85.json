@@ -1,0 +1,132 @@
+{
+  "page": "85",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 1.15,
+  "auto_residuals_m": [
+    0.29,
+    0.2,
+    0.32,
+    0.14,
+    0.17
+  ],
+  "inlier_streets": [
+    [
+      "WALNUT",
+      "N. LEAVITT"
+    ],
+    [
+      "WALNUT",
+      "N. HOYNE AV."
+    ],
+    [
+      "W. LAKE",
+      "N. LEAVITT"
+    ],
+    [
+      "MAYPOLE AV. (PARK)",
+      "N. LEAVITT"
+    ],
+    [
+      "MAYPOLE AV. (PARK)",
+      "N. HOYNE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            875,
+            1648
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6816530725489,
+            41.88578341770936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4910,
+            1648
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67920710616703,
+            41.88582294779791
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            875,
+            3740
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68162290499014,
+            41.884801749083515
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            875,
+            5637
+          ],
+          "username": "autogeoref",
+          "note": "auto: MAYPOLE AV. (PARK) x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68159491148795,
+            41.88390567764752
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4910,
+            5637
+          ],
+          "username": "autogeoref",
+          "note": "auto: MAYPOLE AV. (PARK) x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67915305527755,
+            41.88394166799559
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,249 @@
+{
+  "page": "124",
+  "n_streets": 7,
+  "n_candidates": 12,
+  "n_inliers": 10,
+  "rotation_deg": 0.86,
+  "auto_residuals_m": [
+    7.11,
+    1.8,
+    1.78,
+    3.55,
+    2.56,
+    16.72,
+    6.55,
+    3.69,
+    4.88,
+    5.49
+  ],
+  "inlier_streets": [
+    [
+      "HIRSCH",
+      "N. LOREL AV."
+    ],
+    [
+      "HIRSCH",
+      "N. LONG AV."
+    ],
+    [
+      "HIRSCH",
+      "N. LOCKWOOD AV."
+    ],
+    [
+      "KAMERLING AV.",
+      "N. LONG AV."
+    ],
+    [
+      "KAMERLING AV.",
+      "N. LOCKWOOD AV."
+    ],
+    [
+      "N. LOREL AV.",
+      "W. DIVISION"
+    ],
+    [
+      "N. LONG AV.",
+      "CRYSTAL ST."
+    ],
+    [
+      "N. LONG AV.",
+      "W. DIVISION"
+    ],
+    [
+      "CRYSTAL ST.",
+      "N. LOCKWOOD AV."
+    ],
+    [
+      "W. DIVISION",
+      "N. LOCKWOOD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2419,
+            210
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. LOREL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75975943981805,
+            41.90582757242111
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            468,
+            210
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. LONG AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76105884523645,
+            41.905812279183294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4775,
+            210
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. LOCKWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75834154559337,
+            41.90584504420453
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            468,
+            2183
+          ],
+          "username": "autogeoref",
+          "note": "auto: KAMERLING AV. x N. LONG AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76103863940831,
+            41.90490751275848
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4775,
+            2183
+          ],
+          "username": "autogeoref",
+          "note": "auto: KAMERLING AV. x N. LOCKWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75831881911688,
+            41.90493893103175
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2419,
+            8332
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LOREL AV. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7595320881818,
+            41.902208376134915
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            468,
+            6227
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LONG AV. x CRYSTAL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76099655575071,
+            41.90309876614821
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            468,
+            8332
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LONG AV. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76093695447828,
+            41.90219172937686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4775,
+            6227
+          ],
+          "username": "autogeoref",
+          "note": "auto: CRYSTAL ST. x N. LOCKWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75826990444004,
+            41.903128619955474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4775,
+            8332
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. LOCKWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75824645936669,
+            41.902221132821715
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

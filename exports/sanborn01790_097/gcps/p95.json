@@ -1,0 +1,182 @@
+{
+  "page": "95",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 7,
+  "rotation_deg": -89.12,
+  "auto_residuals_m": [
+    6.74,
+    4.34,
+    2.78,
+    0.69,
+    3.95,
+    1.65,
+    2.55
+  ],
+  "inlier_streets": [
+    [
+      "W. LAKE",
+      "N. PULASKI RD. (N. CRAWFORD AV.)"
+    ],
+    [
+      "W. LAKE",
+      "N. HARDING AV."
+    ],
+    [
+      "N. PULASKI RD. (N. CRAWFORD AV.)",
+      "W. MAYPOLE AV."
+    ],
+    [
+      "N. PULASKI RD. (N. CRAWFORD AV.)",
+      "WEST END AV."
+    ],
+    [
+      "N. HARDING AV.",
+      "W. MAYPOLE AV."
+    ],
+    [
+      "W. MAYPOLE AV.",
+      "N. HAMLIN AV."
+    ],
+    [
+      "N. HAMLIN AV.",
+      "WEST END AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            474,
+            8323
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. PULASKI RD. (N. CRAWFORD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72581914846387,
+            41.8854908333528
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            474,
+            6487
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72465637178315,
+            41.88543841632329
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3316,
+            8323
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PULASKI RD. (N. CRAWFORD AV.) x W. MAYPOLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72577786560652,
+            41.88404600980439
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5594,
+            8323
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PULASKI RD. (N. CRAWFORD AV.) x WEST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72574618828034,
+            41.88295401644771
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3316,
+            6487
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HARDING AV. x W. MAYPOLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72461757844418,
+            41.884062814630326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3316,
+            315
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MAYPOLE AV. x N. HAMLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7209036981138,
+            41.88411136689622
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5594,
+            315
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HAMLIN AV. x WEST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72087269340072,
+            41.883024502155514
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.593,
+    "dy_m": 3.59
+  }
+}

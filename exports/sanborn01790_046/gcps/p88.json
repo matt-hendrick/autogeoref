@@ -1,0 +1,203 @@
+{
+  "page": "88",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 8,
+  "rotation_deg": 0.18,
+  "auto_residuals_m": [
+    8.15,
+    10.04,
+    8.72,
+    6.86,
+    10.06,
+    8.46,
+    5.83,
+    10.28
+  ],
+  "inlier_streets": [
+    [
+      "E. 83RD ST.",
+      "BRANDON AV."
+    ],
+    [
+      "E. 83RD ST.",
+      "BURLEY AV."
+    ],
+    [
+      "E. 83RD PL.",
+      "BOND AV."
+    ],
+    [
+      "E. 83RD PL.",
+      "BRANDON AV."
+    ],
+    [
+      "E. 84TH ST.",
+      "BRANDON AV."
+    ],
+    [
+      "E. 84TH ST.",
+      "BURLEY AV."
+    ],
+    [
+      "E. 85TH ST.",
+      "BRANDON AV."
+    ],
+    [
+      "BOND AV.",
+      "BAKER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3389,
+            155
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 83RD ST. x BRANDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54668540349651,
+            41.74471837570288
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5284,
+            155
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 83RD ST. x BURLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54547632629107,
+            41.744734276307874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1417,
+            2630
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 83RD PL. x BOND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54788529735073,
+            41.74351670173068
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3389,
+            2630
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 83RD PL. x BRANDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5466603687454,
+            41.743532224639154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3389,
+            4016
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 84TH ST. x BRANDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54664657082117,
+            41.74290217546398
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5284,
+            4016
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 84TH ST. x BURLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54543811626654,
+            41.74291606018975
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3389,
+            8005
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 85TH ST. x BRANDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54661247960239,
+            41.74125694889817
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1417,
+            6493
+          ],
+          "username": "autogeoref",
+          "note": "auto: BOND AV. x BAKER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54785025898205,
+            41.741947760503045
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

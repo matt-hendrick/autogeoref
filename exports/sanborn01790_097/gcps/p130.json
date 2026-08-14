@@ -1,0 +1,251 @@
+{
+  "page": "130",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 10,
+  "rotation_deg": 0.72,
+  "auto_residuals_m": [
+    2.11,
+    1.6,
+    2.41,
+    3.72,
+    2.91,
+    2.27,
+    0.18,
+    2.14,
+    0.98,
+    1.77
+  ],
+  "inlier_streets": [
+    [
+      "W. JACKSON BLVD",
+      "S. MOZART"
+    ],
+    [
+      "W. JACKSON BLVD",
+      "S. FRANCISCO AV."
+    ],
+    [
+      "W. JACKSON BLVD",
+      "S. CALIFORNIA AV."
+    ],
+    [
+      "S. MOZART",
+      "W. VAN BUREN"
+    ],
+    [
+      "W. VAN BUREN",
+      "S. FRANCISCO AV."
+    ],
+    [
+      "W. VAN BUREN",
+      "S. CALIFORNIA AV."
+    ],
+    [
+      "S. FRANCISCO AV.",
+      "W. CONGRESS"
+    ],
+    [
+      "S. FRANCISCO AV.",
+      "W. HARRISON"
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. CONGRESS"
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3080,
+            261
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD x S. MOZART"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6974366781646,
+            41.87744547190856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1119,
+            261
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD x S. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69865322701989,
+            41.87743240983416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5117,
+            261
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD x S. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69621352929147,
+            41.87745834671604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3080,
+            3354
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MOZART x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69739382393557,
+            41.875989550319616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1119,
+            3354
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69862273071594,
+            41.875977527326626
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5117,
+            3354
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69617347186467,
+            41.876004448744744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1119,
+            5723
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69859392383732,
+            41.87490313070101
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1119,
+            8156
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69857505752188,
+            41.87379614624614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5117,
+            5723
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69614659369837,
+            41.874920549879114
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5117,
+            8156
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69612140803699,
+            41.873817144744464
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.276,
+    "dy_m": 3.513
+  }
+}

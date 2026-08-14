@@ -1,0 +1,116 @@
+{
+  "page": "30",
+  "n_streets": 7,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. TAYLOR",
+      "S. CAMPBELL AV."
+    ],
+    [
+      "FILLMORE",
+      "S. CAMPBELL AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5115,
+            2317
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TAYLOR x S. CAMPBELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68854608344753,
+            41.869313525162184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5115,
+            4337
+          ],
+          "username": "autogeoref",
+          "note": "auto: FILLMORE x S. CAMPBELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68852183989212,
+            41.8684057485819
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            572,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69132627351635,
+            41.869943203916634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5145,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68854381484778,
+            41.869981970167856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            572,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69124883626458,
+            41.8668610571448
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

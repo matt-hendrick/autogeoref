@@ -1,0 +1,137 @@
+{
+  "page": "143",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "FULLERTON PKWY.",
+      "N. LAKEVIEW AV."
+    ],
+    [
+      "FULLERTON PKWY.",
+      "N. CLEVELAND AV."
+    ],
+    [
+      "N. CLEVELAND AV.",
+      "W. BELDEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4768,
+            1690
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON PKWY. x N. LAKEVIEW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63911590479775,
+            41.92561205522517
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            816,
+            1690
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON PKWY. x N. CLEVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64150198235586,
+            41.92556916825365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            816,
+            5757
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLEVELAND AV. x W. BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64142391058341,
+            41.923737464066946
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64164268442347,
+            41.92599830008445
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5277,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63881051622215,
+            41.92604008730437
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64157254283595,
+            41.923366725462735
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

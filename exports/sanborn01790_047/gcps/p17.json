@@ -1,0 +1,253 @@
+{
+  "page": "17",
+  "n_streets": 9,
+  "n_candidates": 19,
+  "n_inliers": 10,
+  "rotation_deg": 1.17,
+  "auto_residuals_m": [
+    16.61,
+    13.17,
+    17.23,
+    13.9,
+    8.18,
+    13.49,
+    14.35,
+    16.8,
+    1.84,
+    9.61
+  ],
+  "inlier_streets": [
+    [
+      "KINGSTON AV.",
+      "E. 74TH PL."
+    ],
+    [
+      "KINGSTON AV.",
+      "E. 74TH PL."
+    ],
+    [
+      "KINGSTON AV.",
+      "E. 75TH ST."
+    ],
+    [
+      "E. 73RD PL.",
+      "EXCHANGE AV."
+    ],
+    [
+      "EXCHANGE AV.",
+      "E. 74TH ST."
+    ],
+    [
+      "E. 74TH ST.",
+      "S. KINGSTON AV."
+    ],
+    [
+      "S. KINGSTON AV.",
+      "E. 74TH PL."
+    ],
+    [
+      "S. KINGSTON AV.",
+      "E. 74TH PL."
+    ],
+    [
+      "S. KINGSTON AV.",
+      "E. 75TH ST."
+    ],
+    [
+      "COLFAX AV.",
+      "E. 75TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            636,
+            6248
+          ],
+          "username": "autogeoref",
+          "note": "auto: KINGSTON AV. x E. 74TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56310731350841,
+            41.75987514712534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            636,
+            6467
+          ],
+          "username": "autogeoref",
+          "note": "auto: KINGSTON AV. x E. 74TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56310731350841,
+            41.75987514712534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            636,
+            8262
+          ],
+          "username": "autogeoref",
+          "note": "auto: KINGSTON AV. x E. 75TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5630931591537,
+            41.75902162382669
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3499,
+            2313
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 73RD PL. x EXCHANGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56234027938245,
+            41.76168982911444
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3499,
+            4267
+          ],
+          "username": "autogeoref",
+          "note": "auto: EXCHANGE AV. x E. 74TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56185698013313,
+            41.7608555624314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1061,
+            4267
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 74TH ST. x S. KINGSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56317990083431,
+            41.76083639080754
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1061,
+            6248
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KINGSTON AV. x E. 74TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56310731350841,
+            41.75987514712534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1061,
+            6467
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KINGSTON AV. x E. 74TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56310731350841,
+            41.75987514712534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1061,
+            8262
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KINGSTON AV. x E. 75TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56268292008193,
+            41.759027530427396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2970,
+            8262
+          ],
+          "username": "autogeoref",
+          "note": "auto: COLFAX AV. x E. 75TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56153863840971,
+            41.75904388405227
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 5.828,
+    "dy_m": -0.985
+  }
+}

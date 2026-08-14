@@ -1,0 +1,179 @@
+{
+  "page": "91",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 1.29,
+  "auto_residuals_m": [
+    4.57,
+    1.28,
+    1.06,
+    4.41,
+    2.78,
+    3.82,
+    2.47
+  ],
+  "inlier_streets": [
+    [
+      "POTOMAC AV.",
+      "N. CLAREMONT AV."
+    ],
+    [
+      "POTOMAC AV.",
+      "N. WESTERN AV."
+    ],
+    [
+      "POTOMAC AV.",
+      "N. OAKLEY AV. (BOULEVARD)"
+    ],
+    [
+      "N. WESTERN AV.",
+      "W. DIVISION"
+    ],
+    [
+      "N. WESTERN AV.",
+      "HADDON AV."
+    ],
+    [
+      "N. OAKLEY AV. (BOULEVARD)",
+      "W. DIVISION"
+    ],
+    [
+      "N. OAKLEY AV. (BOULEVARD)",
+      "HADDON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3143,
+            659
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68587955320378,
+            41.904891879301616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1120,
+            659
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68707577331409,
+            41.90484220401589
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5152,
+            659
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. OAKLEY AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6846329311447,
+            41.90488093884954
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1120,
+            4646
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68702676212625,
+            41.90301612536301
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1120,
+            6810
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x HADDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68700585501684,
+            41.902086949927394
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5152,
+            4646
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. (BOULEVARD) x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68458031086207,
+            41.90306107981301
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5152,
+            6810
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. (BOULEVARD) x HADDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68455553585234,
+            41.90212624986565
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

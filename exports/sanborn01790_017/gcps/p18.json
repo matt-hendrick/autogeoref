@@ -1,0 +1,159 @@
+{
+  "page": "18",
+  "n_streets": 9,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": -0.07,
+  "auto_residuals_m": [
+    0.25,
+    1.36,
+    0.85,
+    1.49,
+    1.09,
+    0.13
+  ],
+  "inlier_streets": [
+    [
+      "LAKE",
+      "STATE"
+    ],
+    [
+      "LAKE",
+      "WABASH"
+    ],
+    [
+      "BENTON PL.",
+      "STATE"
+    ],
+    [
+      "BENTON PL.",
+      "WABASH"
+    ],
+    [
+      "RANDOLPH",
+      "STATE"
+    ],
+    [
+      "RANDOLPH",
+      "WABASH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1668,
+            2206
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAKE x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62793753156356,
+            41.885728400540714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4457,
+            2206
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAKE x WABASH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62627481237959,
+            41.885716180097376
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1668,
+            3643
+          ],
+          "username": "autogeoref",
+          "note": "auto: BENTON PL. x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62792332680621,
+            41.88510370780643
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4457,
+            3643
+          ],
+          "username": "autogeoref",
+          "note": "auto: BENTON PL. x WABASH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62626184665717,
+            41.88510651431622
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1668,
+            5061
+          ],
+          "username": "autogeoref",
+          "note": "auto: RANDOLPH x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62790820153559,
+            41.884470373220786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4457,
+            5061
+          ],
+          "username": "autogeoref",
+          "note": "auto: RANDOLPH x WABASH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62624577166181,
+            41.884475506020195
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.276,
+    "dy_m": -3.053
+  }
+}

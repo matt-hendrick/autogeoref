@@ -1,0 +1,211 @@
+{
+  "page": "75S",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. HARRISON",
+      "FEDERAL (CUSTOM HOUSE CT.)"
+    ],
+    [
+      "W. HARRISON",
+      "S. DEARBORN"
+    ],
+    [
+      "W. HARRISON",
+      "PLYMOUTH CT."
+    ],
+    [
+      "FEDERAL (CUSTOM HOUSE CT.)",
+      "POLK"
+    ],
+    [
+      "S. DEARBORN",
+      "POLK"
+    ],
+    [
+      "PLYMOUTH CT.",
+      "POLK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1758,
+            1080
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x FEDERAL (CUSTOM HOUSE CT.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62965291773766,
+            41.87452375938633
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2499,
+            1080
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62919370689839,
+            41.87452894370043
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3248,
+            1080
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x PLYMOUTH CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62866960874712,
+            41.874534705835224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1758,
+            6038
+          ],
+          "username": "autogeoref",
+          "note": "auto: FEDERAL (CUSTOM HOUSE CT.) x POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62958783952242,
+            41.87226581938358
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2499,
+            6038
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DEARBORN x POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6291135055421,
+            41.87227197659725
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3248,
+            6038
+          ],
+          "username": "autogeoref",
+          "note": "auto: PLYMOUTH CT. x POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62861648487825,
+            41.872277890831654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6303303323475,
+            41.87467076937832
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5242,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62749306809965,
+            41.87469865369921
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63028324536175,
+            41.87201430851066
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 1.78,
+    "dy_m": -1.566
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6586,
+    "separation_ratio": 1.003,
+    "best_offset_m": 26.9,
+    "n_junctions": 24
+  }
+}

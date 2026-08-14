@@ -1,0 +1,159 @@
+{
+  "page": "95",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": -88.6,
+  "auto_residuals_m": [
+    3.54,
+    2.97,
+    10.66,
+    2.53,
+    7.14,
+    0.42
+  ],
+  "inlier_streets": [
+    [
+      "BEETHOVEN PL.",
+      "WELLS"
+    ],
+    [
+      "BEETHOVEN PL.",
+      "SEDGWICK"
+    ],
+    [
+      "W. GOETHE",
+      "WELLS"
+    ],
+    [
+      "W. GOETHE",
+      "SEDGWICK"
+    ],
+    [
+      "SIGEL",
+      "WELLS"
+    ],
+    [
+      "SIGEL",
+      "SEDGWICK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4981,
+            183
+          ],
+          "username": "autogeoref",
+          "note": "auto: BEETHOVEN PL. x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63452811168564,
+            41.904904454268525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4981,
+            7176
+          ],
+          "username": "autogeoref",
+          "note": "auto: BEETHOVEN PL. x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63840336347512,
+            41.90477925011095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2940,
+            183
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GOETHE x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63455197512829,
+            41.90568501990166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2940,
+            7176
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GOETHE x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63843044685235,
+            41.90561795380641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            972,
+            183
+          ],
+          "username": "autogeoref",
+          "note": "auto: SIGEL x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63458496231642,
+            41.90664804679567
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            972,
+            7176
+          ],
+          "username": "autogeoref",
+          "note": "auto: SIGEL x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63845970916034,
+            41.90647614281476
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.103,
+    "dy_m": -6.625
+  }
+}

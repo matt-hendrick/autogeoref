@@ -1,0 +1,226 @@
+{
+  "page": "83",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 1.02,
+  "auto_residuals_m": [
+    0.78,
+    1.42,
+    0.71,
+    0.91,
+    0.76,
+    1.56,
+    0.94,
+    1.45,
+    0.74
+  ],
+  "inlier_streets": [
+    [
+      "MONTROSE AV.",
+      "N. AUSTIN AV."
+    ],
+    [
+      "MONTROSE AV.",
+      "N. MASON AV."
+    ],
+    [
+      "MONTROSE AV.",
+      "MARMORA AV."
+    ],
+    [
+      "N. AUSTIN AV.",
+      "CULLOM AV."
+    ],
+    [
+      "N. AUSTIN AV.",
+      "W. BERTEAU AV."
+    ],
+    [
+      "CULLOM AV.",
+      "N. MASON AV."
+    ],
+    [
+      "CULLOM AV.",
+      "MARMORA AV."
+    ],
+    [
+      "N. MASON AV.",
+      "W. BERTEAU AV."
+    ],
+    [
+      "MARMORA AV.",
+      "W. BERTEAU AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            799,
+            332
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. AUSTIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77701935904722,
+            41.96035152045799
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2770,
+            332
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. MASON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77579753600834,
+            41.96036836991607
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4805,
+            332
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x MARMORA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77457432781057,
+            41.96038529155912
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            799,
+            4299
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AUSTIN AV. x CULLOM AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77695928262403,
+            41.958527851285936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            799,
+            8245
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AUSTIN AV. x W. BERTEAU AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7769002554695,
+            41.956702102090155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2770,
+            4299
+          ],
+          "username": "autogeoref",
+          "note": "auto: CULLOM AV. x N. MASON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77573681592071,
+            41.95854277936775
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4805,
+            4299
+          ],
+          "username": "autogeoref",
+          "note": "auto: CULLOM AV. x MARMORA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77451526129131,
+            41.95855942306043
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2770,
+            8245
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MASON AV. x W. BERTEAU AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77567772745418,
+            41.95671769064707
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4805,
+            8245
+          ],
+          "username": "autogeoref",
+          "note": "auto: MARMORA AV. x W. BERTEAU AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77445465927929,
+            41.95673356020461
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

@@ -1,0 +1,141 @@
+{
+  "page": "25",
+  "n_streets": 9,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. TAYLOR",
+      "S. ALBANY"
+    ],
+    [
+      "FILLMORE",
+      "S. ALBANY"
+    ],
+    [
+      "FILLMORE",
+      "S. WHIPPLE (UTICA)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            746,
+            2275
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TAYLOR x S. ALBANY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7032959919712,
+            41.86916322349797
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            746,
+            4337
+          ],
+          "username": "autogeoref",
+          "note": "auto: FILLMORE x S. ALBANY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7032640256085,
+            41.86825341915122
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2917,
+            4337
+          ],
+          "username": "autogeoref",
+          "note": "auto: FILLMORE x S. WHIPPLE (UTICA)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70204282591865,
+            41.868261962651815
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70344523347623,
+            41.86982009209526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5154,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70065790781679,
+            41.86985892623
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70336779622446,
+            41.86673793938774
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  },
+  "seam_adjusted": {
+    "dx_m": 2.347,
+    "dy_m": 0.069
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "page": "1",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. HILL",
+      "N. WELLS"
+    ],
+    [
+      "W. WENDELL",
+      "N. WELLS"
+    ],
+    [
+      "N. WELLS",
+      "W. OAK"
+    ],
+    [
+      "N. WELLS",
+      "W. WALTON (W. WHITING)"
+    ],
+    [
+      "N. WELLS",
+      "W. LOCUST"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1510,
+            251
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HILL x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63441232934939,
+            41.90210414515497
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1510,
+            1880
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WENDELL x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63438160680828,
+            41.901324595980185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1510,
+            3579
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS x W. OAK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63435381350757,
+            41.9005427289069
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1510,
+            5340
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS x W. WALTON (W. WHITING)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63432229532708,
+            41.8997653461781
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1510,
+            6942
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS x W. LOCUST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63429136350743,
+            41.89898167876879
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63494718159146,
+            41.901831456700755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5319,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63207403564098,
+            41.90187591486152
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63487316809918,
+            41.89918167222138
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "page": "106",
+  "n_streets": 10,
+  "n_candidates": 25,
+  "n_inliers": 8,
+  "rotation_deg": -0.32,
+  "auto_residuals_m": [
+    19.69,
+    12.9,
+    12.77,
+    2.83,
+    1.18,
+    7.23,
+    11.21,
+    11.61
+  ],
+  "inlier_streets": [
+    [
+      "W. 37TH ST. (PRIVATE)",
+      "S. MORGAN"
+    ],
+    [
+      "W. 37TH PL.",
+      "S. MORGAN"
+    ],
+    [
+      "W. 37TH PL.",
+      "S. SANGAMON (GAGE)"
+    ],
+    [
+      "W. 38TH ST.",
+      "S. MORGAN"
+    ],
+    [
+      "W. 38TH ST.",
+      "S. SANGAMON (GAGE)"
+    ],
+    [
+      "S. MORGAN",
+      "W. 38TH PL."
+    ],
+    [
+      "S. MORGAN",
+      "W. PERSHING RD."
+    ],
+    [
+      "S. SANGAMON (GAGE)",
+      "W. 38TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3308,
+            137
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH ST. (PRIVATE) x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65088026906531,
+            41.82699013103284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3308,
+            613
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH PL. x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65086775636571,
+            41.826543152819255
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5750,
+            613
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH PL. x S. SANGAMON (GAGE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64924859617886,
+            41.82653749415399
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3308,
+            2964
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65083797402339,
+            41.82548028367087
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5750,
+            2964
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x S. SANGAMON (GAGE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64922481231386,
+            41.82550022405715
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3308,
+            5273
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MORGAN x W. 38TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65081671474947,
+            41.82443708787872
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3308,
+            7228
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MORGAN x W. PERSHING RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65079053211178,
+            41.82337356737793
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5750,
+            5273
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SANGAMON (GAGE) x W. 38TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64920561252505,
+            41.82445971758682
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.443,
+    "dy_m": -2.832
+  }
+}

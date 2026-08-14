@@ -1,0 +1,116 @@
+{
+  "page": "114",
+  "n_streets": 10,
+  "n_candidates": 6,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. DICKENS AV.",
+      "N. MAGNOLIA AV."
+    ],
+    [
+      "W. DICKENS AV.",
+      "N. RACINE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3300,
+            688
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. x N. MAGNOLIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6594977656609,
+            41.91983626887583
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5435,
+            688
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. x N. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65827908625168,
+            41.91984698460864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66116852048704,
+            41.91978823574312
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5315,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65831558079799,
+            41.91983033353289
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66109837889954,
+            41.91715640499101
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

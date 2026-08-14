@@ -1,0 +1,163 @@
+{
+  "page": "81",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 20TH PL.",
+      "S. RACINE"
+    ],
+    [
+      "W. 20TH PL.",
+      "S. MAY"
+    ],
+    [
+      "W. 21ST ST.",
+      "S. RACINE"
+    ],
+    [
+      "W. 21ST ST.",
+      "S. MAY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            300,
+            2704
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 20TH PL. x S. RACINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65632103323779,
+            41.85431695327064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2951,
+            2704
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 20TH PL. x S. MAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6547478953475,
+            41.854337581445634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            300,
+            3806
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. RACINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65630247639392,
+            41.85380059399299
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2951,
+            3806
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. MAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65473222666793,
+            41.85382914163587
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65619232606184,
+            41.85520731894827
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5252,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65334531519623,
+            41.85525015193023
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65612016663853,
+            41.85254640357656
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.857,
+    "separation_ratio": 1.364,
+    "best_offset_m": 2.1,
+    "n_junctions": 13
+  }
+}

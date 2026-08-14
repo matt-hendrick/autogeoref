@@ -1,0 +1,203 @@
+{
+  "page": "12",
+  "n_streets": 8,
+  "n_candidates": 13,
+  "n_inliers": 8,
+  "rotation_deg": 1.25,
+  "auto_residuals_m": [
+    1.35,
+    4.66,
+    13.79,
+    17.71,
+    18.95,
+    2.75,
+    0.29,
+    14.21
+  ],
+  "inlier_streets": [
+    [
+      "N. KOLMAR AV.",
+      "DIVERSEY AV."
+    ],
+    [
+      "DIVERSEY AV.",
+      "N. KENTON AV."
+    ],
+    [
+      "DIVERSEY AV.",
+      "N. KILBOURN AV."
+    ],
+    [
+      "N. KENTON AV.",
+      "PARKER AV."
+    ],
+    [
+      "N. KENTON AV.",
+      "SCHUBERT AV."
+    ],
+    [
+      "N. KENTON AV.",
+      "WRIGHTWOOD AV."
+    ],
+    [
+      "PARKER AV.",
+      "N. KILBOURN AV."
+    ],
+    [
+      "N. KILBOURN AV.",
+      "SCHUBERT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2545,
+            757
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KOLMAR AV. x DIVERSEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74045360911738,
+            41.93161374422093
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            357,
+            757
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AV. x N. KENTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74165152975638,
+            41.93159764178973
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4845,
+            757
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AV. x N. KILBOURN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73924940729272,
+            41.931629801653195
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            357,
+            2876
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENTON AV. x PARKER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74162435381915,
+            41.93058637294784
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            357,
+            4990
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENTON AV. x SCHUBERT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74204152551106,
+            41.929545915671895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            357,
+            7367
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENTON AV. x WRIGHTWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74199756082189,
+            41.92842016179095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4845,
+            2876
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARKER AV. x N. KILBOURN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73921318060766,
+            41.93061901482574
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4845,
+            4990
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILBOURN AV. x SCHUBERT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73917756322349,
+            41.92960837119453
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

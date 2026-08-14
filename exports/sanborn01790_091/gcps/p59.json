@@ -1,0 +1,226 @@
+{
+  "page": "59",
+  "n_streets": 8,
+  "n_candidates": 17,
+  "n_inliers": 9,
+  "rotation_deg": 1.3,
+  "auto_residuals_m": [
+    2.06,
+    1.77,
+    3.35,
+    2.42,
+    10.12,
+    9.07,
+    2.9,
+    3.85,
+    1.76
+  ],
+  "inlier_streets": [
+    [
+      "WABANSIA AV.",
+      "N. LEAVITT"
+    ],
+    [
+      "N. LEAVITT",
+      "CATON (COLUMBIA)"
+    ],
+    [
+      "N. LEAVITT",
+      "W. CONCORD PL. (ALICE PL.)"
+    ],
+    [
+      "N. LEAVITT",
+      "W. NORTH AV."
+    ],
+    [
+      "CATON (COLUMBIA)",
+      "MILWAUKEE AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. CONCORD PL. (ALICE PL.)"
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. NORTH AV."
+    ],
+    [
+      "W. CONCORD PL. (ALICE PL.)",
+      "N. HOYNE"
+    ],
+    [
+      "N. HOYNE",
+      "W. NORTH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            593,
+            1296
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68239434826403,
+            41.912653425286074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            593,
+            3037
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x CATON (COLUMBIA)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68238038034696,
+            41.911876742725916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            593,
+            4467
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x W. CONCORD PL. (ALICE PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68236665298218,
+            41.91120169403868
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            593,
+            6329
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6823465782277,
+            41.91039347150648
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4656,
+            3037
+          ],
+          "username": "autogeoref",
+          "note": "auto: CATON (COLUMBIA) x MILWAUKEE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67984606554018,
+            41.91191923621473
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4657,
+            4467
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. CONCORD PL. (ALICE PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68001003374178,
+            41.91124773381966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4657,
+            6329
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67990665847684,
+            41.91044005696264
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4571,
+            4467
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONCORD PL. (ALICE PL.) x N. HOYNE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68001003374178,
+            41.91124773381966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4571,
+            6329
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67998606159256,
+            41.91043895087851
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

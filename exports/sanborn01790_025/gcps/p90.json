@@ -1,0 +1,196 @@
+{
+  "page": "90",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. 23RD ST.",
+      "S. WINCHESTER AV."
+    ],
+    [
+      "W. 23RD ST.",
+      "S. LINCOLN"
+    ],
+    [
+      "W. 23RD ST.",
+      "S. ROBEY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2598,
+            1430
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 23RD ST. x S. WINCHESTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67478718886264,
+            41.85037788829851
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4961,
+            1430
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 23RD ST. x S. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67334604710116,
+            41.85039927707082
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            937,
+            1430
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 23RD ST. x S. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.675790133945,
+            41.85036303044452
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67602051578822,
+            41.85067627202201
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5258,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67317057790666,
+            41.850719152078064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67594835636493,
+            41.8480151681525
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6264,
+    "separation_ratio": 1.097,
+    "best_offset_m": 5.6,
+    "n_junctions": 14
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 8,
+      "votable": 8,
+      "in_block": 8,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 14.3,
+          "addr_diff": 0.9
+        },
+        {
+          "perp_m": 11.1,
+          "addr_diff": 4.5
+        },
+        {
+          "perp_m": 10.7,
+          "addr_diff": 4.2
+        },
+        {
+          "perp_m": 12.3,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 12.2,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 12.1,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 12.2,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 12.2,
+          "addr_diff": 0.3
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "page": "45",
+  "n_streets": 10,
+  "n_candidates": 15,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. DIVERSEY AVE.",
+      "N. ROCKWELL AVE."
+    ],
+    [
+      "W. DIVERSEY AVE.",
+      "N. MAPLEWOOD AVE."
+    ],
+    [
+      "W. DIVERSEY AVE.",
+      "N. MAPLEWOOD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2254,
+            300
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AVE. x N. ROCKWELL AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69277295923523,
+            41.93213022120513
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4208,
+            300
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AVE. x N. MAPLEWOOD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69156718273238,
+            41.932138578461156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4208,
+            300
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AVE. x N. MAPLEWOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69156718273238,
+            41.932138578461156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69382576711497,
+            41.931872844463605
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69109105697939,
+            41.93189854336823
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69377366900147,
+            41.92880449531508
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

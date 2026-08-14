@@ -1,0 +1,229 @@
+{
+  "page": "26",
+  "n_streets": 9,
+  "n_candidates": 20,
+  "n_inliers": 9,
+  "rotation_deg": 0.23,
+  "auto_residuals_m": [
+    8.43,
+    3.67,
+    8.1,
+    13.17,
+    13.45,
+    18.42,
+    6.69,
+    12.24,
+    14.76
+  ],
+  "inlier_streets": [
+    [
+      "RANDOLPH",
+      "WABASH AV."
+    ],
+    [
+      "RANDOLPH",
+      "MICHIGAN AV."
+    ],
+    [
+      "RANDOLPH",
+      "GARLAND CT."
+    ],
+    [
+      "WASHINGTON",
+      "WABASH AV."
+    ],
+    [
+      "WASHINGTON",
+      "MICHIGAN AV."
+    ],
+    [
+      "WASHINGTON",
+      "GARLAND CT."
+    ],
+    [
+      "MADISON",
+      "WABASH AV."
+    ],
+    [
+      "MADISON",
+      "MICHIGAN AV."
+    ],
+    [
+      "MADISON",
+      "GARLAND CT."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1492,
+            888
+          ],
+          "username": "autogeoref",
+          "note": "auto: RANDOLPH x WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6262159296281,
+            41.88449865948994
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4421,
+            888
+          ],
+          "username": "autogeoref",
+          "note": "auto: RANDOLPH x MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6244193855136,
+            41.88447417941114
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3185,
+            888
+          ],
+          "username": "autogeoref",
+          "note": "auto: RANDOLPH x GARLAND CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62520779364621,
+            41.88450079239916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1492,
+            3780
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON x WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6261972904155,
+            41.883224470006716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4421,
+            3780
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON x MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62436744786332,
+            41.883233598391286
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3185,
+            3780
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON x GARLAND CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62530724500368,
+            41.88322611793451
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1492,
+            6965
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON x WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62618243757655,
+            41.88208264049515
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4421,
+            6965
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON x MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62433358968738,
+            41.88211307373753
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3185,
+            6965
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON x GARLAND CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62530473744843,
+            41.88209908894604
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": 3.598,
+    "dy_m": 0.409
+  }
+}

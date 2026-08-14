@@ -1,0 +1,113 @@
+{
+  "page": "32",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 4,
+  "rotation_deg": 0.72,
+  "auto_residuals_m": [
+    1.01,
+    0.99,
+    0.99,
+    0.98
+  ],
+  "inlier_streets": [
+    [
+      "N. WESTERN AVE.",
+      "W. GEORGE"
+    ],
+    [
+      "N. WESTERN AVE.",
+      "W. DIVERSEY AVE."
+    ],
+    [
+      "W. GEORGE",
+      "N. CAMPBELL AVE."
+    ],
+    [
+      "N. CAMPBELL AVE.",
+      "W. DIVERSEY AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4454,
+            4339
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AVE. x W. GEORGE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68791443833798,
+            41.93400827996898
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4454,
+            8192
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AVE. x W. DIVERSEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68785577759462,
+            41.932200738298725
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            745,
+            4339
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GEORGE x N. CAMPBELL AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69034699172653,
+            41.9339904192824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            745,
+            8192
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL AVE. x W. DIVERSEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69032141650935,
+            41.932172864867226
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.996,
+    "dy_m": 3.234
+  }
+}

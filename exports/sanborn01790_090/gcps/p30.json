@@ -1,0 +1,159 @@
+{
+  "page": "30",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.79,
+  "auto_residuals_m": [
+    0.52,
+    0.75,
+    0.29,
+    0.34,
+    0.82,
+    0.55
+  ],
+  "inlier_streets": [
+    [
+      "W. 33RD ST.",
+      "S. BELL AV. (S. IRVING AV.)"
+    ],
+    [
+      "W. 33RD ST.",
+      "S. LEAVITT"
+    ],
+    [
+      "W. 33RD ST.",
+      "S. HAMILTON AV."
+    ],
+    [
+      "W. 34TH ST.",
+      "S. BELL AV. (S. IRVING AV.)"
+    ],
+    [
+      "W. 34TH ST.",
+      "S. LEAVITT"
+    ],
+    [
+      "W. 34TH ST.",
+      "S. HAMILTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            377,
+            2814
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x S. BELL AV. (S. IRVING AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68157303542874,
+            41.8339517915579
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2435,
+            2814
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6803546839422,
+            41.83396150739266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4452,
+            2814
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x S. HAMILTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67914094421795,
+            41.83397493804089
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            377,
+            6865
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 34TH ST. x S. BELL AV. (S. IRVING AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68151990546656,
+            41.832135055648116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2435,
+            6865
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 34TH ST. x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68030095789626,
+            41.83214810625988
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4452,
+            6865
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 34TH ST. x S. HAMILTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67908429756288,
+            41.832161675081444
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -9.345,
+    "dy_m": -0.426
+  }
+}

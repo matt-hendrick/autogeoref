@@ -1,0 +1,159 @@
+{
+  "page": "79",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.38,
+  "auto_residuals_m": [
+    1.21,
+    1.54,
+    1.75,
+    2.5,
+    2.58,
+    0.62
+  ],
+  "inlier_streets": [
+    [
+      "ARMITAGE AV.",
+      "N. KILBOURN AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. KENNETH AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. KOSTNER AV."
+    ],
+    [
+      "N. KILBOURN AV.",
+      "W. CORTLAND"
+    ],
+    [
+      "N. KENNETH AV.",
+      "W. CORTLAND"
+    ],
+    [
+      "W. CORTLAND",
+      "N. KOSTNER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            542,
+            423
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. KILBOURN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73879198017465,
+            41.91703096579166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2511,
+            423
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. KENNETH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73756592824078,
+            41.91704508479566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4416,
+            423
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. KOSTNER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73633908849183,
+            41.9170588010461
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            542,
+            4403
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILBOURN AV. x W. CORTLAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73871975292556,
+            41.91524457576418
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2511,
+            4403
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENNETH AV. x W. CORTLAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73751081090285,
+            41.91522737783659
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4416,
+            4403
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CORTLAND x N. KOSTNER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73628647680788,
+            41.91524089636714
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.237,
+    "dy_m": 2.084
+  }
+}

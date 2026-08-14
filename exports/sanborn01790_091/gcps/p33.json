@@ -1,0 +1,141 @@
+{
+  "page": "33",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. ARMITAGE AV.",
+      "N. WESTERN AV."
+    ],
+    [
+      "W. ARMITAGE AV.",
+      "N. OAKLEY AV."
+    ],
+    [
+      "N. OAKLEY AV.",
+      "HOMER ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            789,
+            1155
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARMITAGE AV. x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6874099902661,
+            41.91756773936662
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4831,
+            1155
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARMITAGE AV. x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68495894637599,
+            41.91761462686258
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4831,
+            2861
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. x HOMER ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6849359770375,
+            41.916847363916325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68754522910156,
+            41.91776299768775
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5290,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68468211264334,
+            41.91781093776129
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68746496443616,
+            41.915108750237934
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6459,
+    "separation_ratio": 1.248,
+    "best_offset_m": 2.0,
+    "n_junctions": 23
+  }
+}

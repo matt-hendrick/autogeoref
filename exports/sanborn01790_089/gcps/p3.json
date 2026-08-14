@@ -1,0 +1,109 @@
+{
+  "page": "3",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.88,
+  "auto_residuals_m": [
+    0.09,
+    0.02,
+    0.05,
+    0.09
+  ],
+  "inlier_streets": [
+    [
+      "E. ROOSEVELT ROAD (E. 12TH ST.)",
+      "S. STATE"
+    ],
+    [
+      "E. ROOSEVELT ROAD (E. 12TH ST.)",
+      "S. WABASH AV."
+    ],
+    [
+      "S. STATE",
+      "E. 13TH ST."
+    ],
+    [
+      "S. WABASH AV.",
+      "E. 13TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1725,
+            1673
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. ROOSEVELT ROAD (E. 12TH ST.) x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62741867652336,
+            41.86741358798877
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4365,
+            1673
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. ROOSEVELT ROAD (E. 12TH ST.) x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62582986257473,
+            41.86743185537576
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1725,
+            5544
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x E. 13TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62738393825362,
+            41.86574287013866
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4365,
+            5544
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 13TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62579703267413,
+            41.86576085660824
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

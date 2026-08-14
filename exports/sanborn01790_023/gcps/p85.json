@@ -1,0 +1,158 @@
+{
+  "page": "85",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (verified: corroboration+junction+addresses)",
+  "rescue_anchors": [
+    [
+      "WALNUT",
+      "N. LEAVITT"
+    ],
+    [
+      "W. LAKE",
+      "N. LEAVITT"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            705,
+            1695
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6816530725489,
+            41.88578341770936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            705,
+            3819
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68162290499014,
+            41.884801749083515
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68173578426415,
+            41.88619067936076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5272,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67894007641222,
+            41.88623682672888
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6816582956114,
+            41.883588789270306
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.595,
+    "separation_ratio": 1.058,
+    "best_offset_m": 20.1,
+    "n_junctions": 26
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5"
+      ],
+      "consensus_numerals": 4,
+      "votable": 4,
+      "in_block": 4,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 6.8,
+          "addr_diff": 3.1
+        },
+        {
+          "perp_m": 6.8,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 6.9,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 6.9,
+          "addr_diff": 0.1
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

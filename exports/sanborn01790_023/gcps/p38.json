@@ -1,0 +1,142 @@
+{
+  "page": "38",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. HURON",
+      "N. HOYNE AV."
+    ],
+    [
+      "W. ERIE",
+      "N. HOYNE AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. OHIO"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            864,
+            546
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67945008110954,
+            41.89405370417565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            864,
+            2607
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6794257441546,
+            41.893138748881334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            864,
+            4533
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67939536362232,
+            41.892230003267365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67961372041687,
+            41.89395052528591
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5276,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67681610358039,
+            41.89399669855539
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67953623176412,
+            41.89134895123649
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7101,
+    "separation_ratio": 1.08,
+    "best_offset_m": 3.4,
+    "n_junctions": 22
+  }
+}

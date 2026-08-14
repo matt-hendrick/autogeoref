@@ -1,0 +1,211 @@
+{
+  "page": "27",
+  "n_streets": 11,
+  "n_candidates": 13,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "ALTGELD",
+      "N. KILPATRICK AV."
+    ],
+    [
+      "ALTGELD",
+      "N. KENTON AV."
+    ],
+    [
+      "N. KILPATRICK AV.",
+      "MONTANA"
+    ],
+    [
+      "N. KILPATRICK AV.",
+      "FULLERTON AV."
+    ],
+    [
+      "N. KENTON AV.",
+      "MONTANA"
+    ],
+    [
+      "N. KENTON AV.",
+      "FULLERTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2128,
+            4203
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALTGELD x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74393755469075,
+            41.926276555764474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5457,
+            4203
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALTGELD x N. KENTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74190676617275,
+            41.92630254809127
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2128,
+            6226
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILPATRICK AV. x MONTANA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74389887280174,
+            41.92528794548756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2128,
+            8301
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILPATRICK AV. x FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74386451692152,
+            41.92428596705202
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5457,
+            6226
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENTON AV. x MONTANA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74186802526751,
+            41.92531278017809
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5457,
+            8301
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENTON AV. x FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74183420133673,
+            41.92431620565776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74491498758088,
+            41.92774013096674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5279,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74202775590079,
+            41.92777747040505
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74484223774375,
+            41.92462634787558
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 0.216,
+    "dy_m": 2.355
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7089,
+    "separation_ratio": 1.194,
+    "best_offset_m": 2.4,
+    "n_junctions": 11
+  }
+}

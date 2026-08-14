@@ -1,0 +1,205 @@
+{
+  "page": "36S",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 8,
+  "rotation_deg": 1.4,
+  "auto_residuals_m": [
+    1.42,
+    2.81,
+    1.36,
+    0.16,
+    0.12,
+    1.43,
+    2.8,
+    1.38
+  ],
+  "inlier_streets": [
+    [
+      "N. LA SALLE",
+      "W. MADISON"
+    ],
+    [
+      "N. LA SALLE",
+      "ARCADE PL."
+    ],
+    [
+      "N. LA SALLE",
+      "W. MONROE"
+    ],
+    [
+      "N. CLARK",
+      "W. MADISON"
+    ],
+    [
+      "N. CLARK",
+      "W. MONROE"
+    ],
+    [
+      "W. MADISON",
+      "S. LA SALLE"
+    ],
+    [
+      "S. LA SALLE",
+      "ARCADE PL."
+    ],
+    [
+      "S. LA SALLE",
+      "W. MONROE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1609,
+            2248
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LA SALLE x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63238069151573,
+            41.881965063534935
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1609,
+            3735
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LA SALLE x ARCADE PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63236643100683,
+            41.88127332619369
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1609,
+            5122
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LA SALLE x W. MONROE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63234912292448,
+            41.88068233875607
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4024,
+            2248
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63090373461084,
+            41.881981466879466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4024,
+            5122
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. MONROE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63087358769538,
+            41.880700851157115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1607,
+            2248
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. LA SALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63238069151573,
+            41.881965063534935
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1607,
+            3735
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LA SALLE x ARCADE PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63236643100683,
+            41.88127332619369
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1607,
+            5122
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LA SALLE x W. MONROE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63234912292448,
+            41.88068233875607
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.285,
+    "dy_m": 0.656
+  }
+}

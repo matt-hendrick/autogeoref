@@ -1,0 +1,138 @@
+{
+  "page": "1",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "FRANKLIN",
+      "LAKE"
+    ],
+    [
+      "RR LAKE BRANCH",
+      "FRANKLIN"
+    ],
+    [
+      "RR LAKE BRANCH",
+      "FRANKLIN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4141,
+            3835
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRANKLIN x LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63541002760226,
+            41.88573488223764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4141,
+            3762
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR LAKE BRANCH x FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63541002913425,
+            41.88575070874185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4141,
+            3762
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR LAKE BRANCH x FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6354100254531,
+            41.88571548378728
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63749170442097,
+            41.887016499011104
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5283,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63478381581676,
+            41.887053754449795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63742928231818,
+            41.88450186953575
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "page": "64",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.77,
+  "auto_residuals_m": [
+    1.33,
+    2.83,
+    1.45,
+    1.35,
+    2.83,
+    1.43
+  ],
+  "inlier_streets": [
+    [
+      "W. GRAND AV.",
+      "N. ABERDEEN (CURTIS)"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. CARPENTER"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. MORGAN"
+    ],
+    [
+      "N. ABERDEEN (CURTIS)",
+      "W. HUBBARD (W. AUSTIN AV.)"
+    ],
+    [
+      "N. CARPENTER",
+      "W. HUBBARD (W. AUSTIN AV.)"
+    ],
+    [
+      "N. MORGAN",
+      "W. HUBBARD (W. AUSTIN AV.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1007,
+            3654
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. ABERDEEN (CURTIS)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65465415956884,
+            41.89110365747181
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2931,
+            3654
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. CARPENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65348668992475,
+            41.89111509785433
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4732,
+            3654
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65232040270469,
+            41.89112786845073
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1007,
+            6110
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ABERDEEN (CURTIS) x W. HUBBARD (W. AUSTIN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65462344956855,
+            41.890010512214324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2931,
+            6110
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CARPENTER x W. HUBBARD (W. AUSTIN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65345602563228,
+            41.890021978382336
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4732,
+            6110
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MORGAN x W. HUBBARD (W. AUSTIN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65228995121053,
+            41.89003294178122
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.753,
+    "dy_m": -0.781
+  }
+}

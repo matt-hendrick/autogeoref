@@ -1,0 +1,136 @@
+{
+  "page": "43",
+  "n_streets": 11,
+  "n_candidates": 19,
+  "n_inliers": 5,
+  "rotation_deg": 0.6,
+  "auto_residuals_m": [
+    4.31,
+    7.9,
+    3.55,
+    0.77,
+    0.71
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVERSEY AVE.",
+      "N. FRANCISCO AVE."
+    ],
+    [
+      "W. DIVERSEY AVE.",
+      "N. MOZART"
+    ],
+    [
+      "W. DIVERSEY AVE.",
+      "N. CALIFORNIA AVE."
+    ],
+    [
+      "N. FRANCISCO AVE.",
+      "SCHUBERT AVE."
+    ],
+    [
+      "N. CALIFORNIA AVE.",
+      "SCHUBERT AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            121,
+            360
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AVE. x N. FRANCISCO AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70009787456148,
+            41.93208278418443
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2358,
+            360
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AVE. x N. MOZART"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6988709402993,
+            41.93209116651037
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4242,
+            360
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AVE. x N. CALIFORNIA AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69764239628734,
+            41.93209915634113
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            121,
+            4287
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANCISCO AVE. x SCHUBERT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70006883975134,
+            41.930257754214374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4242,
+            4287
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CALIFORNIA AVE. x SCHUBERT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69759381282319,
+            41.93027958673547
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.753,
+    "dy_m": 0.521
+  }
+}

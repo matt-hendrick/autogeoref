@@ -1,0 +1,206 @@
+/* The walkthrough page. Shares the viewer's typefaces and its paper-and-ink
+   palette, and adds a dark theme: this page is read, not browsed, and a reader
+   who has their system set dark should not be handed a lightbox.
+
+   The rendered plates are printed on paper in both themes on purpose. A scan
+   has a paper colour, and inverting it would misrepresent the thing the page
+   exists to show; the plate sits on a card instead, the way a print does. */
+:root {
+  --paper: #f4eddd;
+  --card: #fbf6ea;
+  --edge: #e0d3b8;
+  --ink: #221b12;
+  --ink-soft: #5c5142;
+  --carmine: #b0403a;
+  --carmine-dark: #8d2f2b;
+  --keep: #0c6949;
+  --prov: #6d4a9e;
+  --drop: #7f7464;
+  --hairline: rgba(34, 27, 18, .18);
+  --shadow: 0 18px 40px -22px rgba(0, 0, 0, .5);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #16130e;
+    --card: #201b14;
+    --edge: #3a3227;
+    --ink: #f0e7d6;
+    --ink-soft: #b3a794;
+    --carmine: #e0847c;
+    --carmine-dark: #f0a89f;
+    --keep: #5fbf9b;
+    --prov: #b295e0;
+    --drop: #9c9284;
+    --hairline: rgba(240, 231, 214, .16);
+    --shadow: 0 18px 40px -22px rgba(0, 0, 0, .9);
+  }
+}
+/* The system preference is the only theme signal. This page has no toggle, so
+   there is deliberately no `data-theme` override here: an override nothing
+   sets is unreachable CSS that reads as a feature. */
+
+* { box-sizing: border-box; margin: 0; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 17px;
+  line-height: 1.55;
+  padding: 0 20px 40px;
+}
+a { color: var(--carmine-dark); }
+a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid var(--carmine); outline-offset: 3px;
+}
+.skip {
+  position: absolute; left: -9999px;
+  background: var(--card); padding: 10px 14px; border: 1px solid var(--edge);
+}
+.skip:focus { left: 12px; top: 12px; z-index: 10; }
+
+#masthead {
+  max-width: 1360px; margin: 0 auto; padding: 40px 0 22px;
+  border-bottom: 1px solid var(--hairline);
+}
+.kicker {
+  font-size: 11.5px; letter-spacing: .24em; text-transform: uppercase;
+  color: var(--carmine-dark); font-weight: 500;
+}
+h1 {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 900; font-size: clamp(30px, 5vw, 52px); line-height: 1.03;
+  letter-spacing: -.015em; margin-top: 8px;
+}
+.dek { margin-top: 10px; color: var(--ink-soft); max-width: 62ch; }
+
+/* ---------- the step rail ---------- */
+#progress { max-width: 1360px; margin: 0 auto; overflow-x: auto; scrollbar-width: thin; }
+#steps {
+  display: flex; gap: 4px; list-style: none; padding: 14px 0 12px; margin: 0;
+}
+#steps li { flex: 0 0 auto; }
+#steps button {
+  min-width: 34px; min-height: 34px; padding: 0 6px; cursor: pointer;
+  font: 600 12px/1 "Fraunces", Georgia, serif;
+  background: transparent; color: var(--ink-soft);
+  border: 1px solid var(--hairline); border-radius: 999px;
+}
+#steps button:hover { border-color: var(--carmine); color: var(--ink); }
+#steps button[aria-current="step"] {
+  background: var(--carmine); border-color: var(--carmine); color: #fdf6ea;
+}
+#steps .act-break { width: 12px; }
+
+/* ---------- the panel ---------- */
+#panel {
+  max-width: 1360px; margin: 0 auto; padding: 10px 0 0;
+  display: grid; gap: 30px; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+  align-items: start;
+}
+#panel:focus { outline: none; }
+#figure { margin: 0; }
+#plate-link { display: block; }
+#plate {
+  display: block; width: 100%; height: auto;
+  border: 1px solid var(--edge); box-shadow: var(--shadow);
+  background: #f5eedf;
+}
+#plate-note { margin-top: 8px; font-size: 13px; color: var(--ink-soft); }
+
+#states { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+#states button {
+  min-height: 40px; padding: 0 16px; cursor: pointer;
+  font: 600 13.5px/1 "Fraunces", Georgia, serif;
+  background: transparent; color: var(--ink); border: 1px solid var(--hairline);
+}
+#states button:hover { border-color: var(--carmine); }
+#states button[aria-pressed="true"] {
+  background: var(--carmine); border-color: var(--carmine); color: #fdf6ea;
+}
+#states:empty { display: none; }
+
+.act {
+  font-size: 11.5px; letter-spacing: .2em; text-transform: uppercase;
+  color: var(--carmine-dark);
+}
+h2 {
+  font-family: "Fraunces", Georgia, serif; font-weight: 900;
+  font-size: clamp(24px, 2.6vw, 34px); line-height: 1.08; margin: 8px 0 0;
+}
+.lede { margin-top: 10px; font-size: 18.5px; color: var(--ink); }
+.body { margin-top: 14px; color: var(--ink-soft); }
+/* The walkthrough tells one or two steps out of the order a run does them in.
+   Where that happens the panel says so, in its own block, rather than leaving
+   a reader to infer a sequence the pipeline does not follow. */
+.order-note {
+  margin-top: 14px; padding: 10px 14px;
+  border-left: 3px solid var(--carmine);
+  background: var(--card);
+  font-size: 15px; color: var(--ink);
+}
+
+#figures {
+  margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--hairline);
+  display: grid; grid-template-columns: 1fr auto; gap: 4px 16px;
+}
+#figures dt { font-size: 14px; color: var(--ink-soft); }
+#figures dd {
+  margin: 0; text-align: right;
+  font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- the running tally ---------- */
+#tally { margin-top: 22px; padding: 14px 16px; background: var(--card); border: 1px solid var(--edge); }
+.tally-head {
+  font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--ink-soft);
+}
+#tally-bar { display: flex; height: 16px; margin: 10px 0 8px; background: var(--hairline); }
+.seg { display: block; height: 100%; }
+.seg.placed { background: var(--keep); }
+.seg.prov { background: var(--prov); }
+.seg.flagged { background: var(--drop); }
+#tally-note { font-size: 13.5px; color: var(--ink-soft); }
+#tally.idle #tally-bar { opacity: .35; }
+
+/* ---------- controls ---------- */
+#controls {
+  position: sticky; bottom: 0; z-index: 5;
+  max-width: 1360px; margin: 26px auto 0; padding: 12px 0;
+  display: flex; align-items: center; gap: 14px;
+  background: var(--paper); border-top: 1px solid var(--hairline);
+}
+#controls button {
+  min-height: 46px; padding: 0 20px; cursor: pointer;
+  font: 600 14px/1 "Fraunces", Georgia, serif;
+  background: transparent; color: var(--ink); border: 1px solid var(--hairline);
+}
+#controls button:hover:not(:disabled) { border-color: var(--carmine); }
+#controls button:disabled { opacity: .35; cursor: default; }
+#counter { font-size: 13px; color: var(--ink-soft); letter-spacing: .1em; }
+#next { margin-left: auto; }
+
+/* ---------- footer ---------- */
+#footer {
+  max-width: 1360px; margin: 40px auto 0; padding-top: 20px;
+  border-top: 1px solid var(--hairline); font-size: 14px; color: var(--ink-soft);
+}
+#glossary { display: grid; gap: 6px 18px; grid-template-columns: max-content 1fr; }
+#glossary .term { font-weight: 600; color: var(--ink); }
+#credits, #outro { margin-top: 16px; }
+/* the outro's two ways on sit apart from the sentence and from each other,
+   and are a row rather than a line of text so a thumb can hit either */
+#outro a { display: inline-flex; align-items: center; min-height: 44px; }
+#outro a + a { margin-left: 20px; }
+
+/* ---------- one column, on a phone ---------- */
+@media (max-width: 900px) {
+  body { padding: 0 14px 30px; }
+  #panel { grid-template-columns: 1fr; gap: 20px; }
+  #masthead { padding: 26px 0 16px; }
+  #figures { grid-template-columns: 1fr auto; }
+  #controls { gap: 10px; }
+  #controls button { padding: 0 14px; }
+  #glossary { grid-template-columns: 1fr; }
+  #glossary .term { margin-top: 8px; }
+}

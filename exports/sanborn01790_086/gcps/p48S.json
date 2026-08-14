@@ -1,0 +1,132 @@
+{
+  "page": "48S",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 0.77,
+  "auto_residuals_m": [
+    1.03,
+    1.07,
+    2.1,
+    2.15,
+    0.04
+  ],
+  "inlier_streets": [
+    [
+      "S. DEARBORN",
+      "W. ADAMS"
+    ],
+    [
+      "S. DEARBORN",
+      "W. MONROE"
+    ],
+    [
+      "W. ADAMS",
+      "S. STATE"
+    ],
+    [
+      "W. QUINCY",
+      "S. STATE"
+    ],
+    [
+      "W. MONROE",
+      "S. STATE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1629,
+            4355
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DEARBORN x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62935174497238,
+            41.879438165990166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1629,
+            1523
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DEARBORN x W. MONROE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62936866655289,
+            41.88071932347482
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4310,
+            4355
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.627710331072,
+            41.87946164332029
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4310,
+            5730
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. QUINCY x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62769479127789,
+            41.87880481777046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4310,
+            1523
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62772748538445,
+            41.88074289819573
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

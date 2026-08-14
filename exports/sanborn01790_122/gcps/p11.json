@@ -1,0 +1,184 @@
+{
+  "page": "11",
+  "n_streets": 8,
+  "n_candidates": 14,
+  "n_inliers": 7,
+  "rotation_deg": 0.85,
+  "auto_residuals_m": [
+    11.45,
+    3.97,
+    8.43,
+    12.47,
+    6.16,
+    3.98,
+    7.17
+  ],
+  "inlier_streets": [
+    [
+      "W. 87TH. ST.",
+      "S. PEORIA AV."
+    ],
+    [
+      "W. 87TH. ST.",
+      "S. HALSTED"
+    ],
+    [
+      "W. 88TH. ST.",
+      "S. VINCENNES AV."
+    ],
+    [
+      "W. 88TH. ST.",
+      "S. GENOA AV."
+    ],
+    [
+      "W. 88TH. ST.",
+      "S. HALSTED"
+    ],
+    [
+      "W. 89TH. ST.",
+      "S. HALSTED"
+    ],
+    [
+      "W. 89TH. ST.",
+      "S. GREEN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1378,
+            410
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 87TH. ST. x S. PEORIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6461151850421,
+            41.736048106132706
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5379,
+            410
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 87TH. ST. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64364764474492,
+            41.736080521813115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1405,
+            3854
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 88TH. ST. x S. VINCENNES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6458594422693,
+            41.73431931200982
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3268,
+            3854
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 88TH. ST. x S. GENOA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64472685954935,
+            41.734323695369845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5379,
+            3854
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 88TH. ST. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6435943575514,
+            41.73432367303314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5379,
+            7558
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 89TH. ST. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64354414652539,
+            41.732561644989126
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3340,
+            7558
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 89TH. ST. x S. GREEN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64476917587045,
+            41.73256053180449
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -2.876,
+    "dy_m": 1.516
+  }
+}

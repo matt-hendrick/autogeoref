@@ -1,0 +1,182 @@
+{
+  "page": "67",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 7,
+  "rotation_deg": 2.14,
+  "auto_residuals_m": [
+    12.45,
+    11.49,
+    1.07,
+    8.25,
+    4.11,
+    5.29,
+    7.31
+  ],
+  "inlier_streets": [
+    [
+      "N. PULASKI RD.",
+      "W. KINZIE"
+    ],
+    [
+      "N. PULASKI RD.",
+      "FERDINAND"
+    ],
+    [
+      "N. PULASKI RD.",
+      "W. OHIO"
+    ],
+    [
+      "N. HARDING AV.",
+      "FERDINAND"
+    ],
+    [
+      "N. HARDING AV.",
+      "W. OHIO"
+    ],
+    [
+      "FERDINAND",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "W. OHIO",
+      "N. SPRINGFIELD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            319,
+            8344
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PULASKI RD. x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72585942539949,
+            41.88773814372801
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            319,
+            4281
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PULASKI RD. x FERDINAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72591765318181,
+            41.889829292169416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            319,
+            246
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PULASKI RD. x W. OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7259633702686,
+            41.89166326594171
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2304,
+            4281
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HARDING AV. x FERDINAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72469339490922,
+            41.88984163103071
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2304,
+            246
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HARDING AV. x W. OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7247461687181,
+            41.89167672579155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4285,
+            4281
+          ],
+          "username": "autogeoref",
+          "note": "auto: FERDINAND x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72347706867288,
+            41.88985567844049
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4285,
+            246
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72352559420882,
+            41.89168919736003
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.978,
+    "dy_m": -4.622
+  }
+}

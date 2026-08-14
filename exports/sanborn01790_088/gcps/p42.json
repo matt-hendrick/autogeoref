@@ -1,0 +1,251 @@
+{
+  "page": "42",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 10,
+  "rotation_deg": 1.03,
+  "auto_residuals_m": [
+    0.26,
+    0.57,
+    0.77,
+    1.0,
+    1.21,
+    4.36,
+    1.32,
+    2.08,
+    3.28,
+    1.97
+  ],
+  "inlier_streets": [
+    [
+      "W. WENDELL",
+      "N. ORLEANS"
+    ],
+    [
+      "W. WENDELL",
+      "N. WELLS"
+    ],
+    [
+      "W. OAK",
+      "N. ORLEANS"
+    ],
+    [
+      "W. OAK",
+      "N. WELLS"
+    ],
+    [
+      "W. WALTON (W. WHITING)",
+      "N. ORLEANS"
+    ],
+    [
+      "W. WALTON (W. WHITING)",
+      "N. FRANKLIN"
+    ],
+    [
+      "W. WALTON (W. WHITING)",
+      "N. WELLS"
+    ],
+    [
+      "W. LOCUST",
+      "N. ORLEANS"
+    ],
+    [
+      "W. LOCUST",
+      "N. FRANKLIN"
+    ],
+    [
+      "W. LOCUST",
+      "N. WELLS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            434,
+            1119
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WENDELL x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63737638329093,
+            41.90127882861375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5505,
+            1119
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WENDELL x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63440435215125,
+            41.90131998923942
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            434,
+            2823
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OAK x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63734556050497,
+            41.900500537355875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5505,
+            2823
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OAK x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63437655885056,
+            41.90053812210972
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            434,
+            4549
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALTON (W. WHITING) x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63731355206308,
+            41.89971905082274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2896,
+            4549
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALTON (W. WHITING) x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63582192578706,
+            41.89973830871789
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5505,
+            4549
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALTON (W. WHITING) x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63434504067006,
+            41.89976073932485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            434,
+            6270
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LOCUST x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63728444844853,
+            41.8989389014873
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2896,
+            6270
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LOCUST x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63579476289006,
+            41.898958224335864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5505,
+            6270
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LOCUST x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63431410885042,
+            41.898977071858994
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.532,
+    "dy_m": -0.689
+  }
+}

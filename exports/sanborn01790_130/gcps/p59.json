@@ -1,0 +1,164 @@
+{
+  "page": "59",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. EXCHANGE AV.",
+      "E. 91ST ST."
+    ],
+    [
+      "S. EXCHANGE AV.",
+      "E. 92ND ST."
+    ],
+    [
+      "E. 91ST ST.",
+      "S. ESCANABA AV."
+    ],
+    [
+      "E. 91ST ST.",
+      "S. MUSKEGON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1386,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EXCHANGE AV. x E. 91ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55263870699687,
+            41.73005749201573
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5243,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EXCHANGE AV. x E. 92ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55259132526152,
+            41.72822928268189
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1386,
+            2333
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST ST. x S. ESCANABA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55402081747592,
+            41.73004180333116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1386,
+            4543
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST ST. x S. MUSKEGON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55540457567865,
+            41.73001362449142
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            839
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55302991479488,
+            41.730423088815975
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5236,
+            839
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55298804809892,
+            41.72823690553724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            7547
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55725227902481,
+            41.73037805335549
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -88.6791,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5563,
+    "separation_ratio": 1.248,
+    "best_offset_m": 16.3,
+    "n_junctions": 11
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "page": "39",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 49TH ST.",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. 49TH PL.",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. 50TH ST.",
+      "S. HOYNE AV."
+    ],
+    [
+      "S. HOYNE AV.",
+      "W. 50TH PL."
+    ],
+    [
+      "S. HOYNE AV.",
+      "W. 51ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4847,
+            219
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 49TH ST. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67702749726803,
+            41.80484777838656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4847,
+            2247
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 49TH PL. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67700080526285,
+            41.80393065186202
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4847,
+            4305
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 50TH ST. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67697929642142,
+            41.80303054685016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4847,
+            6288
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x W. 50TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6769590257467,
+            41.802113417476725
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4847,
+            8225
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67693615089898,
+            41.801203174673134
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67965185967903,
+            41.80454745008632
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5270,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67676546201042,
+            41.804594028089554
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67956111452136,
+            41.801422702946574
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7517,
+    "separation_ratio": 1.068,
+    "best_offset_m": 5.4,
+    "n_junctions": 10
+  }
+}

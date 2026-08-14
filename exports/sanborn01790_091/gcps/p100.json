@@ -1,0 +1,159 @@
+{
+  "page": "100",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.19,
+  "auto_residuals_m": [
+    0.22,
+    0.64,
+    0.64,
+    0.53,
+    0.36,
+    0.24
+  ],
+  "inlier_streets": [
+    [
+      "W. POTOMAC AV. (BRADLEY)",
+      "N. GREENVIEW AV."
+    ],
+    [
+      "W. POTOMAC AV. (BRADLEY)",
+      "N. CLEAVER"
+    ],
+    [
+      "W. POTOMAC AV. (BRADLEY)",
+      "N. NOBLE"
+    ],
+    [
+      "N. GREENVIEW AV.",
+      "W. DIVISION"
+    ],
+    [
+      "N. CLEAVER",
+      "W. DIVISION"
+    ],
+    [
+      "N. NOBLE",
+      "W. DIVISION"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            965,
+            1217
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POTOMAC AV. (BRADLEY) x N. GREENVIEW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66507493659451,
+            41.90518658650144
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2962,
+            1217
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POTOMAC AV. (BRADLEY) x N. CLEAVER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66385848501697,
+            41.90520810176208
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4927,
+            1217
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POTOMAC AV. (BRADLEY) x N. NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66264524986225,
+            41.905225166011306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            965,
+            5163
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GREENVIEW AV. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66502049189604,
+            41.90338879565358
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2962,
+            5163
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLEAVER x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66380561023855,
+            41.90340458519618
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4927,
+            5163
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NOBLE x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66260329878874,
+            41.90342518859106
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.717,
+    "dy_m": 2.469
+  }
+}

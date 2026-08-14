@@ -1,0 +1,133 @@
+{
+  "page": "10",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.19,
+  "auto_residuals_m": [
+    1.14,
+    4.88,
+    4.49,
+    3.75,
+    4.46
+  ],
+  "inlier_streets": [
+    [
+      "S. CLARK",
+      "W. 15TH ST."
+    ],
+    [
+      "S. DEARBORN",
+      "W. 15TH ST."
+    ],
+    [
+      "S. STATE",
+      "W. 14TH ST."
+    ],
+    [
+      "S. STATE",
+      "W. 15TH ST."
+    ],
+    [
+      "PLYMOUTH CT.",
+      "W. 14TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            154,
+            6657
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLARK x W. 15TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63025275163484,
+            41.86190971728991
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2548,
+            6657
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DEARBORN x W. 15TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62882113795246,
+            41.86192881318572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5342,
+            1915
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x W. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62734348872135,
+            41.8640525087489
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5342,
+            6657
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x W. 15TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62729064752962,
+            41.861953875380145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3577,
+            1915
+          ],
+          "username": "autogeoref",
+          "note": "auto: PLYMOUTH CT. x W. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62843929050538,
+            41.86403110398901
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

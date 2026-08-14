@@ -1,0 +1,109 @@
+{
+  "page": "23",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "rotation_deg": 0.77,
+  "auto_residuals_m": [
+    0.17,
+    0.18,
+    0.14,
+    0.22
+  ],
+  "inlier_streets": [
+    [
+      "BELDEN AV.",
+      "SOUTHPORT AV."
+    ],
+    [
+      "BELDEN AV.",
+      "WARD"
+    ],
+    [
+      "SOUTHPORT AV.",
+      "WEBSTER AV."
+    ],
+    [
+      "WARD",
+      "WEBSTER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            846,
+            187
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x SOUTHPORT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66325866357762,
+            41.923419335762716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2829,
+            187
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x WARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66204360314106,
+            41.92343370246531
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            846,
+            4256
+          ],
+          "username": "autogeoref",
+          "note": "auto: SOUTHPORT AV. x WEBSTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66319747425776,
+            41.921620247028905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2829,
+            4256
+          ],
+          "username": "autogeoref",
+          "note": "auto: WARD x WEBSTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66198508256834,
+            41.92163026514816
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

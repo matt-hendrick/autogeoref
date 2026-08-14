@@ -1,0 +1,119 @@
+{
+  "page": "6",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 31ST ST.",
+      "S. WOOD"
+    ],
+    [
+      "S. PAULINA",
+      "W. 32ND ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            903,
+            320
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67056358638558,
+            41.837690839618936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4932,
+            5240
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PAULINA x W. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6680748407992,
+            41.83550240206002
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67073377119584,
+            41.83749148284389
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5288,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66792179744914,
+            41.837527320231985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67067382463031,
+            41.83488048339794
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4841,
+    "separation_ratio": 1.122,
+    "best_offset_m": 3.0,
+    "n_junctions": 16
+  }
+}

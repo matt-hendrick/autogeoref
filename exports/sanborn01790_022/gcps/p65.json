@@ -1,0 +1,109 @@
+{
+  "page": "65",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 1.25,
+  "auto_residuals_m": [
+    0.13,
+    0.14,
+    0.13,
+    0.14
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. CLAREMONT AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. OAKLEY AV."
+    ],
+    [
+      "LE MOYNE",
+      "N. CLAREMONT AV."
+    ],
+    [
+      "LE MOYNE",
+      "N. OAKLEY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3213,
+            851
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6859973391356,
+            41.910338240764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5236,
+            851
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68478216828716,
+            41.91035748123603
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3213,
+            4916
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68595265531309,
+            41.908507485847295
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5236,
+            4916
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68473289254248,
+            41.90852762943526
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

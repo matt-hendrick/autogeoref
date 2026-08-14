@@ -1,0 +1,111 @@
+{
+  "page": "77",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.15,
+  "auto_residuals_m": [
+    0.13,
+    0.08,
+    0.08,
+    0.13
+  ],
+  "inlier_streets": [
+    [
+      "W. MARQUETTE RD. (W. 67TH ST.)",
+      "S. PULASKI RD. (S. CRAWFORD AV.)"
+    ],
+    [
+      "W. MARQUETTE RD. (W. 67TH ST.)",
+      "S. SPRINGFIELD AV. (NOT OPEN)"
+    ],
+    [
+      "S. PULASKI RD. (S. CRAWFORD AV.)",
+      "W. 69TH ST."
+    ],
+    [
+      "S. SPRINGFIELD AV. (NOT OPEN)",
+      "W. 69TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            840,
+            257
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MARQUETTE RD. (W. 67TH ST.) x S. PULASKI RD. (S. CRAWFORD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72257606182231,
+            41.77137395407672
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4720,
+            257
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MARQUETTE RD. (W. 67TH ST.) x S. SPRINGFIELD AV. (NOT OPEN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72012411373615,
+            41.77141191566742
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            840,
+            8036
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PULASKI RD. (S. CRAWFORD AV.) x W. 69TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72248539896427,
+            41.76773537889796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4720,
+            8036
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. (NOT OPEN) x W. 69TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72003521527162,
+            41.76777090328815
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

@@ -1,0 +1,123 @@
+{
+  "page": "67",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "POLK",
+      "DE KALB"
+    ],
+    [
+      "S. HOYNE AV.",
+      "TAYLOR"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2306,
+            1071
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x DE KALB"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67945777961727,
+            41.87143633781071
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4543,
+            6266
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x TAYLOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6781221487399,
+            41.869086579425606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68053238449828,
+            41.87154853717495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67771371862776,
+            41.87159250284813
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68045866175606,
+            41.868927721839135
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 4.811,
+    "dy_m": 1.043
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.4001,
+    "separation_ratio": 0.754,
+    "best_offset_m": 68.5,
+    "n_junctions": 24
+  }
+}

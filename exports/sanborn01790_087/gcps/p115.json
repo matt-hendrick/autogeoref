@@ -1,0 +1,182 @@
+{
+  "page": "115",
+  "n_streets": 6,
+  "n_candidates": 10,
+  "n_inliers": 7,
+  "rotation_deg": 1.19,
+  "auto_residuals_m": [
+    1.14,
+    0.11,
+    1.19,
+    0.13,
+    1.4,
+    2.42,
+    3.7
+  ],
+  "inlier_streets": [
+    [
+      "W. DICKENS AVE. (W. GARFIELD AV.)",
+      "N. RACINE AV."
+    ],
+    [
+      "W. DICKENS AVE. (W. GARFIELD AV.)",
+      "N. CLIFTON AV."
+    ],
+    [
+      "W. DICKENS AVE. (W. GARFIELD AV.)",
+      "N. SEMINARY AV."
+    ],
+    [
+      "N. RACINE AV.",
+      "W. ARMITAGE AV. (W. CENTER)"
+    ],
+    [
+      "N. CLIFTON AV.",
+      "W. ARMITAGE AV. (W. CENTER)"
+    ],
+    [
+      "N. SEMINARY AV.",
+      "W. ARMITAGE AV. (W. CENTER)"
+    ],
+    [
+      "W. ARMITAGE AV. (W. CENTER)",
+      "N. SEMINARY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1012,
+            1710
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AVE. (W. GARFIELD AV.) x N. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65829913664882,
+            41.9198484150244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3015,
+            1710
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AVE. (W. GARFIELD AV.) x N. CLIFTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6570874291905,
+            41.91986850653921
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5024,
+            1710
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AVE. (W. GARFIELD AV.) x N. SEMINARY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65587391263932,
+            41.91988705456395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1012,
+            5708
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RACINE AV. x W. ARMITAGE AV. (W. CENTER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65823915738628,
+            41.91803559503445
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3015,
+            5708
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLIFTON AV. x W. ARMITAGE AV. (W. CENTER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65703160807138,
+            41.91805399477327
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5024,
+            5708
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEMINARY AV. x W. ARMITAGE AV. (W. CENTER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65581582046474,
+            41.91807231810611
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5584,
+            5708
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARMITAGE AV. (W. CENTER) x N. SEMINARY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65541952245283,
+            41.91807847677366
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.232,
+    "dy_m": 0.214
+  }
+}

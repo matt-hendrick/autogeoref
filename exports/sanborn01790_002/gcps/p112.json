@@ -1,0 +1,159 @@
+{
+  "page": "112",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 0.96,
+  "auto_residuals_m": [
+    1.61,
+    5.42,
+    7.33,
+    0.12,
+    9.01,
+    5.4
+  ],
+  "inlier_streets": [
+    [
+      "BLOOMINGDALE AV. (R'D.)",
+      "KIMBALL AV."
+    ],
+    [
+      "BLOOMINGDALE AV. (R'D.)",
+      "N. SPAULDING AV. (SHERIDAN)"
+    ],
+    [
+      "W. WABANSIA AV.",
+      "KIMBALL AV."
+    ],
+    [
+      "W. WABANSIA AV.",
+      "N. SPAULDING AV. (SHERIDAN)"
+    ],
+    [
+      "W. NORTH AV.",
+      "KIMBALL AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. SPAULDING AV. (SHERIDAN)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2706,
+            345
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. (R'D.) x KIMBALL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71177740740075,
+            41.91360928059023
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5442,
+            345
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. (R'D.) x N. SPAULDING AV. (SHERIDAN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71015892325907,
+            41.913629487728954
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2706,
+            4167
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WABANSIA AV. x KIMBALL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71171972096025,
+            41.91187586805699
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5442,
+            4167
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WABANSIA AV. x N. SPAULDING AV. (SHERIDAN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71010281945283,
+            41.91189877265894
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2706,
+            8196
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x KIMBALL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71185969009761,
+            41.91005356915851
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5442,
+            8196
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. SPAULDING AV. (SHERIDAN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71004868605047,
+            41.91007342818091
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.327,
+    "dy_m": -0.039
+  }
+}

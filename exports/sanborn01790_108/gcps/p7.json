@@ -1,0 +1,356 @@
+{
+  "page": "7",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "DIVERSEY AV.",
+      "N. LARAMIE AV."
+    ],
+    [
+      "PARKER AV.",
+      "N. LARAMIE AV."
+    ],
+    [
+      "SCHUBERT AV.",
+      "N. LARAMIE AV."
+    ],
+    [
+      "DRUMMOND PL.",
+      "N. LARAMIE AV."
+    ],
+    [
+      "WRIGHTWOOD AV.",
+      "N. LARAMIE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2787,
+            300
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AV. x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75642027006279,
+            41.93139947077603
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2787,
+            2271
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARKER AV. x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75638611971742,
+            41.93049388315554
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2787,
+            4290
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHUBERT AV. x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75635151865811,
+            41.929588242076704
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2787,
+            6297
+          ],
+          "username": "autogeoref",
+          "note": "auto: DRUMMOND PL. x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75631392274708,
+            41.92868336707802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2787,
+            8287
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AV. x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75628224695927,
+            41.92777790395357
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75774613135994,
+            41.9311532521023
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5319,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75482185196486,
+            41.93119106864068
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75767298800012,
+            41.92802279283494
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6309,
+    "separation_ratio": 1.003,
+    "best_offset_m": 11.7,
+    "n_junctions": 20
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 37,
+      "votable": 37,
+      "in_block": 37,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 7.5,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 7.5,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 7.3,
+          "addr_diff": 6.8
+        },
+        {
+          "perp_m": 7.3,
+          "addr_diff": 6.2
+        },
+        {
+          "perp_m": 7.3,
+          "addr_diff": 5.6
+        },
+        {
+          "perp_m": 7.2,
+          "addr_diff": 5.0
+        },
+        {
+          "perp_m": 6.6,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 6.4,
+          "addr_diff": 2.2
+        },
+        {
+          "perp_m": 6.2,
+          "addr_diff": 1.2
+        },
+        {
+          "perp_m": 6.0,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 5.1,
+          "addr_diff": 6.3
+        },
+        {
+          "perp_m": 4.7,
+          "addr_diff": 4.6
+        },
+        {
+          "perp_m": 4.7,
+          "addr_diff": 3.2
+        },
+        {
+          "perp_m": 4.6,
+          "addr_diff": 0.9
+        },
+        {
+          "perp_m": 4.5,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 11.4,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 11.1,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 10.9,
+          "addr_diff": 1.0
+        },
+        {
+          "perp_m": 10.5,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 9.7,
+          "addr_diff": 4.9
+        },
+        {
+          "perp_m": 9.6,
+          "addr_diff": 4.5
+        },
+        {
+          "perp_m": 9.5,
+          "addr_diff": 3.6
+        },
+        {
+          "perp_m": 9.5,
+          "addr_diff": 4.4
+        },
+        {
+          "perp_m": 10.2,
+          "addr_diff": 2.3
+        },
+        {
+          "perp_m": 10.3,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 10.4,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 10.6,
+          "addr_diff": 2.9
+        },
+        {
+          "perp_m": 10.8,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 10.9,
+          "addr_diff": 0.9
+        },
+        {
+          "perp_m": 11.8,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 11.8,
+          "addr_diff": 1.3
+        },
+        {
+          "perp_m": 11.9,
+          "addr_diff": 0.0
+        },
+        {
+          "perp_m": 11.9,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 12.0,
+          "addr_diff": 0.5
+        },
+        {
+          "perp_m": 12.1,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 12.1,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 12.2,
+          "addr_diff": 0.2
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

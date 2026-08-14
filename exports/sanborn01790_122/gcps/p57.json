@@ -1,0 +1,226 @@
+{
+  "page": "57",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 9,
+  "rotation_deg": 0.45,
+  "auto_residuals_m": [
+    7.32,
+    17.53,
+    7.41,
+    0.53,
+    5.98,
+    1.67,
+    15.84,
+    6.96,
+    14.16
+  ],
+  "inlier_streets": [
+    [
+      "W. 99TH ST.",
+      "S. WALDEN PKWY"
+    ],
+    [
+      "W. 99TH ST.",
+      "S. LONGWOOD DR."
+    ],
+    [
+      "W. 99TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "S. WALDEN PKWY",
+      "W. 100TH ST."
+    ],
+    [
+      "BEVERLY GLEN PKWY",
+      "S. WOOD"
+    ],
+    [
+      "W. 100TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "S. LONGWOOD DR.",
+      "W. 101ST ST."
+    ],
+    [
+      "S. WOOD",
+      "W. 100TH PL."
+    ],
+    [
+      "S. WOOD",
+      "W. 101ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3973,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 99TH ST. x S. WALDEN PKWY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66766863050228,
+            41.71388710482185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1650,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 99TH ST. x S. LONGWOOD DR."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66893223833497,
+            41.713865057251
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4645,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 99TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66723981780852,
+            41.71388981528372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3973,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WALDEN PKWY x W. 100TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66768962677462,
+            41.71206012388993
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4645,
+            2515
+          ],
+          "username": "autogeoref",
+          "note": "auto: BEVERLY GLEN PKWY x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66726938512363,
+            41.712846661036046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4645,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 100TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66726559824023,
+            41.71205583286633
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1650,
+            8236
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LONGWOOD DR. x W. 101ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66939410521769,
+            41.7102202790652
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4645,
+            6202
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x W. 100TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66724022497121,
+            41.71114624530793
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4645,
+            8236
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x W. 101ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6672151270711,
+            41.71025888713856
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

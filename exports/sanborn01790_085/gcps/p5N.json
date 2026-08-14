@@ -1,0 +1,205 @@
+{
+  "page": "5N",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.0,
+  "auto_residuals_m": [
+    2.15,
+    0.87,
+    1.84,
+    0.51,
+    0.72,
+    0.37,
+    0.48,
+    0.58
+  ],
+  "inlier_streets": [
+    [
+      "W. CHICAGO AV.",
+      "N. SEDGWICK"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. ORLEANS"
+    ],
+    [
+      "W. SUPERIOR",
+      "N. SEDGWICK"
+    ],
+    [
+      "W. SUPERIOR",
+      "N. ORLEANS"
+    ],
+    [
+      "W. HURON",
+      "N. SEDGWICK"
+    ],
+    [
+      "W. HURON",
+      "N. ORLEANS"
+    ],
+    [
+      "W. ERIE",
+      "N. SEDGWICK"
+    ],
+    [
+      "W. ERIE",
+      "N. ORLEANS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1754,
+            653
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63863851385304,
+            41.89653898922945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3932,
+            653
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63718727057886,
+            41.89655786036015
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1754,
+            2881
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63857214372345,
+            41.8955413629005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3932,
+            2881
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6371633329226,
+            41.89556058022406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1754,
+            4653
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63855718071595,
+            41.8947405687619
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3932,
+            4653
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63714197014997,
+            41.894759078360465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1754,
+            6434
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63854298216351,
+            41.89394012353852
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3932,
+            6434
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63711899453224,
+            41.893957451621006
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.755,
+    "dy_m": 0.985
+  }
+}

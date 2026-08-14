@@ -1,0 +1,155 @@
+{
+  "page": "56",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.1,
+  "auto_residuals_m": [
+    2.15,
+    4.18,
+    4.89,
+    4.45,
+    4.21,
+    1.49
+  ],
+  "inlier_streets": [
+    [
+      "W. ERIE",
+      "N. HALSTED"
+    ],
+    [
+      "W. ERIE",
+      "N. UNION"
+    ],
+    [
+      "W. OHIO",
+      "N. HALSTED"
+    ],
+    [
+      "W. OHIO",
+      "N. UNION"
+    ],
+    [
+      "N. HALSTED",
+      "GRAND AV."
+    ],
+    [
+      "N. UNION",
+      "GRAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1398,
+            1171
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.647673785992,
+            41.8933753467368
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4340,
+            1171
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. UNION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64596879423736,
+            41.89339319964333
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1398,
+            3548
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64760100643497,
+            41.89224392877412
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4340,
+            3548
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. UNION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64585030501017,
+            41.89227691864786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1398,
+            5925
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64761684608112,
+            41.891185510163794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4340,
+            5925
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. UNION x GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64583151830661,
+            41.89120950789858
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

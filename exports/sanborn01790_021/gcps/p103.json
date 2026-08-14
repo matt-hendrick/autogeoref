@@ -1,0 +1,109 @@
+{
+  "page": "103",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 0.12,
+  "auto_residuals_m": [
+    1.79,
+    1.82,
+    1.85,
+    1.82
+  ],
+  "inlier_streets": [
+    [
+      "W. 36TH ST.",
+      "S. CENTER AV."
+    ],
+    [
+      "W. 36TH ST.",
+      "WALL (PRIVATE)"
+    ],
+    [
+      "S. CENTER AV.",
+      "W. 37TH ST. (PRIVATE)"
+    ],
+    [
+      "WALL (PRIVATE)",
+      "W. 37TH ST. (PRIVATE)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            362,
+            2127
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. CENTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65566235786218,
+            41.828628682294735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2290,
+            2127
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x WALL (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65453476332226,
+            41.82862735237479
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            362,
+            6048
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTER AV. x W. 37TH ST. (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65561850522754,
+            41.82697624363568
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2290,
+            6048
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALL (PRIVATE) x W. 37TH ST. (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65455580620834,
+            41.82698086386959
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

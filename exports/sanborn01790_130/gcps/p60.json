@@ -1,0 +1,168 @@
+{
+  "page": "60",
+  "n_streets": 9,
+  "n_candidates": 13,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. EXCHANGE AV.",
+      "E. 92ND ST."
+    ],
+    [
+      "E. 92ND ST.",
+      "S. MANISTEE AV."
+    ],
+    [
+      "S. 93RD ST.",
+      "S. MUSKEGON AV."
+    ],
+    [
+      "S. 93RD ST.",
+      "S. MANISTEE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            933,
+            266
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EXCHANGE AV. x E. 92ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55261134870919,
+            41.72823610757731
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            933,
+            7000
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 92ND ST. x S. MANISTEE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55675957674138,
+            41.72818976749484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4958,
+            4784
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 93RD ST. x S. MUSKEGON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55532965123233,
+            41.72637618972217
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4958,
+            7000
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 93RD ST. x S. MANISTEE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55671338347307,
+            41.726358268627436
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            577,
+            839
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55290204626053,
+            41.72842557644607
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5189,
+            839
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55286626881015,
+            41.726258808989805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            577,
+            7547
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55712452110184,
+            41.728386742826736
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -88.6631,
+  "seam_adjusted": {
+    "dx_m": -2.229,
+    "dy_m": 1.018
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5475,
+    "separation_ratio": 1.186,
+    "best_offset_m": 28.4,
+    "n_junctions": 13
+  }
+}

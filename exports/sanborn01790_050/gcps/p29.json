@@ -1,0 +1,135 @@
+{
+  "page": "29",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 2,
+  "status": "OK (verified: corroboration+junction)",
+  "rescue_anchors": [
+    [
+      "HIGGINS AV.",
+      "N. CENTRAL AV."
+    ],
+    [
+      "N. CENTRAL AV.",
+      "GUNNISON ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            291,
+            3319
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIGGINS AV. x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76756038371066,
+            41.97032877980639
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            291,
+            6892
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL AV. x GUNNISON ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7675046663986,
+            41.96868961062343
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            570,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76739916809788,
+            41.97147684300357
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5132,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76456490749824,
+            41.97150868827349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            570,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76733528689995,
+            41.96833405880278
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6229,
+    "separation_ratio": 1.445,
+    "best_offset_m": 34.4,
+    "n_junctions": 10
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": null
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol"
+      ],
+      "skipped": "fewer than 2 models with numeral readings"
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

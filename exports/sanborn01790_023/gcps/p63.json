@@ -1,0 +1,110 @@
+{
+  "page": "63",
+  "n_streets": 8,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.78,
+  "auto_residuals_m": [
+    0.1,
+    0.09,
+    0.12,
+    0.07
+  ],
+  "inlier_streets": [
+    [
+      "W. OHIO",
+      "N. RACINE"
+    ],
+    [
+      "W. OHIO",
+      "N. MAY"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. RACINE"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. MAY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            637,
+            1298
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. RACINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6574122592737,
+            41.89217619208739
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3295,
+            1298
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. MAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65581773328393,
+            41.892191319764606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            637,
+            3721
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. RACINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65738639186746,
+            41.8910804602158
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3295,
+            3721
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. MAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65579013885838,
+            41.891097725028494
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

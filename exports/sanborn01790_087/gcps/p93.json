@@ -1,0 +1,138 @@
+{
+  "page": "93",
+  "n_streets": 10,
+  "n_candidates": 8,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. MENOMONEE",
+      "N. WELLS"
+    ],
+    [
+      "N. WELLS",
+      "W. WILLOW"
+    ],
+    [
+      "N. WELLS",
+      "W. EUGENIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            632,
+            1571
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MENOMONEE x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63482326259515,
+            41.914806419691345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            632,
+            3056
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS x W. WILLOW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63480213602817,
+            41.91413260813677
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            632,
+            5792
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS x W. EUGENIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63476428370531,
+            41.91288409052891
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63485462342541,
+            41.91517211890508
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5308,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63200554819917,
+            41.915214162712125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63478447225832,
+            41.9125397383091
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

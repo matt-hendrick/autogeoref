@@ -1,0 +1,211 @@
+{
+  "page": "88",
+  "n_streets": 5,
+  "n_candidates": 12,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. DAMEN AV. (S. ROBEY)",
+      "W. 38TH ST."
+    ],
+    [
+      "S. DAMEN AV. (S. ROBEY)",
+      "W. PERSHING ROAD (W. 39TH ST.)"
+    ],
+    [
+      "S. WINCHESTER AV.",
+      "W. 38TH ST."
+    ],
+    [
+      "S. WINCHESTER AV.",
+      "W. PERSHING ROAD (W. 39TH ST.)"
+    ],
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "W. 38TH ST."
+    ],
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "W. PERSHING ROAD (W. 39TH ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            983,
+            3065
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAMEN AV. (S. ROBEY) x W. 38TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67515329017144,
+            41.82491289674438
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            983,
+            7070
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAMEN AV. (S. ROBEY) x W. PERSHING ROAD (W. 39TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6751052702152,
+            41.82310959010815
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2980,
+            3065
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WINCHESTER AV. x W. 38TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67393440682314,
+            41.82492882292829
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2980,
+            7070
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WINCHESTER AV. x W. PERSHING ROAD (W. 39TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67388200237245,
+            41.823127978622324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5031,
+            3065
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x W. 38TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6727079293591,
+            41.82494110353945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5031,
+            7070
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x W. PERSHING ROAD (W. 39TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67266125548505,
+            41.82314022582696
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67541206613043,
+            41.82596626919708
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5288,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67256340286337,
+            41.826001756982066
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67535271504676,
+            41.82332072547962
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -1.975,
+    "dy_m": -0.468
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6435,
+    "separation_ratio": 1.042,
+    "best_offset_m": 4.3,
+    "n_junctions": 23
+  }
+}

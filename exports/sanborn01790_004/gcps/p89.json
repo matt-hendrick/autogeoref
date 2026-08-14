@@ -1,0 +1,109 @@
+{
+  "page": "89",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.01,
+  "auto_residuals_m": [
+    0.09,
+    0.14,
+    0.14,
+    0.1
+  ],
+  "inlier_streets": [
+    [
+      "W. 23RD",
+      "S. WHIPPLE"
+    ],
+    [
+      "W. 23RD",
+      "S. SACRAMENTO AV."
+    ],
+    [
+      "W. 24TH",
+      "S. WHIPPLE"
+    ],
+    [
+      "W. 24TH",
+      "S. SACRAMENTO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1003,
+            4231
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 23RD x S. WHIPPLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70152878966653,
+            41.850000325305935
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2959,
+            4231
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 23RD x S. SACRAMENTO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70030176602896,
+            41.85001594757754
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1003,
+            8398
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 24TH x S. WHIPPLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70147230083197,
+            41.84818825823578
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2959,
+            8398
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 24TH x S. SACRAMENTO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7002491283017,
+            41.848204908877314
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

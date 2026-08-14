@@ -1,0 +1,186 @@
+{
+  "page": "128",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. JACKSON",
+      "S. 47TH. AV."
+    ],
+    [
+      "GLADYS AV.",
+      "S. 47TH. AV."
+    ],
+    [
+      "W. VAN BUREN",
+      "S. 47TH. AV."
+    ],
+    [
+      "S. 47TH. AV.",
+      "W. CONGRESS"
+    ],
+    [
+      "S. 47TH. AV.",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            959,
+            266
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON x S. 47TH. AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74269759920699,
+            41.876876304353225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            959,
+            2173
+          ],
+          "username": "autogeoref",
+          "note": "auto: GLADYS AV. x S. 47TH. AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7426648632121,
+            41.87595572942358
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            959,
+            4212
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. 47TH. AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74263373722636,
+            41.875051996137124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            959,
+            6261
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 47TH. AV. x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74260076410009,
+            41.874140713092665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            959,
+            8294
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 47TH. AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74256489243417,
+            41.87320193431145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74288949290657,
+            41.87660384349751
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5263,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73999743636033,
+            41.876630462751194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.742837505513,
+            41.873472381715146
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8514,
+    "separation_ratio": 1.037,
+    "best_offset_m": 3.6,
+    "n_junctions": 6
+  }
+}

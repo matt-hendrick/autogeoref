@@ -1,0 +1,205 @@
+{
+  "page": "62",
+  "n_streets": 12,
+  "n_candidates": 12,
+  "n_inliers": 8,
+  "rotation_deg": 1.37,
+  "auto_residuals_m": [
+    0.95,
+    0.28,
+    0.88,
+    1.17,
+    2.51,
+    2.51,
+    6.67,
+    2.96
+  ],
+  "inlier_streets": [
+    [
+      "S. MORGAN ST.",
+      "W. 18TH ST."
+    ],
+    [
+      "W. 18TH ST.",
+      "S. MORGAN"
+    ],
+    [
+      "W. 18TH ST.",
+      "S. SANGAMON"
+    ],
+    [
+      "W. 18TH PL.",
+      "S. MORGAN"
+    ],
+    [
+      "W. 18TH PL.",
+      "S. SANGAMON"
+    ],
+    [
+      "S. MORGAN",
+      "W. 19TH ST."
+    ],
+    [
+      "SHELBY CT.",
+      "W. 19TH ST."
+    ],
+    [
+      "S. SANGAMON",
+      "W. 19TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4046,
+            577
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MORGAN ST. x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65082617927162,
+            41.85801826353127
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2948,
+            577
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65150454718966,
+            41.85800796880229
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5544,
+            577
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x S. SANGAMON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64988634651837,
+            41.85803115164727
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2948,
+            2072
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH PL. x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65148559682888,
+            41.85733022744593
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5544,
+            2072
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH PL. x S. SANGAMON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64986677344858,
+            41.857370888352264
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2948,
+            3559
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MORGAN x W. 19TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65146662548855,
+            41.85665172517563
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4399,
+            3559
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHELBY CT. x W. 19TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6506450407464,
+            41.85666360875878
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5544,
+            3559
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SANGAMON x W. 19TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64984657951915,
+            41.85667418991603
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 7.054,
+    "dy_m": -2.092
+  }
+}

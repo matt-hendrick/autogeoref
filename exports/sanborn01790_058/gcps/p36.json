@@ -1,0 +1,164 @@
+{
+  "page": "36",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. TOUHY AV.",
+      "N. WOLCOTT AV. (N. HILLDALE AV.)"
+    ],
+    [
+      "W. ESTES AV.",
+      "N. WOLCOTT AV. (N. HILLDALE AV.)"
+    ],
+    [
+      "N. WOLCOTT AV. (N. HILLDALE AV.)",
+      "W. GREENLEAF AV."
+    ],
+    [
+      "N. WOLCOTT AV. (N. HILLDALE AV.)",
+      "W. LUNT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            746,
+            313
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TOUHY AV. x N. WOLCOTT AV. (N. HILLDALE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67818702667009,
+            42.012575235580854
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            746,
+            2932
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ESTES AV. x N. WOLCOTT AV. (N. HILLDALE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67814199239525,
+            42.01134521713505
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            746,
+            5581
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOLCOTT AV. (N. HILLDALE AV.) x W. GREENLEAF AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67810309992528,
+            42.01013277429881
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            746,
+            8260
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOLCOTT AV. (N. HILLDALE AV.) x W. LUNT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67805818236454,
+            42.00891283865698
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67828629809881,
+            42.01230064042879
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5034,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67553808693054,
+            42.01234817554743
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67818902255043,
+            42.00919587624157
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.4865,
+    "separation_ratio": 0.856,
+    "best_offset_m": 91.9,
+    "n_junctions": 5
+  }
+}

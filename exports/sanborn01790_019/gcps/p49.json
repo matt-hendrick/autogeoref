@@ -1,0 +1,137 @@
+{
+  "page": "49",
+  "n_streets": 10,
+  "n_candidates": 12,
+  "n_inliers": 5,
+  "rotation_deg": 1.48,
+  "auto_residuals_m": [
+    1.59,
+    1.13,
+    0.69,
+    1.2,
+    1.47
+  ],
+  "inlier_streets": [
+    [
+      "WISCONSIN",
+      "N. CLARK"
+    ],
+    [
+      "WISCONSIN",
+      "LINCOLN AV."
+    ],
+    [
+      "N. CLARK",
+      "MENOMONEE"
+    ],
+    [
+      "LINCOLN AV.",
+      "WELLS"
+    ],
+    [
+      "WELLS",
+      "MENOMONEE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3336,
+            3109
+          ],
+          "username": "autogeoref",
+          "note": "auto: WISCONSIN x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63492238475163,
+            41.91657172214788
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2285,
+            3109
+          ],
+          "username": "autogeoref",
+          "note": "auto: WISCONSIN x LINCOLN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63547816510575,
+            41.91655861578932
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5024,
+            6730
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x MENOMONEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63384547912602,
+            41.91481610652026
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3332,
+            5434
+          ],
+          "username": "autogeoref",
+          "note": "auto: LINCOLN AV. x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63481949198648,
+            41.91543385749365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3332,
+            6730
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLS x MENOMONEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63479868468896,
+            41.914798966234976
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": 2.736,
+    "dy_m": -1.115
+  }
+}

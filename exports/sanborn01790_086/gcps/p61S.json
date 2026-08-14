@@ -1,0 +1,120 @@
+{
+  "page": "61S",
+  "n_streets": 5,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. CONGRESS",
+      "S. FRANKLIN"
+    ],
+    [
+      "S. FRANKLIN",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4474,
+            2830
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONGRESS x S. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63515429632963,
+            41.876063225539816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4474,
+            6322
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANKLIN x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63508465261208,
+            41.87446049998123
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63751803488016,
+            41.87698141072756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5277,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63466177109494,
+            41.87700948075892
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63747094789439,
+            41.87432504589687
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.782,
+    "separation_ratio": 1.257,
+    "best_offset_m": 13.7,
+    "n_junctions": 16
+  }
+}

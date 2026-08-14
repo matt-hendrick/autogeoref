@@ -1,0 +1,159 @@
+{
+  "page": "58W",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.04,
+  "auto_residuals_m": [
+    0.59,
+    3.86,
+    0.77,
+    8.37,
+    0.22,
+    4.52
+  ],
+  "inlier_streets": [
+    [
+      "GRAND AV.",
+      "N. HALSTED"
+    ],
+    [
+      "GRAND AV.",
+      "N. UNION AV."
+    ],
+    [
+      "W. HUBBARD (W. AUSTIN AV.)",
+      "N. HALSTED"
+    ],
+    [
+      "W. HUBBARD (W. AUSTIN AV.)",
+      "N. UNION AV."
+    ],
+    [
+      "N. HALSTED",
+      "W. KINZIE"
+    ],
+    [
+      "N. UNION AV.",
+      "W. KINZIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            399,
+            1206
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRAND AV. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64758082363824,
+            41.89115893527619
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3374,
+            1206
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRAND AV. x N. UNION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64579549586371,
+            41.89118293302094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            399,
+            3649
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HUBBARD (W. AUSTIN AV.) x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64757291440297,
+            41.890059132675255
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3374,
+            3649
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HUBBARD (W. AUSTIN AV.) x N. UNION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64588574791208,
+            41.89008158324266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            399,
+            5963
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64754659502766,
+            41.88902294010831
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3374,
+            5963
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. UNION AV. x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64575179352228,
+            41.88904778218014
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.01,
+    "dy_m": -3.974
+  }
+}

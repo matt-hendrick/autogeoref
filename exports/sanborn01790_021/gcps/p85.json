@@ -1,0 +1,111 @@
+{
+  "page": "85",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "rotation_deg": 0.79,
+  "auto_residuals_m": [
+    0.04,
+    0.08,
+    0.04,
+    0.07
+  ],
+  "inlier_streets": [
+    [
+      "S. LEAVITT",
+      "W. 36TH ST."
+    ],
+    [
+      "S. LEAVITT",
+      "W. 37TH ST."
+    ],
+    [
+      "W. 36TH ST.",
+      "S. HAMILTON AV."
+    ],
+    [
+      "S. HAMILTON AV.",
+      "W. 37TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2629,
+            3174
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT x W. 36TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68011119448778,
+            41.82851094391976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2629,
+            7172
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT x W. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68006393063507,
+            41.826689622485574
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4706,
+            3174
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. HAMILTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67889171928991,
+            41.82852359666646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4706,
+            7172
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HAMILTON AV. x W. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6788424568666,
+            41.82670192694869
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

@@ -1,0 +1,178 @@
+{
+  "page": "4",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 7,
+  "rotation_deg": 0.75,
+  "auto_residuals_m": [
+    1.31,
+    2.95,
+    4.16,
+    3.15,
+    2.97,
+    3.91,
+    2.65
+  ],
+  "inlier_streets": [
+    [
+      "FOSTER AV.",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "FOSTER AV.",
+      "DRAKE"
+    ],
+    [
+      "FOSTER AV.",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "N. CENTRAL PARK AV.",
+      "CARMEN AV."
+    ],
+    [
+      "N. CENTRAL PARK AV.",
+      "ARGYLE"
+    ],
+    [
+      "CARMEN AV.",
+      "DRAKE"
+    ],
+    [
+      "DRAKE",
+      "ARGYLE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1290,
+            366
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71842141287307,
+            41.975637613387406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3091,
+            366
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x DRAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71723030213445,
+            41.97565079641475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5092,
+            366
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71598863804135,
+            41.97566456597703
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1290,
+            4161
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL PARK AV. x CARMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71840466450405,
+            41.9738155097818
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1290,
+            7890
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL PARK AV. x ARGYLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71835457661555,
+            41.97199238344314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3091,
+            4161
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x DRAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71717600358205,
+            41.97383109512722
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3091,
+            7890
+          ],
+          "username": "autogeoref",
+          "note": "auto: DRAKE x ARGYLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71713224362159,
+            41.972006882083384
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

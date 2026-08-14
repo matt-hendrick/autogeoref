@@ -1,0 +1,251 @@
+{
+  "page": "116",
+  "n_streets": 10,
+  "n_candidates": 10,
+  "n_inliers": 10,
+  "rotation_deg": 0.9,
+  "auto_residuals_m": [
+    2.85,
+    3.19,
+    1.56,
+    1.03,
+    2.02,
+    4.05,
+    4.67,
+    2.51,
+    4.59,
+    4.95
+  ],
+  "inlier_streets": [
+    [
+      "W. MADISON",
+      "S. FRANCISCO AV."
+    ],
+    [
+      "W. MADISON",
+      "S. CALIFORNIA AV."
+    ],
+    [
+      "W. MONROE",
+      "S. FRANCISCO AV."
+    ],
+    [
+      "W. MONROE",
+      "S. CALIFORNIA AV."
+    ],
+    [
+      "S. FRANCISCO AV.",
+      "WILCOX"
+    ],
+    [
+      "S. FRANCISCO AV.",
+      "W. ADAMS"
+    ],
+    [
+      "S. FRANCISCO AV.",
+      "W. JACKSON BLVD"
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "WILCOX"
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. ADAMS"
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. JACKSON BLVD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            804,
+            392
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69870345595545,
+            41.881035195901156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4773,
+            392
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69626462973555,
+            41.881060111172005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            804,
+            2403
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69869599177433,
+            41.88012151392279
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4773,
+            2403
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.696237139145,
+            41.88014799472848
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            804,
+            4370
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x WILCOX"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69867200105692,
+            41.87920540182359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            804,
+            6346
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69864159622415,
+            41.878296604324085
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            804,
+            8157
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x W. JACKSON BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69860863464919,
+            41.87739236501273
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4773,
+            4370
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x WILCOX"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69621630617965,
+            41.87923858138149
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4773,
+            6346
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6961919717369,
+            41.87832875411485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4773,
+            8157
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. JACKSON BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69616893692077,
+            41.87741830191087
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.688,
+    "dy_m": -2.474
+  }
+}

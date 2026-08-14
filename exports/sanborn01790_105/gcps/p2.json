@@ -1,0 +1,228 @@
+{
+  "page": "2",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 1.18,
+  "auto_residuals_m": [
+    1.59,
+    1.66,
+    1.53,
+    3.42,
+    1.76,
+    3.25,
+    3.1,
+    1.59,
+    1.51
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVISION",
+      "N. MONITOR AV. (N. MANSFIELD AV.)"
+    ],
+    [
+      "W. DIVISION",
+      "N. MENARD (N. PRAIRIE) AV."
+    ],
+    [
+      "W. DIVISION",
+      "N. MASSASOIT (LEWIS) AV."
+    ],
+    [
+      "N. MONITOR AV. (N. MANSFIELD AV.)",
+      "THOMAS"
+    ],
+    [
+      "N. MONITOR AV. (N. MANSFIELD AV.)",
+      "W. AUGUSTA B'LVD."
+    ],
+    [
+      "THOMAS",
+      "N. MENARD (N. PRAIRIE) AV."
+    ],
+    [
+      "THOMAS",
+      "N. MASSASOIT (LEWIS) AV."
+    ],
+    [
+      "N. MENARD (N. PRAIRIE) AV.",
+      "W. AUGUSTA B'LVD."
+    ],
+    [
+      "N. MASSASOIT (LEWIS) AV.",
+      "W. AUGUSTA B'LVD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1435,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. MONITOR AV. (N. MANSFIELD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77171949469572,
+            41.90201845095985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3461,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. MENARD (N. PRAIRIE) AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.770503083846,
+            41.90203655447663
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5480,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. MASSASOIT (LEWIS) AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76929057019755,
+            41.902055903274025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1435,
+            4358
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MONITOR AV. (N. MANSFIELD AV.) x THOMAS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77165723987108,
+            41.900198144944284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1435,
+            8276
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MONITOR AV. (N. MANSFIELD AV.) x W. AUGUSTA B'LVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77159614205202,
+            41.89837181076501
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3461,
+            4358
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x N. MENARD (N. PRAIRIE) AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77044237818941,
+            41.90021552080874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5480,
+            4358
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x N. MASSASOIT (LEWIS) AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76922662680253,
+            41.900233122039474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3461,
+            8276
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MENARD (N. PRAIRIE) AV. x W. AUGUSTA B'LVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77037959534168,
+            41.89839155565721
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5480,
+            8276
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MASSASOIT (LEWIS) AV. x W. AUGUSTA B'LVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76916387457172,
+            41.89841073491012
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.509,
+    "dy_m": -5.147
+  }
+}

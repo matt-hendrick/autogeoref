@@ -1,0 +1,228 @@
+{
+  "page": "61",
+  "n_streets": 9,
+  "n_candidates": 13,
+  "n_inliers": 9,
+  "rotation_deg": 0.65,
+  "auto_residuals_m": [
+    4.74,
+    4.06,
+    4.04,
+    9.46,
+    4.71,
+    9.27,
+    9.06,
+    5.5,
+    5.01
+  ],
+  "inlier_streets": [
+    [
+      "W. OHIO (W. ONTARIO)",
+      "N. LECLAIRE (N. 51ST AV.)"
+    ],
+    [
+      "W. OHIO (W. ONTARIO)",
+      "N. LAWLER (N. 50TH ST.)"
+    ],
+    [
+      "W. OHIO (W. ONTARIO)",
+      "N. LAVERGNE (N. 50TH AV.)"
+    ],
+    [
+      "N. LECLAIRE (N. 51ST AV.)",
+      "W. FERDINAND (W. INDIANA)"
+    ],
+    [
+      "N. LECLAIRE (N. 51ST AV.)",
+      "W. KINZIE"
+    ],
+    [
+      "W. FERDINAND (W. INDIANA)",
+      "N. LAWLER (N. 50TH ST.)"
+    ],
+    [
+      "W. FERDINAND (W. INDIANA)",
+      "N. LAVERGNE (N. 50TH AV.)"
+    ],
+    [
+      "N. LAWLER (N. 50TH ST.)",
+      "W. KINZIE"
+    ],
+    [
+      "N. LAVERGNE (N. 50TH AV.)",
+      "W. KINZIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            833,
+            253
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO (W. ONTARIO) x N. LECLAIRE (N. 51ST AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75303012186077,
+            41.891343354937
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2802,
+            253
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO (W. ONTARIO) x N. LAWLER (N. 50TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75180591488734,
+            41.891348359115995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4820,
+            253
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO (W. ONTARIO) x N. LAVERGNE (N. 50TH AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75058372955176,
+            41.891359146191405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            833,
+            4341
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LECLAIRE (N. 51ST AV.) x W. FERDINAND (W. INDIANA)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75295676753997,
+            41.88935574050713
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            833,
+            7760
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LECLAIRE (N. 51ST AV.) x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75290333673088,
+            41.887866824753054
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2802,
+            4341
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FERDINAND (W. INDIANA) x N. LAWLER (N. 50TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75173236413436,
+            41.88936804017966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4820,
+            4341
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FERDINAND (W. INDIANA) x N. LAVERGNE (N. 50TH AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75050942917824,
+            41.88937930707792
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2802,
+            7760
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWLER (N. 50TH ST.) x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7516792472441,
+            41.88788246989662
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4820,
+            7760
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAVERGNE (N. 50TH AV.) x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75045134693815,
+            41.88788999343564
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.92,
+    "dy_m": 3.638
+  }
+}

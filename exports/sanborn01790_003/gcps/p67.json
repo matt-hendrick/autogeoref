@@ -1,0 +1,116 @@
+{
+  "page": "67",
+  "n_streets": 6,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. OHIO",
+      "N. HARDING"
+    ],
+    [
+      "W. OHIO",
+      "N. SPRINGFIELD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2079,
+            181
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. HARDING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72475495424158,
+            41.891707633725794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4199,
+            181
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. SPRINGFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72353437973231,
+            41.89172010528824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            564,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72570980957472,
+            41.891393799925545
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5077,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72295698622753,
+            41.89142178578397
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            564,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72565313443476,
+            41.88830443454996
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

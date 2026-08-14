@@ -1,0 +1,119 @@
+{
+  "page": "59",
+  "n_streets": 9,
+  "n_candidates": 19,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. NORTH AV.",
+      "N. CHERRY AV."
+    ],
+    [
+      "N. SHEFFIELD AV.",
+      "W. WEED"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            245,
+            657
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. CHERRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65551484265114,
+            41.91082063116401
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4055,
+            3013
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SHEFFIELD AV. x W. WEED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65316873789862,
+            41.90979961617397
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65530585647033,
+            41.910794183779664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65245507341561,
+            41.91083828971179
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65523185308506,
+            41.9081451330605
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 2.598,
+    "dy_m": 3.182
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

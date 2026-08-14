@@ -1,0 +1,113 @@
+{
+  "page": "42",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "rotation_deg": 0.63,
+  "auto_residuals_m": [
+    0.55,
+    0.58,
+    0.59,
+    0.56
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVERSEY AVE.",
+      "N. SACRAMENTO AVE."
+    ],
+    [
+      "W. DIVERSEY AVE.",
+      "N. FRANCISCO AVE."
+    ],
+    [
+      "N. SACRAMENTO AVE.",
+      "SCHUBERT AVE. (CONNEAT AVE.)"
+    ],
+    [
+      "SCHUBERT AVE. (CONNEAT AVE.)",
+      "N. FRANCISCO AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1315,
+            333
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AVE. x N. SACRAMENTO AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70254665685019,
+            41.93206306994919
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5230,
+            333
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AVE. x N. FRANCISCO AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70009810812344,
+            41.93208319184158
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1315,
+            4333
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO AVE. x SCHUBERT AVE. (CONNEAT AVE.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70249717494723,
+            41.930238558241705
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5230,
+            4333
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHUBERT AVE. (CONNEAT AVE.) x N. FRANCISCO AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7000690733133,
+            41.93025816188318
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.779,
+    "dy_m": 0.582
+  }
+}

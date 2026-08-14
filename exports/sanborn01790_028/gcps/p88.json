@@ -1,0 +1,159 @@
+{
+  "page": "88",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": -88.73,
+  "auto_residuals_m": [
+    0.9,
+    1.11,
+    2.07,
+    2.03,
+    1.17,
+    0.9
+  ],
+  "inlier_streets": [
+    [
+      "N. SACRAMENTO BLV'D",
+      "FULTON"
+    ],
+    [
+      "N. SACRAMENTO BLV'D",
+      "WALNUT"
+    ],
+    [
+      "N. ALBANY AV.",
+      "FULTON"
+    ],
+    [
+      "N. ALBANY AV.",
+      "WALNUT"
+    ],
+    [
+      "FULTON",
+      "N. KEDZIE AV."
+    ],
+    [
+      "WALNUT",
+      "N. KEDZIE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            427,
+            223
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO BLV'D x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70134582780533,
+            41.886470496740834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2628,
+            223
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO BLV'D x WALNUT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70131675523066,
+            41.885443414469556
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            427,
+            4191
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ALBANY AV. x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70380406743234,
+            41.886442922698336
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2628,
+            4191
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ALBANY AV. x WALNUT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70377406313355,
+            41.88541875411382
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            427,
+            8081
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7062683651924,
+            41.88640943199765
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2628,
+            8081
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70623585551012,
+            41.88538702996021
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.519,
+    "dy_m": -1.507
+  }
+}

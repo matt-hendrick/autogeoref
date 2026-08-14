@@ -1,0 +1,164 @@
+{
+  "page": "84W",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. JACKSON BL'VD",
+      "S. HALSTED"
+    ],
+    [
+      "W. JACKSON BL'VD",
+      "S. DESPLAINES"
+    ],
+    [
+      "W. GLADYS AV. (BOSTON AV.)",
+      "S. HALSTED"
+    ],
+    [
+      "W. GLADYS AV. (BOSTON AV.)",
+      "S. DESPLAINES"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1587,
+            6289
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BL'VD x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64724174302188,
+            41.87794739482335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1587,
+            871
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BL'VD x S. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64400300375502,
+            41.877988021851365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2973,
+            6289
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GLADYS AV. (BOSTON AV.) x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64722186482363,
+            41.877311808761824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2973,
+            871
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GLADYS AV. (BOSTON AV.) x S. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64398139255071,
+            41.87734956564971
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64391052729431,
+            41.87844056414086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5281,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6438483273872,
+            41.87632461910991
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64745698507083,
+            41.87838276915147
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -88.5012,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.6963,
+    "separation_ratio": 0.969,
+    "best_offset_m": 99.7,
+    "n_junctions": 6
+  }
+}

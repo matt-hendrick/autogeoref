@@ -1,0 +1,163 @@
+{
+  "page": "19",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. DORCHESTER AV.",
+      "E. 90TH ST."
+    ],
+    [
+      "E. 90TH ST.",
+      "S. DANTE AV."
+    ],
+    [
+      "S. DANTE AV.",
+      "E. 90TH PL."
+    ],
+    [
+      "S. DANTE AV.",
+      "E. 91ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2243,
+            4235
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DORCHESTER AV. x E. 90TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5904458084659,
+            41.731378752802065
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4225,
+            4235
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 90TH ST. x S. DANTE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58923009311518,
+            41.73139687227462
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4225,
+            6217
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DANTE AV. x E. 90TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58921091664224,
+            41.7304837209196
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4225,
+            8190
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DANTE AV. x E. 91ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58918853586758,
+            41.72955135001541
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.59155165102678,
+            41.73294925669679
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5115,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58870733339454,
+            41.73298767752122
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.59147460044456,
+            41.729772579827625
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7454,
+    "separation_ratio": 1.181,
+    "best_offset_m": 3.0,
+    "n_junctions": 7
+  }
+}

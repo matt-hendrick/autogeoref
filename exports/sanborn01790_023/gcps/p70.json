@@ -1,0 +1,164 @@
+{
+  "page": "70",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. KINZIE ST.",
+      "N. HOYNE AV."
+    ],
+    [
+      "CARROLL AV.",
+      "N. HOYNE AV."
+    ],
+    [
+      "FULTON",
+      "N. HOYNE AV."
+    ],
+    [
+      "WALNUT",
+      "N. HOYNE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            769,
+            322
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE ST. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67928985245716,
+            41.888687801398895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            769,
+            2636
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARROLL AV. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67926167942035,
+            41.887634646657915
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            769,
+            4632
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67923538325904,
+            41.88673566190361
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            769,
+            6627
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67920710616703,
+            41.88582294779791
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67939429619513,
+            41.888471804213076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5284,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67659238414345,
+            41.888518052339435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67931680754236,
+            41.885870007022746
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.781,
+    "separation_ratio": 1.073,
+    "best_offset_m": 3.5,
+    "n_junctions": 17
+  }
+}

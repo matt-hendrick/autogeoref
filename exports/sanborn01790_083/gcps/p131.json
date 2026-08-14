@@ -1,0 +1,116 @@
+{
+  "page": "131",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. WEBSTER AV.",
+      "N. LARRABEE"
+    ],
+    [
+      "W. WEBSTER AV.",
+      "N. CLEVELAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            882,
+            1697
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64378718627633,
+            41.92188789022798
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4870,
+            1697
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. CLEVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64136571986191,
+            41.92192659109932
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            571,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64399618593295,
+            41.92232033685708
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5139,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64121027142478,
+            41.922369311626056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            571,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64391177035598,
+            41.91966186141242
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "page": "54",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.17,
+  "auto_residuals_m": [
+    5.0,
+    4.99,
+    5.02,
+    5.03
+  ],
+  "inlier_streets": [
+    [
+      "W. HARRISON",
+      "S. LINCOLN"
+    ],
+    [
+      "W. HARRISON",
+      "S. WOOD"
+    ],
+    [
+      "S. LINCOLN",
+      "POLK"
+    ],
+    [
+      "S. WOOD",
+      "POLK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1210,
+            1106
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67406031805191,
+            41.87408025083518
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4936,
+            1106
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6716040432726,
+            41.87411910211153
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1210,
+            6752
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LINCOLN x POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67380726884103,
+            41.87151530790793
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4936,
+            6752
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67153093785761,
+            41.87154821492934
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -4.803,
+    "dy_m": -0.11
+  }
+}

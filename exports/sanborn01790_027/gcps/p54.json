@@ -1,0 +1,185 @@
+{
+  "page": "54",
+  "n_streets": 7,
+  "n_candidates": 17,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "WRIGHTWOOD AV.",
+      "N. KEDZIE BLVD."
+    ],
+    [
+      "WRIGHTWOOD AV.",
+      "N. SAWYER AV."
+    ],
+    [
+      "ALTGELD",
+      "N. SAWYER AV."
+    ],
+    [
+      "N. SAWYER AV.",
+      "FULLERTON AV."
+    ],
+    [
+      "N. KEDZIE BLVD.",
+      "FULLERTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3603,
+            161
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AV. x N. KEDZIE BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70789454818895,
+            41.92836512383827
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1367,
+            161
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AV. x N. SAWYER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70939340639049,
+            41.928347428711064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1367,
+            4036
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALTGELD x N. SAWYER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70934369055556,
+            41.92651808786727
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1367,
+            7992
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SAWYER AV. x FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70923608819002,
+            41.924696792095794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4618,
+            7992
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE BLVD. x FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70721876790886,
+            41.92471635059038
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70983363121458,
+            41.928026721331825
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70701858340051,
+            41.92805414419061
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7097795706981,
+            41.924954930039874
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6009,
+    "separation_ratio": 1.114,
+    "best_offset_m": 3.7,
+    "n_junctions": 8
+  }
+}

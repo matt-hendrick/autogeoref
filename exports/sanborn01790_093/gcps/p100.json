@@ -1,0 +1,132 @@
+{
+  "page": "100",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.14,
+  "auto_residuals_m": [
+    0.7,
+    0.09,
+    0.71,
+    0.9,
+    0.78
+  ],
+  "inlier_streets": [
+    [
+      "W. 13TH ST.",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. 13TH ST.",
+      "S. DAMEN AV. (C. S. ROBEY)"
+    ],
+    [
+      "W. HASTINGS",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. HASTINGS",
+      "S. DAMEN AV. (C. S. ROBEY)"
+    ],
+    [
+      "W. 14TH ST.",
+      "S. DAMEN AV. (C. S. ROBEY)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1016,
+            2982
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67864467192385,
+            41.86490611066139
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5064,
+            2982
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. DAMEN AV. (C. S. ROBEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67619716655297,
+            41.864938115191315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1016,
+            4978
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HASTINGS x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67861927661284,
+            41.86399816329836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5064,
+            4978
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HASTINGS x S. DAMEN AV. (C. S. ROBEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67617393836548,
+            41.86403297256853
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5064,
+            7015
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 14TH ST. x S. DAMEN AV. (C. S. ROBEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6761501007273,
+            41.86312716522255
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

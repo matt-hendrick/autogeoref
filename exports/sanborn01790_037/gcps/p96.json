@@ -1,0 +1,182 @@
+{
+  "page": "96",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 7,
+  "rotation_deg": 0.91,
+  "auto_residuals_m": [
+    2.33,
+    0.84,
+    1.05,
+    0.88,
+    0.54,
+    1.05,
+    0.47
+  ],
+  "inlier_streets": [
+    [
+      "S. 44TH CT.",
+      "WEST END AV."
+    ],
+    [
+      "WEST END AV.",
+      "S. 45TH AV."
+    ],
+    [
+      "WEST END AV.",
+      "S. 44TH AV."
+    ],
+    [
+      "S. 45TH AV.",
+      "WASHINGTON BL'VD"
+    ],
+    [
+      "S. 45TH AV.",
+      "W. MADISON"
+    ],
+    [
+      "S. 44TH AV.",
+      "WASHINGTON BL'VD"
+    ],
+    [
+      "S. 44TH AV.",
+      "W. MADISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2955,
+            2853
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 44TH CT. x WEST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73678746466891,
+            41.88321397671158
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            857,
+            2853
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x S. 45TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73801355743666,
+            41.88319837807972
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4960,
+            2853
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x S. 44TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73555919870404,
+            41.88322939040048
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            857,
+            5551
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 45TH AV. x WASHINGTON BL'VD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73796923279524,
+            41.881883243040335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            857,
+            8283
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 45TH AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73792682929194,
+            41.88056586955806
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4960,
+            5551
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 44TH AV. x WASHINGTON BL'VD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73551517219275,
+            41.8819113471335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4960,
+            8283
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 44TH AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73547487998677,
+            41.88059380543152
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.09,
+    "dy_m": -2.519
+  }
+}

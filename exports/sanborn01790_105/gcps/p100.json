@@ -1,0 +1,214 @@
+{
+  "page": "100",
+  "n_streets": 10,
+  "n_candidates": 14,
+  "n_inliers": 4,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "N. KARLOV AV.",
+      "WEST END AV."
+    ],
+    [
+      "KEYSTONE AV. (N. 40 ST.)",
+      "WEST END AV."
+    ],
+    [
+      "WEST END AV.",
+      "KEYSTONE AV."
+    ],
+    [
+      "WEST END AV.",
+      "N. PULASKI RD. (N. CRAWFORD AV.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1010,
+            2721
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KARLOV AV. x WEST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72819844346823,
+            41.883334587286996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2681,
+            2721
+          ],
+          "username": "autogeoref",
+          "note": "auto: KEYSTONE AV. (N. 40 ST.) x WEST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72716997913064,
+            41.88334557774712
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2666,
+            2721
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x KEYSTONE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72716997913064,
+            41.88334557774712
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4992,
+            2721
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x N. PULASKI RD. (N. CRAWFORD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72574563962674,
+            41.88336163948829
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72847896761593,
+            41.884189977309546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5285,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72557861254057,
+            41.88422514510536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72841055751633,
+            41.88106273701962
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6501,
+    "separation_ratio": 1.391,
+    "best_offset_m": 6.3,
+    "n_junctions": 21
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 7,
+      "votable": 7,
+      "in_block": 7,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 33.2,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 17.7,
+          "addr_diff": 3.6
+        },
+        {
+          "perp_m": 17.7,
+          "addr_diff": 5.8
+        },
+        {
+          "perp_m": 17.8,
+          "addr_diff": 6.6
+        },
+        {
+          "perp_m": 17.7,
+          "addr_diff": 7.3
+        },
+        {
+          "perp_m": 17.7,
+          "addr_diff": 8.0
+        },
+        {
+          "perp_m": 17.7,
+          "addr_diff": 8.7
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

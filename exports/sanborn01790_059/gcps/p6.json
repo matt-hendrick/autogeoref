@@ -1,0 +1,205 @@
+{
+  "page": "6",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.83,
+  "auto_residuals_m": [
+    0.53,
+    0.06,
+    0.68,
+    0.64,
+    0.72,
+    0.56,
+    0.67,
+    0.5
+  ],
+  "inlier_streets": [
+    [
+      "E. 113TH ST.",
+      "S. LANGLEY AV."
+    ],
+    [
+      "E. 113TH ST.",
+      "S. ST. LAWRENCE AV."
+    ],
+    [
+      "E. 113TH ST.",
+      "S. CHAMPLAIN AV."
+    ],
+    [
+      "S. LANGLEY AV.",
+      "E. 114TH ST."
+    ],
+    [
+      "E. 114TH ST.",
+      "S. ST. LAWRENCE AV."
+    ],
+    [
+      "E. 114TH ST.",
+      "S. CHAMPLAIN AV."
+    ],
+    [
+      "S. ST. LAWRENCE AV.",
+      "E. 115TH ST."
+    ],
+    [
+      "S. CHAMPLAIN AV.",
+      "E. 115TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4282,
+            253
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 113TH ST. x S. LANGLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60592641052524,
+            41.689180143041376
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            412,
+            253
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 113TH ST. x S. ST. LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60834202519669,
+            41.68915104524416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2336,
+            253
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 113TH ST. x S. CHAMPLAIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6071344949159,
+            41.68916712287611
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4282,
+            4137
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LANGLEY AV. x E. 114TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60588890790206,
+            41.687368433478305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            412,
+            4137
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 114TH ST. x S. ST. LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60830589413011,
+            41.687341115094604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2336,
+            4137
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 114TH ST. x S. CHAMPLAIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60709805996945,
+            41.68735642701476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            412,
+            8217
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LAWRENCE AV. x E. 115TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6082678718058,
+            41.68545314059659
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2336,
+            8217
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CHAMPLAIN AV. x E. 115TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60705852492686,
+            41.68546355166948
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.218,
+    "dy_m": -2.647
+  }
+}

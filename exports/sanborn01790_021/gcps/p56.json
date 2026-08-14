@@ -1,0 +1,226 @@
+{
+  "page": "56",
+  "n_streets": 6,
+  "n_candidates": 18,
+  "n_inliers": 4,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "SOUTH PARK AV.",
+      "E. 33RD ST. (BOULEVARD)"
+    ],
+    [
+      "SOUTH PARK AV.",
+      "E. 33RD ST."
+    ],
+    [
+      "E. 33RD ST. (BOULEVARD)",
+      "SOUTH PARK AV. (BOULEVARD)"
+    ],
+    [
+      "E. 33RD ST.",
+      "SOUTH PARK AV. (BOULEVARD)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1756,
+            2082
+          ],
+          "username": "autogeoref",
+          "note": "auto: SOUTH PARK AV. x E. 33RD ST. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61705290918984,
+            41.83476714142869
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1756,
+            2376
+          ],
+          "username": "autogeoref",
+          "note": "auto: SOUTH PARK AV. x E. 33RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61704829629933,
+            41.83464705113284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1770,
+            2082
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 33RD ST. (BOULEVARD) x SOUTH PARK AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61705290918984,
+            41.83476714142869
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1770,
+            2376
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 33RD ST. x SOUTH PARK AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61704829629933,
+            41.83464705113284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61776855906896,
+            41.83536518184533
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5296,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61495275690328,
+            41.83540106921724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61770861250344,
+            41.832754095653605
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4663,
+    "separation_ratio": 1.247,
+    "best_offset_m": 29.9,
+    "n_junctions": 15
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 10,
+      "votable": 10,
+      "in_block": 10,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 10.9,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 10.9,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 11.1,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 14.6,
+          "addr_diff": 4.0
+        },
+        {
+          "perp_m": 19.8,
+          "addr_diff": 6.0
+        },
+        {
+          "perp_m": 12.4,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 12.4,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 12.3,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 13.1,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 19.6,
+          "addr_diff": 4.0
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

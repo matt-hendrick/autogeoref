@@ -1,0 +1,141 @@
+{
+  "page": "32",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. LINCOLN",
+      "W. 34TH ST."
+    ],
+    [
+      "W. 33RD ST.",
+      "S. ROBEY"
+    ],
+    [
+      "S. ROBEY",
+      "W. 34TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4930,
+            6483
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LINCOLN x W. 34TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67288427975063,
+            41.832244462598325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            817,
+            2444
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x S. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67537617936776,
+            41.83402291859514
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            817,
+            6483
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROBEY x W. 34TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67532812835071,
+            41.83220659652084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67553047144924,
+            41.83477542831712
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5308,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6727079695503,
+            41.834811401408516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6754705248837,
+            41.83216431806612
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5783,
+    "separation_ratio": 2.075,
+    "best_offset_m": 5.6,
+    "n_junctions": 8
+  }
+}

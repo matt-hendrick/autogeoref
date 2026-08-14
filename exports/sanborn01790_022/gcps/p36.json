@@ -1,0 +1,180 @@
+{
+  "page": "36",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 7,
+  "rotation_deg": 1.18,
+  "auto_residuals_m": [
+    0.52,
+    0.29,
+    0.55,
+    1.33,
+    0.18,
+    0.45,
+    0.29
+  ],
+  "inlier_streets": [
+    [
+      "ARMITAGE AV.",
+      "N. ROBEY"
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. WINCHESTER AV."
+    ],
+    [
+      "HOMER",
+      "N. ROBEY"
+    ],
+    [
+      "CORTLAND",
+      "N. ROBEY"
+    ],
+    [
+      "GREENWICH",
+      "N. ROBEY"
+    ],
+    [
+      "N. ROBEY",
+      "CORTLAND (CLYBOURN PL.)"
+    ],
+    [
+      "N. WINCHESTER AV.",
+      "CORTLAND (CLYBOURN PL.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3570,
+            1221
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67762149765458,
+            41.91775780558731
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5540,
+            1221
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. WINCHESTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67640352418951,
+            41.91778096144693
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3570,
+            2915
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOMER x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67759763846387,
+            41.91699111883236
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3570,
+            4601
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67758629292021,
+            41.91623784532761
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3570,
+            6265
+          ],
+          "username": "autogeoref",
+          "note": "auto: GREENWICH x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6775700361496,
+            41.915473786846974
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3570,
+            5227
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROBEY x CORTLAND (CLYBOURN PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67758052915232,
+            41.915942369002586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5540,
+            5227
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WINCHESTER AV. x CORTLAND (CLYBOURN PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67636622709952,
+            41.915962135510284
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

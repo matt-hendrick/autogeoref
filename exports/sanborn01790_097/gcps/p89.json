@@ -1,0 +1,136 @@
+{
+  "page": "89",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": -89.33,
+  "auto_residuals_m": [
+    2.86,
+    2.32,
+    3.62,
+    2.33,
+    0.75
+  ],
+  "inlier_streets": [
+    [
+      "N. CALIFORNIA AV.",
+      "FULTON"
+    ],
+    [
+      "N. FRANCISCO AV.",
+      "W. CARROLL AV."
+    ],
+    [
+      "N. FRANCISCO AV.",
+      "FULTON"
+    ],
+    [
+      "W. CARROLL AV.",
+      "N. SACRAMENTO BLVD."
+    ],
+    [
+      "FULTON",
+      "N. SACRAMENTO BLVD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4889,
+            313
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CALIFORNIA AV. x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6964446321391,
+            41.88652452273531
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2358,
+            4391
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANCISCO AV. x W. CARROLL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.698937932358,
+            41.88759824836059
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4889,
+            4391
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANCISCO AV. x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69890886778488,
+            41.88649416769785
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2358,
+            8309
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CARROLL AV. x N. SACRAMENTO BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70140311029621,
+            41.887568293471105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4889,
+            8309
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. SACRAMENTO BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70137154657192,
+            41.886467139524974
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.344,
+    "dy_m": -2.009
+  }
+}

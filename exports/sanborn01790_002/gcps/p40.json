@@ -1,0 +1,132 @@
+{
+  "page": "40",
+  "n_streets": 12,
+  "n_candidates": 22,
+  "n_inliers": 5,
+  "rotation_deg": 1.71,
+  "auto_residuals_m": [
+    0.49,
+    3.15,
+    7.63,
+    1.8,
+    2.93
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVERSEY AVE.",
+      "N. KEDZIE AVE."
+    ],
+    [
+      "W. DIVERSEY AVE.",
+      "N. TROY"
+    ],
+    [
+      "N. KEDZIE AVE.",
+      "SCHUBERT AVE."
+    ],
+    [
+      "SCHUBERT AVE.",
+      "N. TROY"
+    ],
+    [
+      "N. SAWYER AVE.",
+      "W. WRIGHTWOOD AVE. (HUMBOLDT AVE.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3465,
+            281
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AVE. x N. KEDZIE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70742719623112,
+            41.9320294292688
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5453,
+            281
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AVE. x N. TROY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7062025862581,
+            41.93203474400933
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3465,
+            4294
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE AVE. x SCHUBERT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7073805682252,
+            41.93024445394698
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5453,
+            4294
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHUBERT AVE. x N. TROY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7061467630141,
+            41.930208921554474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            158,
+            8190
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SAWYER AVE. x W. WRIGHTWOOD AVE. (HUMBOLDT AVE.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70939340639049,
+            41.92834742871105
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

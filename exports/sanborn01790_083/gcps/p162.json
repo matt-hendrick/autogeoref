@@ -1,0 +1,159 @@
+{
+  "page": "162",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.17,
+  "auto_residuals_m": [
+    3.52,
+    6.22,
+    2.7,
+    3.0,
+    6.07,
+    3.06
+  ],
+  "inlier_streets": [
+    [
+      "W. WEBSTER AV.",
+      "N. FREMONT"
+    ],
+    [
+      "W. WEBSTER AV.",
+      "N. DAYTON"
+    ],
+    [
+      "W. WEBSTER AV.",
+      "N. HALSTED"
+    ],
+    [
+      "N. FREMONT",
+      "W. GARFIELD AV."
+    ],
+    [
+      "N. DAYTON",
+      "W. GARFIELD AV."
+    ],
+    [
+      "N. HALSTED",
+      "W. GARFIELD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            796,
+            2731
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. FREMONT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65108489324017,
+            41.921780978083326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2663,
+            2731
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. DAYTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64986994673941,
+            41.921801202981904
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4811,
+            2731
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64865277042253,
+            41.92181975711208
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            796,
+            6722
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FREMONT x W. GARFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65101911814975,
+            41.919961726770474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2663,
+            6722
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAYTON x W. GARFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64981006431255,
+            41.91997894660495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4811,
+            6722
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x W. GARFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64859480667275,
+            41.9199966230187
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.25,
+    "dy_m": 0.405
+  }
+}

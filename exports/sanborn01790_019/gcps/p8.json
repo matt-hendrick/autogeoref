@@ -1,0 +1,109 @@
+{
+  "page": "8",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.15,
+  "auto_residuals_m": [
+    0.44,
+    0.41,
+    0.42,
+    0.4
+  ],
+  "inlier_streets": [
+    [
+      "FULLERTON AV.",
+      "SEMINARY AV."
+    ],
+    [
+      "FULLERTON AV.",
+      "SHEFFIELD AV."
+    ],
+    [
+      "SEMINARY AV.",
+      "BELDEN AV."
+    ],
+    [
+      "SHEFFIELD AV.",
+      "BELDEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            871,
+            249
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x SEMINARY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65602698639862,
+            41.925343368230884
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4910,
+            249
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x SHEFFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65361258329625,
+            41.92537580523391
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            871,
+            4137
+          ],
+          "username": "autogeoref",
+          "note": "auto: SEMINARY AV. x BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65597359228077,
+            41.923516141528566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4910,
+            4137
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHEFFIELD AV. x BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65354794972319,
+            41.92355579661745
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

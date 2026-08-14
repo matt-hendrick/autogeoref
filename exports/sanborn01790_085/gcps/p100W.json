@@ -1,0 +1,142 @@
+{
+  "page": "100W",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. POLK",
+      "S. HALSTED"
+    ],
+    [
+      "W. POLK",
+      "S. DESPLAINES"
+    ],
+    [
+      "W. CABRINI (GILPIN PL.)",
+      "S. DESPLAINES"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1287,
+            6349
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POLK x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6470230112487,
+            41.871929548909264
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1287,
+            1012
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POLK x S. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64381337712683,
+            41.87197071740824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2960,
+            1012
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CABRINI (GILPIN PL.) x S. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64379042639108,
+            41.8712576462487
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64364528412088,
+            41.872305432357166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5294,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6435848824578,
+            41.87018420413781
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6471917941139,
+            41.87224943647168
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -88.7004,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4316,
+    "separation_ratio": 1.27,
+    "best_offset_m": 6.4,
+    "n_junctions": 21
+  }
+}

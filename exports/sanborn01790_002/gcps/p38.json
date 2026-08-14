@@ -1,0 +1,164 @@
+{
+  "page": "38",
+  "n_streets": 11,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. DIVERSEY AVE.",
+      "KIMBALL AVE."
+    ],
+    [
+      "PARKER AVE.",
+      "KIMBALL AVE."
+    ],
+    [
+      "SCHUBERT AVE.",
+      "KIMBALL AVE."
+    ],
+    [
+      "W. WRIGHTWOOD AVE.",
+      "KIMBALL AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4785,
+            221
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AVE. x KIMBALL AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71225309781728,
+            41.93198308021713
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4785,
+            2173
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARKER AVE. x KIMBALL AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71227434710745,
+            41.93106635334179
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4785,
+            4154
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHUBERT AVE. x KIMBALL AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71224989009822,
+            41.93015796192689
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4785,
+            8175
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WRIGHTWOOD AVE. x KIMBALL AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71220167385148,
+            41.92831616223309
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71488828773042,
+            41.9316684553422
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71215357759485,
+            41.93169415432916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71483618961692,
+            41.92860009636205
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8498,
+    "separation_ratio": 1.01,
+    "best_offset_m": 2.2,
+    "n_junctions": 6
+  }
+}

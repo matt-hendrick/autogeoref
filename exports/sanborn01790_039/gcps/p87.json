@@ -1,0 +1,163 @@
+{
+  "page": "87",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 16TH ST.",
+      "S. KILBOURN AV."
+    ],
+    [
+      "W. 16TH ST.",
+      "S. KOSTNER AV."
+    ],
+    [
+      "S. KOSTNER AV.",
+      "W. 18TH ST."
+    ],
+    [
+      "S. KOSTNER AV.",
+      "W. 18TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            804,
+            264
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH ST. x S. KILBOURN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73717637016989,
+            41.858692388700696
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4677,
+            264
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH ST. x S. KOSTNER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73473520140364,
+            41.85873021999047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4677,
+            4112
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KOSTNER AV. x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73467798238174,
+            41.85690026500359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4677,
+            6297
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KOSTNER AV. x W. 18TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73464391721842,
+            41.85587547195135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73729991050983,
+            41.85840440113577
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5216,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73438297446766,
+            41.858445901877836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73721814156904,
+            41.85521620533399
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6433,
+    "separation_ratio": 1.086,
+    "best_offset_m": 14.0,
+    "n_junctions": 8
+  }
+}

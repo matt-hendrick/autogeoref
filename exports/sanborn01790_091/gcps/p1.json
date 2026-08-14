@@ -1,0 +1,163 @@
+{
+  "page": "1",
+  "n_streets": 9,
+  "n_candidates": 11,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. WESTERN AV.",
+      "WOLFRAM"
+    ],
+    [
+      "N. WESTERN AV.",
+      "DIVERSEY AV."
+    ],
+    [
+      "WOLFRAM",
+      "N. OAKLEY AV."
+    ],
+    [
+      "DIVERSEY AV.",
+      "N. OAKLEY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            373,
+            5148
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x WOLFRAM"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68792379971373,
+            41.93307922040234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            373,
+            7123
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x DIVERSEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68788269112054,
+            41.93217912582332
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4421,
+            5148
+          ],
+          "username": "autogeoref",
+          "note": "auto: WOLFRAM x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68551672621088,
+            41.93309486290722
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4421,
+            7123
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AV. x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68546390976569,
+            41.93219838172943
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68787368738533,
+            41.93506689774464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5274,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68501933855151,
+            41.93511467805178
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68779342271992,
+            41.93241337008895
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7231,
+    "separation_ratio": 1.07,
+    "best_offset_m": 0.8,
+    "n_junctions": 12
+  }
+}

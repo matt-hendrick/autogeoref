@@ -1,0 +1,136 @@
+{
+  "page": "128",
+  "n_streets": 9,
+  "n_candidates": 9,
+  "n_inliers": 5,
+  "rotation_deg": 2.25,
+  "auto_residuals_m": [
+    4.14,
+    4.17,
+    1.3,
+    8.09,
+    8.29
+  ],
+  "inlier_streets": [
+    [
+      "W. WISCONSIN",
+      "N. SEDGWICK"
+    ],
+    [
+      "W. WISCONSIN",
+      "N. ORLEANS (N. HAMMOND)"
+    ],
+    [
+      "N. SEDGWICK",
+      "W. MENOMONEE"
+    ],
+    [
+      "N. ORLEANS (N. HAMMOND)",
+      "W. MENOMONEE"
+    ],
+    [
+      "W. MENOMONEE",
+      "N. NORTH PARK AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            950,
+            2846
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WISCONSIN x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63874369859663,
+            41.91650362841671
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2940,
+            2846
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WISCONSIN x N. ORLEANS (N. HAMMOND)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63752512136125,
+            41.91652325068533
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            950,
+            6800
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. MENOMONEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63868578786156,
+            41.91470421144676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2940,
+            6800
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ORLEANS (N. HAMMOND) x W. MENOMONEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63746605025543,
+            41.914756893241815
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3806,
+            6800
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MENOMONEE x N. NORTH PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63675848203546,
+            41.91476840412885
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.035,
+    "dy_m": -0.985
+  }
+}

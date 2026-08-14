@@ -1,0 +1,203 @@
+{
+  "page": "10",
+  "n_streets": 8,
+  "n_candidates": 14,
+  "n_inliers": 8,
+  "rotation_deg": -89.16,
+  "auto_residuals_m": [
+    9.88,
+    4.14,
+    4.46,
+    9.9,
+    10.17,
+    5.58,
+    9.85,
+    5.9
+  ],
+  "inlier_streets": [
+    [
+      "N. HOYNE AV.",
+      "W. FARGO AV. (HOME AV.)"
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. JARVIS AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. JARVIS AV."
+    ],
+    [
+      "W. FARGO AV. (HOME AV.)",
+      "N. RIDGE RD."
+    ],
+    [
+      "W. JARVIS AV.",
+      "N. BELL AV."
+    ],
+    [
+      "W. JARVIS AV.",
+      "N. OAKLEY AV. (ELLWOOD)"
+    ],
+    [
+      "N. BELL AV.",
+      "W. JARVIS AV."
+    ],
+    [
+      "W. JARVIS AV.",
+      "N. OAKLEY AV. (ELLWOOD)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2268,
+            366
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. FARGO AV. (HOME AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68300529906435,
+            42.01648393015026
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5168,
+            366
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. JARVIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68301429731395,
+            42.015142681772524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5163,
+            366
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. JARVIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68301429731395,
+            42.015142681772524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2268,
+            2391
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FARGO AV. (HOME AV.) x N. RIDGE RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68429721300335,
+            42.016496444042026
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5168,
+            5567
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JARVIS AV. x N. BELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68617628197248,
+            42.015592625830244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5168,
+            7738
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JARVIS AV. x N. OAKLEY AV. (ELLWOOD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68752121482731,
+            42.01563670987367
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5163,
+            5567
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BELL AV. x W. JARVIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68617628197248,
+            42.015592625830244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5163,
+            7738
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JARVIS AV. x N. OAKLEY AV. (ELLWOOD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68752121482731,
+            42.01563670987367
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

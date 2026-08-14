@@ -1,0 +1,132 @@
+{
+  "page": "83",
+  "n_streets": 10,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 0.46,
+  "auto_residuals_m": [
+    4.03,
+    3.97,
+    4.65,
+    4.11,
+    8.44
+  ],
+  "inlier_streets": [
+    [
+      "N. DAMEN AV.",
+      "EVERGREEN AV."
+    ],
+    [
+      "N. DAMEN AV.",
+      "POTOMAC AV."
+    ],
+    [
+      "ELLEN",
+      "N. WOLCOTT AV. (N. LINCOLN AV.)"
+    ],
+    [
+      "W. ELLEN",
+      "N. WOLCOTT AV. (N. LINCOLN AV.)"
+    ],
+    [
+      "POTOMAC AV.",
+      "N. WOLCOTT AV. (N. LINCOLN AV.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            826,
+            4042
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAMEN AV. x EVERGREEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6773409161728,
+            41.906009229339446
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            826,
+            6258
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAMEN AV. x POTOMAC AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67730915577295,
+            41.905003652528926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4745,
+            5189
+          ],
+          "username": "autogeoref",
+          "note": "auto: ELLEN x N. WOLCOTT AV. (N. LINCOLN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67475758655786,
+            41.9054884643914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4745,
+            5228
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELLEN x N. WOLCOTT AV. (N. LINCOLN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67475758655786,
+            41.9054884643914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4745,
+            6258
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. WOLCOTT AV. (N. LINCOLN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67488555297189,
+            41.905039043720905
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

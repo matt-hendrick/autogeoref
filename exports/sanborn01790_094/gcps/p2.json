@@ -1,0 +1,207 @@
+{
+  "page": "2",
+  "n_streets": 12,
+  "n_candidates": 15,
+  "n_inliers": 8,
+  "rotation_deg": 2.54,
+  "auto_residuals_m": [
+    3.71,
+    5.97,
+    3.78,
+    5.02,
+    0.5,
+    10.56,
+    20.95,
+    2.28
+  ],
+  "inlier_streets": [
+    [
+      "S. DESPLAINES ST.",
+      "W. ROOSEVELT ROAD (W. 12TH ST.)"
+    ],
+    [
+      "W. ROOSEVELT ROAD (W. 12TH ST.)",
+      "S. UNION ST."
+    ],
+    [
+      "W. ROOSEVELT ROAD (W. 12TH ST.)",
+      "S. JEFFERSON"
+    ],
+    [
+      "W. 12TH PL.",
+      "S. UNION ST."
+    ],
+    [
+      "S. UNION ST.",
+      "W. 13TH ST."
+    ],
+    [
+      "S. UNION ST.",
+      "MAXWELL"
+    ],
+    [
+      "S. UNION ST.",
+      "W. 13TH ST."
+    ],
+    [
+      "S. JEFFERSON",
+      "MAXWELL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2979,
+            1072
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DESPLAINES ST. x W. ROOSEVELT ROAD (W. 12TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64366857608205,
+            41.86722992304431
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            621,
+            1072
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROOSEVELT ROAD (W. 12TH ST.) x S. UNION ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64516350597468,
+            41.86720929919342
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5197,
+            1072
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROOSEVELT ROAD (W. 12TH ST.) x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64219526535929,
+            41.86725032136905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            621,
+            2241
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 12TH PL. x S. UNION ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64509124885028,
+            41.866664293336335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            621,
+            4863
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. UNION ST. x W. 13TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64506335566087,
+            41.86544628927999
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            621,
+            6342
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. UNION ST. x MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6450414986918,
+            41.86483986434631
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            621,
+            4550
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. UNION ST. x W. 13TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64506335566087,
+            41.86544628927999
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5197,
+            6342
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. JEFFERSON x MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64211651767044,
+            41.86488033821155
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -0.825,
+    "dy_m": 4.583
+  }
+}

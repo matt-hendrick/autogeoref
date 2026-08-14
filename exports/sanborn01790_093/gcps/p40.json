@@ -1,0 +1,142 @@
+{
+  "page": "40",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. VAN BUREN",
+      "S. PAULINA"
+    ],
+    [
+      "W. CONGRESS",
+      "S. PAULINA"
+    ],
+    [
+      "W. HARRISON",
+      "S. PAULINA"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            974,
+            1234
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66915035824012,
+            41.876317306589726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            974,
+            3822
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONGRESS x S. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66911157774264,
+            41.87514078201841
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            974,
+            5988
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66911115938461,
+            41.874159889042076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66939968404364,
+            41.87654266387939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5263,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66654379070732,
+            41.87658736399236
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66932451882782,
+            41.87388017615469
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4869,
+    "separation_ratio": 1.172,
+    "best_offset_m": 3.9,
+    "n_junctions": 35
+  }
+}

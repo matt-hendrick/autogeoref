@@ -1,0 +1,133 @@
+{
+  "page": "56",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 1.01,
+  "auto_residuals_m": [
+    0.75,
+    0.82,
+    1.28,
+    0.78,
+    0.86
+  ],
+  "inlier_streets": [
+    [
+      "QUINCY",
+      "STATE"
+    ],
+    [
+      "JACKSON B'LVD",
+      "PLYMOUTH CT."
+    ],
+    [
+      "JACKSON B'LVD",
+      "STATE"
+    ],
+    [
+      "PLYMOUTH CT.",
+      "VANBUREN"
+    ],
+    [
+      "STATE",
+      "VANBUREN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3716,
+            1364
+          ],
+          "username": "autogeoref",
+          "note": "auto: QUINCY x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62769479127789,
+            41.87880481777046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1794,
+            2829
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'LVD x PLYMOUTH CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62875155287537,
+            41.87817367516826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3716,
+            2829
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'LVD x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62767706288287,
+            41.87817592525118
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1794,
+            5822
+          ],
+          "username": "autogeoref",
+          "note": "auto: PLYMOUTH CT. x VANBUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62873959125238,
+            41.87690697946368
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3716,
+            5822
+          ],
+          "username": "autogeoref",
+          "note": "auto: STATE x VANBUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62765212002273,
+            41.87692951144422
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

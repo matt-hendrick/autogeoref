@@ -1,0 +1,116 @@
+{
+  "page": "75",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "69TH",
+      "ST. LAWRENCE AVE."
+    ],
+    [
+      "ST. LAWRENCE AVE.",
+      "71ST"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            620,
+            212
+          ],
+          "username": "autogeoref",
+          "note": "auto: 69TH x ST. LAWRENCE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61051682940042,
+            41.76940605757743
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            620,
+            8096
+          ],
+          "username": "autogeoref",
+          "note": "auto: ST. LAWRENCE AVE. x 71ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61042831416898,
+            41.76579394374067
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6105449241259,
+            41.76912566009996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60782468821883,
+            41.76915573753132
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61048410457387,
+            41.76606577665283
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

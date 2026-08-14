@@ -1,0 +1,132 @@
+{
+  "page": "95",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 0.38,
+  "auto_residuals_m": [
+    1.31,
+    1.18,
+    2.33,
+    1.72,
+    3.5
+  ],
+  "inlier_streets": [
+    [
+      "GRACE",
+      "N. RIDGEWAY AV."
+    ],
+    [
+      "GRACE",
+      "N. LAWNDALE AV."
+    ],
+    [
+      "GRACE",
+      "MONTICELLO AV."
+    ],
+    [
+      "N. LAWNDALE AV.",
+      "ADDISON"
+    ],
+    [
+      "MONTICELLO AV.",
+      "WAVELAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1401,
+            213
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACE x N. RIDGEWAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72138375311901,
+            41.950097406477106
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3336,
+            213
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACE x N. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72015906950556,
+            41.95011471957334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5313,
+            213
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACE x MONTICELLO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71893256854365,
+            41.95013226042547
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3336,
+            8279
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWNDALE AV. x ADDISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72006134545629,
+            41.94647096150724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5313,
+            4156
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTICELLO AV. x WAVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71888830689149,
+            41.94830905952419
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

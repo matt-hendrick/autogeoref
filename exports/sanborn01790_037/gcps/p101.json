@@ -1,0 +1,109 @@
+{
+  "page": "101",
+  "n_streets": 4,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 1.22,
+  "auto_residuals_m": [
+    5.31,
+    5.34,
+    5.37,
+    5.34
+  ],
+  "inlier_streets": [
+    [
+      "W. MADISON",
+      "S. HOWARD AV."
+    ],
+    [
+      "W. MADISON",
+      "S. FRANKLIN AV."
+    ],
+    [
+      "S. HOWARD AV.",
+      "W. ADAMS"
+    ],
+    [
+      "S. FRANKLIN AV.",
+      "W. ADAMS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2859,
+            296
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. HOWARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77322549074815,
+            41.8801099189196
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5568,
+            296
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. FRANKLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77139810141522,
+            41.8801400636342
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2859,
+            5604
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOWARD AV. x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7729366081698,
+            41.877634207592024
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5568,
+            5604
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANKLIN AV. x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77130090373066,
+            41.877658831853346
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

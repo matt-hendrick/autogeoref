@@ -1,0 +1,136 @@
+{
+  "page": "22",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 1.05,
+  "auto_residuals_m": [
+    10.27,
+    10.26,
+    10.32,
+    0.73,
+    10.35
+  ],
+  "inlier_streets": [
+    [
+      "E. 105TH ST.",
+      "S. MICHIGAN AV."
+    ],
+    [
+      "E. 105TH ST.",
+      "S. INDIANA AV."
+    ],
+    [
+      "S. MICHIGAN AV.",
+      "E. 107TH ST."
+    ],
+    [
+      "S. INDIANA AV.",
+      "E. 106TH ST."
+    ],
+    [
+      "S. INDIANA AV.",
+      "E. 107TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            602,
+            317
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 105TH ST. x S. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.620596881125,
+            41.70350556998159
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4375,
+            317
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 105TH ST. x S. INDIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61848325654562,
+            41.70353722988975
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            602,
+            8266
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. x E. 107TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62087044352151,
+            41.699906714787254
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4375,
+            4212
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. INDIANA AV. x E. 106TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61843455124865,
+            41.701768702879875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4375,
+            8266
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. INDIANA AV. x E. 107TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6183868930553,
+            41.69994330647331
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 6.513,
+    "dy_m": 0.193
+  }
+}

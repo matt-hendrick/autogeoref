@@ -1,0 +1,207 @@
+{
+  "page": "42N",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. HUBBARD",
+      "N. FRANKLIN"
+    ],
+    [
+      "W. HUBBARD",
+      "N. ORLEANS"
+    ],
+    [
+      "W. HUBBARD",
+      "N. WELLS"
+    ],
+    [
+      "N. FRANKLIN",
+      "W. KINZIE"
+    ],
+    [
+      "W. KINZIE",
+      "N. ORLEANS"
+    ],
+    [
+      "W. KINZIE",
+      "N. WELLS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2827,
+            793
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HUBBARD x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63553479946694,
+            41.88996349207516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            461,
+            793
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HUBBARD x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63698252728551,
+            41.889944113206745
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5315,
+            793
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HUBBARD x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63402835923993,
+            41.889982651039865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2827,
+            2603
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANKLIN x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63550792420995,
+            41.889148900973304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            461,
+            2603
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6369626132384,
+            41.88913244717552
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5315,
+            2603
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63400656419945,
+            41.8891658841864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63689812633862,
+            41.889972756658125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5238,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63407934765712,
+            41.89001090756162
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63683364291803,
+            41.88733242220711
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7693,
+    "separation_ratio": 1.056,
+    "best_offset_m": 4.1,
+    "n_junctions": 13
+  }
+}

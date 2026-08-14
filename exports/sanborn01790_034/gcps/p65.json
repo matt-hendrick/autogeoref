@@ -1,0 +1,123 @@
+{
+  "page": "65",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "FOSTER AV",
+      "N. ASHLAND AV"
+    ],
+    [
+      "ARGYLE",
+      "N. CLARK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            85,
+            257
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV x N. ASHLAND AV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66959957557349,
+            41.97615744660904
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2589,
+            8432
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARGYLE x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6679004894761,
+            41.97252347074311
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66925151686821,
+            41.97591087308829
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5222,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66643340176194,
+            41.97595219767391
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66917004336703,
+            41.97284006609922
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 1.58,
+    "dy_m": -2.199
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8051,
+    "separation_ratio": 1.018,
+    "best_offset_m": 12.3,
+    "n_junctions": 8
+  }
+}

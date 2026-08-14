@@ -1,0 +1,182 @@
+{
+  "page": "89",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "rotation_deg": 0.96,
+  "auto_residuals_m": [
+    16.55,
+    7.35,
+    12.44,
+    1.05,
+    6.74,
+    8.44,
+    0.85
+  ],
+  "inlier_streets": [
+    [
+      "LAWRENCE AV.",
+      "N. CLARK"
+    ],
+    [
+      "LAWRENCE AV.",
+      "N.ASHLAND AV."
+    ],
+    [
+      "N. CLARK",
+      "LELAND AV."
+    ],
+    [
+      "LELAND AV.",
+      "N.ASHLAND AV."
+    ],
+    [
+      "LELAND AV.",
+      "PERRY"
+    ],
+    [
+      "N.ASHLAND AV.",
+      "WILSON AV."
+    ],
+    [
+      "PERRY",
+      "WILSON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4380,
+            298
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66753242358958,
+            41.968896073037996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            687,
+            298
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x N.ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66947485035968,
+            41.968872564516516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4380,
+            4301
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x LELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66715486554438,
+            41.96707328859506
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            687,
+            4301
+          ],
+          "username": "autogeoref",
+          "note": "auto: LELAND AV. x N.ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66943101293701,
+            41.96704716668407
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3221,
+            4301
+          ],
+          "username": "autogeoref",
+          "note": "auto: LELAND AV. x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66788296458384,
+            41.96706257726011
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            687,
+            8260
+          ],
+          "username": "autogeoref",
+          "note": "auto: N.ASHLAND AV. x WILSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66938311557998,
+            41.9652292573192
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3221,
+            8260
+          ],
+          "username": "autogeoref",
+          "note": "auto: PERRY x WILSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66783500559644,
+            41.965251143831395
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.981,
+    "dy_m": -0.661
+  }
+}

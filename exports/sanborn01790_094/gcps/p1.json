@@ -1,0 +1,157 @@
+{
+  "page": "1",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.1,
+  "auto_residuals_m": [
+    1.82,
+    1.92,
+    1.89,
+    1.81,
+    2.06,
+    1.5
+  ],
+  "inlier_streets": [
+    [
+      "W. ROOSEVELT ROAD (W. 12TH ST.)",
+      "S. HALSTED ST."
+    ],
+    [
+      "W. ROOSEVELT ROAD (W. 12TH ST.)",
+      "S. UNION AV."
+    ],
+    [
+      "S. HALSTED ST.",
+      "W. 13TH ST."
+    ],
+    [
+      "S. HALSTED ST.",
+      "W. MAXWELL"
+    ],
+    [
+      "S. UNION AV.",
+      "W. 13TH ST."
+    ],
+    [
+      "S. UNION AV.",
+      "W. MAXWELL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1448,
+            1092
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROOSEVELT ROAD (W. 12TH ST.) x S. HALSTED ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64691834942573,
+            41.867154100518164
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4373,
+            1092
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROOSEVELT ROAD (W. 12TH ST.) x S. UNION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64515609487358,
+            41.86717864030616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1448,
+            4885
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED ST. x W. 13TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64686507357834,
+            41.86538866036261
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1448,
+            6243
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED ST. x W. MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64684702376375,
+            41.86478337265161
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4373,
+            4885
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. UNION AV. x W. 13TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64505594455979,
+            41.865415629547265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4373,
+            6243
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. UNION AV. x W. MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6450340875907,
+            41.86480920432278
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

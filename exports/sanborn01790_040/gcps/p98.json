@@ -1,0 +1,113 @@
+{
+  "page": "98",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 1.04,
+  "auto_residuals_m": [
+    5.32,
+    5.35,
+    5.34,
+    5.31
+  ],
+  "inlier_streets": [
+    [
+      "WABANSIA AV.",
+      "N. KARLOV AV."
+    ],
+    [
+      "WABANSIA AV.",
+      "KEYSTONE"
+    ],
+    [
+      "W. NORTH AV.",
+      "N. KARLOV AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "KEYSTONE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1352,
+            4314
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. KARLOV AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72885623376325,
+            41.91166703721454
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3227,
+            4314
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x KEYSTONE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7276372329149,
+            41.911683127649724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1352,
+            8315
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. KARLOV AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72879677036573,
+            41.90984541127333
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3227,
+            8315
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x KEYSTONE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72776932861186,
+            41.909859790633234
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.809,
+    "dy_m": -1.067
+  }
+}

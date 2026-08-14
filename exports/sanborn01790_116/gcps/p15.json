@@ -1,0 +1,182 @@
+{
+  "page": "15",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "rotation_deg": 1.03,
+  "auto_residuals_m": [
+    6.64,
+    10.32,
+    6.19,
+    5.83,
+    7.29,
+    7.21,
+    4.63
+  ],
+  "inlier_streets": [
+    [
+      "W. FOSTER AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "W. FOSTER AV.",
+      "N. LAMON AV."
+    ],
+    [
+      "W. CARMEN AV.",
+      "N. LAMON AV."
+    ],
+    [
+      "N. CICERO AV.",
+      "WINNEMAC AV."
+    ],
+    [
+      "N. CICERO AV.",
+      "ARGYLE"
+    ],
+    [
+      "N. LAMON AV.",
+      "WINNEMAC AV."
+    ],
+    [
+      "N. LAMON AV.",
+      "ARGYLE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4898,
+            364
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FOSTER AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74800857564391,
+            41.97532538622355
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1112,
+            364
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FOSTER AV. x N. LAMON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75065092991198,
+            41.975282136155855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1112,
+            4256
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CARMEN AV. x N. LAMON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75040270878374,
+            41.97345777534832
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4898,
+            6277
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CICERO AV. x WINNEMAC AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74792540835638,
+            41.97257228826349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4898,
+            8050
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CICERO AV. x ARGYLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74791421373487,
+            41.97166278041058
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1112,
+            6277
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAMON AV. x WINNEMAC AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7503785690786,
+            41.972544993571695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1112,
+            8050
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAMON AV. x ARGYLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7503513841206,
+            41.971632557594326
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.741,
+    "dy_m": -2.307
+  }
+}

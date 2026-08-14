@@ -1,0 +1,120 @@
+{
+  "page": "88",
+  "n_streets": 4,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. ADAMS",
+      "S. CANAL"
+    ],
+    [
+      "W. VANBUREN",
+      "S. CANAL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1254,
+            829
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6396032206973,
+            41.8793123376878
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1254,
+            6358
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VANBUREN x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.639623339284,
+            41.87677112137888
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6400521069488,
+            41.87933431155725
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5244,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63722331788733,
+            41.87937256372683
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63998858118192,
+            41.876729995831624
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8277,
+    "separation_ratio": 1.216,
+    "best_offset_m": 6.3,
+    "n_junctions": 5
+  }
+}

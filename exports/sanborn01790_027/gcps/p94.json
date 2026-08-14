@@ -1,0 +1,132 @@
+{
+  "page": "94",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 0.98,
+  "auto_residuals_m": [
+    1.0,
+    1.18,
+    0.22,
+    0.81,
+    0.81
+  ],
+  "inlier_streets": [
+    [
+      "N. AVERS AV.",
+      "ARMITAGE AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. HAMLIN AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. RIDGEWAY AV."
+    ],
+    [
+      "CORTLAND",
+      "N. HAMLIN AV."
+    ],
+    [
+      "CORTLAND",
+      "N. RIDGEWAY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1345,
+            359
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AVERS AV. x ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72288985835976,
+            41.91720752724125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3345,
+            359
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. HAMLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72166617912836,
+            41.917223258666766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5400,
+            359
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. RIDGEWAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72044145577603,
+            41.917239458303136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3345,
+            4342
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x N. HAMLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72161305488287,
+            41.915401831569355
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5400,
+            4342
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x N. RIDGEWAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72039023019772,
+            41.915415999665285
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

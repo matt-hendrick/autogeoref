@@ -1,0 +1,185 @@
+{
+  "page": "49",
+  "n_streets": 6,
+  "n_candidates": 12,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. LUNT AV.",
+      "N. RAVENSWOOD AV."
+    ],
+    [
+      "W. LUNT AV.",
+      "N. CLARK"
+    ],
+    [
+      "W. MORSE AV.",
+      "N. RAVENSWOOD AV."
+    ],
+    [
+      "W. FARWELL AV.",
+      "N. RAVENSWOOD AV."
+    ],
+    [
+      "W. PRATT BLVD.",
+      "N. RAVENSWOOD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1154,
+            313
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LUNT AV. x N. RAVENSWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67584872162489,
+            42.00896807652392
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4048,
+            313
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LUNT AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67401048368197,
+            42.00900739284669
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1154,
+            2866
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MORSE AV. x N. RAVENSWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6758134632951,
+            42.007754214486376
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1154,
+            5472
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FARWELL AV. x N. RAVENSWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67577287455664,
+            42.00653792981634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1154,
+            8053
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PRATT BLVD. x N. RAVENSWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67574019785899,
+            42.0053113597204
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67619461724901,
+            42.008668450927686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5034,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67344640608074,
+            42.0087159887607
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67609734170063,
+            42.00556350945584
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -5.281,
+    "dy_m": 2.058
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

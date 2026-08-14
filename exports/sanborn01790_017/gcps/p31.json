@@ -1,0 +1,155 @@
+{
+  "page": "31",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.68,
+  "auto_residuals_m": [
+    1.25,
+    2.45,
+    2.79,
+    1.67,
+    4.01,
+    4.11
+  ],
+  "inlier_streets": [
+    [
+      "WASHINGTON",
+      "CLARK"
+    ],
+    [
+      "WASHINGTON",
+      "DEARBORN"
+    ],
+    [
+      "MADISON",
+      "CLARK"
+    ],
+    [
+      "MADISON",
+      "DEARBORN"
+    ],
+    [
+      "CLARK",
+      "CALHOUN PL."
+    ],
+    [
+      "DEARBORN",
+      "CALHOUN PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1840,
+            2221
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON x CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6309068674027,
+            41.88321075181364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4403,
+            2221
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON x DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62943536686878,
+            41.883214889382614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1840,
+            4949
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON x CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63088320810658,
+            41.88197707945246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4403,
+            4949
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON x DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62940235620849,
+            41.88199799262163
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1840,
+            3731
+          ],
+          "username": "autogeoref",
+          "note": "auto: CLARK x CALHOUN PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6309026027571,
+            41.88256793980325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4403,
+            3731
+          ],
+          "username": "autogeoref",
+          "note": "auto: DEARBORN x CALHOUN PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62942114845526,
+            41.88258203720153
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

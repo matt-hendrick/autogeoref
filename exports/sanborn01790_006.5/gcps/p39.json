@@ -1,0 +1,136 @@
+{
+  "page": "39",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 0.17,
+  "auto_residuals_m": [
+    2.05,
+    5.77,
+    2.08,
+    3.74,
+    8.99
+  ],
+  "inlier_streets": [
+    [
+      "63RD",
+      "EVANS AVE."
+    ],
+    [
+      "63RD",
+      "JACKSON"
+    ],
+    [
+      "65TH",
+      "EVANS AVE."
+    ],
+    [
+      "65TH",
+      "JACKSON"
+    ],
+    [
+      "63RD PL.",
+      "JACKSON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            645,
+            366
+          ],
+          "username": "autogeoref",
+          "note": "auto: 63RD x EVANS AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60717147518554,
+            41.78040050997293
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            366
+          ],
+          "username": "autogeoref",
+          "note": "auto: 63RD x JACKSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60463070832161,
+            41.78043748006208
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            645,
+            8219
+          ],
+          "username": "autogeoref",
+          "note": "auto: 65TH x EVANS AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6070910966003,
+            41.77676719206386
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            8219
+          ],
+          "username": "autogeoref",
+          "note": "auto: 65TH x JACKSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6046060402657,
+            41.776800743638546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            2133
+          ],
+          "username": "autogeoref",
+          "note": "auto: 63RD PL. x JACKSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60461094894198,
+            41.77952537098704
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.919,
+    "dy_m": 1.377
+  }
+}

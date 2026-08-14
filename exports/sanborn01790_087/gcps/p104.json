@@ -1,0 +1,132 @@
+{
+  "page": "104",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.14,
+  "auto_residuals_m": [
+    0.55,
+    0.55,
+    0.23,
+    0.87,
+    0.72
+  ],
+  "inlier_streets": [
+    [
+      "W. WISCONSIN",
+      "N. FREMONT"
+    ],
+    [
+      "W. WISCONSIN",
+      "N. DAYTON"
+    ],
+    [
+      "N. FREMONT",
+      "W. WILLOW"
+    ],
+    [
+      "N. DAYTON",
+      "W. WILLOW"
+    ],
+    [
+      "N. HALSTED",
+      "W. WILLOW"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            961,
+            1274
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WISCONSIN x N. FREMONT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65086314166037,
+            41.91599751782578
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2957,
+            1274
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WISCONSIN x N. DAYTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64965310964388,
+            41.91601259716552
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            961,
+            6201
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FREMONT x W. WILLOW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6507873570544,
+            41.91378997576282
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2957,
+            6201
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAYTON x W. WILLOW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64957738898866,
+            41.913809888709274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5002,
+            6201
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x W. WILLOW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.648361235663,
+            41.913827161454925
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

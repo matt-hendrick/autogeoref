@@ -1,0 +1,156 @@
+{
+  "page": "21",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.06,
+  "auto_residuals_m": [
+    0.69,
+    0.4,
+    1.11,
+    0.99,
+    0.55,
+    0.71
+  ],
+  "inlier_streets": [
+    [
+      "ERIE",
+      "WELLS"
+    ],
+    [
+      "ERIE",
+      "LASALLE AV."
+    ],
+    [
+      "ONTARIO",
+      "WELLS"
+    ],
+    [
+      "ONTARIO",
+      "LASALLE AV."
+    ],
+    [
+      "WELLS",
+      "OHIO"
+    ],
+    [
+      "LASALLE AV.",
+      "OHIO"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1558,
+            996
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63413279104483,
+            41.89398906537956
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4188,
+            996
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x LASALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63266113303544,
+            41.89401109283434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1558,
+            2756
+          ],
+          "username": "autogeoref",
+          "note": "auto: ONTARIO x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63411054863546,
+            41.893188651485055
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4188,
+            2756
+          ],
+          "username": "autogeoref",
+          "note": "auto: ONTARIO x LASALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63263828454532,
+            41.893207829213566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1558,
+            4467
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLS x OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63408846739569,
+            41.89238858505533
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4188,
+            4467
+          ],
+          "username": "autogeoref",
+          "note": "auto: LASALLE AV. x OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63260696447891,
+            41.89240852887789
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

@@ -1,0 +1,167 @@
+{
+  "page": "11",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "HADDON AV. (VACATED)",
+      "N. CICERO (N. 48TH AV.)"
+    ],
+    [
+      "THOMAS",
+      "N. CICERO (N. 48TH AV.)"
+    ],
+    [
+      "W. AUGUSTA BLVD.",
+      "N. CICERO (N. 48TH AV.)"
+    ],
+    [
+      "W. AUGUSTA BLVD.",
+      "N. KILPATRICK (N. 47TH AV.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            969,
+            2132
+          ],
+          "username": "autogeoref",
+          "note": "auto: HADDON AV. (VACATED) x N. CICERO (N. 48TH AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74595306154728,
+            41.901418387653194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            969,
+            4001
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x N. CICERO (N. 48TH AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7459324597809,
+            41.900499291225664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            969,
+            7832
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. AUGUSTA BLVD. x N. CICERO (N. 48TH AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74589343900695,
+            41.89866996091584
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4601,
+            7832
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. AUGUSTA BLVD. x N. KILPATRICK (N. 47TH AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74362618755973,
+            41.89872106419961
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74619248715707,
+            41.90193100956707
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5307,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74327978383975,
+            41.9019663172812
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74612407705747,
+            41.8988046377395
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -0.324,
+    "dy_m": -2.509
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.2079,
+    "separation_ratio": 0.699,
+    "best_offset_m": 84.1,
+    "n_junctions": 22
+  }
+}

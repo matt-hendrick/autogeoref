@@ -1,0 +1,311 @@
+{
+  "page": "95",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "POTOMAC AV.",
+      "N. ROBEY"
+    ],
+    [
+      "CRYSTAL",
+      "N. ROBEY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            868,
+            1584
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67730915577295,
+            41.905003652528926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            868,
+            3577
+          ],
+          "username": "autogeoref",
+          "note": "auto: CRYSTAL x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67728395230554,
+            41.90412164499185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67749576100886,
+            41.90540197661255
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5248,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67463960108087,
+            41.905448763162745
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67741681154922,
+            41.90273231874426
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6823,
+    "separation_ratio": 1.407,
+    "best_offset_m": 11.8,
+    "n_junctions": 19
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol"
+      ],
+      "consensus_numerals": 42,
+      "votable": 42,
+      "in_block": 42,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 15.0,
+          "addr_diff": 4.9
+        },
+        {
+          "perp_m": 13.9,
+          "addr_diff": 3.2
+        },
+        {
+          "perp_m": 13.9,
+          "addr_diff": 3.7
+        },
+        {
+          "perp_m": 13.8,
+          "addr_diff": 3.9
+        },
+        {
+          "perp_m": 13.8,
+          "addr_diff": 3.9
+        },
+        {
+          "perp_m": 13.8,
+          "addr_diff": 3.9
+        },
+        {
+          "perp_m": 13.7,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 13.7,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 13.6,
+          "addr_diff": 3.0
+        },
+        {
+          "perp_m": 13.6,
+          "addr_diff": 3.4
+        },
+        {
+          "perp_m": 13.5,
+          "addr_diff": 1.7
+        },
+        {
+          "perp_m": 13.5,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 0.0
+        },
+        {
+          "perp_m": 12.6,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 12.6,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 12.5,
+          "addr_diff": 2.1
+        },
+        {
+          "perp_m": 9.7,
+          "addr_diff": 4.6
+        },
+        {
+          "perp_m": 9.8,
+          "addr_diff": 4.5
+        },
+        {
+          "perp_m": 9.8,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 9.8,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 9.8,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 9.8,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 9.9,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 15.9,
+          "addr_diff": 6.6
+        },
+        {
+          "perp_m": 15.1,
+          "addr_diff": 4.6
+        },
+        {
+          "perp_m": 15.1,
+          "addr_diff": 4.8
+        },
+        {
+          "perp_m": 15.1,
+          "addr_diff": 5.2
+        },
+        {
+          "perp_m": 15.1,
+          "addr_diff": 1.5
+        },
+        {
+          "perp_m": 12.9,
+          "addr_diff": 6.4
+        },
+        {
+          "perp_m": 13.1,
+          "addr_diff": 7.1
+        },
+        {
+          "perp_m": 13.1,
+          "addr_diff": 5.3
+        },
+        {
+          "perp_m": 13.1,
+          "addr_diff": 5.4
+        },
+        {
+          "perp_m": 13.1,
+          "addr_diff": 3.4
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 3.5
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 3.7
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 3.9
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 4.0
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 4.0
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 4.0
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 0.8
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

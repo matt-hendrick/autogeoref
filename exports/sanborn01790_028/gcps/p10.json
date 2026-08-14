@@ -1,0 +1,205 @@
+{
+  "page": "10",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.7,
+  "auto_residuals_m": [
+    2.51,
+    2.71,
+    2.39,
+    5.1,
+    5.01,
+    5.09,
+    3.77,
+    3.98
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. WASHTENAW AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. TALMAN AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. ROCKWELL"
+    ],
+    [
+      "LE MOYNE",
+      "N. WASHTENAW AV."
+    ],
+    [
+      "LE MOYNE",
+      "N. TALMAN AV."
+    ],
+    [
+      "LE MOYNE",
+      "N. ROCKWELL"
+    ],
+    [
+      "N. WASHTENAW AV.",
+      "HIRSCH BLVD"
+    ],
+    [
+      "N. ROCKWELL",
+      "HIRSCH BLVD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            889,
+            320
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69454209278273,
+            41.910226824755775
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2892,
+            320
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. TALMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69332295001809,
+            41.91023858908177
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4830,
+            320
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69211133911465,
+            41.91024967176539
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            889,
+            4249
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6944999391557,
+            41.90840329772082
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2892,
+            4249
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. TALMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69328145026913,
+            41.90841449449441
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4830,
+            4249
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69207659704483,
+            41.90842628302459
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            889,
+            7941
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WASHTENAW AV. x HIRSCH BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69448292258039,
+            41.906585251880024
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4830,
+            7941
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROCKWELL x HIRSCH BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69204000918945,
+            41.90660568580672
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.076,
+    "dy_m": -2.359
+  }
+}

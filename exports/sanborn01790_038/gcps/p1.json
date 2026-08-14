@@ -1,0 +1,132 @@
+{
+  "page": "1",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 0.82,
+  "auto_residuals_m": [
+    0.35,
+    0.33,
+    3.7,
+    3.72,
+    7.36
+  ],
+  "inlier_streets": [
+    [
+      "FOSTER AV.",
+      "N. 40TH AV."
+    ],
+    [
+      "FOSTER AV.",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "N. 40TH AV.",
+      "ARGYLE"
+    ],
+    [
+      "N. SPRINGFIELD AV.",
+      "ARGYLE"
+    ],
+    [
+      "N. HARDING AV.",
+      "ARGYLE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            395
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x N. 40TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72823338705604,
+            41.975532007608265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4469,
+            395
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.725803668478,
+            41.97555684626731
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            8353
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 40TH AV. x ARGYLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72813177371492,
+            41.97188406719022
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4469,
+            8353
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPRINGFIELD AV. x ARGYLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72570828599751,
+            41.97191084765883
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2322,
+            8353
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HARDING AV. x ARGYLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72691986046382,
+            41.971897487897905
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

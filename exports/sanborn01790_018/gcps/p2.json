@@ -1,0 +1,203 @@
+{
+  "page": "2",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.55,
+  "auto_residuals_m": [
+    3.44,
+    7.24,
+    2.79,
+    1.23,
+    1.45,
+    0.81,
+    1.12,
+    0.65
+  ],
+  "inlier_streets": [
+    [
+      "LARRABEE",
+      "CHICAGO AV."
+    ],
+    [
+      "LARRABEE",
+      "SUPERIOR"
+    ],
+    [
+      "LARRABEE",
+      "HURON"
+    ],
+    [
+      "LARRABEE",
+      "ERIE"
+    ],
+    [
+      "CHICAGO AV.",
+      "KINGSBURY"
+    ],
+    [
+      "SUPERIOR",
+      "KINGSBURY"
+    ],
+    [
+      "KINGSBURY",
+      "HURON"
+    ],
+    [
+      "KINGSBURY",
+      "ERIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1805,
+            618
+          ],
+          "username": "autogeoref",
+          "note": "auto: LARRABEE x CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64292899500003,
+            41.89647627925845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1805,
+            2823
+          ],
+          "username": "autogeoref",
+          "note": "auto: LARRABEE x SUPERIOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64296811479782,
+            41.89552484789098
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1805,
+            4577
+          ],
+          "username": "autogeoref",
+          "note": "auto: LARRABEE x HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64290394923508,
+            41.894666933706134
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1805,
+            6312
+          ],
+          "username": "autogeoref",
+          "note": "auto: LARRABEE x ERIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64290228648521,
+            41.893881695944856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4116,
+            618
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHICAGO AV. x KINGSBURY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64152366011751,
+            41.896493130145686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4116,
+            2823
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUPERIOR x KINGSBURY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64150252554221,
+            41.89549986594319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4116,
+            4577
+          ],
+          "username": "autogeoref",
+          "note": "auto: KINGSBURY x HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64148366496863,
+            41.894700480781395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4116,
+            6312
+          ],
+          "username": "autogeoref",
+          "note": "auto: KINGSBURY x ERIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64146602940176,
+            41.89389716957264
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

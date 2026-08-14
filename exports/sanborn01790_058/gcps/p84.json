@@ -1,0 +1,119 @@
+{
+  "page": "84",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. LOYOLA AV.",
+      "N. WINTHROP AV."
+    ],
+    [
+      "W. SHERIDAN RD.",
+      "N. KENMORE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            176,
+            514
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LOYOLA AV. x N. WINTHROP AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65861134141593,
+            42.00155729363149
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2507,
+            7877
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SHERIDAN RD. x N. KENMORE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65709137553014,
+            41.9982238610477
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            563,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65837729368396,
+            42.001409241131086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5068,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65561041060006,
+            42.00145710740704
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            563,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65828001813559,
+            41.998303945379696
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -3.204,
+    "dy_m": -0.551
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

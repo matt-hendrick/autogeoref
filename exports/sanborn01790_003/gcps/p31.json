@@ -1,0 +1,156 @@
+{
+  "page": "31",
+  "n_streets": 6,
+  "n_candidates": 10,
+  "n_inliers": 6,
+  "rotation_deg": 1.67,
+  "auto_residuals_m": [
+    2.38,
+    0.55,
+    2.22,
+    3.08,
+    1.78,
+    5.21
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVISION",
+      "N. HOMAN AV."
+    ],
+    [
+      "W. DIVISION",
+      "CHRISTIANA AV."
+    ],
+    [
+      "W. DIVISION",
+      "N. SPAULDING AV. (SHERIDAN)"
+    ],
+    [
+      "N. HOMAN AV.",
+      "GRAND AV."
+    ],
+    [
+      "N. HOMAN AV.",
+      "AUGUSTA"
+    ],
+    [
+      "CHRISTIANA AV.",
+      "GRAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            923,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71167499691109,
+            41.90278776164852
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2679,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x CHRISTIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71062001394479,
+            41.90279109432271
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4635,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. SPAULDING AV. (SHERIDAN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70944780615879,
+            41.902805306269016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            923,
+            6858
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOMAN AV. x GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71157711884463,
+            41.89977529890262
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            923,
+            8260
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOMAN AV. x AUGUSTA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71155614250067,
+            41.89914902879822
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2679,
+            6858
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHRISTIANA AV. x GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71052634759823,
+            41.899853515866816
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

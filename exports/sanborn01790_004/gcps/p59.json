@@ -1,0 +1,206 @@
+{
+  "page": "59",
+  "n_streets": 6,
+  "n_candidates": 18,
+  "n_inliers": 8,
+  "rotation_deg": 2.54,
+  "auto_residuals_m": [
+    8.21,
+    6.27,
+    0.46,
+    6.87,
+    8.82,
+    13.72,
+    8.1,
+    17.57
+  ],
+  "inlier_streets": [
+    [
+      "W. 16TH",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. 16TH",
+      "S. TRUMBULL AV."
+    ],
+    [
+      "W. 16TH",
+      "S. HOMAN AV."
+    ],
+    [
+      "W. 18TH",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. 18TH",
+      "S. TRUMBULL AV."
+    ],
+    [
+      "W. 18TH",
+      "S. HOMAN AV."
+    ],
+    [
+      "S. TRUMBULL AV.",
+      "OGDEN AV."
+    ],
+    [
+      "S. HOMAN AV.",
+      "OGDEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            884,
+            336
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71276960378398,
+            41.85901501384724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2842,
+            336
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH x S. TRUMBULL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71155059777327,
+            41.85902937675739
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4973,
+            336
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH x S. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71033197817837,
+            41.85903976666462
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            884,
+            4437
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71271986221014,
+            41.85718743215492
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2842,
+            4437
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH x S. TRUMBULL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7114985368411,
+            41.85719929326319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4973,
+            4437
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH x S. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71028220441445,
+            41.857207637705734
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2842,
+            7637
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. TRUMBULL AV. x OGDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71139019657488,
+            41.85588294418243
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4973,
+            7637
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOMAN AV. x OGDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7102469841144,
+            41.8560498322838
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": 0.119,
+    "dy_m": 2.176
+  }
+}

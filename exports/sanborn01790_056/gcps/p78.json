@@ -1,0 +1,189 @@
+{
+  "page": "78",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 105TH ST.",
+      "S. PROSPECT AV."
+    ],
+    [
+      "W. 105TH ST.",
+      "S. PROSPECT AV."
+    ],
+    [
+      "W. 105TH PL.",
+      "S. PROSPECT AV."
+    ],
+    [
+      "W. 105TH PL.",
+      "S. CHURCH"
+    ],
+    [
+      "S. PROSPECT AV.",
+      "W. 106TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1176,
+            155
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 105TH ST. x S. PROSPECT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66194120416633,
+            41.70308029135116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1176,
+            155
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 105TH ST. x S. PROSPECT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66191945630594,
+            41.702987432889365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1176,
+            2292
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 105TH PL. x S. PROSPECT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66180062105086,
+            41.702080479494526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4303,
+            2011
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 105TH PL. x S. CHURCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65985370561397,
+            41.70221552310483
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1176,
+            4150
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PROSPECT AV. x W. 106TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66184553176461,
+            41.70117110725325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            578,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66223931114224,
+            41.70271310598308
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5206,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65937634274954,
+            41.70275333398641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            578,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66216009171308,
+            41.69957032580459
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -2.032,
+    "dy_m": 1.906
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6628,
+    "separation_ratio": 1.035,
+    "best_offset_m": 26.0,
+    "n_junctions": 3
+  }
+}

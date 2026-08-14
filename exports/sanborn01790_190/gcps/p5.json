@@ -1,0 +1,152 @@
+{
+  "page": "5",
+  "n_streets": 2,
+  "n_candidates": 0,
+  "n_inliers": 0,
+  "status": "OK (reviewer-verified)",
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            634,
+            760
+          ],
+          "username": "reviewer",
+          "note": "synthetic: reviewer placement corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.59134893939459,
+            41.83122762867341
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5708,
+            760
+          ],
+          "username": "reviewer",
+          "note": "synthetic: reviewer placement corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58800892924954,
+            41.82234455599456
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5708,
+            6844
+          ],
+          "username": "reviewer",
+          "note": "synthetic: reviewer placement corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60230392895953,
+            41.819359770937055
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            634,
+            6844
+          ],
+          "username": "reviewer",
+          "note": "synthetic: reviewer placement corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60564393910457,
+            41.8282432577177
+          ]
+        }
+      }
+    ]
+  },
+  "reviewer_review": {
+    "verdict": "adjusted",
+    "ops": [
+      {
+        "type": "scale",
+        "factor": 1.345735170648353,
+        "center_3857": [
+          -9752422.289671715,
+          5137789.3995119855
+        ]
+      },
+      {
+        "type": "rotate",
+        "deg": -0.014274734584118775,
+        "center_3857": [
+          -9752422.289671715,
+          5137789.3995119855
+        ]
+      },
+      {
+        "type": "translate",
+        "dx_m": 156.3398339021951,
+        "dy_m": 454.7815887806937
+      },
+      {
+        "type": "scale",
+        "factor": 1.0134339298408312,
+        "center_3857": [
+          -9752092.644907814,
+          5135496.770027867
+        ]
+      },
+      {
+        "type": "rotate",
+        "deg": 0.1803412871102243,
+        "center_3857": [
+          -9752092.644907814,
+          5135496.770027867
+        ]
+      },
+      {
+        "type": "translate",
+        "dx_m": -1.1942095682024956,
+        "dy_m": 1.1534848241135478
+      }
+    ],
+    "timestamp": "2026-07-19T02:16:39+00:00",
+    "note": "Draft placement (Claude): anchored on the South Entrance gate at Pershing (39th); if the ghost reads south, drag north along the shore.",
+    "previous_status": "OK (reviewer-verified)"
+  },
+  "reviewer_mask_px": [
+    [
+      16.0,
+      16.0
+    ],
+    [
+      6321.0,
+      16.0
+    ],
+    [
+      6321.0,
+      7584.0
+    ],
+    [
+      16.0,
+      7584.0
+    ]
+  ]
+}

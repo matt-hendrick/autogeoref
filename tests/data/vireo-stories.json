@@ -1,0 +1,46 @@
+{
+  "stories": [
+    {
+      "id": "harbour-line",
+      "title": "Where the harbour line moved",
+      "dek": "Two stops along a waterfront that was rebuilt between surveys.",
+      "stops": [
+        {
+          "id": "wharf",
+          "title": "The old wharf",
+          "body_html": "<p>The 1905 sheets draw a timber wharf where the modern quay stands.</p>",
+          "camera": { "center": [172.64, -43.53], "zoom": 16 },
+          "eras": ["1905"],
+          "swipe": 0.55,
+          "overlay": {
+            "geojson": {
+              "type": "FeatureCollection",
+              "features": [
+                {
+                  "type": "Feature",
+                  "properties": {},
+                  "geometry": {
+                    "type": "LineString",
+                    "coordinates": [[172.63, -43.535], [172.65, -43.525]]
+                  }
+                }
+              ]
+            },
+            "style": { "color": "#b0403a", "width": 3 }
+          },
+          "sources": [
+            { "label": "Sheet 4, Vol. 1", "href": "https://www.loc.gov/item/vireo_001/" }
+          ]
+        },
+        {
+          "id": "yards",
+          "title": "The yards behind it",
+          "body_html": "<p>Behind the wharf, rear buildings fill lots that read as empty today.</p>",
+          "camera": { "center": [172.645, -43.528], "zoom": 17 },
+          "eras": ["1905"],
+          "swipe": 0.4
+        }
+      ]
+    }
+  ]
+}

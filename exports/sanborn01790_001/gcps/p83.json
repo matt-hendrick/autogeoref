@@ -1,0 +1,198 @@
+{
+  "page": "83",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 3,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "ROSCOE",
+      "SHEFFIELD AVE."
+    ],
+    [
+      "ROSCOE",
+      "SHEFFIELD AVE."
+    ],
+    [
+      "SHEFFIELD AVE.",
+      "BELMONT AVE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1305,
+            281
+          ],
+          "username": "autogeoref",
+          "note": "auto: ROSCOE x SHEFFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6542197915921,
+            41.943570590407774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1305,
+            198
+          ],
+          "username": "autogeoref",
+          "note": "auto: ROSCOE x SHEFFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6542197915921,
+            41.943570590407774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1305,
+            8273
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHEFFIELD AVE. x BELMONT AVE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65410581651295,
+            41.93991237330692
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65466824316916,
+            41.94329387572083
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65196422785114,
+            41.94333389399987
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65458710155937,
+            41.94026051030032
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6682,
+    "separation_ratio": 1.655,
+    "best_offset_m": 8.6,
+    "n_junctions": 10
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 49,
+      "votable": 8,
+      "in_block": 8,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 1.7,
+          "addr_diff": 2.9
+        },
+        {
+          "perp_m": 1.6,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 1.7,
+          "addr_diff": 0.0
+        },
+        {
+          "perp_m": 7.3,
+          "addr_diff": 1.0
+        },
+        {
+          "perp_m": 14.9,
+          "addr_diff": 4.2
+        },
+        {
+          "perp_m": 14.9,
+          "addr_diff": 7.9
+        },
+        {
+          "perp_m": 15.2,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 15.1,
+          "addr_diff": 1.2
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

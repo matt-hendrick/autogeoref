@@ -1,0 +1,159 @@
+{
+  "page": "43",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.46,
+  "auto_residuals_m": [
+    1.41,
+    0.47,
+    1.06,
+    2.23,
+    0.65,
+    1.76
+  ],
+  "inlier_streets": [
+    [
+      "W. 93RD ST.",
+      "S. ABERDEEN"
+    ],
+    [
+      "W. 93RD ST.",
+      "S. MAY"
+    ],
+    [
+      "S. ABERDEEN",
+      "W. 94TH ST."
+    ],
+    [
+      "W. 94TH ST.",
+      "S. MAY"
+    ],
+    [
+      "W. 94TH ST.",
+      "S. VINCENNES AV."
+    ],
+    [
+      "S. MAY",
+      "W. 95TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2806,
+            223
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 93RD ST. x S. ABERDEEN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65060744985456,
+            41.72500483170594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            765,
+            223
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 93RD ST. x S. MAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65182488030418,
+            41.72498854507896
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2806,
+            4235
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ABERDEEN x W. 94TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.650561448821,
+            41.72317825684728
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            765,
+            4235
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 94TH ST. x S. MAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65177896093464,
+            41.72316390917156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3740,
+            4235
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 94TH ST. x S. VINCENNES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64999196303216,
+            41.7231850387604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            765,
+            8153
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MAY x W. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65173131502598,
+            41.72133835845636
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.257,
+    "dy_m": -2.366
+  }
+}

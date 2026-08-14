@@ -1,0 +1,159 @@
+{
+  "page": "106",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.13,
+  "auto_residuals_m": [
+    3.16,
+    3.68,
+    6.13,
+    6.51,
+    3.03,
+    2.89
+  ],
+  "inlier_streets": [
+    [
+      "W. WASHINGTON BLVD",
+      "N. PAULINA"
+    ],
+    [
+      "W. WASHINGTON BLVD",
+      "N. ASHLAND BLVD"
+    ],
+    [
+      "WARREN AV.",
+      "N. PAULINA"
+    ],
+    [
+      "WARREN AV.",
+      "N. ASHLAND BLVD"
+    ],
+    [
+      "W. MADISON",
+      "N. PAULINA"
+    ],
+    [
+      "W. MADISON",
+      "N. ASHLAND BLVD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            311,
+            2627
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6693919094605,
+            41.88326661941656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4787,
+            2627
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD x N. ASHLAND BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66690525906893,
+            41.88330676607933
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            311,
+            4623
+          ],
+          "username": "autogeoref",
+          "note": "auto: WARREN AV. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66936467126531,
+            41.88235249481719
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4787,
+            4623
+          ],
+          "username": "autogeoref",
+          "note": "auto: WARREN AV. x N. ASHLAND BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66687156208313,
+            41.88238669620314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            311,
+            6933
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66933719080035,
+            41.881427389494284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4787,
+            6933
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x N. ASHLAND BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66683660828004,
+            41.881463259374065
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.769,
+    "dy_m": 1.165
+  }
+}

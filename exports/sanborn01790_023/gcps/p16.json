@@ -1,0 +1,116 @@
+{
+  "page": "16",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N. SANGAMON",
+      "FRY"
+    ],
+    [
+      "LESSING",
+      "FRY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            533,
+            6682
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SANGAMON x FRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65188353192086,
+            41.89738844299064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2087,
+            6682
+          ],
+          "username": "autogeoref",
+          "note": "auto: LESSING x FRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65088191759611,
+            41.89737847829169
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65189315392466,
+            41.90001830899975
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5276,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64909553708819,
+            41.90006447788246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6518156652719,
+            41.897416982110705
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

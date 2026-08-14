@@ -1,0 +1,164 @@
+{
+  "page": "15",
+  "n_streets": 9,
+  "n_candidates": 13,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "BELMONT AV.",
+      "N. ROCKWELL"
+    ],
+    [
+      "FLETCHER ST.",
+      "N. ROCKWELL"
+    ],
+    [
+      "N. ROCKWELL",
+      "BARRY AV."
+    ],
+    [
+      "N. ROCKWELL",
+      "WELLINGTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            551,
+            161
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AV. x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69300733088167,
+            41.93942271954289
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            551,
+            1900
+          ],
+          "username": "autogeoref",
+          "note": "auto: FLETCHER ST. x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69291948445401,
+            41.93855230284836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            551,
+            3595
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROCKWELL x BARRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69289615064832,
+            41.937774872564276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            551,
+            7747
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROCKWELL x WELLINGTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69284096094019,
+            41.935786106458515
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69292927882503,
+            41.939059305863736
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69011423101097,
+            41.93908672397949
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69287521830856,
+            41.93598804584765
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.9583,
+    "separation_ratio": 1.045,
+    "best_offset_m": 11.8,
+    "n_junctions": 4
+  }
+}

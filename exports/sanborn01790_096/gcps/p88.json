@@ -1,0 +1,205 @@
+{
+  "page": "88",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 8,
+  "rotation_deg": 0.89,
+  "auto_residuals_m": [
+    0.43,
+    0.62,
+    0.23,
+    0.18,
+    0.72,
+    0.87,
+    0.48,
+    0.36
+  ],
+  "inlier_streets": [
+    [
+      "PALMER",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "PALMER",
+      "N. DRAKE AV. (HANCOCK)"
+    ],
+    [
+      "W. SHAKESPEARE AV. (CASTELLO AV.)",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "W. SHAKESPEARE AV. (CASTELLO AV.)",
+      "N. DRAKE AV. (HANCOCK)"
+    ],
+    [
+      "W. DICKENS AV.",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "W. DICKENS AV.",
+      "N. DRAKE AV. (HANCOCK)"
+    ],
+    [
+      "N. CENTRAL PARK AV.",
+      "ARMITAGE AV."
+    ],
+    [
+      "N. DRAKE AV. (HANCOCK)",
+      "ARMITAGE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2964,
+            159
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71687030209124,
+            41.920961778258885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5430,
+            159
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER x N. DRAKE AV. (HANCOCK)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71525249220906,
+            41.92098162137771
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2964,
+            2071
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SHAKESPEARE AV. (CASTELLO AV.) x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71684143109849,
+            41.92004749418832
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5430,
+            2071
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SHAKESPEARE AV. (CASTELLO AV.) x N. DRAKE AV. (HANCOCK)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71522342710536,
+            41.92006658067731
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2964,
+            3986
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71681356252081,
+            41.919132738951085
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5430,
+            3986
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. x N. DRAKE AV. (HANCOCK)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71519255384209,
+            41.919150698042074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2964,
+            7851
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL PARK AV. x ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71675772801326,
+            41.917301173721455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5430,
+            7851
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DRAKE AV. (HANCOCK) x ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71513748031464,
+            41.91731924760347
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.616,
+    "dy_m": 2.759
+  }
+}

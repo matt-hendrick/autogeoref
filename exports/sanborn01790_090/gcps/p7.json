@@ -1,0 +1,132 @@
+{
+  "page": "7",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 5,
+  "rotation_deg": 1.76,
+  "auto_residuals_m": [
+    1.96,
+    3.38,
+    2.25,
+    5.06,
+    4.31
+  ],
+  "inlier_streets": [
+    [
+      "S. 31ST ST.",
+      "S. ROBINSON AV."
+    ],
+    [
+      "S. PAULINA",
+      "W. 32ND ST."
+    ],
+    [
+      "S. PAULINA",
+      "W. 32ND PL."
+    ],
+    [
+      "W. 32ND ST.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 32ND PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3173,
+            245
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 31ST ST. x S. ROBINSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66736798675406,
+            41.837991576222834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1552,
+            5285
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PAULINA x W. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6680748407992,
+            41.83550240206002
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1552,
+            6829
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PAULINA x W. 32ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6680540959654,
+            41.83472318049166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5582,
+            5285
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 32ND ST. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66569028819988,
+            41.8355743749314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5582,
+            6829
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 32ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66566849294105,
+            41.83475862480569
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

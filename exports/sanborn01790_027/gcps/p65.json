@@ -1,0 +1,228 @@
+{
+  "page": "65",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 1.67,
+  "auto_residuals_m": [
+    6.45,
+    7.48,
+    2.01,
+    6.42,
+    6.28,
+    6.25,
+    12.71,
+    8.54,
+    7.59
+  ],
+  "inlier_streets": [
+    [
+      "FULLERTON AV.",
+      "N. RIDGEWAY AV."
+    ],
+    [
+      "FULLERTON AV.",
+      "N. LAWNDALE AV."
+    ],
+    [
+      "FULLERTON AV.",
+      "MONTICELLO AV."
+    ],
+    [
+      "N. RIDGEWAY AV.",
+      "BELDEN AV."
+    ],
+    [
+      "BELDEN AV.",
+      "N. LAWNDALE AV."
+    ],
+    [
+      "BELDEN AV.",
+      "MONTICELLO AV."
+    ],
+    [
+      "N. LAWNDALE AV.",
+      "LYNDALE"
+    ],
+    [
+      "N. LAWNDALE AV.",
+      "PALMER"
+    ],
+    [
+      "MONTICELLO AV.",
+      "PALMER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            780,
+            221
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. RIDGEWAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72064859483488,
+            41.92457194826474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2722,
+            221
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71942624599232,
+            41.9245877918149
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4969,
+            221
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x MONTICELLO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71820298941077,
+            41.92460350963949
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            780,
+            4067
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RIDGEWAY AV. x BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72059387499642,
+            41.922742432910724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2722,
+            4067
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x N. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71937301366438,
+            41.92275784974573
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4969,
+            4067
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x MONTICELLO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71815053102424,
+            41.922773907642565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2722,
+            5921
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWNDALE AV. x LYNDALE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71934455661636,
+            41.92184295042097
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2722,
+            8178
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWNDALE AV. x PALMER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71931792805401,
+            41.92092776544417
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4969,
+            8178
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTICELLO AV. x PALMER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71809222649148,
+            41.92094318755806
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.336,
+    "dy_m": 2.151
+  }
+}

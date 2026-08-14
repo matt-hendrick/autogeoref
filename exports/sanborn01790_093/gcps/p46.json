@@ -1,0 +1,290 @@
+{
+  "page": "46",
+  "n_streets": 10,
+  "n_candidates": 13,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. VAN BUREN",
+      "ABERDEEN"
+    ],
+    [
+      "W. VAN BUREN",
+      "ABERDEEN ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            657,
+            987
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x ABERDEEN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6545317543161,
+            41.87656299357817
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            672,
+            987
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x ABERDEEN ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6545317543161,
+            41.87656299357817
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6545849360891,
+            41.876677861547996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5244,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65173929818368,
+            41.87672240104998
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65450977087326,
+            41.87401537945551
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4202,
+    "separation_ratio": 1.124,
+    "best_offset_m": 7.6,
+    "n_junctions": 33
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 37,
+      "votable": 37,
+      "in_block": 33,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 9.1,
+          "addr_diff": 5.0
+        },
+        {
+          "perp_m": 9.1,
+          "addr_diff": 4.3
+        },
+        {
+          "perp_m": 9.1,
+          "addr_diff": 3.7
+        },
+        {
+          "perp_m": 9.1,
+          "addr_diff": 3.2
+        },
+        {
+          "perp_m": 9.1,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 9.0,
+          "addr_diff": 0.5
+        },
+        {
+          "perp_m": 9.0,
+          "addr_diff": 1.2
+        },
+        {
+          "perp_m": 8.9,
+          "addr_diff": 1.8
+        },
+        {
+          "perp_m": 8.9,
+          "addr_diff": 2.2
+        },
+        {
+          "perp_m": 8.8,
+          "addr_diff": 3.7
+        },
+        {
+          "perp_m": 8.7,
+          "addr_diff": 4.0
+        },
+        {
+          "perp_m": 8.7,
+          "addr_diff": 4.7
+        },
+        {
+          "perp_m": 8.7,
+          "addr_diff": 5.4
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 6.1
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 6.8
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 7.4
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 8.1
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 8.8
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 10.5
+        },
+        {
+          "perp_m": 5.6,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 4.2,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 79.0,
+          "addr_diff": 6.3
+        },
+        {
+          "perp_m": 79.0,
+          "addr_diff": 6.8
+        },
+        {
+          "perp_m": 79.0,
+          "addr_diff": 7.5
+        },
+        {
+          "perp_m": 79.0,
+          "addr_diff": 5.9
+        },
+        {
+          "perp_m": 43.4,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 43.4,
+          "addr_diff": 0.0
+        },
+        {
+          "perp_m": 43.4,
+          "addr_diff": 2.7
+        },
+        {
+          "perp_m": 43.4,
+          "addr_diff": 7.3
+        },
+        {
+          "perp_m": 43.3,
+          "addr_diff": 7.7
+        },
+        {
+          "perp_m": 43.3,
+          "addr_diff": 8.2
+        },
+        {
+          "perp_m": 43.3,
+          "addr_diff": 6.2
+        },
+        {
+          "perp_m": 43.3,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 43.3,
+          "addr_diff": 1.0
+        },
+        {
+          "perp_m": 43.3,
+          "addr_diff": 1.0
+        },
+        {
+          "perp_m": 43.2,
+          "addr_diff": 0.9
+        },
+        {
+          "perp_m": 43.2,
+          "addr_diff": 0.6
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

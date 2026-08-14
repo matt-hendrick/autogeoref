@@ -1,0 +1,228 @@
+{
+  "page": "23",
+  "n_streets": 7,
+  "n_candidates": 12,
+  "n_inliers": 9,
+  "rotation_deg": 1.11,
+  "auto_residuals_m": [
+    4.34,
+    5.23,
+    8.49,
+    7.89,
+    0.87,
+    3.31,
+    1.72,
+    4.17,
+    3.2
+  ],
+  "inlier_streets": [
+    [
+      "E. 91ST ST.",
+      "ST. LAWRENCE AV."
+    ],
+    [
+      "E. 91ST ST.",
+      "S. LANGLEY AV."
+    ],
+    [
+      "E. 91ST PL.",
+      "ST. LAWRENCE AV."
+    ],
+    [
+      "E. 91ST PL.",
+      "S. LANGLEY AV."
+    ],
+    [
+      "ST. LAWRENCE AV.",
+      "E. 92ND ST."
+    ],
+    [
+      "ST. LAWRENCE AV.",
+      "E. 92ND PL."
+    ],
+    [
+      "E. 92ND ST.",
+      "S. LANGLEY AV."
+    ],
+    [
+      "S. LANGLEY AV.",
+      "E. 92ND PL."
+    ],
+    [
+      "S. LANGLEY AV.",
+      "E. 93RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            809,
+            294
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST ST. x ST. LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60948629643339,
+            41.72929272308556
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4893,
+            294
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST ST. x S. LANGLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60706618840472,
+            41.729333673501955
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            809,
+            2117
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST PL. x ST. LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6094645973043,
+            41.728381308969006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4893,
+            2117
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST PL. x S. LANGLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60704217440029,
+            41.72842038097144
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            809,
+            4273
+          ],
+          "username": "autogeoref",
+          "note": "auto: ST. LAWRENCE AV. x E. 92ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60944099262144,
+            41.727467930397744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            809,
+            6323
+          ],
+          "username": "autogeoref",
+          "note": "auto: ST. LAWRENCE AV. x E. 92ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60941867435412,
+            41.726556076291324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4893,
+            4273
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 92ND ST. x S. LANGLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60702225120048,
+            41.72750863669603
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4893,
+            6323
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LANGLEY AV. x E. 92ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60700036610471,
+            41.72659684474676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4893,
+            8229
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LANGLEY AV. x E. 93RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60697933982159,
+            41.72568446091761
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.482,
+    "dy_m": 2.489
+  }
+}

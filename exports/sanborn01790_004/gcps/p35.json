@@ -1,0 +1,163 @@
+{
+  "page": "35",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 12TH PL.",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "W. 12TH PL.",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. 13TH PL.",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "W. 13TH PL.",
+      "S. ST. LOUIS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            266,
+            3104
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 12TH PL. x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71538835135087,
+            41.86513872010915
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4401,
+            3104
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 12TH PL. x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71294642798698,
+            41.86516581697613
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            266,
+            5434
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH PL. x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71535436019298,
+            41.864081861356475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4401,
+            5434
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH PL. x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71291617721438,
+            41.864108883088825
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            572,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71526207437405,
+            41.866157736404546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5145,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71247961570548,
+            41.86619650495134
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            572,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71518463712228,
+            41.86307540712734
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.9116,
+    "separation_ratio": 1.919,
+    "best_offset_m": 2.1,
+    "n_junctions": 6
+  }
+}

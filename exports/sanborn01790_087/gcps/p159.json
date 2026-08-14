@@ -1,0 +1,159 @@
+{
+  "page": "159",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.24,
+  "auto_residuals_m": [
+    1.19,
+    1.15,
+    3.16,
+    5.91,
+    3.36,
+    5.81
+  ],
+  "inlier_streets": [
+    [
+      "W. FULLERTON AV.",
+      "N. SHEFFIELD AV."
+    ],
+    [
+      "W. FULLERTON AV.",
+      "CHALMERS PL."
+    ],
+    [
+      "N. SHEFFIELD AV.",
+      "W. BELDEN AV."
+    ],
+    [
+      "CHALMERS PL.",
+      "W. BELDEN AV."
+    ],
+    [
+      "W. BELDEN AV.",
+      "N. BISSELL"
+    ],
+    [
+      "W. BELDEN AV.",
+      "N. FREMONT"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            873,
+            465
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. SHEFFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6536429373697,
+            41.925376553797854
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5252,
+            465
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x CHALMERS PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65121378474547,
+            41.925415920142314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            873,
+            4597
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SHEFFIELD AV. x W. BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65357830379664,
+            41.92355654520275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5252,
+            4597
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHALMERS PL. x W. BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65115316532413,
+            41.92359714434475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2937,
+            4597
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELDEN AV. x N. BISSELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65236663554103,
+            41.92358533054715
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5064,
+            4597
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELDEN AV. x N. FREMONT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65115316532413,
+            41.92359714434475
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.379,
+    "dy_m": 0.112
+  }
+}

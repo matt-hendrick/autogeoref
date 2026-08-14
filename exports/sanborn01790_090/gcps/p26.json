@@ -1,0 +1,141 @@
+{
+  "page": "26",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 31ST ST.",
+      "CALUMET AV."
+    ],
+    [
+      "E. 31ST ST.",
+      "VERNON AV."
+    ],
+    [
+      "E. 32ND ST.",
+      "CALUMET AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            917,
+            503
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 31ST ST. x CALUMET AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61826869239965,
+            41.83840917693462
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5408,
+            503
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 31ST ST. x VERNON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61553657689026,
+            41.838444084030826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            917,
+            4588
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 32ND ST. x CALUMET AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61822850771965,
+            41.83658283562698
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61846264420879,
+            41.83830961988424
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5293,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61561155696005,
+            41.83834513101797
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6184032931251,
+            41.835664586260734
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5862,
+    "separation_ratio": 1.145,
+    "best_offset_m": 2.1,
+    "n_junctions": 16
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "page": "81",
+  "n_streets": 11,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.25,
+  "auto_residuals_m": [
+    10.89,
+    2.06,
+    12.28,
+    11.06,
+    1.84,
+    12.11
+  ],
+  "inlier_streets": [
+    [
+      "S. WELLS (S. 5TH AV.)",
+      "W. 27TH ST."
+    ],
+    [
+      "S. WELLS (S. 5TH AV.)",
+      "W. 26TH ST."
+    ],
+    [
+      "S. WELLS (S. 5TH AV.)",
+      "W. 27TH ST."
+    ],
+    [
+      "W. 27TH ST.",
+      "WENTWORTH AV."
+    ],
+    [
+      "WENTWORTH AV.",
+      "W. 26TH ST."
+    ],
+    [
+      "WENTWORTH AV.",
+      "W. 27TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            489,
+            7193
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WELLS (S. 5TH AV.) x W. 27TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63302834141452,
+            41.844124822471855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            489,
+            4061
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WELLS (S. 5TH AV.) x W. 26TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6330608748345,
+            41.84557588788211
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            489,
+            6873
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WELLS (S. 5TH AV.) x W. 27TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63302834141452,
+            41.844124822471855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2475,
+            7193
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 27TH ST. x WENTWORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63182484561473,
+            41.84414558512675
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2475,
+            4061
+          ],
+          "username": "autogeoref",
+          "note": "auto: WENTWORTH AV. x W. 26TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63181819742256,
+            41.84559347873689
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2475,
+            6873
+          ],
+          "username": "autogeoref",
+          "note": "auto: WENTWORTH AV. x W. 27TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63182484561473,
+            41.84414558512675
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 0.654,
+    "dy_m": 9.472
+  }
+}

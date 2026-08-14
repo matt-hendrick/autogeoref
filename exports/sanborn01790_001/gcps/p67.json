@@ -1,0 +1,142 @@
+{
+  "page": "67",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "BELMONT AVE.",
+      "N. HALSTED"
+    ],
+    [
+      "BRIAR PL.",
+      "N. HALSTED"
+    ],
+    [
+      "WELLINGTON",
+      "N. HALSTED"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            256,
+            160
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AVE. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64926661399988,
+            41.93998093427661
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            256,
+            2192
+          ],
+          "username": "autogeoref",
+          "note": "auto: BRIAR PL. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64923719513428,
+            41.939082281520136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            256,
+            8175
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLINGTON x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64914092825337,
+            41.936379017835726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64906627001636,
+            41.939702530604656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64636225469832,
+            41.9397425511377
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64898512840658,
+            41.936668994338376
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6026,
+    "separation_ratio": 1.218,
+    "best_offset_m": 8.0,
+    "n_junctions": 3
+  }
+}

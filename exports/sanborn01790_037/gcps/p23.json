@@ -1,0 +1,164 @@
+{
+  "page": "23",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "AUGUSTA",
+      "N. PINE AV."
+    ],
+    [
+      "N. PINE AV.",
+      "IOWA"
+    ],
+    [
+      "N. PINE AV.",
+      "RICE"
+    ],
+    [
+      "N. PINE AV.",
+      "W. CHICAGO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            429,
+            298
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76369472732955,
+            41.8985129819639
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            429,
+            4152
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PINE AV. x IOWA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76363065877975,
+            41.896689417402534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            429,
+            6074
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PINE AV. x RICE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7635978395554,
+            41.89577799516106
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            429,
+            7983
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PINE AV. x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7635679918227,
+            41.894867272474194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76355587689986,
+            41.89820041183221
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5260,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76066579850445,
+            41.89822700388746
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76350388950624,
+            41.895070008434
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7579,
+    "separation_ratio": 1.052,
+    "best_offset_m": 13.4,
+    "n_junctions": 14
+  }
+}

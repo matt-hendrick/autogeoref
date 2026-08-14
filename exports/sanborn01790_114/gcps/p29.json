@@ -1,0 +1,230 @@
+{
+  "page": "29",
+  "n_streets": 6,
+  "n_candidates": 12,
+  "n_inliers": 9,
+  "rotation_deg": 0.71,
+  "auto_residuals_m": [
+    7.89,
+    13.02,
+    1.13,
+    12.24,
+    9.15,
+    5.32,
+    7.93,
+    5.39,
+    9.02
+  ],
+  "inlier_streets": [
+    [
+      "E. 77TH ST.",
+      "STONY ISLAND AV."
+    ],
+    [
+      "E. 77TH ST.",
+      "CORNELL AV."
+    ],
+    [
+      "E. 77TH ST.",
+      "EAST END AV."
+    ],
+    [
+      "E. 78TH ST.",
+      "STONY ISLAND AV."
+    ],
+    [
+      "E. 78TH ST.",
+      "CORNELL AV."
+    ],
+    [
+      "E. 78TH ST.",
+      "EAST END AV."
+    ],
+    [
+      "E. 79TH ST.",
+      "STONY ISLAND AV."
+    ],
+    [
+      "E. 79TH ST.",
+      "CORNELL AV."
+    ],
+    [
+      "E. 79TH ST.",
+      "EAST END AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            476,
+            293
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 77TH ST. x STONY ISLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58550579110165,
+            41.75512708181808
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2605,
+            293
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 77TH ST. x CORNELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58446899695795,
+            41.755139881025315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4295,
+            293
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 77TH ST. x EAST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58337060525697,
+            41.755152740847656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            476,
+            4331
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 78TH ST. x STONY ISLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5854570545618,
+            41.75330959910297
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2605,
+            4331
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 78TH ST. x CORNELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5844246841802,
+            41.75331817419129
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4295,
+            4331
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 78TH ST. x EAST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5833255465544,
+            41.75333327251677
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            476,
+            8309
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 79TH ST. x STONY ISLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58562826803606,
+            41.751501587319034
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2605,
+            8309
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 79TH ST. x CORNELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58437973464254,
+            41.75149988147364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4295,
+            8309
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 79TH ST. x EAST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58328099035124,
+            41.75151398361741
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 3.009,
+    "dy_m": -0.053
+  }
+}

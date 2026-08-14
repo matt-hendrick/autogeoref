@@ -1,0 +1,157 @@
+{
+  "page": "112",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.58,
+  "auto_residuals_m": [
+    2.93,
+    2.9,
+    2.79,
+    1.16,
+    3.81,
+    2.17
+  ],
+  "inlier_streets": [
+    [
+      "W. ROOSEVELT ROAD (W. 12TH ST.)",
+      "S. NEWBERRY AV."
+    ],
+    [
+      "W. ROOSEVELT ROAD (W. 12TH ST.)",
+      "S. HALSTED"
+    ],
+    [
+      "S. SANGAMON",
+      "MAXWELL"
+    ],
+    [
+      "S. PEORIA",
+      "MAXWELL"
+    ],
+    [
+      "S. NEWBERRY AV.",
+      "MAXWELL"
+    ],
+    [
+      "S. HALSTED",
+      "MAXWELL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3671,
+            989
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROOSEVELT ROAD (W. 12TH ST.) x S. NEWBERRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64794789980034,
+            41.8671374819849
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5225,
+            989
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROOSEVELT ROAD (W. 12TH ST.) x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64691834942573,
+            41.867154100518164
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            295,
+            6208
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SANGAMON x MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6499396664885,
+            41.864722221694095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1996,
+            6208
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PEORIA x MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64890302272481,
+            41.8647534874685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3671,
+            6208
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. NEWBERRY AV. x MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64786972178516,
+            41.86478464363663
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5225,
+            6208
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64684702376375,
+            41.86478337265161
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

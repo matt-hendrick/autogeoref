@@ -1,0 +1,141 @@
+{
+  "page": "41",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. VAN BUREN",
+      "S. ASHLAND BLVD"
+    ],
+    [
+      "W. VAN BUREN",
+      "S. LAFLIN"
+    ],
+    [
+      "W. CONGRESS",
+      "S. ASHLAND BLVD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            934,
+            1075
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. ASHLAND BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66666479809402,
+            41.8763510098364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4820,
+            1075
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. LAFLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66428823909376,
+            41.87639574224496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            934,
+            3638
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONGRESS x S. ASHLAND BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66662640162728,
+            41.87517717910895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6668765650752,
+            41.87650290652748
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5299,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66400113758472,
+            41.87654791241466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66680138959372,
+            41.87384005351025
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.3773,
+    "separation_ratio": 1.152,
+    "best_offset_m": 30.1,
+    "n_junctions": 34
+  }
+}

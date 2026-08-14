@@ -1,0 +1,159 @@
+{
+  "page": "59",
+  "n_streets": 11,
+  "n_candidates": 10,
+  "n_inliers": 6,
+  "rotation_deg": 1.26,
+  "auto_residuals_m": [
+    3.92,
+    6.52,
+    13.84,
+    13.74,
+    22.26,
+    2.94
+  ],
+  "inlier_streets": [
+    [
+      "W. HARRISON",
+      "S. THROOP"
+    ],
+    [
+      "W. HARRISON",
+      "LOOMIS"
+    ],
+    [
+      "W. FLOURNOY (OREGON AV.)",
+      "LOOMIS"
+    ],
+    [
+      "W. FLOURNOY (OREGON AV.)",
+      "S. ADA (S. SIBLEY)"
+    ],
+    [
+      "W. FLOURNOY (OREGON AV.)",
+      "S. ADA (SIBLEY)"
+    ],
+    [
+      "W. LEXINGTON (MACALISTER PL.)",
+      "S. ADA (SIBLEY)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4895,
+            1100
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65951930028923,
+            41.874232097772236
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1071,
+            1100
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6617655771829,
+            41.87419828051002
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1071,
+            3352
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FLOURNOY (OREGON AV.) x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66173407705311,
+            41.873152178789574
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3568,
+            3352
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FLOURNOY (OREGON AV.) x S. ADA (S. SIBLEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66020548765061,
+            41.87317687727318
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3040,
+            3352
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FLOURNOY (OREGON AV.) x S. ADA (SIBLEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66020548765061,
+            41.87317687727318
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3040,
+            5521
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LEXINGTON (MACALISTER PL.) x S. ADA (SIBLEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66017541475237,
+            41.87219026082105
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.547,
+    "dy_m": -0.76
+  }
+}

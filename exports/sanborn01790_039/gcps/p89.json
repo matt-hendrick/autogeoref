@@ -1,0 +1,109 @@
+{
+  "page": "89",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": -88.68,
+  "auto_residuals_m": [
+    0.08,
+    0.08,
+    0.07,
+    0.07
+  ],
+  "inlier_streets": [
+    [
+      "S. KEELER AV.",
+      "W. 16TH ST."
+    ],
+    [
+      "S. KEELER AV.",
+      "W. 18TH ST."
+    ],
+    [
+      "W. 16TH ST.",
+      "S. KOSTNER AV."
+    ],
+    [
+      "W. 18TH ST.",
+      "S. KOSTNER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            204,
+            251
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEELER AV. x W. 16TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72984065896533,
+            41.85879984656793
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3997,
+            251
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEELER AV. x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72978431589692,
+            41.85697179599688
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            204,
+            8266
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH ST. x S. KOSTNER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73473520140364,
+            41.85873021999047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3997,
+            8266
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x S. KOSTNER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73467798238174,
+            41.85690026500359
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

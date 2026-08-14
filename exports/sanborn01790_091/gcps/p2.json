@@ -1,0 +1,120 @@
+{
+  "page": "2",
+  "n_streets": 13,
+  "n_candidates": 14,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N. WESTERN AV.",
+      "W. MONTANA"
+    ],
+    [
+      "N. WESTERN AV.",
+      "W. FULLERTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2411,
+            5170
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x W. MONTANA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68767006238178,
+            41.925666497918485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2411,
+            6862
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x W. FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68764191263543,
+            41.92490068242143
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68884301997244,
+            41.92765835322523
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5224,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68601594819232,
+            41.92770568242567
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68876275530704,
+            41.92500451736506
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.3889,
+    "separation_ratio": 0.941,
+    "best_offset_m": 87.2,
+    "n_junctions": 30
+  }
+}

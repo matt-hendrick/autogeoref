@@ -1,0 +1,136 @@
+{
+  "page": "83",
+  "n_streets": 13,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "rotation_deg": 1.1,
+  "auto_residuals_m": [
+    10.08,
+    9.24,
+    0.91,
+    4.26,
+    4.24
+  ],
+  "inlier_streets": [
+    [
+      "OGDEN AV.",
+      "TAYLOR"
+    ],
+    [
+      "TAYLOR",
+      "HAMILTON AV."
+    ],
+    [
+      "TAYLOR",
+      "CYPRESS"
+    ],
+    [
+      "GRENSHAW",
+      "HAMILTON AV."
+    ],
+    [
+      "GRENSHAW",
+      "CYPRESS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            696,
+            578
+          ],
+          "username": "autogeoref",
+          "note": "auto: OGDEN AV. x TAYLOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68084465998487,
+            41.869052627469316
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1882,
+            578
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x HAMILTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6803203170412,
+            41.869060266493
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5455,
+            578
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x CYPRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67814269321045,
+            41.869089823833136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1882,
+            3178
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRENSHAW x HAMILTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68028618639664,
+            41.86788020880418
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5455,
+            3178
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRENSHAW x CYPRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67810748120755,
+            41.86791377285827
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.524,
+    "dy_m": 1.528
+  }
+}

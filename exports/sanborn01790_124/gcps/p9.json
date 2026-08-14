@@ -1,0 +1,228 @@
+{
+  "page": "9",
+  "n_streets": 8,
+  "n_candidates": 17,
+  "n_inliers": 9,
+  "rotation_deg": -88.45,
+  "auto_residuals_m": [
+    2.61,
+    6.07,
+    4.9,
+    11.49,
+    10.19,
+    9.96,
+    14.59,
+    3.27,
+    0.35
+  ],
+  "inlier_streets": [
+    [
+      "N. HOYNE AV.",
+      "W. BIRCHWOOD AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. HOWARD"
+    ],
+    [
+      "W. BIRCHWOOD AV.",
+      "N. RIDGE AV. (RD.)"
+    ],
+    [
+      "N. RIDGE AV. (RD.)",
+      "W. HOWARD"
+    ],
+    [
+      "W. HOWARD",
+      "N. BELL AV. (PINGREE AV.)"
+    ],
+    [
+      "W. HOWARD",
+      "N. OAKLEY AV. (ELLWOOD)"
+    ],
+    [
+      "W. HOWARD",
+      "N. OAKLEY AV."
+    ],
+    [
+      "N. OAKLEY AV. (ELLWOOD)",
+      "W. BIRCHWOOD AV."
+    ],
+    [
+      "N. OAKLEY AV.",
+      "W. BIRCHWOOD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4005,
+            338
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. BIRCHWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68295243973789,
+            42.01794157247702
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            736,
+            338
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. HOWARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68293756172396,
+            42.019465700561064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4005,
+            2811
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BIRCHWOOD AV. x N. RIDGE AV. (RD.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6844239421047,
+            42.017953797067015
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            736,
+            2811
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RIDGE AV. (RD.) x W. HOWARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68461476354548,
+            42.019482303137416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            736,
+            6134
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HOWARD x N. BELL AV. (PINGREE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6864703825686,
+            42.01950582928564
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            736,
+            8117
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HOWARD x N. OAKLEY AV. (ELLWOOD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68769674554993,
+            42.019512596889236
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            736,
+            7762
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HOWARD x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68769674554993,
+            42.019512596889236
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5379,
+            8117
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. (ELLWOOD) x W. BIRCHWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6877142606203,
+            42.01741711191416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5379,
+            7762
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. x W. BIRCHWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68749172375523,
+            42.01739232954289
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.267,
+    "dy_m": -0.37
+  }
+}

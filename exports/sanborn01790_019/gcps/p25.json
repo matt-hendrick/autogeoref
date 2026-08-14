@@ -1,0 +1,157 @@
+{
+  "page": "25",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.23,
+  "auto_residuals_m": [
+    0.33,
+    0.3,
+    0.04,
+    0.07,
+    0.32,
+    0.36
+  ],
+  "inlier_streets": [
+    [
+      "WEBSTER AV.",
+      "RACINE AV."
+    ],
+    [
+      "WEBSTER AV.",
+      "CLIFTON AV."
+    ],
+    [
+      "WEBSTER AV.",
+      "SEMINARY AV."
+    ],
+    [
+      "GARFIELD AV.",
+      "RACINE AV."
+    ],
+    [
+      "GARFIELD AV.",
+      "CLIFTON AV."
+    ],
+    [
+      "GARFIELD AV.",
+      "SEMINARY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            417,
+            2186
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65833494806378,
+            41.92166144146981
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2402,
+            2186
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x CLIFTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65712567379708,
+            41.92167999159839
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4375,
+            2186
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x SEMINARY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65591545452241,
+            41.921699966052614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            417,
+            6054
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65827908625168,
+            41.91984698460864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2402,
+            6054
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x CLIFTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65706737879336,
+            41.91986707612391
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4375,
+            6054
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x SEMINARY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65585386224217,
+            41.91988562414906
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

@@ -1,0 +1,109 @@
+{
+  "page": "71",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "rotation_deg": -0.08,
+  "auto_residuals_m": [
+    2.4,
+    2.43,
+    3.35,
+    3.36
+  ],
+  "inlier_streets": [
+    [
+      "W. PERSHING (W. 39TH ST.) ROAD",
+      "S. OAKLEY AV."
+    ],
+    [
+      "W. PERSHING (W. 39TH ST.) ROAD",
+      "S. WESTERN AV. BLVD"
+    ],
+    [
+      "S. WESTERN AV. BLVD",
+      "W. 41ST ST."
+    ],
+    [
+      "W. 41ST ST.",
+      "S. OAKLEY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2766,
+            257
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PERSHING (W. 39TH ST.) ROAD x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68260207651976,
+            41.823016996392525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            225,
+            257
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PERSHING (W. 39TH ST.) ROAD x S. WESTERN AV. BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68423972711724,
+            41.822999792424476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            225,
+            7815
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WESTERN AV. BLVD x W. 41ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68416110253149,
+            41.819339848810145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2035,
+            7815
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 41ST ST. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68292103765963,
+            41.81931200919062
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

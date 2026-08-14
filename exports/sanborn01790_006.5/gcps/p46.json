@@ -1,0 +1,141 @@
+{
+  "page": "46",
+  "n_streets": 10,
+  "n_candidates": 7,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "63RD",
+      "WASHINGTON AVE."
+    ],
+    [
+      "63RD",
+      "STONY ISLAND AVE."
+    ],
+    [
+      "63RD PL.",
+      "WASHINGTON AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            851,
+            300
+          ],
+          "username": "autogeoref",
+          "note": "auto: 63RD x WASHINGTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58900068144008,
+            41.78058625837197
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4806,
+            300
+          ],
+          "username": "autogeoref",
+          "note": "auto: 63RD x STONY ISLAND AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5864859296126,
+            41.78062474604863
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            851,
+            1998
+          ],
+          "username": "autogeoref",
+          "note": "auto: 63RD PL. x WASHINGTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58898195085192,
+            41.77973856394504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58915277549028,
+            41.78032080656142
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5864325395832,
+            41.78035087874336
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58909195593826,
+            41.77726145714125
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  },
+  "seam_adjusted": {
+    "dx_m": -3.104,
+    "dy_m": 0.797
+  }
+}

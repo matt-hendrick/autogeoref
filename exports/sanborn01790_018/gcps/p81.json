@@ -1,0 +1,109 @@
+{
+  "page": "81",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.11,
+  "auto_residuals_m": [
+    0.09,
+    0.11,
+    0.13,
+    0.08
+  ],
+  "inlier_streets": [
+    [
+      "W. MONROE",
+      "S. CLINTON"
+    ],
+    [
+      "W. MONROE",
+      "S. CANAL"
+    ],
+    [
+      "S. CLINTON",
+      "W. ADAMS"
+    ],
+    [
+      "S. CANAL",
+      "W. ADAMS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1765,
+            2158
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64115345987607,
+            41.88056779568834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4449,
+            2158
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63964625859035,
+            41.88059081750266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1765,
+            5033
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLINTON x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6411094568526,
+            41.87929195327781
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4449,
+            5033
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CANAL x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63960322069725,
+            41.87931233768781
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

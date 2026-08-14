@@ -1,0 +1,116 @@
+{
+  "page": "69",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "FULTON",
+      "N. CLINTON"
+    ],
+    [
+      "W. LAKE",
+      "N. CLINTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1621,
+            1038
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64133615223761,
+            41.886815434959956
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1621,
+            3482
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64131319279046,
+            41.885699398026304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64197111365766,
+            41.88694424824243
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5254,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63913698451044,
+            41.886982568058855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6419075878908,
+            41.884340242666156
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

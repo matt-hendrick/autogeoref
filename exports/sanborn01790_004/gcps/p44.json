@@ -1,0 +1,182 @@
+{
+  "page": "44",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 1.51,
+  "auto_residuals_m": [
+    6.96,
+    7.23,
+    0.97,
+    6.11,
+    3.06,
+    4.05,
+    5.74
+  ],
+  "inlier_streets": [
+    [
+      "W. 14TH",
+      "S. AVERS AV."
+    ],
+    [
+      "S. AVERS AV.",
+      "W. 15TH"
+    ],
+    [
+      "S. AVERS AV.",
+      "W. 16TH"
+    ],
+    [
+      "W. 15TH",
+      "S. HAMLIN AV."
+    ],
+    [
+      "W. 15TH",
+      "S. RIDGEWAY AV."
+    ],
+    [
+      "S. HAMLIN AV.",
+      "W. 16TH"
+    ],
+    [
+      "S. RIDGEWAY AV.",
+      "W. 16TH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1361,
+            149
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 14TH x S. AVERS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72142228473257,
+            41.862552908453644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1361,
+            4358
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. AVERS AV. x W. 15TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72136647420216,
+            41.86072631659644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1361,
+            8270
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. AVERS AV. x W. 16TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72126633568469,
+            41.858894667617484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3297,
+            4358
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 15TH x S. HAMLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72014671138963,
+            41.86073750143527
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5385,
+            4358
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 15TH x S. RIDGEWAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71892796129714,
+            41.86075018999849
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3297,
+            8270
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HAMLIN AV. x W. 16TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72007694404986,
+            41.85890890469719
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5385,
+            8270
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RIDGEWAY AV. x W. 16TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71889243235263,
+            41.85891957595429
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.214,
+    "dy_m": -1.769
+  }
+}

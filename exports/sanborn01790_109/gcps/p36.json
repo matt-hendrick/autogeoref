@@ -1,0 +1,203 @@
+{
+  "page": "36",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.71,
+  "auto_residuals_m": [
+    0.5,
+    0.47,
+    0.97,
+    1.58,
+    2.21,
+    2.02,
+    2.08,
+    2.13
+  ],
+  "inlier_streets": [
+    [
+      "S. CALIFORNIA AV.",
+      "W. 36TH PL."
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. 36TH ST."
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. 35TH PL."
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. 35TH ST."
+    ],
+    [
+      "W. 36TH PL.",
+      "S. WASHTENAW AV."
+    ],
+    [
+      "W. 36TH ST.",
+      "S. WASHTENAW AV."
+    ],
+    [
+      "W. 35TH PL.",
+      "S. WASHTENAW AV."
+    ],
+    [
+      "W. 35TH ST.",
+      "S. WASHTENAW AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1367,
+            6282
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. 36TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69474064794993,
+            41.82733822801505
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1367,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. 36TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69476410415776,
+            41.8282731465588
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1367,
+            2285
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. 35TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69479095736294,
+            41.82918174816074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1367,
+            370
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. 35TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69479283930796,
+            41.83007508081027
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5334,
+            6282
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH PL. x S. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69229581897491,
+            41.82740342468236
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5334,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69232821372523,
+            41.82831600358676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5334,
+            2285
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH PL. x S. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69235426293531,
+            41.82922605238686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5334,
+            370
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x S. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69237883942229,
+            41.83013956871411
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

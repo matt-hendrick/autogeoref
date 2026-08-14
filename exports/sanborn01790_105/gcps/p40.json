@@ -1,0 +1,228 @@
+{
+  "page": "40",
+  "n_streets": 7,
+  "n_candidates": 12,
+  "n_inliers": 9,
+  "rotation_deg": 0.71,
+  "auto_residuals_m": [
+    4.56,
+    4.78,
+    0.98,
+    1.51,
+    1.56,
+    4.32,
+    3.53,
+    1.95,
+    2.68
+  ],
+  "inlier_streets": [
+    [
+      "W. CHICAGO AV.",
+      "N. PARKSIDE AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. CENTRAL AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. PINE AV."
+    ],
+    [
+      "N. PARKSIDE AV.",
+      "W. HURON (W. SUPERIOR)"
+    ],
+    [
+      "N. PARKSIDE AV.",
+      "W. OHIO (W. ONTARIO)"
+    ],
+    [
+      "N. CENTRAL AV.",
+      "W. HURON (W. SUPERIOR)"
+    ],
+    [
+      "N. CENTRAL AV.",
+      "W. OHIO (W. ONTARIO)"
+    ],
+    [
+      "W. HURON (W. SUPERIOR)",
+      "N. PINE AV."
+    ],
+    [
+      "N. PINE AV.",
+      "W. OHIO (W. ONTARIO)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            296,
+            142
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. PARKSIDE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76662054496366,
+            41.894833522607506
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2377,
+            142
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76537686825714,
+            41.894853401913295
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5164,
+            142
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76354994466863,
+            41.894866944820905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            296,
+            4158
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PARKSIDE AV. x W. HURON (W. SUPERIOR)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76658080233646,
+            41.892911484343124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            296,
+            7928
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PARKSIDE AV. x W. OHIO (W. ONTARIO)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76651228285418,
+            41.89108328064367
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2377,
+            4158
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL AV. x W. HURON (W. SUPERIOR)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76530151849225,
+            41.89292555404134
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2377,
+            7928
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL AV. x W. OHIO (W. ONTARIO)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7652308661859,
+            41.89109654214778
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5164,
+            4158
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON (W. SUPERIOR) x N. PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76347184887028,
+            41.89293769937056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5164,
+            7928
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PINE AV. x W. OHIO (W. ONTARIO)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7633998490009,
+            41.8911106797375
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.009,
+    "dy_m": -0.049
+  }
+}

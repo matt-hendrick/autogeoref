@@ -1,0 +1,109 @@
+{
+  "page": "128",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "rotation_deg": 2.28,
+  "auto_residuals_m": [
+    1.21,
+    1.26,
+    1.25,
+    1.22
+  ],
+  "inlier_streets": [
+    [
+      "W. WISCONSIN",
+      "N. SEDGWICK"
+    ],
+    [
+      "W. WISCONSIN",
+      "N. HAMMOND"
+    ],
+    [
+      "N. SEDGWICK",
+      "W. MENOMONEE"
+    ],
+    [
+      "N. HAMMOND",
+      "W. MENOMONEE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            890,
+            2830
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WISCONSIN x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63876197931266,
+            41.9165102126844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2770,
+            2830
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WISCONSIN x N. HAMMOND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6375434020773,
+            41.916529834951
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            890,
+            6715
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. MENOMONEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6387040685776,
+            41.91471079590009
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2770,
+            6715
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HAMMOND x W. MENOMONEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63748433097146,
+            41.91476347768971
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

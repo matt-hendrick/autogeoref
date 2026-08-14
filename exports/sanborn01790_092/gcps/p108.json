@@ -1,0 +1,138 @@
+{
+  "page": "108",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 5,
+  "rotation_deg": 0.58,
+  "auto_residuals_m": [
+    4.34,
+    3.39,
+    4.9,
+    3.42,
+    0.61
+  ],
+  "inlier_streets": [
+    [
+      "W. RANDOLPH",
+      "N. LOOMIS (SHELDON)"
+    ],
+    [
+      "W. WASHINGTON BLVD",
+      "N. BISHOP"
+    ],
+    [
+      "W. WASHINGTON BLVD",
+      "N. LOOMIS (SHELDON)"
+    ],
+    [
+      "N. BISHOP",
+      "W. MADISON"
+    ],
+    [
+      "N. LOOMIS (SHELDON)",
+      "W. MADISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4513,
+            835
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. LOOMIS (SHELDON)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66235851162126,
+            41.884063799425086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2246,
+            3599
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD x N. BISHOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66370477500946,
+            41.882887818697036
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4513,
+            3599
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD x N. LOOMIS (SHELDON)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66228989796682,
+            41.88290847206547
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2246,
+            6625
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BISHOP x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6636701368979,
+            41.88151391831755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4513,
+            6625
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LOOMIS (SHELDON) x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66225068295194,
+            41.88154265380387
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 2.6,
+    "dy_m": 1.456
+  }
+}

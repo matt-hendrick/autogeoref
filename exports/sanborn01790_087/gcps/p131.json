@@ -1,0 +1,109 @@
+{
+  "page": "131",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "rotation_deg": 1.21,
+  "auto_residuals_m": [
+    0.03,
+    0.07,
+    0.09,
+    0.11
+  ],
+  "inlier_streets": [
+    [
+      "W. WEBSTER AV.",
+      "N. LARRABEE"
+    ],
+    [
+      "W. WEBSTER AV.",
+      "N. CLEVELAND"
+    ],
+    [
+      "N. LARRABEE",
+      "W. DICKENS AV. (W. GARFIELD AV.)"
+    ],
+    [
+      "N. CLEVELAND",
+      "W. DICKENS AV. (W. GARFIELD AV.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            925,
+            1681
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64378718627633,
+            41.92188789022798
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4928,
+            1681
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. CLEVELAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64136571986191,
+            41.92192659109932
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            925,
+            5728
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LARRABEE x W. DICKENS AV. (W. GARFIELD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64372839313447,
+            41.92007180535405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4928,
+            5728
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLEVELAND x W. DICKENS AV. (W. GARFIELD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64130482357899,
+            41.92010947376688
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

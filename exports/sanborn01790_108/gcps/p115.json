@@ -1,0 +1,159 @@
+{
+  "page": "115",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 1.16,
+  "auto_residuals_m": [
+    7.71,
+    8.05,
+    16.8,
+    2.23,
+    0.92,
+    2.14
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH",
+      "N. KOSTNER AV."
+    ],
+    [
+      "W. NORTH",
+      "N. KILDARE AV."
+    ],
+    [
+      "W. GRAND",
+      "N. KOLIN AV."
+    ],
+    [
+      "N. KOSTNER AV.",
+      "W. HIRSCH"
+    ],
+    [
+      "N. KOLIN AV.",
+      "W. HIRSCH"
+    ],
+    [
+      "N. KILDARE AV.",
+      "W. HIRSCH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            967,
+            417
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH x N. KOSTNER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73624262040155,
+            41.90973781826155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5085,
+            417
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH x N. KILDARE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73385586450853,
+            41.90976883399059
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3015,
+            1157
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND x N. KOLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73507312003538,
+            41.9095726262583
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            967,
+            8332
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KOSTNER AV. x W. HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73621933214712,
+            41.90611594141188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3015,
+            8332
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KOLIN AV. x W. HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73499329316377,
+            41.90613310637106
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5085,
+            8332
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILDARE AV. x W. HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73375653623214,
+            41.90615863339845
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.281,
+    "dy_m": -2.654
+  }
+}

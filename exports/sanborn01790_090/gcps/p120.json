@@ -1,0 +1,159 @@
+{
+  "page": "120",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 1.9,
+  "auto_residuals_m": [
+    7.61,
+    17.32,
+    6.57,
+    4.96,
+    11.51,
+    11.48
+  ],
+  "inlier_streets": [
+    [
+      "BROWNING AV. (BRYANT AV.)",
+      "S. RHODES AV."
+    ],
+    [
+      "E. 36TH ST.",
+      "S. RHODES AV."
+    ],
+    [
+      "S. RHODES AV.",
+      "E. 36TH PL."
+    ],
+    [
+      "S. RHODES AV.",
+      "E. 37TH ST."
+    ],
+    [
+      "E. 36TH PL.",
+      "S. VINCENNES AV."
+    ],
+    [
+      "S. VINCENNES AV.",
+      "E. 37TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            231,
+            280
+          ],
+          "username": "autogeoref",
+          "note": "auto: BROWNING AV. (BRYANT AV.) x S. RHODES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61449216295257,
+            41.82984015884421
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            231,
+            2711
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 36TH ST. x S. RHODES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61446718987564,
+            41.828605422468456
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            231,
+            3912
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RHODES AV. x E. 36TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61445990430185,
+            41.82823247109952
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            231,
+            5527
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RHODES AV. x E. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61446330294028,
+            41.827505068996764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5027,
+            3912
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 36TH PL. x S. VINCENNES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61145288134372,
+            41.82828059749269
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5027,
+            5527
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. VINCENNES AV. x E. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6116616117041,
+            41.82752858877759
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.888,
+    "dy_m": -1.146
+  }
+}

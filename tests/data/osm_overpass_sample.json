@@ -1,0 +1,116 @@
+{
+  "_comment": "Hand-built Overpass 'out geom' sample for the OSM converter tests (autogeoref.osm). Real Chicago street names, hand-checked approximate coordinates. Includes every skip case: a named footway (excluded class), an unnamed way, a non-way element, an area=yes pedestrian square, and a degenerate one-point way. Madison and State share the vertex (-87.6281, 41.8819) as real crossing OSM ways do, so both are cut there and the derived junction graph has one node; 31st Street and 31st Place are the parallel PL/CT-twin pair one block apart.",
+  "version": 0.6,
+  "generator": "hand-built test sample",
+  "elements": [
+    {
+      "type": "way",
+      "id": 101,
+      "tags": {"highway": "primary", "name": "West Madison Street"},
+      "geometry": [
+        {"lat": 41.8819, "lon": -87.66},
+        {"lat": 41.8819, "lon": -87.6281},
+        {"lat": 41.8819, "lon": -87.62}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 102,
+      "tags": {"highway": "primary", "name": "North State Street"},
+      "geometry": [
+        {"lat": 41.875, "lon": -87.6281},
+        {"lat": 41.8819, "lon": -87.6281},
+        {"lat": 41.89, "lon": -87.6281}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 103,
+      "tags": {"highway": "residential", "name": "East 31st Street"},
+      "geometry": [
+        {"lat": 41.8384, "lon": -87.62},
+        {"lat": 41.8384, "lon": -87.61}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 104,
+      "tags": {"highway": "residential", "name": "East 31st Place"},
+      "geometry": [
+        {"lat": 41.8375, "lon": -87.62},
+        {"lat": 41.8375, "lon": -87.61}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 105,
+      "tags": {"highway": "secondary", "name": "South Dr. Martin Luther King Jr. Drive"},
+      "geometry": [
+        {"lat": 41.83, "lon": -87.6169},
+        {"lat": 41.845, "lon": -87.6169}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 106,
+      "tags": {"highway": "primary", "name": "West North Avenue"},
+      "geometry": [
+        {"lat": 41.9103, "lon": -87.68},
+        {"lat": 41.9103, "lon": -87.63}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 107,
+      "tags": {"highway": "residential", "name": "Avenue L"},
+      "geometry": [
+        {"lat": 41.71, "lon": -87.5357},
+        {"lat": 41.72, "lon": -87.5357}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 201,
+      "tags": {"highway": "footway", "name": "Chicago Riverwalk"},
+      "geometry": [
+        {"lat": 41.8876, "lon": -87.64},
+        {"lat": 41.8876, "lon": -87.63}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 202,
+      "tags": {"highway": "residential"},
+      "geometry": [
+        {"lat": 41.9, "lon": -87.7},
+        {"lat": 41.9, "lon": -87.69}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 203,
+      "tags": {"highway": "pedestrian", "name": "Richard J. Daley Plaza", "area": "yes"},
+      "geometry": [
+        {"lat": 41.8843, "lon": -87.6303},
+        {"lat": 41.8843, "lon": -87.6295},
+        {"lat": 41.8837, "lon": -87.6295},
+        {"lat": 41.8843, "lon": -87.6303}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 204,
+      "tags": {"highway": "residential", "name": "Degenerate Way"},
+      "geometry": [
+        {"lat": 41.9, "lon": -87.7}
+      ]
+    },
+    {
+      "type": "node",
+      "id": 301,
+      "lat": 41.88,
+      "lon": -87.63,
+      "tags": {"name": "Some Node"}
+    }
+  ]
+}

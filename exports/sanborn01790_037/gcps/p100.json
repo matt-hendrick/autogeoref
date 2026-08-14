@@ -1,0 +1,167 @@
+{
+  "page": "100",
+  "n_streets": 9,
+  "n_candidates": 16,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. 41ST AV.",
+      "W. MADISON"
+    ],
+    [
+      "S. 40TH AV.",
+      "WASHINGTON BLVD"
+    ],
+    [
+      "S. 40TH AV.",
+      "W. MADISON"
+    ],
+    [
+      "S. 40TH AV.",
+      "WEST END AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            959,
+            8164
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 41ST AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72809439070525,
+            41.88067656197451
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5039,
+            5485
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 40TH AV. x WASHINGTON BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72568171607925,
+            41.881918209213836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5039,
+            8164
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 40TH AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72564518842087,
+            41.88070776097092
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5039,
+            3457
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 40TH AV. x WEST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72570678817198,
+            41.88291077819688
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7284473249111,
+            41.88404990816581
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5252,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7255616973551,
+            41.88407646515066
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72839533751751,
+            41.88091881124287
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 2.793,
+    "dy_m": -2.875
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5734,
+    "separation_ratio": 1.241,
+    "best_offset_m": 15.8,
+    "n_junctions": 15
+  }
+}

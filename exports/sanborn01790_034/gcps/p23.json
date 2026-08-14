@@ -1,0 +1,113 @@
+{
+  "page": "23",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "rotation_deg": 1.44,
+  "auto_residuals_m": [
+    0.15,
+    0.14,
+    0.13,
+    0.13
+  ],
+  "inlier_streets": [
+    [
+      "PETERSON AV.",
+      "E. RAVENSWOOD PARK"
+    ],
+    [
+      "PETERSON AV.",
+      "N. HERMITAGE AV."
+    ],
+    [
+      "E. RAVENSWOOD PARK",
+      "THORNDALE AV."
+    ],
+    [
+      "N. HERMITAGE AV.",
+      "THORNDALE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3166,
+            202
+          ],
+          "username": "autogeoref",
+          "note": "auto: PETERSON AV. x E. RAVENSWOOD PARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67472971833531,
+            41.99075005072306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5591,
+            202
+          ],
+          "username": "autogeoref",
+          "note": "auto: PETERSON AV. x N. HERMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67320925082667,
+            41.99077679779823
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3166,
+            5315
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. RAVENSWOOD PARK x THORNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67466482241733,
+            41.98831471476731
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5591,
+            5315
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HERMITAGE AV. x THORNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67314598976724,
+            41.988344841719496
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.701,
+    "dy_m": -2.01
+  }
+}

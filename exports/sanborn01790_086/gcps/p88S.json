@@ -1,0 +1,113 @@
+{
+  "page": "88S",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.44,
+  "auto_residuals_m": [
+    1.36,
+    1.35,
+    1.41,
+    1.42
+  ],
+  "inlier_streets": [
+    [
+      "E. 11TH (HARMON PL.)",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 11TH (HARMON PL.)",
+      "S. MICHIGAN AV."
+    ],
+    [
+      "S. WABASH AV.",
+      "E. ROOSEVELT RD (E. 12TH)"
+    ],
+    [
+      "S. MICHIGAN AV.",
+      "E. ROOSEVELT RD (E. 12TH)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1607,
+            1750
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 11TH (HARMON PL.) x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6258810827421,
+            41.869288435349084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4343,
+            1750
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 11TH (HARMON PL.) x S. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62413717490229,
+            41.86932808843151
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1607,
+            5796
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. ROOSEVELT RD (E. 12TH)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6258359082366,
+            41.867449255213906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4343,
+            5796
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. x E. ROOSEVELT RD (E. 12TH)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62413755776613,
+            41.86747398508316
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.673,
+    "dy_m": 2.601
+  }
+}

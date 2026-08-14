@@ -1,0 +1,120 @@
+{
+  "page": "69",
+  "n_streets": 9,
+  "n_candidates": 12,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. POLK",
+      "S. DAMEN AV."
+    ],
+    [
+      "S. DAMEN AV.",
+      "W. TAYLOR"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4527,
+            1084
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POLK x S. DAMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67603282888444,
+            41.871483139868815
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4527,
+            6247
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAMEN AV. x W. TAYLOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67596572281691,
+            41.869115073818435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67844208062274,
+            41.87159464796084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5287,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67557349008625,
+            41.87163955028484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67836690514126,
+            41.86893159045247
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.2049,
+    "separation_ratio": 0.67,
+    "best_offset_m": 98.9,
+    "n_junctions": 5
+  }
+}

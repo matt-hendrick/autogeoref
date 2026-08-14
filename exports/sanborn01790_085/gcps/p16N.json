@@ -1,0 +1,141 @@
+{
+  "page": "16N",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. SUPERIOR",
+      "N. LAKE SHORE DR."
+    ],
+    [
+      "E. HURON",
+      "N. McCLURG CT."
+    ],
+    [
+      "E. ERIE",
+      "N. McCLURG CT."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4008,
+            2935
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. SUPERIOR x N. LAKE SHORE DR."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61639440068681,
+            41.895869472745886
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1617,
+            4727
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. HURON x N. McCLURG CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61779152159416,
+            41.89505013299659
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1617,
+            6519
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. ERIE x N. McCLURG CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61776162797062,
+            41.89424849034058
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61846997944478,
+            41.89684118376279
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5218,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6156618559404,
+            41.896879186366476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61840549602421,
+            41.89420113321568
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6867,
+    "separation_ratio": 1.07,
+    "best_offset_m": 10.5,
+    "n_junctions": 7
+  }
+}

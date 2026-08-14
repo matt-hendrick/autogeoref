@@ -1,0 +1,205 @@
+{
+  "page": "110",
+  "n_streets": 9,
+  "n_candidates": 17,
+  "n_inliers": 8,
+  "rotation_deg": 2.2,
+  "auto_residuals_m": [
+    10.71,
+    13.65,
+    16.66,
+    11.51,
+    8.14,
+    4.78,
+    10.0,
+    8.53
+  ],
+  "inlier_streets": [
+    [
+      "W. RANDOLPH",
+      "WILLARD CT."
+    ],
+    [
+      "W. RANDOLPH",
+      "N. ELIZABETH ST."
+    ],
+    [
+      "WILLARD CT.",
+      "W. WASHINGTON BLVD."
+    ],
+    [
+      "W. WASHINGTON BLVD.",
+      "N. ELIZABETH ST."
+    ],
+    [
+      "W. WASHINGTON BLVD.",
+      "THROOP ST."
+    ],
+    [
+      "N. ELIZABETH ST.",
+      "W. MADISON"
+    ],
+    [
+      "W. MADISON",
+      "THROOP ST."
+    ],
+    [
+      "W. MADISON",
+      "S. RACINE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3220,
+            707
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x WILLARD CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65766758470613,
+            41.88425866551916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1633,
+            707
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. ELIZABETH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65881271901324,
+            41.8842421350762
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3220,
+            3489
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILLARD CT. x W. WASHINGTON BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6576334404128,
+            41.88299751955542
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1633,
+            3489
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD. x N. ELIZABETH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65877872186354,
+            41.88298015081713
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            121,
+            3489
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD. x THROOP ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65967980146903,
+            41.88296632829873
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1633,
+            7067
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELIZABETH ST. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65874066228666,
+            41.88161749483875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            121,
+            7067
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x THROOP ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65960041338387,
+            41.88160307558156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4344,
+            7067
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65712548828893,
+            41.88164558288464
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.792,
+    "dy_m": 4.414
+  }
+}

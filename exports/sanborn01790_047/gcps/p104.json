@@ -1,0 +1,163 @@
+{
+  "page": "104",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "BAKER AVE.",
+      "BRANDON AVE."
+    ],
+    [
+      "E. 85TH ST.",
+      "BURLEY AV."
+    ],
+    [
+      "E. 86TH ST.",
+      "BURLEY AV."
+    ],
+    [
+      "BURLEY AV.",
+      "E. 87TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3365,
+            174
+          ],
+          "username": "autogeoref",
+          "note": "auto: BAKER AVE. x BRANDON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54659295921125,
+            41.74126076282547
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5400,
+            557
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 85TH ST. x BURLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54537843470565,
+            41.74110443555704
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5400,
+            4501
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 86TH ST. x BURLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54534070851092,
+            41.73928433390845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5400,
+            8325
+          ],
+          "username": "autogeoref",
+          "note": "auto: BURLEY AV. x E. 87TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54529226255433,
+            41.737482337532235
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54834762719513,
+            41.74091917496155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5161,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54551204862675,
+            41.740956190457766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54827405467859,
+            41.737781185277306
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  },
+  "seam_adjusted": {
+    "dx_m": 2.173,
+    "dy_m": 0.569
+  }
+}

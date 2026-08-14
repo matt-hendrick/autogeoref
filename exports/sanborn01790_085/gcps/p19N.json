@@ -1,0 +1,160 @@
+{
+  "page": "19N",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. ERIE",
+      "N. ORLEANS"
+    ],
+    [
+      "W. ONTARIO",
+      "N. ORLEANS"
+    ],
+    [
+      "N. ORLEANS",
+      "W. OHIO"
+    ],
+    [
+      "N. ORLEANS",
+      "W. GRAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1688,
+            994
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63710322909901,
+            41.89395086502708
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1688,
+            2771
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ONTARIO x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63707925684028,
+            41.89314628720686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1688,
+            4545
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ORLEANS x W. OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63705473681445,
+            41.89237433219069
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1688,
+            6324
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ORLEANS x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63703050517805,
+            41.89154583763464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63777013027493,
+            41.89406411324385
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5215,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63496394407551,
+            41.89410209128114
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63770565565997,
+            41.891424308441
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

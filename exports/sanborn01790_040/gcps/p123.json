@@ -1,0 +1,251 @@
+{
+  "page": "123",
+  "n_streets": 9,
+  "n_candidates": 11,
+  "n_inliers": 10,
+  "rotation_deg": 0.83,
+  "auto_residuals_m": [
+    0.96,
+    0.86,
+    1.32,
+    0.61,
+    0.88,
+    1.11,
+    1.3,
+    0.94,
+    2.12,
+    2.32
+  ],
+  "inlier_streets": [
+    [
+      "HIRSCH",
+      "PINE AV."
+    ],
+    [
+      "HIRSCH",
+      "N. LONG AV."
+    ],
+    [
+      "KAMERLING AV.",
+      "PINE AV."
+    ],
+    [
+      "KAMERLING AV.",
+      "N. LONG AV."
+    ],
+    [
+      "POTOMAC AV.",
+      "PINE AV."
+    ],
+    [
+      "POTOMAC AV.",
+      "N. LONG AV."
+    ],
+    [
+      "PINE AV.",
+      "CRYSTAL"
+    ],
+    [
+      "PINE AV.",
+      "W. DIVISION"
+    ],
+    [
+      "N. LONG AV.",
+      "CRYSTAL"
+    ],
+    [
+      "N. LONG AV.",
+      "W. DIVISION"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            497,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76388966638632,
+            41.90578267841236
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5151,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. LONG AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76101515118103,
+            41.90581504035905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            497,
+            2196
+          ],
+          "username": "autogeoref",
+          "note": "auto: KAMERLING AV. x PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7638766205142,
+            41.90487608409501
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5151,
+            2196
+          ],
+          "username": "autogeoref",
+          "note": "auto: KAMERLING AV. x N. LONG AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76099494535289,
+            41.90491027397337
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            497,
+            4116
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76384536975978,
+            41.903975170219645
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5151,
+            4116
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. LONG AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76097480783794,
+            41.904004816509826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            497,
+            6025
+          ],
+          "username": "autogeoref",
+          "note": "auto: PINE AV. x CRYSTAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76381380165435,
+            41.90307049117209
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            497,
+            7894
+          ],
+          "username": "autogeoref",
+          "note": "auto: PINE AV. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7637816256862,
+            41.9021670449665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5151,
+            6025
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LONG AV. x CRYSTAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76095286169527,
+            41.90310152744133
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5151,
+            7894
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LONG AV. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76089326042286,
+            41.902194490709206
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.864,
+    "dy_m": 0.413
+  }
+}

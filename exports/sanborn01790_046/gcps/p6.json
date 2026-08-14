@@ -1,0 +1,161 @@
+{
+  "page": "6",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 0.79,
+  "auto_residuals_m": [
+    4.15,
+    4.49,
+    8.82,
+    9.0,
+    4.61,
+    4.45
+  ],
+  "inlier_streets": [
+    [
+      "E.71ST. ST.",
+      "PAXTON AV."
+    ],
+    [
+      "E.71ST. ST.",
+      "CRANDON AV."
+    ],
+    [
+      "E.72ND ST.",
+      "PAXTON AV."
+    ],
+    [
+      "E.72ND ST.",
+      "CRANDON AV."
+    ],
+    [
+      "E.73RD ST.",
+      "PAXTON AV."
+    ],
+    [
+      "E.73RD ST.",
+      "CRANDON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1442,
+            167
+          ],
+          "username": "autogeoref",
+          "note": "auto: E.71ST. ST. x PAXTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57140224768918,
+            41.76610624936028
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5332,
+            167
+          ],
+          "username": "autogeoref",
+          "note": "auto: E.71ST. ST. x CRANDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56897631754124,
+            41.766128915242305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1442,
+            4177
+          ],
+          "username": "autogeoref",
+          "note": "auto: E.72ND ST. x PAXTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57136877372957,
+            41.76436832546134
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5332,
+            4177
+          ],
+          "username": "autogeoref",
+          "note": "auto: E.72ND ST. x CRANDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56894125275326,
+            41.76439456312111
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1442,
+            7972
+          ],
+          "username": "autogeoref",
+          "note": "auto: E.73RD ST. x PAXTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57132814265424,
+            41.76255147896115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5332,
+            7972
+          ],
+          "username": "autogeoref",
+          "note": "auto: E.73RD ST. x CRANDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56890424576112,
+            41.76257751606776
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -2.947,
+    "dy_m": -2.38
+  }
+}

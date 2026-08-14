@@ -1,0 +1,205 @@
+{
+  "page": "32",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 8,
+  "rotation_deg": 2.34,
+  "auto_residuals_m": [
+    6.38,
+    6.28,
+    2.42,
+    1.72,
+    2.23,
+    1.93,
+    2.66,
+    1.99
+  ],
+  "inlier_streets": [
+    [
+      "W. TOUHY AV.",
+      "N. OAKLEY AV. (ELLWOOD)"
+    ],
+    [
+      "W. TOUHY AV.",
+      "N. BELL AV. (PINGREE)"
+    ],
+    [
+      "N. OAKLEY AV. (ELLWOOD)",
+      "W. ESTES AV."
+    ],
+    [
+      "N. OAKLEY AV. (ELLWOOD)",
+      "W. GREENLEAF AV."
+    ],
+    [
+      "N. OAKLEY AV. (ELLWOOD)",
+      "W. LUNT AV."
+    ],
+    [
+      "W. ESTES AV.",
+      "N. BELL AV. (PINGREE)"
+    ],
+    [
+      "N. BELL AV. (PINGREE)",
+      "W. GREENLEAF AV."
+    ],
+    [
+      "N. BELL AV. (PINGREE)",
+      "W. LUNT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            914,
+            453
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TOUHY AV. x N. OAKLEY AV. (ELLWOOD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6881869363798,
+            42.01223538134284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4331,
+            453
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TOUHY AV. x N. BELL AV. (PINGREE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68610430213042,
+            42.01221425134405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            914,
+            3070
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. (ELLWOOD) x W. ESTES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68815694408724,
+            42.0109929639752
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            914,
+            5536
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. (ELLWOOD) x W. GREENLEAF AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68813549301032,
+            42.00988204525384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            914,
+            8211
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. (ELLWOOD) x W. LUNT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68811371312201,
+            42.008668270155574
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4331,
+            3070
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ESTES AV. x N. BELL AV. (PINGREE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68607816025937,
+            42.01108452321746
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4331,
+            5536
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BELL AV. (PINGREE) x W. GREENLEAF AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68606184048215,
+            42.00997417975115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4331,
+            8211
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BELL AV. (PINGREE) x W. LUNT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68604809005295,
+            42.008758222978145
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.129,
+    "dy_m": -3.639
+  }
+}

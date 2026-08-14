@@ -1,0 +1,157 @@
+{
+  "page": "79",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.22,
+  "auto_residuals_m": [
+    0.53,
+    0.76,
+    0.22,
+    1.86,
+    3.88,
+    2.11
+  ],
+  "inlier_streets": [
+    [
+      "HIRSCH (BOULEVARD)",
+      "N. WESTERN AV."
+    ],
+    [
+      "HIRSCH (BOULEVARD)",
+      "N. CLAREMONT AV."
+    ],
+    [
+      "HIRSCH (BOULEVARD)",
+      "N. OAKLEY AV. (BOULEVARD)"
+    ],
+    [
+      "W. POTOMAC AV.",
+      "N. WESTERN AV."
+    ],
+    [
+      "W. POTOMAC AV.",
+      "N. CLAREMONT AV."
+    ],
+    [
+      "W. POTOMAC AV.",
+      "N. OAKLEY AV. (BOULEVARD)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1053,
+            2704
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH (BOULEVARD) x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68712348097935,
+            41.90666650306331
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3055,
+            2704
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH (BOULEVARD) x N. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68590720419834,
+            41.90668570432223
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            2704
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH (BOULEVARD) x N. OAKLEY AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6846871220872,
+            41.906704892605504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1053,
+            6690
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POTOMAC AV. x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68707577331409,
+            41.90484220401589
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3055,
+            6690
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POTOMAC AV. x N. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68587955320378,
+            41.904891879301616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            6690
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POTOMAC AV. x N. OAKLEY AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6846329311447,
+            41.90488093884954
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

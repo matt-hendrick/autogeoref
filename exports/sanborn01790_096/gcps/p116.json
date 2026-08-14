@@ -1,0 +1,138 @@
+{
+  "page": "116",
+  "n_streets": 5,
+  "n_candidates": 10,
+  "n_inliers": 5,
+  "rotation_deg": 0.7,
+  "auto_residuals_m": [
+    2.71,
+    2.4,
+    2.42,
+    3.78,
+    1.11
+  ],
+  "inlier_streets": [
+    [
+      "HUMBOLDT BLVD.",
+      "W. NORTH AV."
+    ],
+    [
+      "W. WABANSIA AV.",
+      "N. RICHMOND"
+    ],
+    [
+      "W. WABANSIA AV.",
+      "N. FRANCISCO"
+    ],
+    [
+      "N. RICHMOND",
+      "W. NORTH AV."
+    ],
+    [
+      "N. FRANCISCO",
+      "W. NORTH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            755,
+            8236
+          ],
+          "username": "autogeoref",
+          "note": "auto: HUMBOLDT BLVD. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70188730953654,
+            41.91018577885825
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3253,
+            3587
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WABANSIA AV. x N. RICHMOND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70032640103486,
+            41.91234416886774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5162,
+            3587
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WABANSIA AV. x N. FRANCISCO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69916926018567,
+            41.91235518804684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3253,
+            8236
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RICHMOND x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70025812743583,
+            41.91019911562308
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5162,
+            8236
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANCISCO x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69910159269772,
+            41.910211086199716
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -2.373,
+    "dy_m": 1.905
+  }
+}

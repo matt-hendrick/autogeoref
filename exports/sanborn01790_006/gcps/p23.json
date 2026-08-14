@@ -1,0 +1,138 @@
+{
+  "page": "23",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 59TH",
+      "S. ELIZABETH (COOK)"
+    ],
+    [
+      "W. 60TH",
+      "S. ELIZABETH (COOK)"
+    ],
+    [
+      "S. ELIZABETH (COOK)",
+      "W. 61ST"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            287,
+            315
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 59TH x S. ELIZABETH (COOK)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65590037762513,
+            41.7868682305438
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            287,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 60TH x S. ELIZABETH (COOK)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65585574090953,
+            41.78504935574631
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            287,
+            8262
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ELIZABETH (COOK) x W. 61ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65577744693101,
+            41.7832279840706
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            570,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65571422520641,
+            41.78659561130237
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5126,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65295926407369,
+            41.786635794896526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            570,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65563375151014,
+            41.78352814445923
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

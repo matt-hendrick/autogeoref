@@ -1,0 +1,142 @@
+{
+  "page": "37",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "FULLERTON AV.",
+      "N. LONG AV."
+    ],
+    [
+      "N. LONG AV.",
+      "BELDEN AV."
+    ],
+    [
+      "N. LONG AV.",
+      "W. PALMER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4379,
+            238
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. LONG AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76106837224197,
+            41.92404469009088
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4379,
+            4266
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LONG AV. x BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76100814796919,
+            41.92221706079151
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4379,
+            8278
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LONG AV. x W. PALMER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76094882890273,
+            41.92039281190156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76337821399885,
+            41.92374921363029
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5279,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76049098231876,
+            41.92378655540441
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76330546416172,
+            41.92063523575917
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6523,
+    "separation_ratio": 1.028,
+    "best_offset_m": 6.8,
+    "n_junctions": 5
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "page": "109",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 7,
+  "rotation_deg": 1.32,
+  "auto_residuals_m": [
+    0.53,
+    1.09,
+    4.37,
+    0.32,
+    9.51,
+    4.98,
+    0.66
+  ],
+  "inlier_streets": [
+    [
+      "N. RIDGEWAY AV.",
+      "WABANSIA AV."
+    ],
+    [
+      "N. RIDGEWAY AV.",
+      "W. NORTH AV."
+    ],
+    [
+      "WABANSIA AV.",
+      "N. LAWNDALE AV."
+    ],
+    [
+      "WABANSIA AV.",
+      "N. HAMLIN"
+    ],
+    [
+      "N. LAWNDALE AV.",
+      "CONCORD PL."
+    ],
+    [
+      "N. LAWNDALE AV.",
+      "W. NORTH AV."
+    ],
+    [
+      "N. HAMLIN",
+      "W. NORTH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2953,
+            4271
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RIDGEWAY AV. x WABANSIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72025599042874,
+            41.911778208543474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2953,
+            8213
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RIDGEWAY AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7204327223427,
+            41.90994839487026
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5051,
+            4271
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71903060109385,
+            41.91179296786086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            927,
+            4271
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. HAMLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72147944924339,
+            41.91176172663161
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5051,
+            6270
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWNDALE AV. x CONCORD PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71900628478414,
+            41.91090294927821
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5051,
+            8213
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWNDALE AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71921499845661,
+            41.90996688125375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            927,
+            8213
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HAMLIN x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72165479383801,
+            41.90993887838013
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.057,
+    "dy_m": 0.378
+  }
+}

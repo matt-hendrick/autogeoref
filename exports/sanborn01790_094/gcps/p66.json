@@ -1,0 +1,184 @@
+{
+  "page": "66",
+  "n_streets": 11,
+  "n_candidates": 15,
+  "n_inliers": 7,
+  "rotation_deg": 0.11,
+  "auto_residuals_m": [
+    21.57,
+    8.49,
+    11.79,
+    6.55,
+    14.58,
+    9.48,
+    4.82
+  ],
+  "inlier_streets": [
+    [
+      "RUBLE",
+      "W. 21ST ST."
+    ],
+    [
+      "W. 20TH PL.",
+      "S. JEFFERSON ST."
+    ],
+    [
+      "S. UNION AV. (S. UNION ST.)",
+      "W. 21ST ST."
+    ],
+    [
+      "S. UNION AV. (S. UNION ST.)",
+      "W. CERMAK RD. (W. 22ND ST.)"
+    ],
+    [
+      "W. 21ST ST.",
+      "S. JEFFERSON ST."
+    ],
+    [
+      "W. CERMAK RD. (W. 22ND ST.)",
+      "FORD AV."
+    ],
+    [
+      "W. CERMAK RD. (W. 22ND ST.)",
+      "S. LUMBER ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2104,
+            3111
+          ],
+          "username": "autogeoref",
+          "note": "auto: RUBLE x W. 21ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64366554536262,
+            41.85421519851918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4683,
+            1216
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 20TH PL. x S. JEFFERSON ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64175748106304,
+            41.85498602989187
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            519,
+            3111
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. UNION AV. (S. UNION ST.) x W. 21ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64436918046539,
+            41.854207157698546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            519,
+            6501
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. UNION AV. (S. UNION ST.) x W. CERMAK RD. (W. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6447231576425,
+            41.852650221611206
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4683,
+            3111
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. JEFFERSON ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64173421811034,
+            41.854237449018214
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1670,
+            6501
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CERMAK RD. (W. 22ND ST.) x FORD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64386442114046,
+            41.85265984932499
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5198,
+            6501
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CERMAK RD. (W. 22ND ST.) x S. LUMBER ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6417693668832,
+            41.85268141966927
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 2.068,
+    "dy_m": -2.601
+  }
+}

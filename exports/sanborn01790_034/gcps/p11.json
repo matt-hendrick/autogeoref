@@ -1,0 +1,109 @@
+{
+  "page": "11",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 0.56,
+  "auto_residuals_m": [
+    0.4,
+    0.41,
+    0.37,
+    0.35
+  ],
+  "inlier_streets": [
+    [
+      "KENMORE AV.",
+      "ROSEMONT AV."
+    ],
+    [
+      "KENMORE AV.",
+      "GRANVILLE AV."
+    ],
+    [
+      "ROSEMONT AV.",
+      "SHERIDAN R'D"
+    ],
+    [
+      "SHERIDAN R'D",
+      "GRANVILLE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1616,
+            4341
+          ],
+          "username": "autogeoref",
+          "note": "auto: KENMORE AV. x ROSEMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65700871198858,
+            41.99640847662367
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1616,
+            8362
+          ],
+          "username": "autogeoref",
+          "note": "auto: KENMORE AV. x GRANVILLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6569530990845,
+            41.9945929240181
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3789,
+            4341
+          ],
+          "username": "autogeoref",
+          "note": "auto: ROSEMONT AV. x SHERIDAN R'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6555809484746,
+            41.996423881579766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3789,
+            8362
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHERIDAN R'D x GRANVILLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65552488360389,
+            41.99459809890111
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

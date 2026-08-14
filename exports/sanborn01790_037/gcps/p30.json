@@ -1,0 +1,186 @@
+{
+  "page": "30",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "AUGUSTA",
+      "N. 47TH AV."
+    ],
+    [
+      "CORNELIA",
+      "N. 47TH AV."
+    ],
+    [
+      "IOWA",
+      "N. 47TH AV."
+    ],
+    [
+      "N. 47TH AV.",
+      "RICE"
+    ],
+    [
+      "N. 47TH AV.",
+      "W. CHICAGO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1095,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. 47TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74362327701822,
+            41.89873784037073
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1095,
+            2275
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORNELIA x N. 47TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74359448075948,
+            41.897813849479846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1095,
+            4271
+          ],
+          "username": "autogeoref",
+          "note": "auto: IOWA x N. 47TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74357020698498,
+            41.896901965107105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1095,
+            6291
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 47TH AV. x RICE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74354772129108,
+            41.89599157001406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1095,
+            8287
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 47TH AV. x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74352438746362,
+            41.89504698181999
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74391380979078,
+            41.898474617854745
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5260,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74102373139537,
+            41.898501209795825
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74386182239718,
+            41.895344227897425
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5604,
+    "separation_ratio": 1.037,
+    "best_offset_m": 1.5,
+    "n_junctions": 6
+  }
+}

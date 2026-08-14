@@ -1,0 +1,159 @@
+{
+  "page": "52",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 1.24,
+  "auto_residuals_m": [
+    0.12,
+    0.28,
+    0.13,
+    0.33,
+    1.46,
+    0.92
+  ],
+  "inlier_streets": [
+    [
+      "W. LUNT AV.",
+      "N. PAULINA"
+    ],
+    [
+      "W. LUNT AV.",
+      "N. ASHLAND BLVD."
+    ],
+    [
+      "N. PAULINA",
+      "W. MORSE AV."
+    ],
+    [
+      "W. MORSE AV.",
+      "N. ASHLAND BLVD."
+    ],
+    [
+      "N. ASHLAND BLVD.",
+      "W. FARWELL AV."
+    ],
+    [
+      "N. ASHLAND BLVD.",
+      "W. PRATT BLVD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            927,
+            276
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LUNT AV. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.672217814876,
+            42.009017815981586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4384,
+            276
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LUNT AV. x N. ASHLAND BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67004961390808,
+            42.009053542149516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            927,
+            2830
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x W. MORSE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6721760310576,
+            42.007806369050684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4384,
+            2830
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MORSE AV. x N. ASHLAND BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67001065544184,
+            42.007843795474415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4384,
+            5383
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND BLVD. x W. FARWELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66996706557109,
+            42.00662298932301
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4384,
+            8019
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND BLVD. x W. PRATT BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6699237900842,
+            42.005390221163985
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.655,
+    "dy_m": 0.722
+  }
+}

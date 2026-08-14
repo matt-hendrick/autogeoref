@@ -1,0 +1,136 @@
+{
+  "page": "60",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 5,
+  "rotation_deg": 2.03,
+  "auto_residuals_m": [
+    7.78,
+    3.35,
+    7.77,
+    8.47,
+    6.3
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. SHEFFIELD AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. SMITH AV."
+    ],
+    [
+      "N. SHEFFIELD AV.",
+      "W. WEED"
+    ],
+    [
+      "W. WEED",
+      "N. SMITH AV."
+    ],
+    [
+      "W. BLACKHAWK",
+      "N. SMITH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1133,
+            851
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. SHEFFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65308100767199,
+            41.91086109466762
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4419,
+            851
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. SMITH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65107925032585,
+            41.91089499682623
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1133,
+            3176
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SHEFFIELD AV. x W. WEED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65316560277827,
+            41.90979955600683
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4419,
+            3176
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEED x N. SMITH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65105006029226,
+            41.90983541348237
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4419,
+            6421
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLACKHAWK x N. SMITH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65101291111608,
+            41.90855541412675
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.947,
+    "dy_m": 3.173
+  }
+}

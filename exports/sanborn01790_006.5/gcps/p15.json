@@ -1,0 +1,159 @@
+{
+  "page": "15",
+  "n_streets": 5,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 0.34,
+  "auto_residuals_m": [
+    3.42,
+    6.27,
+    5.81,
+    4.95,
+    3.32,
+    2.18
+  ],
+  "inlier_streets": [
+    [
+      "61ST ST",
+      "STATE"
+    ],
+    [
+      "61ST ST",
+      "WABASH AVE."
+    ],
+    [
+      "61ST ST",
+      "MICHIGAN AVE."
+    ],
+    [
+      "STATE",
+      "63RD"
+    ],
+    [
+      "WABASH AVE.",
+      "63RD"
+    ],
+    [
+      "MICHIGAN AVE.",
+      "63RD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            52,
+            219
+          ],
+          "username": "autogeoref",
+          "note": "auto: 61ST ST x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62539347402301,
+            41.78372340343937
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2799,
+            219
+          ],
+          "username": "autogeoref",
+          "note": "auto: 61ST ST x WABASH AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62377476930854,
+            41.78375130960807
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5266,
+            219
+          ],
+          "username": "autogeoref",
+          "note": "auto: 61ST ST x MICHIGAN AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62215912656792,
+            41.783779890031816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            52,
+            8221
+          ],
+          "username": "autogeoref",
+          "note": "auto: STATE x 63RD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6253517897178,
+            41.78006890982734
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2799,
+            8221
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABASH AVE. x 63RD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62367492490685,
+            41.78002238768643
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5266,
+            8221
+          ],
+          "username": "autogeoref",
+          "note": "auto: MICHIGAN AVE. x 63RD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6221758246797,
+            41.780041826188445
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.567,
+    "dy_m": 1.586
+  }
+}

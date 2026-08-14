@@ -1,0 +1,159 @@
+{
+  "page": "83S",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.48,
+  "auto_residuals_m": [
+    1.01,
+    0.53,
+    2.13,
+    1.15,
+    0.9,
+    0.41
+  ],
+  "inlier_streets": [
+    [
+      "E. 8TH (PECK PL.)",
+      "S. STATE"
+    ],
+    [
+      "E. 8TH (PECK PL.)",
+      "S. WABASH AV."
+    ],
+    [
+      "S. STATE",
+      "E. 9TH (ELDRIDGE PL.)"
+    ],
+    [
+      "S. STATE",
+      "E. 11TH (HARMON PL.)"
+    ],
+    [
+      "S. WABASH AV.",
+      "E. 9TH (ELDRIDGE PL.)"
+    ],
+    [
+      "S. WABASH AV.",
+      "E. 11TH (HARMON PL.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1562,
+            972
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 8TH (PECK PL.) x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62752930214481,
+            41.8718266219238
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4158,
+            972
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 8TH (PECK PL.) x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62594110119336,
+            41.871860477581
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1562,
+            3806
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x E. 9TH (ELDRIDGE PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6274973669335,
+            41.870553203289816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1562,
+            6600
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x E. 11TH (HARMON PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62747115596514,
+            41.8692553669395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4158,
+            3806
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 9TH (ELDRIDGE PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62591125339468,
+            41.87057558647401
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4158,
+            6600
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 11TH (HARMON PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62587860339191,
+            41.86929095059318
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.397,
+    "dy_m": 2.977
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "page": "75",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 53RD PL.",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. 54TH ST.",
+      "S. HOYNE AV."
+    ],
+    [
+      "S. HOYNE AV.",
+      "W. 54TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4754,
+            2298
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 53RD PL. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67681230205524,
+            41.79663513974617
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4754,
+            4086
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 54TH ST. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6767868221474,
+            41.795730314856954
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4754,
+            5969
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x W. 54TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67676029744852,
+            41.79480757848057
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67946239470118,
+            41.79722334028107
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67663714847679,
+            41.79726850127576
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67937354773747,
+            41.79413410721468
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7339,
+    "separation_ratio": 1.015,
+    "best_offset_m": 14.8,
+    "n_junctions": 6
+  }
+}

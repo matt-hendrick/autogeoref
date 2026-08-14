@@ -1,0 +1,255 @@
+{
+  "page": "56",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 8,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. CENTRAL AV.",
+      "W. LAKE"
+    ],
+    [
+      "N. PINE AV.",
+      "W. LAKE"
+    ],
+    [
+      "W. LAKE",
+      "W. KINZIE ST."
+    ],
+    [
+      "RR UP GENEVA SUBDIVISION",
+      "N. CENTRAL AV."
+    ],
+    [
+      "RR UP GENEVA SUBDIVISION",
+      "N. CENTRAL AV."
+    ],
+    [
+      "RR UP GENEVA SUBDIVISION",
+      "N. PINE AV."
+    ],
+    [
+      "RR UP GENEVA SUBDIVISION",
+      "N. PINE AV."
+    ],
+    [
+      "RR UP GENEVA SUBDIVISION",
+      "N. PINE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2415,
+            7637
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL AV. x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76509700345636,
+            41.88771285286425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5468,
+            7637
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PINE AV. x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76326976382325,
+            41.88769269895767
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5581,
+            7637
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x W. KINZIE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76326976382325,
+            41.88769269895767
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2415,
+            8132
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR UP GENEVA SUBDIVISION x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76509176960495,
+            41.887528547429646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2415,
+            8132
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR UP GENEVA SUBDIVISION x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76509067289675,
+            41.88748939045949
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5468,
+            8132
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR UP GENEVA SUBDIVISION x N. PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76326063877323,
+            41.887589657341096
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5468,
+            8132
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR UP GENEVA SUBDIVISION x N. PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76325898139531,
+            41.887512181349805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5468,
+            8132
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR UP GENEVA SUBDIVISION x N. PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76325927251473,
+            41.88755101823837
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7663241125413,
+            41.890840278802166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5256,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76343601229672,
+            41.89086685571863
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76627212514768,
+            41.88770951465555
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 2.495,
+    "dy_m": -2.399
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7712,
+    "separation_ratio": 1.296,
+    "best_offset_m": 2.3,
+    "n_junctions": 13
+  }
+}

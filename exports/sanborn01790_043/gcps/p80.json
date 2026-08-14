@@ -1,0 +1,160 @@
+{
+  "page": "80",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 67TH PL.",
+      "S. LAWNDALE AV."
+    ],
+    [
+      "S. LAWNDALE AV.",
+      "W. 68TH ST."
+    ],
+    [
+      "S. LAWNDALE AV.",
+      "W. 68TH PL."
+    ],
+    [
+      "S. LAWNDALE AV.",
+      "W. 69TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            130,
+            2265
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 67TH PL. x S. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71520244291636,
+            41.770577453980145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            130,
+            4236
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LAWNDALE AV. x W. 68TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71517780245391,
+            41.769667183278
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            130,
+            6188
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LAWNDALE AV. x W. 68TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71515491239616,
+            41.768757998161654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            130,
+            8147
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LAWNDALE AV. x W. 69TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71513411858993,
+            41.76784403098176
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71495426422565,
+            41.77126408952346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7121353326643,
+            41.77130842753083
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7148670716661,
+            41.768180513158136
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

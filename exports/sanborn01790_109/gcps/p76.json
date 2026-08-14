@@ -1,0 +1,182 @@
+{
+  "page": "76",
+  "n_streets": 10,
+  "n_candidates": 10,
+  "n_inliers": 7,
+  "rotation_deg": 1.16,
+  "auto_residuals_m": [
+    1.35,
+    3.52,
+    2.94,
+    1.78,
+    4.2,
+    5.36,
+    2.28
+  ],
+  "inlier_streets": [
+    [
+      "W. 41ST ST.",
+      "S. ALBANY AV."
+    ],
+    [
+      "W. 41ST ST.",
+      "S. SACRAMENTO AV."
+    ],
+    [
+      "W. 41ST PL.",
+      "S. ALBANY AV."
+    ],
+    [
+      "W. 41ST PL.",
+      "S. SACRAMENTO AV."
+    ],
+    [
+      "S. ALBANY AV.",
+      "W. 42ND ST."
+    ],
+    [
+      "S. ALBANY AV.",
+      "W. 42ND PL."
+    ],
+    [
+      "W. 42ND ST.",
+      "S. SACRAMENTO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1097,
+            196
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 41ST ST. x S. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70192635648371,
+            41.819051074803134
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5060,
+            196
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 41ST ST. x S. SACRAMENTO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69946070003732,
+            41.81909194322934
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1097,
+            2103
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 41ST PL. x S. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70189101324407,
+            41.818146996155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5060,
+            2103
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 41ST PL. x S. SACRAMENTO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6994401606678,
+            41.81818995054018
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1097,
+            4084
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ALBANY AV. x W. 42ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7018576345217,
+            41.81724826440179
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1097,
+            5987
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ALBANY AV. x W. 42ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70171933611078,
+            41.816383611472276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5060,
+            4084
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. SACRAMENTO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69939638595302,
+            41.817286156294095
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.881,
+    "dy_m": 1.952
+  }
+}

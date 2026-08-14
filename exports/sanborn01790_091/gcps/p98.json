@@ -1,0 +1,164 @@
+{
+  "page": "98",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N. PAULINA",
+      "W. DIVISION"
+    ],
+    [
+      "N. ASHLAND AV.",
+      "W. DIVISION"
+    ],
+    [
+      "W. DIVISION",
+      "N. PAULINA ST."
+    ],
+    [
+      "W. DIVISION",
+      "N. MARSHFIELD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            438,
+            6124
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67042546816337,
+            41.90329820921788
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5249,
+            6124
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND AV. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66749526016973,
+            41.90334633244783
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1214,
+            6124
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. PAULINA ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66994431909417,
+            41.90330570937556
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3186,
+            6124
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. MARSHFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6687205559858,
+            41.90332695243096
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67039854099639,
+            41.90574276048683
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5276,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66754321798209,
+            41.9057905790709
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67031827633099,
+            41.90308801317107
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.456,
+    "separation_ratio": 1.051,
+    "best_offset_m": 0.5,
+    "n_junctions": 30
+  }
+}

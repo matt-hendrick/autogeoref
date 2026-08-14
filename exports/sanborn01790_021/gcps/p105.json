@@ -1,0 +1,116 @@
+{
+  "page": "105",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 37TH ST. (PRIVATE)",
+      "S. CENTRE AV."
+    ],
+    [
+      "W. 37TH ST. (PRIVATE)",
+      "WALL (PRIVATE)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            75,
+            146
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH ST. (PRIVATE) x S. CENTRE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65561850522754,
+            41.82697624363568
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1832,
+            146
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH ST. (PRIVATE) x WALL (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65455580620834,
+            41.82698086386959
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65530009390804,
+            41.82671466071126
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5289,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65248764160896,
+            41.8267505102335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65524015552857,
+            41.824103578260136
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

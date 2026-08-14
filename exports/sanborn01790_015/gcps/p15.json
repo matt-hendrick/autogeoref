@@ -1,0 +1,113 @@
+{
+  "page": "15",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.66,
+  "auto_residuals_m": [
+    2.98,
+    6.37,
+    2.97,
+    6.4
+  ],
+  "inlier_streets": [
+    [
+      "W.44TH",
+      "PACKERS AV."
+    ],
+    [
+      "W.44TH PL.",
+      "S.CENTRE AV."
+    ],
+    [
+      "PACKERS AV.",
+      "W.45TH"
+    ],
+    [
+      "S.CENTRE AV.",
+      "W.45TH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            614,
+            1004
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.44TH x PACKERS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65861114513356,
+            41.81414315068424
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            6265,
+            3157
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.44TH PL. x S.CENTRE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65527215269123,
+            41.813304090261525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            614,
+            5076
+          ],
+          "username": "autogeoref",
+          "note": "auto: PACKERS AV. x W.45TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65856480345238,
+            41.81234239142881
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            6265,
+            5076
+          ],
+          "username": "autogeoref",
+          "note": "auto: S.CENTRE AV. x W.45TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6552466405088,
+            41.81235119469474
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.113,
+    "dy_m": -2.769
+  }
+}

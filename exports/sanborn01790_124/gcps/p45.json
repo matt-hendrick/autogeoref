@@ -1,0 +1,205 @@
+{
+  "page": "45",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.97,
+  "auto_residuals_m": [
+    2.08,
+    3.54,
+    1.29,
+    2.83,
+    2.51,
+    1.56,
+    1.06,
+    1.0
+  ],
+  "inlier_streets": [
+    [
+      "W. LUNT AV.",
+      "N. BELL AV. (PINGREE)"
+    ],
+    [
+      "W. LUNT AV.",
+      "N. HAMILTON AV. (MORTON AV.)"
+    ],
+    [
+      "W. MORSE AV.",
+      "N. BELL AV. (PINGREE)"
+    ],
+    [
+      "W. MORSE AV.",
+      "N. HAMILTON AV. (MORTON AV.)"
+    ],
+    [
+      "N. BELL AV. (PINGREE)",
+      "W. FARWELL AV."
+    ],
+    [
+      "N. BELL AV. (PINGREE)",
+      "W. PRATT AV."
+    ],
+    [
+      "N. HAMILTON AV. (MORTON AV.)",
+      "W. FARWELL AV."
+    ],
+    [
+      "N. HAMILTON AV. (MORTON AV.)",
+      "W. PRATT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1326,
+            312
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LUNT AV. x N. BELL AV. (PINGREE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68597466176162,
+            42.00877916869996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4757,
+            312
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LUNT AV. x N. HAMILTON AV. (MORTON AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68391226931,
+            42.00886801259428
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1326,
+            3590
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MORSE AV. x N. BELL AV. (PINGREE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68592301409504,
+            42.00724147795953
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4757,
+            3590
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MORSE AV. x N. HAMILTON AV. (MORTON AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68384449027067,
+            42.00728446193803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1326,
+            5576
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BELL AV. (PINGREE) x W. FARWELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68588001690037,
+            42.00633157630329
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1326,
+            8176
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BELL AV. (PINGREE) x W. PRATT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68585310247404,
+            42.00509824307921
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4757,
+            5576
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HAMILTON AV. (MORTON AV.) x W. FARWELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6838005419819,
+            42.006371681279184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4757,
+            8176
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HAMILTON AV. (MORTON AV.) x W. PRATT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68376131529845,
+            42.005139179154064
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 6.045,
+    "dy_m": -0.501
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "page": "91",
+  "n_streets": 10,
+  "n_candidates": 7,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "REES",
+      "N. HALSTED"
+    ],
+    [
+      "VEDDER",
+      "N. HALSTED"
+    ],
+    [
+      "W. DIVISION",
+      "N. HALSTED"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1117,
+            384
+          ],
+          "username": "autogeoref",
+          "note": "auto: REES x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64815642739026,
+            41.90637894363095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1117,
+            3411
+          ],
+          "username": "autogeoref",
+          "note": "auto: VEDDER x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64811798943522,
+            41.90497038948966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1117,
+            6389
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64809420876098,
+            41.90363709551224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64848346430654,
+            41.90619591526831
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5246,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64564596130334,
+            41.90624250549502
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64840481817808,
+            41.90354281938869
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5196,
+    "separation_ratio": 1.187,
+    "best_offset_m": 28.2,
+    "n_junctions": 26
+  }
+}

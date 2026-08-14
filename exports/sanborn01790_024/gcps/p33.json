@@ -1,0 +1,205 @@
+{
+  "page": "33",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.38,
+  "auto_residuals_m": [
+    1.18,
+    2.69,
+    2.55,
+    1.01,
+    4.7,
+    1.19,
+    0.69,
+    2.4
+  ],
+  "inlier_streets": [
+    [
+      "W. VAN BUREN",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. VAN BUREN",
+      "S. OAKLEY BLV'D."
+    ],
+    [
+      "W. CONGRESS ST.",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. CONGRESS ST.",
+      "S. CLAREMONT AV."
+    ],
+    [
+      "W. CONGRESS ST.",
+      "S. OAKLEY BLV'D."
+    ],
+    [
+      "W. HARRISON",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. HARRISON",
+      "S. CLAREMONT AV."
+    ],
+    [
+      "W. HARRISON",
+      "S. OAKLEY BLV'D."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            842,
+            1234
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68624752560333,
+            41.876092902257355
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4973,
+            1234
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. OAKLEY BLV'D."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68380585590556,
+            41.876129463073106
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            842,
+            3698
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONGRESS ST. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6862361355508,
+            41.87500418218932
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2900,
+            3698
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONGRESS ST. x S. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68501026485724,
+            41.87498684808084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4973,
+            3698
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONGRESS ST. x S. OAKLEY BLV'D."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6837769783001,
+            41.87496830690824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            842,
+            6090
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68621282015894,
+            41.87390039767567
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2900,
+            6090
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68498318797019,
+            41.87391663116776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4973,
+            6090
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. OAKLEY BLV'D."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68375869280835,
+            41.87393618901336
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.446,
+    "dy_m": 1.388
+  }
+}

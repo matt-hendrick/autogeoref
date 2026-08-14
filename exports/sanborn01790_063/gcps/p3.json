@@ -1,0 +1,251 @@
+{
+  "page": "3",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 10,
+  "rotation_deg": 1.2,
+  "auto_residuals_m": [
+    2.32,
+    5.48,
+    3.3,
+    1.65,
+    1.45,
+    1.01,
+    3.42,
+    2.25,
+    4.95,
+    2.95
+  ],
+  "inlier_streets": [
+    [
+      "W. ROSCOE",
+      "N. SAYRE AV."
+    ],
+    [
+      "W. ROSCOE",
+      "N. NEWLAND AV."
+    ],
+    [
+      "W. ROSCOE",
+      "N. NEW ENGLAND AV."
+    ],
+    [
+      "N. SAYRE AV.",
+      "W. SCHOOL"
+    ],
+    [
+      "N. SAYRE AV.",
+      "W. MELROSE"
+    ],
+    [
+      "N. SAYRE AV.",
+      "W. BELMONT AV."
+    ],
+    [
+      "W. SCHOOL",
+      "N. NEWLAND AV."
+    ],
+    [
+      "W. SCHOOL",
+      "N. NEW ENGLAND AV."
+    ],
+    [
+      "N. NEWLAND AV.",
+      "W. BELMONT AV."
+    ],
+    [
+      "N. NEW ENGLAND AV.",
+      "W. BELMONT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            234,
+            300
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROSCOE x N. SAYRE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.80137596946264,
+            41.94172440619966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3104,
+            300
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROSCOE x N. NEWLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7995307913304,
+            41.941733380747884
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5241,
+            300
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROSCOE x N. NEW ENGLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7982777580033,
+            41.94177628387216
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            234,
+            4233
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SAYRE AV. x W. SCHOOL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.80130691214195,
+            41.939900921390056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            234,
+            6229
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SAYRE AV. x W. MELROSE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.80127418300994,
+            41.93898539526217
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            234,
+            8206
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SAYRE AV. x W. BELMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.80123720387792,
+            41.93807992580442
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3104,
+            4233
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SCHOOL x N. NEWLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7994830872208,
+            41.939931594515855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5241,
+            4233
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SCHOOL x N. NEW ENGLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.79820657942955,
+            41.93994811099609
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3104,
+            8206
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NEWLAND AV. x W. BELMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.79940488299444,
+            41.938108383034795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5241,
+            8206
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NEW ENGLAND AV. x W. BELMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.79815006471158,
+            41.938125633162755
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.041,
+    "dy_m": 0.479
+  }
+}

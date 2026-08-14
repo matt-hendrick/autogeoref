@@ -1,0 +1,160 @@
+{
+  "page": "109",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.27,
+  "auto_residuals_m": [
+    2.49,
+    2.45,
+    4.85,
+    4.75,
+    2.33,
+    2.27
+  ],
+  "inlier_streets": [
+    [
+      "W. 27TH ST.",
+      "SHIELDS"
+    ],
+    [
+      "W. 27TH ST.",
+      "PRINCETON"
+    ],
+    [
+      "W. 28TH PL.",
+      "SHIELDS"
+    ],
+    [
+      "W. 28TH PL.",
+      "PRINCETON"
+    ],
+    [
+      "W. 29TH ST.",
+      "SHIELDS"
+    ],
+    [
+      "W. 29TH ST.",
+      "PRINCETON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            925,
+            357
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 27TH ST. x SHIELDS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63548611926225,
+            41.844037611390185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2883,
+            357
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 27TH ST. x PRINCETON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63427123734967,
+            41.84405748392818
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            925,
+            3634
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 28TH PL. x SHIELDS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63544665636233,
+            41.842580692323956
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2883,
+            3634
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 28TH PL. x PRINCETON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63423275566718,
+            41.84260145603704
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            925,
+            7112
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 29TH ST. x SHIELDS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63540760108194,
+            41.84113447578113
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2883,
+            7112
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 29TH ST. x PRINCETON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63419519821105,
+            41.84115419637078
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": -2.099,
+    "dy_m": 2.362
+  }
+}

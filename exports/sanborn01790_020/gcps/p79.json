@@ -1,0 +1,182 @@
+{
+  "page": "79",
+  "n_streets": 9,
+  "n_candidates": 13,
+  "n_inliers": 7,
+  "rotation_deg": 0.81,
+  "auto_residuals_m": [
+    8.13,
+    4.73,
+    6.88,
+    0.44,
+    7.79,
+    7.96,
+    9.51
+  ],
+  "inlier_streets": [
+    [
+      "W. 25TH PL.",
+      "S. CANAL"
+    ],
+    [
+      "W. 25TH PL.",
+      "STEWART AV."
+    ],
+    [
+      "S. CANAL",
+      "W. 26TH ST."
+    ],
+    [
+      "S. CANAL",
+      "W. 27TH ST."
+    ],
+    [
+      "W. 26TH ST.",
+      "STEWART AV."
+    ],
+    [
+      "W. 26TH ST.",
+      "SHIELDS AV."
+    ],
+    [
+      "W. 27TH ST.",
+      "SHIELDS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            514,
+            2032
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 25TH PL. x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63836215534354,
+            41.84631236127686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3632,
+            2032
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 25TH PL. x STEWART AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63657621829421,
+            41.846354157383
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            514,
+            4211
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CANAL x W. 26TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63833600846138,
+            41.84541891885895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            514,
+            6115
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CANAL x W. 27TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63831307749523,
+            41.8445064505877
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3632,
+            4211
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 26TH ST. x STEWART AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6365550293768,
+            41.84544138941174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5382,
+            4211
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 26TH ST. x SHIELDS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6355022885494,
+            41.84545461892415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5382,
+            7140
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 27TH ST. x SHIELDS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63546720972555,
+            41.844004284619835
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.006,
+    "dy_m": -2.618
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "page": "84",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N. MENARD",
+      "W. MADISON"
+    ],
+    [
+      "N. MAYFIELD (FRANKLIN) AV.",
+      "W. MADISON"
+    ],
+    [
+      "N. (S.) WALLER",
+      "W. MADISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3021,
+            8016
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MENARD x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76975918638793,
+            41.88016659526128
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            274,
+            8016
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAYFIELD (FRANKLIN) AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77139810141522,
+            41.8801400636342
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5413,
+            8016
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. (S.) WALLER x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76812153950834,
+            41.880194667922865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77126253919727,
+            41.88344356294196
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5270,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76837058092646,
+            41.883478629333325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77119412105323,
+            41.880315918369114
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5948,
+    "separation_ratio": 1.295,
+    "best_offset_m": 31.2,
+    "n_junctions": 4
+  }
+}

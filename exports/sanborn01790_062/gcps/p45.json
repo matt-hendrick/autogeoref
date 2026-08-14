@@ -1,0 +1,159 @@
+{
+  "page": "45",
+  "n_streets": 9,
+  "n_candidates": 22,
+  "n_inliers": 6,
+  "rotation_deg": 1.48,
+  "auto_residuals_m": [
+    12.41,
+    6.85,
+    10.66,
+    5.05,
+    3.25,
+    7.74
+  ],
+  "inlier_streets": [
+    [
+      "N. ELSTON AV.",
+      "N. MASON AV."
+    ],
+    [
+      "W. THORNDALE AV.",
+      "N. AUSTIN AV."
+    ],
+    [
+      "W. THORNDALE AV.",
+      "N. MASON AV."
+    ],
+    [
+      "N. AUSTIN AV.",
+      "W. ARDMORE"
+    ],
+    [
+      "N. MASON AV.",
+      "W. ARDMORE"
+    ],
+    [
+      "N. MILWAUKEE AV.",
+      "W. ARDMORE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2398,
+            2041
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELSTON AV. x N. MASON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77663646000673,
+            41.98929867896144
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            327,
+            3674
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. THORNDALE AV. x N. AUSTIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77794647189816,
+            41.98838566204789
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2398,
+            3674
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. THORNDALE AV. x N. MASON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77666674059044,
+            41.98838218012168
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            327,
+            7734
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AUSTIN AV. x W. ARDMORE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77798144516932,
+            41.98655414969874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2398,
+            7734
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MASON AV. x W. ARDMORE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77670691432324,
+            41.9865408365246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            631,
+            7734
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MILWAUKEE AV. x W. ARDMORE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77770108833334,
+            41.98655727102555
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.011,
+    "dy_m": -0.704
+  }
+}

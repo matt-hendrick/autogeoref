@@ -1,0 +1,182 @@
+{
+  "page": "111",
+  "n_streets": 8,
+  "n_candidates": 17,
+  "n_inliers": 7,
+  "rotation_deg": 1.33,
+  "auto_residuals_m": [
+    4.44,
+    6.4,
+    7.17,
+    3.66,
+    9.94,
+    2.69,
+    14.39
+  ],
+  "inlier_streets": [
+    [
+      "W. RANDOLPH",
+      "N. MAY"
+    ],
+    [
+      "W. RANDOLPH",
+      "S. RACINE AV"
+    ],
+    [
+      "W. WASHINGTON BLVD",
+      "N. MAY"
+    ],
+    [
+      "W. WASHINGTON BLVD",
+      "S. RACINE AV"
+    ],
+    [
+      "W. MADISON",
+      "N. MAY"
+    ],
+    [
+      "W. MADISON",
+      "S. RACINE AV"
+    ],
+    [
+      "W. MADISON",
+      "ABERDEEN ST"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2343,
+            687
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. MAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65555706874068,
+            41.88426048416459
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            60,
+            687
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x S. RACINE AV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65668853501829,
+            41.88424029730657
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2343,
+            3466
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD x N. MAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65551855227093,
+            41.88299903321959
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            60,
+            3466
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD x S. RACINE AV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65665302985472,
+            41.88298059524112
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2343,
+            6398
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x N. MAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65547771576212,
+            41.88164401455083
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            60,
+            6398
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. RACINE AV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65663993707737,
+            41.88162194127713
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3469,
+            6398
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x ABERDEEN ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65465370480237,
+            41.881660524938255
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 5.41,
+    "dy_m": -0.393
+  }
+}

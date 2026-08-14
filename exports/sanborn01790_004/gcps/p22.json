@@ -1,0 +1,141 @@
+{
+  "page": "22",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "FILLMORE",
+      "S. HOMAN"
+    ],
+    [
+      "FILLMORE",
+      "S. SPAULDING"
+    ],
+    [
+      "GRENSHAW",
+      "S. HOMAN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            863,
+            4365
+          ],
+          "username": "autogeoref",
+          "note": "auto: FILLMORE x S. HOMAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71060014265913,
+            41.8681673233689
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4924,
+            4365
+          ],
+          "username": "autogeoref",
+          "note": "auto: FILLMORE x S. SPAULDING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70816340689107,
+            41.86819586954448
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            863,
+            6155
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRENSHAW x S. HOMAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71057049615199,
+            41.86730373640934
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71082498060441,
+            41.869737482179396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5154,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70803765494497,
+            41.869776316364316
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71074754335264,
+            41.86665532548895
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5536,
+    "separation_ratio": 1.111,
+    "best_offset_m": 7.2,
+    "n_junctions": 5
+  }
+}

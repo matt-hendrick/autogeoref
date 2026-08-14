@@ -1,0 +1,182 @@
+{
+  "page": "13S",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 0.19,
+  "auto_residuals_m": [
+    6.36,
+    6.43,
+    8.95,
+    7.78,
+    14.53,
+    17.29,
+    16.62
+  ],
+  "inlier_streets": [
+    [
+      "W. RANDOLPH",
+      "N. FRANKLIN"
+    ],
+    [
+      "W. RANDOLPH",
+      "N. WELLS"
+    ],
+    [
+      "W. LAKE",
+      "N. FRANKLIN"
+    ],
+    [
+      "W. LAKE",
+      "N. WELLS"
+    ],
+    [
+      "W. LAKE",
+      "N. POST PL."
+    ],
+    [
+      "W. COUCH PL.",
+      "N. FRANKLIN"
+    ],
+    [
+      "W. COUCH PL.",
+      "N. WELLS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1569,
+            5560
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63537661068156,
+            41.884487532462195
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3940,
+            5560
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63389236913,
+            41.884492193881535
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1569,
+            2587
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63540745842053,
+            41.88575758048367
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3940,
+            2587
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63392749327522,
+            41.88575150978467
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2847,
+            2587
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. POST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63476599149432,
+            41.88575404159688
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1569,
+            3707
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. COUCH PL. x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.635392804633,
+            41.88511711538172
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3940,
+            3707
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. COUCH PL. x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63390992176272,
+            41.8851256683624
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.286,
+    "dy_m": 3.394
+  }
+}

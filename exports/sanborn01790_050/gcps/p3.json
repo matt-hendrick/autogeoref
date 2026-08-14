@@ -1,0 +1,205 @@
+{
+  "page": "3",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 8,
+  "rotation_deg": -0.06,
+  "auto_residuals_m": [
+    3.82,
+    1.92,
+    0.28,
+    2.73,
+    7.03,
+    2.8,
+    1.53,
+    0.24
+  ],
+  "inlier_streets": [
+    [
+      "CARMEN AV.",
+      "N. AUSTIN AV."
+    ],
+    [
+      "CARMEN AV.",
+      "N. MASON AV."
+    ],
+    [
+      "CARMEN AV.",
+      "MARMORA AV."
+    ],
+    [
+      "HIGGINS AV.",
+      "N. MASON AV."
+    ],
+    [
+      "ARGYLE ST.",
+      "N. AUSTIN AV."
+    ],
+    [
+      "N. AUSTIN AV.",
+      "STRONG"
+    ],
+    [
+      "N. MASON AV.",
+      "STRONG"
+    ],
+    [
+      "MARMORA AV.",
+      "STRONG"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            750,
+            285
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x N. AUSTIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.778230606841,
+            41.97391681158436
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2738,
+            285
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x N. MASON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77701380796624,
+            41.973903114690614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4713,
+            285
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x MARMORA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7758040091537,
+            41.97388800779178
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2738,
+            2534
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIGGINS AV. x N. MASON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77703896838403,
+            41.9728362140192
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            750,
+            4105
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARGYLE ST. x N. AUSTIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77826506540096,
+            41.972084643119025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            750,
+            8136
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AUSTIN AV. x STRONG"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77830326291365,
+            41.97029323788094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2738,
+            8136
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MASON AV. x STRONG"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77708987950304,
+            41.97028374466899
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4713,
+            8136
+          ],
+          "username": "autogeoref",
+          "note": "auto: MARMORA AV. x STRONG"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77587809156407,
+            41.9702713970671
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.65,
+    "dy_m": -1.764
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "page": "60",
+  "n_streets": 7,
+  "n_candidates": 18,
+  "n_inliers": 9,
+  "rotation_deg": 0.63,
+  "auto_residuals_m": [
+    1.99,
+    3.43,
+    2.05,
+    2.6,
+    1.97,
+    4.07,
+    2.29,
+    3.15,
+    1.73
+  ],
+  "inlier_streets": [
+    [
+      "LOGAN BLVD",
+      "N. WASHTENAW AV."
+    ],
+    [
+      "LOGAN BLVD",
+      "N. TALMAN AV."
+    ],
+    [
+      "LOGAN BLVD",
+      "N. ROCKWELL"
+    ],
+    [
+      "N. WASHTENAW AV.",
+      "ALTGELD"
+    ],
+    [
+      "N. WASHTENAW AV.",
+      "FULLERTON AV."
+    ],
+    [
+      "ALTGELD",
+      "N. TALMAN AV."
+    ],
+    [
+      "ALTGELD",
+      "N. ROCKWELL"
+    ],
+    [
+      "N. TALMAN AV.",
+      "FULLERTON AV."
+    ],
+    [
+      "N. ROCKWELL",
+      "FULLERTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            926,
+            270
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOGAN BLVD x N. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69511746290614,
+            41.92820943835215
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2920,
+            270
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOGAN BLVD x N. TALMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69389666492295,
+            41.9282185975327
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5066,
+            270
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOGAN BLVD x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69267588004962,
+            41.928228581616516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            926,
+            3754
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WASHTENAW AV. x ALTGELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69506103641113,
+            41.92664750683455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            926,
+            7718
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WASHTENAW AV. x FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69499724789617,
+            41.924826719406994
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2920,
+            3754
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALTGELD x N. TALMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69383904300182,
+            41.92665792086895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5066,
+            3754
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALTGELD x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69261789265882,
+            41.92666590372473
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2920,
+            7718
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. TALMAN AV. x FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69377953694669,
+            41.924838108913654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5066,
+            7718
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROCKWELL x FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69255535852075,
+            41.924849429377524
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.029,
+    "dy_m": -0.76
+  }
+}

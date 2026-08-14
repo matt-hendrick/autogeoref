@@ -1,0 +1,155 @@
+{
+  "page": "5",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.19,
+  "auto_residuals_m": [
+    1.08,
+    0.91,
+    0.55,
+    1.71,
+    1.87,
+    0.03
+  ],
+  "inlier_streets": [
+    [
+      "W. MADISON",
+      "S. DAMEN AV. (S. ROBEY)"
+    ],
+    [
+      "W. MADISON",
+      "S. WOLCOTT AV. (S. LINCOLN)"
+    ],
+    [
+      "S. DAMEN AV. (S. ROBEY)",
+      "W. MONROE"
+    ],
+    [
+      "S. DAMEN AV. (S. ROBEY)",
+      "W. ADAMS"
+    ],
+    [
+      "S. WINCHESTER AV.",
+      "W. ADAMS"
+    ],
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "W. ADAMS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1053,
+            904
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. DAMEN AV. (S. ROBEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67664187142,
+            41.881313862632844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5009,
+            904
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. WOLCOTT AV. (S. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67422526984457,
+            41.88135213178245
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1053,
+            3740
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAMEN AV. (S. ROBEY) x W. MONROE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67661183663571,
+            41.880013145959595
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1053,
+            6519
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAMEN AV. (S. ROBEY) x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6765799695081,
+            41.878745724332
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2990,
+            6519
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WINCHESTER AV. x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67535652044319,
+            41.878759167425365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5009,
+            6519
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6741308380354,
+            41.878780712297456
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

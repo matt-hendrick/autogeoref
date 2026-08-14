@@ -1,0 +1,116 @@
+{
+  "page": "7",
+  "n_streets": 5,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "DEARBORN",
+      "LAKE"
+    ],
+    [
+      "STATE",
+      "LAKE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1593,
+            4734
+          ],
+          "username": "autogeoref",
+          "note": "auto: DEARBORN x LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62949751733571,
+            41.885745411248635
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4390,
+            4734
+          ],
+          "username": "autogeoref",
+          "note": "auto: STATE x LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62794001091379,
+            41.88574881826416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63014841317678,
+            41.887445815774484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5271,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62744652160013,
+            41.887482988455616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.630085991074,
+            41.88493120319712
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

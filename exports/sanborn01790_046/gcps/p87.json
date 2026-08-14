@@ -1,0 +1,145 @@
+{
+  "page": "87",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 83RD ST.",
+      "COMMERCIAL AV."
+    ],
+    [
+      "E. 83RD ST.",
+      "HOUSTON AV."
+    ],
+    [
+      "COMMERCIAL AV.",
+      "E. 85TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            602,
+            202
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 83RD ST. x COMMERCIAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55144459160479,
+            41.74466277671585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2395,
+            202
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 83RD ST. x HOUSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55035151744099,
+            41.74467774244478
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            258,
+            8124
+          ],
+          "username": "autogeoref",
+          "note": "auto: COMMERCIAL AV. x E. 85TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55152350227903,
+            41.74102250425399
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55145273129233,
+            41.74438499986687
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54865850560329,
+            41.74442132593957
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55138132445782,
+            41.74132716903566
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -3.008,
+    "dy_m": 0.536
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7547,
+    "separation_ratio": 1.354,
+    "best_offset_m": 3.4,
+    "n_junctions": 3
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "page": "48",
+  "n_streets": 6,
+  "n_candidates": 12,
+  "n_inliers": 8,
+  "rotation_deg": 1.39,
+  "auto_residuals_m": [
+    1.3,
+    1.48,
+    2.29,
+    2.45,
+    0.98,
+    0.66,
+    0.64,
+    0.79
+  ],
+  "inlier_streets": [
+    [
+      "W. LUNT AV.",
+      "N. WOLCOTT AV. (N. HILLDALE AV.)"
+    ],
+    [
+      "W. LUNT AV.",
+      "N. RAVENSWOOD AV."
+    ],
+    [
+      "W. MORSE AV.",
+      "N. WOLCOTT AV. (N. HILLDALE AV.)"
+    ],
+    [
+      "W. MORSE AV.",
+      "N. RAVENSWOOD AV."
+    ],
+    [
+      "N. WOLCOTT AV. (N. HILLDALE AV.)",
+      "W. FARWELL AV."
+    ],
+    [
+      "N. WOLCOTT AV. (N. HILLDALE AV.)",
+      "W. PRATT BLVD."
+    ],
+    [
+      "N. RAVENSWOOD AV.",
+      "W. FARWELL AV."
+    ],
+    [
+      "N. RAVENSWOOD AV.",
+      "W. PRATT BLVD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1284,
+            283
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LUNT AV. x N. WOLCOTT AV. (N. HILLDALE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67808182602279,
+            42.00892895173904
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4966,
+            283
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LUNT AV. x N. RAVENSWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67582492525304,
+            42.00897045276785
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1284,
+            2859
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MORSE AV. x N. WOLCOTT AV. (N. HILLDALE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6780420095366,
+            42.007717228140855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4966,
+            2859
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MORSE AV. x N. RAVENSWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67578966692322,
+            42.00775659077565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1284,
+            5540
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOLCOTT AV. (N. HILLDALE AV.) x W. FARWELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6779987632856,
+            42.00650220512004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1284,
+            8196
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOLCOTT AV. (N. HILLDALE AV.) x W. PRATT BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67795333104988,
+            42.00527076433081
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4966,
+            5540
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RAVENSWOOD AV. x W. FARWELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67574907818475,
+            42.006540306151045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4966,
+            8196
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RAVENSWOOD AV. x W. PRATT BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67571640148711,
+            42.00531373610094
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.632,
+    "dy_m": 2.414
+  }
+}

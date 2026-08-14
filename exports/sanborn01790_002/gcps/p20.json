@@ -1,0 +1,182 @@
+{
+  "page": "20",
+  "n_streets": 8,
+  "n_candidates": 16,
+  "n_inliers": 7,
+  "rotation_deg": 0.85,
+  "auto_residuals_m": [
+    0.91,
+    0.18,
+    0.11,
+    1.47,
+    0.61,
+    1.29,
+    1.14
+  ],
+  "inlier_streets": [
+    [
+      "W. OAKDALE AVE.",
+      "N. CENTRAL PARK AVE."
+    ],
+    [
+      "W. GEORGE (CARROLL)",
+      "N. CENTRAL PARK AVE."
+    ],
+    [
+      "W. GEORGE (CARROLL)",
+      "N. LAWNDALE AVE. (COOK ST.)"
+    ],
+    [
+      "N. CENTRAL PARK AVE.",
+      "W. WOLFRAM"
+    ],
+    [
+      "N. CENTRAL PARK AVE.",
+      "W. DIVERSEY AVE."
+    ],
+    [
+      "N. LAWNDALE AVE. (COOK ST.)",
+      "W. WOLFRAM"
+    ],
+    [
+      "N. LAWNDALE AVE. (COOK ST.)",
+      "W. DIVERSEY AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5132,
+            2260
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OAKDALE AVE. x N. CENTRAL PARK AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71727966517821,
+            41.934642270414415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5132,
+            4267
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GEORGE (CARROLL) x N. CENTRAL PARK AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71725421373164,
+            41.93372956970435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1220,
+            4267
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GEORGE (CARROLL) x N. LAWNDALE AVE. (COOK ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7196959197371,
+            41.933701236292265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5132,
+            6265
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL PARK AVE. x W. WOLFRAM"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71723036221961,
+            41.932822983602684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5132,
+            8238
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL PARK AVE. x W. DIVERSEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71721192533765,
+            41.93190547585968
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1220,
+            6265
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWNDALE AVE. (COOK ST.) x W. WOLFRAM"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71967473012667,
+            41.93279495219571
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1220,
+            8238
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWNDALE AVE. (COOK ST.) x W. DIVERSEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71965318698437,
+            41.93187479675597
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.879,
+    "dy_m": -0.814
+  }
+}

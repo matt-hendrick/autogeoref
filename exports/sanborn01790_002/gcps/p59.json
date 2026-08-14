@@ -1,0 +1,142 @@
+{
+  "page": "59",
+  "n_streets": 9,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "(GREENWOOD AV.)",
+      "N. CALIFORNIA AV."
+    ],
+    [
+      "(GREENWOOD AV.)",
+      "N. FAIRFIELD AV."
+    ],
+    [
+      "(GREENWOOD AV.)",
+      "N. WASHTENAW AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            4019
+          ],
+          "username": "autogeoref",
+          "note": "auto: (GREENWOOD AV.) x N. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69703486321788,
+            41.910217340769314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2930,
+            4019
+          ],
+          "username": "autogeoref",
+          "note": "auto: (GREENWOOD AV.) x N. FAIRFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69575975225236,
+            41.910230351008074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4833,
+            4019
+          ],
+          "username": "autogeoref",
+          "note": "auto: (GREENWOOD AV.) x N. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69454141006311,
+            41.910242595125204
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69725671752413,
+            41.911684895016414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69452200738856,
+            41.91171060205303
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69720461941063,
+            41.908615574966696
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8441,
+    "separation_ratio": 1.003,
+    "best_offset_m": 25.2,
+    "n_junctions": 4
+  }
+}

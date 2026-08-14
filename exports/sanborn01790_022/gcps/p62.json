@@ -1,0 +1,134 @@
+{
+  "page": "62",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.18,
+  "auto_residuals_m": [
+    1.06,
+    1.04,
+    1.48,
+    0.2,
+    1.26
+  ],
+  "inlier_streets": [
+    [
+      "WABANSIA AV.",
+      "N. GIRARD"
+    ],
+    [
+      "WABANSIA AV.",
+      "N. WOOD"
+    ],
+    [
+      "W. NORTH AV.",
+      "N. GIRARD"
+    ],
+    [
+      "W. NORTH AV.",
+      "N. WOOD"
+    ],
+    [
+      "W. NORTH AV.",
+      "ELK GROVE ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3017,
+            1915
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. GIRARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67384688082718,
+            41.91236405736212
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5024,
+            1915
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67261954159103,
+            41.912382874951994
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3017,
+            5972
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. GIRARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67379939483487,
+            41.91054160791968
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5024,
+            5972
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67257595292126,
+            41.9105613056049
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            952,
+            5972
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x ELK GROVE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67501822734258,
+            41.910524042006585
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

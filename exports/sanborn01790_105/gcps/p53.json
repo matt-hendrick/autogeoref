@@ -1,0 +1,205 @@
+{
+  "page": "53",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": -0.01,
+  "auto_residuals_m": [
+    2.05,
+    2.19,
+    3.01,
+    1.35,
+    0.62,
+    5.65,
+    3.54,
+    7.06
+  ],
+  "inlier_streets": [
+    [
+      "OHIO (W. ONTARIO)",
+      "N. AUSTIN BLVD. (AV.)"
+    ],
+    [
+      "OHIO (W. ONTARIO)",
+      "N. MAYFIELD (N. FRANKLIN AV.)"
+    ],
+    [
+      "RACE (W. OHIO) AV.",
+      "N. AUSTIN BLVD. (AV.)"
+    ],
+    [
+      "RACE (W. OHIO) AV.",
+      "N. MAYFIELD (N. FRANKLIN AV.)"
+    ],
+    [
+      "N. AUSTIN BLVD. (AV.)",
+      "MIDWAY PARK"
+    ],
+    [
+      "N. AUSTIN BLVD. (AV.)",
+      "W. LAKE"
+    ],
+    [
+      "N. MAYFIELD (N. FRANKLIN AV.)",
+      "MIDWAY PARK"
+    ],
+    [
+      "N. MAYFIELD (N. FRANKLIN AV.)",
+      "W. LAKE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            478,
+            225
+          ],
+          "username": "autogeoref",
+          "note": "auto: OHIO (W. ONTARIO) x N. AUSTIN BLVD. (AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77500822227766,
+            41.89102088534695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5485,
+            225
+          ],
+          "username": "autogeoref",
+          "note": "auto: OHIO (W. ONTARIO) x N. MAYFIELD (N. FRANKLIN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77216209755086,
+            41.8910483600445
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            478,
+            2358
+          ],
+          "username": "autogeoref",
+          "note": "auto: RACE (W. OHIO) AV. x N. AUSTIN BLVD. (AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77497595596104,
+            41.89003766971947
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5485,
+            2358
+          ],
+          "username": "autogeoref",
+          "note": "auto: RACE (W. OHIO) AV. x N. MAYFIELD (N. FRANKLIN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7721266357641,
+            41.890066340466205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            478,
+            4713
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AUSTIN BLVD. (AV.) x MIDWAY PARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77494213052294,
+            41.88897532010985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            478,
+            6844
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AUSTIN BLVD. (AV.) x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77491239336874,
+            41.888041357259844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5485,
+            4713
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAYFIELD (N. FRANKLIN AV.) x MIDWAY PARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77208891507506,
+            41.88900268014894
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5485,
+            6844
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAYFIELD (N. FRANKLIN AV.) x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77205128643486,
+            41.88795614746716
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.193,
+    "dy_m": 3.047
+  }
+}

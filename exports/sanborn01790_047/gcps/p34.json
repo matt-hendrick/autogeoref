@@ -1,0 +1,159 @@
+{
+  "page": "34",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 0.95,
+  "auto_residuals_m": [
+    5.95,
+    6.04,
+    11.32,
+    5.36,
+    11.19,
+    5.16
+  ],
+  "inlier_streets": [
+    [
+      "E. 77TH ST.",
+      "S. CRANDON AV."
+    ],
+    [
+      "E. 77TH ST.",
+      "OGLESBY AV."
+    ],
+    [
+      "S. CRANDON AV.",
+      "E. 78TH ST."
+    ],
+    [
+      "S. CRANDON AV.",
+      "E. 79TH ST."
+    ],
+    [
+      "E. 78TH ST.",
+      "OGLESBY AV."
+    ],
+    [
+      "OGLESBY AV.",
+      "E. 79TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3210,
+            313
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 77TH ST. x S. CRANDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56875211221269,
+            41.75535256302472
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5224,
+            313
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 77TH ST. x OGLESBY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56752934453394,
+            41.75536819551351
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3210,
+            4073
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CRANDON AV. x E. 78TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56871475582874,
+            41.753537629074344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3210,
+            8336
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CRANDON AV. x E. 79TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56868055789373,
+            41.75172276277293
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5224,
+            4073
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 78TH ST. x OGLESBY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56749056560743,
+            41.753553618660106
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5224,
+            8336
+          ],
+          "username": "autogeoref",
+          "note": "auto: OGLESBY AV. x E. 79TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.567461422578,
+            41.75173637269345
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.186,
+    "dy_m": 3.268
+  }
+}

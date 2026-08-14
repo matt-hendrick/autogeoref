@@ -1,0 +1,202 @@
+{
+  "page": "10",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.1,
+  "auto_residuals_m": [
+    0.27,
+    0.13,
+    0.38,
+    0.4,
+    0.18,
+    0.89,
+    0.23,
+    0.39
+  ],
+  "inlier_streets": [
+    [
+      "CHICAGO AV.",
+      "N. CLARK"
+    ],
+    [
+      "CHICAGO AV.",
+      "DEARBORN AV."
+    ],
+    [
+      "SUPERIOR",
+      "N. CLARK"
+    ],
+    [
+      "SUPERIOR",
+      "DEARBORN AV."
+    ],
+    [
+      "HURON",
+      "N. CLARK"
+    ],
+    [
+      "HURON",
+      "DEARBORN AV."
+    ],
+    [
+      "ERIE",
+      "N. CLARK"
+    ],
+    [
+      "ERIE",
+      "DEARBORN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1450,
+            522
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHICAGO AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63124523382669,
+            41.896635642289006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4121,
+            522
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHICAGO AV. x DEARBORN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62977463924095,
+            41.89665552388941
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1450,
+            2756
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUPERIOR x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63122297962663,
+            41.89563466215166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4121,
+            2756
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUPERIOR x DEARBORN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62975407967723,
+            41.895657011076715
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1450,
+            4557
+          ],
+          "username": "autogeoref",
+          "note": "auto: HURON x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63120289535563,
+            41.89483298592323
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4121,
+            4557
+          ],
+          "username": "autogeoref",
+          "note": "auto: HURON x DEARBORN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62972431984149,
+            41.894854093395864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1450,
+            6358
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63118688953571,
+            41.89403143633021
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4121,
+            6358
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x DEARBORN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6297170779742,
+            41.89405214644895
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

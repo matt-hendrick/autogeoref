@@ -1,0 +1,202 @@
+{
+  "page": "57",
+  "n_streets": 10,
+  "n_candidates": 10,
+  "n_inliers": 8,
+  "rotation_deg": 1.03,
+  "auto_residuals_m": [
+    3.12,
+    1.32,
+    3.02,
+    2.35,
+    3.32,
+    9.72,
+    9.09,
+    18.94
+  ],
+  "inlier_streets": [
+    [
+      "HARTLAND CT.",
+      "W. GRAND AV."
+    ],
+    [
+      "W. GRAND AV.",
+      "N. WOOD"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. PAULINA"
+    ],
+    [
+      "FERDINAND ST.",
+      "N. WOOD"
+    ],
+    [
+      "FERDINAND ST.",
+      "N. PAULINA"
+    ],
+    [
+      "N. WOOD",
+      "W. KINZIE"
+    ],
+    [
+      "N. PAULINA",
+      "W. KINZIE"
+    ],
+    [
+      "N. HERMITAGE AV.",
+      "W. KINZIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2380,
+            2572
+          ],
+          "username": "autogeoref",
+          "note": "auto: HARTLAND CT. x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67121208380888,
+            41.89091776886644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            897,
+            2572
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67202202599948,
+            41.890903482066236
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5180,
+            2572
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66957781350746,
+            41.890943607979025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            897,
+            3359
+          ],
+          "username": "autogeoref",
+          "note": "auto: FERDINAND ST. x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67200987486585,
+            41.89052627028498
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5180,
+            3359
+          ],
+          "username": "autogeoref",
+          "note": "auto: FERDINAND ST. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66956606971559,
+            41.8905516754665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            897,
+            7203
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOOD x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67196076780066,
+            41.88879978794359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5180,
+            7203
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66952238766642,
+            41.88883691867402
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2599,
+            7203
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HERMITAGE AV. x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67073731889664,
+            41.888827511403285
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

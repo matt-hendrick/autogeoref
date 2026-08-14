@@ -1,0 +1,120 @@
+{
+  "page": "0b",
+  "n_streets": 49,
+  "n_candidates": 297,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "PRINCETON AV.",
+      "W. 38 TH."
+    ],
+    [
+      "PRINCETON AV.",
+      "E. 38 TH."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1179,
+            6536
+          ],
+          "username": "autogeoref",
+          "note": "auto: PRINCETON AV. x W. 38 TH."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63380002133675,
+            41.8251218713032
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1179,
+            6096
+          ],
+          "username": "autogeoref",
+          "note": "auto: PRINCETON AV. x E. 38 TH."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63380840790684,
+            41.825396487324454
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63422050432231,
+            41.82777615825125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5269,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63138250657464,
+            41.827811512169
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63416115323862,
+            41.82513068932049
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5874,
+    "separation_ratio": 1.054,
+    "best_offset_m": 39.0,
+    "n_junctions": 9
+  }
+}

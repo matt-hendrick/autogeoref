@@ -1,0 +1,233 @@
+{
+  "page": "49",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 7,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. GRAND AV.",
+      "N. MARMORA AV."
+    ],
+    [
+      "N. AUSTIN AV.",
+      "W. DICKENS AV."
+    ],
+    [
+      "N. MASON AV.",
+      "W. DICKENS AV."
+    ],
+    [
+      "N. MARMORA AV.",
+      "W. DICKENS AV."
+    ],
+    [
+      "RR ELGIN SUBDIVISION",
+      "N. AUSTIN AV."
+    ],
+    [
+      "RR ELGIN SUBDIVISION",
+      "N. AUSTIN AV."
+    ],
+    [
+      "RR ELGIN SUBDIVISION",
+      "N. AUSTIN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4348,
+            583
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. MARMORA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77315704518864,
+            41.92014139418726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            483,
+            5451
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AUSTIN AV. x W. DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77551868410434,
+            41.9179440903567
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2445,
+            5451
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MASON AV. x W. DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77430277247039,
+            41.91796140728081
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4348,
+            5451
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MARMORA AV. x W. DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77308047968877,
+            41.91797945571296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            483,
+            8383
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR ELGIN SUBDIVISION x N. AUSTIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77547167145747,
+            41.91654667972123
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            483,
+            8383
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR ELGIN SUBDIVISION x N. AUSTIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77547424428668,
+            41.916622915648546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            483,
+            8383
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR ELGIN SUBDIVISION x N. AUSTIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77547299006824,
+            41.916585752022335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77549029920041,
+            41.92004832150804
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5235,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77261203638469,
+            41.920085549443314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77541715584061,
+            41.91691731732532
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -0.383,
+    "dy_m": 5.012
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6796,
+    "separation_ratio": 1.283,
+    "best_offset_m": 8.0,
+    "n_junctions": 13
+  }
+}

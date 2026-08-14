@@ -1,0 +1,180 @@
+{
+  "page": "131",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "rotation_deg": 0.91,
+  "auto_residuals_m": [
+    2.48,
+    1.73,
+    0.95,
+    0.29,
+    1.77,
+    0.95,
+    1.16
+  ],
+  "inlier_streets": [
+    [
+      "E. 37TH PL.",
+      "S. MICHIGAN AV. (BOULEVARD)"
+    ],
+    [
+      "E. 37TH PL.",
+      "INDIANA AV."
+    ],
+    [
+      "E. 38TH ST.",
+      "INDIANA AV."
+    ],
+    [
+      "E. 38TH ST.",
+      "PRAIRIE AV."
+    ],
+    [
+      "E. 39TH ST.",
+      "S. MICHIGAN AV. (BOULEVARD)"
+    ],
+    [
+      "E. 39TH ST.",
+      "INDIANA AV."
+    ],
+    [
+      "E. 39TH ST.",
+      "PRAIRIE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            767
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 37TH PL. x S. MICHIGAN AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62314344894865,
+            41.826491789790154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3088,
+            767
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 37TH PL. x INDIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62166065647074,
+            41.826507634956855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3088,
+            2773
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 38TH ST. x INDIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62164213075228,
+            41.82559815184017
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5069,
+            2773
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 38TH ST. x PRAIRIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6204309024888,
+            41.82561048557226
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6786
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 39TH ST. x S. MICHIGAN AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62314672394419,
+            41.82375582186965
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3088,
+            6786
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 39TH ST. x INDIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.621601977331,
+            41.82377526662078
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5069,
+            6786
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 39TH ST. x PRAIRIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6203953593824,
+            41.823790266119566
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

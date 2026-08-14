@@ -1,0 +1,204 @@
+{
+  "page": "30S",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. WASHINGTON",
+      "N. WELLS"
+    ],
+    [
+      "W. WASHINGTON",
+      "S. WELLS"
+    ],
+    [
+      "N. WELLS",
+      "W. CALHOUN PL."
+    ],
+    [
+      "N. WELLS",
+      "W. MADISON"
+    ],
+    [
+      "W. CALHOUN PL.",
+      "S. WELLS"
+    ],
+    [
+      "S. WELLS",
+      "W. MADISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1704,
+            2288
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63386005681508,
+            41.8832099119193
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1704,
+            2288
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON x S. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63386005681508,
+            41.8832099119193
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1704,
+            3659
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS x W. CALHOUN PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63384831991071,
+            41.88258243264363
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1704,
+            5056
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63382427570993,
+            41.88194570241048
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1704,
+            3659
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CALHOUN PL. x S. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63384831991071,
+            41.88258243264363
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1704,
+            5056
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WELLS x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63382427570993,
+            41.88194570241048
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63455093976472,
+            41.88390352460122
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5242,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63171367551688,
+            41.88393140489371
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63450385920896,
+            41.8812478102105
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

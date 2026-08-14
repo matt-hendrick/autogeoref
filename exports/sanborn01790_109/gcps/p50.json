@@ -1,0 +1,182 @@
+{
+  "page": "50",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 1.6,
+  "auto_residuals_m": [
+    1.24,
+    5.94,
+    5.96,
+    12.7,
+    7.33,
+    12.95,
+    7.21
+  ],
+  "inlier_streets": [
+    [
+      "W. 37TH PL.",
+      "S. CALIFORNIA AV."
+    ],
+    [
+      "W. 38TH ST.",
+      "S. CALIFORNIA AV."
+    ],
+    [
+      "W. 38TH ST.",
+      "S. FRANCISCO AV."
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. 38TH PL."
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. PERSHING (W. 39TH ST.) ROAD"
+    ],
+    [
+      "S. FRANCISCO AV.",
+      "W. 38TH PL."
+    ],
+    [
+      "S. FRANCISCO AV.",
+      "W. PERSHING (W. 39TH ST.) ROAD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4688,
+            2177
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH PL. x S. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69469881698126,
+            41.825503650809175
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4688,
+            3986
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x S. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69467124778392,
+            41.824596186822525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            838,
+            3986
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x S. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69711327691233,
+            41.82454539409159
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4688,
+            6163
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. 38TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69464248299845,
+            41.82368117065774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4688,
+            7794
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. PERSHING (W. 39TH ST.) ROAD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69463676307439,
+            41.822768516325084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            838,
+            6163
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x W. 38TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69709070994811,
+            41.823631980067496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            838,
+            7794
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x W. PERSHING (W. 39TH ST.) ROAD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69709779664284,
+            41.82271964097793
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.061,
+    "dy_m": -2.647
+  }
+}

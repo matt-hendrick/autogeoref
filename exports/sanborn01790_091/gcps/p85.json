@@ -1,0 +1,115 @@
+{
+  "page": "85",
+  "n_streets": 13,
+  "n_candidates": 11,
+  "n_inliers": 4,
+  "rotation_deg": 1.62,
+  "auto_residuals_m": [
+    0.7,
+    2.41,
+    0.71,
+    2.36
+  ],
+  "inlier_streets": [
+    [
+      "W. BEACH AV. (BRIGHAM)",
+      "N. WOOD"
+    ],
+    [
+      "W. BEACH AV. (BRIGHAM)",
+      "N. PAULINA"
+    ],
+    [
+      "N. WOOD",
+      "ELLEN"
+    ],
+    [
+      "N. PAULINA",
+      "BLACKHAWK ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            930,
+            1517
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BEACH AV. (BRIGHAM) x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67245921488883,
+            41.907543007933896
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4930,
+            1517
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BEACH AV. (BRIGHAM) x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67001287046442,
+            41.90757358421058
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            930,
+            5922
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOOD x ELLEN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67238581815543,
+            41.905548086750585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4930,
+            2879
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x BLACKHAWK ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66999369330713,
+            41.90699149880611
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 3.926,
+    "dy_m": -0.094
+  }
+}

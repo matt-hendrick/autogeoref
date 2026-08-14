@@ -1,0 +1,142 @@
+{
+  "page": "28",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "ERIE",
+      "FAIRBANKS CT"
+    ],
+    [
+      "ONTARIO",
+      "FAIRBANKS CT"
+    ],
+    [
+      "OHIO",
+      "FAIRBANKS CT"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            369,
+            938
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x FAIRBANKS CT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62029290821054,
+            41.89420132011437
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            369,
+            2668
+          ],
+          "username": "autogeoref",
+          "note": "auto: ONTARIO x FAIRBANKS CT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6202754122297,
+            41.89340630295016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            369,
+            4431
+          ],
+          "username": "autogeoref",
+          "note": "auto: OHIO x FAIRBANKS CT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62025472568433,
+            41.89259896290238
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62016774562761,
+            41.89428863748179
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5224,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61734963673767,
+            41.89432673631023
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62010421986075,
+            41.89168493127582
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6031,
+    "separation_ratio": 1.001,
+    "best_offset_m": 17.8,
+    "n_junctions": 11
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "page": "128",
+  "n_streets": 9,
+  "n_candidates": 10,
+  "n_inliers": 4,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "WARNER AV.",
+      "SOUTHPORT AV."
+    ],
+    [
+      "SOUTHPORT AV.",
+      "BELLE PLAINE AV."
+    ],
+    [
+      "SOUTHPORT AV.",
+      "CUYLER AV."
+    ],
+    [
+      "SOUTHPORT AV.",
+      "IRVING PARK B'L'V'D"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2651,
+            2339
+          ],
+          "username": "autogeoref",
+          "note": "auto: WARNER AV. x SOUTHPORT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66428983062457,
+            41.95709771732307
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2651,
+            4422
+          ],
+          "username": "autogeoref",
+          "note": "auto: SOUTHPORT AV. x BELLE PLAINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66426212072909,
+            41.956186718875685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2651,
+            6548
+          ],
+          "username": "autogeoref",
+          "note": "auto: SOUTHPORT AV. x CUYLER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66423558581353,
+            41.955275849793495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2651,
+            8313
+          ],
+          "username": "autogeoref",
+          "note": "auto: SOUTHPORT AV. x IRVING PARK B'L'V'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66421530893221,
+            41.95435489995687
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6655635778749,
+            41.957766917452844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5207,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66275323419944,
+            41.95780813981743
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66548210437372,
+            41.954695235796855
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7775,
+    "separation_ratio": 1.72,
+    "best_offset_m": 4.4,
+    "n_junctions": 10
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5"
+      ],
+      "consensus_numerals": 13,
+      "votable": 6,
+      "in_block": 6,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 5.4,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 5.4,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 5.4,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 5.3,
+          "addr_diff": 0.0
+        },
+        {
+          "perp_m": 5.3,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 18.5,
+          "addr_diff": 1.5
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

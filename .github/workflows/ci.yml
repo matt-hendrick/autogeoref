@@ -1,0 +1,76 @@
+# Fast-suite CI: lint + strict typing + every test that does not need the
+# frozen fixture tree or GDAL binaries, measured with coverage against the
+# ratchet floor in the coverage-fast target. The golden/gdal suites validate
+# against ~650 MB of gitignored fixtures (see FIXTURES.md) and run on the
+# development machine (`pytest -q` there runs everything); when fixtures are
+# absent those tests skip — the tracked FIXTURE-SHA256SUMS manifest and
+# tests/test_fixture_integrity.py make that skip loud and drift a failure.
+# CI coverage is a floor, not the truth: `make coverage` there measures the
+# full suite.
+
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      # --locked fails the build if uv.lock has drifted from pyproject.toml,
+      # so "what CI installs" is always the committed lockfile — the same set
+      # a dev syncs locally (see README Setup). No second hand-maintained
+      # extras list to fall out of step.
+      - name: Set up environment
+        run: uv sync --locked --all-extras --python 3.12
+      # `make lint` runs the frontend linter, which is npm-installed. Dev-only:
+      # nothing here enters the deploy bundle, which is still file copies.
+      # `npm ci` fails rather than resolving, so the lockfile is what runs.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Set up the frontend linter
+        run: make setup-js
+      - name: Lint and typecheck
+        run: make lint typecheck
+      - name: Fast suite with coverage floor
+        run: make coverage-fast
+      # always(): a floor breach still ships the report that explains it
+      - name: Upload coverage reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage
+          path: |
+            coverage.xml
+            htmlcov
+
+  # A malformed CITATION.cff renders a broken "Cite this repository" button,
+  # which is worse than no button at all, and nothing about the file's own
+  # validity is visible in a diff. tests/test_release_metadata.py checks the
+  # fields the repository depends on; this checks the file against the CFF
+  # schema, which is the part a local test cannot do without a second parser.
+  citation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: citation-file-format/cffconvert-github-action@2.0.0
+        with:
+          args: "--validate"
+
+  # The test job runs from an editable environment, so it cannot catch a wheel
+  # that drops packaged UI assets or the console entry point. This job proves
+  # the distribution contract pyproject.toml already declares: build the wheel,
+  # inspect metadata/resources, install into a fresh venv, run the console
+  # script and load each packaged resource. Internal contract only — no
+  # publishing commitment.
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Wheel build and installed-package smoke
+        run: make package-smoke

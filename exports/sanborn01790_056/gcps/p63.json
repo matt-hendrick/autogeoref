@@ -1,0 +1,123 @@
+{
+  "page": "63",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 99TH ST.",
+      "S. THROOP"
+    ],
+    [
+      "S. WINSTON",
+      "W. 100TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4324,
+            147
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 99TH ST. x S. THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65518743285746,
+            41.714050776034405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2402,
+            6017
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WINSTON x W. 100TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65622129616295,
+            41.7113649699111
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6574522180585,
+            41.71371423686402
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5224,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65457935005175,
+            41.713754597061246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65737299862936,
+            41.710571994416945
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -1.576,
+    "dy_m": -1.284
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7227,
+    "separation_ratio": 1.091,
+    "best_offset_m": 40.7,
+    "n_junctions": 4
+  }
+}

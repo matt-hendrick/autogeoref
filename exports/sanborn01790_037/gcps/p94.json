@@ -1,0 +1,161 @@
+{
+  "page": "94",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 0.84,
+  "auto_residuals_m": [
+    0.39,
+    0.76,
+    1.11,
+    1.41,
+    0.71,
+    0.7
+  ],
+  "inlier_streets": [
+    [
+      "WEST END AV.",
+      "S. 47TH AV."
+    ],
+    [
+      "WEST END AV.",
+      "S. 46TH AV."
+    ],
+    [
+      "WASHINGTON B'L'V'D",
+      "S. 47TH AV."
+    ],
+    [
+      "WASHINGTON B'L'V'D",
+      "S. 46TH AV."
+    ],
+    [
+      "W. MADISON",
+      "S. 47TH AV."
+    ],
+    [
+      "W. MADISON",
+      "S. 46TH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            806,
+            2817
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x S. 47TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74292272798819,
+            41.88314687321872
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5387,
+            2817
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x S. 46TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7401821460947,
+            41.88317507912379
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            806,
+            5494
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON B'L'V'D x S. 47TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74287410635158,
+            41.88183167481428
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5387,
+            5494
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON B'L'V'D x S. 46TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74014781102541,
+            41.8818609268178
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            806,
+            8136
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. 47TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74283074579763,
+            41.88051178934649
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5387,
+            8136
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. 46TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74008752721437,
+            41.88054368295784
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -0.077,
+    "dy_m": -2.085
+  }
+}

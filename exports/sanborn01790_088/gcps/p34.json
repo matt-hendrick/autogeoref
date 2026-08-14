@@ -1,0 +1,228 @@
+{
+  "page": "34",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 9,
+  "rotation_deg": 1.2,
+  "auto_residuals_m": [
+    0.64,
+    0.69,
+    0.64,
+    0.72,
+    0.68,
+    0.72,
+    0.02,
+    0.14,
+    0.15
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV. BLVD.",
+      "N. STATE PKWY."
+    ],
+    [
+      "W. NORTH AV. BLVD.",
+      "N. ASTOR"
+    ],
+    [
+      "W. NORTH AV. BLVD.",
+      "N. STATE"
+    ],
+    [
+      "E. NORTH AV. BLVD.",
+      "N. STATE PKWY."
+    ],
+    [
+      "E. NORTH AV. BLVD.",
+      "N. ASTOR"
+    ],
+    [
+      "E. NORTH AV. BLVD.",
+      "N. STATE"
+    ],
+    [
+      "N. STATE PKWY.",
+      "W. BURTON PL."
+    ],
+    [
+      "N. ASTOR",
+      "W. BURTON PL."
+    ],
+    [
+      "W. BURTON PL.",
+      "N. STATE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            705,
+            1790
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. BLVD. x N. STATE PKWY."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62885483940511,
+            41.91122843515222
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2710,
+            1790
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. BLVD. x N. ASTOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62763229414547,
+            41.91124772474923
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            707,
+            1790
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. BLVD. x N. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62885483940511,
+            41.91122843515222
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            705,
+            1770
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. NORTH AV. BLVD. x N. STATE PKWY."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62885483940511,
+            41.91122843515222
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2710,
+            1770
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. NORTH AV. BLVD. x N. ASTOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62763229414547,
+            41.91124772474923
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            707,
+            1770
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. NORTH AV. BLVD. x N. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62885483940511,
+            41.91122843515222
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            705,
+            5642
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. STATE PKWY. x W. BURTON PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62880061663905,
+            41.909486986750146
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2710,
+            5642
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASTOR x W. BURTON PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62757532326633,
+            41.909505402462045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            707,
+            5642
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BURTON PL. x N. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62880061663905,
+            41.909486986750146
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.427,
+    "dy_m": 0.812
+  }
+}

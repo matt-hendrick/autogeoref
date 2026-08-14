@@ -1,0 +1,184 @@
+{
+  "page": "61",
+  "n_streets": 9,
+  "n_candidates": 14,
+  "n_inliers": 7,
+  "rotation_deg": 0.71,
+  "auto_residuals_m": [
+    2.32,
+    3.12,
+    1.54,
+    5.6,
+    1.59,
+    4.8,
+    1.86
+  ],
+  "inlier_streets": [
+    [
+      "N. 51ST AV.",
+      "W. INDIANA"
+    ],
+    [
+      "N. 51ST AV.",
+      "W. KINZIE"
+    ],
+    [
+      "W. INDIANA AV.",
+      "N. 50TH AV."
+    ],
+    [
+      "W. INDIANA",
+      "N. 50TH CT."
+    ],
+    [
+      "W. INDIANA",
+      "N. 50TH AV."
+    ],
+    [
+      "N. 50TH CT.",
+      "W. KINZIE"
+    ],
+    [
+      "N. 50TH AV.",
+      "W. KINZIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            833,
+            4618
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 51ST AV. x W. INDIANA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75296826597564,
+            41.88933299004045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            833,
+            7896
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 51ST AV. x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75291483516655,
+            41.88784407375611
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4888,
+            4241
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. INDIANA AV. x N. 50TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75052734488264,
+            41.88952555266571
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2749,
+            4618
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. INDIANA x N. 50TH CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75174386257,
+            41.88934528971735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4888,
+            4618
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. INDIANA x N. 50TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75052092761388,
+            41.88935655661962
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2749,
+            7896
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 50TH CT. x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75169074567975,
+            41.88785971890525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4888,
+            7896
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 50TH AV. x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75046284537379,
+            41.88786724244694
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -2.2,
+    "dy_m": 0.236
+  }
+}

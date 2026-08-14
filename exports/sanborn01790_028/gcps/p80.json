@@ -1,0 +1,136 @@
+{
+  "page": "80",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "rotation_deg": 1.23,
+  "auto_residuals_m": [
+    2.48,
+    1.62,
+    0.44,
+    6.44,
+    2.25
+  ],
+  "inlier_streets": [
+    [
+      "W. OHIO",
+      "N. CAMPBELL AV."
+    ],
+    [
+      "W. OHIO",
+      "N. ARTESIAN AV."
+    ],
+    [
+      "W. OHIO",
+      "N. WESTERN AV."
+    ],
+    [
+      "W. GRAND AV.",
+      "N. ARTESIAN AV."
+    ],
+    [
+      "N. WESTERN AV.",
+      "W. KINZIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            951,
+            258
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. CAMPBELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68917815398218,
+            41.89210754405168
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2904,
+            258
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. ARTESIAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6879535177355,
+            41.89212169784025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4832,
+            258
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6867288295269,
+            41.892132359127025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2904,
+            2906
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. ARTESIAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68791789804105,
+            41.89087081868571
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4832,
+            7970
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68661294473235,
+            41.88865736562679
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.055,
+    "dy_m": 3.354
+  }
+}

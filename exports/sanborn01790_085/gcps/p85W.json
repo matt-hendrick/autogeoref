@@ -1,0 +1,109 @@
+{
+  "page": "85W",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 0.74,
+  "auto_residuals_m": [
+    0.1,
+    0.13,
+    0.1,
+    0.11
+  ],
+  "inlier_streets": [
+    [
+      "W. ADAMS",
+      "S. DESPLAINES"
+    ],
+    [
+      "W. ADAMS",
+      "S. JEFFERSON"
+    ],
+    [
+      "S. DESPLAINES",
+      "W. JACKSON BLVD"
+    ],
+    [
+      "S. JEFFERSON",
+      "W. JACKSON BLVD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1761,
+            886
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64404179026305,
+            41.879258374460925
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4194,
+            886
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64257716392912,
+            41.87927354816094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1761,
+            3668
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DESPLAINES x W. JACKSON BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64400300375502,
+            41.877988021851365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4194,
+            3668
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. JEFFERSON x W. JACKSON BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64253573739705,
+            41.87800107027077
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

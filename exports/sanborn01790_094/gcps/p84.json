@@ -1,0 +1,161 @@
+{
+  "page": "84",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 6,
+  "rotation_deg": 1.27,
+  "auto_residuals_m": [
+    5.85,
+    8.5,
+    11.94,
+    1.49,
+    12.01,
+    11.96
+  ],
+  "inlier_streets": [
+    [
+      "W. 21ST ST.",
+      "S. HALSTED"
+    ],
+    [
+      "W. 21ST ST.",
+      "S. HALSTED"
+    ],
+    [
+      "W. 21ST ST.",
+      "S. UNION AV. (S. UNION)"
+    ],
+    [
+      "S. HALSTED",
+      "W. 21ST PL."
+    ],
+    [
+      "S. HALSTED",
+      "W. CERMAK RD. (W. 22ND ST.)"
+    ],
+    [
+      "S. UNION AV. (S. UNION)",
+      "W. CERMAK RD. (W. 22ND ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1726,
+            3669
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64651437047671,
+            41.85394318534928
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1726,
+            3188
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6465220062965,
+            41.85419441309201
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4759,
+            3188
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. UNION AV. (S. UNION)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6443721898216,
+            41.85421768273042
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1726,
+            4784
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64650083306287,
+            41.853446586291234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1726,
+            6567
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. CERMAK RD. (W. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64647981920668,
+            41.852639639163364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4759,
+            6567
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. UNION AV. (S. UNION) x W. CERMAK RD. (W. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64472616699872,
+            41.85266074689928
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 1.733,
+    "dy_m": -1.028
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "page": "13",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "WRIGHTWOOD AVE",
+      "ORCHARD"
+    ],
+    [
+      "DEMING CT.",
+      "ORCHARD"
+    ],
+    [
+      "FULLERTON (BOULEVARD) AVE.",
+      "ORCHARD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            891,
+            83
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE x ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64645749902324,
+            41.92910870229122
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            891,
+            2966
+          ],
+          "username": "autogeoref",
+          "note": "auto: DEMING CT. x ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64641421471151,
+            41.92785713120099
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            891,
+            8096
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON (BOULEVARD) AVE. x ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64633630227519,
+            41.92549325162828
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64664523059663,
+            41.92879646776494
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6439412152786,
+            41.92883649514182
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64656408898685,
+            41.92576241275362
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 1 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

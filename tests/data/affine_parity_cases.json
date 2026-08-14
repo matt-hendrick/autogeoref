@@ -1,0 +1,64 @@
+{
+  "_comment": "Shared cases for the review UI's JS affine against review/materialize.py. The JS is display only, so a divergence puts the ghost where the server will not put the sheet and the operator reads that as correct. Coordinates are EPSG:3857 metres, deliberately far from the origin: an order-of-composition error is largest there and a near-origin case would pass.",
+  "base": [
+    [2000000.0, 1.25, -0.31],
+    [-4000000.0, 0.29, -1.18]
+  ],
+  "points": [[0.0, 0.0], [1.0, 1.0], [4096.0, 7331.0], [-250.5, 9000.25]],
+  "cases": [
+    {
+      "name": "no ops at all",
+      "ops": []
+    },
+    {
+      "name": "translate",
+      "ops": [{"type": "translate", "dx_m": 137.5, "dy_m": -42.25}]
+    },
+    {
+      "name": "scale about a centre far from the origin",
+      "ops": [{"type": "scale", "factor": 1.0625, "center_3857": [2000000.0, -4000000.0]}]
+    },
+    {
+      "name": "scale down",
+      "ops": [{"type": "scale", "factor": 0.4, "center_3857": [1999000.0, -4001000.0]}]
+    },
+    {
+      "name": "rotate about the origin",
+      "ops": [{"type": "rotate", "deg": 17.5, "center_3857": [0.0, 0.0]}]
+    },
+    {
+      "name": "rotate about a centre far from the origin",
+      "ops": [{"type": "rotate", "deg": -33.75, "center_3857": [2000000.0, -4000000.0]}]
+    },
+    {
+      "name": "rotate a whole turn",
+      "ops": [{"type": "rotate", "deg": 360.0, "center_3857": [2000000.0, -4000000.0]}]
+    },
+    {
+      "name": "all three composed, order matters",
+      "ops": [
+        {"type": "translate", "dx_m": -80.0, "dy_m": 15.5},
+        {"type": "rotate", "deg": 12.0, "center_3857": [2000500.0, -3999500.0]},
+        {"type": "scale", "factor": 1.15, "center_3857": [2001000.0, -4002000.0]}
+      ]
+    },
+    {
+      "name": "the same three in the other order",
+      "ops": [
+        {"type": "scale", "factor": 1.15, "center_3857": [2001000.0, -4002000.0]},
+        {"type": "rotate", "deg": 12.0, "center_3857": [2000500.0, -3999500.0]},
+        {"type": "translate", "dx_m": -80.0, "dy_m": 15.5}
+      ]
+    },
+    {
+      "name": "a nudge chain, as the arrow keys log it",
+      "ops": [
+        {"type": "translate", "dx_m": 1.0, "dy_m": 0.0},
+        {"type": "translate", "dx_m": 1.0, "dy_m": 0.0},
+        {"type": "translate", "dx_m": 0.0, "dy_m": -1.0},
+        {"type": "rotate", "deg": 0.2, "center_3857": [2000000.0, -4000000.0]},
+        {"type": "rotate", "deg": 0.2, "center_3857": [2000000.0, -4000000.0]}
+      ]
+    }
+  ]
+}

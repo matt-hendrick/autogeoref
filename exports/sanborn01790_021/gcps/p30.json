@@ -1,0 +1,109 @@
+{
+  "page": "30",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.85,
+  "auto_residuals_m": [
+    0.09,
+    0.07,
+    0.08,
+    0.1
+  ],
+  "inlier_streets": [
+    [
+      "W. 33RD ST.",
+      "S. LEAVITT"
+    ],
+    [
+      "W. 33RD ST.",
+      "S. HAMILTON AV."
+    ],
+    [
+      "W. 34TH ST.",
+      "S. LEAVITT"
+    ],
+    [
+      "W. 34TH ST.",
+      "S. HAMILTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2433,
+            2818
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68027073637889,
+            41.83396435868498
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4421,
+            2818
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x S. HAMILTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67905699665465,
+            41.833977789332614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2433,
+            6869
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 34TH ST. x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68021701033295,
+            41.832150957632976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4421,
+            6869
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 34TH ST. x S. HAMILTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67900034999958,
+            41.832164526453944
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

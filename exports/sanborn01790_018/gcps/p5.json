@@ -1,0 +1,202 @@
+{
+  "page": "5",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.0,
+  "auto_residuals_m": [
+    2.64,
+    1.81,
+    2.63,
+    2.02,
+    1.52,
+    1.4,
+    1.7,
+    1.91
+  ],
+  "inlier_streets": [
+    [
+      "CHICAGO AV.",
+      "SEDGWICK"
+    ],
+    [
+      "CHICAGO AV.",
+      "ORLEANS"
+    ],
+    [
+      "SUPERIOR",
+      "SEDGWICK"
+    ],
+    [
+      "SUPERIOR",
+      "ORLEANS"
+    ],
+    [
+      "HURON",
+      "SEDGWICK"
+    ],
+    [
+      "HURON",
+      "ORLEANS"
+    ],
+    [
+      "ERIE",
+      "SEDGWICK"
+    ],
+    [
+      "ERIE",
+      "ORLEANS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1158,
+            612
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHICAGO AV. x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63862274841978,
+            41.89653240290174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3547,
+            612
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHICAGO AV. x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63717150514562,
+            41.896551274034394
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1158,
+            2828
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUPERIOR x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6385563782902,
+            41.89553477646992
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3547,
+            2828
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUPERIOR x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63714756748934,
+            41.89555399379546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1158,
+            4557
+          ],
+          "username": "autogeoref",
+          "note": "auto: HURON x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63854141528272,
+            41.894733982248724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3547,
+            4557
+          ],
+          "username": "autogeoref",
+          "note": "auto: HURON x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63712620471672,
+            41.89475249184921
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1158,
+            6250
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63852721673027,
+            41.89393353694281
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3547,
+            6250
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63710322909901,
+            41.89395086502708
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

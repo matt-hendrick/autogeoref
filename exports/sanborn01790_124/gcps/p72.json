@@ -1,0 +1,159 @@
+{
+  "page": "72",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.27,
+  "auto_residuals_m": [
+    0.03,
+    0.1,
+    0.11,
+    0.1,
+    0.18,
+    0.03
+  ],
+  "inlier_streets": [
+    [
+      "W. ARTHUR AV.",
+      "N. OAKLEY AV."
+    ],
+    [
+      "W. ARTHUR AV.",
+      "N. BELL AV."
+    ],
+    [
+      "W. ARTHUR AV.",
+      "N. LEAVITT"
+    ],
+    [
+      "N. OAKLEY AV.",
+      "W. DEVON AV."
+    ],
+    [
+      "N. BELL AV.",
+      "W. DEVON AV."
+    ],
+    [
+      "N. LEAVITT",
+      "W. DEVON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            829,
+            4022
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARTHUR AV. x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6875235701261,
+            41.99958630957805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2723,
+            4022
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARTHUR AV. x N. BELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68630694930931,
+            41.99960632981876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4622,
+            4022
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARTHUR AV. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68508949314838,
+            41.99962593728177
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            829,
+            7756
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. x W. DEVON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68747402019709,
+            41.99777298017325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2723,
+            7756
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BELL AV. x W. DEVON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68625687964004,
+            41.99779454940009
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4622,
+            7756
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x W. DEVON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68503810450817,
+            41.99781340086883
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.065,
+    "dy_m": 0.081
+  }
+}

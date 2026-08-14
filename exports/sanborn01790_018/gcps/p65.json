@@ -1,0 +1,141 @@
+{
+  "page": "65",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. LAKE",
+      "N. HALSTED"
+    ],
+    [
+      "W. LAKE",
+      "N. UNION"
+    ],
+    [
+      "W. RANDOLPH",
+      "N. HALSTED"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1126,
+            3581
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64742446116364,
+            41.885644267735785
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4476,
+            3581
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. UNION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64533035451512,
+            41.88567038971348
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1126,
+            6349
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64738682088178,
+            41.88438619627761
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64776251796752,
+            41.886929143966114
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5249,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64493130159437,
+            41.88696742440845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6476989922007,
+            41.88432513777421
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 5.514,
+    "dy_m": -3.032
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

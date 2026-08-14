@@ -1,0 +1,120 @@
+{
+  "page": "65",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. OHIO",
+      "N. PEORIA"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. PEORIA"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3980,
+            1181
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. PEORIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6499550586357,
+            41.892200992229526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3980,
+            3615
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. PEORIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64996276549714,
+            41.891156696631434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6520056061358,
+            41.89238515827275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5270,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64921085277612,
+            41.89243128541245
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65192812806458,
+            41.889783875742246
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5971,
+    "separation_ratio": 1.026,
+    "best_offset_m": 27.5,
+    "n_junctions": 30
+  }
+}

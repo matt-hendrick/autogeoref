@@ -1,0 +1,120 @@
+{
+  "page": "95",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. POLK ST.",
+      "S. JEFFERSON ST."
+    ],
+    [
+      "W. HARRISON ST.",
+      "S. JEFFERSON ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4291,
+            6083
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POLK ST. x S. JEFFERSON ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64234704093296,
+            41.87198933784766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4291,
+            666
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON ST. x S. JEFFERSON ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64242383997099,
+            41.87437091992098
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64466497842805,
+            41.874348994007214
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5241,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64183813121598,
+            41.87438722290021
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6446014526612,
+            41.871744475125695
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.744,
+    "separation_ratio": 0.959,
+    "best_offset_m": 80.1,
+    "n_junctions": 8
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "page": "70",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. MILWAUKEE AV.",
+      "E. WINDSOR AV."
+    ],
+    [
+      "SUNNYSIDE AV.",
+      "N. LARAMIE AV."
+    ],
+    [
+      "W. AGATITE AV.",
+      "N. LARAMIE AV."
+    ],
+    [
+      "N. LARAMIE AV.",
+      "MONTROSE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3546,
+            2492
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MILWAUKEE AV. x E. WINDSOR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75683343693235,
+            41.96334993715864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2532,
+            4314
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUNNYSIDE AV. x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75745003057038,
+            41.96246999944897
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2532,
+            6214
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. AGATITE AV. x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75741565485079,
+            41.961512178665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2532,
+            8189
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LARAMIE AV. x MONTROSE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75738658624613,
+            41.96059996186107
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75868513940816,
+            41.96403214709709
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5293,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7557503829122,
+            41.96406590780985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75861948483046,
+            41.96087660716251
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6655,
+    "separation_ratio": 1.541,
+    "best_offset_m": 10.3,
+    "n_junctions": 15
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "page": "77",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 8,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 21ST ST.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "W. 21ST ST.",
+      "LAFLIN"
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 21ST PL."
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 21ST PL."
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 21ST PL."
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 21ST PL."
+    ],
+    [
+      "W. 21ST PL.",
+      "LAFLIN"
+    ],
+    [
+      "LAFLIN",
+      "W. 21ST PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            959,
+            2667
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6660491561739,
+            41.85413490541311
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4844,
+            2667
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x LAFLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66366426032296,
+            41.85418307241225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            959,
+            4544
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66603114288637,
+            41.85320619844471
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            959,
+            4544
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66603187364544,
+            41.85327552239977
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            959,
+            4696
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66603114288637,
+            41.85320619844471
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            959,
+            4696
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66603187364544,
+            41.85327552239977
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4844,
+            4544
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST PL. x LAFLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66363679887299,
+            41.853257054020766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4844,
+            4696
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAFLIN x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66363679887299,
+            41.853257054020766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66629831493718,
+            41.855001670998895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5252,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66345130407153,
+            41.85504450411858
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66622615551387,
+            41.85234074707158
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 0.108,
+    "dy_m": -3.952
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6032,
+    "separation_ratio": 1.1,
+    "best_offset_m": 5.4,
+    "n_junctions": 31
+  }
+}

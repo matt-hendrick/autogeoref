@@ -1,0 +1,110 @@
+{
+  "page": "72",
+  "n_streets": 11,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 1.06,
+  "auto_residuals_m": [
+    0.19,
+    0.17,
+    0.21,
+    0.19
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. WOOD"
+    ],
+    [
+      "W. NORTH AV.",
+      "N. PAULINA"
+    ],
+    [
+      "JULIAN",
+      "N. WOOD"
+    ],
+    [
+      "JULIAN",
+      "N. PAULINA"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            795,
+            355
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67257595292126,
+            41.9105613056049
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4972,
+            355
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67013431909416,
+            41.91059721908523
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            795,
+            5324
+          ],
+          "username": "autogeoref",
+          "note": "auto: JULIAN x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67251401357252,
+            41.90829811055345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4972,
+            5324
+          ],
+          "username": "autogeoref",
+          "note": "auto: JULIAN x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67006930775102,
+            41.908329547103484
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

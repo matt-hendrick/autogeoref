@@ -1,0 +1,160 @@
+{
+  "page": "59",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 0.33,
+  "auto_residuals_m": [
+    2.44,
+    2.4,
+    2.49,
+    4.48,
+    4.2,
+    1.62
+  ],
+  "inlier_streets": [
+    [
+      "GRAND AV.",
+      "N. UNION"
+    ],
+    [
+      "GRAND AV.",
+      "N. DESPLAINES"
+    ],
+    [
+      "GRAND AV.",
+      "N. HALSTED"
+    ],
+    [
+      "N. UNION",
+      "N. KINZIE"
+    ],
+    [
+      "N. DESPLAINES",
+      "N. KINZIE"
+    ],
+    [
+      "N. HALSTED",
+      "N. KINZIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3030,
+            1214
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRAND AV. x N. UNION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64583690819829,
+            41.89119439485931
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5429,
+            1214
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRAND AV. x N. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64437383942663,
+            41.89121266588924
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            220,
+            1214
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRAND AV. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64762223597282,
+            41.89117039711885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3030,
+            5764
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. UNION x N. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64579320585689,
+            41.88905924440162
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5429,
+            5764
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DESPLAINES x N. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64433931552554,
+            41.889018459087765
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            220,
+            5764
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x N. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64758800736224,
+            41.889034402334254
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8",
+  "seam_adjusted": {
+    "dx_m": -0.6,
+    "dy_m": -2.26
+  }
+}

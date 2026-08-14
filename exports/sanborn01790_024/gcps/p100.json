@@ -1,0 +1,180 @@
+{
+  "page": "100",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 1.07,
+  "auto_residuals_m": [
+    0.12,
+    0.38,
+    0.85,
+    0.52,
+    0.76,
+    0.66,
+    0.5
+  ],
+  "inlier_streets": [
+    [
+      "WASHBURN AV.",
+      "S. HOYNE AV."
+    ],
+    [
+      "WASHBURN AV.",
+      "S. ROBEY"
+    ],
+    [
+      "W. 13TH ST.",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. 13TH ST.",
+      "S. ROBEY"
+    ],
+    [
+      "S. HOYNE AV.",
+      "HASTINGS"
+    ],
+    [
+      "S. ROBEY",
+      "HASTINGS"
+    ],
+    [
+      "S. ROBEY",
+      "W. 14TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            983,
+            990
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHBURN AV. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67866784668414,
+            41.86580999003742
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5009,
+            990
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHBURN AV. x S. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67622195033344,
+            41.865842438079774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            983,
+            3004
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67864467192385,
+            41.86490611066139
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5009,
+            3004
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67619716655297,
+            41.864938115191315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            983,
+            4989
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x HASTINGS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67861927661284,
+            41.86399816329836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5009,
+            4989
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROBEY x HASTINGS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67617393836548,
+            41.86403297256853
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5009,
+            7010
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROBEY x W. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6761501007273,
+            41.86312716522255
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

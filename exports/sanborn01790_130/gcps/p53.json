@@ -1,0 +1,159 @@
+{
+  "page": "53",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 1.2,
+  "auto_residuals_m": [
+    0.06,
+    0.96,
+    1.01,
+    1.0,
+    0.96,
+    0.01
+  ],
+  "inlier_streets": [
+    [
+      "E. 89TH ST.",
+      "S. MUSKEGON AV."
+    ],
+    [
+      "E. 89TH ST.",
+      "S. ESCANABA AV."
+    ],
+    [
+      "S. MUSKEGON AV.",
+      "E. 90TH ST."
+    ],
+    [
+      "S. MUSKEGON AV.",
+      "E. 91ST ST."
+    ],
+    [
+      "E. 90TH ST.",
+      "S. ESCANABA AV."
+    ],
+    [
+      "S. ESCANABA AV.",
+      "E. 91ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2910,
+            331
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 89TH ST. x S. MUSKEGON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55547222200718,
+            41.73367455089989
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5176,
+            331
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 89TH ST. x S. ESCANABA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55408938781741,
+            41.73368985240848
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2910,
+            4248
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MUSKEGON AV. x E. 90TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55542529895551,
+            41.731844337579616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2910,
+            8134
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MUSKEGON AV. x E. 91ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55538272865094,
+            41.73000840875306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5176,
+            4248
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 90TH ST. x S. ESCANABA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55404292366399,
+            41.73186562786836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5176,
+            8134
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ESCANABA AV. x E. 91ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55399897044819,
+            41.73003658759509
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.432,
+    "dy_m": -0.778
+  }
+}

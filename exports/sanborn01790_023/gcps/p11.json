@@ -1,0 +1,119 @@
+{
+  "page": "11",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "AUGUSTA",
+      "MILWAUKEE AV."
+    ],
+    [
+      "W. WALTON (CORNELIA)",
+      "N. ELIZABETH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4247,
+            719
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x MILWAUKEE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66096087740127,
+            41.899829173756764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4861,
+            2728
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALTON (CORNELIA) x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66058976117863,
+            41.898906390017984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66315610395584,
+            41.89976889715122
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5266,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66036373682684,
+            41.89981497957839
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66307861530308,
+            41.89716756010227
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.6016,
+    "separation_ratio": 0.856,
+    "best_offset_m": 59.5,
+    "n_junctions": 15
+  }
+}

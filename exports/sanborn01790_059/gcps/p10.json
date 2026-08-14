@@ -1,0 +1,189 @@
+{
+  "page": "10",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 109TH ST.",
+      "S. VERNON AV."
+    ],
+    [
+      "E. 109TH ST.",
+      "S. EBERHART AV."
+    ],
+    [
+      "S. VERNON AV.",
+      "E. 110TH ST."
+    ],
+    [
+      "S. VERNON AV.",
+      "E. 110TH PL."
+    ],
+    [
+      "S. VERNON AV.",
+      "E. 111TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2170,
+            310
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 109TH ST. x S. VERNON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61225344798271,
+            41.69637592512811
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4149,
+            310
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 109TH ST. x S. EBERHART AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61103184929048,
+            41.69639065055037
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2170,
+            4288
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. VERNON AV. x E. 110TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61220877487698,
+            41.69455732648938
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2170,
+            7272
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. VERNON AV. x E. 110TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61217234350187,
+            41.69320592663128
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2170,
+            8169
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. VERNON AV. x E. 111TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61216148126783,
+            41.69273712075932
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            567,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61323136733606,
+            41.69611828757597
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5105,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61043633447593,
+            41.69615454810338
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            567,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61315856693238,
+            41.69298954489612
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -0.136,
+    "dy_m": -2.016
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6671,
+    "separation_ratio": 1.308,
+    "best_offset_m": 3.9,
+    "n_junctions": 10
+  }
+}

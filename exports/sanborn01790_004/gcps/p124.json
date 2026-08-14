@@ -1,0 +1,159 @@
+{
+  "page": "124",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.32,
+  "auto_residuals_m": [
+    1.43,
+    1.89,
+    3.06,
+    3.24,
+    2.12,
+    1.85
+  ],
+  "inlier_streets": [
+    [
+      "W. 28TH",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "W. 28TH",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. 30TH",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "W. 30TH",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. 31ST (NOT OPEN)",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "W. 31ST (NOT OPEN)",
+      "S. ST. LOUIS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1488,
+            183
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 28TH x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71469399610869,
+            41.84070523527038
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5536,
+            183
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 28TH x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71225460319528,
+            41.84074230809005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1488,
+            4367
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 30TH x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71464321250279,
+            41.83887093893818
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5536,
+            4367
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 30TH x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7122017253721,
+            41.83891300335914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1488,
+            8406
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST (NOT OPEN) x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71459488638645,
+            41.83703970330464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5536,
+            8406
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST (NOT OPEN) x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71212361246481,
+            41.83708645977272
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.154,
+    "dy_m": -2.458
+  }
+}

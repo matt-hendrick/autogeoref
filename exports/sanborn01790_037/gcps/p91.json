@@ -1,0 +1,180 @@
+{
+  "page": "91",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 7,
+  "rotation_deg": 1.0,
+  "auto_residuals_m": [
+    1.89,
+    1.69,
+    1.39,
+    4.25,
+    2.08,
+    4.28,
+    2.31
+  ],
+  "inlier_streets": [
+    [
+      "S. 49TH CT.",
+      "WEST END AV."
+    ],
+    [
+      "WEST END AV.",
+      "S. 50TH AV."
+    ],
+    [
+      "WEST END AV.",
+      "S. 49TH AV."
+    ],
+    [
+      "S. 50TH AV.",
+      "WASHINGTON B'L'V'D"
+    ],
+    [
+      "S. 50TH AV.",
+      "W. MADISON"
+    ],
+    [
+      "S. 49TH AV.",
+      "WASHINGTON B'L'V'D"
+    ],
+    [
+      "S. 49TH AV.",
+      "W. MADISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2925,
+            2889
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 49TH CT. x WEST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7490446553919,
+            41.883084080697984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            848,
+            2889
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x S. 50TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75026908785964,
+            41.88306723957841
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4941,
+            2889
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x S. 49TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7478220536959,
+            41.8831005972922
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            848,
+            5668
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 50TH AV. x WASHINGTON B'L'V'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75022321787851,
+            41.88175194307285
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            848,
+            8285
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 50TH AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75017321672037,
+            41.88043480528772
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4941,
+            5668
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 49TH AV. x WASHINGTON B'L'V'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74777348873042,
+            41.88178407537596
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4941,
+            8285
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 49TH AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74772294085986,
+            41.880465159649646
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

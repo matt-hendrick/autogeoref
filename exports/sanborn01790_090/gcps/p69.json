@@ -1,0 +1,170 @@
+{
+  "page": "69",
+  "n_streets": 5,
+  "n_candidates": 7,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. 34TH PL.",
+      "S. RACINE AV. (S. CENTRE AV.)"
+    ],
+    [
+      "W. 35TH ST.",
+      "S. RACINE AV. (S. CENTRE AV.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2314,
+            1065
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 34TH PL. x S. RACINE AV. (S. CENTRE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6558247008205,
+            41.83154296227952
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2314,
+            3099
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x S. RACINE AV. (S. CENTRE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65572758604065,
+            41.83062025259329
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65683726569105,
+            41.83167821246178
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5270,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65399829835071,
+            41.8317135763024
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65677791460737,
+            41.82903290477743
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5813,
+    "separation_ratio": 1.385,
+    "best_offset_m": 28.2,
+    "n_junctions": 6
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 7,
+      "votable": 7,
+      "in_block": 7,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 11.6,
+          "addr_diff": 7.6
+        },
+        {
+          "perp_m": 11.6,
+          "addr_diff": 12.0
+        },
+        {
+          "perp_m": 11.6,
+          "addr_diff": 9.1
+        },
+        {
+          "perp_m": 11.9,
+          "addr_diff": 5.3
+        },
+        {
+          "perp_m": 11.1,
+          "addr_diff": 7.0
+        },
+        {
+          "perp_m": 9.3,
+          "addr_diff": 11.2
+        },
+        {
+          "perp_m": 9.1,
+          "addr_diff": 15.0
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

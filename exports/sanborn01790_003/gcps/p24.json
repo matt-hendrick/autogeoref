@@ -1,0 +1,185 @@
+{
+  "page": "24",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "HIRSCH",
+      "N. ARTESIAN AV."
+    ],
+    [
+      "HIRSCH",
+      "N. WESTERN AV."
+    ],
+    [
+      "POTOMAC AV.",
+      "N. ARTESIAN AV."
+    ],
+    [
+      "POTOMAC AV.",
+      "N. WESTERN AV."
+    ],
+    [
+      "W. DIVISION",
+      "N. WESTERN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2917,
+            336
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. ARTESIAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6883691439918,
+            41.90664346124978
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5094,
+            336
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68713812351848,
+            41.90665390076958
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2917,
+            4316
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. ARTESIAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68832022059144,
+            41.90482095239827
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5094,
+            4316
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68709041585319,
+            41.90482960136205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5094,
+            8198
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6870414046654,
+            41.90300352234872
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            566,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68984465940713,
+            41.90637070665401
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5097,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68708110000006,
+            41.90639879506944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            566,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68978798426714,
+            41.903282065715345
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -1.63,
+    "dy_m": -1.885
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "page": "153",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. FULLERTON AV.",
+      "N. LAKEWOOD AV. (N. HERNDON)"
+    ],
+    [
+      "W. FULLERTON AV.",
+      "N. RACINE AV."
+    ],
+    [
+      "W. MEDILL AV. (W. CANTON)",
+      "N. RACINE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1201,
+            698
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. LAKEWOOD AV. (N. HERNDON)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66088580792304,
+            41.92525514128449
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5274,
+            698
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65845338724917,
+            41.925291612701315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5274,
+            2827
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MEDILL AV. (W. CANTON) x N. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65842418356759,
+            41.92439502943413
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66127356245052,
+            41.9252541424621
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5275,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65844236036492,
+            41.92529591591471
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66120341128344,
+            41.92262217772828
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

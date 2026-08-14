@@ -1,0 +1,185 @@
+{
+  "page": "44",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 103 RD. PL.",
+      "S. CORLISS AV."
+    ],
+    [
+      "E. 104 TH ST.",
+      "S. CORLISS AV."
+    ],
+    [
+      "E. 104 TH ST.",
+      "S. MARYLAND AV."
+    ],
+    [
+      "E. 104 TH PL.",
+      "S. CORLISS AV."
+    ],
+    [
+      "E. 105 TH ST.",
+      "S. CORLISS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3327,
+            2109
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 103 RD. PL. x S. CORLISS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60398971931983,
+            41.70656955184669
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3327,
+            4028
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 104 TH ST. x S. CORLISS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60396242147371,
+            41.70565589354984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5155,
+            4028
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 104 TH ST. x S. MARYLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60276050884481,
+            41.705673461708905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3327,
+            6020
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 104 TH PL. x S. CORLISS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60393534574395,
+            41.70474074717009
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3327,
+            8231
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 105 TH ST. x S. CORLISS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60390861016025,
+            41.703827536450746
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60566160796925,
+            41.70711791721414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5322,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60275486157552,
+            41.707157058422695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60558621401108,
+            41.7039972741213
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -0.305,
+    "dy_m": 3.032
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "page": "9",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.74,
+  "auto_residuals_m": [
+    1.68,
+    1.43,
+    1.55,
+    1.57,
+    3.21,
+    3.11,
+    3.07,
+    3.22
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVISION",
+      "N. 50TH AV."
+    ],
+    [
+      "W. DIVISION",
+      "N. 49TH AV."
+    ],
+    [
+      "THOMAS",
+      "N. 50TH AV."
+    ],
+    [
+      "THOMAS",
+      "N. 49TH AV."
+    ],
+    [
+      "N. 50TH AV.",
+      "CORTEZ"
+    ],
+    [
+      "N. 50TH AV.",
+      "AUGUSTA"
+    ],
+    [
+      "N. 49TH AV.",
+      "CORTEZ"
+    ],
+    [
+      "N. 49TH AV.",
+      "AUGUSTA"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1374,
+            327
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. 50TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75087435412422,
+            41.9022851600089
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5103,
+            327
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. 49TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74842182029853,
+            41.90231039231324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1374,
+            4395
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x N. 50TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75083224322383,
+            41.90045134326767
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5103,
+            4395
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x N. 49TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74838330206128,
+            41.90047498439528
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1374,
+            6434
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 50TH AV. x CORTEZ"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75081272660645,
+            41.8995324346561
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1374,
+            8350
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 50TH AV. x AUGUSTA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75079244046435,
+            41.89861623824288
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5103,
+            6434
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 49TH AV. x CORTEZ"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74836237943158,
+            41.89955504272984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5103,
+            8350
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 49TH AV. x AUGUSTA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74834293682392,
+            41.89863912300605
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.208,
+    "dy_m": -2.424
+  }
+}

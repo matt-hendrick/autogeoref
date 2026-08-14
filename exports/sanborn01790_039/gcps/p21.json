@@ -1,0 +1,163 @@
+{
+  "page": "21",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. KOLMAR AV.",
+      "FILLMORE"
+    ],
+    [
+      "S. KOLMAR AV.",
+      "GRENSHAW"
+    ],
+    [
+      "FILLMORE",
+      "S. KILBOURN AV."
+    ],
+    [
+      "S. KILBOURN AV.",
+      "GRENSHAW"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2115,
+            4339
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KOLMAR AV. x FILLMORE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73912913952788,
+            41.86776890781544
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2115,
+            6452
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KOLMAR AV. x GRENSHAW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73913529742873,
+            41.86687872979272
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4824,
+            4339
+          ],
+          "username": "autogeoref",
+          "note": "auto: FILLMORE x S. KILBOURN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73747410176603,
+            41.86781481047592
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4824,
+            6452
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KILBOURN AV. x GRENSHAW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73744319987469,
+            41.8669044708981
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7401683033061,
+            41.86944545886296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5217,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73725036055606,
+            41.869486966759624
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7400865343653,
+            41.866257813545225
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7918,
+    "separation_ratio": 1.054,
+    "best_offset_m": 3.8,
+    "n_junctions": 6
+  }
+}

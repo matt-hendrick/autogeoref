@@ -1,0 +1,167 @@
+{
+  "page": "116",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "MONTROSE AV.",
+      "PERRY"
+    ],
+    [
+      "CULLOM AV.",
+      "PERRY"
+    ],
+    [
+      "CULLOM AV.",
+      "N. CLARK"
+    ],
+    [
+      "BERTEAU AV.",
+      "PERRY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            221,
+            272
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66774047552802,
+            41.96160187403859
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            221,
+            4422
+          ],
+          "username": "autogeoref",
+          "note": "auto: CULLOM AV. x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66770362501646,
+            41.95977756417526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4230,
+            4422
+          ],
+          "username": "autogeoref",
+          "note": "auto: CULLOM AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66528319790937,
+            41.9598288137234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            221,
+            8316
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6676555986065,
+            41.95796171820387
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66752900497217,
+            41.961370403995694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5209,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66471768986789,
+            41.961411638277475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66744754105162,
+            41.958299257221334
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.9342,
+    "separation_ratio": 1.226,
+    "best_offset_m": 10.8,
+    "n_junctions": 8
+  },
+  "seam_adjusted": {
+    "dx_m": -1.599,
+    "dy_m": -1.485
+  }
+}

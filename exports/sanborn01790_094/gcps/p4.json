@@ -1,0 +1,120 @@
+{
+  "page": "4",
+  "n_streets": 12,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. ROOSEVELT ROAD",
+      "S. CANAL"
+    ],
+    [
+      "S. CANAL",
+      "MAXWELL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            369,
+            1097
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROOSEVELT ROAD x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63921798419707,
+            41.86725292931247
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            369,
+            6241
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CANAL x MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63917012261709,
+            41.86489351080061
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63909748794805,
+            41.86743325710835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5249,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63621190209756,
+            41.86747538738041
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63902759477459,
+            41.864778433912484
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.3102,
+    "separation_ratio": 0.901,
+    "best_offset_m": 96.6,
+    "n_junctions": 8
+  }
+}

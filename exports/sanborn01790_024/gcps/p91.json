@@ -1,0 +1,167 @@
+{
+  "page": "91",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "TAYLOR",
+      "LOOMIS"
+    ],
+    [
+      "TAYLOR",
+      "THROOP"
+    ],
+    [
+      "ELBURN AV.",
+      "LOOMIS"
+    ],
+    [
+      "ELBURN AV.",
+      "THROOP"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            963,
+            696
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66166848133874,
+            41.86934244887191
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4917,
+            696
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65922356760748,
+            41.86938140289248
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            963,
+            2437
+          ],
+          "username": "autogeoref",
+          "note": "auto: ELBURN AV. x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66164469401443,
+            41.86855262268876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4917,
+            2437
+          ],
+          "username": "autogeoref",
+          "note": "auto: ELBURN AV. x THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65919941387682,
+            41.86859272833285
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66185861788664,
+            41.86931848949512
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65903947134323,
+            41.869362464199924
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66178488507579,
+            41.866697224772885
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -3.022,
+    "dy_m": 0.447
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6042,
+    "separation_ratio": 1.078,
+    "best_offset_m": 4.6,
+    "n_junctions": 23
+  }
+}

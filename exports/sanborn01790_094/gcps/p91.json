@@ -1,0 +1,226 @@
+{
+  "page": "91",
+  "n_streets": 10,
+  "n_candidates": 16,
+  "n_inliers": 9,
+  "rotation_deg": 2.09,
+  "auto_residuals_m": [
+    0.48,
+    4.05,
+    1.45,
+    3.39,
+    1.71,
+    13.37,
+    1.19,
+    1.04,
+    5.95
+  ],
+  "inlier_streets": [
+    [
+      "W. CERMAK RD. (W. 22ND ST.)",
+      "S. WOLCOTT AV. (S. LINCOLN)"
+    ],
+    [
+      "W. CERMAK RD. (W. 22ND ST.)",
+      "S. WOOD"
+    ],
+    [
+      "W. 22ND PL.",
+      "S. WOLCOTT AV. (S. LINCOLN)"
+    ],
+    [
+      "W. 22ND PL.",
+      "S. WOOD"
+    ],
+    [
+      "W. 22ND PL.",
+      "S. WOLCOTT AV. (S. LINCOLN)"
+    ],
+    [
+      "W. 22ND PL.",
+      "S. WOOD"
+    ],
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "W. 23RD ST."
+    ],
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "W. 23RD ST."
+    ],
+    [
+      "S. WOOD",
+      "W. 23RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            947,
+            90
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CERMAK RD. (W. 22ND ST.) x S. WOLCOTT AV. (S. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67339068825835,
+            41.85221117420381
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4914,
+            90
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CERMAK RD. (W. 22ND ST.) x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67093792709346,
+            41.852247935981985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            947,
+            1749
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND PL. x S. WOLCOTT AV. (S. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67337200054945,
+            41.85143656446792
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4914,
+            1749
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND PL. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67091524936083,
+            41.85147077487053
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            947,
+            1987
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND PL. x S. WOLCOTT AV. (S. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67336904824928,
+            41.851303285998824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4914,
+            1987
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND PL. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67091524936083,
+            41.85147077487053
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            947,
+            3305
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x W. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67335429314902,
+            41.85068588004929
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            947,
+            3945
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x W. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67334604710116,
+            41.85039927707082
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4914,
+            3305
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x W. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67089336812604,
+            41.85072072494221
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

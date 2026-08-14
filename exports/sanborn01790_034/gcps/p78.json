@@ -1,0 +1,142 @@
+{
+  "page": "78",
+  "n_streets": 9,
+  "n_candidates": 9,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "ARGYLE",
+      "MAGNOLIA AV."
+    ],
+    [
+      "ARGYLE",
+      "MAGNOLIA AV."
+    ],
+    [
+      "MAGNOLIA AV.",
+      "LAWRENCE AV"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5194,
+            91
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARGYLE x MAGNOLIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66114028221355,
+            41.97265246379028
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5194,
+            230
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARGYLE x MAGNOLIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66114028221355,
+            41.97265246379028
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5194,
+            8419
+          ],
+          "username": "autogeoref",
+          "note": "auto: MAGNOLIA AV. x LAWRENCE AV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66104624025623,
+            41.96900472924617
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66393476606622,
+            41.97232669211788
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5222,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66111665095993,
+            41.972368019029076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66385329256504,
+            41.969255712321534
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.3953,
+    "separation_ratio": 1.186,
+    "best_offset_m": 13.8,
+    "n_junctions": 3
+  }
+}

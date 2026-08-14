@@ -1,0 +1,134 @@
+{
+  "page": "108",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": -88.03,
+  "auto_residuals_m": [
+    2.31,
+    1.43,
+    0.76,
+    2.96,
+    5.92
+  ],
+  "inlier_streets": [
+    [
+      "CLEAVER ST.",
+      "W. DIVISION"
+    ],
+    [
+      "HADDON AV.",
+      "N. ASHLAND AV."
+    ],
+    [
+      "TELL PL.",
+      "N. ASHLAND AV."
+    ],
+    [
+      "W. DIVISION",
+      "N. ASHLAND AV."
+    ],
+    [
+      "W. DIVISION",
+      "DICKSON ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            827,
+            848
+          ],
+          "username": "autogeoref",
+          "note": "auto: CLEAVER ST. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66383001746483,
+            41.90338807768748
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2805,
+            6411
+          ],
+          "username": "autogeoref",
+          "note": "auto: HADDON AV. x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66746855156815,
+            41.902431732493255
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4797,
+            6411
+          ],
+          "username": "autogeoref",
+          "note": "auto: TELL PL. x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66744355790661,
+            41.90152434375603
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            827,
+            6411
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66749526016973,
+            41.90334633244783
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            827,
+            4256
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x DICKSON ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66615287962502,
+            41.903361503530185
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

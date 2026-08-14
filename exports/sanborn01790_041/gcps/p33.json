@@ -1,0 +1,163 @@
+{
+  "page": "33",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. KEDZIE AV.",
+      "W. 36TH ST."
+    ],
+    [
+      "S. KEDZIE AV.",
+      "W. 36TH PL."
+    ],
+    [
+      "W. 36TH ST.",
+      "S. ALBANY AV."
+    ],
+    [
+      "W. 36TH PL.",
+      "S. ALBANY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            357,
+            4239
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEDZIE AV. x W. 36TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7045498025968,
+            41.828078602568404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            357,
+            6242
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEDZIE AV. x W. 36TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7045316829026,
+            41.82716630750592
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4329,
+            4239
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70210562773322,
+            41.82812531679748
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4329,
+            6242
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH PL. x S. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70207788020184,
+            41.82720746128762
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70446757385412,
+            41.82965118880659
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5294,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70155327471203,
+            41.82970280196605
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70436742955265,
+            41.82651157941803
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6763,
+    "separation_ratio": 1.429,
+    "best_offset_m": 2.4,
+    "n_junctions": 8
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "page": "80",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 8,
+  "rotation_deg": -0.13,
+  "auto_residuals_m": [
+    2.99,
+    4.25,
+    5.64,
+    13.91,
+    6.89,
+    7.25,
+    3.35,
+    5.97
+  ],
+  "inlier_streets": [
+    [
+      "W. OHIO",
+      "N. CAMPBELL AV."
+    ],
+    [
+      "W. OHIO",
+      "N. ARTESIAN AV."
+    ],
+    [
+      "W. OHIO",
+      "N. WESTERN AV."
+    ],
+    [
+      "W. GRAND AV.",
+      "N. ARTESIAN AV."
+    ],
+    [
+      "N. CAMPBELL AV.",
+      "W. HUBBARD"
+    ],
+    [
+      "N. ARTESIAN AV.",
+      "W. HUBBARD"
+    ],
+    [
+      "N. WESTERN AV.",
+      "W. HUBBARD"
+    ],
+    [
+      "N. WESTERN AV.",
+      "W. KINZIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            895,
+            323
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. CAMPBELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68917009609409,
+            41.89212094498006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2953,
+            323
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. ARTESIAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68794545984738,
+            41.89213509876566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4867,
+            323
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6867207716388,
+            41.89214576005019
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2953,
+            2921
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. ARTESIAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68790984015295,
+            41.89088421987354
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            895,
+            6022
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL AV. x W. HUBBARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68909328646807,
+            41.8896641352822
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2953,
+            6022
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ARTESIAN AV. x W. HUBBARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68787935798287,
+            41.88958048723949
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4867,
+            6022
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x W. HUBBARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68663909101626,
+            41.88959607745919
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4867,
+            8268
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68660488684425,
+            41.88867076727899
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.952,
+    "dy_m": 5.358
+  }
+}

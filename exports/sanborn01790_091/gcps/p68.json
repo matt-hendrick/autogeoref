@@ -1,0 +1,182 @@
+{
+  "page": "68",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "rotation_deg": 1.29,
+  "auto_residuals_m": [
+    5.98,
+    1.83,
+    9.01,
+    0.46,
+    2.1,
+    2.92,
+    0.77
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. MILWAUKEE AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. HOYNE AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. DAMEN AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. PIERCE AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. LE MOYNE"
+    ],
+    [
+      "W. PIERCE AV.",
+      "N. DAMEN AV."
+    ],
+    [
+      "N. DAMEN AV.",
+      "W. LE MOYNE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4905,
+            800
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. MILWAUKEE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67756257562876,
+            41.91046527640114
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1109,
+            800
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67988318549844,
+            41.91043258962606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5128,
+            800
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. DAMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67756257562876,
+            41.91046527640114
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1109,
+            3292
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. PIERCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67985236564395,
+            41.90931821613749
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1109,
+            5763
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. LE MOYNE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67982166633368,
+            41.90820435107149
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5128,
+            3292
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PIERCE AV. x N. DAMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67741135859254,
+            41.90936536945474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5128,
+            5763
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAMEN AV. x W. LE MOYNE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67738003709164,
+            41.908249248058546
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.613,
+    "dy_m": -1.117
+  }
+}

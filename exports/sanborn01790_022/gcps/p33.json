@@ -1,0 +1,147 @@
+{
+  "page": "33",
+  "n_streets": 8,
+  "n_candidates": 13,
+  "n_inliers": 2,
+  "status": "OK (verified: corroboration+junction)",
+  "rescue_anchors": [
+    [
+      "ARMITAGE AV.",
+      "N. OAKLEY AV."
+    ],
+    [
+      "N. OAKLEY AV.",
+      "Homer St."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3947,
+            970
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68495894637599,
+            41.91761462686258
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3947,
+            2566
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. x Homer St."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6849359770375,
+            41.916847363916325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68702018701913,
+            41.91766931072542
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5257,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68415912885769,
+            41.91771616850702
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68694124834052,
+            41.915000530354455
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5818,
+    "separation_ratio": 1.033,
+    "best_offset_m": 40.9,
+    "n_junctions": 26
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": null
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol"
+      ],
+      "consensus_numerals": 1,
+      "votable": 1,
+      "in_block": 1,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 31.3,
+          "addr_diff": 19.2
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "page": "18",
+  "n_streets": 7,
+  "n_candidates": 13,
+  "n_inliers": 9,
+  "rotation_deg": 0.98,
+  "auto_residuals_m": [
+    1.95,
+    3.16,
+    5.16,
+    6.99,
+    9.55,
+    5.99,
+    4.47,
+    5.91,
+    1.14
+  ],
+  "inlier_streets": [
+    [
+      "GRANVILLE AV.",
+      "N. HERMITAGE AV."
+    ],
+    [
+      "GRANVILLE AV.",
+      "N. PAULINA"
+    ],
+    [
+      "GRANVILLE AV.",
+      "N. CLARK"
+    ],
+    [
+      "N. HERMITAGE AV.",
+      "GLENLAKE AV."
+    ],
+    [
+      "N. HERMITAGE AV.",
+      "PETERSON AV."
+    ],
+    [
+      "GLENLAKE AV.",
+      "N. PAULINA"
+    ],
+    [
+      "GLENLAKE AV.",
+      "N. CLARK"
+    ],
+    [
+      "N. PAULINA",
+      "PETERSON AV."
+    ],
+    [
+      "N. CLARK",
+      "PETERSON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            85,
+            261
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRANVILLE AV. x N. HERMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67336995565098,
+            41.99439757652985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2662,
+            261
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRANVILLE AV. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67184747322628,
+            41.99442449082203
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5532,
+            261
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRANVILLE AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67011538265228,
+            41.99445459449684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            85,
+            3550
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HERMITAGE AV. x GLENLAKE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67332686397856,
+            41.99284724131973
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            85,
+            8234
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HERMITAGE AV. x PETERSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6731505728723,
+            41.990805080509475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2662,
+            3550
+          ],
+          "username": "autogeoref",
+          "note": "auto: GLENLAKE AV. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6718000239956,
+            41.992873844317394
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5532,
+            3550
+          ],
+          "username": "autogeoref",
+          "note": "auto: GLENLAKE AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67006309072347,
+            41.99290419268418
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2662,
+            8234
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x PETERSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6717420292402,
+            41.99077948025357
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5532,
+            8234
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x PETERSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66998990307702,
+            41.9908125651909
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.831,
+    "dy_m": 2.226
+  }
+}

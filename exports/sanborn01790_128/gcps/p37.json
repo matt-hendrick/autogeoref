@@ -1,0 +1,120 @@
+{
+  "page": "37",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. ARDMORE AV.",
+      "N. AUSTIN AV."
+    ],
+    [
+      "W. ARDMORE AV.",
+      "N. MASON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            931,
+            291
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARDMORE AV. x N. AUSTIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77796338004896,
+            41.986558850443124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2925,
+            291
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARDMORE AV. x N. MASON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77668884920288,
+            41.98654553726997
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            570,
+            839
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77825643519908,
+            41.98627149288049
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5127,
+            839
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77513100324663,
+            41.98627747910601
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            570,
+            7547
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.778244580389,
+            41.98285171828282
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7276,
+    "separation_ratio": 1.534,
+    "best_offset_m": 18.7,
+    "n_junctions": 13
+  }
+}

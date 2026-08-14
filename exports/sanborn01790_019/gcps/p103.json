@@ -1,0 +1,157 @@
+{
+  "page": "103",
+  "n_streets": 11,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 2.03,
+  "auto_residuals_m": [
+    5.3,
+    8.61,
+    4.84,
+    7.53,
+    2.34,
+    1.09
+  ],
+  "inlier_streets": [
+    [
+      "OTIS ST.",
+      "W. DIVISION"
+    ],
+    [
+      "OTIS ST.",
+      "W. ELM"
+    ],
+    [
+      "W. DIVISION",
+      "LARRABEE"
+    ],
+    [
+      "W. ELM",
+      "CROSBY"
+    ],
+    [
+      "W. ELM",
+      "LARRABEE"
+    ],
+    [
+      "HOBBIE",
+      "LARRABEE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3336,
+            1210
+          ],
+          "username": "autogeoref",
+          "note": "auto: OTIS ST. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6444857631093,
+            41.90369508184451
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3336,
+            3572
+          ],
+          "username": "autogeoref",
+          "note": "auto: OTIS ST. x W. ELM"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64444163884762,
+            41.90262951331052
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5470,
+            1210
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64321993820914,
+            41.90371649915872
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1520,
+            3572
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x CROSBY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64573249102322,
+            41.90256725189693
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5470,
+            3572
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64317987551617,
+            41.902651494100475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5470,
+            6100
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOBBIE x LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64313447510769,
+            41.90148331006503
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

@@ -1,0 +1,230 @@
+{
+  "page": "93",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 9,
+  "rotation_deg": 0.51,
+  "auto_residuals_m": [
+    4.91,
+    8.17,
+    2.88,
+    1.35,
+    8.05,
+    5.77,
+    6.25,
+    15.02,
+    12.98
+  ],
+  "inlier_streets": [
+    [
+      "W. 24TH ST.",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. 24TH ST.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "W. 24TH PL.",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. 24TH PL.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "W. 25TH ST.",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. 25TH ST.",
+      "S. CLAREMONT AV."
+    ],
+    [
+      "W. 25TH ST.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "S. CLAREMONT AV.",
+      "BLUE ISLAND AV."
+    ],
+    [
+      "S. OAKLEY AV.",
+      "COULTER ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            917,
+            139
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 24TH ST. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68551105182416,
+            41.84842788394177
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5036,
+            139
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 24TH ST. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68306887309527,
+            41.8484636743629
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            917,
+            1929
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 24TH PL. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68548771720599,
+            41.84751929812141
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5036,
+            1929
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 24TH PL. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6830424108554,
+            41.8475594647778
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            917,
+            3768
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 25TH ST. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68546444445522,
+            41.846613178222384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2569,
+            3768
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 25TH ST. x S. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6844747290872,
+            41.84662868326848
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5036,
+            3768
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 25TH ST. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68302237364995,
+            41.84667560581537
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2569,
+            6593
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLAREMONT AV. x BLUE ISLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68419961666689,
+            41.84532011973522
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5036,
+            3556
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY AV. x COULTER ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68302237364995,
+            41.84667560581537
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 2.813,
+    "dy_m": 4.23
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "page": "71",
+  "n_streets": 10,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. NORTH AV.",
+      "N. WOOD"
+    ],
+    [
+      "W. PIERCE AV.",
+      "N. WOOD"
+    ],
+    [
+      "W. LE MOYNE",
+      "N. WOOD"
+    ],
+    [
+      "N. WOOD",
+      "W. JULIAN"
+    ],
+    [
+      "N. WOOD",
+      "W. BEACH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4892,
+            286
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67257595292126,
+            41.9105613056049
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4892,
+            1917
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PIERCE AV. x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67255390171947,
+            41.90980061525603
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4892,
+            3596
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LE MOYNE x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67253257900005,
+            41.90905043912995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4892,
+            5273
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOOD x W. JULIAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67251401357252,
+            41.90829811055345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4892,
+            6911
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOOD x W. BEACH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6724944827469,
+            41.9075436363685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67519504493069,
+            41.91030466088035
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5274,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67234069609687,
+            41.91035245973388
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67511478026529,
+            41.90765010325913
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.8279,
+    "separation_ratio": 0.973,
+    "best_offset_m": 67.0,
+    "n_junctions": 9
+  }
+}

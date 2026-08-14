@@ -1,0 +1,120 @@
+{
+  "page": "21",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 49TH ST.",
+      "S. PULASKI RD."
+    ],
+    [
+      "S. PULASKI RD.",
+      "W. 51ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            938,
+            266
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 49TH ST. x S. PULASKI RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72347971987132,
+            41.804207437397125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            938,
+            8357
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PULASKI RD. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72337294940269,
+            41.80054564353733
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72368915040639,
+            41.80396296803737
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5274,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72080028783797,
+            41.804009586242124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72359839457658,
+            41.80083782489379
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.2113,
+    "separation_ratio": 0.412,
+    "best_offset_m": 99.1,
+    "n_junctions": 4
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "page": "91",
+  "n_streets": 7,
+  "n_candidates": 12,
+  "n_inliers": 7,
+  "rotation_deg": 0.63,
+  "auto_residuals_m": [
+    2.76,
+    1.5,
+    0.76,
+    0.73,
+    1.98,
+    2.0,
+    1.24
+  ],
+  "inlier_streets": [
+    [
+      "PALMER ST.",
+      "N. SAWYER AV."
+    ],
+    [
+      "DICKENS AV.",
+      "N. SAWYER AV."
+    ],
+    [
+      "DICKENS AV.",
+      "N. KEDZIE AV."
+    ],
+    [
+      "N. SAWYER AV.",
+      "ARMITAGE AV."
+    ],
+    [
+      "N. SAWYER AV.",
+      "DICKENS AV."
+    ],
+    [
+      "N. KEDZIE AV.",
+      "ARMITAGE AV."
+    ],
+    [
+      "N. KEDZIE AV.",
+      "DICKENS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            227,
+            171
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER ST. x N. SAWYER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70904536853338,
+            41.92106539010319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            227,
+            4076
+          ],
+          "username": "autogeoref",
+          "note": "auto: DICKENS AV. x N. SAWYER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70898649372187,
+            41.919232085100866
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3343,
+            4076
+          ],
+          "username": "autogeoref",
+          "note": "auto: DICKENS AV. x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70703914330626,
+            41.91925307838406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            227,
+            8060
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SAWYER AV. x ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70892577140933,
+            41.917405439843016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            227,
+            4069
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SAWYER AV. x DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70898649372187,
+            41.919232085100866
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3343,
+            8060
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE AV. x ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70697215486818,
+            41.91742975391314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3343,
+            4069
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE AV. x DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70703914330626,
+            41.91925307838406
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.525,
+    "dy_m": 4.197
+  }
+}

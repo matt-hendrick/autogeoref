@@ -1,0 +1,159 @@
+{
+  "page": "80",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 1.56,
+  "auto_residuals_m": [
+    2.4,
+    3.6,
+    0.88,
+    1.21,
+    3.01,
+    2.84
+  ],
+  "inlier_streets": [
+    [
+      "W. 65TH",
+      "S. GREEN"
+    ],
+    [
+      "W. 65TH",
+      "S. HALSTED"
+    ],
+    [
+      "S. GREEN",
+      "W. 66TH"
+    ],
+    [
+      "W. 66TH",
+      "S. HALSTED"
+    ],
+    [
+      "W. 66TH",
+      "EMERALD AVE."
+    ],
+    [
+      "S. HALSTED",
+      "W. 66TH PL. (66TH CT.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1495,
+            319
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 65TH x S. GREEN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64592983996279,
+            41.776089978589305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3525,
+            319
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 65TH x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64476619339888,
+            41.7761290399294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1495,
+            4231
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. GREEN x W. 66TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64588234512668,
+            41.77427050898114
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3525,
+            4231
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 66TH x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64466565130843,
+            41.77429251968521
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5160,
+            4231
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 66TH x EMERALD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64366561473209,
+            41.77431000210067
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3525,
+            6229
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. 66TH PL. (66TH CT.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64464294770112,
+            41.77338863288864
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.38,
+    "dy_m": -0.419
+  }
+}

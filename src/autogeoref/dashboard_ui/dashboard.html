@@ -1,0 +1,116 @@
+<!--
+  Coverage dashboard template. Rendered by dashboard.render_html with
+  string.Template — no template engine, no dependency. Placeholders are
+  dollar-prefixed names, as below; a literal dollar sign must be doubled.
+
+  THE PROSE LIVES HERE, not in the Python. Every caveat on this page is load-
+  bearing (what "served" does not mean; why neighborhoods are attributed by
+  volume and not by sheet; why there is no accuracy panel), so it is kept in one
+  editable document rather than scattered through f-strings. The numbers inside
+  it are placeholders: the claims and the counts can never drift apart, because
+  the counts are computed and the sentences around them are not.
+-->
+<!doctype html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>autogeoref — coverage &amp; provenance</title>
+<style>
+$css
+</style>
+<main>
+  <h1>Coverage &amp; provenance</h1>
+  <p class="sub">
+    Which volumes this pipeline has placed and published, and what is left to run. Derived from
+    the filesystem by the same scan <code>autogeoref status</code> makes; nothing here is a
+    maintained claim.
+  </p>
+  $stamp
+
+  <div class="kpis">$kpis</div>
+
+  <h2>The corpus by coverage state</h2>
+  <p class="note">
+    Part-to-whole over all $n_volumes volumes. <strong>Served is not processed</strong>: the first
+    band is the only one on the map, and a volume in the third band has full results on disk and
+    draws nothing. The two neutral bands — $n_open volumes — have never been run here at all.
+  </p>
+  <div class="legend">$legend</div>
+  $total_bar
+
+  <h2>Processed by this pipeline — and what its viewer layer actually shows</h2>
+  <p class="note">
+    The only evidence a volume was processed here is <code>work/&lt;volume&gt;/results/</code>.
+    Placing a volume is not publishing it, which is why "processed here" and "served by us" are
+    counted separately above and never merged into a single "done" number. Read the last column
+    of these $n_processed rows: any state other than "Served — this pipeline" still owes a bake.
+  </p>
+  <div class="scroll">
+    <table>
+      <tr>
+        <th>volume</th>
+        <th>era</th>
+        <th>accepted</th>
+        <th>flagged</th>
+        <th>viewer layer</th>
+      </tr>
+      $processed_rows
+    </table>
+  </div>
+
+  <h2>By era</h2>
+  <p class="note">
+    Era is the LOC catalogue date, bucketed by the city's viewer eras. This is the shape of the
+    corpus: which decades this pipeline has published, and which are still a runnable queue or
+    an unfetched one.
+  </p>
+  <div class="legend">$legend</div>
+  $era_rows
+
+  <h2>By neighborhood</h2>
+  <p class="note">
+    A volume is counted in each of the (up to $areas_per_volume) community areas its footprint
+    covers, so these counts sum to more than $n_volumes. Attribution is at the
+    <strong>volume footprint</strong>, never the individual sheet: a sheet that fails to place has
+    no coordinates, so a per-sheet map would drop exactly the failures it exists to show and
+    report every neighborhood at 100% success.
+  </p>
+  <p class="note">
+    $n_unlocated volumes ($pct_unlocated%) have no known footprint at all — no volunteer pins, no
+    published layer, no bbox in the city config, and the LOC catalogue records no coordinates.
+    <strong>A volume's neighborhood is not known until someone places it</strong>, so this view
+    describes the placed corpus plus the fraction of the open work that a human has already
+    located; the rest sits in "$unlocated_label".
+  </p>
+  <div class="legend">$legend</div>
+  $area_rows
+
+  <h2>Every volume</h2>
+  <div class="scroll">
+    <table>
+      <tr>
+        <th>volume</th>
+        <th>year</th>
+        <th>coverage state</th>
+        <th>processed here</th>
+        <th>sheets</th>
+        <th>human pins</th>
+        <th>community areas</th>
+        <th>footprint from</th>
+      </tr>
+      $volume_rows
+    </table>
+  </div>
+
+  <footer>
+    <p>
+      <strong>This is not an accuracy report.</strong> Accuracy means residuals against human
+      GCPs, and a volume can only be scored where human pins and scanned pixels meet — across this
+      corpus that is $scoreable_phrase, because the image census fetched scans for precisely the
+      volumes nobody had pinned. A per-neighborhood "median error" built on that would be a number
+      from a handful of volumes wearing the clothes of a number from $n_volumes. Per-volume
+      accuracy lives in <code>autogeoref report</code>, beside the counts of what it does and does
+      not cover.
+    </p>
+    <p>Regenerate: <code>autogeoref dashboard --city configs/chicago/chicago.toml</code>.</p>
+  </footer>
+</main>

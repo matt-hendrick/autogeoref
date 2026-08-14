@@ -1,0 +1,159 @@
+{
+  "page": "105",
+  "n_streets": 8,
+  "n_candidates": 15,
+  "n_inliers": 6,
+  "rotation_deg": 1.36,
+  "auto_residuals_m": [
+    1.49,
+    0.52,
+    1.51,
+    2.27,
+    0.26,
+    1.83
+  ],
+  "inlier_streets": [
+    [
+      "E. 84TH ST.",
+      "MACKINAW AV."
+    ],
+    [
+      "E. 84TH ST.",
+      "GREEN BAY AV."
+    ],
+    [
+      "E. 85TH ST.",
+      "MACKINAW AV."
+    ],
+    [
+      "E. 85TH ST.",
+      "GREEN BAY AV."
+    ],
+    [
+      "MACKINAW AV.",
+      "E. 86TH ST."
+    ],
+    [
+      "GREEN BAY AV.",
+      "E. 86TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            429,
+            283
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 84TH ST. x MACKINAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54302881200101,
+            41.74296910781442
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2489,
+            283
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 84TH ST. x GREEN BAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54182192963451,
+            41.74298377916905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            429,
+            4191
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 85TH ST. x MACKINAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54299109036651,
+            41.7411511628653
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2489,
+            4191
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 85TH ST. x GREEN BAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5417812945272,
+            41.74116754108092
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            429,
+            8182
+          ],
+          "username": "autogeoref",
+          "note": "auto: MACKINAW AV. x E. 86TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54295744633606,
+            41.73932538735627
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2489,
+            8182
+          ],
+          "username": "autogeoref",
+          "note": "auto: GREEN BAY AV. x E. 86TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54174460259374,
+            41.73935885912537
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.029,
+    "dy_m": 3.506
+  }
+}

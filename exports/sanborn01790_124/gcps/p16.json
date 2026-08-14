@@ -1,0 +1,205 @@
+{
+  "page": "16",
+  "n_streets": 9,
+  "n_candidates": 24,
+  "n_inliers": 8,
+  "rotation_deg": 0.97,
+  "auto_residuals_m": [
+    4.1,
+    3.08,
+    1.17,
+    0.71,
+    2.94,
+    2.17,
+    2.48,
+    2.81
+  ],
+  "inlier_streets": [
+    [
+      "W. HOWARD",
+      "N. ASHLAND AV."
+    ],
+    [
+      "W. HOWARD",
+      "N. GREENVIEW AV."
+    ],
+    [
+      "W. BIRCHWOOD AV.",
+      "N. ASHLAND BLVD. (AV.)"
+    ],
+    [
+      "W. BIRCHWOOD AV.",
+      "N. GREENVIEW AV."
+    ],
+    [
+      "N. ASHLAND BLVD. (AV.)",
+      "W. FARGO AV."
+    ],
+    [
+      "N. ASHLAND BLVD. (AV.)",
+      "W. JARVIS AV."
+    ],
+    [
+      "N. GREENVIEW AV.",
+      "W. FARGO AV."
+    ],
+    [
+      "N. GREENVIEW AV.",
+      "W. JARVIS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            381,
+            504
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HOWARD x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6713480834674,
+            42.0193654996079
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5489,
+            504
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HOWARD x N. GREENVIEW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66826323382833,
+            42.01935706303193
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1937,
+            3204
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BIRCHWOOD AV. x N. ASHLAND BLVD. (AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67037427312455,
+            42.018125418373415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5489,
+            3204
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BIRCHWOOD AV. x N. GREENVIEW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66823171694732,
+            42.01815887703051
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1937,
+            5568
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND BLVD. (AV.) x W. FARGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67034642320272,
+            42.01704749039205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1937,
+            7941
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND BLVD. (AV.) x W. JARVIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67032998351593,
+            42.015985575101574
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5489,
+            5568
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GREENVIEW AV. x W. FARGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.668192473619,
+            42.017110540845465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5489,
+            7941
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GREENVIEW AV. x W. JARVIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66815738873576,
+            42.016041634574776
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.978,
+    "dy_m": -1.215
+  }
+}

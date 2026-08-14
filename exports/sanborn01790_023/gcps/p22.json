@@ -1,0 +1,142 @@
+{
+  "page": "22",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "RICE",
+      "N. WOOD"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. WOOD"
+    ],
+    [
+      "W. SUPERIOR",
+      "N. WOOD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4110,
+            641
+          ],
+          "username": "autogeoref",
+          "note": "auto: RICE x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67220445102146,
+            41.89690731449376
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4110,
+            2591
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67217312869164,
+            41.89599183395671
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4110,
+            4549
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67214166002728,
+            41.89507586861602
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67429986874596,
+            41.89678347616126
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5276,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67150225190949,
+            41.89682964738269
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67422238009321,
+            41.894182017503425
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6871,
+    "separation_ratio": 1.087,
+    "best_offset_m": 46.0,
+    "n_junctions": 22
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "page": "99",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 7,
+  "rotation_deg": 1.48,
+  "auto_residuals_m": [
+    2.67,
+    0.65,
+    1.84,
+    1.95,
+    4.72,
+    3.14,
+    4.81
+  ],
+  "inlier_streets": [
+    [
+      "GRACE",
+      "N. SPAULDING AV."
+    ],
+    [
+      "GRACE",
+      "N. KEDZIE AV."
+    ],
+    [
+      "GRACE",
+      "N. SAWYER AV."
+    ],
+    [
+      "N. SPAULDING AV.",
+      "WAVELAND AV."
+    ],
+    [
+      "WAVELAND AV.",
+      "N. KEDZIE AV."
+    ],
+    [
+      "WAVELAND AV.",
+      "N. SAWYER AV."
+    ],
+    [
+      "N. KEDZIE AV.",
+      "N. ADDISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            432,
+            221
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACE x N. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71036090044903,
+            41.95026531205173
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4290,
+            221
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACE x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70791505162862,
+            41.95029876984841
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2368,
+            221
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACE x N. SAWYER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70914029003399,
+            41.95028306428962
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            432,
+            4095
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPAULDING AV. x WAVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71031684609295,
+            41.94844163234113
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4290,
+            4095
+          ],
+          "username": "autogeoref",
+          "note": "auto: WAVELAND AV. x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7078679351809,
+            41.94847014730393
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2368,
+            4095
+          ],
+          "username": "autogeoref",
+          "note": "auto: WAVELAND AV. x N. SAWYER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70909040019639,
+            41.94845731677585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4290,
+            8168
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE AV. x N. ADDISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70781935017996,
+            41.94664869420966
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.286,
+    "dy_m": 2.658
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "page": "38",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "rotation_deg": 0.99,
+  "auto_residuals_m": [
+    7.65,
+    4.7,
+    14.46,
+    0.25,
+    11.06,
+    1.13,
+    14.5
+  ],
+  "inlier_streets": [
+    [
+      "W. TOUHY AV.",
+      "N. CLARK"
+    ],
+    [
+      "W. ESTES AV.",
+      "N. CLARK"
+    ],
+    [
+      "W. ESTES AV.",
+      "N. PAULINA"
+    ],
+    [
+      "N. CLARK",
+      "W. GREENLEAF AV."
+    ],
+    [
+      "N. CLARK",
+      "W. LUNT AV."
+    ],
+    [
+      "N. PAULINA",
+      "W. GREENLEAF AV."
+    ],
+    [
+      "N. PAULINA",
+      "W. LUNT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1314,
+            293
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TOUHY AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67466160762406,
+            42.012631957821036
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1314,
+            2893
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ESTES AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67446115957095,
+            42.01140899015637
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4652,
+            2893
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ESTES AV. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67234910135956,
+            42.01144804472313
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1314,
+            5596
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. GREENLEAF AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67425824289235,
+            42.01019586235952
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1314,
+            8249
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. LUNT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67398670527638,
+            42.00899031193267
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4652,
+            5596
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x W. GREENLEAF AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6723052140074,
+            42.01022880657063
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4652,
+            8249
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x W. LUNT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67226532677137,
+            42.00900965265491
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.634,
+    "dy_m": -0.501
+  }
+}

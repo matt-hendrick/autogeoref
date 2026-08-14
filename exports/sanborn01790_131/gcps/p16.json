@@ -1,0 +1,138 @@
+{
+  "page": "16",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "E. 101ST ST.",
+      "S. ESCANABA AV."
+    ],
+    [
+      "E. 102ND ST.",
+      "S. ESCANABA AV."
+    ],
+    [
+      "S. ESCANABA AV.",
+      "E. 103RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            593,
+            333
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 101ST ST. x S. ESCANABA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55368640968308,
+            41.71184557242472
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            593,
+            4029
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 102ND ST. x S. ESCANABA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55366298974619,
+            41.71002621107326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            593,
+            8106
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ESCANABA AV. x E. 103RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55364350156297,
+            41.70821293089365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            578,
+            838
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55367734073577,
+            41.711591405179924
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5199,
+            838
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55076040793031,
+            41.7115947672707
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            578,
+            7546
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55367080373937,
+            41.70843080399534
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

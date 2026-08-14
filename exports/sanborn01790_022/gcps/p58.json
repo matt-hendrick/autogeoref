@@ -1,0 +1,133 @@
+{
+  "page": "58",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.15,
+  "auto_residuals_m": [
+    0.47,
+    1.04,
+    0.49,
+    1.01,
+    0.44
+  ],
+  "inlier_streets": [
+    [
+      "WABANSIA AV.",
+      "N. OAKLEY AV."
+    ],
+    [
+      "WABANSIA AV.",
+      "N. LEAVITT"
+    ],
+    [
+      "N. OAKLEY AV.",
+      "W. NORTH AV."
+    ],
+    [
+      "N. LEAVITT",
+      "CATON ST."
+    ],
+    [
+      "N. LEAVITT",
+      "W. NORTH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            875,
+            1293
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68484584107837,
+            41.912609368368024
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4903,
+            1293
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68239434826403,
+            41.912653425286074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            875,
+            6270
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68478216828716,
+            41.91035748123603
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4903,
+            2979
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x CATON ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68238038034696,
+            41.911876742725916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4903,
+            6270
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6823465782277,
+            41.91039347150648
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

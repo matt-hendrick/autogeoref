@@ -1,0 +1,142 @@
+{
+  "page": "82S",
+  "n_streets": 7,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "POLK",
+      "FEDERAL (CUSTOM HOUSE CT.)"
+    ],
+    [
+      "POLK",
+      "PLYMOUTH CT."
+    ],
+    [
+      "POLK",
+      "STATE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            873,
+            1025
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x FEDERAL (CUSTOM HOUSE CT.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62960382953446,
+            41.8722762946191
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2482,
+            1025
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x PLYMOUTH CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62863247489031,
+            41.8722883660652
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4247,
+            1025
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62754038268264,
+            41.872302615173936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62978173065673,
+            41.87241024948125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5264,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62693228721827,
+            41.87243825448831
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62973464367097,
+            41.869753694664006
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4443,
+    "separation_ratio": 1.007,
+    "best_offset_m": 5.3,
+    "n_junctions": 31
+  }
+}

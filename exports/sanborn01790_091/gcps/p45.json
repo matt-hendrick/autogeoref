@@ -1,0 +1,182 @@
+{
+  "page": "45",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "rotation_deg": 1.39,
+  "auto_residuals_m": [
+    1.79,
+    4.44,
+    6.15,
+    9.2,
+    0.22,
+    3.2,
+    15.54
+  ],
+  "inlier_streets": [
+    [
+      "W. CHURCHILL",
+      "N. HOYNE AV."
+    ],
+    [
+      "W. CHURCHILL",
+      "N. DAMEN AV. (N. ROBEY)"
+    ],
+    [
+      "N. HOYNE AV.",
+      "WILLOW (PETERSON)"
+    ],
+    [
+      "N. HOYNE AV.",
+      "ST. PAUL AV. (WILMOT AV.)"
+    ],
+    [
+      "N. DAMEN AV. (N. ROBEY)",
+      "WILLOW (PETERSON)"
+    ],
+    [
+      "N. DAMEN AV. (N. ROBEY)",
+      "ST. PAUL AV. (WILMOT AV.)"
+    ],
+    [
+      "ST. PAUL AV. (WILMOT AV.)",
+      "WILMOT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            930,
+            2015
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHURCHILL x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68003080846378,
+            41.914660939855025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4891,
+            2015
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHURCHILL x N. DAMEN AV. (N. ROBEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67757202698822,
+            41.914706613099376
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            930,
+            4000
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x WILLOW (PETERSON)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68001503328793,
+            41.913780585535214
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            930,
+            5680
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x ST. PAUL AV. (WILMOT AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67999642896483,
+            41.913018653793365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4891,
+            4000
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAMEN AV. (N. ROBEY) x WILLOW (PETERSON)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67755512473705,
+            41.913818099499416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4891,
+            5680
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAMEN AV. (N. ROBEY) x ST. PAUL AV. (WILMOT AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67753943998412,
+            41.91306614563697
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            564,
+            5680
+          ],
+          "username": "autogeoref",
+          "note": "auto: ST. PAUL AV. (WILMOT AV.) x WILMOT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67999642896483,
+            41.913018653793365
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.884,
+    "dy_m": -1.362
+  }
+}

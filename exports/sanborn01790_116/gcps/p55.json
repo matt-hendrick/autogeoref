@@ -1,0 +1,182 @@
+{
+  "page": "55",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "rotation_deg": 0.98,
+  "auto_residuals_m": [
+    1.24,
+    0.78,
+    0.83,
+    0.59,
+    0.51,
+    0.94,
+    0.66
+  ],
+  "inlier_streets": [
+    [
+      "LAWRENCE AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "LAWRENCE AV.",
+      "N. KEATING AV."
+    ],
+    [
+      "LAWRENCE AV.",
+      "N. KILPATRICK AV."
+    ],
+    [
+      "LELAND AV.",
+      "N. KEATING AV."
+    ],
+    [
+      "LELAND AV.",
+      "N. KILPATRICK AV."
+    ],
+    [
+      "WILSON AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "WILSON AV.",
+      "N. KILPATRICK AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            855,
+            327
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74769602319572,
+            41.96803506794587
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2787,
+            327
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x N. KEATING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74651777757862,
+            41.96804934954524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4773,
+            327
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74528645591583,
+            41.9680606740781
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2787,
+            4254
+          ],
+          "username": "autogeoref",
+          "note": "auto: LELAND AV. x N. KEATING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74645333177848,
+            41.966225471750455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4773,
+            4254
+          ],
+          "username": "autogeoref",
+          "note": "auto: LELAND AV. x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7452171140774,
+            41.96623666326044
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            855,
+            8187
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILSON AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74759462819087,
+            41.96437299155416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4773,
+            8187
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILSON AV. x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74515665441298,
+            41.964409520637034
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.869,
+    "dy_m": 0.95
+  }
+}

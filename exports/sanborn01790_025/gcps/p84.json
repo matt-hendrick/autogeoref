@@ -1,0 +1,188 @@
+{
+  "page": "84",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 3,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. 21ST ST.",
+      "S. HALSTED"
+    ],
+    [
+      "W. 21ST ST.",
+      "S. HALSTED"
+    ],
+    [
+      "S. HALSTED",
+      "W. 21ST PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1761,
+            3266
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64653757410035,
+            41.85420129149966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1761,
+            3790
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64652993828058,
+            41.85395006378395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1761,
+            4859
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64651640086674,
+            41.85345346477931
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64728595253348,
+            41.85532871837234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5252,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64443894166787,
+            41.855371551273
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64721379311018,
+            41.85266780805125
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7887,
+    "separation_ratio": 1.25,
+    "best_offset_m": 1.8,
+    "n_junctions": 25
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 6,
+      "votable": 6,
+      "in_block": 4,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 11.7,
+          "addr_diff": 3.9
+        },
+        {
+          "perp_m": 12.0,
+          "addr_diff": 3.6
+        },
+        {
+          "perp_m": 12.3,
+          "addr_diff": 3.4
+        },
+        {
+          "perp_m": 13.7,
+          "addr_diff": 4.0
+        },
+        {
+          "perp_m": 58.4,
+          "addr_diff": 14.0
+        },
+        {
+          "perp_m": 57.3,
+          "addr_diff": 40.0
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

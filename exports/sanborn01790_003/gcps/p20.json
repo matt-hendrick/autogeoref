@@ -1,0 +1,251 @@
+{
+  "page": "20",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 10,
+  "rotation_deg": 0.87,
+  "auto_residuals_m": [
+    2.1,
+    2.4,
+    1.44,
+    1.27,
+    0.71,
+    3.21,
+    3.29,
+    0.74,
+    3.14,
+    2.78
+  ],
+  "inlier_streets": [
+    [
+      "HIRSCH (WEAGE AV.)",
+      "N. SPAULDING AV."
+    ],
+    [
+      "HIRSCH (WEAGE AV.)",
+      "N. KEDZIE AV."
+    ],
+    [
+      "EVERGREEN AV. (BARTLETT AV.)",
+      "N. SPAULDING AV."
+    ],
+    [
+      "EVERGREEN AV. (BARTLETT AV.)",
+      "N. KEDZIE AV."
+    ],
+    [
+      "N. SPAULDING AV.",
+      "POTOMAC AV. (NORWOOD AV.)"
+    ],
+    [
+      "N. SPAULDING AV.",
+      "CRYSTAL (EBERHART AV.)"
+    ],
+    [
+      "N. SPAULDING AV.",
+      "W. DIVISION"
+    ],
+    [
+      "POTOMAC AV. (NORWOOD AV.)",
+      "N. KEDZIE AV."
+    ],
+    [
+      "N. KEDZIE AV.",
+      "CRYSTAL (EBERHART AV.)"
+    ],
+    [
+      "N. KEDZIE AV.",
+      "W. DIVISION"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            872,
+            347
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH (WEAGE AV.) x N. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70935376530586,
+            41.90642606645232
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4869,
+            347
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH (WEAGE AV.) x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70690740405274,
+            41.9064554891852
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            872,
+            2285
+          ],
+          "username": "autogeoref",
+          "note": "auto: EVERGREEN AV. (BARTLETT AV.) x N. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70932565892495,
+            41.905520807995444
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4869,
+            2285
+          ],
+          "username": "autogeoref",
+          "note": "auto: EVERGREEN AV. (BARTLETT AV.) x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.706881220457,
+            41.90554940175705
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            872,
+            4284
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPAULDING AV. x POTOMAC AV. (NORWOOD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70929531220848,
+            41.904616242759595
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            872,
+            6240
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPAULDING AV. x CRYSTAL (EBERHART AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7092656608612,
+            41.90370975168129
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            872,
+            8366
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPAULDING AV. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70923681385443,
+            41.90278595499611
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4869,
+            4284
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. (NORWOOD AV.) x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7068522260894,
+            41.904643617453246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4869,
+            6240
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE AV. x CRYSTAL (EBERHART AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70682230638886,
+            41.90373763695407
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4869,
+            8366
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE AV. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70679329135042,
+            41.902810019085265
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.433,
+    "dy_m": -3.275
+  }
+}

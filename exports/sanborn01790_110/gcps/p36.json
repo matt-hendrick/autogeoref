@@ -1,0 +1,205 @@
+{
+  "page": "36",
+  "n_streets": 7,
+  "n_candidates": 12,
+  "n_inliers": 8,
+  "rotation_deg": 0.91,
+  "auto_residuals_m": [
+    1.23,
+    1.56,
+    0.71,
+    11.14,
+    10.3,
+    1.71,
+    10.61,
+    10.82
+  ],
+  "inlier_streets": [
+    [
+      "S. CAMPBELL AV.",
+      "W. 50TH ST."
+    ],
+    [
+      "S. CAMPBELL AV.",
+      "W. 51ST ST."
+    ],
+    [
+      "W. 50TH ST.",
+      "S. ARTESIAN AV."
+    ],
+    [
+      "W. 50TH ST.",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. 50TH ST.",
+      "S. WESTERN AV. BLVD."
+    ],
+    [
+      "S. ARTESIAN AV.",
+      "W. 51ST ST."
+    ],
+    [
+      "S. WESTERN AV.",
+      "W. 51ST ST."
+    ],
+    [
+      "S. WESTERN AV. BLVD.",
+      "W. 51ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1044,
+            4239
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CAMPBELL AV. x W. 50TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68667414218385,
+            41.80293433908528
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1044,
+            8215
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CAMPBELL AV. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68662385934739,
+            41.80111244181318
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2940,
+            4239
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 50TH ST. x S. ARTESIAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68547534476771,
+            41.80295338567649
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4801,
+            4239
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 50TH ST. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68421526985554,
+            41.80296222842508
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5109,
+            4239
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 50TH ST. x S. WESTERN AV. BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68421526985554,
+            41.80296222842508
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2940,
+            8215
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ARTESIAN AV. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68541074744546,
+            41.801132448660546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4801,
+            8215
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WESTERN AV. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68416733233461,
+            41.801144626167265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5109,
+            8215
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WESTERN AV. BLVD. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68416733233461,
+            41.801144626167265
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 6.312,
+    "dy_m": -0.232
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "page": "13",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N. LEAVITT",
+      "LYNDALE"
+    ],
+    [
+      "N. HAMILTON AV.",
+      "LYNDALE"
+    ],
+    [
+      "N. HOYNE AV.",
+      "LYNDALE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            829,
+            6696
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x LYNDALE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68268818429277,
+            41.922678793967826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2973,
+            6696
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HAMILTON AV. x LYNDALE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68147891197597,
+            41.92269787940787
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4933,
+            6696
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x LYNDALE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68027395688496,
+            41.922714301318614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68298568722183,
+            41.92539047988615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5260,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68012315959037,
+            41.92543735606182
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68290674854323,
+            41.92272202242173
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.48,
+    "separation_ratio": 1.04,
+    "best_offset_m": 33.4,
+    "n_junctions": 25
+  }
+}

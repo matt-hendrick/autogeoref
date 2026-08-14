@@ -1,0 +1,109 @@
+{
+  "page": "21",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.25,
+  "auto_residuals_m": [
+    0.18,
+    0.13,
+    0.15,
+    0.18
+  ],
+  "inlier_streets": [
+    [
+      "W. GOETHE",
+      "N. WELLS"
+    ],
+    [
+      "W. GOETHE",
+      "N. CLARK"
+    ],
+    [
+      "W. DIVISION",
+      "N. WELLS"
+    ],
+    [
+      "W. DIVISION",
+      "N. CLARK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            474,
+            1651
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GOETHE x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6345420667107,
+            41.90572931244401
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5498,
+            1651
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GOETHE x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63150748320052,
+            41.90578071932414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            474,
+            5730
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63447783289097,
+            41.903853459341754
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5498,
+            5730
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63144510788678,
+            41.903900857655486
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

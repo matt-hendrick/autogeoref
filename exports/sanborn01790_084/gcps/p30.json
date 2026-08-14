@@ -1,0 +1,123 @@
+{
+  "page": "30",
+  "n_streets": 8,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. GERMANIA PL.",
+      "N. CLARK"
+    ],
+    [
+      "W. SCHILLER",
+      "N. WELLS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5260,
+            690
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GERMANIA PL. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6316404289992,
+            41.91038961041676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            247,
+            6644
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SCHILLER x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63460092140264,
+            41.907681242809744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63448132093275,
+            41.9103407584958
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5158,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63169809403509,
+            41.91038383868843
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63440735155025,
+            41.90769408324
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 0.534,
+    "dy_m": 2.27
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.5633,
+    "separation_ratio": 0.999,
+    "best_offset_m": 77.2,
+    "n_junctions": 4
+  }
+}

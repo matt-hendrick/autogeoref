@@ -1,0 +1,159 @@
+{
+  "page": "4215",
+  "n_streets": 13,
+  "n_candidates": 20,
+  "n_inliers": 6,
+  "rotation_deg": 0.65,
+  "auto_residuals_m": [
+    3.31,
+    2.04,
+    4.58,
+    3.03,
+    1.5,
+    1.8
+  ],
+  "inlier_streets": [
+    [
+      "E. 115TH ST.",
+      "S. INDIANA AV."
+    ],
+    [
+      "E. 115TH ST.",
+      "S. PRAIRIE AV."
+    ],
+    [
+      "E. KENSINGTON AV.",
+      "S. INDIANA AV."
+    ],
+    [
+      "E. KENSINGTON AV.",
+      "S. PRAIRIE AV."
+    ],
+    [
+      "S. INDIANA AV.",
+      "E. 116TH ST."
+    ],
+    [
+      "S. PRAIRIE AV.",
+      "E. 116TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            359,
+            249
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 115TH ST. x S. INDIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6180522475269,
+            41.68539580063101
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2288,
+            249
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 115TH ST. x S. PRAIRIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61680187635041,
+            41.68540575812294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            359,
+            3200
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. KENSINGTON AV. x S. INDIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61795098469831,
+            41.68397769299201
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2288,
+            3200
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. KENSINGTON AV. x S. PRAIRIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61677622255253,
+            41.68398733215479
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            359,
+            6195
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. INDIANA AV. x E. 116TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61794431279917,
+            41.682597308735225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2288,
+            6195
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PRAIRIE AV. x E. 116TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.616736164895,
+            41.68260849086793
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.259,
+    "dy_m": 3.068
+  }
+}

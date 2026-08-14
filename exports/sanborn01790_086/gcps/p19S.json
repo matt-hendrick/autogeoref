@@ -1,0 +1,109 @@
+{
+  "page": "19S",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 0.18,
+  "auto_residuals_m": [
+    0.39,
+    0.34,
+    0.34,
+    0.38
+  ],
+  "inlier_streets": [
+    [
+      "W. RANDOLPH",
+      "N. WACKER DR."
+    ],
+    [
+      "W. RANDOLPH",
+      "N. FRANKLIN"
+    ],
+    [
+      "N. WACKER DR.",
+      "W. WASHINGTON"
+    ],
+    [
+      "N. FRANKLIN",
+      "W. WASHINGTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1486,
+            2241
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. WACKER DR."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63707003281037,
+            41.88446149439567
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4133,
+            2241
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63537917986328,
+            41.88446483376496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1486,
+            5074
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WACKER DR. x W. WASHINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63704625010594,
+            41.883200655470134
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4133,
+            5074
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANKLIN x W. WASHINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63534261021461,
+            41.883205440698795
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

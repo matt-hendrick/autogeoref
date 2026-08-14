@@ -1,0 +1,141 @@
+{
+  "page": "96",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. TAYLOR",
+      "S. HALSTED"
+    ],
+    [
+      "S. NEWBERRY",
+      "W. ROOSEVELT ROAD (W. 12TH ST.)"
+    ],
+    [
+      "S. HALSTED",
+      "W. ROOSEVELT ROAD (W. 12TH ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5326,
+            877
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TAYLOR x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6469611597428,
+            41.869600135883296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3738,
+            6186
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. NEWBERRY x W. ROOSEVELT ROAD (W. 12TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64794789980034,
+            41.8671374819849
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5326,
+            6186
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. ROOSEVELT ROAD (W. 12TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64691834942573,
+            41.867154100518164
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64989301819391,
+            41.86959840091767
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5279,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64702833448821,
+            41.86964324348804
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64981784271242,
+            41.86693526024591
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.2827,
+    "separation_ratio": 0.946,
+    "best_offset_m": 85.4,
+    "n_junctions": 31
+  }
+}

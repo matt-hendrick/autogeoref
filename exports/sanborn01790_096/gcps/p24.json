@@ -1,0 +1,159 @@
+{
+  "page": "24",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 0.77,
+  "auto_residuals_m": [
+    3.65,
+    3.64,
+    5.0,
+    1.49,
+    6.9,
+    10.31
+  ],
+  "inlier_streets": [
+    [
+      "GEORGE",
+      "N. CHRISTIANA AV."
+    ],
+    [
+      "GEORGE",
+      "N. SPAULDING AV."
+    ],
+    [
+      "N. CHRISTIANA AV.",
+      "W. DIVERSEY AV."
+    ],
+    [
+      "N. SPAULDING AV.",
+      "W. DIVERSEY AV."
+    ],
+    [
+      "N. KIMBALL AV.",
+      "W. DIVERSEY AV."
+    ],
+    [
+      "MILWAUKEE AV.",
+      "W. DIVERSEY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3478,
+            2353
+          ],
+          "username": "autogeoref",
+          "note": "auto: GEORGE x N. CHRISTIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71113776203711,
+            41.93384372297212
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5499,
+            2353
+          ],
+          "username": "autogeoref",
+          "note": "auto: GEORGE x N. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70993063242722,
+            41.933873012354276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3478,
+            6356
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CHRISTIANA AV. x W. DIVERSEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7110908611927,
+            41.93199411504443
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5499,
+            6356
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPAULDING AV. x W. DIVERSEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70988734515427,
+            41.93201212921272
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1422,
+            6356
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KIMBALL AV. x W. DIVERSEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71227482806398,
+            41.93199259000375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1150,
+            6356
+          ],
+          "username": "autogeoref",
+          "note": "auto: MILWAUKEE AV. x W. DIVERSEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71227482806398,
+            41.93199259000375
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.419,
+    "dy_m": 1.423
+  }
+}

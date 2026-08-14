@@ -1,0 +1,142 @@
+{
+  "page": "72",
+  "n_streets": 8,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. RANDOLPH",
+      "S. DESPLAINES"
+    ],
+    [
+      "W. WASHINGTON",
+      "S. DESPLAINES"
+    ],
+    [
+      "S. DESPLAINES",
+      "W. MADISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3379,
+            713
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x S. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6442056451514,
+            41.88442801334905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3379,
+            3480
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON x S. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64416613025985,
+            41.88316527748311
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3379,
+            6423
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DESPLAINES x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6441272357135,
+            41.88182012116629
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64589369190443,
+            41.88438816408385
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5254,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64305956275723,
+            41.8844264854334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64583016613757,
+            41.88178405432709
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7516,
+    "separation_ratio": 1.058,
+    "best_offset_m": 37.1,
+    "n_junctions": 14
+  }
+}

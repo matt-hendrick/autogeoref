@@ -1,0 +1,163 @@
+{
+  "page": "54",
+  "n_streets": 8,
+  "n_candidates": 16,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "PALMER",
+      "N. LONG AV."
+    ],
+    [
+      "PALMER",
+      "N. LOREL AV."
+    ],
+    [
+      "PALMER",
+      "N. LOCKWOOD AV."
+    ],
+    [
+      "N. LOCKWOOD AV.",
+      "DICKENS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            480,
+            217
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER x N. LONG AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76094882890273,
+            41.92039281190156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2490,
+            217
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER x N. LOREL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75972223936691,
+            41.92040783582382
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4405,
+            217
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER x N. LOCKWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75849566433676,
+            41.920424949069805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4405,
+            4112
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LOCKWOOD AV. x DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7584400298561,
+            41.918633767288874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76086182292683,
+            41.92010255374981
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5312,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75794150194719,
+            41.92014032564018
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76078867956703,
+            41.91697155222795
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6944,
+    "separation_ratio": 1.107,
+    "best_offset_m": 4.6,
+    "n_junctions": 21
+  }
+}

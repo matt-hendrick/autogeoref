@@ -1,0 +1,174 @@
+{
+  "page": "41",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "E. 87TH ST.",
+      "S. ESSEX AV."
+    ],
+    [
+      "E. 87TH ST.",
+      "S. KINGSTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3342,
+            325
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 87TH ST. x S. ESSEX AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56361884848636,
+            41.737226529780344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5157,
+            325
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 87TH ST. x S. KINGSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56239778889588,
+            41.73724295741637
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            839
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56531149445277,
+            41.73696195762152
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5224,
+            839
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56238885987162,
+            41.73700191829053
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            7547
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5652341329129,
+            41.73381132171157
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5863,
+    "separation_ratio": 1.038,
+    "best_offset_m": 41.0,
+    "n_junctions": 7
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 8,
+      "votable": 8,
+      "in_block": 8,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 5.6,
+          "addr_diff": 13.9
+        },
+        {
+          "perp_m": 7.2,
+          "addr_diff": 7.3
+        },
+        {
+          "perp_m": 7.2,
+          "addr_diff": 5.8
+        },
+        {
+          "perp_m": 7.2,
+          "addr_diff": 6.8
+        },
+        {
+          "perp_m": 10.0,
+          "addr_diff": 1.7
+        },
+        {
+          "perp_m": 7.5,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 5.7,
+          "addr_diff": 5.3
+        },
+        {
+          "perp_m": 1.6,
+          "addr_diff": 7.4
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

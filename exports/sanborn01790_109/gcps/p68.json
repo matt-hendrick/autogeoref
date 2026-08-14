@@ -1,0 +1,182 @@
+{
+  "page": "68",
+  "n_streets": 9,
+  "n_candidates": 12,
+  "n_inliers": 7,
+  "rotation_deg": 1.15,
+  "auto_residuals_m": [
+    11.88,
+    1.0,
+    1.64,
+    7.39,
+    20.01,
+    6.47,
+    6.55
+  ],
+  "inlier_streets": [
+    [
+      "W. PERSHING (W. 39TH) ST. ROAD",
+      "S. ROCKWELL ST."
+    ],
+    [
+      "W. 39TH PL.",
+      "S. TALMAN AV."
+    ],
+    [
+      "W. 39TH PL.",
+      "S. ROCKWELL ST."
+    ],
+    [
+      "W. 40TH ST.",
+      "S. TALMAN AV."
+    ],
+    [
+      "W. 40TH ST.",
+      "S. ROCKWELL ST."
+    ],
+    [
+      "S. TALMAN AV.",
+      "W. 40TH PL."
+    ],
+    [
+      "S. ROCKWELL ST.",
+      "W. 40TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5194,
+            225
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PERSHING (W. 39TH) ST. ROAD x S. ROCKWELL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68971727203954,
+            41.82290807919556
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3416,
+            2045
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 39TH PL. x S. TALMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69083077423753,
+            41.82198059050318
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5194,
+            2045
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 39TH PL. x S. ROCKWELL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68970071040101,
+            41.822001766290136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3416,
+            3708
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 40TH ST. x S. TALMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69080469055194,
+            41.82115960499223
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5194,
+            3708
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 40TH ST. x S. ROCKWELL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68967302397058,
+            41.821092017643124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3416,
+            7233
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. TALMAN AV. x W. 40TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69076108506212,
+            41.8196303397258
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5194,
+            7233
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROCKWELL ST. x W. 40TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68963397661925,
+            41.81964773420358
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.089,
+    "dy_m": 3.742
+  }
+}

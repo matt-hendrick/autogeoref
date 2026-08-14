@@ -1,0 +1,109 @@
+{
+  "page": "2",
+  "n_streets": 10,
+  "n_candidates": 22,
+  "n_inliers": 4,
+  "rotation_deg": 0.92,
+  "auto_residuals_m": [
+    0.5,
+    0.5,
+    0.48,
+    0.45
+  ],
+  "inlier_streets": [
+    [
+      "W. BELMONT AV.",
+      "N. HAMLIN AV."
+    ],
+    [
+      "W. BELMONT AV.",
+      "N. RIDGEWAY AV."
+    ],
+    [
+      "N. AVERS AV.",
+      "W. WELLINGTON AV."
+    ],
+    [
+      "N. HAMLIN AV.",
+      "W. WELLINGTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3342,
+            181
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELMONT AV. x N. HAMLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7218721032678,
+            41.939160743658995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5158,
+            181
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELMONT AV. x N. RIDGEWAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72069358128232,
+            41.939173929087175
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2683,
+            8304
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AVERS AV. x W. WELLINGTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72341248055244,
+            41.93546709388493
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4552,
+            8304
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HAMLIN AV. x W. WELLINGTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72218218441894,
+            41.93548276277556
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

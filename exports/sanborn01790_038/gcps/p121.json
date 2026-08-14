@@ -1,0 +1,132 @@
+{
+  "page": "121",
+  "n_streets": 9,
+  "n_candidates": 9,
+  "n_inliers": 5,
+  "rotation_deg": 0.77,
+  "auto_residuals_m": [
+    1.29,
+    2.47,
+    2.13,
+    0.91,
+    1.73
+  ],
+  "inlier_streets": [
+    [
+      "ROSCOE",
+      "N. KEDZIE AV."
+    ],
+    [
+      "N. KEDZIE AV.",
+      "SCHOOL ST."
+    ],
+    [
+      "N. KEDZIE AV.",
+      "BELMONT AV."
+    ],
+    [
+      "BELMONT AV.",
+      "N. SPAULDING AV."
+    ],
+    [
+      "BELMONT AV.",
+      "N. SAWYER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4650,
+            370
+          ],
+          "username": "autogeoref",
+          "note": "auto: ROSCOE x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70771609916235,
+            41.94273305816179
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4650,
+            3895
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE AV. x SCHOOL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70766994981294,
+            41.94103811459051
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4650,
+            7462
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE AV. x BELMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70769774548896,
+            41.93933099121332
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            753,
+            7462
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AV. x N. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71005093139222,
+            41.939305832184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2709,
+            7462
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AV. x N. SAWYER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7088407512184,
+            41.93931962527136
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

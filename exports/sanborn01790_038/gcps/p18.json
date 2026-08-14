@@ -1,0 +1,132 @@
+{
+  "page": "18",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 0.88,
+  "auto_residuals_m": [
+    0.73,
+    0.76,
+    0.23,
+    1.25,
+    1.01
+  ],
+  "inlier_streets": [
+    [
+      "ARGYLE",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "ARGYLE",
+      "DRAKE AV."
+    ],
+    [
+      "N. CENTRAL PARK AV.",
+      "LAWRENCE AV."
+    ],
+    [
+      "DRAKE AV.",
+      "LAWRENCE AV."
+    ],
+    [
+      "N. ST. LOUIS AV.",
+      "LAWRENCE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1331,
+            200
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARGYLE x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71835457661555,
+            41.97199238344314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3351,
+            200
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARGYLE x DRAKE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71713224362159,
+            41.972006882083384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1331,
+            8155
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL PARK AV. x LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71825495927206,
+            41.968348406927326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3351,
+            8155
+          ],
+          "username": "autogeoref",
+          "note": "auto: DRAKE AV. x LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71703245053865,
+            41.96836379690155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5319,
+            8155
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ST. LOUIS AV. x LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7158083170761,
+            41.96837617585243
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

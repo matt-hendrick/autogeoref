@@ -1,0 +1,163 @@
+{
+  "page": "97",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 85TH ST.",
+      "OGLESBY AV."
+    ],
+    [
+      "E. 85TH ST.",
+      "YATES AV."
+    ],
+    [
+      "YATES AV.",
+      "E. 86TH ST."
+    ],
+    [
+      "YATES AV.",
+      "E. 87TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3201,
+            200
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 85TH ST. x OGLESBY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56728539518356,
+            41.740811648985144
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5268,
+            200
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 85TH ST. x YATES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56607262554739,
+            41.74082712881054
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5268,
+            4164
+          ],
+          "username": "autogeoref",
+          "note": "auto: YATES AV. x E. 86TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56604766619762,
+            41.73901228221726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5268,
+            8161
+          ],
+          "username": "autogeoref",
+          "note": "auto: YATES AV. x E. 87TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56602402218716,
+            41.73719308807767
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56898370552344,
+            41.740519030929555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56618947983439,
+            41.74055535918939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56891229868891,
+            41.737461015996175
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6125,
+    "separation_ratio": 1.672,
+    "best_offset_m": 4.0,
+    "n_junctions": 8
+  }
+}

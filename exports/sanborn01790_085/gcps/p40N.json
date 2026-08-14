@@ -1,0 +1,182 @@
+{
+  "page": "40N",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "rotation_deg": 1.23,
+  "auto_residuals_m": [
+    0.74,
+    1.31,
+    1.65,
+    0.98,
+    1.43,
+    1.51,
+    0.64
+  ],
+  "inlier_streets": [
+    [
+      "E. GRAND (E. INDIANA) AV.",
+      "N. RUSH"
+    ],
+    [
+      "E. GRAND (E. INDIANA) AV.",
+      "N. MICHIGAN AV. (PINE)"
+    ],
+    [
+      "E. GRAND (E. INDIANA) AV.",
+      "ST. CLAIR"
+    ],
+    [
+      "N. RUSH",
+      "E. ILLINOIS"
+    ],
+    [
+      "N. RUSH",
+      "E. HUBBARD (E. AUSTIN AV.)"
+    ],
+    [
+      "N. MICHIGAN AV. (PINE)",
+      "E. ILLINOIS"
+    ],
+    [
+      "E. ILLINOIS",
+      "ST. CLAIR"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            729,
+            1930
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. GRAND (E. INDIANA) AV. x N. RUSH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62536732915571,
+            41.89173970996756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2739,
+            1930
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. GRAND (E. INDIANA) AV. x N. MICHIGAN AV. (PINE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62415744060434,
+            41.89175833071952
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5144,
+            1930
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. GRAND (E. INDIANA) AV. x ST. CLAIR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62266524186039,
+            41.89178848037941
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            729,
+            3678
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RUSH x E. ILLINOIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6253435307435,
+            41.89094161236765
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            729,
+            5476
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RUSH x E. HUBBARD (E. AUSTIN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62530563371199,
+            41.890144188705925
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2739,
+            3678
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MICHIGAN AV. (PINE) x E. ILLINOIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62412514856858,
+            41.89096114064753
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5144,
+            3678
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. ILLINOIS x ST. CLAIR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62264631640566,
+            41.89098699491795
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.426,
+    "dy_m": 4.116
+  }
+}

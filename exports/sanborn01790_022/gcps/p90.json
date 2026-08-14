@@ -1,0 +1,189 @@
+{
+  "page": "90",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "BRADLEY ST.",
+      "NOBLE"
+    ],
+    [
+      "W. DIVISION",
+      "NOBLE"
+    ],
+    [
+      "RR UP HARVARD SUBDIVISION",
+      "W. DIVISION"
+    ],
+    [
+      "RR UP HARVARD SUBDIVISION",
+      "W. DIVISION"
+    ],
+    [
+      "RR UP HARVARD SUBDIVISION",
+      "W. DIVISION"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            864,
+            747
+          ],
+          "username": "autogeoref",
+          "note": "auto: BRADLEY ST. x NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66265326283458,
+            41.90520040879555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            864,
+            4648
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66261131176108,
+            41.90340043067735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4778,
+            4648
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR UP HARVARD SUBDIVISION x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66027323448316,
+            41.903451433694315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4778,
+            4648
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR UP HARVARD SUBDIVISION x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66031984108635,
+            41.90345053189403
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4778,
+            4648
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR UP HARVARD SUBDIVISION x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66036728132303,
+            41.903449613742886
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66289710971026,
+            41.90519304104683
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5250,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66003997013557,
+            41.905239843797695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6628181602506,
+            41.902523374442225
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 1.825,
+    "dy_m": -1.234
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5796,
+    "separation_ratio": 1.11,
+    "best_offset_m": 18.9,
+    "n_junctions": 22
+  }
+}

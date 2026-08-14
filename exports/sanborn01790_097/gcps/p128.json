@@ -1,0 +1,205 @@
+{
+  "page": "128",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 8,
+  "rotation_deg": 0.94,
+  "auto_residuals_m": [
+    1.77,
+    2.02,
+    1.76,
+    3.9,
+    2.48,
+    2.99,
+    1.33,
+    1.62
+  ],
+  "inlier_streets": [
+    [
+      "W. JACKSON BLVD.",
+      "S. WHIPPLE"
+    ],
+    [
+      "W. JACKSON BLVD.",
+      "S. ALBANY AV."
+    ],
+    [
+      "W. JACKSON BLVD.",
+      "S. SACRAMENTO AV."
+    ],
+    [
+      "S. WHIPPLE",
+      "W. VAN BUREN"
+    ],
+    [
+      "W. VAN BUREN",
+      "S. ALBANY AV."
+    ],
+    [
+      "W. VAN BUREN",
+      "S. SACRAMENTO AV."
+    ],
+    [
+      "S. ALBANY AV.",
+      "W. HARRISON"
+    ],
+    [
+      "S. SACRAMENTO AV.",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2942,
+            297
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD. x S. WHIPPLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70234578334711,
+            41.87737678067485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            998,
+            297
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD. x S. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70356813844566,
+            41.87736509670591
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            297
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD. x S. SACRAMENTO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70111063916349,
+            41.87739506374384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2942,
+            3354
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WHIPPLE x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70229600941595,
+            41.87593182238705
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            998,
+            3354
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70352936049942,
+            41.87591910343241
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            3354
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. SACRAMENTO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70108231840098,
+            41.875946930798484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            998,
+            8115
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ALBANY AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70346876657288,
+            41.87373359738017
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            8115
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SACRAMENTO AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70101543627942,
+            41.8737655975384
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.269,
+    "dy_m": 2.741
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "page": "16",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "LAKE",
+      "CLARK"
+    ],
+    [
+      "LAKE",
+      "DEARBORN"
+    ],
+    [
+      "DEARBORN",
+      "COUCH PL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1494,
+            2142
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAKE x CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63097594032088,
+            41.88574158397299
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4071,
+            2142
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAKE x DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62949751733571,
+            41.885745411248635
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4071,
+            3727
+          ],
+          "username": "autogeoref",
+          "note": "auto: DEARBORN x COUCH PL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62947672053768,
+            41.88511272320087
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63151841882849,
+            41.88634432578142
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5271,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62881652725187,
+            41.88638149910346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6314559967257,
+            41.88382966984946
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

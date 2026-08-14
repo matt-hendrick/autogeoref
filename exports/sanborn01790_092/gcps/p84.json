@@ -1,0 +1,159 @@
+{
+  "page": "84",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.11,
+  "auto_residuals_m": [
+    2.16,
+    1.53,
+    0.32,
+    8.4,
+    1.98,
+    6.89
+  ],
+  "inlier_streets": [
+    [
+      "WALNUT",
+      "N. OAKLEY"
+    ],
+    [
+      "WALNUT",
+      "N. LEAVITT"
+    ],
+    [
+      "W. LAKE",
+      "N. OAKLEY"
+    ],
+    [
+      "W. LAKE",
+      "N. LEAVITT"
+    ],
+    [
+      "MAYPOLE AV. (PARK)",
+      "N. OAKLEY"
+    ],
+    [
+      "MAYPOLE AV. (PARK)",
+      "N. LEAVITT"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            857,
+            1613
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. OAKLEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68409140525179,
+            41.88573189367235
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4978,
+            1613
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68164274192313,
+            41.88577126606147
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            857,
+            3819
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. OAKLEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68405207690154,
+            41.88469916198499
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4978,
+            3819
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68161257436437,
+            41.88478959724892
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            857,
+            5490
+          ],
+          "username": "autogeoref",
+          "note": "auto: MAYPOLE AV. (PARK) x N. OAKLEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68402907177149,
+            41.883917685858385
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4978,
+            5490
+          ],
+          "username": "autogeoref",
+          "note": "auto: MAYPOLE AV. (PARK) x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68158458086218,
+            41.883893525642485
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.15,
+    "dy_m": -1.817
+  }
+}

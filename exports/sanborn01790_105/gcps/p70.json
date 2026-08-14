@@ -1,0 +1,233 @@
+{
+  "page": "70",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. KINZIE",
+      "N. LOCKWOOD (N. 53RD AV.)"
+    ],
+    [
+      "W. KINZIE",
+      "N. LARAMIE (N. 52ND AV.)"
+    ],
+    [
+      "W. LAKE",
+      "N. LOCKWOOD (N. 53RD AV.)"
+    ],
+    [
+      "W. LAKE",
+      "LATROBE (CLARK AV.)"
+    ],
+    [
+      "FULTON (FRINK)",
+      "N. LOCKWOOD (N. 53RD AV.)"
+    ],
+    [
+      "FULTON (FRINK)",
+      "LATROBE (CLARK AV.)"
+    ],
+    [
+      "FULTON (FRINK)",
+      "N. LARAMIE (N. 52ND AV.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1322,
+            51
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. LOCKWOOD (N. 53RD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75780568056045,
+            41.88778672095814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5173,
+            51
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. LARAMIE (N. 52ND AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75535926283966,
+            41.88781957974086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1322,
+            1123
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. LOCKWOOD (N. 53RD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7577892037261,
+            41.88734272055664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3129,
+            1123
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x LATROBE (CLARK AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75655512963738,
+            41.887273684995186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1322,
+            4743
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON (FRINK) x N. LOCKWOOD (N. 53RD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75772819734117,
+            41.88562039209432
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3129,
+            4743
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON (FRINK) x LATROBE (CLARK AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7565036030898,
+            41.88563336128774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5173,
+            4743
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON (FRINK) x N. LARAMIE (N. 52ND AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75528191565512,
+            41.88564952663147
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7581854411451,
+            41.88741225584218
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5274,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75529101322584,
+            41.887447349999185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75811703104549,
+            41.884285173267564
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -2.474,
+    "dy_m": 1.612
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6318,
+    "separation_ratio": 1.026,
+    "best_offset_m": 7.2,
+    "n_junctions": 18
+  }
+}

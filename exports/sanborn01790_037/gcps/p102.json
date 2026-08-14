@@ -1,0 +1,120 @@
+{
+  "page": "102",
+  "n_streets": 5,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. MADISON",
+      "S. WALLER AV."
+    ],
+    [
+      "S. WALLER AV.",
+      "W. ADAMS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5568,
+            293
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. WALLER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76812153950834,
+            41.880194667922865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5568,
+            5611
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WALLER AV. x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76802995943164,
+            41.87770882807795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7711730840305,
+            41.87989066223386
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5252,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76828745647451,
+            41.87991722094743
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7711210966369,
+            41.87675936150009
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7835,
+    "separation_ratio": 1.194,
+    "best_offset_m": 5.6,
+    "n_junctions": 6
+  }
+}

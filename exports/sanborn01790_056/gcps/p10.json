@@ -1,0 +1,113 @@
+{
+  "page": "10",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "rotation_deg": 1.24,
+  "auto_residuals_m": [
+    4.08,
+    4.05,
+    3.93,
+    3.94
+  ],
+  "inlier_streets": [
+    [
+      "W. 87TH ST.",
+      "S. PEORIA"
+    ],
+    [
+      "W. 87TH ST.",
+      "S. SANGAMON"
+    ],
+    [
+      "W. 88TH ST.",
+      "S. SANGAMON"
+    ],
+    [
+      "W. 88TH ST.",
+      "S. VINCENNES"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3217,
+            364
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 87TH ST. x S. PEORIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64606244495177,
+            41.736029155607326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1282,
+            364
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 87TH ST. x S. SANGAMON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64725447292001,
+            41.73601149655091
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1282,
+            4137
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 88TH ST. x S. SANGAMON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64721393660763,
+            41.734189828765516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3276,
+            4137
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 88TH ST. x S. VINCENNES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64583977048692,
+            41.7342134175505
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.995,
+    "dy_m": -1.311
+  }
+}

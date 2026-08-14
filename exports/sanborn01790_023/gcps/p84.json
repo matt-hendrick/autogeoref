@@ -1,0 +1,113 @@
+{
+  "page": "84",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 2.04,
+  "auto_residuals_m": [
+    1.89,
+    1.96,
+    1.92,
+    1.94
+  ],
+  "inlier_streets": [
+    [
+      "WALNUT",
+      "N. OAKLEY BLVD"
+    ],
+    [
+      "WALNUT",
+      "N. LEAVITT"
+    ],
+    [
+      "N. OAKLEY BLVD",
+      "W. LAKE"
+    ],
+    [
+      "W. LAKE",
+      "N. LEAVITT"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            644,
+            1541
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. OAKLEY BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68410031653941,
+            41.885720484355936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5108,
+            1541
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68165165321075,
+            41.88575985675209
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            644,
+            3885
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY BLVD x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68406098818916,
+            41.884687752484155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5108,
+            3885
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68162148565197,
+            41.88477818776423
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.158,
+    "dy_m": -3.523
+  }
+}

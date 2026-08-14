@@ -1,0 +1,205 @@
+{
+  "page": "122",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.85,
+  "auto_residuals_m": [
+    0.31,
+    0.31,
+    0.51,
+    0.48,
+    0.06,
+    0.09,
+    0.13,
+    0.09
+  ],
+  "inlier_streets": [
+    [
+      "KAMERLING AV.",
+      "N. CENTRAL AV."
+    ],
+    [
+      "KAMERLING AV.",
+      "PINE AV."
+    ],
+    [
+      "POTOMAC AV.",
+      "N. CENTRAL AV."
+    ],
+    [
+      "POTOMAC AV.",
+      "PINE AV."
+    ],
+    [
+      "CRYSTAL",
+      "N. CENTRAL AV."
+    ],
+    [
+      "CRYSTAL",
+      "PINE AV."
+    ],
+    [
+      "W. DIVISION",
+      "N. CENTRAL AV."
+    ],
+    [
+      "W. DIVISION",
+      "PINE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1918,
+            2279
+          ],
+          "username": "autogeoref",
+          "note": "auto: KAMERLING AV. x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76571106829746,
+            41.904855379117315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4943,
+            2279
+          ],
+          "username": "autogeoref",
+          "note": "auto: KAMERLING AV. x PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7638796478367,
+            41.90487559603497
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1918,
+            4273
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76567824872615,
+            41.903954324025406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4943,
+            4273
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76384839708227,
+            41.90397468215273
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1918,
+            6295
+          ],
+          "username": "autogeoref",
+          "note": "auto: CRYSTAL x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76564583608393,
+            41.90304975871803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4943,
+            6295
+          ],
+          "username": "autogeoref",
+          "note": "auto: CRYSTAL x PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76381682897684,
+            41.90307000309826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1918,
+            8306
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76561315659913,
+            41.9021467912852
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4943,
+            8306
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76378465300871,
+            41.90216655688576
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.527,
+    "dy_m": 0.34
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "page": "92",
+  "n_streets": 9,
+  "n_candidates": 12,
+  "n_inliers": 8,
+  "rotation_deg": 0.46,
+  "auto_residuals_m": [
+    6.41,
+    2.61,
+    9.95,
+    3.91,
+    2.23,
+    4.47,
+    3.09,
+    1.51
+  ],
+  "inlier_streets": [
+    [
+      "BLOOMINGDALE AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "ST. PAUL AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "WABANSIA AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "WABANSIA AV.",
+      "N. KEATING AV."
+    ],
+    [
+      "WABANSIA AV.",
+      "N. KILPATRICK AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. KEATING AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. KILPATRICK AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            933,
+            361
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74601436204574,
+            41.91328321806956
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            933,
+            2317
+          ],
+          "username": "autogeoref",
+          "note": "auto: ST. PAUL AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7459856424257,
+            41.91237105226689
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            933,
+            4388
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74595204803525,
+            41.91145041160198
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2934,
+            4388
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. KEATING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7447577255494,
+            41.911465611162775
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4843,
+            4388
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.743588562667,
+            41.91143976208321
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            933,
+            8334
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74615967706026,
+            41.90962201053829
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2934,
+            8334
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. KEATING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74488921171691,
+            41.909638555913595
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4843,
+            8334
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74364628696655,
+            41.90964772648334
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -5.035,
+    "dy_m": -0.564
+  }
+}

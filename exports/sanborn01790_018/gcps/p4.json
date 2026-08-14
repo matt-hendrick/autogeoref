@@ -1,0 +1,202 @@
+{
+  "page": "4",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 8,
+  "rotation_deg": 0.93,
+  "auto_residuals_m": [
+    3.92,
+    4.13,
+    4.29,
+    4.54,
+    2.98,
+    2.91,
+    3.78,
+    3.81
+  ],
+  "inlier_streets": [
+    [
+      "CHICAGO AV",
+      "TOWNSEND"
+    ],
+    [
+      "CHICAGO AV",
+      "SEDGWICK"
+    ],
+    [
+      "SUPERIOR",
+      "TOWNSEND"
+    ],
+    [
+      "SUPERIOR",
+      "SEDGWICK"
+    ],
+    [
+      "HURON",
+      "TOWNSEND"
+    ],
+    [
+      "HURON",
+      "SEDGWICK"
+    ],
+    [
+      "ERIE",
+      "TOWNSEND"
+    ],
+    [
+      "ERIE",
+      "SEDGWICK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1684,
+            711
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHICAGO AV x TOWNSEND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64003983567144,
+            41.896513064899956
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4076,
+            711
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHICAGO AV x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63862274841979,
+            41.89653240290175
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1684,
+            2882
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUPERIOR x TOWNSEND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.640028400366,
+            41.895517438879644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4076,
+            2882
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUPERIOR x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6385563782902,
+            41.89553477646995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1684,
+            4521
+          ],
+          "username": "autogeoref",
+          "note": "auto: HURON x TOWNSEND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6400098337053,
+            41.894717097267026
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4076,
+            4521
+          ],
+          "username": "autogeoref",
+          "note": "auto: HURON x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63854141528272,
+            41.894733982248724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1684,
+            6088
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x TOWNSEND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6399892074893,
+            41.89391653015385
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4076,
+            6088
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63852721673024,
+            41.89393353694281
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

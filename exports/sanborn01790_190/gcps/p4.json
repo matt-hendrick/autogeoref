@@ -1,0 +1,152 @@
+{
+  "page": "4",
+  "n_streets": 2,
+  "n_candidates": 0,
+  "n_inliers": 0,
+  "status": "OK (reviewer-verified)",
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            634,
+            760
+          ],
+          "username": "reviewer",
+          "note": "synthetic: reviewer placement corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.59540751433296,
+            41.84242648061811
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5708,
+            760
+          ],
+          "username": "reviewer",
+          "note": "synthetic: reviewer placement corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.59205694416494,
+            41.833463842434355
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5708,
+            6844
+          ],
+          "username": "reviewer",
+          "note": "synthetic: reviewer placement corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60648249857505,
+            41.83047014023659
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            634,
+            6844
+          ],
+          "username": "reviewer",
+          "note": "synthetic: reviewer placement corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6098330687431,
+            41.83943319764346
+          ]
+        }
+      }
+    ]
+  },
+  "reviewer_review": {
+    "verdict": "adjusted",
+    "ops": [
+      {
+        "type": "scale",
+        "factor": 1.345735170648353,
+        "center_3857": [
+          -9752422.289671715,
+          5137789.3995119855
+        ]
+      },
+      {
+        "type": "rotate",
+        "deg": -0.014274734584118775,
+        "center_3857": [
+          -9752422.289671715,
+          5137789.3995119855
+        ]
+      },
+      {
+        "type": "translate",
+        "dx_m": 315.2689052782953,
+        "dy_m": -240.63231938891113
+      },
+      {
+        "type": "scale",
+        "factor": 1.0222502572726169,
+        "center_3857": [
+          -9752634.758823209,
+          5137149.244164737
+        ]
+      },
+      {
+        "type": "rotate",
+        "deg": 0.09222824134955855,
+        "center_3857": [
+          -9752634.758823209,
+          5137149.244164737
+        ]
+      },
+      {
+        "type": "translate",
+        "dx_m": -2.736578105017543,
+        "dy_m": 0.32247987389564514
+      }
+    ],
+    "timestamp": "2026-07-19T02:15:43+00:00",
+    "note": "Draft placement (Claude): anchored on the 31st St walkover over the IC.",
+    "previous_status": "OK (reviewer-verified)"
+  },
+  "reviewer_mask_px": [
+    [
+      16.0,
+      16.0
+    ],
+    [
+      6321.0,
+      16.0
+    ],
+    [
+      6321.0,
+      7584.0
+    ],
+    [
+      16.0,
+      7584.0
+    ]
+  ]
+}

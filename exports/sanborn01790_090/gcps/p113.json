@@ -1,0 +1,233 @@
+{
+  "page": "113",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. PRINCETON AV.",
+      "W. 37TH"
+    ],
+    [
+      "S. PRINCETON AV.",
+      "W. 37TH PL. (COURT D.)"
+    ],
+    [
+      "S. WELLS (S. 5TH AV.)",
+      "W. 37TH"
+    ],
+    [
+      "S. WELLS (S. 5TH AV.)",
+      "W. 37TH PL. (COURT D.)"
+    ],
+    [
+      "S. WENTWORTH AV.",
+      "W. 37TH"
+    ],
+    [
+      "W. 37TH",
+      "S. WELLS"
+    ],
+    [
+      "S. WELLS",
+      "W. 37TH PL. (COURT D.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            957,
+            4683
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PRINCETON AV. x W. 37TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63385858127457,
+            41.82725073545083
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            957,
+            6701
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PRINCETON AV. x W. 37TH PL. (COURT D.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63384793678833,
+            41.826335702266604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2940,
+            4683
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WELLS (S. 5TH AV.) x W. 37TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63264425920127,
+            41.82726713752911
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2940,
+            6701
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WELLS (S. 5TH AV.) x W. 37TH PL. (COURT D.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63256234486926,
+            41.82640775134234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4936,
+            4683
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WENTWORTH AV. x W. 37TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63143797900958,
+            41.82728190574873
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3125,
+            4683
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH x S. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63264425920127,
+            41.82726713752911
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3125,
+            6701
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WELLS x W. 37TH PL. (COURT D.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63256234486926,
+            41.82640775134234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63413418058197,
+            41.829046646232904
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5224,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63131993785473,
+            41.82908170353049
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63407482949825,
+            41.82640122980175
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -1.899,
+    "dy_m": -2.076
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.4975,
+    "separation_ratio": 0.905,
+    "best_offset_m": 98.9,
+    "n_junctions": 24
+  }
+}

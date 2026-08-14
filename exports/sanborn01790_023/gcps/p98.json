@@ -1,0 +1,160 @@
+{
+  "page": "98",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 6,
+  "rotation_deg": 1.26,
+  "auto_residuals_m": [
+    6.56,
+    11.57,
+    5.04,
+    6.58,
+    11.54,
+    4.99
+  ],
+  "inlier_streets": [
+    [
+      "W. LAKE",
+      "N. PEORIA"
+    ],
+    [
+      "W. LAKE",
+      "N. GREEN"
+    ],
+    [
+      "W. LAKE",
+      "N. HALSTED"
+    ],
+    [
+      "W. RANDOLPH",
+      "N. PEORIA"
+    ],
+    [
+      "W. RANDOLPH",
+      "N. GREEN"
+    ],
+    [
+      "W. RANDOLPH",
+      "N. HALSTED"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            934,
+            3630
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. PEORIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64986360863217,
+            41.88562490252756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2629,
+            3630
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. GREEN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64869573882056,
+            41.8856422417273
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4848,
+            3630
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64752915082686,
+            41.88566225782731
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            934,
+            6463
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. PEORIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64982656952792,
+            41.88436508321844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2629,
+            6463
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. GREEN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64865878644962,
+            41.884385699770284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4848,
+            6463
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64749151054501,
+            41.88440418672339
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": -6.14,
+    "dy_m": -0.342
+  }
+}

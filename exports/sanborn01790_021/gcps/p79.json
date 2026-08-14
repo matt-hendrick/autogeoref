@@ -1,0 +1,238 @@
+{
+  "page": "79",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "PRAIRIE AV.",
+      "E. 35TH ST."
+    ],
+    [
+      "E. 35TH ST.",
+      "FOREST AV."
+    ],
+    [
+      "E. 35TH ST.",
+      "CALUMET AV."
+    ],
+    [
+      "E. 35TH ST.",
+      "CALUMET AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1212,
+            3989
+          ],
+          "username": "autogeoref",
+          "note": "auto: PRAIRIE AV. x E. 35TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62055072308611,
+            41.83107059965121
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3222,
+            3989
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 35TH ST. x FOREST AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61933361949723,
+            41.83108218977995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5210,
+            3989
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 35TH ST. x CALUMET AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61811925941879,
+            41.83109582143544
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4726,
+            3989
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 35TH ST. x CALUMET AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61840621014758,
+            41.83109137948041
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62093247374575,
+            41.83251355115786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5299,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61811475737056,
+            41.83254946452636
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62087253536629,
+            41.829902705217826
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7211,
+    "separation_ratio": 1.15,
+    "best_offset_m": 1.3,
+    "n_junctions": 10
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 13,
+      "votable": 13,
+      "in_block": 13,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 13.3,
+          "addr_diff": 4.0
+        },
+        {
+          "perp_m": 13.3,
+          "addr_diff": 3.4
+        },
+        {
+          "perp_m": 13.3,
+          "addr_diff": 4.8
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 4.4
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 3.9
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 3.5
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 3.0
+        },
+        {
+          "perp_m": 13.5,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 13.5,
+          "addr_diff": 2.1
+        },
+        {
+          "perp_m": 9.7,
+          "addr_diff": 3.2
+        },
+        {
+          "perp_m": 9.6,
+          "addr_diff": 3.7
+        },
+        {
+          "perp_m": 9.4,
+          "addr_diff": 3.9
+        },
+        {
+          "perp_m": 9.3,
+          "addr_diff": 3.9
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

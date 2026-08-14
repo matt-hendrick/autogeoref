@@ -1,0 +1,157 @@
+{
+  "page": "69",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 6,
+  "rotation_deg": 0.67,
+  "auto_residuals_m": [
+    1.92,
+    0.69,
+    4.89,
+    2.96,
+    0.28,
+    0.89
+  ],
+  "inlier_streets": [
+    [
+      "W. LAKE",
+      "S. WILLOW AV."
+    ],
+    [
+      "W. LAKE",
+      "BAIRD AV."
+    ],
+    [
+      "S. WILLOW AV.",
+      "FRINK"
+    ],
+    [
+      "S. WILLOW AV.",
+      "WEST END AV."
+    ],
+    [
+      "FRINK",
+      "BAIRD AV."
+    ],
+    [
+      "BAIRD AV.",
+      "FRINK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2485,
+            989
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x S. WILLOW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76034825872375,
+            41.887298515110274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4722,
+            989
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x BAIRD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7589957268562,
+            41.88731898740145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2485,
+            4488
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WILLOW AV. x FRINK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76028170388096,
+            41.88578613086666
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2485,
+            7715
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WILLOW AV. x WEST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76024525233761,
+            41.88429862100451
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4722,
+            4488
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRINK x BAIRD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7589355282548,
+            41.88576428442939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4722,
+            4886
+          ],
+          "username": "autogeoref",
+          "note": "auto: BAIRD AV. x FRINK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7589292855232,
+            41.88559446686041
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

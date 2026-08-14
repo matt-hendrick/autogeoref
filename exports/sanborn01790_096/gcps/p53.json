@@ -1,0 +1,226 @@
+{
+  "page": "53",
+  "n_streets": 6,
+  "n_candidates": 10,
+  "n_inliers": 9,
+  "rotation_deg": 0.95,
+  "auto_residuals_m": [
+    1.91,
+    0.15,
+    0.68,
+    0.33,
+    1.45,
+    1.69,
+    0.65,
+    1.74,
+    3.68
+  ],
+  "inlier_streets": [
+    [
+      "WRIGHTWOOD AV.",
+      "N. KIMBALL"
+    ],
+    [
+      "WRIGHTWOOD AV.",
+      "N. SPAULDING"
+    ],
+    [
+      "WRIGHTWOOD AV.",
+      "N. SAWYER"
+    ],
+    [
+      "ALTGELD",
+      "N. KIMBALL"
+    ],
+    [
+      "ALTGELD",
+      "N. SPAULDING"
+    ],
+    [
+      "ALTGELD",
+      "N. SAWYER"
+    ],
+    [
+      "W. FULLERTON AV.",
+      "N. KIMBALL"
+    ],
+    [
+      "W. FULLERTON AV.",
+      "N. SPAULDING"
+    ],
+    [
+      "W. FULLERTON AV.",
+      "N. SAWYER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            470,
+            259
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AV. x N. KIMBALL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71220167385148,
+            41.92831616223309
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2609,
+            259
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AV. x N. SPAULDING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71086123837954,
+            41.92833110124465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4928,
+            259
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AV. x N. SAWYER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70939340639049,
+            41.92834742871105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            470,
+            4207
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALTGELD x N. KIMBALL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71215664328875,
+            41.9264808281023
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2609,
+            4207
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALTGELD x N. SPAULDING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71081256853907,
+            41.92650321395154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4928,
+            4207
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALTGELD x N. SAWYER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70934369055556,
+            41.92651808786728
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            470,
+            8128
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. KIMBALL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71210529762187,
+            41.924660982202305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2609,
+            8128
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. SPAULDING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71075681392749,
+            41.92467623221313
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4928,
+            8128
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. SAWYER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70923608819004,
+            41.924696792095794
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

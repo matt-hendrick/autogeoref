@@ -1,0 +1,119 @@
+{
+  "page": "30",
+  "n_streets": 11,
+  "n_candidates": 11,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. MILWAUKEE AV.",
+      "W. GALE"
+    ],
+    [
+      "N. LINDER AV.",
+      "HIGGINS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3455,
+            4890
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MILWAUKEE AV. x W. GALE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76319414186563,
+            41.97061497394491
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            336,
+            6997
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LINDER AV. x HIGGINS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76504528979888,
+            41.969643413931706
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76498753038275,
+            41.9724816684392
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5246,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76207872310255,
+            41.97251512620067
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76492187580506,
+            41.96932654700378
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.5268,
+    "separation_ratio": 0.976,
+    "best_offset_m": 50.6,
+    "n_junctions": 8
+  }
+}

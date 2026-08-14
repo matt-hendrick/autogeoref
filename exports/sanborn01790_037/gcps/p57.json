@@ -1,0 +1,138 @@
+{
+  "page": "57",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 5,
+  "rotation_deg": 0.45,
+  "auto_residuals_m": [
+    0.45,
+    0.55,
+    2.95,
+    0.54,
+    3.39
+  ],
+  "inlier_streets": [
+    [
+      "W. INDIANA",
+      "N. PINE AV."
+    ],
+    [
+      "W. INDIANA",
+      "N. WILLOW AV."
+    ],
+    [
+      "W. KINZIE",
+      "N. PINE AV."
+    ],
+    [
+      "W. KINZIE",
+      "N. WILLOW AV."
+    ],
+    [
+      "W. LAKE ST.",
+      "N. PINE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            457,
+            5147
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. INDIANA x N. PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76330856443863,
+            41.88888190039654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5185,
+            5147
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. INDIANA x N. WILLOW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76039789099582,
+            41.8889050305324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            457,
+            7620
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76327052739124,
+            41.887713972059835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5185,
+            7620
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. WILLOW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76035500795949,
+            41.887747195161744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            457,
+            7711
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE ST. x N. PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76327052739124,
+            41.887713972059835
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 2.41,
+    "dy_m": 0.782
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "page": "101",
+  "n_streets": 7,
+  "n_candidates": 19,
+  "n_inliers": 9,
+  "rotation_deg": 0.78,
+  "auto_residuals_m": [
+    6.12,
+    26.77,
+    8.49,
+    12.69,
+    6.58,
+    18.03,
+    1.5,
+    16.47,
+    2.55
+  ],
+  "inlier_streets": [
+    [
+      "N. RICHMOND ST.",
+      "ARMITAGE AV."
+    ],
+    [
+      "N. RICHMOND ST.",
+      "CORTLAND"
+    ],
+    [
+      "ARMITAGE AV.",
+      "HUMBOLDT BLVD"
+    ],
+    [
+      "HUMBOLDT BLVD",
+      "CORTLAND"
+    ],
+    [
+      "HUMBOLDT BLVD",
+      "BLOOMINGDALE AV."
+    ],
+    [
+      "N. RICHMOND",
+      "CORTLAND"
+    ],
+    [
+      "N. RICHMOND",
+      "BLOOMINGDALE AV."
+    ],
+    [
+      "CORTLAND",
+      "N. FRANCISCO AV."
+    ],
+    [
+      "N. FRANCISCO AV.",
+      "BLOOMINGDALE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3552,
+            316
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RICHMOND ST. x ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7004859866301,
+            41.917459996125785
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3552,
+            4323
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RICHMOND ST. x CORTLAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70042779961675,
+            41.915645460075524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            544,
+            316
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x HUMBOLDT BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70211136156465,
+            41.917447631360425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            544,
+            4323
+          ],
+          "username": "autogeoref",
+          "note": "auto: HUMBOLDT BLVD x CORTLAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70205753569013,
+            41.91562645293715
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            544,
+            8071
+          ],
+          "username": "autogeoref",
+          "note": "auto: HUMBOLDT BLVD x BLOOMINGDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70165610581357,
+            41.91392230125697
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2863,
+            4323
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RICHMOND x CORTLAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70042779961675,
+            41.915645460075524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2863,
+            8071
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RICHMOND x BLOOMINGDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70037453494159,
+            41.9139342036362
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4863,
+            4323
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x N. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69927411915288,
+            41.915656775082844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4863,
+            8071
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANCISCO AV. x BLOOMINGDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69921586916706,
+            41.913943808407936
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.506,
+    "dy_m": 0.418
+  }
+}

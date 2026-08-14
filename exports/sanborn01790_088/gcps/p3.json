@@ -1,0 +1,236 @@
+{
+  "page": "3",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. DELAWARE PL.",
+      "N. CLARK"
+    ],
+    [
+      "W. CHESTNUT",
+      "N. CLARK"
+    ],
+    [
+      "N. CLARK",
+      "W. CHICAGO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4244,
+            2060
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DELAWARE PL. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63129990326674,
+            41.89873143217173
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4244,
+            3694
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHESTNUT x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63127936718725,
+            41.89797047559051
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4244,
+            6587
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63124523382669,
+            41.896635642289006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63353724106422,
+            41.89927431059685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5319,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63066409511374,
+            41.89931877053801
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63346322757192,
+            41.89662442000604
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6195,
+    "separation_ratio": 1.249,
+    "best_offset_m": 16.5,
+    "n_junctions": 9
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 18,
+      "votable": 18,
+      "in_block": 13,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 192.2,
+          "addr_diff": 70.0
+        },
+        {
+          "perp_m": 215.2,
+          "addr_diff": 78.0
+        },
+        {
+          "perp_m": 226.5,
+          "addr_diff": 80.0
+        },
+        {
+          "perp_m": 237.9,
+          "addr_diff": 82.0
+        },
+        {
+          "perp_m": 314.4,
+          "addr_diff": 100.0
+        },
+        {
+          "perp_m": 11.8,
+          "addr_diff": 1.5
+        },
+        {
+          "perp_m": 11.8,
+          "addr_diff": 1.8
+        },
+        {
+          "perp_m": 11.9,
+          "addr_diff": 2.3
+        },
+        {
+          "perp_m": 22.3,
+          "addr_diff": 1.5
+        },
+        {
+          "perp_m": 22.2,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 22.2,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 21.2,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 21.2,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 21.2,
+          "addr_diff": 2.8
+        },
+        {
+          "perp_m": 21.2,
+          "addr_diff": 3.3
+        },
+        {
+          "perp_m": 21.2,
+          "addr_diff": 3.7
+        },
+        {
+          "perp_m": 21.2,
+          "addr_diff": 4.2
+        },
+        {
+          "perp_m": 21.2,
+          "addr_diff": 4.7
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "page": "86",
+  "n_streets": 13,
+  "n_candidates": 20,
+  "n_inliers": 5,
+  "rotation_deg": 0.62,
+  "auto_residuals_m": [
+    1.68,
+    3.39,
+    3.06,
+    3.63,
+    1.62
+  ],
+  "inlier_streets": [
+    [
+      "W. BEACH AV. (BRIGHAM)",
+      "N. PAULINA"
+    ],
+    [
+      "W. BEACH AV. (BRIGHAM)",
+      "N. ASHLAND AV."
+    ],
+    [
+      "BLACKHAWK",
+      "N. PAULINA"
+    ],
+    [
+      "BLACKHAWK",
+      "N. ASHLAND AV."
+    ],
+    [
+      "N. PAULINA ST.",
+      "MILWAUKEE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            903,
+            280
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BEACH AV. (BRIGHAM) x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67002184463414,
+            41.90758194773464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4875,
+            280
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BEACH AV. (BRIGHAM) x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66757916035567,
+            41.90761297690889
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            903,
+            1635
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLACKHAWK x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67000266747682,
+            41.90699986240644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4875,
+            1635
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLACKHAWK x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66756391625677,
+            41.90701442227196
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1554,
+            5893
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA ST. x MILWAUKEE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66943121633979,
+            41.90527507534829
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.927,
+    "dy_m": 1.157
+  }
+}

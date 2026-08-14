@@ -1,0 +1,113 @@
+{
+  "page": "66",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": -87.46,
+  "auto_residuals_m": [
+    2.51,
+    2.44,
+    2.44,
+    2.51
+  ],
+  "inlier_streets": [
+    [
+      "S. PROSPECT AV.",
+      "W. 102ND ST."
+    ],
+    [
+      "S. PROSPECT AV.",
+      "W. 103RD ST."
+    ],
+    [
+      "W. 102ND ST.",
+      "S. WOOD ST."
+    ],
+    [
+      "W. 103RD ST.",
+      "S. WOOD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1790,
+            227
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PROSPECT AV. x W. 102ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66219702704036,
+            41.70826780407762
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5164,
+            227
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PROSPECT AV. x W. 103RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66205909903438,
+            41.70668765878403
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1790,
+            7955
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 102ND ST. x S. WOOD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66713091643884,
+            41.70819519180383
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5164,
+            7955
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 103RD ST. x S. WOOD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66708022275017,
+            41.706601549856806
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.721,
+    "dy_m": -2.001
+  }
+}

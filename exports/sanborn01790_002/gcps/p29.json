@@ -1,0 +1,159 @@
+{
+  "page": "29",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 0.18,
+  "auto_residuals_m": [
+    1.73,
+    5.33,
+    2.32,
+    2.63,
+    2.79,
+    4.02
+  ],
+  "inlier_streets": [
+    [
+      "W. WELLINGTON",
+      "N. MOZART"
+    ],
+    [
+      "W. WELLINGTON",
+      "N. CALIFORNIA AVE."
+    ],
+    [
+      "W. WELLINGTON",
+      "N. FAIRFIELD"
+    ],
+    [
+      "N. MOZART",
+      "W. DIVERSEY AVE."
+    ],
+    [
+      "W. GEORGE",
+      "N. FAIRFIELD"
+    ],
+    [
+      "N. CALIFORNIA AVE.",
+      "W. DIVERSEY AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            92,
+            204
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WELLINGTON x N. MOZART"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69896828689052,
+            41.93574017878245
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2227,
+            204
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WELLINGTON x N. CALIFORNIA AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69774383376222,
+            41.93574489480686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4142,
+            204
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WELLINGTON x N. FAIRFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69652062462534,
+            41.93575093506971
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            92,
+            8106
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MOZART x W. DIVERSEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69886530786248,
+            41.93208923515131
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4142,
+            4185
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GEORGE x N. FAIRFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6964694174559,
+            41.93390123236691
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2227,
+            8106
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CALIFORNIA AVE. x W. DIVERSEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69763676385054,
+            41.93209722498232
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.126,
+    "dy_m": 0.232
+  }
+}

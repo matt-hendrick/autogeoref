@@ -1,0 +1,141 @@
+{
+  "page": "92",
+  "n_streets": 13,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "VEDDER",
+      "LARRABEE"
+    ],
+    [
+      "OTIS",
+      "W. DIVISION"
+    ],
+    [
+      "LARRABEE",
+      "W. DIVISION"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5002,
+            3464
+          ],
+          "username": "autogeoref",
+          "note": "auto: VEDDER x LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64325929924384,
+            41.90505287251136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2882,
+            6331
+          ],
+          "username": "autogeoref",
+          "note": "auto: OTIS x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6444857631093,
+            41.90369508184451
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5002,
+            6331
+          ],
+          "username": "autogeoref",
+          "note": "auto: LARRABEE x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64321993820914,
+            41.90371649915872
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6459750257075,
+            41.90622031824597
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5261,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64312924726238,
+            41.90626704433294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64589637957906,
+            41.90356722338042
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4278,
+    "separation_ratio": 1.161,
+    "best_offset_m": 7.0,
+    "n_junctions": 20
+  }
+}

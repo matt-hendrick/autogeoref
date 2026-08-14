@@ -1,0 +1,132 @@
+{
+  "page": "4",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.38,
+  "auto_residuals_m": [
+    0.52,
+    3.49,
+    3.77,
+    4.15,
+    4.19
+  ],
+  "inlier_streets": [
+    [
+      "W. 31ST ST.",
+      "S. DAMEN AV. (S. ROBEY)"
+    ],
+    [
+      "S. DAMEN AV. (S. ROBEY)",
+      "W. 31ST PL."
+    ],
+    [
+      "S. DAMEN AV. (S. ROBEY)",
+      "W. 32ND ST."
+    ],
+    [
+      "W. 31ST PL.",
+      "S. WOLCOTT AV. (S. CONGL.)"
+    ],
+    [
+      "S. WOLCOTT AV. (S. CONGL.)",
+      "W. 32ND ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            934,
+            529
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x S. DAMEN AV. (S. ROBEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6754438965433,
+            41.83759192353842
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            934,
+            2537
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAMEN AV. (S. ROBEY) x W. 31ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67543855469293,
+            41.8366757633256
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            934,
+            4465
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAMEN AV. (S. ROBEY) x W. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6754208517642,
+            41.83586431211148
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5064,
+            2537
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST PL. x S. WOLCOTT AV. (S. CONGL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6730020018243,
+            41.83677021683039
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5064,
+            4465
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. CONGL.) x W. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67298400307098,
+            41.83585478114212
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

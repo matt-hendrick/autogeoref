@@ -1,0 +1,155 @@
+{
+  "page": "50",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.14,
+  "auto_residuals_m": [
+    2.07,
+    1.38,
+    2.93,
+    1.9,
+    1.13,
+    0.85
+  ],
+  "inlier_streets": [
+    [
+      "QUINCY",
+      "FRANKLIN"
+    ],
+    [
+      "QUINCY",
+      "5TH AV."
+    ],
+    [
+      "JACKSON BLVD",
+      "FRANKLIN"
+    ],
+    [
+      "JACKSON BLVD",
+      "5TH AV."
+    ],
+    [
+      "FRANKLIN",
+      "VANBUREN"
+    ],
+    [
+      "5TH AV.",
+      "VANBUREN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1454,
+            1543
+          ],
+          "username": "autogeoref",
+          "note": "auto: QUINCY x FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63521661245477,
+            41.87870032779037
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3799,
+            1543
+          ],
+          "username": "autogeoref",
+          "note": "auto: QUINCY x 5TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63375071677599,
+            41.878727172402094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1454,
+            2980
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON BLVD x FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63520384906357,
+            41.87810378243773
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3799,
+            2980
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON BLVD x 5TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63372916148309,
+            41.87811865482363
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1454,
+            5836
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRANKLIN x VANBUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63517724203706,
+            41.87682608869254
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3799,
+            5836
+          ],
+          "username": "autogeoref",
+          "note": "auto: 5TH AV. x VANBUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6336934992512,
+            41.87684967402902
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

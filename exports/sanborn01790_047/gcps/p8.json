@@ -1,0 +1,142 @@
+{
+  "page": "8",
+  "n_streets": 8,
+  "n_candidates": 14,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "SOUTH SHORE DRIVE",
+      "YATES AV."
+    ],
+    [
+      "E. 72ND ST.",
+      "YATES AV."
+    ],
+    [
+      "YATES AV.",
+      "E. 73RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            268,
+            285
+          ],
+          "username": "autogeoref",
+          "note": "auto: SOUTH SHORE DRIVE x YATES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56648436980566,
+            41.76631773150708
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            268,
+            4258
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 72ND ST. x YATES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56648691704174,
+            41.76443494338989
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            268,
+            8198
+          ],
+          "username": "autogeoref",
+          "note": "auto: YATES AV. x E. 73RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56645042280854,
+            41.76261940452505
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            574,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56632146703542,
+            41.76602592094263
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5165,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56348341586627,
+            41.76606295422756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            574,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56624789451888,
+            41.76288915841186
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.9416,
+    "separation_ratio": 1.455,
+    "best_offset_m": 3.8,
+    "n_junctions": 4
+  }
+}

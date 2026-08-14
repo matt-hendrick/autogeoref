@@ -1,0 +1,161 @@
+{
+  "page": "26",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.2,
+  "auto_residuals_m": [
+    0.06,
+    0.36,
+    0.37,
+    0.25,
+    0.16,
+    0.1
+  ],
+  "inlier_streets": [
+    [
+      "WEBSTER AV.",
+      "OSGOOD"
+    ],
+    [
+      "WEBSTER AV.",
+      "SHEFFIELD AV."
+    ],
+    [
+      "WEBSTER AV.",
+      "BISSELL"
+    ],
+    [
+      "GARFIELD AV.",
+      "OSGOOD"
+    ],
+    [
+      "GARFIELD AV.",
+      "SHEFFIELD AV."
+    ],
+    [
+      "GARFIELD AV.",
+      "BISSELL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1488,
+            2287
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x OSGOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65473087481661,
+            41.9217182306785
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3471,
+            2287
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x SHEFFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65351491902763,
+            41.92173733581464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5463,
+            2287
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x BISSELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65230280376159,
+            41.92175779634454
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1488,
+            6276
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x OSGOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65467112426234,
+            41.91990416796793
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3471,
+            6276
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x SHEFFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65345539687418,
+            41.91992154638943
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5463,
+            6276
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x BISSELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65223791218958,
+            41.919940578783155
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -3.029,
+    "dy_m": -0.172
+  }
+}

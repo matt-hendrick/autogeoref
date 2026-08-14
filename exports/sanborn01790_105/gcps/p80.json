@@ -1,0 +1,205 @@
+{
+  "page": "80",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 8,
+  "rotation_deg": -0.41,
+  "auto_residuals_m": [
+    2.13,
+    4.68,
+    4.34,
+    8.48,
+    2.07,
+    2.03,
+    10.8,
+    4.04
+  ],
+  "inlier_streets": [
+    [
+      "W. KINZIE",
+      "N. KILDARE AV. (N. 43RD AV.)"
+    ],
+    [
+      "W. KINZIE",
+      "N. KEELER AV. (N. 42ND AV.)"
+    ],
+    [
+      "N. KILDARE AV. (N. 43RD AV.)",
+      "CARROLL AV."
+    ],
+    [
+      "N. KILDARE AV. (N. 43RD AV.)",
+      "W. LAKE"
+    ],
+    [
+      "N. KILDARE AV. (N. 43RD AV.)",
+      "MAYPOLE (PARK) AV."
+    ],
+    [
+      "CARROLL AV.",
+      "N. KEELER AV. (N. 42ND AV.)"
+    ],
+    [
+      "N. KEELER AV. (N. 42ND AV.)",
+      "W. LAKE"
+    ],
+    [
+      "N. KEELER AV. (N. 42ND AV.)",
+      "MAYPOLE (PARK) AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            910,
+            1137
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. KILDARE AV. (N. 43RD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73324325636656,
+            41.88767753749913
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5077,
+            1137
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. KEELER AV. (N. 42ND AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7307876796405,
+            41.88771011483596
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            910,
+            2825
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILDARE AV. (N. 43RD AV.) x CARROLL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73322077266613,
+            41.886894034250076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            910,
+            5266
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILDARE AV. (N. 43RD AV.) x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73318942546636,
+            41.885868202683724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            910,
+            7945
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILDARE AV. (N. 43RD AV.) x MAYPOLE (PARK) AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73315120828576,
+            41.88457764986885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5077,
+            2825
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARROLL AV. x N. KEELER AV. (N. 42ND AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7307637012585,
+            41.88692370538231
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5077,
+            5266
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEELER AV. (N. 42ND AV.) x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73072974758344,
+            41.88572633256181
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5077,
+            7945
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEELER AV. (N. 42ND AV.) x MAYPOLE (PARK) AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73069635106646,
+            41.88460549672956
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.427,
+    "dy_m": -2.341
+  }
+}

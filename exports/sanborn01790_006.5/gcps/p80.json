@@ -1,0 +1,163 @@
+{
+  "page": "80",
+  "n_streets": 6,
+  "n_candidates": 14,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "STONY ISLAND AVE.",
+      "67TH"
+    ],
+    [
+      "STONY ISLAND AVE.",
+      "68TH"
+    ],
+    [
+      "STONY ISLAND AVE.",
+      "69TH"
+    ],
+    [
+      "SEIPP AVE.",
+      "69TH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            125,
+            312
+          ],
+          "username": "autogeoref",
+          "note": "auto: STONY ISLAND AVE. x 67TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5861164118034,
+            41.773332132310514
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            125,
+            4233
+          ],
+          "username": "autogeoref",
+          "note": "auto: STONY ISLAND AVE. x 68TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58600676970462,
+            41.7715074495377
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            125,
+            8246
+          ],
+          "username": "autogeoref",
+          "note": "auto: STONY ISLAND AVE. x 69TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5859628830605,
+            41.769688211275984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5370,
+            8246
+          ],
+          "username": "autogeoref",
+          "note": "auto: SEIPP AVE. x 69TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58289236753487,
+            41.76972215757887
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58582972737065,
+            41.77309017556032
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58310949146356,
+            41.773120251132845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58576890781862,
+            41.770030481213766
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  },
+  "seam_adjusted": {
+    "dx_m": -1.952,
+    "dy_m": -1.848
+  }
+}

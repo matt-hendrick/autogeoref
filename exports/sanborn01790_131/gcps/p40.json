@@ -1,0 +1,180 @@
+{
+  "page": "40",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 7,
+  "rotation_deg": 1.24,
+  "auto_residuals_m": [
+    2.21,
+    1.87,
+    1.67,
+    2.56,
+    0.61,
+    0.21,
+    1.19
+  ],
+  "inlier_streets": [
+    [
+      "E. 95TH ST.",
+      "S. AVENUE L"
+    ],
+    [
+      "E. 95TH ST.",
+      "S. AVENUE L"
+    ],
+    [
+      "E. 96TH ST.",
+      "S. AVENUE L"
+    ],
+    [
+      "E. 96TH ST.",
+      "S. EWING AV."
+    ],
+    [
+      "E. 97TH ST.",
+      "S. AVENUE L"
+    ],
+    [
+      "E. 97TH ST.",
+      "S. EWING AV."
+    ],
+    [
+      "E. 97TH ST.",
+      "S. AVENUE J"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            440,
+            537
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 95TH ST. x S. AVENUE L"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53654254895031,
+            41.722941558761796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            440,
+            587
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 95TH ST. x S. AVENUE L"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53654254895031,
+            41.722941558761796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            440,
+            4013
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 96TH ST. x S. AVENUE L"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5364992506083,
+            41.721334588629034
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2424,
+            4013
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 96TH ST. x S. EWING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53528616157907,
+            41.721350569898405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            440,
+            7862
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 97TH ST. x S. AVENUE L"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53649524649055,
+            41.71952896195402
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2424,
+            7862
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 97TH ST. x S. EWING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53528826464662,
+            41.719549524754726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4436,
+            7862
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 97TH ST. x S. AVENUE J"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53407664206098,
+            41.71956960021181
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

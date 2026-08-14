@@ -1,0 +1,159 @@
+{
+  "page": "14",
+  "n_streets": 10,
+  "n_candidates": 10,
+  "n_inliers": 6,
+  "rotation_deg": 1.3,
+  "auto_residuals_m": [
+    16.51,
+    9.91,
+    16.37,
+    3.07,
+    0.27,
+    7.09
+  ],
+  "inlier_streets": [
+    [
+      "E. OAK",
+      "N. RUSH"
+    ],
+    [
+      "E. OAK",
+      "N. MICHIGAN AV."
+    ],
+    [
+      "E. WALTON",
+      "N. RUSH"
+    ],
+    [
+      "E. WALTON",
+      "N. MICHIGAN AV."
+    ],
+    [
+      "E. DELAWARE PL.",
+      "N. ERNST CT."
+    ],
+    [
+      "E. DELAWARE PL.",
+      "N. MICHIGAN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            606,
+            2975
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. OAK x N. RUSH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62755291046574,
+            41.90075752814863
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5401,
+            2975
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. OAK x N. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62415966434342,
+            41.900820239679724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            606,
+            4797
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. WALTON x N. RUSH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62718571047363,
+            41.899956936857905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5401,
+            4797
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. WALTON x N. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62420345617538,
+            41.90000543809136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2680,
+            6558
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. DELAWARE PL. x N. ERNST CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62589473809176,
+            41.89918467496333
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5401,
+            6558
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. DELAWARE PL. x N. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62416942333736,
+            41.89920989968393
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -4.676,
+    "dy_m": -0.035
+  }
+}

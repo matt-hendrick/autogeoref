@@ -1,0 +1,159 @@
+{
+  "page": "65",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.55,
+  "auto_residuals_m": [
+    2.45,
+    1.85,
+    2.26,
+    2.98,
+    2.8,
+    1.62
+  ],
+  "inlier_streets": [
+    [
+      "W. OHIO",
+      "N. PEORIA"
+    ],
+    [
+      "N. MORGAN",
+      "W. GRAND AV."
+    ],
+    [
+      "N. MORGAN",
+      "W. HUBBARD (W. AUSTIN AV.)"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. PEORIA"
+    ],
+    [
+      "N. SANGAMON",
+      "W. HUBBARD (W. AUSTIN AV.)"
+    ],
+    [
+      "N. PEORIA",
+      "W. HUBBARD (W. AUSTIN AV.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4769,
+            1195
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. PEORIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64998588881623,
+            41.892197815866005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1007,
+            3612
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MORGAN x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65232650226547,
+            41.89112991473184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1007,
+            6020
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MORGAN x W. HUBBARD (W. AUSTIN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65229605077131,
+            41.89003498809742
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4769,
+            3612
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. PEORIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6499935956777,
+            41.89115352021599
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2944,
+            6020
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SANGAMON x W. HUBBARD (W. AUSTIN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65113313009962,
+            41.890046672715265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4769,
+            6020
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PEORIA x W. HUBBARD (W. AUSTIN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64996080906876,
+            41.890060233082515
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.432,
+    "dy_m": -0.475
+  }
+}

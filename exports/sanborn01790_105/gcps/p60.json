@@ -1,0 +1,228 @@
+{
+  "page": "60",
+  "n_streets": 8,
+  "n_candidates": 15,
+  "n_inliers": 9,
+  "rotation_deg": 0.71,
+  "auto_residuals_m": [
+    4.38,
+    3.71,
+    2.13,
+    7.84,
+    3.31,
+    7.63,
+    7.24,
+    4.34,
+    4.93
+  ],
+  "inlier_streets": [
+    [
+      "W. OHIO (W. ONTARIO)",
+      "N. LARAMIE AV. (N. 52ND AV.)"
+    ],
+    [
+      "W. OHIO (W. ONTARIO)",
+      "N. LEAMINGTON AV. (N. 51ST CT.)"
+    ],
+    [
+      "W. OHIO (W. ONTARIO)",
+      "N. LECLAIRE AV. (N. 51ST AV.)"
+    ],
+    [
+      "N. LARAMIE AV. (N. 52ND AV.)",
+      "FERDINAND (W. INDIANA)"
+    ],
+    [
+      "N. LARAMIE AV. (N. 52ND AV.)",
+      "W. KINZIE"
+    ],
+    [
+      "FERDINAND (W. INDIANA)",
+      "N. LEAMINGTON AV. (N. 51ST CT.)"
+    ],
+    [
+      "FERDINAND (W. INDIANA)",
+      "N. LECLAIRE AV. (N. 51ST AV.)"
+    ],
+    [
+      "N. LEAMINGTON AV. (N. 51ST CT.)",
+      "W. KINZIE"
+    ],
+    [
+      "N. LECLAIRE AV. (N. 51ST AV.)",
+      "W. KINZIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            904,
+            157
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO (W. ONTARIO) x N. LARAMIE AV. (N. 52ND AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75546421459494,
+            41.89133299841943
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2842,
+            157
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO (W. ONTARIO) x N. LEAMINGTON AV. (N. 51ST CT.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75424226352482,
+            41.89133956666434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4758,
+            157
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO (W. ONTARIO) x N. LECLAIRE AV. (N. 51ST AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75301925224583,
+            41.89134057976109
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            904,
+            4348
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LARAMIE AV. (N. 52ND AV.) x FERDINAND (W. INDIANA)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7553923997896,
+            41.88932618285135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            904,
+            7766
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LARAMIE AV. (N. 52ND AV.) x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75533443340522,
+            41.88783035336625
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2842,
+            4348
+          ],
+          "username": "autogeoref",
+          "note": "auto: FERDINAND (W. INDIANA) x N. LEAMINGTON AV. (N. 51ST CT.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75417036771192,
+            41.889339041429565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4758,
+            4348
+          ],
+          "username": "autogeoref",
+          "note": "auto: FERDINAND (W. INDIANA) x N. LECLAIRE AV. (N. 51ST AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75294589792506,
+            41.889352965244875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2842,
+            7766
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAMINGTON AV. (N. 51ST CT.) x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75411696091126,
+            41.88784826429183
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4758,
+            7766
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LECLAIRE AV. (N. 51ST AV.) x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75289246711597,
+            41.88786404942611
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.29,
+    "dy_m": 3.223
+  }
+}

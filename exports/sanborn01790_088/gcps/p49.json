@@ -1,0 +1,109 @@
+{
+  "page": "49",
+  "n_streets": 10,
+  "n_candidates": 10,
+  "n_inliers": 4,
+  "rotation_deg": 1.23,
+  "auto_residuals_m": [
+    0.78,
+    0.76,
+    0.54,
+    0.54
+  ],
+  "inlier_streets": [
+    [
+      "W. SCOTT (W. VEDDER)",
+      "N. HALSTED"
+    ],
+    [
+      "W. SCOTT (W. VEDDER)",
+      "N. BURLING"
+    ],
+    [
+      "W. DIVISION",
+      "N. HALSTED"
+    ],
+    [
+      "W. DIVISION",
+      "N. CROSBY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1267,
+            3648
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SCOTT (W. VEDDER) x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64811798943522,
+            41.90497038948966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3110,
+            3648
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SCOTT (W. VEDDER) x N. BURLING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64699688585269,
+            41.904988058780205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1267,
+            6654
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64809420876098,
+            41.90363709551224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3754,
+            6654
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. CROSBY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6466096408098,
+            41.90366092302913
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

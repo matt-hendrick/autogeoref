@@ -1,0 +1,132 @@
+{
+  "page": "2",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 5,
+  "rotation_deg": 1.41,
+  "auto_residuals_m": [
+    1.39,
+    0.39,
+    1.45,
+    2.2,
+    1.75
+  ],
+  "inlier_streets": [
+    [
+      "W. 87TH ST.",
+      "S. HONORE"
+    ],
+    [
+      "W. 87TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "S. HONORE",
+      "W. 88TH ST."
+    ],
+    [
+      "W. 88TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "S. WOOD",
+      "W. 89TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3304,
+            276
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 87TH ST. x S. HONORE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6691400644692,
+            41.73570933133525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5236,
+            276
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 87TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66792458294832,
+            41.73572492050934
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3304,
+            4175
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HONORE x W. 88TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66908990615819,
+            41.733888794624065
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5236,
+            4175
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 88TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66787450977077,
+            41.73390599226002
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5236,
+            8236
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x W. 89TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66781877703939,
+            41.73205599902356
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

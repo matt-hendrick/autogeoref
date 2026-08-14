@@ -1,0 +1,159 @@
+{
+  "page": "38",
+  "n_streets": 5,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": -88.54,
+  "auto_residuals_m": [
+    1.6,
+    1.02,
+    2.07,
+    0.99,
+    2.82,
+    2.12
+  ],
+  "inlier_streets": [
+    [
+      "W. IRVING PARK RD.",
+      "N. NORMANDY AV."
+    ],
+    [
+      "W. IRVING PARK RD.",
+      "N. OAK PARK AV."
+    ],
+    [
+      "N. NORMANDY AV.",
+      "W. DAKIN AV."
+    ],
+    [
+      "N. NORMANDY AV.",
+      "W. BYRON"
+    ],
+    [
+      "W. DAKIN AV.",
+      "N. OAK PARK AV."
+    ],
+    [
+      "W. BYRON",
+      "N. OAK PARK AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            279,
+            4253
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. IRVING PARK RD. x N. NORMANDY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.79384201405186,
+            41.95275929211613
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            279,
+            8154
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. IRVING PARK RD. x N. OAK PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7962704345197,
+            41.95271733387568
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2903,
+            4253
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NORMANDY AV. x W. DAKIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.79379968407007,
+            41.95155585050489
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5408,
+            4253
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NORMANDY AV. x W. BYRON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.79377079578927,
+            41.950367224451554
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2903,
+            8154
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DAKIN AV. x N. OAK PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7962231887819,
+            41.95151422630243
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5408,
+            8154
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BYRON x N. OAK PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.79617715674436,
+            41.950310094782296
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.214,
+    "dy_m": -3.826
+  }
+}

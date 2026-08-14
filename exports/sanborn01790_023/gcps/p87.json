@@ -1,0 +1,203 @@
+{
+  "page": "87",
+  "n_streets": 6,
+  "n_candidates": 10,
+  "n_inliers": 8,
+  "rotation_deg": 2.6,
+  "auto_residuals_m": [
+    7.18,
+    0.67,
+    1.39,
+    2.02,
+    1.31,
+    9.87,
+    3.54,
+    0.87
+  ],
+  "inlier_streets": [
+    [
+      "WALNUT",
+      "N. ROBEY"
+    ],
+    [
+      "WALNUT",
+      "N. LINCOLN"
+    ],
+    [
+      "W. LAKE",
+      "N. ROBEY"
+    ],
+    [
+      "W. LAKE",
+      "N. LINCOLN"
+    ],
+    [
+      "N. ROBEY",
+      "PARK AV."
+    ],
+    [
+      "N. ROBEY",
+      "WALNUT ST."
+    ],
+    [
+      "N. LINCOLN",
+      "PARK AV."
+    ],
+    [
+      "N. LINCOLN",
+      "WALNUT ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1137,
+            1686
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67676526912463,
+            41.88586394692168
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5176,
+            1686
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67432019176043,
+            41.88590302507578
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1137,
+            3594
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67673907617103,
+            41.88498247874291
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5176,
+            3594
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67429351561309,
+            41.88506944889992
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1137,
+            5664
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROBEY x PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67671486245459,
+            41.884067509308764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1137,
+            1428
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROBEY x WALNUT ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67676526912463,
+            41.88586394692168
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5176,
+            5664
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LINCOLN x PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6742655920645,
+            41.88411796531682
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5176,
+            1428
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LINCOLN x WALNUT ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67432360436007,
+            41.886018357474306
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

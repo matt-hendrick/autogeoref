@@ -1,0 +1,161 @@
+{
+  "page": "76",
+  "n_streets": 17,
+  "n_candidates": 19,
+  "n_inliers": 6,
+  "rotation_deg": -89.59,
+  "auto_residuals_m": [
+    0.93,
+    9.43,
+    9.75,
+    11.42,
+    10.15,
+    2.06
+  ],
+  "inlier_streets": [
+    [
+      "N. ROCKWELL",
+      "LYNDALE"
+    ],
+    [
+      "N. TALMAN",
+      "LYNDALE"
+    ],
+    [
+      "N. TALMAN",
+      "N. MILWAUKEE AV."
+    ],
+    [
+      "LYNDALE",
+      "N. CALIFORNIA AV."
+    ],
+    [
+      "N. CALIFORNIA AV.",
+      "STAVE"
+    ],
+    [
+      "N. CALIFORNIA AV.",
+      "SHAKESPEARE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1279,
+            270
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROCKWELL x LYNDALE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69279562991034,
+            41.922437242845795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1279,
+            1726
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. TALMAN x LYNDALE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69371978548689,
+            41.92251284032824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4894,
+            1726
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. TALMAN x N. MILWAUKEE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69373619346922,
+            41.92068451009174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1279,
+            7400
+          ],
+          "username": "autogeoref",
+          "note": "auto: LYNDALE x N. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69736168019257,
+            41.922428459339606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4205,
+            7400
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CALIFORNIA AV. x STAVE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69732428682686,
+            41.92119296555605
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5230,
+            7400
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CALIFORNIA AV. x SHAKESPEARE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69730854140333,
+            41.92064941206944
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -1.935,
+    "dy_m": 0.907
+  }
+}

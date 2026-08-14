@@ -1,0 +1,159 @@
+{
+  "page": "31",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.55,
+  "auto_residuals_m": [
+    1.77,
+    1.99,
+    2.74,
+    2.8,
+    1.0,
+    0.86
+  ],
+  "inlier_streets": [
+    [
+      "CHARLESTON (FRANKFORT)",
+      "N. LEAVITT"
+    ],
+    [
+      "CHARLESTON (FRANKFORT)",
+      "N. HOYNE AV."
+    ],
+    [
+      "W. DICKENS AV. (CAROLINA)",
+      "N. LEAVITT"
+    ],
+    [
+      "W. DICKENS AV. (CAROLINA)",
+      "N. HOYNE AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. LEAVITT"
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. HOYNE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            780,
+            1245
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHARLESTON (FRANKFORT) x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68259192633856,
+            41.919965408084806
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4771,
+            1245
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHARLESTON (FRANKFORT) x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68017580404616,
+            41.920015311287436
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            780,
+            2885
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. (CAROLINA) x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68256619338808,
+            41.919206620520086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4771,
+            2885
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. (CAROLINA) x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68014976170342,
+            41.9192546471607
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            780,
+            6375
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68252106680715,
+            41.91768049843709
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4771,
+            6375
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6800985486608,
+            41.91772823191198
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.282,
+    "dy_m": 3.232
+  }
+}

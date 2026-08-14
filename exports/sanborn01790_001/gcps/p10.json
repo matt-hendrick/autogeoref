@@ -1,0 +1,160 @@
+{
+  "page": "10",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "WRIGHTWOOD AVE.",
+      "SHEFFIELD AVE."
+    ],
+    [
+      "LILL AVE.",
+      "SHEFFIELD AVE."
+    ],
+    [
+      "SHEFFIELD AVE.",
+      "MONTANA"
+    ],
+    [
+      "SHEFFIELD AVE.",
+      "FULLERTON AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            271,
+            146
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE. x SHEFFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65373432262183,
+            41.929007749532474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            271,
+            2133
+          ],
+          "username": "autogeoref",
+          "note": "auto: LILL AVE. x SHEFFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65370257860569,
+            41.928100914199355
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            271,
+            5973
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHEFFIELD AVE. x MONTANA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65364296112408,
+            41.92634201433634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            271,
+            8086
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHEFFIELD AVE. x FULLERTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65361258329625,
+            41.92537580523391
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65354040087867,
+            41.92869064444686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65083638556065,
+            41.92873067189014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65345925926889,
+            41.92565658440262
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

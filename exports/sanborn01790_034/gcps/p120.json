@@ -1,0 +1,116 @@
+{
+  "page": "120",
+  "n_streets": 6,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "MONTROSE AV.",
+      "CLARENDON AV."
+    ],
+    [
+      "BUENA AV.",
+      "CLARENDON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            102,
+            506
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x CLARENDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64991214712262,
+            41.961842806769056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            102,
+            8069
+          ],
+          "username": "autogeoref",
+          "note": "auto: BUENA AV. x CLARENDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64981591659725,
+            41.95848753793034
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64961573265586,
+            41.961721301965866
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5209,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64680441755154,
+            41.961762536020586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64953426873531,
+            41.95865017210354
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 1 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

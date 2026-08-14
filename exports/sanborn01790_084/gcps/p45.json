@@ -1,0 +1,138 @@
+{
+  "page": "45",
+  "n_streets": 10,
+  "n_candidates": 7,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. DIVISION",
+      "N. LARRABEE"
+    ],
+    [
+      "W. ELM",
+      "N. LARRABEE"
+    ],
+    [
+      "N. LARRABEE",
+      "W. HOBBIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5510,
+            1161
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64321993820914,
+            41.90371649915872
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5510,
+            3509
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x N. LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64317987551617,
+            41.902651494100475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5510,
+            6114
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LARRABEE x W. HOBBIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64313447510769,
+            41.90148331006503
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            575,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64621011755845,
+            41.903863957924656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5172,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64341912035364,
+            41.903907162772974
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            575,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6461361582769,
+            41.90121737561633
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

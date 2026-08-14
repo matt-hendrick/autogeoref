@@ -1,0 +1,120 @@
+{
+  "page": "97",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 43RD ST.",
+      "S. WESTERN AV. BL'VD."
+    ],
+    [
+      "S. WESTERN AV. BL'VD.",
+      "W. 45TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1237,
+            196
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 43RD ST. x S. WESTERN AV. BL'VD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68462838214705,
+            41.815695927986425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1237,
+            8002
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WESTERN AV. BL'VD. x W. 45TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68453138019979,
+            41.812064142555876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68503077707906,
+            41.815372399242406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6821249007669,
+            41.81542387470857
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6849306327776,
+            41.81223208967249
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.9093,
+    "separation_ratio": 1.061,
+    "best_offset_m": 36.8,
+    "n_junctions": 4
+  }
+}

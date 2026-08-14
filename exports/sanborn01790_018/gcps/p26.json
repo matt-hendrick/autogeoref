@@ -1,0 +1,155 @@
+{
+  "page": "26",
+  "n_streets": 9,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.14,
+  "auto_residuals_m": [
+    0.13,
+    0.28,
+    0.58,
+    0.68,
+    0.52,
+    0.51
+  ],
+  "inlier_streets": [
+    [
+      "ERIE",
+      "RUSH"
+    ],
+    [
+      "ERIE",
+      "ST. CLAIR"
+    ],
+    [
+      "ONTARIO",
+      "RUSH"
+    ],
+    [
+      "ONTARIO",
+      "ST. CLAIR"
+    ],
+    [
+      "RUSH",
+      "OHIO"
+    ],
+    [
+      "ST. CLAIR",
+      "OHIO"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            818,
+            911
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x RUSH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62543610716406,
+            41.89411666857709
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5308,
+            911
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x ST. CLAIR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62273357195384,
+            41.8941565789242
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            818,
+            2657
+          ],
+          "username": "autogeoref",
+          "note": "auto: ONTARIO x RUSH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.625418699722,
+            41.89331530768434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5308,
+            2657
+          ],
+          "username": "autogeoref",
+          "note": "auto: ONTARIO x ST. CLAIR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62271942177337,
+            41.89336186104948
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            818,
+            4399
+          ],
+          "username": "autogeoref",
+          "note": "auto: RUSH x OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62539377637235,
+            41.89252583777467
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5308,
+            4399
+          ],
+          "username": "autogeoref",
+          "note": "auto: ST. CLAIR x OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62269115200327,
+            41.89255976233024
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

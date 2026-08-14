@@ -1,0 +1,136 @@
+{
+  "page": "57W",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 0.93,
+  "auto_residuals_m": [
+    5.0,
+    5.03,
+    3.54,
+    11.27,
+    7.79
+  ],
+  "inlier_streets": [
+    [
+      "W. OHIO",
+      "N. UNION AV."
+    ],
+    [
+      "W. OHIO",
+      "N. DESPLAINES"
+    ],
+    [
+      "N. UNION AV.",
+      "W. GRAND AV."
+    ],
+    [
+      "N. DESPLAINES",
+      "W. GRAND AV."
+    ],
+    [
+      "W. GRAND AV.",
+      "N. JEFFERSON ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            410,
+            4132
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. UNION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64587321204993,
+            41.892251641507
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2495,
+            4132
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64445718254912,
+            41.892246722913775
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            410,
+            6560
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. UNION AV. x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64585442534636,
+            41.89118423033531
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2495,
+            6560
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DESPLAINES x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64439135657467,
+            41.891202501368156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4714,
+            6560
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. JEFFERSON ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64314608274472,
+            41.891227519380614
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.55,
+    "dy_m": -3.78
+  }
+}

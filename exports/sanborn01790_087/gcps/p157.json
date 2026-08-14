@@ -1,0 +1,157 @@
+{
+  "page": "157",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.15,
+  "auto_residuals_m": [
+    0.58,
+    0.44,
+    0.36,
+    0.38,
+    0.11,
+    0.45
+  ],
+  "inlier_streets": [
+    [
+      "W. FULLERTON AV.",
+      "N. SEMINARY AV."
+    ],
+    [
+      "W. FULLERTON AV.",
+      "N. KENMORE AV. (NO. 5000)"
+    ],
+    [
+      "W. FULLERTON AV.",
+      "N. SHEFFIELD AV."
+    ],
+    [
+      "N. SEMINARY AV.",
+      "W. BELDEN AV."
+    ],
+    [
+      "N. KENMORE AV. (NO. 5000)",
+      "W. BELDEN AV."
+    ],
+    [
+      "N. SHEFFIELD AV.",
+      "W. BELDEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            952,
+            608
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. SEMINARY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65602698639862,
+            41.925343368230884
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2975,
+            608
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. KENMORE AV. (NO. 5000)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65481958232756,
+            41.92535507516606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5000,
+            608
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. SHEFFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65361258329625,
+            41.92537580523391
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            952,
+            4656
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEMINARY AV. x W. BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65597359228077,
+            41.923516141528566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2975,
+            4656
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENMORE AV. (NO. 5000) x W. BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65476066369925,
+            41.92353472032345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5000,
+            4656
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SHEFFIELD AV. x W. BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65354794972319,
+            41.92355579661745
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

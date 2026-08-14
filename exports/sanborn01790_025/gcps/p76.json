@@ -1,0 +1,185 @@
+{
+  "page": "76",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 21ST ST.",
+      "S. PAULINA"
+    ],
+    [
+      "W. 21ST ST.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "S. PAULINA",
+      "W. 21ST PL."
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 21ST PL."
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 21ST PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            621,
+            2647
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66854727187736,
+            41.854108767731034
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4747,
+            2647
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6660501263544,
+            41.85416134849499
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            621,
+            4654
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PAULINA x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66852167188028,
+            41.853196249574786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4747,
+            4654
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66603211306689,
+            41.85323264191055
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4747,
+            4654
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66603284382596,
+            41.853301965836955
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66860763651509,
+            41.8549937519502
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5252,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66576062564948,
+            41.855036585075176
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66853547709178,
+            41.85233282769344
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.6465,
+    "separation_ratio": 0.983,
+    "best_offset_m": 98.6,
+    "n_junctions": 27
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "page": "60",
+  "n_streets": 10,
+  "n_candidates": 13,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. EXCHANGE AV.",
+      "E. 92ND ST."
+    ],
+    [
+      "E. 92ND ST.",
+      "S. MANISTEE AV."
+    ],
+    [
+      "S. 93RD ST.",
+      "S. MANISTEE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            791,
+            255
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EXCHANGE AV. x E. 92ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55259132526152,
+            41.72822928268189
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            791,
+            6725
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 92ND ST. x S. MANISTEE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55673955329371,
+            41.72818294259451
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4647,
+            6725
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 93RD ST. x S. MANISTEE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55669336002538,
+            41.72635144353253
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            570,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55302153841026,
+            41.7283028996594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5131,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55300246476813,
+            41.72617309843983
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            570,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55727835681914,
+            41.72828166599879
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -89.8648,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "page": "22",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "S. KILBOURN AV.",
+      "FILLMORE"
+    ],
+    [
+      "S. KILBOURN AV.",
+      "GRENSHAW"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            534,
+            4271
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KILBOURN AV. x FILLMORE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73747410176603,
+            41.86781481047592
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            534,
+            6106
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KILBOURN AV. x GRENSHAW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73744319987469,
+            41.8669044708981
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73748205356209,
+            41.86939265639334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5214,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73456612422778,
+            41.869434135683335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7374002846213,
+            41.866205008442705
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.797,
+    "separation_ratio": 0.908,
+    "best_offset_m": 92.6,
+    "n_junctions": 6
+  }
+}

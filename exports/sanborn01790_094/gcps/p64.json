@@ -1,0 +1,159 @@
+{
+  "page": "64",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 0.95,
+  "auto_residuals_m": [
+    5.55,
+    2.08,
+    0.51,
+    7.38,
+    5.39,
+    9.34
+  ],
+  "inlier_streets": [
+    [
+      "W. 18TH ST.",
+      "S. HALSTED"
+    ],
+    [
+      "W. 18TH ST.",
+      "S. UNION AV. (S. UNION ST.)"
+    ],
+    [
+      "W. 19TH ST.",
+      "S. HALSTED"
+    ],
+    [
+      "W. 19TH ST.",
+      "S. UNION AV. (S. UNION ST.)"
+    ],
+    [
+      "W. 19TH PL.",
+      "S. HALSTED"
+    ],
+    [
+      "W. 19TH PL.",
+      "S. UNION AV. (S. UNION ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1628,
+            571
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64665861000084,
+            41.85754583101714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4732,
+            571
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x S. UNION AV. (S. UNION ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6448071356409,
+            41.85757748107146
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1628,
+            2347
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH ST. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64663644448241,
+            41.8567354400017
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4732,
+            2347
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH ST. x S. UNION AV. (S. UNION ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64478739240123,
+            41.85675144526868
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1628,
+            3938
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH PL. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64661562120595,
+            41.85600099757301
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4732,
+            3938
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH PL. x S. UNION AV. (S. UNION ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64496336852348,
+            41.856019783840964
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.766,
+    "dy_m": 0.645
+  }
+}

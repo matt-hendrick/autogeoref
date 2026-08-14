@@ -1,0 +1,109 @@
+{
+  "page": "44",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 4,
+  "rotation_deg": 0.01,
+  "auto_residuals_m": [
+    4.07,
+    3.49,
+    4.07,
+    3.51
+  ],
+  "inlier_streets": [
+    [
+      "CHURCHILL",
+      "N. LEAVITT"
+    ],
+    [
+      "CHURCHILL",
+      "N. HOYNE AV."
+    ],
+    [
+      "N. LEAVITT",
+      "WABANSIA AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. WABANSIA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1023,
+            1924
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHURCHILL x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68244686307833,
+            41.91461915474849
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4995,
+            1924
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHURCHILL x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68001388420382,
+            41.91467004445536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1023,
+            6315
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x WABANSIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68239434826403,
+            41.912653425286074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4995,
+            7069
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. WABANSIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67995569871448,
+            41.91225625148727
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

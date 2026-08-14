@@ -1,0 +1,185 @@
+{
+  "page": "34",
+  "n_streets": 8,
+  "n_candidates": 15,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. TOUHY AV.",
+      "N. DAMEN AV."
+    ],
+    [
+      "W. ESTES AV.",
+      "N. RIDGE RD."
+    ],
+    [
+      "W. ESTES AV.",
+      "N. DAMEN AV."
+    ],
+    [
+      "W. GREENLEAF AV.",
+      "N. DAMEN AV."
+    ],
+    [
+      "N. DAMEN AV.",
+      "W. LUNT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5317,
+            338
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TOUHY AV. x N. DAMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68028295465875,
+            42.01254775938726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1435,
+            2928
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ESTES AV. x N. RIDGE RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68272485394516,
+            42.01126935262107
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5317,
+            2928
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ESTES AV. x N. DAMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68023779047805,
+            42.01132216508795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5317,
+            5662
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GREENLEAF AV. x N. DAMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68019669044132,
+            42.010107781952264
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5317,
+            8247
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAMEN AV. x W. LUNT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68015248933906,
+            42.00888758765485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68320969347799,
+            42.01223125149053
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5034,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6804614823097,
+            42.01227878666103
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68311241792958,
+            42.00912648391635
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -1.412,
+    "dy_m": 1.802
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

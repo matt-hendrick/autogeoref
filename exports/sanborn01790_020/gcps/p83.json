@@ -1,0 +1,164 @@
+{
+  "page": "83",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W.25TH ST.",
+      "S. STATE"
+    ],
+    [
+      "E. 25TH ST.",
+      "S. STATE"
+    ],
+    [
+      "S. STATE",
+      "W.26TH ST."
+    ],
+    [
+      "S. STATE",
+      "E 26TH ST"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1618,
+            183
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.25TH ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62689805350024,
+            41.84744484902128
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1618,
+            165
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 25TH ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62689805350024,
+            41.84744484902128
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1618,
+            4211
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x W.26TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.626759948515,
+            41.84558902557868
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1618,
+            4211
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x E 26TH ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.626759948515,
+            41.84558902557868
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62747386140506,
+            41.84716778364094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5292,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62461603617919,
+            41.847213074869195
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62739814112285,
+            41.844516415040005
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8224,
+    "separation_ratio": 1.506,
+    "best_offset_m": 14.4,
+    "n_junctions": 4
+  }
+}

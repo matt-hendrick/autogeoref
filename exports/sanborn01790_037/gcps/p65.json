@@ -1,0 +1,251 @@
+{
+  "page": "65",
+  "n_streets": 12,
+  "n_candidates": 14,
+  "n_inliers": 10,
+  "rotation_deg": 0.95,
+  "auto_residuals_m": [
+    1.2,
+    1.28,
+    1.38,
+    1.28,
+    1.78,
+    1.79,
+    1.35,
+    0.75,
+    1.44,
+    0.76
+  ],
+  "inlier_streets": [
+    [
+      "N. AUSTIN AV.",
+      "FRINK AV."
+    ],
+    [
+      "N. AUSTIN AV.",
+      "WEST END AV. (RANDOLPH ST.)"
+    ],
+    [
+      "N. FRANKLIN AV.",
+      "FRINK AV."
+    ],
+    [
+      "N. FRANKLIN AV.",
+      "WEST END AV. (RANDOLPH ST.)"
+    ],
+    [
+      "AUSTIN",
+      "FRINK AV."
+    ],
+    [
+      "AUSTIN",
+      "WEST END AV. (RANDOLPH ST.)"
+    ],
+    [
+      "FRINK AV.",
+      "S. HOWARD AV."
+    ],
+    [
+      "FRINK AV.",
+      "S. FRANKLIN AV."
+    ],
+    [
+      "S. HOWARD AV.",
+      "WEST END AV. (RANDOLPH ST.)"
+    ],
+    [
+      "S. FRANKLIN AV.",
+      "WEST END AV. (RANDOLPH ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            485,
+            4681
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AUSTIN AV. x FRINK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77483573313341,
+            41.88558991447377
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            485,
+            7781
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AUSTIN AV. x WEST END AV. (RANDOLPH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77478734132686,
+            41.88406990276926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5011,
+            4681
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANKLIN AV. x FRINK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77197577512987,
+            41.88563176932406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5011,
+            7781
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANKLIN AV. x WEST END AV. (RANDOLPH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77192753111996,
+            41.884098547788646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            446,
+            4681
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUSTIN x FRINK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77483573313341,
+            41.88558991447377
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            446,
+            7781
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUSTIN x WEST END AV. (RANDOLPH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77478734132686,
+            41.88406990276926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2768,
+            4681
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRINK AV. x S. HOWARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77340645461645,
+            41.88561274692651
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5039,
+            4681
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRINK AV. x S. FRANKLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77197577512987,
+            41.88563176932406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2768,
+            7781
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOWARD AV. x WEST END AV. (RANDOLPH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77335555693563,
+            41.884076749821865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5039,
+            7781
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANKLIN AV. x WEST END AV. (RANDOLPH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77192753111996,
+            41.884098547788646
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.329,
+    "dy_m": 2.258
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "page": "64",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 8,
+  "rotation_deg": 0.91,
+  "auto_residuals_m": [
+    5.09,
+    4.19,
+    0.99,
+    1.52,
+    7.11,
+    6.8,
+    7.99,
+    15.0
+  ],
+  "inlier_streets": [
+    [
+      "W. CHICAGO AV.",
+      "N. WASHTENAW AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. ROCKWELL"
+    ],
+    [
+      "W. SUPERIOR",
+      "N. WASHTENAW AV."
+    ],
+    [
+      "W. SUPERIOR",
+      "N. ROCKWELL"
+    ],
+    [
+      "N. WASHTENAW AV.",
+      "W. HURON"
+    ],
+    [
+      "W. HURON",
+      "N. TALMAN AV."
+    ],
+    [
+      "W. HURON",
+      "N. ROCKWELL"
+    ],
+    [
+      "N. TALMAN AV.",
+      "W. GRAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            879,
+            448
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69425079660542,
+            41.89568136438034
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5044,
+            448
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69178627415437,
+            41.89571515349365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            879,
+            2451
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x N. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6942223726107,
+            41.89475955316982
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5044,
+            2451
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69175865088822,
+            41.89478781546112
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            879,
+            4421
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WASHTENAW AV. x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69419507112029,
+            41.89385625630576
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3557,
+            4421
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. TALMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69261753790835,
+            41.89387504560885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5044,
+            4421
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69172961536773,
+            41.89388836018981
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3557,
+            6570
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. TALMAN AV. x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6928097638364,
+            41.89279473401264
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.523,
+    "dy_m": 1.935
+  }
+}

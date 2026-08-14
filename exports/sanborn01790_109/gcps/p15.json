@@ -1,0 +1,132 @@
+{
+  "page": "15",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.03,
+  "auto_residuals_m": [
+    2.57,
+    2.6,
+    1.55,
+    1.61,
+    1.36
+  ],
+  "inlier_streets": [
+    [
+      "W. 33RD ST.",
+      "S. RIDGEWAY AV."
+    ],
+    [
+      "W. 33RD ST.",
+      "S. HAMLIN"
+    ],
+    [
+      "W. 34TH ST.",
+      "S. RIDGEWAY AV."
+    ],
+    [
+      "W. 34TH ST.",
+      "S. HAMLIN"
+    ],
+    [
+      "W. 34TH ST.",
+      "S. LAWNDALE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2938,
+            123
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x S. RIDGEWAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71816623938912,
+            41.833392483760356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1040,
+            123
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x S. HAMLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71938811689775,
+            41.833358322157004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2938,
+            4175
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 34TH ST. x S. RIDGEWAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71812394009844,
+            41.8315404542175
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1040,
+            4175
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 34TH ST. x S. HAMLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71928205628394,
+            41.83151792541148
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4896,
+            4175
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 34TH ST. x S. LAWNDALE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71689862876742,
+            41.83154102732519
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,253 @@
+{
+  "page": "77",
+  "n_streets": 11,
+  "n_candidates": 17,
+  "n_inliers": 10,
+  "rotation_deg": 1.12,
+  "auto_residuals_m": [
+    0.66,
+    4.91,
+    5.09,
+    1.49,
+    1.16,
+    1.11,
+    5.53,
+    1.52,
+    5.66,
+    0.93
+  ],
+  "inlier_streets": [
+    [
+      "W. 41ST ST.",
+      "S. SACRAMENTO AV."
+    ],
+    [
+      "S. RICHMOND",
+      "W. 42ND ST."
+    ],
+    [
+      "S. RICHMOND",
+      "W. 42ND ST."
+    ],
+    [
+      "S. SACRAMENTO AV.",
+      "W. 41ST PL."
+    ],
+    [
+      "S. SACRAMENTO AV.",
+      "W. 42ND ST."
+    ],
+    [
+      "S. SACRAMENTO AV.",
+      "W. 42ND ST."
+    ],
+    [
+      "W. 42ND ST.",
+      "S. RICHMOND"
+    ],
+    [
+      "W. 42ND ST.",
+      "S. FRANCISCO AV."
+    ],
+    [
+      "W. 42ND ST.",
+      "S. RICHMOND"
+    ],
+    [
+      "W. 42ND ST.",
+      "S. FRANCISCO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            853,
+            453
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 41ST ST. x S. SACRAMENTO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6994623798869,
+            41.81909355665908
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2766,
+            4409
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RICHMOND x W. 42ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6981649052096,
+            41.81730303696296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2766,
+            4377
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RICHMOND x W. 42ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6981649052096,
+            41.81730303696296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            853,
+            2441
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SACRAMENTO AV. x W. 41ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69944184051738,
+            41.81819156399265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            853,
+            4409
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SACRAMENTO AV. x W. 42ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6993980658026,
+            41.817287769769344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            853,
+            4377
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SACRAMENTO AV. x W. 42ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6993980658026,
+            41.817287769769344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2915,
+            4409
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. RICHMOND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6981649052096,
+            41.81730303696296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4815,
+            4409
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69692725797248,
+            41.817325925059095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2915,
+            4377
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. RICHMOND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6981649052096,
+            41.81730303696296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4815,
+            4377
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69692725797248,
+            41.817325925059095
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 0.694,
+    "dy_m": 2.193
+  }
+}

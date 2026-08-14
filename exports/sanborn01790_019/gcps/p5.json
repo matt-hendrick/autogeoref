@@ -1,0 +1,111 @@
+{
+  "page": "5",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 1.04,
+  "auto_residuals_m": [
+    0.26,
+    0.24,
+    0.3,
+    0.27
+  ],
+  "inlier_streets": [
+    [
+      "FULLERTON AV.",
+      "SOUTHPORT AV."
+    ],
+    [
+      "FULLERTON AV.",
+      "WARD"
+    ],
+    [
+      "SOUTHPORT AV.",
+      "BELDEN AV."
+    ],
+    [
+      "WARD",
+      "BELDEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2365,
+            1664
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x SOUTHPORT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66332744604384,
+            41.92521779615837
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4374,
+            1664
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x WARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66210474657407,
+            41.92523645585027
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2365,
+            5661
+          ],
+          "username": "autogeoref",
+          "note": "auto: SOUTHPORT AV. x BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66325866357762,
+            41.923419335762716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4374,
+            5661
+          ],
+          "username": "autogeoref",
+          "note": "auto: WARD x BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66204360314106,
+            41.92343370246531
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

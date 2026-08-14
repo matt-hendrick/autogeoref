@@ -1,0 +1,109 @@
+{
+  "page": "18",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.98,
+  "auto_residuals_m": [
+    0.15,
+    0.12,
+    0.1,
+    0.14
+  ],
+  "inlier_streets": [
+    [
+      "E. 16TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 16TH ST.",
+      "S. MICHIGAN AV. (BOULEVARD)"
+    ],
+    [
+      "E. 18TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 18TH ST.",
+      "S. MICHIGAN AV. (BOULEVARD)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1437,
+            1767
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 16TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62566301391624,
+            41.86020872638771
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4449,
+            1767
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 16TH ST. x S. MICHIGAN AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6239878208229,
+            41.860228703876864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1437,
+            6948
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 18TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62561064449152,
+            41.857855084134805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4449,
+            6948
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 18TH ST. x S. MICHIGAN AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62393332320357,
+            41.85787798307047
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

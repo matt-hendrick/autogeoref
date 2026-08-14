@@ -1,0 +1,113 @@
+{
+  "page": "93",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.92,
+  "auto_residuals_m": [
+    2.98,
+    3.0,
+    2.96,
+    2.94
+  ],
+  "inlier_streets": [
+    [
+      "ARMITAGE AV.",
+      "N. HARDING AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "CORTLAND AV.",
+      "N. HARDING AV."
+    ],
+    [
+      "CORTLAND AV.",
+      "N. SPRINGFIELD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2316,
+            351
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72531560608768,
+            41.91718101906983
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4309,
+            351
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72419704761833,
+            41.91719428704989
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2316,
+            4158
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND AV. x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72526477308794,
+            41.915356761761245
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4309,
+            4158
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND AV. x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72403952982742,
+            41.91537154641212
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.187,
+    "dy_m": -0.239
+  }
+}

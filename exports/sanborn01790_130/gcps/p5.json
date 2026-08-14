@@ -1,0 +1,251 @@
+{
+  "page": "5",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 10,
+  "rotation_deg": 1.2,
+  "auto_residuals_m": [
+    1.26,
+    1.65,
+    1.95,
+    2.32,
+    0.29,
+    1.13,
+    0.28,
+    0.32,
+    1.12,
+    0.13
+  ],
+  "inlier_streets": [
+    [
+      "E. 87TH ST.",
+      "S. EBERHART AV."
+    ],
+    [
+      "E. 87TH ST.",
+      "S. ST. LAWRENCE AV."
+    ],
+    [
+      "E. 87TH PL.",
+      "S. EBERHART AV."
+    ],
+    [
+      "E. 87TH PL.",
+      "S. ST. LAWRENCE AV."
+    ],
+    [
+      "S. EBERHART AV.",
+      "E. 88TH ST."
+    ],
+    [
+      "S. EBERHART AV.",
+      "E. 88TH PL."
+    ],
+    [
+      "S. EBERHART AV.",
+      "E. 89TH ST."
+    ],
+    [
+      "S. ST. LAWRENCE AV.",
+      "E. 88TH ST."
+    ],
+    [
+      "S. ST. LAWRENCE AV.",
+      "E. 88TH PL."
+    ],
+    [
+      "S. ST. LAWRENCE AV.",
+      "E. 89TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            910,
+            329
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 87TH ST. x S. EBERHART AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61207523196133,
+            41.73652139650245
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4803,
+            329
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 87TH ST. x S. ST. LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60965277922158,
+            41.73656212198521
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            910,
+            2243
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 87TH PL. x S. EBERHART AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61205724240256,
+            41.735611128345184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4803,
+            2243
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 87TH PL. x S. ST. LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60962804550763,
+            41.73564658888632
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            910,
+            4235
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EBERHART AV. x E. 88TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61203390687105,
+            41.73469743012586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            910,
+            6225
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EBERHART AV. x E. 88TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61200899626174,
+            41.73378207501048
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            910,
+            8170
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EBERHART AV. x E. 89TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61198497097949,
+            41.732869533833544
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4803,
+            4235
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LAWRENCE AV. x E. 88TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60960676811393,
+            41.73473463568224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4803,
+            6225
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LAWRENCE AV. x E. 88TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60958484184582,
+            41.7338199479299
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4803,
+            8170
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LAWRENCE AV. x E. 89TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60956087659325,
+            41.73290818360112
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.199,
+    "dy_m": -2.674
+  }
+}

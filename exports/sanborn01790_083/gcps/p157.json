@@ -1,0 +1,109 @@
+{
+  "page": "157",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.15,
+  "auto_residuals_m": [
+    0.43,
+    0.39,
+    0.43,
+    0.41
+  ],
+  "inlier_streets": [
+    [
+      "W. FULLERTON AV.",
+      "N. SEMINARY AV."
+    ],
+    [
+      "W. FULLERTON AV.",
+      "N. SHEFFIELD AV."
+    ],
+    [
+      "N. SEMINARY AV.",
+      "W. BELDEN AV."
+    ],
+    [
+      "N. SHEFFIELD AV.",
+      "W. BELDEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            917,
+            608
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. SEMINARY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65602698639862,
+            41.925343368230884
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4889,
+            608
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. SHEFFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65361258329625,
+            41.92537580523391
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            917,
+            4585
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEMINARY AV. x W. BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65597359228077,
+            41.923516141528566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4889,
+            4585
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SHEFFIELD AV. x W. BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65354794972319,
+            41.92355579661745
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

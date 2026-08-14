@@ -1,0 +1,208 @@
+{
+  "page": "102",
+  "n_streets": 9,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. WASHINGTON BLVD",
+      "N. HOYNE AV."
+    ],
+    [
+      "W. WASHINGTON BLVD",
+      "S. HOYNE AV."
+    ],
+    [
+      "WARREN AV.",
+      "N. HOYNE AV."
+    ],
+    [
+      "WARREN AV.",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. MADISON",
+      "N. HOYNE AV."
+    ],
+    [
+      "W. MADISON",
+      "S. HOYNE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            851,
+            2600
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67913055643434,
+            41.88310740615897
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            906,
+            2600
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67913055643434,
+            41.88310740615897
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            851,
+            4650
+          ],
+          "username": "autogeoref",
+          "note": "auto: WARREN AV. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67910251457023,
+            41.882195485887536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            906,
+            4650
+          ],
+          "username": "autogeoref",
+          "note": "auto: WARREN AV. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67910251457023,
+            41.882195485887536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            851,
+            6792
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6790854732674,
+            41.88127960809296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            906,
+            6792
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6790854732674,
+            41.88127960809296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67933394860643,
+            41.88394488879093
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5260,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67654444495422,
+            41.88399093536796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67925645995366,
+            41.88134290724339
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7368,
+    "separation_ratio": 1.103,
+    "best_offset_m": 1.6,
+    "n_junctions": 23
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "page": "91",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "POPLAR AV.",
+      "ARCHER AV."
+    ],
+    [
+      "POPLAR AV.",
+      "HOEY"
+    ],
+    [
+      "ARCHER AV.",
+      "MARY"
+    ],
+    [
+      "ARCHER AV.",
+      "QUINN"
+    ],
+    [
+      "ARCHER AV.",
+      "THROOP"
+    ],
+    [
+      "MARY",
+      "HOEY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            190,
+            3662
+          ],
+          "username": "autogeoref",
+          "note": "auto: POPLAR AV. x ARCHER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65236581354257,
+            41.84438077588873
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1260,
+            3662
+          ],
+          "username": "autogeoref",
+          "note": "auto: POPLAR AV. x HOEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65199452342077,
+            41.843941792472634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            190,
+            2860
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARCHER AV. x MARY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6519113533684,
+            41.844607837669734
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            190,
+            5284
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARCHER AV. x QUINN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65317777391405,
+            41.8439777438808
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            190,
+            7169
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARCHER AV. x THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6541328405925,
+            41.84351258455611
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1260,
+            2860
+          ],
+          "username": "autogeoref",
+          "note": "auto: MARY x HOEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65151964944047,
+            41.84415257012385
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65069587640218,
+            41.84492886054726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5274,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64917790056492,
+            41.843133031451416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65370833712021,
+            41.843515704870875
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -57.9866,
+  "seam_adjusted": {
+    "dx_m": -0.713,
+    "dy_m": 2.835
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7064,
+    "separation_ratio": 1.21,
+    "best_offset_m": 9.7,
+    "n_junctions": 10
+  }
+}

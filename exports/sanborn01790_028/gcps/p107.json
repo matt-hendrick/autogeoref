@@ -1,0 +1,186 @@
+{
+  "page": "107",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. MADISON",
+      "S. SPRINGFIELD AV."
+    ],
+    [
+      "W. MONROE",
+      "S. SPRINGFIELD AV."
+    ],
+    [
+      "S. SPRINGFIELD AV.",
+      "WILCOX"
+    ],
+    [
+      "S. SPRINGFIELD AV.",
+      "W. ADAMS"
+    ],
+    [
+      "S. SPRINGFIELD AV.",
+      "W. JACKSON BLVD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            365
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.723252568631,
+            41.88075695037198
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            2355
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72319480959945,
+            41.879792931494016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            4203
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. x WILCOX"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72316593457006,
+            41.878901195467876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            6097
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72313673180308,
+            41.878011131548995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            7842
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. x W. JACKSON BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72310580907302,
+            41.87711843896104
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72583859264519,
+            41.88045997277735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72300374091942,
+            41.88048817288374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72578304128957,
+            41.87736426546975
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7972,
+    "separation_ratio": 1.043,
+    "best_offset_m": 9.8,
+    "n_junctions": 18
+  }
+}

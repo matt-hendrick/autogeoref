@@ -1,0 +1,109 @@
+{
+  "page": "89",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.84,
+  "auto_residuals_m": [
+    0.21,
+    0.22,
+    0.26,
+    0.24
+  ],
+  "inlier_streets": [
+    [
+      "W. 36TH ST.",
+      "S. LINCOLN"
+    ],
+    [
+      "W. 36TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "W. 37TH ST.",
+      "S. LINCOLN"
+    ],
+    [
+      "W. 37TH ST.",
+      "S. WOOD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            860,
+            1856
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67279404860275,
+            41.828593531456875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4950,
+            1856
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6703529956236,
+            41.82861869187138
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            860,
+            5892
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH ST. x S. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6727394674302,
+            41.82676780845033
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4950,
+            5892
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67030561215391,
+            41.826796049738995
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

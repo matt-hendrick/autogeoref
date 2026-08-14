@@ -1,0 +1,109 @@
+{
+  "page": "1S",
+  "n_streets": 5,
+  "n_candidates": 9,
+  "n_inliers": 4,
+  "rotation_deg": 0.36,
+  "auto_residuals_m": [
+    3.21,
+    3.19,
+    3.22,
+    3.24
+  ],
+  "inlier_streets": [
+    [
+      "W. LAKE",
+      "WACKER DRIVE (N. MARKET)"
+    ],
+    [
+      "W. LAKE",
+      "N. FRANKLIN"
+    ],
+    [
+      "WACKER DRIVE (N. MARKET)",
+      "W. RANDOLPH"
+    ],
+    [
+      "N. FRANKLIN",
+      "W. RANDOLPH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2638,
+            3169
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x WACKER DRIVE (N. MARKET)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63697176966554,
+            41.88572468003204
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5099,
+            3169
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63541002760226,
+            41.88573488223764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2638,
+            5966
+          ],
+          "username": "autogeoref",
+          "note": "auto: WACKER DRIVE (N. MARKET) x W. RANDOLPH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63682564264386,
+            41.88446096547034
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5099,
+            5966
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANKLIN x W. RANDOLPH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63537917986328,
+            41.88446483376496
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

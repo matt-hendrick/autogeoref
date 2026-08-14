@@ -1,0 +1,163 @@
+{
+  "page": "115",
+  "n_streets": 5,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 22ND ST.",
+      "S. KILDARE AV."
+    ],
+    [
+      "W. 22ND ST.",
+      "S. KEELER AV."
+    ],
+    [
+      "W. 22ND ST.",
+      "S. KEDVALE AV."
+    ],
+    [
+      "OGDEN AV.",
+      "S. KEELER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            278,
+            206
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND ST. x S. KILDARE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73124234407898,
+            41.85145254211939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2925,
+            206
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND ST. x S. KEELER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72960561807496,
+            41.85147843554489
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5467,
+            206
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND ST. x S. KEDVALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72798774536379,
+            41.851497150828564
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2925,
+            4583
+          ],
+          "username": "autogeoref",
+          "note": "auto: OGDEN AV. x S. KEELER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7295525038683,
+            41.84939534961189
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73106168075753,
+            41.85114607552274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5218,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72814323465357,
+            41.851187602461636
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7309799214321,
+            41.847957892857835
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6375,
+    "separation_ratio": 1.469,
+    "best_offset_m": 6.8,
+    "n_junctions": 8
+  }
+}

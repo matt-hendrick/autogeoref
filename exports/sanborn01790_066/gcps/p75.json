@@ -1,0 +1,164 @@
+{
+  "page": "75",
+  "n_streets": 13,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 115TH ST.",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "W. 115TH PL.",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "W. 116TH ST.",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "W. 116TH PL.",
+      "S. CENTRAL PARK AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4445,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 115TH ST. x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71028942224466,
+            41.68411134563787
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4445,
+            1322
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 115TH PL. x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71025333339423,
+            41.68320365434887
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4445,
+            2296
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 116TH ST. x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71021632611645,
+            41.68228822766704
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4445,
+            3227
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 116TH PL. x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71017938388637,
+            41.68137301880918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            566,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71500562032213,
+            41.68353578032136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5098,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70945716928456,
+            41.68361194700921
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            566,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71485249606975,
+            41.67731400802033
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.161,
+    "separation_ratio": 0.29,
+    "best_offset_m": 82.1,
+    "n_junctions": 6
+  }
+}

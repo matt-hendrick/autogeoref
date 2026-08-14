@@ -1,0 +1,109 @@
+{
+  "page": "7",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.86,
+  "auto_residuals_m": [
+    0.12,
+    0.06,
+    0.06,
+    0.13
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVISION",
+      "N. 52D AV."
+    ],
+    [
+      "W. DIVISION",
+      "N. 51ST CT."
+    ],
+    [
+      "THOMAS",
+      "N. 52D AV."
+    ],
+    [
+      "THOMAS",
+      "N. 51ST CT."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3391,
+            234
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. 52D AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75577438755083,
+            41.90224940405936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5313,
+            234
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. 51ST CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75455117484849,
+            41.90226300298441
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3391,
+            4310
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x N. 52D AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75573290488525,
+            41.90041717268404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5313,
+            4310
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x N. 51ST CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75450644196567,
+            41.90043083304273
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

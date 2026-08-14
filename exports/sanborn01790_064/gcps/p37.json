@@ -1,0 +1,136 @@
+{
+  "page": "37",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 5,
+  "rotation_deg": 2.25,
+  "auto_residuals_m": [
+    6.24,
+    13.47,
+    0.75,
+    1.77,
+    6.6
+  ],
+  "inlier_streets": [
+    [
+      "E. 93RD ST.",
+      "S. ST. LAWRENCE AV."
+    ],
+    [
+      "S. BURNSIDE AV.",
+      "S. CHAMPLAIN AV."
+    ],
+    [
+      "S. ST. LAWRENCE AV.",
+      "E. 95TH ST."
+    ],
+    [
+      "S. CHAMPLAIN AV.",
+      "E. 95TH ST."
+    ],
+    [
+      "S. LANGLEY AV.",
+      "E. 95TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            164,
+            376
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 93RD ST. x S. ST. LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60917571368027,
+            41.72582105878318
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2101,
+            4527
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. BURNSIDE AV. x S. CHAMPLAIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60812843580355,
+            41.72385497242392
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            164,
+            8120
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LAWRENCE AV. x E. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60928890415664,
+            41.72195497442157
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2101,
+            8120
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CHAMPLAIN AV. x E. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60807704377358,
+            41.72197524767586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3923,
+            8120
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LANGLEY AV. x E. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60687573267106,
+            41.72199539096938
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.042,
+    "dy_m": -2.898
+  }
+}

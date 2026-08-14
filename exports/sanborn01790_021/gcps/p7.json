@@ -1,0 +1,145 @@
+{
+  "page": "7",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. ASHLAND AV.",
+      "W. 32ND ST."
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 32ND PL."
+    ],
+    [
+      "PAULINA",
+      "W. 32ND PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5664,
+            5177
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66566806387975,
+            41.835577513951094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5664,
+            7118
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 32ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66564626862093,
+            41.834761763865394
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1501,
+            7118
+          ],
+          "username": "autogeoref",
+          "note": "auto: PAULINA x W. 32ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66803187164528,
+            41.83472631955311
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66871420114624,
+            41.83755142998372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5288,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66590222739953,
+            41.83758726733824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6686542545807,
+            41.83494043298347
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 2.474,
+    "dy_m": 0.469
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6074,
+    "separation_ratio": 1.47,
+    "best_offset_m": 4.4,
+    "n_junctions": 13
+  }
+}

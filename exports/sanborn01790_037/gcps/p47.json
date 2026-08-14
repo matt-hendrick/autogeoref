@@ -1,0 +1,205 @@
+{
+  "page": "47",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.66,
+  "auto_residuals_m": [
+    0.13,
+    0.26,
+    0.14,
+    0.22,
+    0.48,
+    0.46,
+    0.77,
+    0.31
+  ],
+  "inlier_streets": [
+    [
+      "W. CHICAGO AV.",
+      "N. 49TH AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. 48TH AV."
+    ],
+    [
+      "W. SUPERIOR",
+      "N. 49TH AV."
+    ],
+    [
+      "W. SUPERIOR",
+      "N. 48TH AV."
+    ],
+    [
+      "N. 49TH AV.",
+      "W. HURON"
+    ],
+    [
+      "N. 49TH AV.",
+      "W. ERIE"
+    ],
+    [
+      "W. HURON",
+      "N. 48TH AV."
+    ],
+    [
+      "N. 48TH AV.",
+      "W. ERIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            825,
+            204
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. 49TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74825867570482,
+            41.894998275571936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4705,
+            204
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. 48TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74580809942005,
+            41.8950176265095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            825,
+            2328
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x N. 49TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7482236797908,
+            41.89404754295516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4705,
+            2328
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x N. 48TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74577688923719,
+            41.89406700339912
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            825,
+            4333
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 49TH AV. x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74819375246207,
+            41.89315315500576
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            825,
+            6312
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 49TH AV. x W. ERIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74816474023824,
+            41.892260992490755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4705,
+            4333
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. 48TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74574689454208,
+            41.89317587549745
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4705,
+            6312
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 48TH AV. x W. ERIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7457142639547,
+            41.89228289175311
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.099,
+    "dy_m": 2.015
+  }
+}

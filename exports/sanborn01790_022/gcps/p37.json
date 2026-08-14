@@ -1,0 +1,154 @@
+{
+  "page": "37",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "ARMITAGE AV.",
+      "N. WINCHESTER AV."
+    ],
+    [
+      "N. WINCHESTER AV.",
+      "CORTLAND (CLYBOURN PL.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            445,
+            1205
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. WINCHESTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67640352418951,
+            41.91778096144693
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            445,
+            5071
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WINCHESTER AV. x CORTLAND (CLYBOURN PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67636622709952,
+            41.915962135510284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67633161941808,
+            41.91796895709667
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5263,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67346713249323,
+            41.918015870813505
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67625266995844,
+            41.91529982476249
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6759,
+    "separation_ratio": 1.002,
+    "best_offset_m": 12.9,
+    "n_junctions": 19
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5"
+      ],
+      "consensus_numerals": 3,
+      "votable": 3,
+      "in_block": 3,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 16.9,
+          "addr_diff": 3.9
+        },
+        {
+          "perp_m": 17.2,
+          "addr_diff": 3.8
+        },
+        {
+          "perp_m": 17.3,
+          "addr_diff": 3.8
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

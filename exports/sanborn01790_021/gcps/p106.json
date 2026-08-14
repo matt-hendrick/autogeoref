@@ -1,0 +1,163 @@
+{
+  "page": "106",
+  "n_streets": 7,
+  "n_candidates": 13,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 37TH PL.",
+      "S. MORGAN"
+    ],
+    [
+      "W. 37TH PL.",
+      "GAGE"
+    ],
+    [
+      "W. 38TH ST.",
+      "S. MORGAN"
+    ],
+    [
+      "W. 38TH ST.",
+      "GAGE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3126,
+            677
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH PL. x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.650863776829,
+            41.82656211008369
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5770,
+            677
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH PL. x GAGE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64924461664216,
+            41.826556451420096
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3126,
+            2973
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65083399448669,
+            41.82549924125003
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5770,
+            2973
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x GAGE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64922083277715,
+            41.8255191816304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65236231857186,
+            41.82649191868792
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5272,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64955895876788,
+            41.8265276524351
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6523023801924,
+            41.823880827152664
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8443,
+    "separation_ratio": 1.268,
+    "best_offset_m": 2.0,
+    "n_junctions": 6
+  }
+}

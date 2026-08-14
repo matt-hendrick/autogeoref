@@ -1,0 +1,142 @@
+{
+  "page": "41",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. CHICAGO AV.",
+      "N. PINE AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. POPLAR AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. WILLOW AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            393,
+            261
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. PINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7635679918227,
+            41.894867272474194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2732,
+            261
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. POPLAR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7621338025861,
+            41.89487797427319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5192,
+            261
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. WILLOW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7606428634433,
+            41.89489035046391
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76346127984519,
+            41.89459511834519
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5283,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76055834346926,
+            41.89462183021656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76340929245161,
+            41.89146453823124
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8702,
+    "separation_ratio": 1.844,
+    "best_offset_m": 9.7,
+    "n_junctions": 8
+  }
+}

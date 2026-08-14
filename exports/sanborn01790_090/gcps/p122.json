@@ -1,0 +1,174 @@
+{
+  "page": "122",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "E. 37TH PL.",
+      "LANGLEY AV."
+    ],
+    [
+      "LANGLEY AV.",
+      "E. 38TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1358,
+            5185
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 37TH PL. x LANGLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61032604977501,
+            41.82662912196612
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1358,
+            7164
+          ],
+          "username": "autogeoref",
+          "note": "auto: LANGLEY AV. x E. 38TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6102287084735,
+            41.825742831445034
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6107992583877,
+            41.82863751960759
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5294,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60794768634264,
+            41.828673042147045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61073990730401,
+            41.82599208627022
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7524,
+    "separation_ratio": 1.197,
+    "best_offset_m": 15.9,
+    "n_junctions": 8
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 8,
+      "votable": 8,
+      "in_block": 8,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 32.4,
+          "addr_diff": 10.0
+        },
+        {
+          "perp_m": 34.9,
+          "addr_diff": 12.0
+        },
+        {
+          "perp_m": 22.3,
+          "addr_diff": 20.2
+        },
+        {
+          "perp_m": 20.5,
+          "addr_diff": 28.8
+        },
+        {
+          "perp_m": 11.5,
+          "addr_diff": 23.5
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 34.1
+        },
+        {
+          "perp_m": 11.5,
+          "addr_diff": 36.0
+        },
+        {
+          "perp_m": 8.7,
+          "addr_diff": 32.2
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

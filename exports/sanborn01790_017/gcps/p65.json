@@ -1,0 +1,158 @@
+{
+  "page": "65",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (verified: corroboration+addresses)",
+  "rescue_anchors": [
+    [
+      "VANBUREN",
+      "LASALLE"
+    ],
+    [
+      "LASALLE",
+      "HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2883,
+            1036
+          ],
+          "username": "autogeoref",
+          "note": "auto: VANBUREN x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63177168575506,
+            41.87687503139372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2883,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: LASALLE x HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6316931057154,
+            41.87450506606572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63308730374507,
+            41.87699460022922
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5313,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63036419191702,
+            41.877032070987255
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63302488164229,
+            41.87447957632994
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.5085,
+    "separation_ratio": 0.896,
+    "best_offset_m": 76.6,
+    "n_junctions": 33
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": null,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5"
+      ],
+      "consensus_numerals": 4,
+      "votable": 4,
+      "in_block": 4,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 9.6,
+          "addr_diff": 5.7
+        },
+        {
+          "perp_m": 9.5,
+          "addr_diff": 6.0
+        },
+        {
+          "perp_m": 9.2,
+          "addr_diff": 7.9
+        },
+        {
+          "perp_m": 9.1,
+          "addr_diff": 8.3
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

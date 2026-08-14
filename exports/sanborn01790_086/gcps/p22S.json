@@ -1,0 +1,248 @@
+{
+  "page": "22S",
+  "n_streets": 10,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. RANDOLPH",
+      "N. CLARK"
+    ],
+    [
+      "W. RANDOLPH",
+      "S. CLARK"
+    ],
+    [
+      "W. WASHINGTON",
+      "N. CLARK"
+    ],
+    [
+      "W. WASHINGTON",
+      "S. CLARK"
+    ],
+    [
+      "N. CLARK",
+      "W. CALHOUN PL."
+    ],
+    [
+      "N. CLARK",
+      "W. MADISON"
+    ],
+    [
+      "W. CALHOUN PL.",
+      "S. CLARK"
+    ],
+    [
+      "W. MADISON",
+      "S. CLARK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4192,
+            926
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6309349560629,
+            41.884476682934555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4207,
+            926
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x S. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6309349560629,
+            41.884476682934555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4192,
+            3740
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6309068674027,
+            41.88321075181364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4207,
+            3740
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON x S. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6309068674027,
+            41.88321075181364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4192,
+            5163
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. CALHOUN PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63090260275713,
+            41.88256793980325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4192,
+            6530
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63088320810661,
+            41.88197707945246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4207,
+            5163
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CALHOUN PL. x S. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63090260275713,
+            41.88256793980325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4207,
+            6530
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63088320810661,
+            41.88197707945246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            576,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63314048483527,
+            41.88455867203249
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5186,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63033342498017,
+            41.88458625523964
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            576,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6330933978495,
+            41.88190262216511
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

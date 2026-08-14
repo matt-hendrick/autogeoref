@@ -1,0 +1,141 @@
+{
+  "page": "92",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. LAKE",
+      "N. LOOMIS (SHELDON)"
+    ],
+    [
+      "W. LAKE",
+      "N. ADA"
+    ],
+    [
+      "N. ADA",
+      "W. RANDOLPH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1631,
+            3557
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. LOOMIS (SHELDON)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66241871060141,
+            41.88539620957847
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4322,
+            3557
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. ADA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66076229591107,
+            41.885425507382024
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4322,
+            6356
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ADA x W. RANDOLPH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66067762529266,
+            41.88416806232116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66306886245994,
+            41.886673397888735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5258,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66021997472879,
+            41.8867204148067
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6629896968743,
+            41.88401477204528
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 0.551,
+    "dy_m": -2.899
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

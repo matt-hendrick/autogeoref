@@ -1,0 +1,160 @@
+{
+  "page": "44",
+  "n_streets": 10,
+  "n_candidates": 34,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 95TH ST.",
+      "S. RACINE AV."
+    ],
+    [
+      "W. 95TH PL.",
+      "S. RACINE AV."
+    ],
+    [
+      "S. RACINE AV.",
+      "W. 96TH ST."
+    ],
+    [
+      "S. RACINE AV.",
+      "W. 97TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            247,
+            359
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH ST. x S. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65294696050815,
+            41.72133576975584
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            247,
+            2528
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH PL. x S. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65291853285312,
+            41.72031432536046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            247,
+            4875
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RACINE AV. x W. 96TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65288875275488,
+            41.71920663497151
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            247,
+            7167
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RACINE AV. x W. 97TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65286013434017,
+            41.718131081754315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65273174487656,
+            41.72108071254361
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5207,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64986778652245,
+            41.721120942959885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6526525254474,
+            41.71793883023202
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "page": "16",
+  "n_streets": 10,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "FULLERTON PARKWAY",
+      "COMMONWEALTH AV."
+    ],
+    [
+      "COMMONWEALTH AV.",
+      "BELDEN AV."
+    ],
+    [
+      "N. CLARK",
+      "BELDEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2598,
+            670
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON PARKWAY x COMMONWEALTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63810975646825,
+            41.92562698937414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2598,
+            4705
+          ],
+          "username": "autogeoref",
+          "note": "auto: COMMONWEALTH AV. x BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63805287185872,
+            41.923792694009755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            438,
+            4705
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63936615004332,
+            41.92377034287952
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63933172906006,
+            41.925573414383244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5261,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63648595061494,
+            41.925620126303265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63925308293163,
+            41.92292112389313
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7846,
+    "separation_ratio": 1.567,
+    "best_offset_m": 26.6,
+    "n_junctions": 10
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "page": "65",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 1.16,
+  "auto_residuals_m": [
+    4.58,
+    4.03,
+    4.57,
+    11.99,
+    11.4,
+    10.86
+  ],
+  "inlier_streets": [
+    [
+      "E. 91ST ST.",
+      "S. BUFFALO AV."
+    ],
+    [
+      "E. 91ST ST.",
+      "S. MACKINAW AV."
+    ],
+    [
+      "E. 91ST ST.",
+      "S. BURLEY AV."
+    ],
+    [
+      "S. BUFFALO AV.",
+      "E. 92ND ST."
+    ],
+    [
+      "S. BURLEY AV.",
+      "E. 92ND ST."
+    ],
+    [
+      "S. BURLEY AV.",
+      "E. 93RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2742,
+            235
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST ST. x S. BUFFALO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54430155437576,
+            41.73017641196897
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4937,
+            235
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST ST. x S. MACKINAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54290567565961,
+            41.73019504814353
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            660,
+            235
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST ST. x S. BURLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5456763394768,
+            41.7301578453083
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2742,
+            3889
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. BUFFALO AV. x E. 92ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54425756872283,
+            41.72834786589024
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            660,
+            3889
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. BURLEY AV. x E. 92ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54562080478993,
+            41.728331033670976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            660,
+            8069
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. BURLEY AV. x E. 93RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54556677210404,
+            41.72651220697345
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.971,
+    "dy_m": 2.641
+  }
+}

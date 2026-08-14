@@ -1,0 +1,228 @@
+{
+  "page": "96",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 1.2,
+  "auto_residuals_m": [
+    1.45,
+    2.84,
+    1.75,
+    2.27,
+    1.73,
+    3.2,
+    2.13,
+    2.95,
+    1.59
+  ],
+  "inlier_streets": [
+    [
+      "ADDISON",
+      "BOSWORTH AVE."
+    ],
+    [
+      "ADDISON",
+      "PERRY"
+    ],
+    [
+      "ADDISON",
+      "JANSSEN AVE."
+    ],
+    [
+      "BOSWORTH AVE.",
+      "CORNELIA"
+    ],
+    [
+      "BOSWORTH AVE.",
+      "ROSCOE"
+    ],
+    [
+      "CORNELIA",
+      "PERRY"
+    ],
+    [
+      "CORNELIA",
+      "JANSSEN AVE."
+    ],
+    [
+      "PERRY",
+      "ROSCOE"
+    ],
+    [
+      "JANSSEN AVE.",
+      "ROSCOE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1446,
+            177
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADDISON x BOSWORTH AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66765680838968,
+            41.9470387324867
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3492,
+            177
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADDISON x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66644347961486,
+            41.9470584557714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5411,
+            177
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADDISON x JANSSEN AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66523438091001,
+            41.947077671092714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1446,
+            4142
+          ],
+          "username": "autogeoref",
+          "note": "auto: BOSWORTH AVE. x CORNELIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66760556603933,
+            41.94521398305929
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1446,
+            8175
+          ],
+          "username": "autogeoref",
+          "note": "auto: BOSWORTH AVE. x ROSCOE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.667557237425,
+            41.943392488382216
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3492,
+            4142
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORNELIA x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66639496882303,
+            41.94523367013361
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5411,
+            4142
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORNELIA x JANSSEN AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66518571907852,
+            41.945252663484936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3492,
+            8175
+          ],
+          "username": "autogeoref",
+          "note": "auto: PERRY x ROSCOE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66634660461963,
+            41.943409973386345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5411,
+            8175
+          ],
+          "username": "autogeoref",
+          "note": "auto: JANSSEN AVE. x ROSCOE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66513658920307,
+            41.943428044436004
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.494,
+    "dy_m": 4.366
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "page": "110",
+  "n_streets": 7,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "ADDISON",
+      "KIMBALL AV."
+    ],
+    [
+      "ADDISON",
+      "CHRISTIANA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3565,
+            157
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADDISON x KIMBALL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71271319633655,
+            41.94656673631754
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5604,
+            157
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADDISON x CHRISTIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71149576741828,
+            41.94658387144403
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71454087419065,
+            41.94623983596107
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5293,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71166711137931,
+            41.94626408531746
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71449372954795,
+            41.94314901718504
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6231,
+    "separation_ratio": 1.091,
+    "best_offset_m": 12.2,
+    "n_junctions": 4
+  }
+}

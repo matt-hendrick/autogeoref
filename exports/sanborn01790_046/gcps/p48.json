@@ -1,0 +1,132 @@
+{
+  "page": "48",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 5,
+  "rotation_deg": 0.95,
+  "auto_residuals_m": [
+    2.38,
+    2.6,
+    0.28,
+    1.38,
+    1.41
+  ],
+  "inlier_streets": [
+    [
+      "E. 79TH ST.",
+      "EAST END AV."
+    ],
+    [
+      "E. 79TH ST.",
+      "RIDGELAND AV."
+    ],
+    [
+      "E. 79TH ST.",
+      "CONSTANCE AV."
+    ],
+    [
+      "RIDGELAND AV.",
+      "E. 80TH ST."
+    ],
+    [
+      "E. 80TH ST.",
+      "CONSTANCE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            710,
+            144
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 79TH ST. x EAST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5828920822433,
+            41.7515197692939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2669,
+            144
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 79TH ST. x RIDGELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58167876572719,
+            41.75153490333114
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5439,
+            144
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 79TH ST. x CONSTANCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58005233385123,
+            41.75155525084149
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2669,
+            4061
+          ],
+          "username": "autogeoref",
+          "note": "auto: RIDGELAND AV. x E. 80TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.581638832959,
+            41.749719163951305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5439,
+            4061
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 80TH ST. x CONSTANCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58001153759102,
+            41.74973883323969
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

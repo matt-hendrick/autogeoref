@@ -1,0 +1,186 @@
+{
+  "page": "1",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 59TH ST.",
+      "S. SPRINGFIELD"
+    ],
+    [
+      "W. 59TH PL.",
+      "S. SPRINGFIELD"
+    ],
+    [
+      "W. 60TH ST.",
+      "S. SPRINGFIELD"
+    ],
+    [
+      "S. SPRINGFIELD",
+      "W. 60TH PL."
+    ],
+    [
+      "S. SPRINGFIELD",
+      "W. 61ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4847,
+            221
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 59TH ST. x S. SPRINGFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72050679903215,
+            41.785977148853966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4847,
+            2112
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 59TH PL. x S. SPRINGFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72048091963656,
+            41.785066624435125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4847,
+            4005
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 60TH ST. x S. SPRINGFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7204586489978,
+            41.78415245658569
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4847,
+            5882
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD x W. 60TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7204347976748,
+            41.78324311587665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4847,
+            7813
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD x W. 61ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72041027403705,
+            41.78233408620449
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7231841778963,
+            41.7855986201259
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72036524633494,
+            41.785642948223874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72309698533674,
+            41.78251573290865
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.9585,
+    "separation_ratio": 1.052,
+    "best_offset_m": 9.2,
+    "n_junctions": 10
+  }
+}

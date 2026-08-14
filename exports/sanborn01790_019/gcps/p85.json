@@ -1,0 +1,158 @@
+{
+  "page": "85",
+  "n_streets": 8,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "EASTMAN",
+      "DAYTON"
+    ],
+    [
+      "EASTMAN",
+      "N. HALSTED"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            941,
+            3672
+          ],
+          "username": "autogeoref",
+          "note": "auto: EASTMAN x DAYTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64941753924707,
+            41.90745667383217
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3021,
+            3672
+          ],
+          "username": "autogeoref",
+          "note": "auto: EASTMAN x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64818872811091,
+            41.907472808086965
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6496932536149,
+            41.908782228812434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5246,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6468557506117,
+            41.90882881715172
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64961460748644,
+            41.90612924041056
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5979,
+    "separation_ratio": 1.364,
+    "best_offset_m": 2.1,
+    "n_junctions": 26
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5"
+      ],
+      "consensus_numerals": 6,
+      "votable": 4,
+      "in_block": 4,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 9.5,
+          "addr_diff": 2.8
+        },
+        {
+          "perp_m": 9.7,
+          "addr_diff": 2.1
+        },
+        {
+          "perp_m": 9.9,
+          "addr_diff": 3.6
+        },
+        {
+          "perp_m": 15.1,
+          "addr_diff": 0.0
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

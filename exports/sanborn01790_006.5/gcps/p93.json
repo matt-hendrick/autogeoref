@@ -1,0 +1,138 @@
+{
+  "page": "93",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "69TH",
+      "JEFFERY AVE"
+    ],
+    [
+      "70TH",
+      "JEFFERY AVE"
+    ],
+    [
+      "JEFFERY AVE",
+      "71ST"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5430,
+            183
+          ],
+          "username": "autogeoref",
+          "note": "auto: 69TH x JEFFERY AVE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57639814323137,
+            41.76980109507874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5430,
+            4148
+          ],
+          "username": "autogeoref",
+          "note": "auto: 70TH x JEFFERY AVE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57634847616387,
+            41.767981066697345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5430,
+            8263
+          ],
+          "username": "autogeoref",
+          "note": "auto: JEFFERY AVE x 71ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57629757287161,
+            41.76606874806704
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57938361122392,
+            41.769463267739916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57666337531681,
+            41.769493345013
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57932279167187,
+            41.76640340039553
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "page": "118",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "rotation_deg": 0.38,
+  "auto_residuals_m": [
+    1.26,
+    2.91,
+    5.65,
+    4.35,
+    2.95
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. KARLOV AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. KEYSTONE AV."
+    ],
+    [
+      "PIERCE AV.",
+      "N. KARLOV AV."
+    ],
+    [
+      "N. KARLOV AV.",
+      "HIRSCH"
+    ],
+    [
+      "N. KEYSTONE AV.",
+      "W. GRAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            806,
+            395
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. KARLOV AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72897287650876,
+            41.90984972557468
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2893,
+            395
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. KEYSTONE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72774409493552,
+            41.90986692377528
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            806,
+            2917
+          ],
+          "username": "autogeoref",
+          "note": "auto: PIERCE AV. x N. KARLOV AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7289315008649,
+            41.908652721350556
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            806,
+            8342
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KARLOV AV. x HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72886104592536,
+            41.906243338324295
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2893,
+            7375
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEYSTONE AV. x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72764341273026,
+            41.9066420675107
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

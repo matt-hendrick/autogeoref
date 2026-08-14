@@ -1,0 +1,141 @@
+{
+  "page": "29",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 17TH ST.",
+      "S. HOYNE AV."
+    ],
+    [
+      "S. LEAVITT",
+      "W. 18TH ST."
+    ],
+    [
+      "S. HOYNE AV.",
+      "W. 18TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4862,
+            4379
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 17TH ST. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67844538925756,
+            41.8584921671663
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            895,
+            6344
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6809013281747,
+            41.85760526731545
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4862,
+            6344
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67844578776662,
+            41.85763386756912
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6811265284498,
+            41.86013440058178
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5275,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67826732168433,
+            41.86017741373572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6810543690265,
+            41.857473690202355
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5835,
+    "separation_ratio": 1.16,
+    "best_offset_m": 3.8,
+    "n_junctions": 12
+  }
+}

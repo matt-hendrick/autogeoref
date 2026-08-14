@@ -1,0 +1,251 @@
+{
+  "page": "12",
+  "n_streets": 13,
+  "n_candidates": 13,
+  "n_inliers": 10,
+  "rotation_deg": -0.28,
+  "auto_residuals_m": [
+    1.27,
+    3.79,
+    0.38,
+    4.01,
+    5.69,
+    2.77,
+    6.16,
+    1.45,
+    7.58,
+    4.63
+  ],
+  "inlier_streets": [
+    [
+      "SPRING",
+      "WOOD"
+    ],
+    [
+      "E. 4TH ST. (3RD ST.)",
+      "S. LAUREL (VIRGINIA)"
+    ],
+    [
+      "E. 4TH ST. (3RD ST.)",
+      "WABASH"
+    ],
+    [
+      "S. LAUREL (VIRGINIA)",
+      "E. 5TH ST. (4TH ST.)"
+    ],
+    [
+      "E. 5TH ST. (4TH ST.)",
+      "WABASH"
+    ],
+    [
+      "WABASH",
+      "6TH ST. (5TH ST.)"
+    ],
+    [
+      "WABASH",
+      "E. 6TH ST. (5TH ST.)"
+    ],
+    [
+      "6TH ST. (5TH ST.)",
+      "WOOD"
+    ],
+    [
+      "E. 6TH ST. (5TH ST.)",
+      "WOOD"
+    ],
+    [
+      "WOOD",
+      "7TH ST. (6TH ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            304,
+            254
+          ],
+          "username": "autogeoref",
+          "note": "auto: SPRING x WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.78896562856201,
+            39.007550610510975
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5785,
+            941
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 4TH ST. (3RD ST.) x S. LAUREL (VIRGINIA)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.785688628562,
+            39.00725261053883
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4366,
+            941
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 4TH ST. (3RD ST.) x WABASH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.78655962856199,
+            39.007239610540026
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5785,
+            2591
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LAUREL (VIRGINIA) x E. 5TH ST. (4TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.785749628562,
+            39.00649261060983
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4366,
+            2591
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 5TH ST. (4TH ST.) x WABASH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.786545628562,
+            39.006459610612914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4366,
+            4079
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABASH x 6TH ST. (5TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.786547728562,
+            39.00581051067359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4366,
+            4217
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABASH x E. 6TH ST. (5TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.786547728562,
+            39.00581051067359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            304,
+            4079
+          ],
+          "username": "autogeoref",
+          "note": "auto: 6TH ST. (5TH ST.) x WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.788960628562,
+            39.005829610671796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            304,
+            4217
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 6TH ST. (5TH ST.) x WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.788960628562,
+            39.005829610671796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            304,
+            6143
+          ],
+          "username": "autogeoref",
+          "note": "auto: WOOD x 7TH ST. (6TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.78894062856199,
+            39.004879610760575
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.519,
+    "dy_m": 0.947
+  }
+}

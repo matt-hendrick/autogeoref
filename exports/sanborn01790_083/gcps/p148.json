@@ -1,0 +1,229 @@
+{
+  "page": "148",
+  "n_streets": 10,
+  "n_candidates": 11,
+  "n_inliers": 7,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. WEBSTER AV.",
+      "N. SOUTHPORT AV."
+    ],
+    [
+      "W. WEBSTER AV.",
+      "N. WARD"
+    ],
+    [
+      "W. WEBSTER AV.",
+      "N. HERNDON"
+    ],
+    [
+      "N. SOUTHPORT AV.",
+      "W. CUSTER"
+    ],
+    [
+      "N. SOUTHPORT AV.",
+      "W. GARFIELD AV."
+    ],
+    [
+      "N. SOUTHPORT AV.",
+      "W. GARFIELD AV."
+    ],
+    [
+      "N. HERNDON",
+      "W. GARFIELD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            829,
+            1036
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. SOUTHPORT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66319747425776,
+            41.921620247028905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2856,
+            1036
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. WARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66198508256834,
+            41.92163026514816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4711,
+            1036
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. HERNDON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6607687762488,
+            41.9216409006601
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            829,
+            3085
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SOUTHPORT AV. x W. CUSTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66318501695339,
+            41.92074098837623
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            829,
+            4804
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SOUTHPORT AV. x W. GARFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66314912463456,
+            41.919853624948814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            829,
+            5084
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SOUTHPORT AV. x W. GARFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66314912463456,
+            41.919853624948814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4711,
+            5084
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HERNDON x W. GARFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6607150092147,
+            41.919821170671405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            571,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66335052246244,
+            41.92175927101082
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5139,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66056460795426,
+            41.92180824621044
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            571,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66326610688546,
+            41.91910077219053
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6935,
+    "separation_ratio": 1.009,
+    "best_offset_m": 30.2,
+    "n_junctions": 10
+  }
+}

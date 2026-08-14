@@ -1,0 +1,159 @@
+{
+  "page": "68",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "FULTON",
+      "N. JEFFERSON"
+    ],
+    [
+      "FULTON",
+      "N. CLINTON"
+    ],
+    [
+      "W. LAKE",
+      "N. JEFFERSON"
+    ],
+    [
+      "W. LAKE",
+      "N. CLINTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1183,
+            1027
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64280632779004,
+            41.886811294557624
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3602,
+            1027
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64133615223761,
+            41.88681543495995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1183,
+            3422
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64277350332452,
+            41.88570500537746
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3602,
+            3422
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64131319279043,
+            41.885699398026304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64317143947865,
+            41.88692239835153
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5254,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64033731033145,
+            41.886960718181086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64310791371179,
+            41.88431839188469
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

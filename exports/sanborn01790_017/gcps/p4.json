@@ -1,0 +1,160 @@
+{
+  "page": "4",
+  "n_streets": 6,
+  "n_candidates": 2,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "LASALLE",
+      "HADDOCK PL."
+    ],
+    [
+      "LASALLE",
+      "LAKE"
+    ],
+    [
+      "RR LOOP L",
+      "LASALLE"
+    ],
+    [
+      "RR LOOP L",
+      "LASALLE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4159,
+            3390
+          ],
+          "username": "autogeoref",
+          "note": "auto: LASALLE x HADDOCK PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63246479298746,
+            41.88627933762424
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4159,
+            4415
+          ],
+          "username": "autogeoref",
+          "note": "auto: LASALLE x LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63244721725057,
+            41.885737401236746
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4159,
+            4538
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR LOOP L x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63244669465817,
+            41.885724685408476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4159,
+            4538
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR LOOP L x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63244818384217,
+            41.885760918237445
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63454933057079,
+            41.88734460145275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5271,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63184743899414,
+            41.88738177419277
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63448690846799,
+            41.884829984891546
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

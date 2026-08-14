@@ -1,0 +1,155 @@
+{
+  "page": "16",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.45,
+  "auto_residuals_m": [
+    0.48,
+    0.89,
+    1.17,
+    1.22,
+    0.71,
+    0.19
+  ],
+  "inlier_streets": [
+    [
+      "W. 15TH ST.",
+      "S. DEARBORN"
+    ],
+    [
+      "W. 15TH ST.",
+      "S. STATE"
+    ],
+    [
+      "S. DEARBORN",
+      "W. 16TH ST."
+    ],
+    [
+      "S. DEARBORN",
+      "W. 17TH ST."
+    ],
+    [
+      "S. STATE",
+      "W. 16TH ST."
+    ],
+    [
+      "S. STATE",
+      "W. 17TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2755,
+            381
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 15TH ST. x S. DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62882113795246,
+            41.86192881318572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            381
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 15TH ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62729064752962,
+            41.861953875380145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2755,
+            4341
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DEARBORN x W. 16TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62878470897247,
+            41.860144691805026
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2755,
+            6966
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DEARBORN x W. 17TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62873810381473,
+            41.85897470638186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            4341
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x W. 16TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6272624656955,
+            41.860178727225545
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            6966
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x W. 17TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62722941119704,
+            41.85900158877488
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

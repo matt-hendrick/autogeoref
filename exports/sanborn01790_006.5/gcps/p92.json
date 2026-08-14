@@ -1,0 +1,163 @@
+{
+  "page": "92",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "69TH",
+      "SEIPP"
+    ],
+    [
+      "69TH",
+      "CREGIER AVE."
+    ],
+    [
+      "70TH",
+      "SEIPP"
+    ],
+    [
+      "70TH",
+      "CREGIER AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            79,
+            89
+          ],
+          "username": "autogeoref",
+          "note": "auto: 69TH x SEIPP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58286142057334,
+            41.76972473033583
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2649,
+            89
+          ],
+          "username": "autogeoref",
+          "note": "auto: 69TH x CREGIER AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58130645546245,
+            41.76974150652429
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            79,
+            4200
+          ],
+          "username": "autogeoref",
+          "note": "auto: 70TH x SEIPP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58281556605853,
+            41.767901112621985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2649,
+            4200
+          ],
+          "username": "autogeoref",
+          "note": "auto: 70TH x CREGIER AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5812599554097,
+            41.767919275400104
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5825730189505,
+            41.76941890567782
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5798527830434,
+            41.76944898297169
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58251219939845,
+            41.766359036217494
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  },
+  "seam_adjusted": {
+    "dx_m": 1.493,
+    "dy_m": -1.464
+  }
+}

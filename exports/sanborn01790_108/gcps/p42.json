@@ -1,0 +1,182 @@
+{
+  "page": "42",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 0.96,
+  "auto_residuals_m": [
+    0.47,
+    0.26,
+    0.19,
+    0.37,
+    0.08,
+    0.23,
+    0.31
+  ],
+  "inlier_streets": [
+    [
+      "FULLERTON AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "FULLERTON AV.",
+      "N. KEATING AV."
+    ],
+    [
+      "MEDILL AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "BELDEN AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "BELDEN AV.",
+      "N. KEATING AV."
+    ],
+    [
+      "PALMER",
+      "N. CICERO AV."
+    ],
+    [
+      "PALMER",
+      "N. KEATING AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3502,
+            429
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74623666861643,
+            41.92423672146851
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5396,
+            429
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. KEATING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7450119896646,
+            41.92425305221417
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3502,
+            2415
+          ],
+          "username": "autogeoref",
+          "note": "auto: MEDILL AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74621023243829,
+            41.923323171247
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3502,
+            4401
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74618961174092,
+            41.922413274639986
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5396,
+            4401
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x N. KEATING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74497136910021,
+            41.92242547902876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3502,
+            8376
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74614522442825,
+            41.9205816669049
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5396,
+            8376
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER x N. KEATING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74493132741746,
+            41.92059767523518
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 7.244,
+    "dy_m": -0.373
+  }
+}

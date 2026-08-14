@@ -1,0 +1,163 @@
+{
+  "page": "38",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 93RD ST.",
+      "S. EVANS AV."
+    ],
+    [
+      "E. 93RD ST.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "S. COTTAGE GROVE AV.",
+      "S. DAUPHIN AV."
+    ],
+    [
+      "S. COTTAGE GROVE AV.",
+      "E. 95TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1852,
+            349
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 93RD ST. x S. EVANS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60577804260903,
+            41.72570306322878
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3783,
+            349
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 93RD ST. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60456928470907,
+            41.72571923905838
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3783,
+            4408
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. COTTAGE GROVE AV. x S. DAUPHIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60451081418228,
+            41.72374958260764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3783,
+            8137
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. COTTAGE GROVE AV. x E. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60448526858184,
+            41.72206013404529
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60657267905609,
+            41.72543361858288
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5115,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60372836142385,
+            41.72547204390244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60649562847384,
+            41.72225657006255
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -0.407,
+    "dy_m": 2.358
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

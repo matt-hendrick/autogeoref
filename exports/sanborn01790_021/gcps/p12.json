@@ -1,0 +1,157 @@
+{
+  "page": "12",
+  "n_streets": 11,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.07,
+  "auto_residuals_m": [
+    5.21,
+    4.48,
+    6.74,
+    4.06,
+    2.71,
+    2.91
+  ],
+  "inlier_streets": [
+    [
+      "LOOMIS ST.",
+      "W. 31ST ST."
+    ],
+    [
+      "BONFIELD ST.",
+      "W. 31ST ST."
+    ],
+    [
+      "W. 31ST ST.",
+      "MOSPRAT"
+    ],
+    [
+      "W. 31ST PL.",
+      "MOSPRAT"
+    ],
+    [
+      "MOSPRAT",
+      "W. 32ND ST."
+    ],
+    [
+      "MOSPRAT",
+      "W. 32ND PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1005,
+            756
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOOMIS ST. x W. 31ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65435934081482,
+            41.83793717315943
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4094,
+            756
+          ],
+          "username": "autogeoref",
+          "note": "auto: BONFIELD ST. x W. 31ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65246833224455,
+            41.837962910808855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2440,
+            756
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x MOSPRAT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6535844877168,
+            41.837947636591885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2440,
+            2757
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST PL. x MOSPRAT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65355961293483,
+            41.83703967649495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2440,
+            4773
+          ],
+          "username": "autogeoref",
+          "note": "auto: MOSPRAT x W. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65353720753639,
+            41.83613373116177
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2440,
+            6878
+          ],
+          "username": "autogeoref",
+          "note": "auto: MOSPRAT x W. 32ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65351367368508,
+            41.83522554791681
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

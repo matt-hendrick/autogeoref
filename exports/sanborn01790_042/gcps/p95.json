@@ -1,0 +1,186 @@
+{
+  "page": "95",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 57TH ST.",
+      "S. SPRINGFIELD AV."
+    ],
+    [
+      "W. 57TH PL.",
+      "S. SPRINGFIELD AV."
+    ],
+    [
+      "W. 58TH ST.",
+      "S. SPRINGFIELD AV."
+    ],
+    [
+      "S. SPRINGFIELD AV.",
+      "W. 58TH PL."
+    ],
+    [
+      "S. SPRINGFIELD AV.",
+      "W. 59TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            167
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 57TH ST. x S. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72060830050145,
+            41.78961565903343
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            2120
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 57TH PL. x S. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72058044133686,
+            41.78870666913328
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            4082
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 58TH ST. x S. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7205563606576,
+            41.78779441404715
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            6045
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. x W. 58TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72053092888669,
+            41.78688836303812
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            7998
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. x W. 59TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72050679903215,
+            41.785977148853966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72323072184736,
+            41.78927931258983
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72040547562297,
+            41.789324479182
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72314187488367,
+            41.786189696639354
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.8535,
+    "separation_ratio": 0.974,
+    "best_offset_m": 97.7,
+    "n_junctions": 12
+  }
+}

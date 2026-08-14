@@ -1,0 +1,182 @@
+{
+  "page": "90",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 7,
+  "rotation_deg": 0.89,
+  "auto_residuals_m": [
+    3.05,
+    2.67,
+    3.86,
+    1.26,
+    0.67,
+    1.71,
+    2.5
+  ],
+  "inlier_streets": [
+    [
+      "W. 43RD ST.",
+      "S. KEDZIE AV."
+    ],
+    [
+      "W. 44TH ST.",
+      "S. KEDZIE AV."
+    ],
+    [
+      "W. 44TH ST.",
+      "S. TROY AV."
+    ],
+    [
+      "W. 44TH ST.",
+      "S. ALBANY AV."
+    ],
+    [
+      "S. KEDZIE AV.",
+      "W. 45TH ST."
+    ],
+    [
+      "S. TROY AV.",
+      "W. 45TH ST."
+    ],
+    [
+      "S. ALBANY AV.",
+      "W. 45TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            921,
+            198
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 43RD ST. x S. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70426294905337,
+            41.81543689092984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            921,
+            4129
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 44TH ST. x S. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70419076869184,
+            41.81359438178044
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2942,
+            4129
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 44TH ST. x S. TROY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70292708394032,
+            41.81361308405054
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5005,
+            4129
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 44TH ST. x S. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70171067316322,
+            41.81363235482061
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            921,
+            8130
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEDZIE AV. x W. 45TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70411811589612,
+            41.81177452701005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2942,
+            8130
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. TROY AV. x W. 45TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7028734040916,
+            41.81179321247103
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5005,
+            8130
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ALBANY AV. x W. 45TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7016515237502,
+            41.81181254513137
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.06,
+    "dy_m": 2.382
+  }
+}

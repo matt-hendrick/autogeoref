@@ -1,0 +1,161 @@
+{
+  "page": "71",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 6,
+  "rotation_deg": 0.72,
+  "auto_residuals_m": [
+    6.48,
+    14.02,
+    3.93,
+    4.49,
+    6.78,
+    10.07
+  ],
+  "inlier_streets": [
+    [
+      "W. 103RD ST.",
+      "S. HALE AV."
+    ],
+    [
+      "W. 103RD ST.",
+      "S. WOOD"
+    ],
+    [
+      "W. 104TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "S. HALE AV.",
+      "W. 104TH ST."
+    ],
+    [
+      "S. HALE AV.",
+      "W. 105TH ST."
+    ],
+    [
+      "W. 104TH ST.",
+      "S. WOOD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1605,
+            170
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 103RD ST. x S. HALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66865687027494,
+            41.70659611964676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4599,
+            170
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 103RD ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6671565795493,
+            41.70661812155769
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4599,
+            3098
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 104TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66711777238955,
+            41.70526597716107
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1605,
+            4065
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALE AV. x W. 104TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66887814501654,
+            41.70477859671966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1605,
+            8296
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALE AV. x W. 105TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66910297734732,
+            41.70289764527814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4599,
+            4065
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 104TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66710466032613,
+            41.704809739496426
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -5.779,
+    "dy_m": 0.47
+  }
+}

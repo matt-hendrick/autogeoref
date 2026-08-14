@@ -1,0 +1,145 @@
+{
+  "page": "75",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. WENTWORTH AV.",
+      "W. 35TH ST."
+    ],
+    [
+      "W. 35TH ST.",
+      "FEDERAL (ARMOUR) AV."
+    ],
+    [
+      "FEDERAL (ARMOUR) AV.",
+      "W. 36TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            674,
+            3067
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WENTWORTH AV. x W. 35TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63153188262834,
+            41.83094832694203
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4965,
+            3067
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x FEDERAL (ARMOUR) AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62902327025817,
+            41.830984574713106
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4965,
+            7125
+          ],
+          "username": "autogeoref",
+          "note": "auto: FEDERAL (ARMOUR) AV. x W. 36TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6288789305985,
+            41.82915646467404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63163674594232,
+            41.83200572382823
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5256,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62880553534333,
+            41.832040990865906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63157739485864,
+            41.82936042967833
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -3.071,
+    "dy_m": 1.438
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6655,
+    "separation_ratio": 1.078,
+    "best_offset_m": 9.0,
+    "n_junctions": 18
+  }
+}

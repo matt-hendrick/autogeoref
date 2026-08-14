@@ -1,0 +1,141 @@
+{
+  "page": "28",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 18TH ST.",
+      "S. PRAIRIE AV. BLVD."
+    ],
+    [
+      "S. PRAIRIE AV. BLVD.",
+      "E. CULLERTON (E. 20TH ST.)"
+    ],
+    [
+      "S. CALUMET AV.",
+      "E. CULLERTON (E. 20TH ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1743,
+            968
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 18TH ST. x S. PRAIRIE AV. BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62076652583387,
+            41.85792060491852
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1743,
+            6325
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PRAIRIE AV. BLVD. x E. CULLERTON (E. 20TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6207184031991,
+            41.85553494203294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4390,
+            6325
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALUMET AV. x E. CULLERTON (E. 20TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61910101122349,
+            41.85555758386194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62148431738677,
+            41.858047744866994
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5234,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61865026126914,
+            41.85808769380809
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62141677057447,
+            41.85538948979682
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5265,
+    "separation_ratio": 1.458,
+    "best_offset_m": 2.8,
+    "n_junctions": 19
+  }
+}

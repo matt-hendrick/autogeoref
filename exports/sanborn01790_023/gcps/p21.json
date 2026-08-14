@@ -1,0 +1,253 @@
+{
+  "page": "21",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 10,
+  "rotation_deg": 1.24,
+  "auto_residuals_m": [
+    1.54,
+    0.3,
+    0.26,
+    0.33,
+    0.33,
+    1.49,
+    0.19,
+    0.54,
+    0.05,
+    0.79
+  ],
+  "inlier_streets": [
+    [
+      "RICE ST.",
+      "N. ROBEY"
+    ],
+    [
+      "RICE ST.",
+      "N. LINCOLN"
+    ],
+    [
+      "N. WINCHESTER AV.",
+      "W. CHICAGO AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. ROBEY"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. LINCOLN"
+    ],
+    [
+      "N. ROBEY",
+      "LEE PL."
+    ],
+    [
+      "N. ROBEY",
+      "W. SUPERIOR"
+    ],
+    [
+      "N. ROBEY",
+      "W. HURON"
+    ],
+    [
+      "N. LINCOLN",
+      "W. SUPERIOR"
+    ],
+    [
+      "N. LINCOLN",
+      "W. HURON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            835,
+            703
+          ],
+          "username": "autogeoref",
+          "note": "auto: RICE ST. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67707948466726,
+            41.89680910198984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4912,
+            703
+          ],
+          "username": "autogeoref",
+          "note": "auto: RICE ST. x N. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6746395389629,
+            41.89683610415999
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2871,
+            2702
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WINCHESTER AV. x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67583358061708,
+            41.8959092666827
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            835,
+            2702
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6770539957294,
+            41.8958892338959
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4912,
+            2702
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67461274835125,
+            41.895928360941824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            835,
+            4240
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROBEY x LEE PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67703258037122,
+            41.89518317371779
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            835,
+            4727
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROBEY x W. SUPERIOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67702551538332,
+            41.89497108675619
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            835,
+            6719
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROBEY x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67700212211336,
+            41.89407114336906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4912,
+            4727
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LINCOLN x W. SUPERIOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67458616247234,
+            41.89501093899434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4912,
+            6719
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LINCOLN x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67456031428394,
+            41.89411217894243
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -0.182,
+    "dy_m": -3.351
+  }
+}

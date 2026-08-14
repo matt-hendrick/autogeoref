@@ -1,0 +1,167 @@
+{
+  "page": "70",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 34TH PL.",
+      "S. ABERDEEN (MOSPRAT)"
+    ],
+    [
+      "W. 34TH PL.",
+      "S. MORGAN"
+    ],
+    [
+      "S. ABERDEEN (MOSPRAT)",
+      "W. 35TH ST."
+    ],
+    [
+      "W. 35TH ST.",
+      "S. MORGAN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1492,
+            1067
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 34TH PL. x S. ABERDEEN (MOSPRAT)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65341991579922,
+            41.831589530879825
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5669,
+            1067
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 34TH PL. x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65098765323664,
+            41.8316212520089
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1492,
+            3112
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ABERDEEN (MOSPRAT) x W. 35TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65339233018588,
+            41.830667139098274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5669,
+            3112
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6509686253754,
+            41.83069952882393
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65402002506515,
+            41.831734639553474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5281,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65117524016878,
+            41.831770075829716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6539606820862,
+            41.82908969544089
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -0.08,
+    "dy_m": 2.109
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8057,
+    "separation_ratio": 1.283,
+    "best_offset_m": 5.5,
+    "n_junctions": 6
+  }
+}

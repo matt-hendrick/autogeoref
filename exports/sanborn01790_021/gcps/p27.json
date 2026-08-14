@@ -1,0 +1,123 @@
+{
+  "page": "27",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 31ST ST.",
+      "COTTAGE GROVE AV."
+    ],
+    [
+      "VERNON AV.",
+      "E. 32ND ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4385,
+            531
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 31ST ST. x COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61345218520123,
+            41.83846813247367
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            223,
+            4570
+          ],
+          "username": "autogeoref",
+          "note": "auto: VERNON AV. x E. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61582602325284,
+            41.836607617920016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61568348273526,
+            41.83833501257476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5303,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6128638521506,
+            41.83837094707227
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61562353616975,
+            41.83572404754292
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 5.271,
+    "dy_m": -0.588
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.319,
+    "separation_ratio": 0.828,
+    "best_offset_m": 91.7,
+    "n_junctions": 20
+  }
+}

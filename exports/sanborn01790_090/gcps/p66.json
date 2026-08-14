@@ -1,0 +1,168 @@
+{
+  "page": "66",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 34TH ST.",
+      "S. JUSTINE (CHARLTON)"
+    ],
+    [
+      "W. 34TH ST.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "W. 35TH ST.",
+      "S. JUSTINE (CHARLTON)"
+    ],
+    [
+      "W. 35TH ST.",
+      "S. ASHLAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            968,
+            4569
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 34TH ST. x S. JUSTINE (CHARLTON)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66431884330007,
+            41.83236576319985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            968,
+            6753
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 34TH ST. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66557890307334,
+            41.83234880690974
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5014,
+            4569
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x S. JUSTINE (CHARLTON)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6642742527462,
+            41.830527377822136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5014,
+            6753
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66554283862159,
+            41.830509472891784
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66198477122066,
+            41.83258724146074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5281,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66190283783209,
+            41.830468149310995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66553347364626,
+            41.83251106628161
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -88.6759,
+  "seam_adjusted": {
+    "dx_m": 2.829,
+    "dy_m": 1.213
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5302,
+    "separation_ratio": 1.095,
+    "best_offset_m": 6.2,
+    "n_junctions": 16
+  }
+}

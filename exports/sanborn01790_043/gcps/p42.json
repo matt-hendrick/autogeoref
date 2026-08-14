@@ -1,0 +1,251 @@
+{
+  "page": "42",
+  "n_streets": 7,
+  "n_candidates": 15,
+  "n_inliers": 10,
+  "rotation_deg": 1.34,
+  "auto_residuals_m": [
+    0.35,
+    2.5,
+    1.38,
+    2.14,
+    0.84,
+    0.43,
+    1.46,
+    1.66,
+    2.01,
+    1.14
+  ],
+  "inlier_streets": [
+    [
+      "W. 63RD ST.",
+      "S. LAWNDALE AV."
+    ],
+    [
+      "W. 63RD ST.",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "W. 63RD PL.",
+      "S. LAWNDALE AV."
+    ],
+    [
+      "W. 63RD PL.",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "W. 64TH ST.",
+      "S. LAWNDALE AV."
+    ],
+    [
+      "W. 64TH ST.",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "S. LAWNDALE AV.",
+      "W. 64TH PL."
+    ],
+    [
+      "S. LAWNDALE AV.",
+      "W. 65TH ST."
+    ],
+    [
+      "S. CENTRAL PARK AV.",
+      "W. 64TH PL."
+    ],
+    [
+      "S. CENTRAL PARK AV.",
+      "W. 65TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            596,
+            301
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD ST. x S. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7154214378276,
+            41.77876815645855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4964,
+            301
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD ST. x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71274501046666,
+            41.77882949189324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            596,
+            2258
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD PL. x S. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71539755523057,
+            41.77784667545182
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4964,
+            2258
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD PL. x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71271925092634,
+            41.77788831376766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            596,
+            4240
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 64TH ST. x S. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71537613865962,
+            41.77693944085668
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4964,
+            4240
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 64TH ST. x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71270242842623,
+            41.776983174122954
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            596,
+            6159
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LAWNDALE AV. x W. 64TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71535565040249,
+            41.77603136998267
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            596,
+            8153
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LAWNDALE AV. x W. 65TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71533464666027,
+            41.77512464473849
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4964,
+            6159
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTRAL PARK AV. x W. 64TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71268109231943,
+            41.77607421019615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4964,
+            8153
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTRAL PARK AV. x W. 65TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71265924512178,
+            41.7751676536791
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.16,
+    "dy_m": -0.388
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "page": "80",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.28,
+  "auto_residuals_m": [
+    0.09,
+    0.06,
+    0.06,
+    0.03,
+    0.05
+  ],
+  "inlier_streets": [
+    [
+      "HIRSCH",
+      "N. OAKLEY AV."
+    ],
+    [
+      "HIRSCH",
+      "N. LEAVITT"
+    ],
+    [
+      "POTOMAC AV.",
+      "N. OAKLEY AV."
+    ],
+    [
+      "POTOMAC AV.",
+      "N. LEAVITT"
+    ],
+    [
+      "N. LEAVITT",
+      "Evergreen Av."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            989,
+            2731
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6846871220872,
+            41.906704892605504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5027,
+            2731
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68224647442692,
+            41.906746135048536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            989,
+            6906
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6846329311447,
+            41.90488093884954
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5027,
+            6906
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68219368797513,
+            41.90492137839087
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5027,
+            4588
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x Evergreen Av."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68222310599846,
+            41.90593403810239
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

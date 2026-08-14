@@ -1,0 +1,109 @@
+{
+  "page": "85",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": -0.09,
+  "auto_residuals_m": [
+    0.19,
+    0.16,
+    0.14,
+    0.16
+  ],
+  "inlier_streets": [
+    [
+      "E. 132ND ST.",
+      "S. EXCHANGE AV."
+    ],
+    [
+      "E. 132ND ST.",
+      "S. COMMERCIAL AV."
+    ],
+    [
+      "S. EXCHANGE AV.",
+      "E. 133RD ST."
+    ],
+    [
+      "E. 133RD ST.",
+      "S. COMMERCIAL AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1140,
+            277
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 132ND ST. x S. EXCHANGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5519898861223,
+            41.655516775405985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3071,
+            277
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 132ND ST. x S. COMMERCIAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55077370254052,
+            41.65551505128191
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1140,
+            4226
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EXCHANGE AV. x E. 133RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55200806882688,
+            41.653688206704594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3071,
+            4226
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 133RD ST. x S. COMMERCIAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5507860145176,
+            41.653686930260434
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,182 @@
+{
+  "page": "89",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 1.5,
+  "auto_residuals_m": [
+    1.06,
+    0.62,
+    0.57,
+    1.21,
+    1.83,
+    1.53,
+    0.54
+  ],
+  "inlier_streets": [
+    [
+      "W. EUGENIE",
+      "N. LARRABEE"
+    ],
+    [
+      "W. EUGENIE",
+      "N. MOHAWK"
+    ],
+    [
+      "W. EUGENIE",
+      "N. MEYER CT."
+    ],
+    [
+      "W. EUGENIE",
+      "N. CLEVELAND AV."
+    ],
+    [
+      "N. LARRABEE",
+      "W. NORTH AV."
+    ],
+    [
+      "N. MOHAWK",
+      "W. NORTH AV."
+    ],
+    [
+      "N. CLEVELAND AV.",
+      "W. NORTH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            952,
+            1646
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EUGENIE x N. LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64349771586633,
+            41.91279713992167
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2924,
+            1646
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EUGENIE x N. MOHAWK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6422947320882,
+            41.91281574333564
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4130,
+            1646
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EUGENIE x N. MEYER CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64156421029087,
+            41.91282591506422
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4934,
+            1646
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EUGENIE x N. CLEVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6410877727997,
+            41.91283080908969
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            952,
+            5644
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LARRABEE x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64343816066588,
+            41.911004950476446
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2924,
+            5644
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MOHAWK x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64223229259025,
+            41.911048908011786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4934,
+            5644
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLEVELAND AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64102407607669,
+            41.911066444445765
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.844,
+    "dy_m": -1.916
+  }
+}

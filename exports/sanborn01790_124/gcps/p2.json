@@ -1,0 +1,207 @@
+{
+  "page": "2",
+  "n_streets": 7,
+  "n_candidates": 13,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. JUNEWAY TER.",
+      "N. PAULINA"
+    ],
+    [
+      "W. JUNEWAY TER.",
+      "N. MARSHFIELD"
+    ],
+    [
+      "W. JONQUIL TER.",
+      "N. PAULINA"
+    ],
+    [
+      "W. JONQUIL TER.",
+      "N. MARSHFIELD"
+    ],
+    [
+      "N. PAULINA",
+      "W. HOWARD"
+    ],
+    [
+      "N. MARSHFIELD",
+      "W. HOWARD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3057,
+            1207
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JUNEWAY TER. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67309268993556,
+            42.02252718613654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4944,
+            1207
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JUNEWAY TER. x N. MARSHFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67191246563455,
+            42.022519754817495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3057,
+            4207
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JONQUIL TER. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67310785171192,
+            42.02117241001604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4944,
+            4207
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JONQUIL TER. x N. MARSHFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67192643686077,
+            42.02116711248419
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3057,
+            8142
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x W. HOWARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67313921765589,
+            42.01938153775617
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4944,
+            8142
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MARSHFIELD x W. HOWARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67194687032502,
+            42.019374114520055
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67469020835875,
+            42.02268057848724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5298,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67176608882404,
+            42.022729077454144
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67459591259258,
+            42.01954294231301
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -3.294,
+    "dy_m": -0.6
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "page": "35",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.83,
+  "auto_residuals_m": [
+    2.77,
+    2.65,
+    0.25,
+    1.54,
+    1.53
+  ],
+  "inlier_streets": [
+    [
+      "CORNELIA ST.",
+      "N. 42ND. AV."
+    ],
+    [
+      "N. 42ND. AV.",
+      "IOWA"
+    ],
+    [
+      "N. 42ND. AV.",
+      "W. CHICAGO AV."
+    ],
+    [
+      "N. 41 ST. AV.",
+      "IOWA"
+    ],
+    [
+      "N. 41 ST. AV.",
+      "W. CHICAGO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            821,
+            2160
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORNELIA ST. x N. 42ND. AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73108949901412,
+            41.89802020400877
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            821,
+            4120
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 42ND. AV. x IOWA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73106634839637,
+            41.89711345844159
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            821,
+            7907
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 42ND. AV. x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73101826410772,
+            41.89527454419127
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4732,
+            4120
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 41 ST. AV. x IOWA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72860350527542,
+            41.89716458857117
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4732,
+            7907
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 41 ST. AV. x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72854855112797,
+            41.895322449231465
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,120 @@
+{
+  "page": "65",
+  "n_streets": 13,
+  "n_candidates": 10,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 18TH ST.",
+      "RUBLE"
+    ],
+    [
+      "W. 18TH ST.",
+      "S. JEFFERSON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2235,
+            926
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x RUBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64378261788815,
+            41.85759049685119
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5399,
+            926
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64186356938727,
+            41.857621402399346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64479689853773,
+            41.857664428657756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5258,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64194696065617,
+            41.85770730402908
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64472473911442,
+            41.85500361551216
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7779,
+    "separation_ratio": 1.232,
+    "best_offset_m": 6.3,
+    "n_junctions": 29
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "page": "67",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "VANBUREN",
+      "DEARBORN"
+    ],
+    [
+      "VANBUREN",
+      "PLYMOUTH CT."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2954,
+            994
+          ],
+          "username": "autogeoref",
+          "note": "auto: VANBUREN x DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62926225051025,
+            41.87689878238152
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3895,
+            994
+          ],
+          "username": "autogeoref",
+          "note": "auto: VANBUREN x PLYMOUTH CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62873959125238,
+            41.87690697946368
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6306382264711,
+            41.876992777515746
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5313,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62791511464305,
+            41.87703024827486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6305758043683,
+            41.87447775354474
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7191,
+    "separation_ratio": 1.186,
+    "best_offset_m": 15.3,
+    "n_junctions": 23
+  }
+}

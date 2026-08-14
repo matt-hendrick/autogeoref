@@ -1,0 +1,186 @@
+{
+  "page": "21",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 61ST ST.",
+      "S. SPRINGFIELD AV."
+    ],
+    [
+      "W. 61ST PL.",
+      "S. SPRINGFIELD AV."
+    ],
+    [
+      "W. 62ND ST.",
+      "S. SPRINGFIELD AV."
+    ],
+    [
+      "S. SPRINGFIELD AV.",
+      "W. 62ND PL."
+    ],
+    [
+      "S. SPRINGFIELD AV.",
+      "W. 63RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4544,
+            171
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 61ST ST. x S. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72041027403705,
+            41.78233408620449
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4544,
+            2065
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 61ST PL. x S. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72037985464388,
+            41.781424159927276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4544,
+            3966
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 62ND ST. x S. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72035907931433,
+            41.780514698248304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4544,
+            5872
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. x W. 62ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72033306075981,
+            41.779606048750345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4544,
+            7811
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. x W. 63RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72030760237288,
+            41.77869550139421
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72289354636575,
+            41.78194802789194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72007461480439,
+            41.78199235851381
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72280635380619,
+            41.778864965150184
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.9073,
+    "separation_ratio": 1.131,
+    "best_offset_m": 13.0,
+    "n_junctions": 11
+  }
+}

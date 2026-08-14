@@ -1,0 +1,141 @@
+{
+  "page": "18",
+  "n_streets": 8,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (verified: corroboration+junction)",
+  "rescue_anchors": [
+    [
+      "WEBSTER AV.",
+      "CLEVELAND AV."
+    ],
+    [
+      "WEBSTER AV.",
+      "LARRABEE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4917,
+            1745
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x CLEVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64136571986191,
+            41.92192659109932
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1045,
+            1745
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64378718627633,
+            41.92188789022798
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64404845467146,
+            41.92234166454005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5261,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64120267622633,
+            41.92238837882616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64396980854303,
+            41.91968923970722
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5777,
+    "separation_ratio": 1.547,
+    "best_offset_m": 0.8,
+    "n_junctions": 12
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": null
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5"
+      ],
+      "consensus_numerals": 1,
+      "votable": 0,
+      "in_block": 0,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": []
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

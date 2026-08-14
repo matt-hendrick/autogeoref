@@ -1,0 +1,123 @@
+{
+  "page": "102",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "HOBBIE",
+      "LARRABEE"
+    ],
+    [
+      "CROSBY",
+      "W. OAK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5492,
+            870
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOBBIE x LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64315529805596,
+            41.90148438652858
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4238,
+            3597
+          ],
+          "username": "autogeoref",
+          "note": "auto: CROSBY x W. OAK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64382536778308,
+            41.90023985559745
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64611519236861,
+            41.9014992479809
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5261,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6432694139235,
+            41.90154597752301
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6460365462402,
+            41.89884595693878
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7112,
+    "separation_ratio": 1.573,
+    "best_offset_m": 26.9,
+    "n_junctions": 15
+  },
+  "seam_adjusted": {
+    "dx_m": -2.318,
+    "dy_m": 0.161
+  }
+}

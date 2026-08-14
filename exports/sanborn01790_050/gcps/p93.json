@@ -1,0 +1,186 @@
+{
+  "page": "93",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "MONTROSE AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "PENSACOLA AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "CULLOM AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "N. CICERO AV.",
+      "HUTCHINSON"
+    ],
+    [
+      "N. CICERO AV.",
+      "BERTEAU AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2054,
+            247
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7475353477515,
+            41.96072247691657
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2054,
+            2083
+          ],
+          "username": "autogeoref",
+          "note": "auto: PENSACOLA AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74749969746397,
+            41.95981062802242
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2054,
+            4086
+          ],
+          "username": "autogeoref",
+          "note": "auto: CULLOM AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74747672606799,
+            41.958898303613495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2054,
+            6070
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CICERO AV. x HUTCHINSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74744619886327,
+            41.957982232243594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2054,
+            8083
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CICERO AV. x BERTEAU AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74741493970397,
+            41.95707141325239
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            570,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7484273513204,
+            41.96039445819155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5126,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74559607310654,
+            41.9604262754861
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            570,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74836347012247,
+            41.95725112726715
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5544,
+    "separation_ratio": 1.237,
+    "best_offset_m": 0.9,
+    "n_junctions": 16
+  }
+}

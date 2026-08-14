@@ -1,0 +1,181 @@
+{
+  "page": "3",
+  "n_streets": 8,
+  "n_candidates": 22,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. NORTH AV.",
+      "N. RIDGEWAY AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. LAWNDALE AV."
+    ],
+    [
+      "N. RIDGEWAY AV.",
+      "LE MOYNE"
+    ],
+    [
+      "N. RIDGEWAY AV.",
+      "W. HIRSCH"
+    ],
+    [
+      "N. LAWNDALE AV.",
+      "W. HIRSCH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2832,
+            330
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. RIDGEWAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72045120068809,
+            41.909945867856074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4922,
+            330
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.719233476802,
+            41.90996435424029
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2832,
+            4343
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RIDGEWAY AV. x LE MOYNE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72039329896215,
+            41.908137929737265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2832,
+            8372
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RIDGEWAY AV. x W. HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72033461164195,
+            41.90633366712999
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4922,
+            8372
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWNDALE AV. x W. HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71911474189434,
+            41.90634729156201
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72182586951776,
+            41.90971505868677
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5108,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71905596607533,
+            41.90974321010724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72176919437779,
+            41.90662657954413
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

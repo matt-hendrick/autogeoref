@@ -1,0 +1,142 @@
+{
+  "page": "89",
+  "n_streets": 8,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "PALMER",
+      "KIMBALL AV."
+    ],
+    [
+      "DICKENS AV.",
+      "KIMBALL AV."
+    ],
+    [
+      "KIMBALL AV.",
+      "ARMITAGE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5453,
+            136
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER x KIMBALL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71199229103027,
+            41.92100351552226
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5453,
+            4071
+          ],
+          "username": "autogeoref",
+          "note": "auto: DICKENS AV. x KIMBALL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71193277395415,
+            41.91916619748637
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5453,
+            7994
+          ],
+          "username": "autogeoref",
+          "note": "auto: KIMBALL AV. x ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71190508385426,
+            41.91734226071864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71502942797423,
+            41.9206500406503
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71221438016013,
+            41.92067746667981
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71497536745773,
+            41.91757789419661
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7872,
+    "separation_ratio": 1.021,
+    "best_offset_m": 4.7,
+    "n_junctions": 15
+  }
+}

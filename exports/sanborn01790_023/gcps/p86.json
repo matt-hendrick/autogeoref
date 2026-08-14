@@ -1,0 +1,138 @@
+{
+  "page": "86",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 1.22,
+  "auto_residuals_m": [
+    0.82,
+    0.47,
+    2.54,
+    0.82,
+    2.06
+  ],
+  "inlier_streets": [
+    [
+      "WALNUT",
+      "N. HOYNE AV."
+    ],
+    [
+      "WALNUT",
+      "N. ROBEY"
+    ],
+    [
+      "W. LAKE",
+      "N. ROBEY"
+    ],
+    [
+      "PARK AV.",
+      "N. HOYNE AV."
+    ],
+    [
+      "PARK AV.",
+      "N. ROBEY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            860,
+            1684
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67920313561346,
+            41.885803185497714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4895,
+            1684
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67676129857107,
+            41.88584418463417
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4895,
+            3713
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67673510561748,
+            41.88496271618275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            860,
+            5703
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARK AV. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67915243117311,
+            41.88402833282663
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4895,
+            5703
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARK AV. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67671089190102,
+            41.88404774646558
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 0.442,
+    "dy_m": -2.955
+  }
+}

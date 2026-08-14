@@ -1,0 +1,156 @@
+{
+  "page": "104",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.98,
+  "auto_residuals_m": [
+    0.21,
+    0.08,
+    0.32,
+    0.17,
+    0.38,
+    0.41
+  ],
+  "inlier_streets": [
+    [
+      "W. 30TH ST.",
+      "UNION AV."
+    ],
+    [
+      "W. 30TH ST.",
+      "LOWE AV."
+    ],
+    [
+      "W. 30TH ST.",
+      "WALLACE"
+    ],
+    [
+      "W. 31ST ST.",
+      "UNION AV."
+    ],
+    [
+      "W. 31ST ST.",
+      "LOWE AV."
+    ],
+    [
+      "W. 31ST ST.",
+      "WALLACE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            919,
+            2417
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 30TH ST. x UNION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64390048194653,
+            41.83989933085378
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2927,
+            2417
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 30TH ST. x LOWE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64269224885496,
+            41.83991470864265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4974,
+            2417
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 30TH ST. x WALLACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64145812644854,
+            41.83993048281379
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            919,
+            6371
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x UNION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64384849089586,
+            41.83807635566946
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2927,
+            6371
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x LOWE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64263974620285,
+            41.83808946642292
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4974,
+            6371
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x WALLACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64141551201145,
+            41.83810731504341
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

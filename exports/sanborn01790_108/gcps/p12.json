@@ -1,0 +1,207 @@
+{
+  "page": "12",
+  "n_streets": 8,
+  "n_candidates": 13,
+  "n_inliers": 8,
+  "rotation_deg": 1.15,
+  "auto_residuals_m": [
+    2.68,
+    5.31,
+    13.34,
+    17.75,
+    18.85,
+    3.27,
+    2.68,
+    14.37
+  ],
+  "inlier_streets": [
+    [
+      "N. KOLMAR AV.",
+      "W. DIVERSEY AV."
+    ],
+    [
+      "W. DIVERSEY AV.",
+      "N. KENTON AV."
+    ],
+    [
+      "W. DIVERSEY AV.",
+      "N. KILBOURN AV."
+    ],
+    [
+      "N. KENTON AV.",
+      "PARKER AV."
+    ],
+    [
+      "N. KENTON AV.",
+      "W. SCHUBERT AV."
+    ],
+    [
+      "N. KENTON AV.",
+      "WRIGHTWOOD AV."
+    ],
+    [
+      "PARKER AV.",
+      "N. KILBOURN AV."
+    ],
+    [
+      "N. KILBOURN AV.",
+      "W. SCHUBERT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2619,
+            738
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KOLMAR AV. x W. DIVERSEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74047249170467,
+            41.93157571152294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            374,
+            738
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AV. x N. KENTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74167041234364,
+            41.931559609082136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4930,
+            738
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AV. x N. KILBOURN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73926828987997,
+            41.93159176896477
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            374,
+            2794
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENTON AV. x PARKER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74164323640642,
+            41.930548339637284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            374,
+            4954
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENTON AV. x W. SCHUBERT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74206040809833,
+            41.92950788174099
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            374,
+            7350
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENTON AV. x WRIGHTWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74201644340916,
+            41.92838212718885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4930,
+            2794
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARKER AV. x N. KILBOURN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73923206319493,
+            41.93058098153465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4930,
+            4954
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILBOURN AV. x W. SCHUBERT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73919644581076,
+            41.92957033730086
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -2.102,
+    "dy_m": -5.691
+  }
+}

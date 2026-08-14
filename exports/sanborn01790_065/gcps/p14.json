@@ -1,0 +1,132 @@
+{
+  "page": "14",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": -0.14,
+  "auto_residuals_m": [
+    0.37,
+    1.69,
+    2.89,
+    2.57,
+    1.63
+  ],
+  "inlier_streets": [
+    [
+      "E. 99TH ST.",
+      "S. EXCHANGE AV."
+    ],
+    [
+      "E. 99TH ST.",
+      "S. COMMERCIAL AV."
+    ],
+    [
+      "S. EXCHANGE AV.",
+      "E. 100TH BLVD. (ST)"
+    ],
+    [
+      "S. EXCHANGE AV.",
+      "E. 101ST ST."
+    ],
+    [
+      "S. COMMERCIAL AV.",
+      "E. 100TH BLVD. (ST)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            96,
+            347
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 99TH ST. x S. EXCHANGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55235759737072,
+            41.715454586878856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2222,
+            347
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 99TH ST. x S. COMMERCIAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55097566104908,
+            41.715461041652276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            96,
+            4818
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EXCHANGE AV. x E. 100TH BLVD. (ST)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55232802839099,
+            41.713381083222274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            96,
+            8240
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EXCHANGE AV. x E. 101ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55230717243064,
+            41.711847393585494
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2222,
+            4818
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. COMMERCIAL AV. x E. 100TH BLVD. (ST)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55094749979142,
+            41.71338707775398
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,159 @@
+{
+  "page": "112",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 6,
+  "rotation_deg": 0.96,
+  "auto_residuals_m": [
+    1.68,
+    5.46,
+    7.38,
+    0.7,
+    8.97,
+    5.37
+  ],
+  "inlier_streets": [
+    [
+      "BLOOMINGDALE AV.",
+      "KIMBALL"
+    ],
+    [
+      "BLOOMINGDALE AV.",
+      "N. SPAULDING AV."
+    ],
+    [
+      "WABANSIA AV.",
+      "KIMBALL"
+    ],
+    [
+      "WABANSIA AV.",
+      "N. SPAULDING AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "KIMBALL"
+    ],
+    [
+      "W. NORTH AV.",
+      "N. SPAULDING AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2881,
+            314
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. x KIMBALL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71180044918778,
+            41.91362992337039
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5443,
+            314
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. x N. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7101819650461,
+            41.91365013050255
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2881,
+            4069
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x KIMBALL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71174276274729,
+            41.91189651139775
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5443,
+            4069
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71012586123986,
+            41.91191941599229
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2881,
+            7998
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x KIMBALL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71188273188464,
+            41.910074213088606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5443,
+            7998
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7100717278375,
+            41.91009407210457
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.238,
+    "dy_m": 3.049
+  }
+}

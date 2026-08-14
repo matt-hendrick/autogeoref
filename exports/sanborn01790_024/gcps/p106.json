@@ -1,0 +1,164 @@
+{
+  "page": "106",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "WASHBURN AV.",
+      "LOOMIS"
+    ],
+    [
+      "W. 13TH ST.",
+      "LOOMIS"
+    ],
+    [
+      "LOOMIS",
+      "HASTINGS"
+    ],
+    [
+      "LOOMIS",
+      "W. 14TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4775,
+            1131
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHBURN AV. x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.661554918401,
+            41.86607435156973
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4775,
+            3134
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6615200584672,
+            41.86515863808758
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4775,
+            5128
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOOMIS x HASTINGS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66149358159959,
+            41.864252303401415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4775,
+            7085
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOOMIS x W. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66146862363144,
+            41.86335758125317
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.664068728954,
+            41.86618714978607
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5272,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6612529471209,
+            41.8662310741576
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66399499614316,
+            41.86356575667153
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.4172,
+    "separation_ratio": 0.815,
+    "best_offset_m": 97.3,
+    "n_junctions": 28
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "page": "63",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.77,
+  "auto_residuals_m": [
+    0.57,
+    0.82,
+    0.58,
+    1.04,
+    1.12,
+    0.22,
+    1.05,
+    0.55
+  ],
+  "inlier_streets": [
+    [
+      "W. OHIO",
+      "N. RACINE"
+    ],
+    [
+      "W. OHIO",
+      "N. MAY"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. RACINE"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. MAY"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. ABERDEEN (CURTIS)"
+    ],
+    [
+      "N. RACINE",
+      "W. HUBBARD (W. AUSTIN AV.)"
+    ],
+    [
+      "N. MAY",
+      "W. HUBBARD (W. AUSTIN AV.)"
+    ],
+    [
+      "N. ABERDEEN (CURTIS)",
+      "W. HUBBARD (W. AUSTIN AV.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            652,
+            1274
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. RACINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65746407409928,
+            41.892168374886275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3250,
+            1274
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. MAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6558695481095,
+            41.89218350256534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            652,
+            3683
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. RACINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65743820669303,
+            41.89107264288058
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3250,
+            3683
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. MAY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65584195368395,
+            41.8910899076954
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5188,
+            3683
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. ABERDEEN (CURTIS)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65468124377463,
+            41.89110106283979
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            652,
+            6091
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RACINE x W. HUBBARD (W. AUSTIN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6574097915808,
+            41.88998076669197
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3250,
+            6091
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAY x W. HUBBARD (W. AUSTIN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65581640422461,
+            41.8899970705646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5188,
+            6091
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ABERDEEN (CURTIS) x W. HUBBARD (W. AUSTIN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65465053377434,
+            41.89000791753789
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -5.768,
+    "dy_m": -1.169
+  }
+}

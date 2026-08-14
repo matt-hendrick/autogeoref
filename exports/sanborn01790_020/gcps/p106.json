@@ -1,0 +1,109 @@
+{
+  "page": "106",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.02,
+  "auto_residuals_m": [
+    0.03,
+    0.03,
+    0.01,
+    0.05
+  ],
+  "inlier_streets": [
+    [
+      "WALLACE",
+      "W. 30TH ST."
+    ],
+    [
+      "WALLACE",
+      "W. 31ST ST."
+    ],
+    [
+      "PARNELL AV.",
+      "W. 30TH ST."
+    ],
+    [
+      "PARNELL AV.",
+      "W. 31ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            377,
+            2801
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALLACE x W. 30TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64145812644854,
+            41.83993048281379
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            377,
+            6887
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALLACE x W. 31ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64141551201145,
+            41.83810731504341
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2365,
+            2801
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARNELL AV. x W. 30TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64023966841485,
+            41.839946556417146
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2365,
+            6887
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARNELL AV. x W. 31ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64019632671629,
+            41.8381235265651
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

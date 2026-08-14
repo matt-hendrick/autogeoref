@@ -1,0 +1,206 @@
+{
+  "page": "109",
+  "n_streets": 9,
+  "n_candidates": 10,
+  "n_inliers": 8,
+  "rotation_deg": 2.17,
+  "auto_residuals_m": [
+    6.02,
+    10.66,
+    9.97,
+    7.23,
+    8.65,
+    8.61,
+    2.78,
+    6.77
+  ],
+  "inlier_streets": [
+    [
+      "W. RANDOLPH",
+      "N. ADA"
+    ],
+    [
+      "W. RANDOLPH",
+      "LOOMIS ST"
+    ],
+    [
+      "W. WASHINGTON BLVD",
+      "N. ADA"
+    ],
+    [
+      "W. WASHINGTON BLVD",
+      "LOOMIS ST"
+    ],
+    [
+      "W. WASHINGTON BLVD",
+      "THROOP ST"
+    ],
+    [
+      "W. MADISON",
+      "N. ADA"
+    ],
+    [
+      "W. MADISON",
+      "LOOMIS ST"
+    ],
+    [
+      "W. MADISON",
+      "THROOP ST"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3352,
+            692
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. ADA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66071082702557,
+            41.88419874649915
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            882,
+            692
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x LOOMIS ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66241011983433,
+            41.88406535771338
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3352,
+            3601
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD x N. ADA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66062778888,
+            41.88293530632249
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            882,
+            3601
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD x LOOMIS ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66234150617991,
+            41.88291003038197
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4976,
+            3601
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD x THROOP ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65972415129461,
+            41.882948103366346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3352,
+            6638
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x N. ADA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66058749936495,
+            41.88157076365816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            882,
+            6638
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x LOOMIS ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.662302291165,
+            41.88154421215367
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4976,
+            6638
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x THROOP ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65964476320943,
+            41.88158485026033
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8",
+  "seam_adjusted": {
+    "dx_m": -3.145,
+    "dy_m": 1.689
+  }
+}

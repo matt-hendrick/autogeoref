@@ -1,0 +1,109 @@
+{
+  "page": "96",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.98,
+  "auto_residuals_m": [
+    0.1,
+    0.04,
+    0.04,
+    0.1
+  ],
+  "inlier_streets": [
+    [
+      "W. HARRISON",
+      "S. JEFFERSON"
+    ],
+    [
+      "W. HARRISON",
+      "S. CLINTON"
+    ],
+    [
+      "S. JEFFERSON",
+      "W. POLK"
+    ],
+    [
+      "S. CLINTON",
+      "W. POLK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1691,
+            1074
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64242383997099,
+            41.87437091992098
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4137,
+            1074
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64095562260128,
+            41.87438953807814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1691,
+            5980
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. JEFFERSON x W. POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64234704093296,
+            41.87198933784766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4137,
+            5980
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLINTON x W. POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64087654462146,
+            41.87200820564217
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

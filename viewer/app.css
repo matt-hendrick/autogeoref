@@ -1,0 +1,564 @@
+/* The public viewer's styling, loaded by index.html after the vendored
+   stylesheets so it can restyle them. Carries no city fact: colours and
+   layout only. */
+:root {
+  --paper: #f4eddd;
+  --paper-edge: #e7dcc4;
+  --ink: #221b12;
+  --ink-soft: #5c5142;
+  --carmine: #b0403a;
+  --carmine-dark: #8d2f2b;
+  --olive: #8a7a3f;
+  --hairline: rgba(34, 27, 18, .28);
+  /* 1 while the panel floats over the map, 0 once it docks to the bottom of
+     the screen. The slider clamp reads this to decide whether it has to keep
+     the compare handle clear of the panel, so the breakpoint is stated once,
+     in the media query below, and never duplicated in script. */
+  --panel-overlays-map: 1;
+  /* How wide the panel is where it docks to an edge rather than to the bottom,
+     stated once because the two controls that have to start where it ends
+     cannot measure it. */
+  --dock-width: 320px;
+}
+* { box-sizing: border-box; margin: 0; }
+html, body { height: 100%; overflow: hidden; }
+body {
+  font-family: "Newsreader", serif;
+  color: var(--ink);
+  background: #14110c;
+}
+
+#compare-wrap { position: fixed; inset: 0; }
+#before, #after { position: absolute; inset: 0; }
+
+/* ---------- the panel: an archival index card ---------- */
+#panel {
+  position: fixed;
+  top: 18px; left: 18px;
+  width: var(--dock-width);
+  /* stops short of the bottom so the always-visible sources control below
+     is never covered by a full-height panel */
+  max-height: calc(100% - 88px);
+  display: flex; flex-direction: column;
+  background:
+    radial-gradient(140% 90% at 12% 0%, rgba(176,64,58,.055), transparent 55%),
+    linear-gradient(var(--paper), var(--paper));
+  border: 1px solid var(--paper-edge);
+  box-shadow: 0 1px 0 rgba(255,255,255,.5) inset, 0 18px 40px -18px rgba(0,0,0,.65);
+  z-index: 30;
+  animation: settle .7s cubic-bezier(.2,.9,.25,1) both;
+}
+@keyframes settle { from { opacity: 0; transform: translateY(10px); } }
+
+#panel header {
+  position: relative;
+  padding: 20px 58px 14px 22px;
+  border-bottom: 1px solid var(--hairline);
+}
+/* collapse / reopen: the panel is hidden with CSS, never unmounted, so the
+   era selection, the opacity and the district list survive it */
+/* ONE scroll region, at every width. The panel's fixed parts — the masthead,
+   the era chips, the controls, the credit line — come to some 640px, and the
+   district index is what a short window used to pay for them: it is the only
+   elastic child, so it collapsed to its own padding and the reader saw no
+   districts at all. The body scrolls instead, so what does not fit is below
+   the fold rather than absent, and nothing can overflow the card. */
+/* `scrollbar-gutter: stable`, or the era chips lose 15px and re-wrap the
+   moment the list starts overflowing — which is most of the time */
+#panel-body {
+  flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column;
+  overflow-y: auto; overscroll-behavior: contain;
+  scrollbar-width: thin; scrollbar-gutter: stable;
+}
+body.panel-collapsed #panel-body { display: none; }
+body.panel-collapsed #panel { display: none; }
+body.panel-collapsed #panel-reopen { display: flex; }
+#panel-toggle, #panel-reopen {
+  width: 44px; height: 44px;          /* the touch-target floor */
+  align-items: center; justify-content: center;
+  font: 600 20px/1 "Fraunces", serif; cursor: pointer;
+}
+#panel-toggle {
+  position: absolute; top: 12px; right: 10px; display: flex;
+  background: transparent; border: 1px solid transparent; color: var(--ink-soft);
+}
+#panel-toggle:hover { color: var(--carmine-dark); border-color: var(--hairline); }
+#panel-reopen {
+  position: fixed; top: 18px; left: 18px; z-index: 31; display: none;
+  background: var(--paper); border: 1px solid var(--paper-edge); color: var(--ink);
+  box-shadow: 0 10px 24px -12px rgba(0,0,0,.8);
+}
+/* One focus ring for every control on the page, stated once. `:focus-visible`
+   so a mouse click never paints one, and a second colour for the controls
+   that sit on the dark map, where carmine on near-black does not read. */
+a:focus-visible, button:focus-visible, input:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid var(--carmine); outline-offset: 2px;
+}
+#attrib-toggle:focus-visible, #attrib-text a:focus-visible { outline-color: #f0c9b2; }
+/* clear of the thumb, which overhangs the 2px track it is drawn on. The phone
+   block below gives the input a box tall enough to hold its own thumb, and
+   puts the offset back to the standard one there. */
+input[type=range]:focus-visible { outline-offset: 7px; }
+.kicker {
+  font-size: 11px; letter-spacing: .24em; text-transform: uppercase;
+  color: var(--carmine-dark); font-weight: 500;
+}
+h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 900; font-size: 34px; line-height: 1.02;
+  letter-spacing: -.01em; margin-top: 6px;
+}
+h1 .now { font-style: italic; font-weight: 400; }
+.dek {
+  margin-top: 8px; font-size: 14px; line-height: 1.45; color: var(--ink-soft);
+}
+
+/* era row */
+/* `flex: 0 0 auto` on every region of the panel, the district list included:
+   nothing squashes, the body scrolls */
+#panel header, #eras, #controls, #colophon, #panel footer { flex: 0 0 auto; }
+#eras {
+  display: flex; flex-wrap: wrap; gap: 6px; padding: 12px 22px;
+  border-bottom: 1px solid var(--hairline);
+}
+.era {
+  font-family: "Fraunces", serif; font-size: 13px; font-weight: 600;
+  padding: 5px 12px 6px; border: 1px solid var(--hairline);
+  border-radius: 999px; background: transparent; color: var(--ink-soft);
+  cursor: pointer; letter-spacing: .02em;
+}
+.era:hover:not(.active) { border-color: var(--carmine); color: var(--ink); }
+.era.active {
+  background: var(--carmine); border-color: var(--carmine-dark);
+  color: #fdf6ea; box-shadow: 0 2px 6px -2px rgba(141,47,43,.6);
+}
+.era.soon { opacity: .45; }
+.era.soon::after { content: " ·soon"; font-size: 10px; font-weight: 400; }
+
+/* controls */
+#controls { padding: 14px 22px; border-bottom: 1px solid var(--hairline); }
+.ctl-label {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--ink-soft);
+  margin-bottom: 8px;
+}
+.ctl-label output { font-family: "Fraunces", serif; font-size: 13px; color: var(--ink); letter-spacing: 0; }
+input[type=range] {
+  width: 100%; appearance: none; height: 2px;
+  background: linear-gradient(to right, var(--carmine) var(--fill,100%), rgba(34,27,18,.18) var(--fill,100%));
+}
+input[type=range]::-webkit-slider-thumb {
+  appearance: none; width: 15px; height: 15px; border-radius: 50%;
+  background: var(--paper); border: 2px solid var(--carmine-dark);
+  box-shadow: 0 1px 3px rgba(0,0,0,.35); cursor: ew-resize;
+}
+.hint { margin-top: 10px; font-size: 12.5px; font-style: italic; color: var(--ink-soft); }
+.hint b { font-style: normal; font-weight: 500; color: var(--carmine-dark); }
+
+/* address search */
+#search-row { display: flex; gap: 6px; margin-top: 12px; }
+#address {
+  flex: 1; min-width: 0;
+  font: 500 13.5px/1.2 "Newsreader", serif; color: var(--ink);
+  padding: 6px 10px; background: rgba(255,255,255,.45);
+  border: 1px solid var(--hairline);
+}
+#address:focus { border-color: var(--carmine); }
+#search-go {
+  font-family: "Fraunces", serif; font-weight: 600; font-size: 12.5px;
+  padding: 6px 12px; cursor: pointer;
+  background: var(--carmine); color: #fdf6ea; border: 1px solid var(--carmine-dark);
+}
+#search-go:hover { background: var(--carmine-dark); }
+#search-note { margin-top: 6px; font-size: 12px; font-style: italic; color: var(--ink-soft); min-height: 15px; }
+
+/* volume list */
+#volumes { flex: 0 0 auto; padding: 10px 10px 10px 22px; }
+.vol-head {
+  font-size: 11px; letter-spacing: .18em; text-transform: uppercase;
+  color: var(--ink-soft); margin: 6px 0 8px;
+}
+.vol-era {
+  font-family: "Fraunces", serif; font-weight: 600; font-size: 12px;
+  letter-spacing: .08em; color: var(--carmine-dark);
+  margin: 12px 0 4px; padding-left: 8px;
+}
+/* a row of two controls — fly there, and switch that district off */
+.vol { display: flex; align-items: stretch; border-left: 2px solid transparent; }
+.vol:hover { border-left-color: var(--carmine); background: rgba(176,64,58,.06); }
+.vol-go {
+  display: flex; align-items: baseline; gap: 8px;
+  flex: 1 1 auto; min-width: 0; text-align: left;
+  padding: 5px 8px; border: 0; background: transparent;
+  font: 500 14px/1.3 "Newsreader", serif; color: var(--ink);
+  cursor: pointer;
+}
+.vol .no {
+  font-family: "Fraunces", serif; font-weight: 600; font-size: 12px;
+  color: var(--carmine-dark); min-width: 44px;
+}
+.vol .yr { margin-left: auto; font-size: 12px; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+/* switched off: the row STAYS, dimmed, so the way back is where the way out
+   was — a district that vanished from the list could not be switched on again */
+.vol.off .vol-go { opacity: .45; }
+/* aligned to the top of the row, not its middle: a label that wraps to three
+   lines would otherwise leave the switch floating beside the second one */
+/* 26px square, which is the pointer-target floor — an 11px glyph on a
+   `line-height: 1` box would otherwise be 18px tall */
+.vol-eye {
+  flex: 0 0 auto; width: 26px; min-height: 26px; align-self: flex-start;
+  padding: 4px 0 0; border: 0; background: transparent; cursor: pointer;
+  font-size: 11px; line-height: 1; color: var(--carmine-dark);
+}
+.vol-eye:hover { color: var(--ink); }
+.vol.off .vol-eye { color: var(--ink-soft); }
+.vol-all {
+  display: block; width: 100%; text-align: left; cursor: pointer;
+  margin: 2px 0 6px; padding: 6px 8px;
+  background: rgba(176,64,58,.07); border: 1px solid var(--paper-edge);
+  font: 600 11.5px/1 "Fraunces", serif; color: var(--carmine-dark);
+}
+.vol-all:hover { border-color: var(--carmine); }
+
+#panel footer {
+  padding: 12px 22px 16px; border-top: 1px solid var(--hairline);
+  font-size: 11.5px; line-height: 1.5; color: var(--ink-soft);
+}
+#panel footer a { color: var(--carmine-dark); }
+
+/* Colophon: the way out to the method and to the code, sat directly on the
+   credit line so the two read as one block. It takes the hairline and the
+   footer gives its own up — two rules 20px apart draw as a mistake. Each link
+   is a 32px row rather than a line of text, because at 12.5px the glyph box
+   alone is a 15px tap target. */
+#colophon {
+  display: flex; flex-wrap: wrap; gap: 0 16px;
+  padding: 10px 22px 0; border-top: 1px solid var(--hairline);
+  font-size: 12.5px;
+}
+#colophon a {
+  display: inline-flex; align-items: center; min-height: 32px;
+  color: var(--carmine-dark); font-weight: 600;
+}
+#colophon + footer { border-top: 0; padding-top: 4px; }
+
+/* ---------- guided stories: built only when a city configures them ------ */
+#story-entry { display: none; padding: 12px 22px 4px; flex: 0 0 auto; }
+#story-entry.on { display: block; }
+.story-open {
+  display: block; width: 100%; text-align: left; cursor: pointer;
+  padding: 10px 12px; margin-bottom: 6px; min-height: 44px;
+  background: rgba(176,64,58,.07); border: 1px solid var(--paper-edge);
+  border-left: 3px solid var(--carmine);
+  font: 600 14px/1.3 "Fraunces", serif; color: var(--ink);
+}
+.story-open:hover { background: rgba(176,64,58,.13); }
+.story-open .story-dek {
+  margin-top: 3px; font: 400 12.5px/1.4 "Newsreader", serif; color: var(--ink-soft);
+}
+/* the prose scrolls with the panel body, not inside a second region of its own */
+#story { display: none; flex: 0 0 auto; padding: 14px 22px 18px; }
+#story.on { display: block; }
+#story .stop-of {
+  font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--ink-soft);
+}
+#story h2 {
+  font-family: "Fraunces", serif; font-weight: 900; font-size: 21px;
+  line-height: 1.1; margin: 6px 0 8px;
+}
+#story .body { font-size: 14px; line-height: 1.55; }
+#story .body p + p { margin-top: 9px; }
+#story figure { margin: 12px 0; }
+#story figure img { width: 100%; display: block; border: 1px solid var(--paper-edge); }
+#story figcaption { margin-top: 4px; font-size: 11.5px; color: var(--ink-soft); }
+#story .sources {
+  margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--hairline);
+  font-size: 11.5px; line-height: 1.6; color: var(--ink-soft);
+}
+#story .sources a, #story .body a, #story figcaption a { color: var(--carmine-dark); }
+/* pinned to the bottom of the scroll region: Back/Next must not sit below
+   however much prose a caption carries */
+#story-nav {
+  display: none; gap: 6px; align-items: center; flex: 0 0 auto;
+  padding: 10px 22px; border-top: 1px solid var(--hairline);
+  position: sticky; bottom: 0; background: var(--paper);
+}
+#story-nav.on { display: flex; }
+#story-nav button {
+  min-height: 44px; padding: 0 14px; cursor: pointer;
+  font: 600 12.5px/1 "Fraunces", serif;
+  background: transparent; color: var(--ink); border: 1px solid var(--hairline);
+}
+#story-nav button:hover:not(:disabled) { border-color: var(--carmine); }
+#story-nav button:disabled { opacity: .35; cursor: default; }
+/* two ids, so the hover rule above (one id, two classes) cannot put a border
+   back on the way out of a story */
+#story-nav #story-exit { margin-left: auto; border-color: transparent; color: var(--carmine-dark); }
+/* reading a story, the panel is the story: the controls that belong to free
+   browsing stand down so the prose gets the height */
+body.story .hint, body.story #search-row, body.story #search-note,
+body.story #copy-link, body.story #panel .dek { display: none; }
+#copy-link {
+  margin-top: 10px; min-height: 36px; padding: 6px 11px; cursor: pointer;
+  font: 600 11.5px/1 "Fraunces", serif;
+  background: transparent; color: var(--carmine-dark); border: 1px solid var(--hairline);
+}
+#copy-link:hover { border-color: var(--carmine); }
+
+/* swipe divider restyle */
+.maplibregl-compare { background: var(--paper); width: 2px; }
+.maplibregl-compare .compare-swiper-vertical {
+  background: var(--paper); border: 2px solid var(--carmine-dark);
+  box-shadow: 0 2px 10px rgba(0,0,0,.5);
+  /* left and margin both come from the vendored stylesheet and are sized for
+     its 60px handle; restate both, or a 44px handle sits beside the divider
+     instead of on it and the clamp's edge margin protects the wrong pixels */
+  width: 44px; height: 44px; left: -22px; margin: -22px 0 0;
+  /* The vendored `top: 50%` puts the handle halfway down the map, which a
+     panel docked across the bottom can cover — and a handle nobody can grab
+     takes the swipe, which is the whole page, with it. Script measures the
+     strip the panel leaves and writes this; the 50% stands wherever it does
+     not, so the divider is never waiting on a script to be draggable. */
+  top: var(--handle-top, 50%);
+}
+
+/* corner plates */
+.plate {
+  position: fixed; top: 18px; z-index: 25;
+  font-family: "Fraunces", serif; font-weight: 900; font-size: 15px;
+  letter-spacing: .06em; padding: 6px 14px 7px;
+  background: rgba(20,17,12,.78); backdrop-filter: blur(3px);
+  border: 1px solid rgba(244,237,221,.25);
+  animation: settle .9s .25s cubic-bezier(.2,.9,.25,1) both;
+}
+#plate-era { right: calc(50% + 14px); color: #f0c9b2; }
+#plate-now  { right: 18px; color: #cfd8cf; }
+
+/* Sources: the same credit line the panel footer carries, mirrored into a
+   control that lives outside the collapsible panel. Basemap attribution is
+   a licence obligation, so it has to survive every collapse state and
+   width — here it is always one tap away. */
+#attrib {
+  position: fixed; left: 18px; bottom: 18px; z-index: 40;
+  display: flex; flex-direction: column-reverse; align-items: flex-start; gap: 6px;
+  max-width: min(520px, calc(100% - 36px));
+}
+#attrib-toggle {
+  min-height: 32px; padding: 7px 12px; cursor: pointer;
+  background: rgba(20,17,12,.78); backdrop-filter: blur(3px);
+  border: 1px solid rgba(244,237,221,.25); color: #efe6d4;
+  font: 600 11px/1 "Fraunces", serif; letter-spacing: .16em; text-transform: uppercase;
+}
+#attrib-toggle:hover { background: rgba(20,17,12,.92); }
+#attrib-text {
+  padding: 9px 11px; overflow-wrap: anywhere; overflow-y: auto;
+  max-height: 38vh; max-height: 38dvh;
+  background: rgba(20,17,12,.9); backdrop-filter: blur(3px);
+  border: 1px solid rgba(244,237,221,.25); color: #efe6d4;
+  font-size: 11.5px; line-height: 1.55;
+}
+#attrib-text a { color: #f0c9b2; }
+
+/* ---------- short windows: the masthead stands down ---------------------- */
+/* Before the district index gets a pixel, the panel spends 256px on the
+   masthead — on a 768px-tall laptop that is a third of everything it has. The
+   title takes the size the phone layout gives it and the header tightens.
+   The STANDFIRST stays: it is the only sentence on the page that says what the
+   colours on a Sanborn sheet mean, and `.hint` repeats only its second half.
+   Before the width block below, so a screen that is both narrow and short
+   keeps the narrow paddings. */
+@media (max-height: 820px) {
+  h1 { font-size: 24px; }
+  #panel header { padding: 14px 58px 10px 22px; }
+}
+
+/* ---------- what both phone layouts share ------------------------------- */
+/* A media query LIST, because the two blocks below are two shapes of one
+   device and these are the same facts in both. Stating them here is what
+   keeps the pair from drifting — a chip that grew a thumb-sized target in
+   portrait and lost it in landscape is the drift this avoids. Before both, so
+   either can override a line of it.
+
+   The masthead first. It is the one part of the panel that does not scroll,
+   so every pixel it takes is a pixel the reader can never get back: the title
+   at a size that fits a phone column, and the standfirst bounded so a city
+   that configures a long one cannot spend the panel on it. Not
+   `pointer: coarse` for the floors below, which would take them away from a
+   narrow desktop window that has had them all along. */
+@media (max-width: 820px),
+       (max-height: 520px) and (min-width: 560px) and (max-width: 1000px) {
+  .kicker { font-size: 10px; letter-spacing: .2em; }
+  h1 { font-size: 20px; margin-top: 4px; }
+  .dek {
+    margin-top: 6px; font-size: 12.5px; line-height: 1.4;
+    display: -webkit-box; -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden;
+  }
+
+  .era { flex: 0 0 auto; display: inline-flex; align-items: center;
+         min-height: 44px; padding: 0 11px; }
+  #address, #search-go { min-height: 44px; }
+  #copy-link { min-height: 44px; }
+  #attrib-toggle { min-height: 44px; }
+  /* The opacity slider's hit area is its BOX, and a 2px box is a 2px target:
+     a finger aiming at the thumb misses the control entirely and pans the map
+     behind it. The box grows to the floor and the track stays a hairline —
+     drawn as a centred stripe of the same gradient rather than as the
+     element's own background, which would fill all 44px with it. The thumb is
+     inside the box now, so the ring goes back to the standard offset. */
+  input[type=range] {
+    height: 44px; background-repeat: no-repeat;
+    background-size: 100% 4px; background-position: left center;
+  }
+  input[type=range]::-webkit-slider-thumb { width: 22px; height: 22px; }
+  input[type=range]:focus-visible { outline-offset: 2px; }
+  .vol-go { padding: 9px 8px; }
+  .vol-eye { width: 44px; min-height: 44px; padding: 0; align-self: center; font-size: 13px; }
+  /* the links stack rather than sit side by side, so two 44px rows cost
+     nothing the panel was using */
+  #colophon a { min-height: 44px; }
+  .story-open { min-height: 48px; }
+}
+
+/* ---------- small screens: the panel docks, the map keeps the width ----- */
+@media (max-width: 820px) {
+  :root { --panel-overlays-map: 0; }
+
+  /* A bottom sheet. The sheet scrolls; the page still never does. */
+  #panel {
+    top: auto; bottom: 0; left: 0; right: 0; width: auto;
+    /* Most of the screen, because the masthead above the scroll region is
+       fixed and a small sheet is spent entirely on it: at half height less a
+       margin, a 568px phone gave the era chips, the districts and the credit
+       line 34px between them. The handle no longer has to be cleared by
+       arithmetic here — script places it in whatever strip this leaves — so
+       what the two terms protect is the MAP: never less than 148px of it, and
+       never less than a third of the screen.
+       The floor is the smaller of the two numbers on purpose. It only binds
+       below about 368px of height, where the terms above have already given
+       the map everything and a floor of any size can only take it back — and
+       there the handle has nowhere left to go. It is there so a very short
+       window cannot resolve the sheet to nothing, where its own header is the
+       only way to reopen it.
+       `dvh` so the cap is the height a phone can actually show, with the `vh`
+       line first for a browser that has only that. */
+    max-height: max(120px, min(62vh, calc(100vh - 148px)));
+    max-height: max(120px, min(62dvh, calc(100dvh - 148px)));
+    border-left: 0; border-right: 0; border-bottom: 0;
+  }
+  body.panel-collapsed #panel { display: flex; }
+  body.panel-collapsed #panel-reopen { display: none; }
+  body.panel-collapsed #panel .dek { display: none; }
+
+  #panel header { padding: 10px 58px 8px 16px; }
+  #panel-toggle { top: 4px; }
+  /* a portrait sheet has the height for the whole standfirst; the shared
+     clamp above is there for a configured one that never ends */
+  .dek { -webkit-line-clamp: 4; line-clamp: 4; }
+
+  /* Every chip on screen. A single scrolling row is more compact but slices
+     its last chip at the screen edge with nothing to say there is more, so
+     the row wraps and the chips shrink far enough that seven eras take two
+     lines even at 320px. A city with many more eras grows the block, and the
+     sheet scrolls. */
+  #eras { padding: 8px 16px; }
+  .era { font-size: 12.5px; }
+
+  #controls { padding: 12px 16px; }
+  #volumes { padding: 8px 8px 8px 16px; }
+  #colophon { padding: 4px 16px 0; gap: 0 14px; }
+  #panel footer { padding: 10px 16px 14px; }
+
+  /* plates share the top edge without colliding or overrunning it */
+  .plate { top: 10px; font-size: 12px; padding: 5px 10px 6px;
+           max-width: calc(50% - 14px);
+           overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  #plate-era { left: 8px; right: auto; }
+  #plate-now { right: 8px; }
+
+  /* the sheet owns the bottom edge, so sources move under the plates */
+  #attrib { top: 48px; bottom: auto; left: 8px;
+            flex-direction: column; max-width: calc(100% - 16px); }
+  #attrib-text { max-height: 30vh; max-height: 30dvh; }
+
+  /* a phone sheet has room for the story or for the chrome, not both; the
+     header strip still names the era and the chips still switch the decade */
+  /* NOT while collapsed: the toggle lives in that header, and the reopen
+     control is hidden at this width, so hiding it too would strand a reader
+     in a story with no way back to the panel */
+  body.story:not(.panel-collapsed) #panel header,
+  body.story:not(.panel-collapsed) #controls { display: none; }
+  #story { padding: 12px 16px 14px; }
+  #story-entry { padding: 10px 16px 2px; }
+  #story-nav { padding: 8px 16px; box-shadow: 0 -6px 12px -10px rgba(0,0,0,.6); }
+}
+
+/* ---------- short and wide: a phone on its side, and a squat window ------ */
+/* A bottom sheet is the wrong shape here. Height is the scarce axis, so a
+   sheet spends it twice — on the masthead that does not scroll, and on the
+   map strip it leaves — and neither half ends up usable: 375px of height gave
+   the scroll region 37px. Width is what this screen has, so the panel goes
+   back to a column at the leading edge, full height, and the divider clamp
+   starts protecting the handle again because the panel overlays the map once
+   more. AFTER the width block, which a landscape phone also matches. */
+@media (max-height: 520px) and (min-width: 560px) and (max-width: 1000px) {
+  :root { --panel-overlays-map: 1; --dock-width: min(300px, 42vw); }
+
+  #panel {
+    top: 8px; bottom: 8px; left: 8px; right: auto;
+    width: var(--dock-width); max-height: none;
+    border: 1px solid var(--paper-edge);
+  }
+  /* the width block hands the collapsed panel a header strip, which is a
+     bottom-sheet idea: a column that collapsed to a strip would be a masthead
+     down the side of the map. Back to the floating behaviour — gone, with the
+     reopen control standing in for it. */
+  body.panel-collapsed #panel { display: none; }
+  body.panel-collapsed #panel-reopen { display: flex; }
+  #panel-reopen { top: 8px; left: 8px; }
+
+  #panel header { padding: 8px 52px 8px 14px; }
+  #panel-toggle { top: 2px; right: 6px; }
+  .dek { -webkit-line-clamp: 2; line-clamp: 2; }
+  #eras, #controls { padding-left: 14px; padding-right: 14px; }
+  #volumes { padding-left: 14px; }
+  #colophon, #panel footer { padding-left: 14px; padding-right: 14px; }
+
+  /* Both of these start where the panel ends — and go back to the edge the
+     moment it is not there, or they float in from an empty margin. The era
+     plate has nowhere left to stand while the panel is open: the column and
+     the divider between them leave a gap too narrow to read a decade in, and
+     the masthead one column over is already saying it. It comes back with the
+     closed panel, which is when it is the only thing naming the decade. */
+  .plate { top: 8px; max-width: calc(50% - var(--dock-width) / 2 - 24px); }
+  #plate-era { left: calc(var(--dock-width) + 16px); right: auto; }
+  body:not(.panel-collapsed) #plate-era { display: none; }
+  #plate-now { right: 8px; }
+  #attrib { top: auto; bottom: 8px; left: calc(var(--dock-width) + 16px);
+            flex-direction: column-reverse;
+            max-width: calc(100% - var(--dock-width) - 24px); }
+  #attrib-text { max-height: 60vh; max-height: 60dvh; }
+  body.panel-collapsed #plate-era { left: 64px; }
+  body.panel-collapsed #attrib { left: 8px; max-width: calc(100% - 16px); }
+
+  /* Height is scarce here too, so a story still takes the free-browsing
+     controls down for the prose — but NOT the masthead, which the width block
+     also hides. That rule is right for a sheet, where a collapsed panel is
+     still a header strip and hiding the strip would stand a reader in a story
+     with no way back to the panel. A column has the other escape: it collapses
+     to the reopen control, and the toggle that does it lives in the masthead.
+     Hiding it here would take a reader's only way to get the map back. */
+  body.story:not(.panel-collapsed) #controls { display: none; }
+  body.story:not(.panel-collapsed) #panel header { display: block; }
+}
+
+#loading {
+  position: fixed; inset: 0; z-index: 50; display: grid; place-items: center;
+  background: #14110c; color: #f4eddd; font-family: "Fraunces", serif;
+  transition: opacity .6s; font-size: 18px; letter-spacing: .08em;
+}
+#loading.done { opacity: 0; pointer-events: none; }
+/* The overlay when there is no atlas to reveal: it says why, and lists the
+   cities published here so the visitor is not left reading a dead end. */
+#loading.choose { grid-auto-flow: row; align-content: center; gap: .8em; text-align: center; }
+#loading.choose a { color: #d9a441; }

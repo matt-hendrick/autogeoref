@@ -1,0 +1,109 @@
+{
+  "page": "67",
+  "n_streets": 9,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "rotation_deg": 0.59,
+  "auto_residuals_m": [
+    0.58,
+    0.33,
+    0.63,
+    0.31
+  ],
+  "inlier_streets": [
+    [
+      "W. 19TH",
+      "S. HARDING AV."
+    ],
+    [
+      "W. 19TH",
+      "S. SPRINGFIELD AV."
+    ],
+    [
+      "W. 21ST",
+      "S. HARDING AV."
+    ],
+    [
+      "S. SPRINGFIELD AV.",
+      "OGDEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2385,
+            489
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH x S. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72359798617558,
+            41.85500713907081
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4507,
+            489
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH x S. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72234558943337,
+            41.85502046271949
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2385,
+            4012
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST x S. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72354850352778,
+            41.85342016968323
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4507,
+            7101
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. x OGDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72227332554468,
+            41.85202996177698
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,205 @@
+{
+  "page": "112",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.69,
+  "auto_residuals_m": [
+    1.82,
+    3.0,
+    1.73,
+    1.43,
+    4.07,
+    3.87,
+    5.43,
+    3.81
+  ],
+  "inlier_streets": [
+    [
+      "W. MADISON",
+      "S. SPAULDING AV."
+    ],
+    [
+      "W. MADISON",
+      "S. KEDZIE AV."
+    ],
+    [
+      "W. MONROE",
+      "S. SPAULDING AV."
+    ],
+    [
+      "W. MONROE",
+      "S. KEDZIE AV."
+    ],
+    [
+      "S. SPAULDING AV.",
+      "W. ADAMS"
+    ],
+    [
+      "S. SPAULDING AV.",
+      "W. JACKSON BOULEVARD"
+    ],
+    [
+      "S. KEDZIE AV.",
+      "W. ADAMS"
+    ],
+    [
+      "S. KEDZIE AV.",
+      "W. JACKSON BOULEVARD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            994,
+            400
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70852348086053,
+            41.880953567756855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4816,
+            400
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70614000331925,
+            41.880982814930576
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            994,
+            3149
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.708479472142,
+            41.879636375029136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4816,
+            3149
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7060970327656,
+            41.87965935505523
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            994,
+            5810
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPAULDING AV. x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7084462515025,
+            41.878367375077964
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            994,
+            8157
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPAULDING AV. x W. JACKSON BOULEVARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70842229312413,
+            41.87731513581894
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4816,
+            5810
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEDZIE AV. x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70606243820069,
+            41.87837965401667
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4816,
+            8157
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEDZIE AV. x W. JACKSON BOULEVARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70603215232309,
+            41.877336447023545
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.922,
+    "dy_m": 1.506
+  }
+}

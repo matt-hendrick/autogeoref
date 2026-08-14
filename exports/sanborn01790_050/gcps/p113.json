@@ -1,0 +1,180 @@
+{
+  "page": "113",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 1.35,
+  "auto_residuals_m": [
+    0.69,
+    1.26,
+    2.57,
+    3.23,
+    2.24,
+    1.26,
+    2.0
+  ],
+  "inlier_streets": [
+    [
+      "BERTEAU AV.",
+      "N. TRIPP"
+    ],
+    [
+      "BERTEAU AV.",
+      "N. KEELER"
+    ],
+    [
+      "BERTEAU AV.",
+      "N. KEDVALE"
+    ],
+    [
+      "W. BELLE PLAINE AV.",
+      "N. KEELER"
+    ],
+    [
+      "W. BELLE PLAINE AV.",
+      "N. KEDVALE"
+    ],
+    [
+      "W. IRVING PARK RD. (BLV'D)",
+      "N. TRIPP"
+    ],
+    [
+      "W. IRVING PARK RD. (BLV'D)",
+      "N. KEELER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            208,
+            276
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x N. TRIPP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73407838889167,
+            41.95722763832287
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2609,
+            276
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x N. KEELER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.732583356077,
+            41.957245685768264
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5275,
+            276
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x N. KEDVALE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73095560075555,
+            41.95726287255773
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2609,
+            4233
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELLE PLAINE AV. x N. KEELER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73252648477413,
+            41.955416792284744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5275,
+            4233
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELLE PLAINE AV. x N. KEDVALE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73089614426156,
+            41.95543953798981
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            208,
+            8047
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. IRVING PARK RD. (BLV'D) x N. TRIPP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7339700622006,
+            41.95357792423019
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2609,
+            8047
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. IRVING PARK RD. (BLV'D) x N. KEELER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73247349104449,
+            41.95359677269958
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

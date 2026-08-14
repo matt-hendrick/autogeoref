@@ -1,0 +1,159 @@
+{
+  "page": "46",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.15,
+  "auto_residuals_m": [
+    0.22,
+    0.22,
+    0.19,
+    0.19,
+    0.06,
+    0.09
+  ],
+  "inlier_streets": [
+    [
+      "W. 24TH ST.",
+      "S. STATE"
+    ],
+    [
+      "W. 24TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 24TH ST.",
+      "S. STATE"
+    ],
+    [
+      "E. 24TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "S. STATE",
+      "W. 25TH ST."
+    ],
+    [
+      "S. STATE",
+      "E. 25TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1538,
+            2338
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 24TH ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62702590721061,
+            41.849265159821826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4131,
+            2338
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 24TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6254387039341,
+            41.849288857797454
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1538,
+            2332
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 24TH ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62702590721061,
+            41.849265159821826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4131,
+            2332
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 24TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6254387039341,
+            41.849288857797454
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1538,
+            6337
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x W. 25TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62692093359053,
+            41.847469461326135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1538,
+            6335
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x E. 25TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62692093359053,
+            41.847469461326135
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.547,
+    "dy_m": 3.678
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "page": "48",
+  "n_streets": 9,
+  "n_candidates": 11,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. HURON",
+      "CURTIS ST."
+    ],
+    [
+      "W. HURON",
+      "N. CARPENTER"
+    ],
+    [
+      "W. ERIE",
+      "N. MORGAN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1849,
+            1717
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x CURTIS ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.654087441473,
+            41.894370424323675
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3021,
+            1717
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. CARPENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65344814124357,
+            41.894375773639325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4760,
+            4092
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65224312108205,
+            41.89338415183937
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65484885861015,
+            41.89480646037802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5267,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.652056014235,
+            41.89485255426272
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65477136995739,
+            41.89220492119185
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 11.444,
+    "dy_m": -2.28
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5227,
+    "separation_ratio": 1.068,
+    "best_offset_m": 8.6,
+    "n_junctions": 35
+  }
+}

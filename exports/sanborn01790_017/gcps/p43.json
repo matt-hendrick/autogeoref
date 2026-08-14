@@ -1,0 +1,163 @@
+{
+  "page": "43",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (verified: corroboration+junction)",
+  "rescue_anchors": [
+    [
+      "MONROE",
+      "FRANKLIN"
+    ],
+    [
+      "FRANKLIN",
+      "ADAMS"
+    ],
+    [
+      "FRANKLIN",
+      "QUINCY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4101,
+            1410
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONROE x FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63528127162,
+            41.88064073715115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4101,
+            4317
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRANKLIN x ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63523657050455,
+            41.87936851056542
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4101,
+            5730
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRANKLIN x QUINCY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63521661245477,
+            41.87870032779037
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63730198492212,
+            41.880867201674334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5314,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63457841178425,
+            41.88090467650909
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63723955429404,
+            41.87835198670224
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6707,
+    "separation_ratio": 1.014,
+    "best_offset_m": 2.2,
+    "n_junctions": 19
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": null
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5"
+      ],
+      "consensus_numerals": 0,
+      "votable": 0,
+      "in_block": 0,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": []
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

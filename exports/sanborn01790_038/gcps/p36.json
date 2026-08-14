@@ -1,0 +1,119 @@
+{
+  "page": "36",
+  "n_streets": 10,
+  "n_candidates": 13,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "GIDDINGS AV.",
+      "VIRGINIA AV."
+    ],
+    [
+      "EASTWOOD AV.",
+      "MANOR AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3476,
+            2260
+          ],
+          "username": "autogeoref",
+          "note": "auto: GIDDINGS AV. x VIRGINIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69889246368916,
+            41.96761360547742
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            695,
+            6578
+          ],
+          "username": "autogeoref",
+          "note": "auto: EASTWOOD AV. x MANOR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70050438015171,
+            41.96564428800655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70063852190988,
+            41.96824188548771
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5283,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6977701342713,
+            41.96826608113253
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70059137726719,
+            41.965152133582066
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7439,
+    "separation_ratio": 1.412,
+    "best_offset_m": 27.7,
+    "n_junctions": 5
+  }
+}

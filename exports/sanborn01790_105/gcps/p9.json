@@ -1,0 +1,203 @@
+{
+  "page": "9",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.74,
+  "auto_residuals_m": [
+    0.86,
+    0.62,
+    1.02,
+    1.03,
+    0.97,
+    1.14,
+    0.83,
+    1.24
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVISION",
+      "N. LAVERGNE AV."
+    ],
+    [
+      "W. DIVISION",
+      "N. LAMON AV."
+    ],
+    [
+      "THOMAS",
+      "N. LAVERGNE AV."
+    ],
+    [
+      "THOMAS",
+      "N. LAMON AV."
+    ],
+    [
+      "N. LAVERGNE AV.",
+      "CORTEZ"
+    ],
+    [
+      "N. LAVERGNE AV.",
+      "W. AUGUSTA BLVD."
+    ],
+    [
+      "CORTEZ",
+      "N. LAMON AV."
+    ],
+    [
+      "N. LAMON AV.",
+      "W. AUGUSTA BLVD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1348,
+            283
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. LAVERGNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75087248562843,
+            41.902301366931695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5215,
+            283
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. LAMON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74841995180273,
+            41.90232659922963
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1348,
+            4309
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x N. LAVERGNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75083037472804,
+            41.900467550655925
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5215,
+            4309
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x N. LAMON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7483814335655,
+            41.90049119177753
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1348,
+            6312
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAVERGNE AV. x CORTEZ"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75081085811065,
+            41.89954864227757
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1348,
+            8279
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAVERGNE AV. x W. AUGUSTA BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75079057196858,
+            41.89863244609688
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5215,
+            6312
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTEZ x N. LAMON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7483605109358,
+            41.899571250345566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5215,
+            8279
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAMON AV. x W. AUGUSTA BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74834106832812,
+            41.89865533085425
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

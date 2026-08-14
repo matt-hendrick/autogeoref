@@ -1,0 +1,142 @@
+{
+  "page": "4211",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. FRONT AV.",
+      "E. 115TH ST."
+    ],
+    [
+      "S. FRONT AV.",
+      "E. KENSINGTON AV."
+    ],
+    [
+      "E. 115TH ST.",
+      "S. FOREST AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            419,
+            1182
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRONT AV. x E. 115TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61251318014763,
+            41.685431640299996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3444,
+            1437
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRONT AV. x E. KENSINGTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61275893849962,
+            41.68398985141402
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            419,
+            6168
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 115TH ST. x S. FOREST AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61559426197489,
+            41.68539966739235
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            567,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61231798988977,
+            41.68530113821209
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5102,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61242373116534,
+            41.68320871263846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            567,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61652090206266,
+            41.68541959784354
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -92.2959,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.6946,
+    "separation_ratio": 0.986,
+    "best_offset_m": 55.0,
+    "n_junctions": 3
+  }
+}

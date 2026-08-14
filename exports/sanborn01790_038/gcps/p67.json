@@ -1,0 +1,159 @@
+{
+  "page": "67",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.1,
+  "auto_residuals_m": [
+    8.55,
+    7.64,
+    8.2,
+    0.38,
+    9.11,
+    1.46
+  ],
+  "inlier_streets": [
+    [
+      "N. 40TH AV.",
+      "BELLE PLAINE AV."
+    ],
+    [
+      "N. 40TH AV.",
+      "IRVING PARK BLVD"
+    ],
+    [
+      "BELLE PLAINE AV.",
+      "N. 40TH"
+    ],
+    [
+      "BELLE PLAINE AV.",
+      "N. SPRINGFIELD"
+    ],
+    [
+      "N. 40TH",
+      "IRVING PARK BLVD"
+    ],
+    [
+      "N. SPRINGFIELD",
+      "IRVING PARK BLVD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            213,
+            4209
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 40TH AV. x BELLE PLAINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72764537229092,
+            41.95547873097201
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            213,
+            8213
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 40TH AV. x IRVING PARK BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72759381641782,
+            41.95365000520662
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            468,
+            4209
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELLE PLAINE AV. x N. 40TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72764537229092,
+            41.95547873097201
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4496,
+            4209
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELLE PLAINE AV. x N. SPRINGFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72519732693333,
+            41.955512614711864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            468,
+            8213
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 40TH x IRVING PARK BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72759381641782,
+            41.95365000520662
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4496,
+            8213
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPRINGFIELD x IRVING PARK BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72512131445704,
+            41.95368613543281
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.599,
+    "dy_m": 0.332
+  }
+}

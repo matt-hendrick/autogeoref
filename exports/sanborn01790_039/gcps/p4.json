@@ -1,0 +1,141 @@
+{
+  "page": "4",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "TAYLOR",
+      "S. WALLER AV."
+    ],
+    [
+      "FILLMORE",
+      "S. WALLER AV."
+    ],
+    [
+      "FILLMORE",
+      "S. CENTRAL AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            950,
+            2336
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x S. WALLER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76685706166211,
+            41.86830699310163
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            950,
+            4358
+          ],
+          "username": "autogeoref",
+          "note": "auto: FILLMORE x S. WALLER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.766826725537,
+            41.8674080469502
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4951,
+            4358
+          ],
+          "username": "autogeoref",
+          "note": "auto: FILLMORE x S. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76431837839687,
+            41.86743806459933
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76710738860547,
+            41.86903028743871
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5214,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76419145927117,
+            41.86907176696383
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76702561966468,
+            41.86584262141927
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8837,
+    "separation_ratio": 1.54,
+    "best_offset_m": 2.7,
+    "n_junctions": 5
+  }
+}

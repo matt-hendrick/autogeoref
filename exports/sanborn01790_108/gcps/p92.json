@@ -1,0 +1,211 @@
+{
+  "page": "92",
+  "n_streets": 9,
+  "n_candidates": 11,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "ST. PAUL AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "N. CICERO AV.",
+      "W. WABANSIA AV."
+    ],
+    [
+      "W. WABANSIA AV.",
+      "N. KEATING AV."
+    ],
+    [
+      "W. WABANSIA AV.",
+      "N. KILPATRICK AV."
+    ],
+    [
+      "N. KEATING AV.",
+      "W. NORTH AV."
+    ],
+    [
+      "N. KILPATRICK AV.",
+      "W. NORTH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            874,
+            2245
+          ],
+          "username": "autogeoref",
+          "note": "auto: ST. PAUL AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74602047010926,
+            41.912373806474015
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            874,
+            4309
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CICERO AV. x W. WABANSIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74598687571881,
+            41.91145316584883
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2796,
+            4309
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WABANSIA AV. x N. KEATING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74479255323297,
+            41.91146836540897
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4603,
+            4309
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WABANSIA AV. x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74362339035056,
+            41.91144251633053
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2796,
+            8374
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEATING AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74473624627012,
+            41.90964407378264
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4603,
+            8374
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILPATRICK AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74368111465012,
+            41.909650480807976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74620033627848,
+            41.91304538007008
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5238,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74332058905695,
+            41.913082631292234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74612719291866,
+            41.909914032315754
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -8.912,
+    "dy_m": -0.152
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6655,
+    "separation_ratio": 1.244,
+    "best_offset_m": 0.9,
+    "n_junctions": 14
+  }
+}

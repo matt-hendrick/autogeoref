@@ -1,0 +1,205 @@
+{
+  "page": "50",
+  "n_streets": 9,
+  "n_candidates": 11,
+  "n_inliers": 8,
+  "rotation_deg": 1.85,
+  "auto_residuals_m": [
+    3.83,
+    9.21,
+    2.9,
+    11.37,
+    8.66,
+    5.01,
+    5.08,
+    8.64
+  ],
+  "inlier_streets": [
+    [
+      "W. HURON",
+      "N. GREEN"
+    ],
+    [
+      "W. HURON",
+      "N. HALSTED"
+    ],
+    [
+      "W. HURON",
+      "N. PEORIA AV."
+    ],
+    [
+      "N. GREEN",
+      "W. ERIE"
+    ],
+    [
+      "N. HALSTED",
+      "W. ERIE"
+    ],
+    [
+      "N. HALSTED",
+      "W. OHIO"
+    ],
+    [
+      "W. ERIE",
+      "N. PEORIA AV."
+    ],
+    [
+      "N. PEORIA AV.",
+      "W. OHIO"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3416,
+            516
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. GREEN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64889075377842,
+            41.89510250761474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5406,
+            516
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64770760571761,
+            41.89517458191001
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1084,
+            516
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. PEORIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65012022523752,
+            41.89507217394783
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3416,
+            4288
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GREEN x W. ERIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64884777427277,
+            41.893375904808494
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5406,
+            4288
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x W. ERIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64766795592578,
+            41.89339303373819
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5406,
+            7041
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x W. OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64759517636877,
+            41.892261616088824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1084,
+            4288
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. PEORIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65007685134783,
+            41.89336254806756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1084,
+            7041
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PEORIA AV. x W. OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64994922856948,
+            41.892218679556116
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.649,
+    "dy_m": 2.645
+  }
+}

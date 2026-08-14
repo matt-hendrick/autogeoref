@@ -1,0 +1,109 @@
+{
+  "page": "62",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "rotation_deg": -0.2,
+  "auto_residuals_m": [
+    0.83,
+    0.82,
+    0.88,
+    0.87
+  ],
+  "inlier_streets": [
+    [
+      "W. KINZIE",
+      "N. CLINTON"
+    ],
+    [
+      "W. KINZIE",
+      "N. CANAL"
+    ],
+    [
+      "N. CLINTON",
+      "FULTON"
+    ],
+    [
+      "N. CANAL",
+      "FULTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1038,
+            1090
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6413924904727,
+            41.889058395607975
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3431,
+            1090
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6399732524091,
+            41.889047988113504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1038,
+            5935
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLINTON x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64133615223761,
+            41.886815434959956
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3431,
+            5935
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CANAL x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63989209460694,
+            41.88681826941135
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,202 @@
+{
+  "page": "6",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.1,
+  "auto_residuals_m": [
+    3.07,
+    2.1,
+    2.08,
+    1.58,
+    5.26,
+    5.0,
+    4.27,
+    4.55
+  ],
+  "inlier_streets": [
+    [
+      "CHICAGO AV.",
+      "ORLEANS"
+    ],
+    [
+      "CHICAGO AV.",
+      "N. FRANKLIN"
+    ],
+    [
+      "SUPERIOR",
+      "ORLEANS"
+    ],
+    [
+      "SUPERIOR",
+      "N. FRANKLIN"
+    ],
+    [
+      "HURON",
+      "ORLEANS"
+    ],
+    [
+      "HURON",
+      "N. FRANKLIN"
+    ],
+    [
+      "ERIE",
+      "ORLEANS"
+    ],
+    [
+      "ERIE",
+      "N. FRANKLIN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1747,
+            476
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHICAGO AV. x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63717150514562,
+            41.8965512740344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4110,
+            476
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHICAGO AV. x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63569413344861,
+            41.896579650849475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1747,
+            2666
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUPERIOR x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63714756748936,
+            41.89555399379547
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4110,
+            2666
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUPERIOR x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63567854866079,
+            41.895571677405044
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1747,
+            4413
+          ],
+          "username": "autogeoref",
+          "note": "auto: HURON x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63712620471674,
+            41.89475249184922
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4110,
+            4413
+          ],
+          "username": "autogeoref",
+          "note": "auto: HURON x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63566127584095,
+            41.8947716133458
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1747,
+            5980
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63710322909901,
+            41.89395086502708
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4110,
+            5980
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63563873438163,
+            41.893969777592226
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

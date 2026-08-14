@@ -1,0 +1,182 @@
+{
+  "page": "63",
+  "n_streets": 9,
+  "n_candidates": 14,
+  "n_inliers": 7,
+  "rotation_deg": 0.65,
+  "auto_residuals_m": [
+    10.81,
+    16.41,
+    5.7,
+    2.09,
+    3.34,
+    3.04,
+    1.54
+  ],
+  "inlier_streets": [
+    [
+      "W. 63RD",
+      "S. HALSTED"
+    ],
+    [
+      "W. 63RD",
+      "EMERALD AVE."
+    ],
+    [
+      "W. 63RD",
+      "UNION AVE."
+    ],
+    [
+      "S. HALSTED",
+      "W. 64TH"
+    ],
+    [
+      "S. HALSTED",
+      "W. 65TH"
+    ],
+    [
+      "UNION AVE.",
+      "W. 65TH"
+    ],
+    [
+      "W. 64TH",
+      "EMERALD AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1288,
+            323
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64481150434914,
+            41.779747516015625
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2655,
+            323
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD x EMERALD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6436780567949,
+            41.77976471050135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4548,
+            323
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD x UNION AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64264399684271,
+            41.77977973859663
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1288,
+            4290
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. 64TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64476407951044,
+            41.77792372995039
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1288,
+            8262
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. 65TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64476982259262,
+            41.776128751862984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4548,
+            8262
+          ],
+          "username": "autogeoref",
+          "note": "auto: UNION AVE. x W. 65TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64269085135717,
+            41.77611771603013
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3956,
+            4290
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 64TH x EMERALD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64300574104458,
+            41.777955666927646
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.784,
+    "dy_m": -0.462
+  }
+}

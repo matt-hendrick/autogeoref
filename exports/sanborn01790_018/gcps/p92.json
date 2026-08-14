@@ -1,0 +1,110 @@
+{
+  "page": "92",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 0.99,
+  "auto_residuals_m": [
+    0.08,
+    0.05,
+    0.05,
+    0.11
+  ],
+  "inlier_streets": [
+    [
+      "W. VANBUREN",
+      "S. JEFFERSON"
+    ],
+    [
+      "W. VANBUREN",
+      "S. CLINTON"
+    ],
+    [
+      "W. HARRISON",
+      "S. JEFFERSON"
+    ],
+    [
+      "W. HARRISON",
+      "S. CLINTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1706,
+            1072
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VANBUREN x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64249756636987,
+            41.87673297474871
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4019,
+            1072
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VANBUREN x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64102694800314,
+            41.87675215832166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1706,
+            6241
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64242383997099,
+            41.87437091992098
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4019,
+            6241
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64095562260128,
+            41.87438953807814
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

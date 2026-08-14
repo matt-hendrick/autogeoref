@@ -1,0 +1,120 @@
+{
+  "page": "54",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. LAWRENCE AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "N. CICERO AV.",
+      "WILSON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5311,
+            317
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAWRENCE AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74772179586124,
+            41.9680287227664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5311,
+            8189
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CICERO AV. x WILSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74762040085638,
+            41.96436664600994
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7506492409617,
+            41.9677365611015
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5121,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7478209451336,
+            41.967768341218225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75058535976378,
+            41.96459359236948
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.3731,
+    "separation_ratio": 0.835,
+    "best_offset_m": 99.9,
+    "n_junctions": 12
+  }
+}

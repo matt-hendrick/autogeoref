@@ -1,0 +1,120 @@
+{
+  "page": "128",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 39TH ST.",
+      "WENTWORTH AV."
+    ],
+    [
+      "W. 39TH ST.",
+      "S. ARMOUR AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            859,
+            6363
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 39TH ST. x WENTWORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63133937826412,
+            41.823645519938374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5230,
+            6363
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 39TH ST. x S. ARMOUR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62861793055147,
+            41.82368504138434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63150507990851,
+            41.8261564801737
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5298,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6286878420857,
+            41.82619239100872
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63144514152904,
+            41.82354537495827
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.5504,
+    "separation_ratio": 0.989,
+    "best_offset_m": 99.9,
+    "n_junctions": 28
+  }
+}

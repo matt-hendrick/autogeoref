@@ -1,0 +1,184 @@
+{
+  "page": "122",
+  "n_streets": 14,
+  "n_candidates": 14,
+  "n_inliers": 7,
+  "rotation_deg": 0.92,
+  "auto_residuals_m": [
+    7.09,
+    2.57,
+    2.77,
+    4.01,
+    17.96,
+    22.14,
+    2.15
+  ],
+  "inlier_streets": [
+    [
+      "CASS ST.",
+      "E. DELAWARE"
+    ],
+    [
+      "CASS ST.",
+      "E. CHESTNUT"
+    ],
+    [
+      "CASS ST.",
+      "E. PEARSON"
+    ],
+    [
+      "CASS ST.",
+      "E. CHICAGO AV."
+    ],
+    [
+      "E. CHESTNUT",
+      "RUSH"
+    ],
+    [
+      "RUSH",
+      "E. PEARSON"
+    ],
+    [
+      "E. CHICAGO AV.",
+      "RUSH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            522,
+            1005
+          ],
+          "username": "autogeoref",
+          "note": "auto: CASS ST. x E. DELAWARE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62664458715984,
+            41.89917864976359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            522,
+            2819
+          ],
+          "username": "autogeoref",
+          "note": "auto: CASS ST. x E. CHESTNUT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62669803829424,
+            41.898358495633644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            522,
+            4626
+          ],
+          "username": "autogeoref",
+          "note": "auto: CASS ST. x E. PEARSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62666669736731,
+            41.89755276676036
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            522,
+            6485
+          ],
+          "username": "autogeoref",
+          "note": "auto: CASS ST. x E. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62664461494037,
+            41.89670828412095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1631,
+            2819
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CHESTNUT x RUSH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6261633511159,
+            41.89836775032846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1631,
+            4626
+          ],
+          "username": "autogeoref",
+          "note": "auto: RUSH x E. PEARSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62577046248887,
+            41.897560991268705
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2710,
+            6485
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CHICAGO AV. x RUSH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62529966039452,
+            41.89672576318743
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 22.834,
+    "dy_m": 1.948
+  }
+}

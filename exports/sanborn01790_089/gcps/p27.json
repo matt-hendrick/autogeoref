@@ -1,0 +1,109 @@
+{
+  "page": "27",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.06,
+  "auto_residuals_m": [
+    0.1,
+    0.09,
+    0.08,
+    0.09
+  ],
+  "inlier_streets": [
+    [
+      "E. 18TH ST.",
+      "S. MICHIGAN AV. (BOULEVARD)"
+    ],
+    [
+      "E. 18TH ST.",
+      "S. INDIANA AV."
+    ],
+    [
+      "S. MICHIGAN AV. (BOULEVARD)",
+      "E. CULLERTON (E. 20TH ST.)"
+    ],
+    [
+      "S. INDIANA AV.",
+      "E. CULLERTON (E. 20TH ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            974,
+            1069
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 18TH ST. x S. MICHIGAN AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62393332320357,
+            41.85787798307047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3520,
+            1069
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 18TH ST. x S. INDIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62233216446609,
+            41.85789991052894
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            974,
+            6308
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. (BOULEVARD) x E. CULLERTON (E. 20TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62387592607008,
+            41.85549111747212
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3520,
+            6308
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. INDIANA AV. x E. CULLERTON (E. 20TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62227801603771,
+            41.855513137067504
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

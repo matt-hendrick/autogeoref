@@ -1,0 +1,142 @@
+{
+  "page": "9",
+  "n_streets": 8,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "AUGUSTA",
+      "N. ASHLAND AV."
+    ],
+    [
+      "W. WALTON (CORNELIA)",
+      "N. ASHLAND AV."
+    ],
+    [
+      "FRY",
+      "N. ASHLAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            937,
+            703
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66739245957523,
+            41.89970797652407
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            937,
+            2742
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALTON (CORNELIA) x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66736718572463,
+            41.89879805141991
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            937,
+            6821
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRY x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66731512625259,
+            41.89692373727697
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66760558195519,
+            41.89966754043541
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5242,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6648261004718,
+            41.89971341028368
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66752809330242,
+            41.89706619925765
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7528,
+    "separation_ratio": 1.315,
+    "best_offset_m": 6.9,
+    "n_junctions": 19
+  }
+}

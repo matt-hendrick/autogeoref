@@ -1,0 +1,205 @@
+{
+  "page": "33",
+  "n_streets": 9,
+  "n_candidates": 13,
+  "n_inliers": 8,
+  "rotation_deg": 1.78,
+  "auto_residuals_m": [
+    2.98,
+    1.15,
+    3.13,
+    2.28,
+    4.79,
+    3.0,
+    0.82,
+    1.89
+  ],
+  "inlier_streets": [
+    [
+      "FRY ST.",
+      "LESSING"
+    ],
+    [
+      "LESSING",
+      "W. CHICAGO AV"
+    ],
+    [
+      "N. HALSTED",
+      "W. CHICAGO AV"
+    ],
+    [
+      "N. HALSTED",
+      "W. SUPERIOR"
+    ],
+    [
+      "N. HALSTED",
+      "W. HURON"
+    ],
+    [
+      "W. CHICAGO AV",
+      "N. SANGAMON"
+    ],
+    [
+      "N. SANGAMON",
+      "W. SUPERIOR"
+    ],
+    [
+      "N. SANGAMON",
+      "W. HURON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            734,
+            1607
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRY ST. x LESSING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65089737760216,
+            41.897369143882756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            734,
+            3876
+          ],
+          "username": "autogeoref",
+          "note": "auto: LESSING x W. CHICAGO AV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65082890397268,
+            41.896332172015676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5523,
+            3876
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x W. CHICAGO AV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64776049317564,
+            41.896389675484684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5523,
+            5736
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x W. SUPERIOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64773126865458,
+            41.89554968106209
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5523,
+            6724
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64772889578988,
+            41.895147560668306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            103,
+            3876
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV x N. SANGAMON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65119237570107,
+            41.896326200865296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            103,
+            5736
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SANGAMON x W. SUPERIOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65116670338683,
+            41.89548773822274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            103,
+            6724
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SANGAMON x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65115445714162,
+            41.895027312765784
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.721,
+    "dy_m": -1.396
+  }
+}

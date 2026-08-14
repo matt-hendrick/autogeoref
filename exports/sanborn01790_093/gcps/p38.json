@@ -1,0 +1,185 @@
+{
+  "page": "38",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "W. CONGRESS"
+    ],
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "W. HARRISON"
+    ],
+    [
+      "S. HONORE",
+      "W. HARRISON"
+    ],
+    [
+      "S. WOOD",
+      "W. CONGRESS"
+    ],
+    [
+      "S. WOOD",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            956,
+            3837
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67406705729854,
+            41.875057740504495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            956,
+            6024
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67401717196883,
+            41.87408098662272
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2921,
+            6024
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HONORE x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67277863499346,
+            41.87410042034678
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4948,
+            3837
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67158568001607,
+            41.87509790039995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4948,
+            6024
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6715608971895,
+            41.87411983789862
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67429972456999,
+            41.87647649533541
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5263,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67144383123367,
+            41.87652119549466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67422455935417,
+            41.8738140048542
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6099,
+    "separation_ratio": 1.344,
+    "best_offset_m": 3.5,
+    "n_junctions": 24
+  }
+}

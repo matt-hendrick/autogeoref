@@ -1,0 +1,142 @@
+{
+  "page": "105",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 13TH ST.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. HASTINGS"
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 14TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            976,
+            3123
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66634162745402,
+            41.86508038325975
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            976,
+            5161
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. HASTINGS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66631928323291,
+            41.8641739613359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            976,
+            7100
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66629589917501,
+            41.86326770666442
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66661230917458,
+            41.866168596209135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5288,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66374274193035,
+            41.86621351763435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66653713369308,
+            41.86350531265973
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.3813,
+    "separation_ratio": 0.936,
+    "best_offset_m": 98.3,
+    "n_junctions": 37
+  }
+}

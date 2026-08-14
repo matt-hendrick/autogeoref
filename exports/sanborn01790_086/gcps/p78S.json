@@ -1,0 +1,207 @@
+{
+  "page": "78S",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 8,
+  "rotation_deg": 1.54,
+  "auto_residuals_m": [
+    0.68,
+    1.53,
+    2.7,
+    7.7,
+    5.75,
+    2.81,
+    7.33,
+    6.12
+  ],
+  "inlier_streets": [
+    [
+      "E. HARRISON",
+      "S. WABASH AV."
+    ],
+    [
+      "E. HARRISON",
+      "S. MICHIGAN AV."
+    ],
+    [
+      "S. WABASH AV.",
+      "E. BALBO AV. (E. 7TH)"
+    ],
+    [
+      "S. WABASH AV.",
+      "E. 8TH ST."
+    ],
+    [
+      "S. WABASH AV.",
+      "E. 8TH (PECK PL.)"
+    ],
+    [
+      "E. BALBO AV. (E. 7TH)",
+      "S. MICHIGAN AV."
+    ],
+    [
+      "S. MICHIGAN AV.",
+      "E. 8TH ST."
+    ],
+    [
+      "S. MICHIGAN AV.",
+      "E. 8TH (PECK PL.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1541,
+            848
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. HARRISON x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62600019556955,
+            41.874392065851744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4284,
+            848
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. HARRISON x S. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62423860331083,
+            41.874421586351325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1541,
+            3693
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. BALBO AV. (E. 7TH)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62596992224195,
+            41.873109086357516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1541,
+            6342
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 8TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6259413617048,
+            41.871824054822355
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1541,
+            6538
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 8TH (PECK PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6259413617048,
+            41.871824054822355
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4284,
+            3693
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. BALBO AV. (E. 7TH) x S. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.624203978823,
+            41.87314510128756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4284,
+            6342
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. x E. 8TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62417435331761,
+            41.87186182625241
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4284,
+            6538
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. x E. 8TH (PECK PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62417435331761,
+            41.87186182625241
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -0.426,
+    "dy_m": -2.468
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "page": "9",
+  "n_streets": 7,
+  "n_candidates": 12,
+  "n_inliers": 8,
+  "rotation_deg": 0.8,
+  "auto_residuals_m": [
+    20.81,
+    13.11,
+    13.01,
+    7.05,
+    1.27,
+    1.77,
+    4.47,
+    10.03
+  ],
+  "inlier_streets": [
+    [
+      "E. 73RD ST.",
+      "S. STONY ISLAND AV."
+    ],
+    [
+      "E. 73RD ST.",
+      "S. EAST END AV."
+    ],
+    [
+      "S. STONY ISLAND AV.",
+      "E. 74TH ST."
+    ],
+    [
+      "S. STONY ISLAND AV.",
+      "E. 74TH PL."
+    ],
+    [
+      "S. STONY ISLAND AV.",
+      "E. 75TH ST."
+    ],
+    [
+      "E. 74TH ST.",
+      "S. EAST END AV."
+    ],
+    [
+      "S. EAST END AV.",
+      "E. 74TH PL."
+    ],
+    [
+      "S. EAST END AV.",
+      "E. 75TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            612,
+            276
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 73RD ST. x S. STONY ISLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58620428078403,
+            41.762406997973464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4352,
+            276
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 73RD ST. x S. EAST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58354879527258,
+            41.76243399634267
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            612,
+            4090
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STONY ISLAND AV. x E. 74TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58575106488465,
+            41.7605897039056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            612,
+            5966
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STONY ISLAND AV. x E. 74TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58572975799673,
+            41.75967816020262
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            612,
+            7851
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STONY ISLAND AV. x E. 75TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5857105312323,
+            41.75876446052233
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4352,
+            4090
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 74TH ST. x S. EAST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58350386381856,
+            41.76061139271637
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4352,
+            5966
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EAST END AV. x E. 74TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58348208723888,
+            41.759702942801454
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4352,
+            7851
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EAST END AV. x E. 75TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5834574442909,
+            41.75878951042404
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.107,
+    "dy_m": -0.458
+  }
+}

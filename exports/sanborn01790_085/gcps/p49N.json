@@ -1,0 +1,138 @@
+{
+  "page": "49N",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "E. ILLINOIS",
+      "RUSH"
+    ],
+    [
+      "E. HUBBARD (E. AUSTIN AV.)",
+      "RUSH"
+    ],
+    [
+      "RUSH",
+      "E. N. WATER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            595,
+            2067
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. ILLINOIS x RUSH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62534735756662,
+            41.890914087793945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            595,
+            3807
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. HUBBARD (E. AUSTIN AV.) x RUSH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6253094605351,
+            41.89011666378863
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            595,
+            4827
+          ],
+          "username": "autogeoref",
+          "note": "auto: RUSH x E. N. WATER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62529072469553,
+            41.88958167267748
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62535323335337,
+            41.8914816536477
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5262,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62252137786355,
+            41.891519980634506
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62528875873838,
+            41.88884174211572
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

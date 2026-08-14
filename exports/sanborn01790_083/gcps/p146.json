@@ -1,0 +1,138 @@
+{
+  "page": "146",
+  "n_streets": 9,
+  "n_candidates": 12,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. BELDEN AV.",
+      "N. GREENVIEW AV."
+    ],
+    [
+      "W. BELDEN AV.",
+      "N. HIGH"
+    ],
+    [
+      "W. BELDEN AV.",
+      "N. SOUTHPORT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1234,
+            683
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELDEN AV. x N. GREENVIEW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6657395540188,
+            41.92338585213313
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3246,
+            683
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELDEN AV. x N. HIGH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66451008291399,
+            41.92340269325007
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5360,
+            683
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELDEN AV. x N. SOUTHPORT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66325866357762,
+            41.923419335762716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            571,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66615426639783,
+            41.923351152541954
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5139,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66336835188964,
+            41.923400126519724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            571,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66606985082085,
+            41.92069272004475
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

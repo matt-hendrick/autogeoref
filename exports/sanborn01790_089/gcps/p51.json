@@ -1,0 +1,113 @@
+{
+  "page": "51",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 0.98,
+  "auto_residuals_m": [
+    0.42,
+    0.42,
+    0.45,
+    0.45
+  ],
+  "inlier_streets": [
+    [
+      "E. CERMAK RD (E. 22ND ST.)",
+      "S. INDIANA AV."
+    ],
+    [
+      "E. CERMAK RD (E. 22ND ST.)",
+      "S. PRAIRIE AV. BLVD."
+    ],
+    [
+      "S. INDIANA AV.",
+      "E. 23RD ST."
+    ],
+    [
+      "S. PRAIRIE AV. BLVD.",
+      "E. 23RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1529,
+            851
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CERMAK RD (E. 22ND ST.) x S. INDIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62226097552218,
+            41.85290183057635
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4227,
+            851
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CERMAK RD (E. 22ND ST.) x S. PRAIRIE AV. BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62065136363663,
+            41.85292387722142
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1529,
+            4703
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. INDIANA AV. x E. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62223011492833,
+            41.851148970501704
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4227,
+            4703
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PRAIRIE AV. BLVD. x E. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6206054430132,
+            41.85116795652043
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.462,
+    "dy_m": 2.11
+  }
+}

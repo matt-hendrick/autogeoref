@@ -1,0 +1,137 @@
+{
+  "page": "34",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "WELLINGTON",
+      "CLYBOURN AVE."
+    ],
+    [
+      "WELLINGTON",
+      "N. OAKLEY AVE."
+    ],
+    [
+      "OAKDALE AVE.",
+      "N. OAKLEY AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4443,
+            1779
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLINGTON x CLYBOURN AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68310859656238,
+            41.93587160132086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            479,
+            1779
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLINGTON x N. OAKLEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68554273550954,
+            41.935842112030315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            479,
+            3746
+          ],
+          "username": "autogeoref",
+          "note": "auto: OAKDALE AVE. x N. OAKLEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68552109805832,
+            41.9349318970263
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68550801853429,
+            41.93626719564494
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68280400321626,
+            41.93630721833389
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68542687692452,
+            41.933233495965666
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

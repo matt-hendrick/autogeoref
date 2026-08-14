@@ -1,0 +1,58 @@
+# Cloudflare Pages cache policy. Read by the platform at deploy time and never
+# served to a visitor, which is why the bundle copies it without it being a page
+# file.
+#
+# The page is several files where it was one, so a cache holding a stale app.js
+# against a fresh index.html breaks it in a way the single-file page could not
+# reach. Everything here follows from that: the shell revalidates, and a longer
+# TTL is granted only where a stale copy cannot break the page AND the content
+# genuinely does not change under a stable name.
+#
+# THE RULE THAT GOVERNS THIS FILE: matching rules are MERGED, not overridden. A
+# request matching several patterns "will inherit all rules' headers", and a
+# header set twice has "the values joined with a comma separator". So a broad
+# `/*` rule plus a narrow one does NOT let the narrow one win — it produces one
+# Cache-Control carrying both, and a cache may take the first value or the most
+# restrictive, either of which discards the longer TTL entirely.
+#
+# Therefore every pattern below is mutually exclusive, no path matches two
+# rules, and there is deliberately NO `/*` rule. Everything unlisted takes the
+# platform default, which is already `public, max-age=0, must-revalidate` —
+# exactly what the shell wants. index.html, app.js, lib.js, app.css, the three
+# walkthrough page files, manifest.json, cities.json and the icons all rely on
+# that, and adding a `/*` rule to restate it would break both rules below.
+#
+# config.js relies on it too, and it is the one worth naming: config.js is where
+# a deploy writes the Mapbox token. Give it a long TTL and a rotated token
+# outlives its replacement, leaving the page authenticating with a revoked key.
+#
+# This file covers the Pages origin ONLY. The PMTiles archives are served from
+# R2, where a `_headers` has no effect; their Cache-Control is set at upload.
+#
+# Cloudflare ignores a malformed rule SILENTLY. A test asserts what this file
+# says; only the cache-hit ratio on a real deploy shows that it took effect.
+
+# Vendored libraries, fonts and basemap sprites: 16 MB that changes about twice
+# a year, and the one place where re-fetching on every visit is the larger cost.
+#
+# THE RULE THAT MAKES A YEAR SAFE: these filenames are NOT content-hashed
+# (`maplibre-gl.js`, not `maplibre-gl.a1b2c3.js`), nothing here cache-busts
+# them, and hashing would need a build step, which the deploy path refuses. An
+# upgrade written over the same name is therefore invisible to every warm cache
+# until the year runs out. New content ⇒ new filename ⇒ update the page that
+# references it. That is the rule this project already applies to published
+# archives, which are never overwritten in place; vendor now follows it too.
+/vendor/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Walkthrough plates. NOT immutable, and the reason is measured rather than
+# cautious: these have been re-rendered under their existing filenames five
+# times, and one of them is the README's hero image. A day is long enough to
+# serve a reader stepping through twenty-one panels and short enough that a
+# re-render reaches everyone by tomorrow.
+#
+# The three walkthrough PAGE files are `walkthrough.html/.css/.js` at the root
+# and do not match this pattern, which needs the literal slash. That is
+# intended: they are shell, and shell revalidates.
+/walkthrough/*
+  Cache-Control: public, max-age=86400, must-revalidate

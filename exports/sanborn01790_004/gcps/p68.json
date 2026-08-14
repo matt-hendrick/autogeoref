@@ -1,0 +1,133 @@
+{
+  "page": "68",
+  "n_streets": 6,
+  "n_candidates": 15,
+  "n_inliers": 5,
+  "rotation_deg": 1.3,
+  "auto_residuals_m": [
+    1.5,
+    0.8,
+    1.4,
+    2.78,
+    2.82
+  ],
+  "inlier_streets": [
+    [
+      "W. 19TH",
+      "S. AVERS AV."
+    ],
+    [
+      "W. 19TH",
+      "S. HAMLIN AV."
+    ],
+    [
+      "W. 19TH",
+      "S. RIDGEWAY AV. (BONNEY)"
+    ],
+    [
+      "S. AVERS AV.",
+      "OGDEN AV."
+    ],
+    [
+      "S. HAMLIN AV.",
+      "OGDEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1546,
+            506
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH x S. AVERS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72109678682664,
+            41.85503179075406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3416,
+            506
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH x S. HAMLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71993953655384,
+            41.8550425963896
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5315,
+            506
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH x S. RIDGEWAY AV. (BONNEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71878608860567,
+            41.85505253254532
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1546,
+            5783
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. AVERS AV. x OGDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72102735711339,
+            41.8525701195987
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3416,
+            5783
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HAMLIN AV. x OGDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71989304373523,
+            41.85262626924481
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

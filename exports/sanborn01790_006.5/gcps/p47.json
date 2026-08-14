@@ -1,0 +1,163 @@
+{
+  "page": "47",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "65TH",
+      "STATE"
+    ],
+    [
+      "WABASH AVE.",
+      "66TH PL."
+    ],
+    [
+      "STATE",
+      "66TH PL."
+    ],
+    [
+      "MICHIGAN AVE.",
+      "66TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            874,
+            166
+          ],
+          "username": "autogeoref",
+          "note": "auto: 65TH x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62522271324667,
+            41.77642821248891
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2760,
+            5157
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABASH AVE. x 66TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62396032695028,
+            41.77407396241948
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            874,
+            5157
+          ],
+          "username": "autogeoref",
+          "note": "auto: STATE x 66TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62516120631638,
+            41.77406908189417
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4806,
+            5157
+          ],
+          "username": "autogeoref",
+          "note": "auto: MICHIGAN AVE. x 66TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62274385613736,
+            41.774095618489255
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62539443866014,
+            41.776068045091264
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62267420275305,
+            41.77609811926747
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6253336191081,
+            41.773008492793615
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7219,
+    "separation_ratio": 1.14,
+    "best_offset_m": 31.4,
+    "n_junctions": 10
+  }
+}

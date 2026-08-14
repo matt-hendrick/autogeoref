@@ -1,0 +1,157 @@
+{
+  "page": "106",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.02,
+  "auto_residuals_m": [
+    0.24,
+    0.16,
+    0.38,
+    0.38,
+    0.15,
+    0.23
+  ],
+  "inlier_streets": [
+    [
+      "S. WALLACE",
+      "W. 30TH ST."
+    ],
+    [
+      "S. WALLACE",
+      "W. 31ST ST."
+    ],
+    [
+      "PARNELL AV.",
+      "W. 30TH ST."
+    ],
+    [
+      "PARNELL AV.",
+      "W. 31ST ST."
+    ],
+    [
+      "NORMAL AV. (BUTLER)",
+      "W. 30TH ST."
+    ],
+    [
+      "NORMAL AV. (BUTLER)",
+      "W. 31ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            509,
+            2757
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WALLACE x W. 30TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64145812644854,
+            41.83993048281379
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            509,
+            6774
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WALLACE x W. 31ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64141551201145,
+            41.83810731504341
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2506,
+            2757
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARNELL AV. x W. 30TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64023966841485,
+            41.839946556417146
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2506,
+            6774
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARNELL AV. x W. 31ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64019632671629,
+            41.8381235265651
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4491,
+            2757
+          ],
+          "username": "autogeoref",
+          "note": "auto: NORMAL AV. (BUTLER) x W. 30TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63901824333593,
+            41.83996301985161
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4491,
+            6774
+          ],
+          "username": "autogeoref",
+          "note": "auto: NORMAL AV. (BUTLER) x W. 31ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.638974139607,
+            41.838139549475144
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

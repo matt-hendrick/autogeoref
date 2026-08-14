@@ -1,0 +1,155 @@
+{
+  "page": "37",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.14,
+  "auto_residuals_m": [
+    0.79,
+    1.28,
+    0.52,
+    0.44,
+    1.18,
+    0.76
+  ],
+  "inlier_streets": [
+    [
+      "GARFIELD AV.",
+      "FREMONT"
+    ],
+    [
+      "GARFIELD AV.",
+      "DAYTON"
+    ],
+    [
+      "GARFIELD AV.",
+      "N. HALSTED"
+    ],
+    [
+      "FREMONT",
+      "CENTER"
+    ],
+    [
+      "DAYTON",
+      "CENTER"
+    ],
+    [
+      "N. HALSTED",
+      "CENTER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            906,
+            247
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x FREMONT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65099890605586,
+            41.919959019680014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2935,
+            247
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x DAYTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64978985221866,
+            41.91997623951521
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4917,
+            247
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64857459457885,
+            41.91999391592971
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            906,
+            4375
+          ],
+          "username": "autogeoref",
+          "note": "auto: FREMONT x CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65093851294557,
+            41.91814302852926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2935,
+            4375
+          ],
+          "username": "autogeoref",
+          "note": "auto: DAYTON x CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64972545001352,
+            41.91816092149784
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4917,
+            4375
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64850888668978,
+            41.91817970832017
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

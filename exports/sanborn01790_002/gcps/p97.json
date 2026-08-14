@@ -1,0 +1,138 @@
+{
+  "page": "97",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "ARMITAGE AV.",
+      "KIMBALL AV."
+    ],
+    [
+      "KIMBALL AV.",
+      "CORTLAND"
+    ],
+    [
+      "KIMBALL AV.",
+      "BLOOMINGDALE AV. (ROAD)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5453,
+            96
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x KIMBALL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71190508385426,
+            41.91734226071864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5453,
+            4169
+          ],
+          "username": "autogeoref",
+          "note": "auto: KIMBALL AV. x CORTLAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71185966321976,
+            41.915525308349615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5453,
+            8117
+          ],
+          "username": "autogeoref",
+          "note": "auto: KIMBALL AV. x BLOOMINGDALE AV. (ROAD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7117983111974,
+            41.91360954129896
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71491510523643,
+            41.91698207015931
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71218039510086,
+            41.91700777506246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71486300712293,
+            41.91391300483033
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

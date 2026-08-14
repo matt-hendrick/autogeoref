@@ -1,0 +1,233 @@
+{
+  "page": "19",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 7,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. JARVIS AV.",
+      "N. BELL AV. (PINGREE)"
+    ],
+    [
+      "W. CHASE AV.",
+      "N. BELL AV. (PINGREE)"
+    ],
+    [
+      "W. CHASE AV.",
+      "N. HAMILTON AV. (MORTON)"
+    ],
+    [
+      "W. CHASE AV.",
+      "N. RIDGE RD."
+    ],
+    [
+      "W. TOUHY AV.",
+      "N. BELL AV. (PINGREE)"
+    ],
+    [
+      "W. TOUHY AV.",
+      "N. BELL AV. (PINGREE)"
+    ],
+    [
+      "W. TOUHY AV.",
+      "N. HAMILTON AV. (MORTON)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            208,
+            617
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JARVIS AV. x N. BELL AV. (PINGREE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68615023981239,
+            42.0155886013192
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            208,
+            3950
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHASE AV. x N. BELL AV. (PINGREE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68616559223697,
+            42.01405690285899
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2196,
+            3950
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHASE AV. x N. HAMILTON AV. (MORTON)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68494192595308,
+            42.014045422366785
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4239,
+            3950
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHASE AV. x N. RIDGE RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68366195611397,
+            42.01403093789716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            208,
+            7953
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TOUHY AV. x N. BELL AV. (PINGREE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68618813717279,
+            42.01223524246932
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            208,
+            7953
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TOUHY AV. x N. BELL AV. (PINGREE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68605913483793,
+            42.01223451512891
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2196,
+            7953
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TOUHY AV. x N. HAMILTON AV. (MORTON)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68496837465807,
+            42.01222281616195
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            561,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6859960583712,
+            42.01545952186523
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5046,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6832409680761,
+            42.015507173603616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            561,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68589878282282,
+            42.01235491187094
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 2.899,
+    "dy_m": -0.603
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6817,
+    "separation_ratio": 1.473,
+    "best_offset_m": 2.0,
+    "n_junctions": 10
+  }
+}

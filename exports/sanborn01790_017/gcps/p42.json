@@ -1,0 +1,178 @@
+{
+  "page": "42",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "ADAMS",
+      "MARKET"
+    ],
+    [
+      "JACKSON B'LV'D",
+      "MARKET"
+    ],
+    [
+      "MARKET",
+      "VANBUREN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4467,
+            824
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADAMS x MARKET"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63695547875416,
+            41.87934926469448
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4467,
+            3687
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'LV'D x MARKET"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63691499757928,
+            41.87807885573677
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4467,
+            6750
+          ],
+          "username": "autogeoref",
+          "note": "auto: MARKET x VANBUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63684301131913,
+            41.87680533362351
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.639172102507,
+            41.87934425539644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5314,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63644852936912,
+            41.87938173112432
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63910967187891,
+            41.87682898048099
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8596,
+    "separation_ratio": 1.059,
+    "best_offset_m": 39.6,
+    "n_junctions": 10
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 11,
+      "votable": 3,
+      "in_block": 3,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 13.6,
+          "addr_diff": 20.8
+        },
+        {
+          "perp_m": 28.3,
+          "addr_diff": 40.4
+        },
+        {
+          "perp_m": 28.4,
+          "addr_diff": 38.4
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

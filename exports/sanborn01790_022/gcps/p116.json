@@ -1,0 +1,157 @@
+{
+  "page": "116",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 1.22,
+  "auto_residuals_m": [
+    1.78,
+    3.93,
+    2.11,
+    1.53,
+    3.12,
+    1.56
+  ],
+  "inlier_streets": [
+    [
+      "EMILY",
+      "N. PAULINA"
+    ],
+    [
+      "EMILY",
+      "N. MARSHFIELD AV."
+    ],
+    [
+      "EMILY",
+      "N. ASHLAND AV."
+    ],
+    [
+      "AUGUSTA",
+      "N. PAULINA"
+    ],
+    [
+      "AUGUSTA",
+      "N. MARSHFIELD AV."
+    ],
+    [
+      "AUGUSTA",
+      "N. ASHLAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            934,
+            2127
+          ],
+          "username": "autogeoref",
+          "note": "auto: EMILY x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66987912994908,
+            41.901003416817325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3041,
+            2127
+          ],
+          "username": "autogeoref",
+          "note": "auto: EMILY x N. MARSHFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66865150525196,
+            41.901021340521226
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4965,
+            2127
+          ],
+          "username": "autogeoref",
+          "note": "auto: EMILY x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66742950274819,
+            41.90104161932043
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            934,
+            5035
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66983935684577,
+            41.89966868266693
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3041,
+            5035
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. MARSHFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66860221994399,
+            41.899687694995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4965,
+            5035
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66739245957523,
+            41.89970797652407
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

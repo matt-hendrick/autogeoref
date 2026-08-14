@@ -1,0 +1,164 @@
+{
+  "page": "109",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "BERTEAU AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "WARNER AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "W. BELLE PLAINE AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "N. CICERO AV.",
+      "W. IRVING PARK RD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5426,
+            270
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74741493970397,
+            41.95707141325239
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5426,
+            2220
+          ],
+          "username": "autogeoref",
+          "note": "auto: WARNER AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74738463525506,
+            41.95615622745016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5426,
+            4222
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELLE PLAINE AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74735413790177,
+            41.95524211157837
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5426,
+            8075
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CICERO AV. x W. IRVING PARK RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7473048727585,
+            41.95341837527579
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            570,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75040839787245,
+            41.95675323710977
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5128,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74757612553,
+            41.9567850673948
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            570,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75034451667452,
+            41.953609726579884
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6585,
+    "separation_ratio": 1.789,
+    "best_offset_m": 5.0,
+    "n_junctions": 13
+  }
+}

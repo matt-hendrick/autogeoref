@@ -1,0 +1,230 @@
+{
+  "page": "34",
+  "n_streets": 7,
+  "n_candidates": 14,
+  "n_inliers": 9,
+  "rotation_deg": 1.12,
+  "auto_residuals_m": [
+    6.85,
+    5.06,
+    10.98,
+    22.84,
+    0.68,
+    0.17,
+    5.1,
+    2.12,
+    7.7
+  ],
+  "inlier_streets": [
+    [
+      "GARFIELD AV.",
+      "SEMINARY AV."
+    ],
+    [
+      "GARFIELD AV.",
+      "OSGOOD"
+    ],
+    [
+      "GARFIELD AV.",
+      "SHEFFIELD AV."
+    ],
+    [
+      "GARFIELD AV.",
+      "OSGOOD"
+    ],
+    [
+      "SEMINARY AV.",
+      "CENTER"
+    ],
+    [
+      "OSGOOD",
+      "CENTER"
+    ],
+    [
+      "SHEFFIELD AV.",
+      "CENTER"
+    ],
+    [
+      "CENTER",
+      "SEMINARY AV."
+    ],
+    [
+      "CENTER",
+      "OSGOOD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            807,
+            441
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x SEMINARY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65582202594851,
+            41.91988541025524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2911,
+            441
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x OSGOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65461207799872,
+            41.9199051037531
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4906,
+            441
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x SHEFFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65339635061056,
+            41.91992248217435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3341,
+            441
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x OSGOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65461207799872,
+            41.9199051037531
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            807,
+            4454
+          ],
+          "username": "autogeoref",
+          "note": "auto: SEMINARY AV. x CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65576393377391,
+            41.91807067375064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2911,
+            4454
+          ],
+          "username": "autogeoref",
+          "note": "auto: OSGOOD x CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65454554402997,
+            41.91808827783024
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4906,
+            4454
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHEFFIELD AV. x CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65333562195134,
+            41.918104753924794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1465,
+            4454
+          ],
+          "username": "autogeoref",
+          "note": "auto: CENTER x SEMINARY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.655367635762,
+            41.91807683241835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3341,
+            4454
+          ],
+          "username": "autogeoref",
+          "note": "auto: CENTER x OSGOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65436250765656,
+            41.918090272807405
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 3.544,
+    "dy_m": -0.032
+  }
+}

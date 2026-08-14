@@ -1,0 +1,160 @@
+{
+  "page": "27",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.54,
+  "auto_residuals_m": [
+    2.7,
+    3.24,
+    1.0,
+    4.85,
+    3.76,
+    3.14
+  ],
+  "inlier_streets": [
+    [
+      "FRY ST.",
+      "N. ELIZABETH"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. ELIZABETH"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "NOBLE"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. ADA"
+    ],
+    [
+      "W. HURON",
+      "NOBLE"
+    ],
+    [
+      "W. HURON",
+      "N. ADA"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4635,
+            568
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRY ST. x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65995790190195,
+            41.89712659200566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4635,
+            2526
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65993192292437,
+            41.89620542896989
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            483,
+            2526
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66237844757464,
+            41.89616721707291
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2281,
+            2526
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. ADA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66137531551043,
+            41.896183733207636
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            483,
+            6554
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66232801167494,
+            41.89434553298481
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2281,
+            6554
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. ADA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66133554471861,
+            41.894361045547065
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": 2.912,
+    "dy_m": 2.61
+  }
+}

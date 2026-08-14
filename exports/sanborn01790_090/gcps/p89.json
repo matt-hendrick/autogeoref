@@ -1,0 +1,109 @@
+{
+  "page": "89",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 0.85,
+  "auto_residuals_m": [
+    0.01,
+    0.08,
+    0.07,
+    0.03
+  ],
+  "inlier_streets": [
+    [
+      "W. 36TH ST.",
+      "S. WOLCOTT AV. (S. LINCOLN)"
+    ],
+    [
+      "W. 36TH ST.",
+      "S. HONORE AV."
+    ],
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "W. 37TH ST."
+    ],
+    [
+      "S. HONORE AV.",
+      "W. 37TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            893,
+            1867
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. WOLCOTT AV. (S. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67279404860275,
+            41.828593531456875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2949,
+            1867
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. HONORE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6715681704026,
+            41.828606764190916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            893,
+            5906
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x W. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6727394674302,
+            41.82676780845033
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2949,
+            5906
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HONORE AV. x W. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67151486893178,
+            41.82678179255072
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

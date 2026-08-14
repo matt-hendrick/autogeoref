@@ -1,0 +1,113 @@
+{
+  "page": "105",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "rotation_deg": 1.09,
+  "auto_residuals_m": [
+    0.33,
+    0.32,
+    0.36,
+    0.35
+  ],
+  "inlier_streets": [
+    [
+      "S. SPAULDING AV.",
+      "W. 45TH ST."
+    ],
+    [
+      "S. SPAULDING AV.",
+      "W. 47TH ST."
+    ],
+    [
+      "S. SAWYER AV.",
+      "W. 45TH ST."
+    ],
+    [
+      "S. SAWYER AV.",
+      "W. 47TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2585,
+            519
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPAULDING AV. x W. 45TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70650916108063,
+            41.81165989904421
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2585,
+            8255
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPAULDING AV. x W. 47TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70636944167124,
+            41.80808791249577
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4537,
+            519
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SAWYER AV. x W. 45TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70531199556335,
+            41.81168082478212
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4537,
+            8255
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SAWYER AV. x W. 47TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70516614434848,
+            41.80810089241135
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.052,
+    "dy_m": -0.545
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "page": "102",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 0.85,
+  "auto_residuals_m": [
+    7.86,
+    5.92,
+    1.95,
+    5.11,
+    0.34,
+    4.76
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. CENTRAL AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. LUNA AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. LINDER AV."
+    ],
+    [
+      "HIRSCH",
+      "N. CENTRAL AV."
+    ],
+    [
+      "HIRSCH",
+      "N. LUNA AV."
+    ],
+    [
+      "HIRSCH",
+      "N. LINDER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1242,
+            298
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76567922393903,
+            41.90937580836978
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3223,
+            298
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. LUNA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76461057573292,
+            41.90938691698597
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5217,
+            298
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. LINDER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76337459319114,
+            41.909400882858286
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1242,
+            8300
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76573990269866,
+            41.9057559885462
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3223,
+            8300
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. LUNA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76449845140245,
+            41.905769956321116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5217,
+            8300
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. LINDER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76325857208477,
+            41.90578377742241
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 5.003,
+    "dy_m": -0.437
+  }
+}

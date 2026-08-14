@@ -1,0 +1,160 @@
+{
+  "page": "9N",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. CHICAGO AV.",
+      "N. CLARK"
+    ],
+    [
+      "N. CLARK",
+      "W. SUPERIOR"
+    ],
+    [
+      "N. CLARK",
+      "W. HURON"
+    ],
+    [
+      "N. CLARK",
+      "W. ERIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4055,
+            749
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63124523382669,
+            41.896635642289006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4055,
+            2999
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. SUPERIOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63122297962664,
+            41.89563466215166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4055,
+            4793
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63120289535564,
+            41.89483298592323
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4055,
+            6558
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. ERIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63118688953571,
+            41.894031436330216
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63334972612796,
+            41.89662620618783
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5252,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63052368255295,
+            41.89666445143421
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63328524270739,
+            41.89398614675414
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

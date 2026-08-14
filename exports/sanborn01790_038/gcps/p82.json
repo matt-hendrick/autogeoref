@@ -1,0 +1,205 @@
+{
+  "page": "82",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 8,
+  "rotation_deg": 1.37,
+  "auto_residuals_m": [
+    6.77,
+    6.32,
+    2.85,
+    2.87,
+    1.73,
+    5.41,
+    4.18,
+    4.92
+  ],
+  "inlier_streets": [
+    [
+      "IRVING PARK BLVD.",
+      "MONTICELLO AV."
+    ],
+    [
+      "IRVING PARK BLVD.",
+      "N. CENTRAL PARK"
+    ],
+    [
+      "IRVING PARK BLVD.",
+      "DRAKE AV."
+    ],
+    [
+      "MONTICELLO AV.",
+      "BYRON"
+    ],
+    [
+      "MONTICELLO AV.",
+      "GRACE"
+    ],
+    [
+      "BYRON",
+      "N. CENTRAL PARK"
+    ],
+    [
+      "N. CENTRAL PARK",
+      "GRACE"
+    ],
+    [
+      "DRAKE AV.",
+      "GRACE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            872,
+            372
+          ],
+          "username": "autogeoref",
+          "note": "auto: IRVING PARK BLVD. x MONTICELLO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71910897902838,
+            41.95372118979583
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2713,
+            372
+          ],
+          "username": "autogeoref",
+          "note": "auto: IRVING PARK BLVD. x N. CENTRAL PARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71783639893862,
+            41.95377774449626
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4771,
+            372
+          ],
+          "username": "autogeoref",
+          "note": "auto: IRVING PARK BLVD. x DRAKE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7166113456823,
+            41.95379532202384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            872,
+            4356
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTICELLO AV. x BYRON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71900894563039,
+            41.95194367731367
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            872,
+            8304
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTICELLO AV. x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71895566422963,
+            41.950123548384376
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2713,
+            4356
+          ],
+          "username": "autogeoref",
+          "note": "auto: BYRON x N. CENTRAL PARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7177835636905,
+            41.951949503939225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2713,
+            8304
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL PARK x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7177356343465,
+            41.95013956885793
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4771,
+            8304
+          ],
+          "username": "autogeoref",
+          "note": "auto: DRAKE AV. x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71651035855479,
+            41.950155729573126
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.571,
+    "dy_m": -1.304
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "page": "21",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 9,
+  "rotation_deg": 1.13,
+  "auto_residuals_m": [
+    10.9,
+    6.41,
+    17.29,
+    3.06,
+    3.07,
+    7.51,
+    7.52,
+    10.61,
+    10.6
+  ],
+  "inlier_streets": [
+    [
+      "E. 105TH ST.",
+      "S. STATE"
+    ],
+    [
+      "E. 105TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 105TH ST.",
+      "S. MICHIGAN AV."
+    ],
+    [
+      "S. STATE",
+      "W. 107TH ST."
+    ],
+    [
+      "S. STATE",
+      "E. 107TH ST."
+    ],
+    [
+      "S. WABASH AV.",
+      "W. 107TH ST."
+    ],
+    [
+      "S. WABASH AV.",
+      "E. 107TH ST."
+    ],
+    [
+      "S. MICHIGAN AV.",
+      "W. 107TH ST."
+    ],
+    [
+      "S. MICHIGAN AV.",
+      "E. 107TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            651,
+            338
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 105TH ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62335465489271,
+            41.70346088097083
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2641,
+            338
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 105TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62216838921157,
+            41.70347867244458
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5005,
+            338
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 105TH ST. x S. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62059424906123,
+            41.70350260557625
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            651,
+            8218
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x W. 107TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62325238052092,
+            41.69986898188916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            651,
+            8220
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x E. 107TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62325238052092,
+            41.69986898188916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2641,
+            8218
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x W. 107TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62206647666896,
+            41.69988790862119
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2641,
+            8220
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 107TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62206647666896,
+            41.69988790862119
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5005,
+            8218
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. x W. 107TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62086781145771,
+            41.699903750215995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5005,
+            8220
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. x E. 107TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62086781145771,
+            41.699903750215995
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 6.806,
+    "dy_m": -0.249
+  }
+}

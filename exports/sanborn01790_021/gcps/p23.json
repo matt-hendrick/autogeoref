@@ -1,0 +1,109 @@
+{
+  "page": "23",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.27,
+  "auto_residuals_m": [
+    1.83,
+    1.85,
+    1.85,
+    1.84
+  ],
+  "inlier_streets": [
+    [
+      "E. 31ST ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 31ST ST.",
+      "S. MICHIGAN AV. (BOULEVARD)"
+    ],
+    [
+      "S. WABASH AV.",
+      "E. 32ND ST."
+    ],
+    [
+      "S. MICHIGAN AV. (BOULEVARD)",
+      "E. 32ND ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1311,
+            538
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 31ST ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62514319497602,
+            41.83832136806617
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4176,
+            538
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 31ST ST. x S. MICHIGAN AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62344265957547,
+            41.83834493864981
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1311,
+            4709
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62515599629695,
+            41.836422074653036
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4176,
+            4709
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. (BOULEVARD) x E. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6233907131732,
+            41.8364558752256
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

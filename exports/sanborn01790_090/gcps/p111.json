@@ -1,0 +1,132 @@
+{
+  "page": "111",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.0,
+  "auto_residuals_m": [
+    0.32,
+    0.12,
+    0.31,
+    0.28,
+    0.39
+  ],
+  "inlier_streets": [
+    [
+      "W. 36TH ST.",
+      "S. PARNELL AV."
+    ],
+    [
+      "W. 36TH ST.",
+      "S. NORMAL AV. (BUTLER)"
+    ],
+    [
+      "S. PARNELL AV.",
+      "W. 37TH ST."
+    ],
+    [
+      "S. NORMAL AV. (BUTLER)",
+      "W. 37TH ST."
+    ],
+    [
+      "S. NORMAL AV. (BUTLER)",
+      "W. 37TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            480,
+            368
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. PARNELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63997046048243,
+            41.82900784617834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2554,
+            368
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. NORMAL AV. (BUTLER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63875496537976,
+            41.829026656648914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            480,
+            4432
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PARNELL AV. x W. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6399253692552,
+            41.82718266501639
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2554,
+            4432
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. NORMAL AV. (BUTLER) x W. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63871099019897,
+            41.827198295996354
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2554,
+            6439
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. NORMAL AV. (BUTLER) x W. 37TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63868843140908,
+            41.82629038292393
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

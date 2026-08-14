@@ -1,0 +1,141 @@
+{
+  "page": "61",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "VANBUREN",
+      "FRANKLIN"
+    ],
+    [
+      "MARKET",
+      "CONGRESS"
+    ],
+    [
+      "CONGRESS",
+      "FRANKLIN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4368,
+            974
+          ],
+          "username": "autogeoref",
+          "note": "auto: VANBUREN x FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63517724203706,
+            41.87682608869254
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2644,
+            2779
+          ],
+          "username": "autogeoref",
+          "note": "auto: MARKET x CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63610513448171,
+            41.87605942289242
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4368,
+            2779
+          ],
+          "username": "autogeoref",
+          "note": "auto: CONGRESS x FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63515429632963,
+            41.876063225539816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63734121007867,
+            41.8769112812297
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5314,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6346176369408,
+            41.87694875838435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6372787794506,
+            41.87439591055578
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7945,
+    "separation_ratio": 1.351,
+    "best_offset_m": 18.6,
+    "n_junctions": 12
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "page": "19",
+  "n_streets": 9,
+  "n_candidates": 14,
+  "n_inliers": 6,
+  "rotation_deg": 0.34,
+  "auto_residuals_m": [
+    1.52,
+    8.02,
+    9.75,
+    15.69,
+    10.89,
+    3.54
+  ],
+  "inlier_streets": [
+    [
+      "W. BERWYN AV.",
+      "N. LARAMIE AV."
+    ],
+    [
+      "W. BERWYN AV.",
+      "N. LEAMINGTON AV."
+    ],
+    [
+      "N. LATROBE AV.",
+      "N. ROGERS"
+    ],
+    [
+      "N. LATROBE AV.",
+      "W. FOSTER AV."
+    ],
+    [
+      "N. LARAMIE AV.",
+      "W. FOSTER AV."
+    ],
+    [
+      "N. LEAMINGTON AV.",
+      "W. FOSTER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2958,
+            4183
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BERWYN AV. x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75784860994196,
+            41.977050113310604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4996,
+            4183
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BERWYN AV. x N. LEAMINGTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7566007426827,
+            41.977062674462864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1407,
+            4770
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LATROBE AV. x N. ROGERS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75877452761785,
+            41.97680075099689
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1407,
+            8157
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LATROBE AV. x W. FOSTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75903853045922,
+            41.975206083560366
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2958,
+            8157
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LARAMIE AV. x W. FOSTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75779629719462,
+            41.97521968730218
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4996,
+            8157
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAMINGTON AV. x W. FOSTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75654496002122,
+            41.97523512316531
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.464,
+    "dy_m": 0.083
+  }
+}

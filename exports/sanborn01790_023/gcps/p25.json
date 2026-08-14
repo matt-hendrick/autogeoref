@@ -1,0 +1,179 @@
+{
+  "page": "25",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 1.5,
+  "auto_residuals_m": [
+    3.11,
+    1.36,
+    0.33,
+    3.71,
+    2.64,
+    1.89,
+    2.88
+  ],
+  "inlier_streets": [
+    [
+      "FRY",
+      "N. ASHLAND AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. ASHLAND AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "ARMOUR"
+    ],
+    [
+      "W. SUPERIOR",
+      "N. ASHLAND AV."
+    ],
+    [
+      "W. SUPERIOR",
+      "ARMOUR"
+    ],
+    [
+      "W. HURON",
+      "N. ASHLAND AV."
+    ],
+    [
+      "W. HURON",
+      "ARMOUR"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1139,
+            606
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRY x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66731512625259,
+            41.89692373727697
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1139,
+            2514
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66729151670067,
+            41.89607363862347
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3921,
+            2514
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x ARMOUR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66565835544684,
+            41.8960984783889
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1139,
+            4537
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6672660409837,
+            41.89515634567606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3921,
+            4537
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x ARMOUR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66563254607192,
+            41.8951810810909
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1139,
+            6406
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66723682668074,
+            41.89425712832374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3921,
+            6406
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x ARMOUR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66560683746853,
+            41.8942822026248
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

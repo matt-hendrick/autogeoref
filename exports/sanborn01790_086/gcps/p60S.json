@@ -1,0 +1,109 @@
+{
+  "page": "60S",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.44,
+  "auto_residuals_m": [
+    0.24,
+    0.21,
+    0.25,
+    0.27
+  ],
+  "inlier_streets": [
+    [
+      "E. JACKSON BLVD. (ST.)",
+      "S. WABASH AV."
+    ],
+    [
+      "E. JACKSON BLVD. (ST.)",
+      "S. MICHIGAN AV."
+    ],
+    [
+      "S. WABASH AV.",
+      "E. VAN BUREN"
+    ],
+    [
+      "S. MICHIGAN AV.",
+      "E. VAN BUREN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1514,
+            2248
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. JACKSON BLVD. (ST.) x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62608247266967,
+            41.87824593364609
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4451,
+            2248
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. JACKSON BLVD. (ST.) x S. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62430787810028,
+            41.8782796897762
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1514,
+            5057
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62605731225683,
+            41.8769719747855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4451,
+            5057
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. x E. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62429116622434,
+            41.87700454921315
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

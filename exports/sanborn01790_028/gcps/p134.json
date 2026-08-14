@@ -1,0 +1,207 @@
+{
+  "page": "134",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.75,
+  "auto_residuals_m": [
+    2.61,
+    1.54,
+    4.26,
+    2.99,
+    0.28,
+    1.49,
+    0.81,
+    0.76
+  ],
+  "inlier_streets": [
+    [
+      "W. JACKSON BLVD.",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. JACKSON BLVD.",
+      "S. CAMPBELL AV."
+    ],
+    [
+      "W. VAN BUREN",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. VAN BUREN",
+      "S. CAMPBELL AV."
+    ],
+    [
+      "S. WESTERN AV.",
+      "W. CONGRESS"
+    ],
+    [
+      "S. WESTERN AV.",
+      "W. HARRISON"
+    ],
+    [
+      "S. CAMPBELL AV.",
+      "W. CONGRESS"
+    ],
+    [
+      "S. CAMPBELL AV.",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4841,
+            188
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68636642731863,
+            41.87757533659874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            924,
+            188
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD. x S. CAMPBELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68878844736994,
+            41.87754702185185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4841,
+            3222
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68629284560946,
+            41.876108788077076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            924,
+            3222
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. CAMPBELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68875508323015,
+            41.876089758480525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4841,
+            5591
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WESTERN AV. x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68628145555691,
+            41.87502006827967
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4841,
+            7949
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WESTERN AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68625814016502,
+            41.87391628404037
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            924,
+            5591
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CAMPBELL AV. x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6887133490905,
+            41.874999069410826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            924,
+            7949
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CAMPBELL AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68868598518091,
+            41.87389014073674
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -2.599,
+    "dy_m": 3.763
+  }
+}

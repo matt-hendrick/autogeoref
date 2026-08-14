@@ -1,0 +1,167 @@
+{
+  "page": "80",
+  "n_streets": 8,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "MONTGOMERY AV.",
+      "S. ROCKWELL"
+    ],
+    [
+      "S. ROCKWELL",
+      "W. 42ND ST."
+    ],
+    [
+      "W. 42ND ST.",
+      "S. WASHTENAW AV."
+    ],
+    [
+      "W. 42ND ST.",
+      "S. TALMAN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5211,
+            1905
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTGOMERY AV. x S. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68964969030668,
+            41.818570012576636
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5211,
+            4329
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROCKWELL x W. 42ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68961451208986,
+            41.81743479628103
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1401,
+            4329
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69206774896121,
+            41.81740519489787
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3185,
+            4329
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. TALMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6908415111847,
+            41.81742383390684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69255047180818,
+            41.819007733785334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5298,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68962074036712,
+            41.819055855569324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69245719658552,
+            41.81585365508045
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -3.837,
+    "dy_m": -0.176
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6396,
+    "separation_ratio": 1.218,
+    "best_offset_m": 12.6,
+    "n_junctions": 14
+  }
+}

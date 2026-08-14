@@ -1,0 +1,160 @@
+{
+  "page": "98",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 0.98,
+  "auto_residuals_m": [
+    2.14,
+    1.85,
+    3.98,
+    4.2,
+    1.98,
+    2.46
+  ],
+  "inlier_streets": [
+    [
+      "WILSON AV.",
+      "N. ROBEY"
+    ],
+    [
+      "WILSON AV.",
+      "N. WINCHESTER AV."
+    ],
+    [
+      "SUNNYSIDE AV.",
+      "N. ROBEY"
+    ],
+    [
+      "SUNNYSIDE AV.",
+      "N. WINCHESTER AV."
+    ],
+    [
+      "MONTROSE AV.",
+      "N. ROBEY"
+    ],
+    [
+      "MONTROSE AV.",
+      "N. WINCHESTER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            378,
+            298
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILSON AV. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67912577137815,
+            41.96508037473
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2849,
+            298
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILSON AV. x N. WINCHESTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67763725690132,
+            41.9651015971431
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            378,
+            4298
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUNNYSIDE AV. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67907133253368,
+            41.963258505225866
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2849,
+            4298
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUNNYSIDE AV. x N. WINCHESTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67758284553034,
+            41.96327928314225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            378,
+            8116
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67900141484967,
+            41.96144262834185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2849,
+            8116
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. WINCHESTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67753013426447,
+            41.9614574244673
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8",
+  "seam_adjusted": {
+    "dx_m": -4.705,
+    "dy_m": -2.338
+  }
+}

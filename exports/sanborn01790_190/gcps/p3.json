@@ -1,0 +1,152 @@
+{
+  "page": "3",
+  "n_streets": 3,
+  "n_candidates": 0,
+  "n_inliers": 0,
+  "status": "OK (reviewer-verified)",
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            634,
+            760
+          ],
+          "username": "reviewer",
+          "note": "synthetic: reviewer placement corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.59982049538921,
+            41.853558609572175
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5708,
+            760
+          ],
+          "username": "reviewer",
+          "note": "synthetic: reviewer placement corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.59634779694377,
+            41.84469882213504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5708,
+            6844
+          ],
+          "username": "reviewer",
+          "note": "synthetic: reviewer placement corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61061030359802,
+            41.84159654152968
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            634,
+            6844
+          ],
+          "username": "reviewer",
+          "note": "synthetic: reviewer placement corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6140830020434,
+            41.850456758578
+          ]
+        }
+      }
+    ]
+  },
+  "reviewer_review": {
+    "verdict": "adjusted",
+    "ops": [
+      {
+        "type": "scale",
+        "factor": 1.345735170648353,
+        "center_3857": [
+          -9752422.289671715,
+          5137789.3995119855
+        ]
+      },
+      {
+        "type": "rotate",
+        "deg": -0.014274734584118775,
+        "center_3857": [
+          -9752422.289671715,
+          5137789.3995119855
+        ]
+      },
+      {
+        "type": "translate",
+        "dx_m": 574.7982348017395,
+        "dy_m": -305.6475212145597
+      },
+      {
+        "type": "scale",
+        "factor": 1.0142887448188809,
+        "center_3857": [
+          -9752743.818241216,
+          5138901.07864444
+        ]
+      },
+      {
+        "type": "rotate",
+        "deg": 0.8049816847346817,
+        "center_3857": [
+          -9752743.818241216,
+          5138901.07864444
+        ]
+      },
+      {
+        "type": "translate",
+        "dx_m": 0.7978989705443382,
+        "dy_m": 2.126247016713023
+      }
+    ],
+    "timestamp": "2026-07-19T02:14:58+00:00",
+    "note": "Draft placement (Claude): chained edge-to-edge off p2 (no extant landmark on this sheet); least certain of the five.",
+    "previous_status": "OK (reviewer-verified)"
+  },
+  "reviewer_mask_px": [
+    [
+      16.0,
+      16.0
+    ],
+    [
+      6321.0,
+      16.0
+    ],
+    [
+      6321.0,
+      7584.0
+    ],
+    [
+      16.0,
+      7584.0
+    ]
+  ]
+}

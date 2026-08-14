@@ -1,0 +1,134 @@
+{
+  "page": "81",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 0.78,
+  "auto_residuals_m": [
+    6.45,
+    3.07,
+    6.39,
+    3.95,
+    1.97
+  ],
+  "inlier_streets": [
+    [
+      "W. 105TH ST.",
+      "S. CHURCH"
+    ],
+    [
+      "W. 105TH ST.",
+      "S. VINCENNES AV."
+    ],
+    [
+      "W. 105TH PL.",
+      "S. CHURCH"
+    ],
+    [
+      "W. 105TH PL.",
+      "S. VINCENNES AV."
+    ],
+    [
+      "S. VINCENNES AV.",
+      "W. 107TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            651,
+            166
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 105TH ST. x S. CHURCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65962959293988,
+            41.70310154249425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4088,
+            166
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 105TH ST. x S. VINCENNES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65738453307294,
+            41.703126844543945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            651,
+            2073
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 105TH PL. x S. CHURCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65983545184739,
+            41.70220273968769
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4088,
+            2073
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 105TH PL. x S. VINCENNES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65771805118074,
+            41.702212291463454
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4088,
+            8213
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. VINCENNES AV. x W. 107TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6587416722698,
+            41.69944358959819
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

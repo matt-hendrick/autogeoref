@@ -1,0 +1,110 @@
+{
+  "page": "114",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 0.92,
+  "auto_residuals_m": [
+    5.35,
+    5.39,
+    5.4,
+    5.36
+  ],
+  "inlier_streets": [
+    [
+      "W. 30TH ST.",
+      "S. DEARBORN"
+    ],
+    [
+      "W. 30TH ST.",
+      "S. STATE"
+    ],
+    [
+      "W. 31ST ST.",
+      "S. DEARBORN"
+    ],
+    [
+      "W. 31ST ST.",
+      "S. STATE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3121,
+            4009
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 30TH ST. x S. DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62796172235078,
+            41.8395345253868
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5254,
+            4009
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 30TH ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62660585321817,
+            41.83954873852874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3121,
+            6755
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x S. DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62793535709814,
+            41.838284688453705
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5254,
+            6755
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62677259574774,
+            41.838300572134436
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

@@ -1,0 +1,182 @@
+{
+  "page": "60W",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 7,
+  "rotation_deg": 1.21,
+  "auto_residuals_m": [
+    3.83,
+    4.67,
+    5.39,
+    7.37,
+    15.2,
+    1.22,
+    13.9
+  ],
+  "inlier_streets": [
+    [
+      "W. GRAND AV.",
+      "N. DESPLAINES"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. JEFFERSON"
+    ],
+    [
+      "W. HUBBARD (W. AUSTIN AV.)",
+      "N. DESPLAINES"
+    ],
+    [
+      "W. HUBBARD (W. AUSTIN AV.)",
+      "N. JEFFERSON"
+    ],
+    [
+      "N. DESPLAINES",
+      "W. KINZIE"
+    ],
+    [
+      "N. JEFFERSON",
+      "W. KINZIE"
+    ],
+    [
+      "W. KINZIE",
+      "MILWAUKEE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1714,
+            1271
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64442465712224,
+            41.89122262310603
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4073,
+            1271
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64317938329228,
+            41.8912476411106
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1714,
+            3678
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HUBBARD (W. AUSTIN AV.) x N. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64440162082126,
+            41.890122890246204
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4073,
+            3678
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HUBBARD (W. AUSTIN AV.) x N. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64296946189839,
+            41.89014679776188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1714,
+            6020
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DESPLAINES x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64439013322115,
+            41.88902841664658
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4073,
+            6020
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. JEFFERSON x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64293069327928,
+            41.88904387050913
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1247,
+            6020
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x MILWAUKEE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64439013322115,
+            41.88902841664658
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -6.257,
+    "dy_m": -0.771
+  }
+}

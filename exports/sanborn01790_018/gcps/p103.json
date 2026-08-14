@@ -1,0 +1,110 @@
+{
+  "page": "103",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.96,
+  "auto_residuals_m": [
+    0.07,
+    0.13,
+    0.11,
+    0.09
+  ],
+  "inlier_streets": [
+    [
+      "W. POLK",
+      "S. CLINTON"
+    ],
+    [
+      "W. POLK",
+      "S. CANAL"
+    ],
+    [
+      "W. TAYLOR",
+      "S. CLINTON"
+    ],
+    [
+      "W. TAYLOR",
+      "S. CANAL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1702,
+            1074
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POLK x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64087654462146,
+            41.87200820564217
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4092,
+            1074
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POLK x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6393523500342,
+            41.87202856053897
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1702,
+            6002
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TAYLOR x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64080090725452,
+            41.86973815574546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4092,
+            6002
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TAYLOR x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63927672378952,
+            41.869755916754166
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

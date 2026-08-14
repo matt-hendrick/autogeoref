@@ -1,0 +1,159 @@
+{
+  "page": "91",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.02,
+  "auto_residuals_m": [
+    2.58,
+    2.58,
+    5.33,
+    2.75,
+    5.32,
+    2.75
+  ],
+  "inlier_streets": [
+    [
+      "ADDISON",
+      "N. HOYNE AVE."
+    ],
+    [
+      "ADDISON",
+      "TYSON AVE."
+    ],
+    [
+      "N. HOYNE AVE.",
+      "CORNELIA"
+    ],
+    [
+      "N. HOYNE AVE.",
+      "ROSCOE BOULEVARD"
+    ],
+    [
+      "CORNELIA",
+      "TYSON AVE."
+    ],
+    [
+      "TYSON AVE.",
+      "ROSCOE BOULEVARD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2227,
+            225
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADDISON x N. HOYNE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68097834071696,
+            41.946814873204545
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4183,
+            225
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADDISON x TYSON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67976323874433,
+            41.94683100586404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2227,
+            4287
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AVE. x CORNELIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68092628367575,
+            41.944992732402476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2227,
+            8117
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AVE. x ROSCOE BOULEVARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68087417248883,
+            41.943170900522496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4183,
+            4287
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORNELIA x TYSON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67971202454301,
+            41.945008799933326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4183,
+            8117
+          ],
+          "username": "autogeoref",
+          "note": "auto: TYSON AVE. x ROSCOE BOULEVARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67965530627215,
+            41.943187216295804
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.327,
+    "dy_m": -2.486
+  }
+}

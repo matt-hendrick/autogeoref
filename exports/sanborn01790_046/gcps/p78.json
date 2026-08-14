@@ -1,0 +1,159 @@
+{
+  "page": "78",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 6,
+  "rotation_deg": 1.31,
+  "auto_residuals_m": [
+    2.45,
+    1.5,
+    2.34,
+    2.0,
+    3.87,
+    1.56
+  ],
+  "inlier_streets": [
+    [
+      "E. 83RD ST.",
+      "JEFFERY AV."
+    ],
+    [
+      "E. 83RD ST.",
+      "CHAPPEL AV."
+    ],
+    [
+      "E. 84TH ST.",
+      "EUCLID AV."
+    ],
+    [
+      "EUCLID AV.",
+      "E. 85TH ST."
+    ],
+    [
+      "JEFFERY AV.",
+      "E. 85TH ST."
+    ],
+    [
+      "CHAPPEL AV.",
+      "E. 85TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3156,
+            155
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 83RD ST. x JEFFERY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57582973524305,
+            41.74433597394967
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5259,
+            155
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 83RD ST. x CHAPPEL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57461111785925,
+            41.744351030724694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1192,
+            3962
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 84TH ST. x EUCLID AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57700206206664,
+            41.742499300131186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1192,
+            7854
+          ],
+          "username": "autogeoref",
+          "note": "auto: EUCLID AV. x E. 85TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57697197470185,
+            41.74068025385423
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3156,
+            7854
+          ],
+          "username": "autogeoref",
+          "note": "auto: JEFFERY AV. x E. 85TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57575283780406,
+            41.74069556533859
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5259,
+            7854
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHAPPEL AV. x E. 85TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57454782277537,
+            41.74070996370383
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.63,
+    "dy_m": 0.163
+  }
+}

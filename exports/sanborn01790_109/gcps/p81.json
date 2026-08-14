@@ -1,0 +1,167 @@
+{
+  "page": "81",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "MONTGOMERY ST.",
+      "S. ROCKWELL ST."
+    ],
+    [
+      "W. 42ND ST.",
+      "S. ROCKWELL ST."
+    ],
+    [
+      "W. 42ND ST.",
+      "S. MAPLEWOOD AV."
+    ],
+    [
+      "W. 42ND ST.",
+      "S. CAMPBELL AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            901,
+            1590
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTGOMERY ST. x S. ROCKWELL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68964136292401,
+            41.818571030183776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            901,
+            4054
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. ROCKWELL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68960618470719,
+            41.81743581390621
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2908,
+            4054
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. MAPLEWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68839603759814,
+            41.817450326010615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4871,
+            4054
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. CAMPBELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68718632432757,
+            41.8174707864512
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68987070252837,
+            41.81891323246594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5243,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68697132842009,
+            41.818960855691444
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68977742730574,
+            41.81575914910682
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -2.91,
+    "dy_m": -0.024
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.743,
+    "separation_ratio": 1.17,
+    "best_offset_m": 2.1,
+    "n_junctions": 17
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "page": "69",
+  "n_streets": 9,
+  "n_candidates": 5,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. FULLERTON AV.",
+      "N. SAWYER AV."
+    ],
+    [
+      "W. BELDEN AV. (MENTMORE AV.)",
+      "N. SAWYER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            83,
+            268
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. SAWYER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70923608819004,
+            41.924696792095794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            83,
+            4225
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELDEN AV. (MENTMORE AV.) x N. SAWYER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70909934111714,
+            41.922868147615524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70888849308336,
+            41.92443681301352
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70615378294778,
+            41.924462514913856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70883639496986,
+            41.921368106198834
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6958,
+    "separation_ratio": 1.178,
+    "best_offset_m": 22.2,
+    "n_junctions": 6
+  }
+}

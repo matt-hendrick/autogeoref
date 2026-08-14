@@ -1,0 +1,137 @@
+{
+  "page": "63",
+  "n_streets": 9,
+  "n_candidates": 11,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 81ST ST.",
+      "CONSTANCE AV."
+    ],
+    [
+      "E. 81ST ST.",
+      "BENNETT AV."
+    ],
+    [
+      "RIDGELAND AV.",
+      "E. 83RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2923,
+            213
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 81ST ST. x CONSTANCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57997006601829,
+            41.747872298583424
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5696,
+            213
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 81ST ST. x BENNETT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57834655194652,
+            41.74793936682393
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            119,
+            8323
+          ],
+          "username": "autogeoref",
+          "note": "auto: RIDGELAND AV. x E. 83RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58169562354723,
+            41.74425597050014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58143521911813,
+            41.747604002705685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5248,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57861216592795,
+            41.747639980886646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5813648906599,
+            41.7445321661982
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 1 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

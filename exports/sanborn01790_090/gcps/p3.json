@@ -1,0 +1,154 @@
+{
+  "page": "3",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. 32ND ST.",
+      "S. DAMEN AV. (S. ROBEY)"
+    ],
+    [
+      "W. 32ND ST.",
+      "S. SEELEY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4754,
+            4130
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 32ND ST. x S. DAMEN AV. (S. ROBEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6754208517642,
+            41.83586431211148
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2810,
+            4130
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 32ND ST. x S. SEELEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67659333499597,
+            41.83582503614249
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67797562986573,
+            41.837354712321286
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5316,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67511193791229,
+            41.83739038098251
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67791627878205,
+            41.83470963923147
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6531,
+    "separation_ratio": 1.091,
+    "best_offset_m": 40.9,
+    "n_junctions": 14
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 3,
+      "votable": 3,
+      "in_block": 3,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 27.4,
+          "addr_diff": 6.5
+        },
+        {
+          "perp_m": 27.2,
+          "addr_diff": 10.3
+        },
+        {
+          "perp_m": 30.5,
+          "addr_diff": 50.4
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

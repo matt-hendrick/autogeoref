@@ -1,0 +1,182 @@
+{
+  "page": "13",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "rotation_deg": 1.13,
+  "auto_residuals_m": [
+    8.0,
+    5.99,
+    5.38,
+    1.88,
+    13.12,
+    1.95,
+    6.12
+  ],
+  "inlier_streets": [
+    [
+      "FOSTER AV.",
+      "LINCOLN"
+    ],
+    [
+      "FOSTER AV.",
+      "N. WESTERN AV."
+    ],
+    [
+      "WINONA",
+      "LINCOLN"
+    ],
+    [
+      "WINONA",
+      "N. WESTERN AV."
+    ],
+    [
+      "LINCOLN",
+      "CARMEN AV."
+    ],
+    [
+      "CARMEN AV.",
+      "N. WESTERN AV."
+    ],
+    [
+      "N. WESTERN AV.",
+      "WINNEMAC AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            795,
+            208
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69238044002375,
+            41.975863902917176
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5434,
+            208
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68918409834593,
+            41.975888121760356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            795,
+            2266
+          ],
+          "username": "autogeoref",
+          "note": "auto: WINONA x LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6922871030963,
+            41.97485729586919
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5434,
+            2266
+          ],
+          "username": "autogeoref",
+          "note": "auto: WINONA x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68914976392769,
+            41.97491371226421
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            795,
+            3978
+          ],
+          "username": "autogeoref",
+          "note": "auto: LINCOLN x CARMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69206374294068,
+            41.97404010590859
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5434,
+            3978
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68912088212774,
+            41.97409669535896
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5434,
+            6214
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x WINNEMAC AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68908636754561,
+            41.97301246208917
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.718,
+    "dy_m": -0.512
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "page": "1",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 0.8,
+  "auto_residuals_m": [
+    0.35,
+    0.48,
+    0.68,
+    0.75,
+    0.49,
+    0.43
+  ],
+  "inlier_streets": [
+    [
+      "E. 71ST ST.",
+      "S. CORNELL AV."
+    ],
+    [
+      "E. 71ST ST.",
+      "S. EAST END AV."
+    ],
+    [
+      "E. 72ND ST.",
+      "S. CORNELL AV."
+    ],
+    [
+      "E. 72ND ST.",
+      "S. EAST END AV."
+    ],
+    [
+      "E. 73RD ST.",
+      "S. CORNELL AV."
+    ],
+    [
+      "E. 73RD ST.",
+      "S. EAST END AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2989,
+            417
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 71ST ST. x S. CORNELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58479541812925,
+            41.765985081982116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4820,
+            417
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 71ST ST. x S. EAST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58369788584561,
+            41.765996036951584
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2989,
+            4329
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 72ND ST. x S. CORNELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58474986874461,
+            41.76423836839415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4820,
+            4329
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 72ND ST. x S. EAST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58364901366622,
+            41.764250436339324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2989,
+            8374
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 73RD ST. x S. CORNELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58470659684187,
+            41.76241882672145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4820,
+            8374
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 73RD ST. x S. EAST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58359924465891,
+            41.762430344488784
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.509,
+    "dy_m": -1.003
+  }
+}

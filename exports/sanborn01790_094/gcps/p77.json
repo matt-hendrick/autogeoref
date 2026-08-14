@@ -1,0 +1,203 @@
+{
+  "page": "77",
+  "n_streets": 7,
+  "n_candidates": 12,
+  "n_inliers": 8,
+  "rotation_deg": 1.06,
+  "auto_residuals_m": [
+    0.4,
+    3.19,
+    1.29,
+    1.16,
+    1.99,
+    0.38,
+    3.85,
+    7.97
+  ],
+  "inlier_streets": [
+    [
+      "W. CULLERTON (W. 20TH ST.)",
+      "S. ASHLAND AV."
+    ],
+    [
+      "W. CULLERTON (W. 20TH ST.)",
+      "LAFLIN"
+    ],
+    [
+      "W. 21ST ST.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "W. 21ST ST.",
+      "LAFLIN"
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. CERMAK RD. (W. 22ND ST.)"
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 21ST PL."
+    ],
+    [
+      "W. CERMAK RD. (W. 22ND ST.)",
+      "LAFLIN"
+    ],
+    [
+      "LAFLIN",
+      "W. 21ST PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1007,
+            636
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CULLERTON (W. 20TH ST.) x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66607328558398,
+            41.85506536428357
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4876,
+            636
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CULLERTON (W. 20TH ST.) x LAFLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66369313779605,
+            41.85511913817097
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1007,
+            2585
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6660501263544,
+            41.85416134849499
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4876,
+            2585
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x LAFLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66366523050348,
+            41.854209515474224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1007,
+            6600
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. CERMAK RD. (W. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66602422923718,
+            41.852331055710266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1007,
+            4465
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66603284382596,
+            41.853301965836955
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4876,
+            6600
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CERMAK RD. (W. 22ND ST.) x LAFLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66361391682535,
+            41.85237952823581
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4876,
+            4465
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAFLIN x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66363776905351,
+            41.85328349746558
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

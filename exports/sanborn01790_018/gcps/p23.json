@@ -1,0 +1,156 @@
+{
+  "page": "23",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.08,
+  "auto_residuals_m": [
+    0.11,
+    0.02,
+    0.11,
+    0.08,
+    0.08,
+    0.06
+  ],
+  "inlier_streets": [
+    [
+      "ERIE",
+      "N. CLARK"
+    ],
+    [
+      "ERIE",
+      "DEARBORN AV."
+    ],
+    [
+      "ONTARIO",
+      "N. CLARK"
+    ],
+    [
+      "ONTARIO",
+      "DEARBORN AV."
+    ],
+    [
+      "OHIO",
+      "N. CLARK"
+    ],
+    [
+      "OHIO",
+      "DEARBORN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1718,
+            926
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63118688953571,
+            41.894031436330216
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4092,
+            926
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x DEARBORN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6297170779742,
+            41.89405214644895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1718,
+            2691
+          ],
+          "username": "autogeoref",
+          "note": "auto: ONTARIO x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6311684249841,
+            41.89322895035052
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4092,
+            2691
+          ],
+          "username": "autogeoref",
+          "note": "auto: ONTARIO x DEARBORN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62969606033317,
+            41.89324910373067
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1718,
+            4453
+          ],
+          "username": "autogeoref",
+          "note": "auto: OHIO x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63114639661997,
+            41.89242734147794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4092,
+            4453
+          ],
+          "username": "autogeoref",
+          "note": "auto: OHIO x DEARBORN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62967614373044,
+            41.892448377743854
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

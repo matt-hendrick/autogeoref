@@ -1,0 +1,205 @@
+{
+  "page": "1",
+  "n_streets": 12,
+  "n_candidates": 19,
+  "n_inliers": 8,
+  "rotation_deg": 0.77,
+  "auto_residuals_m": [
+    13.11,
+    7.65,
+    7.67,
+    11.41,
+    11.44,
+    6.92,
+    6.02,
+    7.61
+  ],
+  "inlier_streets": [
+    [
+      "BELMONT AV.",
+      "N. HARDING AV."
+    ],
+    [
+      "BELMONT AV.",
+      "N. PULASKI RD. (AV.)"
+    ],
+    [
+      "BELMONT AV.",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "N. HARDING AV.",
+      "BARRY AV."
+    ],
+    [
+      "N. HARDING AV.",
+      "WELLINGTON AV."
+    ],
+    [
+      "BARRY AV.",
+      "N. PULASKI RD. (AV.)"
+    ],
+    [
+      "N. PULASKI RD. (AV.)",
+      "WELLINGTON AV."
+    ],
+    [
+      "WELLINGTON AV.",
+      "N. SPRINGFIELD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2024,
+            217
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AV. x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7259744437015,
+            41.93910496162743
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            240,
+            217
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AV. x N. PULASKI RD. (AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.727205592731,
+            41.93909076513894
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4426,
+            217
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AV. x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72475430090931,
+            41.93911983689387
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2024,
+            4278
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HARDING AV. x BARRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72594463299032,
+            41.937281022100436
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2024,
+            8353
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HARDING AV. x WELLINGTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72589834769884,
+            41.9354350237635
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            240,
+            4278
+          ],
+          "username": "autogeoref",
+          "note": "auto: BARRY AV. x N. PULASKI RD. (AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72715371186116,
+            41.937264236816354
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            240,
+            8353
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PULASKI RD. (AV.) x WELLINGTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7271000502571,
+            41.9354268253356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4426,
+            8353
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLINGTON AV. x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7246625205849,
+            41.935447952669655
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.252,
+    "dy_m": -0.654
+  }
+}

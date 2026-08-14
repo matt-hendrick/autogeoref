@@ -1,0 +1,161 @@
+{
+  "page": "93",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 0.92,
+  "auto_residuals_m": [
+    0.5,
+    0.61,
+    1.41,
+    0.89,
+    0.99,
+    0.48
+  ],
+  "inlier_streets": [
+    [
+      "WEST END AV.",
+      "S. 48TH AV."
+    ],
+    [
+      "WEST END AV.",
+      "S. 47TH AV."
+    ],
+    [
+      "S. 48TH AV.",
+      "WASHINGTON BLVD"
+    ],
+    [
+      "S. 48TH AV.",
+      "W. MADISON"
+    ],
+    [
+      "S. 47TH AV.",
+      "WASHINGTON BLVD"
+    ],
+    [
+      "S. 47TH AV.",
+      "W. MADISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            891,
+            2830
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x S. 48TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7453759751303,
+            41.883116603523106
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5005,
+            2830
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x S. 47TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74292229679685,
+            41.88314732800467
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            891,
+            5523
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 48TH AV. x WASHINGTON BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74534083193414,
+            41.881802805245165
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            891,
+            8266
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 48TH AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74527782154624,
+            41.88048450719481
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5005,
+            5523
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 47TH AV. x WASHINGTON BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74287367516024,
+            41.88183212960959
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5005,
+            8266
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 47TH AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7428303146063,
+            41.8805122441512
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -0.029,
+    "dy_m": -2.017
+  }
+}

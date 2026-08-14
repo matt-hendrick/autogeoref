@@ -1,0 +1,132 @@
+{
+  "page": "29",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.16,
+  "auto_residuals_m": [
+    14.69,
+    14.05,
+    6.45,
+    0.74,
+    6.51
+  ],
+  "inlier_streets": [
+    [
+      "W. GRAND AV.",
+      "DRAKE AV."
+    ],
+    [
+      "THOMAS",
+      "DRAKE AV."
+    ],
+    [
+      "THOMAS",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "DRAKE AV.",
+      "W. AUGUSTA BLVD. (ST.)"
+    ],
+    [
+      "N. ST. LOUIS AV.",
+      "W. AUGUSTA BLVD. (ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2475,
+            2847
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x DRAKE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71499973464407,
+            41.90162612393514
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2475,
+            4421
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x DRAKE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71527753474308,
+            41.90093973309803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4414,
+            4421
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7140573261162,
+            41.90095041271399
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2475,
+            8432
+          ],
+          "username": "autogeoref",
+          "note": "auto: DRAKE AV. x W. AUGUSTA BLVD. (ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7152140683718,
+            41.899117685702926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4414,
+            8432
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ST. LOUIS AV. x W. AUGUSTA BLVD. (ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71399685549369,
+            41.89912972250959
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

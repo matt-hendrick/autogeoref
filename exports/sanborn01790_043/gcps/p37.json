@@ -1,0 +1,180 @@
+{
+  "page": "37",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": -0.28,
+  "auto_residuals_m": [
+    2.76,
+    2.56,
+    4.83,
+    2.19,
+    3.1,
+    4.96,
+    3.09
+  ],
+  "inlier_streets": [
+    [
+      "W. 61ST ST.",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. 62ND ST.",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. 62ND ST.",
+      "S. CLAREMONT AV."
+    ],
+    [
+      "W. 62ND ST.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "W. 63RD ST.",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. 63RD ST.",
+      "S. CLAREMONT AV."
+    ],
+    [
+      "W. 63RD ST.",
+      "S. OAKLEY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            175,
+            260
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 61ST ST. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68374158242445,
+            41.782910953161185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            175,
+            3956
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 62ND ST. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68369088228005,
+            41.78105538297153
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2025,
+            3956
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 62ND ST. x S. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68239015338371,
+            41.781045657951026
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3927,
+            3956
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 62ND ST. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68115568879401,
+            41.781057818434846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            175,
+            7732
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD ST. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68363935063462,
+            41.779216014445105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2025,
+            7732
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD ST. x S. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68231703527867,
+            41.779196465490436
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3927,
+            7732
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD ST. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68109142767919,
+            41.77921300657367
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

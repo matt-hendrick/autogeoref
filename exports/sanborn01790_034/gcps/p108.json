@@ -1,0 +1,142 @@
+{
+  "page": "108",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "WILSON AV.",
+      "CLARENDON AV."
+    ],
+    [
+      "WINDSOR AV.",
+      "CLARENDON AV."
+    ],
+    [
+      "CLARENDON AV.",
+      "MONTROSE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2955,
+            234
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILSON AV. x CLARENDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65001916785553,
+            41.96548793124807
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2955,
+            2339
+          ],
+          "username": "autogeoref",
+          "note": "auto: WINDSOR AV. x CLARENDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64998800252589,
+            41.96451279397709
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2955,
+            8249
+          ],
+          "username": "autogeoref",
+          "note": "auto: CLARENDON AV. x MONTROSE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64991214712262,
+            41.961842806769056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65144804785332,
+            41.9651712228839
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5222,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64862993274703,
+            41.96521255443742
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65136657435214,
+            41.962099898130575
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.8224,
+    "separation_ratio": 0.977,
+    "best_offset_m": 96.5,
+    "n_junctions": 4
+  }
+}

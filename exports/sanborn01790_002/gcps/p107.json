@@ -1,0 +1,113 @@
+{
+  "page": "107",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 0.77,
+  "auto_residuals_m": [
+    5.06,
+    5.05,
+    5.05,
+    5.06
+  ],
+  "inlier_streets": [
+    [
+      "W. WABANSIA AV.",
+      "N. HARDING AV."
+    ],
+    [
+      "W. WABANSIA AV.",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "N. HARDING AV.",
+      "W. NORTH AV."
+    ],
+    [
+      "N. SPRINGFIELD AV.",
+      "W. NORTH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2716,
+            4319
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WABANSIA AV. x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72520122546986,
+            41.911723248306615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4714,
+            4319
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WABANSIA AV. x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72397660066085,
+            41.911735283191774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2716,
+            8179
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HARDING AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72533271104136,
+            41.90989887383106
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4714,
+            8179
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPRINGFIELD AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72392649613799,
+            41.90991329039256
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.568,
+    "dy_m": -0.12
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "page": "134",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 0.77,
+  "auto_residuals_m": [
+    2.97,
+    3.82,
+    4.91,
+    6.15,
+    1.94,
+    2.36
+  ],
+  "inlier_streets": [
+    [
+      "JACKSON B'LV'D.",
+      "S. CAMPBELL AV."
+    ],
+    [
+      "JACKSON B'LV'D.",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. VAN BUREN",
+      "S. CAMPBELL AV."
+    ],
+    [
+      "W. VAN BUREN",
+      "S. WESTERN AV."
+    ],
+    [
+      "S. CAMPBELL AV.",
+      "W. HARRISON"
+    ],
+    [
+      "S. WESTERN AV.",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            697,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'LV'D. x S. CAMPBELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68878078474056,
+            41.877548379640636
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5115,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'LV'D. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68635876468923,
+            41.87757669438694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            697,
+            3405
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. CAMPBELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68874742060076,
+            41.87609111630026
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5115,
+            3405
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68628518298006,
+            41.876110145896426
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            697,
+            8361
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CAMPBELL AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68867832255155,
+            41.87389149860322
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5115,
+            8361
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WESTERN AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68625047753567,
+            41.873917641906296
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.746,
+    "dy_m": 3.966
+  }
+}

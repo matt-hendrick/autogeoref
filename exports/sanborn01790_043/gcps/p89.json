@@ -1,0 +1,186 @@
+{
+  "page": "89",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 69TH ST.",
+      "S. SPRINGFIELD AV."
+    ],
+    [
+      "W. 69TH PL.",
+      "S. SPRINGFIELD AV."
+    ],
+    [
+      "W. 70TH ST.",
+      "S. SPRINGFIELD AV."
+    ],
+    [
+      "S. SPRINGFIELD AV.",
+      "W. 70TH PL."
+    ],
+    [
+      "S. SPRINGFIELD AV.",
+      "W. 71ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            297
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 69TH ST. x S. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72003521527162,
+            41.76777090328815
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            2178
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 69TH PL. x S. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72001340425531,
+            41.76685999230477
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            4181
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 70TH ST. x S. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71999058172584,
+            41.76594984143531
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            6144
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. x W. 70TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71996783505169,
+            41.765038859025886
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            8104
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. x W. 71ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71994572395137,
+            41.764127737433455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72265930930179,
+            41.76747607740621
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71984037774043,
+            41.767520418031744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72257211674223,
+            41.76439231896033
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.9334,
+    "separation_ratio": 1.066,
+    "best_offset_m": 1.1,
+    "n_junctions": 9
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "page": "53",
+  "n_streets": 14,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. SULLIVAN",
+      "N. SEDGWICK"
+    ],
+    [
+      "W. GOETHE",
+      "N. SEDGWICK"
+    ],
+    [
+      "N. SEDGWICK",
+      "W. DIVISION"
+    ],
+    [
+      "W. DIVISION",
+      "N. ORLEANS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1146,
+            2079
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SULLIVAN x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63843220162624,
+            41.90596241212067
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1146,
+            2682
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GOETHE x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63842053843477,
+            41.9056622463953
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1146,
+            6857
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63833590064951,
+            41.90379355689364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2682,
+            6857
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63744453765463,
+            41.903804446374146
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            575,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63878719070671,
+            41.90655266041553
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5172,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6359961935019,
+            41.90659586344442
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            575,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63871323142516,
+            41.90390618955653
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

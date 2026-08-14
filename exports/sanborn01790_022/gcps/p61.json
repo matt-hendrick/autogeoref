@@ -1,0 +1,157 @@
+{
+  "page": "61",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.6,
+  "auto_residuals_m": [
+    3.57,
+    3.57,
+    2.08,
+    4.77,
+    0.58,
+    2.26
+  ],
+  "inlier_streets": [
+    [
+      "WABANSIA AV.",
+      "N. ROBEY"
+    ],
+    [
+      "WABANSIA AV.",
+      "N. WINCHESTER AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. ROBEY"
+    ],
+    [
+      "W. NORTH AV.",
+      "N. WINCHESTER AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "ELK GROVE ST."
+    ],
+    [
+      "MILWAUKEE AV.",
+      "N. ROBEY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1141,
+            1911
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67750625948122,
+            41.91230740562289
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3121,
+            1911
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. WINCHESTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67628941277941,
+            41.91232651858549
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1141,
+            5924
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67758604860713,
+            41.910472743733905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3121,
+            5924
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. WINCHESTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6762453413179,
+            41.91050602865696
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5091,
+            5924
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x ELK GROVE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67501822734258,
+            41.910524042006585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1141,
+            5911
+          ],
+          "username": "autogeoref",
+          "note": "auto: MILWAUKEE AV. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67758604860713,
+            41.910472743733905
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

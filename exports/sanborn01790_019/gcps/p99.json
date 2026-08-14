@@ -1,0 +1,229 @@
+{
+  "page": "99",
+  "n_streets": 10,
+  "n_candidates": 10,
+  "n_inliers": 9,
+  "rotation_deg": -88.84,
+  "auto_residuals_m": [
+    2.08,
+    4.35,
+    5.42,
+    11.21,
+    11.92,
+    2.11,
+    1.98,
+    1.05,
+    3.92
+  ],
+  "inlier_streets": [
+    [
+      "STONE",
+      "SCOTT"
+    ],
+    [
+      "STONE",
+      "E. GOETHE"
+    ],
+    [
+      "STONE",
+      "E. DIVISION"
+    ],
+    [
+      "ASTOR",
+      "SCOTT"
+    ],
+    [
+      "ASTOR",
+      "E. GOETHE"
+    ],
+    [
+      "N. STATE",
+      "SCOTT"
+    ],
+    [
+      "N. STATE",
+      "E. GOETHE"
+    ],
+    [
+      "N. STATE",
+      "E. DIVISION"
+    ],
+    [
+      "E. GOETHE",
+      "Ritchie Ct"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2845,
+            2228
+          ],
+          "username": "autogeoref",
+          "note": "auto: STONE x SCOTT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62584307669671,
+            41.90492030222503
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            776,
+            2228
+          ],
+          "username": "autogeoref",
+          "note": "auto: STONE x E. GOETHE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62581479842335,
+            41.90586989390152
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4899,
+            2228
+          ],
+          "username": "autogeoref",
+          "note": "auto: STONE x E. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62585003602403,
+            41.90400585914034
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2845,
+            4397
+          ],
+          "username": "autogeoref",
+          "note": "auto: ASTOR x SCOTT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62708372607625,
+            41.90490111299562
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            776,
+            4397
+          ],
+          "username": "autogeoref",
+          "note": "auto: ASTOR x E. GOETHE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62731639978799,
+            41.90584772414872
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2845,
+            6840
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. STATE x SCOTT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62871250131369,
+            41.90487262940812
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            776,
+            6840
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. STATE x E. GOETHE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62874517163411,
+            41.90583726596524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4899,
+            6840
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. STATE x E. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6286802381985,
+            41.90396016273534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            776,
+            3425
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. GOETHE x Ritchie Ct"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62656674992115,
+            41.90585903014352
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8",
+  "seam_adjusted": {
+    "dx_m": -0.249,
+    "dy_m": 2.732
+  }
+}

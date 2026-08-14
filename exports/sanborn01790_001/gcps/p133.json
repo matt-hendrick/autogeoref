@@ -1,0 +1,207 @@
+{
+  "page": "133",
+  "n_streets": 9,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "GRACELAND AVE.",
+      "SHERIDAN ROAD"
+    ],
+    [
+      "SHERIDAN ROAD",
+      "DAKIN"
+    ],
+    [
+      "SHERIDAN ROAD",
+      "DAKIN"
+    ],
+    [
+      "SHERIDAN ROAD",
+      "BYRON"
+    ],
+    [
+      "SHERIDAN ROAD",
+      "SHEFFIELD AVE."
+    ],
+    [
+      "BYRON",
+      "SHEFFIELD AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            905,
+            485
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACELAND AVE. x SHERIDAN ROAD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65452669999533,
+            41.95448577711472
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            905,
+            2448
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHERIDAN ROAD x DAKIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65449888265121,
+            41.953507655350485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            905,
+            2448
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHERIDAN ROAD x DAKIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65450105977779,
+            41.95357846911244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            905,
+            4325
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHERIDAN ROAD x BYRON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65447256407298,
+            41.9526718158625
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            905,
+            4439
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHERIDAN ROAD x SHEFFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65447256407298,
+            41.9526718158625
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            905,
+            4325
+          ],
+          "username": "autogeoref",
+          "note": "auto: BYRON x SHEFFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65447256407298,
+            41.9526718158625
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65473444263809,
+            41.954283980652626
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65203042732003,
+            41.95432399203314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6546533010283,
+            41.95125113812228
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  },
+  "seam_adjusted": {
+    "dx_m": 2.008,
+    "dy_m": -0.389
+  }
+}

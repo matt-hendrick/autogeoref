@@ -1,0 +1,316 @@
+{
+  "page": "50",
+  "n_streets": 4,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "E. 24TH ST.",
+      "S. MICHIGAN AV. (BOULEVARD)"
+    ],
+    [
+      "E. 24TH ST.",
+      "INDIANA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1617,
+            2647
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 24TH ST. x S. MICHIGAN AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62371515246289,
+            41.849288212730976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4211,
+            2647
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 24TH ST. x INDIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6221940673787,
+            41.849309664613536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62439310879502,
+            41.850143147844186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5279,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62154208791493,
+            41.850188329134795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6243173885128,
+            41.84749190255263
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6592,
+    "separation_ratio": 1.102,
+    "best_offset_m": 2.7,
+    "n_junctions": 20
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 43,
+      "votable": 43,
+      "in_block": 39,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 12.8,
+          "addr_diff": 50.4
+        },
+        {
+          "perp_m": 12.8,
+          "addr_diff": 49.3
+        },
+        {
+          "perp_m": 12.7,
+          "addr_diff": 3.6
+        },
+        {
+          "perp_m": 12.7,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 12.7,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 12.6,
+          "addr_diff": 0.0
+        },
+        {
+          "perp_m": 12.6,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 12.6,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 12.5,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 12.4,
+          "addr_diff": 2.9
+        },
+        {
+          "perp_m": 12.2,
+          "addr_diff": 3.5
+        },
+        {
+          "perp_m": 11.9,
+          "addr_diff": 3.6
+        },
+        {
+          "perp_m": 12.0,
+          "addr_diff": 6.4
+        },
+        {
+          "perp_m": 12.2,
+          "addr_diff": 3.9
+        },
+        {
+          "perp_m": 12.3,
+          "addr_diff": 6.6
+        },
+        {
+          "perp_m": 12.4,
+          "addr_diff": 4.0
+        },
+        {
+          "perp_m": 12.5,
+          "addr_diff": 2.7
+        },
+        {
+          "perp_m": 12.5,
+          "addr_diff": 5.0
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 0.0
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 13.3,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 13.3,
+          "addr_diff": 1.0
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 13.6,
+          "addr_diff": 3.9
+        },
+        {
+          "perp_m": 13.6,
+          "addr_diff": 1.8
+        },
+        {
+          "perp_m": 13.6,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 13.5,
+          "addr_diff": 1.5
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 5.2
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 13.3,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 13.3,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 13.3,
+          "addr_diff": 3.0
+        },
+        {
+          "perp_m": 15.7,
+          "addr_diff": 4.0
+        },
+        {
+          "perp_m": 33.4,
+          "addr_diff": 12.0
+        },
+        {
+          "perp_m": 47.4,
+          "addr_diff": 14.0
+        },
+        {
+          "perp_m": 67.8,
+          "addr_diff": 20.0
+        },
+        {
+          "perp_m": 84.9,
+          "addr_diff": 24.0
+        },
+        {
+          "perp_m": 94.7,
+          "addr_diff": 28.0
+        },
+        {
+          "perp_m": 109.4,
+          "addr_diff": 32.0
+        },
+        {
+          "perp_m": 12.2,
+          "addr_diff": 4.4
+        },
+        {
+          "perp_m": 12.1,
+          "addr_diff": 4.8
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

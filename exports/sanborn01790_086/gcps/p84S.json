@@ -1,0 +1,159 @@
+{
+  "page": "84S",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.7,
+  "auto_residuals_m": [
+    0.97,
+    0.63,
+    1.37,
+    0.88,
+    1.51,
+    1.21
+  ],
+  "inlier_streets": [
+    [
+      "E. 8TH (PECK PL.)",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 8TH (PECK PL.)",
+      "S. MICHIGAN AV."
+    ],
+    [
+      "S. WABASH AV.",
+      "E. 9TH (ELDRIDGE PL.)"
+    ],
+    [
+      "S. WABASH AV.",
+      "E. 11TH (HARMON PL.)"
+    ],
+    [
+      "E. 9TH (ELDRIDGE PL.)",
+      "S. MICHIGAN AV."
+    ],
+    [
+      "S. MICHIGAN AV.",
+      "E. 11TH (HARMON PL.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1498,
+            957
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 8TH (PECK PL.) x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6259421612054,
+            41.87186366833408
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4300,
+            957
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 8TH (PECK PL.) x S. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62417515281821,
+            41.87190143974072
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1498,
+            3757
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 9TH (ELDRIDGE PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62591231340672,
+            41.87057877729122
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1498,
+            6616
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 11TH (HARMON PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62587966340396,
+            41.86929414147452
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4300,
+            3757
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 9TH (ELDRIDGE PL.) x S. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6241454256179,
+            41.87061827298139
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4300,
+            6616
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. x E. 11TH (HARMON PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62413575556414,
+            41.8693337945534
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.515,
+    "dy_m": 3.454
+  }
+}

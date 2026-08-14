@@ -1,0 +1,156 @@
+{
+  "page": "42",
+  "n_streets": 11,
+  "n_candidates": 10,
+  "n_inliers": 6,
+  "rotation_deg": 0.4,
+  "auto_residuals_m": [
+    1.76,
+    1.74,
+    0.33,
+    0.29,
+    0.34,
+    0.28
+  ],
+  "inlier_streets": [
+    [
+      "W. 21ST ST.",
+      "S. STATE"
+    ],
+    [
+      "E.21ST ST.",
+      "S. STATE"
+    ],
+    [
+      "S. DEARBORN",
+      "W. 23RD ST."
+    ],
+    [
+      "S. DEARBORN",
+      "E. 23RD ST."
+    ],
+    [
+      "S. STATE",
+      "W. 23RD ST."
+    ],
+    [
+      "S. STATE",
+      "E. 23RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4619,
+            183
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62711432260774,
+            41.854250076365076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4619,
+            234
+          ],
+          "username": "autogeoref",
+          "note": "auto: E.21ST ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62711432260774,
+            41.854250076365076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2625,
+            7136
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DEARBORN x W. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62822478809922,
+            41.851059990845094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2625,
+            7145
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DEARBORN x E. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62822478809922,
+            41.851059990845094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4619,
+            7136
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x W. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62704433654828,
+            41.85106600778147
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4619,
+            7145
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x E. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62704433654828,
+            41.85106600778147
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

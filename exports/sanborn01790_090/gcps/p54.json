@@ -1,0 +1,109 @@
+{
+  "page": "54",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 0.9,
+  "auto_residuals_m": [
+    0.22,
+    0.23,
+    0.2,
+    0.19
+  ],
+  "inlier_streets": [
+    [
+      "E. 33RD ST. (BL'VD)",
+      "S. MICHIGAN AV. (BL'VD)"
+    ],
+    [
+      "E. 33RD ST. (BL'VD)",
+      "S. INDIANA AV."
+    ],
+    [
+      "S. MICHIGAN AV. (BL'VD)",
+      "E. 34TH ST."
+    ],
+    [
+      "S. INDIANA AV.",
+      "E. 34TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            2107
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 33RD ST. (BL'VD) x S. MICHIGAN AV. (BL'VD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62332981821895,
+            41.83470259143152
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3140,
+            2107
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 33RD ST. (BL'VD) x S. INDIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62183979394284,
+            41.834718185873456
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            6186
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. (BL'VD) x E. 34TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62329639827273,
+            41.83288234260766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3140,
+            6186
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. INDIANA AV. x E. 34TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6218006751963,
+            41.832901572386895
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

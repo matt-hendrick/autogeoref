@@ -1,0 +1,141 @@
+{
+  "page": "79",
+  "n_streets": 8,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "POLK",
+      "S. MILLER"
+    ],
+    [
+      "S. MILLER",
+      "W. TAYLOR"
+    ],
+    [
+      "S. MORGAN",
+      "W. TAYLOR"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            416,
+            1042
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x S. MILLER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65228614671867,
+            41.871858922385904
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            416,
+            6268
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MILLER x W. TAYLOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65221395775518,
+            41.86949034584392
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2187,
+            6268
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MORGAN x W. TAYLOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65112403566353,
+            41.86950772491444
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6521787172401,
+            41.87200602520235
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5291,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64930768493431,
+            41.872050965458364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65210355202429,
+            41.86934334849417
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.1832,
+    "separation_ratio": 0.585,
+    "best_offset_m": 91.9,
+    "n_junctions": 26
+  }
+}

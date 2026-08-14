@@ -1,0 +1,360 @@
+{
+  "page": "92",
+  "n_streets": 7,
+  "n_candidates": 12,
+  "n_inliers": 5,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "MONTROSE AV.",
+      "N. LAMON AV."
+    ],
+    [
+      "PENSACOLA AV.",
+      "N. LAMON AV."
+    ],
+    [
+      "N. LAMON AV.",
+      "CULLOM AV."
+    ],
+    [
+      "N. LAMON AV.",
+      "HUTCHINSON"
+    ],
+    [
+      "N. LAMON AV.",
+      "BERTEAU AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2509,
+            306
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. LAMON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74997208501314,
+            41.96069517971388
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2509,
+            2217
+          ],
+          "username": "autogeoref",
+          "note": "auto: PENSACOLA AV. x N. LAMON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74993583726527,
+            41.95978049042913
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2509,
+            4231
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAMON AV. x CULLOM AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74990428655525,
+            41.95886580016087
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2509,
+            6250
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAMON AV. x HUTCHINSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7498717587723,
+            41.95795290827171
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2509,
+            8181
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAMON AV. x BERTEAU AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7499725587302,
+            41.95703927637762
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            570,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75116772901396,
+            41.960417975944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5129,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7483349596072,
+            41.960449809984496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            570,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75110384781603,
+            41.95727464617966
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6665,
+    "separation_ratio": 1.169,
+    "best_offset_m": 3.6,
+    "n_junctions": 13
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 38,
+      "votable": 38,
+      "in_block": 38,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 10.0,
+          "addr_diff": 2.2
+        },
+        {
+          "perp_m": 10.0,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 10.1,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 10.1,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 10.1,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 10.1,
+          "addr_diff": 3.0
+        },
+        {
+          "perp_m": 10.1,
+          "addr_diff": 5.2
+        },
+        {
+          "perp_m": 8.4,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 3.3
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 3.8
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 4.4
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 4.9
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 3.5
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 4.4
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 5.3
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 6.0
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 2.2
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 1.2
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 1.8
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 3.0
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 2.2
+        },
+        {
+          "perp_m": 8.7,
+          "addr_diff": 3.4
+        },
+        {
+          "perp_m": 8.7,
+          "addr_diff": 4.6
+        },
+        {
+          "perp_m": 8.7,
+          "addr_diff": 5.8
+        },
+        {
+          "perp_m": 8.7,
+          "addr_diff": 5.1
+        },
+        {
+          "perp_m": 8.7,
+          "addr_diff": 6.0
+        },
+        {
+          "perp_m": 8.7,
+          "addr_diff": 7.0
+        },
+        {
+          "perp_m": 12.1,
+          "addr_diff": 0.0
+        },
+        {
+          "perp_m": 12.1,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 12.1,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 12.1,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 12.0,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 12.0,
+          "addr_diff": 2.3
+        },
+        {
+          "perp_m": 12.0,
+          "addr_diff": 3.4
+        },
+        {
+          "perp_m": 12.0,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 11.9,
+          "addr_diff": 3.6
+        },
+        {
+          "perp_m": 11.9,
+          "addr_diff": 4.5
+        },
+        {
+          "perp_m": 11.8,
+          "addr_diff": 4.7
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

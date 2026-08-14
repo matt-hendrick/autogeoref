@@ -1,0 +1,182 @@
+{
+  "page": "125",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 7,
+  "rotation_deg": 1.1,
+  "auto_residuals_m": [
+    22.07,
+    4.51,
+    2.02,
+    6.54,
+    9.03,
+    6.57,
+    6.43
+  ],
+  "inlier_streets": [
+    [
+      "N. HUDSON AV.",
+      "W. CENTER"
+    ],
+    [
+      "W. GARFIELD AV.",
+      "N. CLEVELAND AV."
+    ],
+    [
+      "W. GARFIELD AV.",
+      "N. SEDGWICK"
+    ],
+    [
+      "W. GARFIELD AV.",
+      "N. HUDSON AV."
+    ],
+    [
+      "N. CLEVELAND AV.",
+      "W. CENTER"
+    ],
+    [
+      "N. SEDGWICK",
+      "W. CENTER"
+    ],
+    [
+      "W. CENTER",
+      "N. HUDSON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2440,
+            4478
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HUDSON AV. x W. CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64005665787192,
+            41.91830773754127
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            877,
+            615
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GARFIELD AV. x N. CLEVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6413318538859,
+            41.92011394546867
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4895,
+            615
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GARFIELD AV. x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63890140596928,
+            41.920147119652
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2867,
+            615
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GARFIELD AV. x N. HUDSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64003993535493,
+            41.92013096024907
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            877,
+            4478
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLEVELAND AV. x W. CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64127268378046,
+            41.91829045225944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4895,
+            4478
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63884253799225,
+            41.918326846380985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2867,
+            4478
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CENTER x N. HUDSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64005665787192,
+            41.91830773754127
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.009,
+    "dy_m": 0.669
+  }
+}

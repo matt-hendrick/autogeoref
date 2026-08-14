@@ -1,0 +1,157 @@
+{
+  "page": "3626",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.2,
+  "auto_residuals_m": [
+    0.22,
+    0.45,
+    0.33,
+    0.29,
+    0.31,
+    0.12
+  ],
+  "inlier_streets": [
+    [
+      "W. 72ND ST.",
+      "S. FAIRFIELD AV."
+    ],
+    [
+      "W. 72ND ST.",
+      "S. WASHTENAW AV."
+    ],
+    [
+      "W. 72ND ST.",
+      "S. TALMAN AV."
+    ],
+    [
+      "W. 73RD ST.",
+      "S. FAIRFIELD AV."
+    ],
+    [
+      "W. 73RD ST.",
+      "S. WASHTENAW AV."
+    ],
+    [
+      "W. 73RD ST.",
+      "S. TALMAN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1271,
+            4337
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 72ND ST. x S. FAIRFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6917550099914,
+            41.76273723310703
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3317,
+            4337
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 72ND ST. x S. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69053423798424,
+            41.76275440766976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5353,
+            4337
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 72ND ST. x S. TALMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68930759416827,
+            41.76277374111698
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1271,
+            8317
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 73RD ST. x S. FAIRFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6917033988889,
+            41.76091184879551
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3317,
+            8317
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 73RD ST. x S. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69048261666693,
+            41.76093208078504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5353,
+            8317
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 73RD ST. x S. TALMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68925946933491,
+            41.760951569455834
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

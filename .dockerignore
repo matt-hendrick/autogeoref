@@ -1,0 +1,72 @@
+# The build context must equal the tracked tree and nothing else. Everything
+# below is gitignored data, agent/editor state, or a host-local cache: it
+# either bloats the context past what Docker can tar in reasonable time, or
+# imports a host artifact that can make an in-container check falsely green.
+# exports/ is TRACKED — do not add it here.
+#
+# Verify after changing: the file list inside the image should match
+# `git ls-files` exactly, in both directions. `tests/test_docker_context.py`
+# holds the parts of that comparison a test can reach without a daemon.
+.git/
+.venv/
+venv/
+work/
+# `**/` because a city's Overpass cache lives at configs/<city>/cache/, which a
+# root-anchored rule misses: measured, 1.4 MB of warmed centerlines in the image.
+# A warm cache there makes the fetch a cold start is supposed to make disappear.
+**/cache/
+deploy/
+fixtures/
+reference-src/
+
+# agent and editor state — untracked, and the largest thing in the context
+.claude/
+.review-tmp/
+todo.md
+# machine-local notes, which live beside the document they annotate
+**/*local.md
+
+# host credentials; the image reads its keys from the run environment
+.env
+
+# the frontend linter's dev-only tree (make setup-js); nothing in the image
+# runs it, and it is hundreds of megabytes on a box that has run that target
+**/node_modules/
+
+# Host-local caches: a stale one imported from the host is a false-green risk.
+#
+# `**/` is load-bearing on everything that nests. A .dockerignore pattern is
+# ANCHORED AT THE CONTEXT ROOT — unlike the same line in .gitignore — so a bare
+# `__pycache__/` excludes only the one at the top and every bytecode tree under
+# src/, tests/ and scripts/ rides in. Measured, twice: both interpreters' .pyc
+# files were in the image.
+**/.mypy_cache/
+**/.ruff_cache/
+**/.pytest_cache/
+**/.grimp_cache/
+**/.import_linter_cache/
+**/.hypothesis/
+**/__pycache__/
+**/*.pyc
+**/*.egg-info/
+**/dist/
+**/htmlcov/
+coverage.xml
+.coverage
+.coverage.*
+viewer/*/manifest.json
+viewer/*/story-assets
+viewer/*/og.jpg
+viewer/cities.json
+viewer/manifest.json
+# The lab notebook. Untracked, and it would otherwise ride into the image as
+# context: `experiments/*` with exceptions, for the same reason .gitignore
+# spells it that way — the three named files are libraries the tests load.
+planning_docs/
+ROADMAP.md
+CLAUDE.md
+AGENTS.md
+scripts/experiments/*
+!scripts/experiments/numeral_rules.py
+!scripts/experiments/qualification.py
+!scripts/experiments/water.py

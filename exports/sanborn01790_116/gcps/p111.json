@@ -1,0 +1,205 @@
+{
+  "page": "111",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.23,
+  "auto_residuals_m": [
+    7.68,
+    4.79,
+    2.96,
+    9.51,
+    2.82,
+    1.11,
+    7.22,
+    0.39
+  ],
+  "inlier_streets": [
+    [
+      "BERTEAU AV.",
+      "N. KENNETH AV."
+    ],
+    [
+      "BERTEAU AV.",
+      "N. KOSTNER AV."
+    ],
+    [
+      "W. BERTEAU AV.",
+      "N. KENNETH AV."
+    ],
+    [
+      "W. BERTEAU AV.",
+      "N. KOSTNER AV."
+    ],
+    [
+      "N. KENNETH AV.",
+      "IRVING PARK RD. (BLVD)"
+    ],
+    [
+      "N. KOSTNER AV.",
+      "IRVING PARK RD. (BLVD)"
+    ],
+    [
+      "BELLE PLAINE AV.",
+      "LOWELL AV."
+    ],
+    [
+      "LOWELL AV.",
+      "IRVING PARK RD. (BLVD)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1212,
+            361
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x N. KENNETH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73939506688488,
+            41.95716598419976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3227,
+            361
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x N. KOSTNER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73819026784935,
+            41.95708701160836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1212,
+            291
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BERTEAU AV. x N. KENNETH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73939506688488,
+            41.95716598419976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3227,
+            291
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BERTEAU AV. x N. KOSTNER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73819026784935,
+            41.95708701160836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1212,
+            8143
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENNETH AV. x IRVING PARK RD. (BLVD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73926689108423,
+            41.95354911963745
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3227,
+            8143
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KOSTNER AV. x IRVING PARK RD. (BLVD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73804870896117,
+            41.95356418804051
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5317,
+            4235
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELLE PLAINE AV. x LOWELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73684171036899,
+            41.955404178022086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5317,
+            8143
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOWELL AV. x IRVING PARK RD. (BLVD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73678447504284,
+            41.95357775453455
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.696,
+    "dy_m": 5.207
+  }
+}

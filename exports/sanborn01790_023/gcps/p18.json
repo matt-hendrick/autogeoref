@@ -1,0 +1,202 @@
+{
+  "page": "18",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.36,
+  "auto_residuals_m": [
+    7.86,
+    8.01,
+    8.68,
+    8.44,
+    8.99,
+    9.44,
+    9.81,
+    9.87
+  ],
+  "inlier_streets": [
+    [
+      "RICE",
+      "N. OAKLEY BLV'D"
+    ],
+    [
+      "RICE",
+      "N. LEAVITT"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. OAKLEY BLV'D"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. LEAVITT"
+    ],
+    [
+      "W. SUPERIOR",
+      "N. OAKLEY BLV'D"
+    ],
+    [
+      "W. SUPERIOR",
+      "N. LEAVITT"
+    ],
+    [
+      "W. HURON",
+      "N. OAKLEY BLV'D"
+    ],
+    [
+      "W. HURON",
+      "N. LEAVITT"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1108,
+            663
+          ],
+          "username": "autogeoref",
+          "note": "auto: RICE x N. OAKLEY BLV'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68442188991096,
+            41.89670532409289
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4925,
+            663
+          ],
+          "username": "autogeoref",
+          "note": "auto: RICE x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68197343072708,
+            41.896747713679765
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1108,
+            2801
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. OAKLEY BLV'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68439662809664,
+            41.8957852293748
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4925,
+            2801
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68194919836296,
+            41.89582703760007
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1108,
+            4701
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x N. OAKLEY BLV'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68437108636482,
+            41.89487143397219
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4925,
+            4701
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68192478772899,
+            41.89491781206887
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1108,
+            6309
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. OAKLEY BLV'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68434445287268,
+            41.893970627598286
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4925,
+            6309
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68189952599622,
+            41.89401359913046
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

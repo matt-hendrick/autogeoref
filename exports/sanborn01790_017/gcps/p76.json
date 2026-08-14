@@ -1,0 +1,113 @@
+{
+  "page": "76",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 0.76,
+  "auto_residuals_m": [
+    0.55,
+    0.58,
+    0.57,
+    0.53
+  ],
+  "inlier_streets": [
+    [
+      "HARRISON",
+      "PLYMOUTH CT."
+    ],
+    [
+      "HARRISON",
+      "STATE"
+    ],
+    [
+      "POLK",
+      "PLYMOUTH CT."
+    ],
+    [
+      "POLK",
+      "STATE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2094,
+            1021
+          ],
+          "username": "autogeoref",
+          "note": "auto: HARRISON x PLYMOUTH CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62868125989635,
+            41.87456087292443
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4042,
+            1021
+          ],
+          "username": "autogeoref",
+          "note": "auto: HARRISON x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62760681313453,
+            41.874568089832465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2094,
+            6269
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x PLYMOUTH CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62862813602749,
+            41.8723040588448
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4042,
+            6269
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62753604381982,
+            41.872318307950025
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.483,
+    "dy_m": 2.346
+  }
+}

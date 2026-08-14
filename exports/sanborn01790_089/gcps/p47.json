@@ -1,0 +1,113 @@
+{
+  "page": "47",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.92,
+  "auto_residuals_m": [
+    0.47,
+    0.51,
+    0.47,
+    0.46
+  ],
+  "inlier_streets": [
+    [
+      "E. CERMAK RD. (E. 22ND ST.)",
+      "S. WABASH AV."
+    ],
+    [
+      "E. CERMAK RD. (E. 22ND ST.)",
+      "S. MICHIGAN AV."
+    ],
+    [
+      "S. WABASH AV.",
+      "E. 23RD ST."
+    ],
+    [
+      "S. MICHIGAN AV.",
+      "E. 23RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1609,
+            677
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CERMAK RD. (E. 22ND ST.) x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62551673312221,
+            41.852858508822884
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4385,
+            677
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CERMAK RD. (E. 22ND ST.) x S. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62382738349476,
+            41.85287367996703
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1609,
+            4542
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62547661172938,
+            41.85109652355852
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4385,
+            4542
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. x E. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62377675093205,
+            41.851121750065225
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.908,
+    "dy_m": 1.22
+  }
+}

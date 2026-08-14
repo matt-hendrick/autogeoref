@@ -1,0 +1,229 @@
+{
+  "page": "7",
+  "n_streets": 11,
+  "n_candidates": 18,
+  "n_inliers": 7,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. WABASH AV.",
+      "E. DELAWARE PL."
+    ],
+    [
+      "N. WABASH AV.",
+      "E. CHESTNUT"
+    ],
+    [
+      "N. WABASH AV.",
+      "E. PEARSON"
+    ],
+    [
+      "N. WABASH AV.",
+      "E. CHICAGO AV."
+    ],
+    [
+      "N. ERNST CT.",
+      "E. DELAWARE PL."
+    ],
+    [
+      "N. RUSH",
+      "E. PEARSON"
+    ],
+    [
+      "N. MICHIGAN AV.",
+      "E. CHICAGO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            355,
+            926
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WABASH AV. x E. DELAWARE PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62687040565595,
+            41.89917508593874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            355,
+            2739
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WABASH AV. x E. CHESTNUT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62692385679037,
+            41.89835493176303
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            355,
+            4568
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WABASH AV. x E. PEARSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62689251586345,
+            41.89754920284478
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            355,
+            6408
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WABASH AV. x E. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62687043343648,
+            41.896704720158226
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1996,
+            926
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ERNST CT. x E. DELAWARE PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62587343005323,
+            41.899194370169724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1864,
+            4568
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RUSH x E. PEARSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62599628098499,
+            41.897557427353576
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4423,
+            6408
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MICHIGAN AV. x E. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62426325180483,
+            41.896743404745486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6267736424665,
+            41.89927179149482
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5158,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62399041556885,
+            41.89931487915684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62669967308399,
+            41.89662465736051
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -2.304,
+    "dy_m": 1.415
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

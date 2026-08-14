@@ -1,0 +1,134 @@
+{
+  "page": "74",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 5,
+  "rotation_deg": -89.43,
+  "auto_residuals_m": [
+    1.43,
+    0.2,
+    1.39,
+    2.73,
+    2.75
+  ],
+  "inlier_streets": [
+    [
+      "S. LEAVITT",
+      "W. 54TH PL."
+    ],
+    [
+      "S. LEAVITT",
+      "W. GARFIELD BLVD."
+    ],
+    [
+      "W. 54TH PL.",
+      "S. CLAREMONT AV."
+    ],
+    [
+      "W. GARFIELD BLVD.",
+      "S. CLAREMONT AV."
+    ],
+    [
+      "W. GARFIELD BLVD.",
+      "S. WESTERN AV. BLVD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2836,
+            1473
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT x W. 54TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67999482449424,
+            41.794784553785114
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5002,
+            1473
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT x W. GARFIELD BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67997913717976,
+            41.793853931291366
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2836,
+            5597
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 54TH PL. x S. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68231362211736,
+            41.794755373411796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5002,
+            5597
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GARFIELD BLVD. x S. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68229218878405,
+            41.793827953034025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5002,
+            7651
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GARFIELD BLVD. x S. WESTERN AV. BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68347802421756,
+            41.7938531062131
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

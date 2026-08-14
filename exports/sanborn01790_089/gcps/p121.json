@@ -1,0 +1,178 @@
+{
+  "page": "121",
+  "n_streets": 3,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "S. INDIANA AV.",
+      "E. 29TH ST."
+    ],
+    [
+      "PRAIRIE AV. BLVD.",
+      "E. 29TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1651,
+            5522
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. INDIANA AV. x E. 29TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62197808118749,
+            41.841992719603816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4242,
+            5522
+          ],
+          "username": "autogeoref",
+          "note": "auto: PRAIRIE AV. BLVD. x E. 29TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62038311818105,
+            41.842021077485164
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            578,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62267909951932,
+            41.844160136026545
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5198,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61986453819873,
+            41.8441998187829
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            578,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62261155270703,
+            41.841501303785314
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5074,
+    "separation_ratio": 1.045,
+    "best_offset_m": 4.4,
+    "n_junctions": 12
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 9,
+      "votable": 9,
+      "in_block": 9,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 12.3,
+          "addr_diff": 2.3
+        },
+        {
+          "perp_m": 12.4,
+          "addr_diff": 2.7
+        },
+        {
+          "perp_m": 12.4,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 12.5,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 12.5,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 11.4,
+          "addr_diff": 3.1
+        },
+        {
+          "perp_m": 11.2,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 11.1,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 11.1,
+          "addr_diff": 0.7
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

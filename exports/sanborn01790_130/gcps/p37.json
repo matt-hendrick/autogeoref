@@ -1,0 +1,163 @@
+{
+  "page": "37",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 93RD ST.",
+      "S. LANGLEY AV."
+    ],
+    [
+      "S. ST. LAWRENCE AV.",
+      "E. 95TH ST."
+    ],
+    [
+      "S. CHAMPLAIN AV.",
+      "E. 95TH ST."
+    ],
+    [
+      "S. LANGLEY AV.",
+      "E. 95TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4138,
+            342
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 93RD ST. x S. LANGLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60698637363028,
+            41.72569397458166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            245,
+            8103
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LAWRENCE AV. x E. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60930995168374,
+            41.722000607781524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2147,
+            8103
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CHAMPLAIN AV. x E. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60809809130068,
+            41.72202088102141
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4138,
+            8103
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LANGLEY AV. x E. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60689678019817,
+            41.72204102430063
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            839
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6091974728497,
+            41.72542194294674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5224,
+            839
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60627483826853,
+            41.725461910795254
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            7547
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60912011130982,
+            41.72227074099902
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -0.301,
+    "dy_m": 3.908
+  },
+  "junction_snap": {
+    "skipped": "only 1 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

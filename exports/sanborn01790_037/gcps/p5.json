@@ -1,0 +1,160 @@
+{
+  "page": "5",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. DIVISION",
+      "N. PINE"
+    ],
+    [
+      "THOMAS",
+      "N. PINE"
+    ],
+    [
+      "CORTEZ",
+      "N. PINE"
+    ],
+    [
+      "AUGUSTA",
+      "N. PINE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            464,
+            291
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. PINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76382531974164,
+            41.90216428363296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            464,
+            4369
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x N. PINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76376001496966,
+            41.90033859340629
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            464,
+            6287
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTEZ x N. PINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76372795319652,
+            41.899425905769306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            464,
+            8335
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. PINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76369472732955,
+            41.8985129819639
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76370681610621,
+            41.90193787890916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5271,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76081030872051,
+            41.901964528558715
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76365482259934,
+            41.898807290621335
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 2 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

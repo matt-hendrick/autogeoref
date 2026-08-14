@@ -1,0 +1,109 @@
+{
+  "page": "24",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "rotation_deg": 1.51,
+  "auto_residuals_m": [
+    0.41,
+    0.47,
+    0.44,
+    0.41
+  ],
+  "inlier_streets": [
+    [
+      "GEORGE",
+      "CHRISTIANA AV."
+    ],
+    [
+      "GEORGE",
+      "N. SPAULDING AV."
+    ],
+    [
+      "CHRISTIANA AV.",
+      "DIVERSEY AV."
+    ],
+    [
+      "N. SPAULDING AV.",
+      "DIVERSEY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3362,
+            2133
+          ],
+          "username": "autogeoref",
+          "note": "auto: GEORGE x CHRISTIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71111603179038,
+            41.93383421346147
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5327,
+            2133
+          ],
+          "username": "autogeoref",
+          "note": "auto: GEORGE x N. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7099089021805,
+            41.933863502848006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3362,
+            6231
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHRISTIANA AV. x DIVERSEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71106913094599,
+            41.93198460525802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5327,
+            6231
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPAULDING AV. x DIVERSEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70986561490756,
+            41.93200261942901
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

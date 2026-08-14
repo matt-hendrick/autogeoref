@@ -1,0 +1,167 @@
+{
+  "page": "29",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 49TH PL.",
+      "S. KEDZIE AV."
+    ],
+    [
+      "S. KEDZIE AV.",
+      "W. 51ST ST."
+    ],
+    [
+      "W. 51ST ST.",
+      "S. TROY ST."
+    ],
+    [
+      "W. 51ST ST.",
+      "S. ALBANY AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            551,
+            2600
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 49TH PL. x S. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70379674270531,
+            41.8033941233292
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            551,
+            8176
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEDZIE AV. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7037242556267,
+            41.800816025837406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2457,
+            8176
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 51ST ST. x S. TROY ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70250191319708,
+            41.800836194843235
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4477,
+            8176
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 51ST ST. x S. ALBANY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70128373197629,
+            41.80085864161114
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70378281854744,
+            41.80418674242436
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5270,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70089592789886,
+            41.80423332864512
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70369207338977,
+            41.80106197769365
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 4.634,
+    "dy_m": -0.705
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5825,
+    "separation_ratio": 2.039,
+    "best_offset_m": 5.3,
+    "n_junctions": 4
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "page": "72",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. OHIO",
+      "N. SPAULDING"
+    ],
+    [
+      "W. OHIO",
+      "N. SAWYER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3425,
+            259
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. SPAULDING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70888432029741,
+            41.89186912390005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5426,
+            259
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. SAWYER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70766578857489,
+            41.891882699410104
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            564,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71062545700448,
+            41.8915835862527
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5077,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70787263365727,
+            41.89161157202796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            564,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71056878186451,
+            41.88849423005579
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

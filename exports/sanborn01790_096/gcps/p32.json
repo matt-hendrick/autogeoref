@@ -1,0 +1,155 @@
+{
+  "page": "32",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 0.32,
+  "auto_residuals_m": [
+    0.59,
+    1.5,
+    1.1,
+    1.1,
+    3.57,
+    2.58
+  ],
+  "inlier_streets": [
+    [
+      "WELLINGTON AVE",
+      "N. CAMPBELL AV."
+    ],
+    [
+      "N. CAMPBELL AV.",
+      "GEORGE"
+    ],
+    [
+      "N. CAMPBELL AV.",
+      "W. DIVERSEY AV."
+    ],
+    [
+      "GEORGE",
+      "N. WESTERN AV."
+    ],
+    [
+      "N. WESTERN AV.",
+      "WOLFRAM ST."
+    ],
+    [
+      "N. WESTERN AV.",
+      "W. DIVERSEY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            840,
+            310
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLINGTON AVE x N. CAMPBELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69044010569489,
+            41.9357827372877
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            840,
+            4288
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL AV. x GEORGE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69037390525244,
+            41.9339688074134
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            840,
+            8277
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL AV. x W. DIVERSEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69034833003528,
+            41.93215125238237
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4860,
+            4288
+          ],
+          "username": "autogeoref",
+          "note": "auto: GEORGE x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68794135186388,
+            41.93398666810604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4860,
+            6214
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x WOLFRAM ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68792379971373,
+            41.93307922040234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4860,
+            8277
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x W. DIVERSEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68788269112054,
+            41.93217912582332
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

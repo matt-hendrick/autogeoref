@@ -1,0 +1,163 @@
+{
+  "page": "57",
+  "n_streets": 9,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. HARRISON",
+      "S. ASHLAND BLVD."
+    ],
+    [
+      "W. FLOURNOY",
+      "S. ASHLAND BLVD."
+    ],
+    [
+      "S. ASHLAND BLVD.",
+      "POLK"
+    ],
+    [
+      "S. LAFLIN",
+      "POLK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            996,
+            1142
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. ASHLAND BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66659893094553,
+            41.874200433484944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            996,
+            3870
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FLOURNOY x S. ASHLAND BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6665704263686,
+            41.87289968362521
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            996,
+            6551
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND BLVD. x POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66653065394335,
+            41.87162812695728
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4844,
+            6551
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LAFLIN x POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66414972482549,
+            41.87166240162181
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66684661388767,
+            41.87431026526656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5302,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66396972133563,
+            41.874355295629556
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66677144867184,
+            41.871647684544385
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4574,
+    "separation_ratio": 1.269,
+    "best_offset_m": 3.0,
+    "n_junctions": 34
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "page": "9",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 4,
+  "rotation_deg": 1.16,
+  "auto_residuals_m": [
+    0.11,
+    0.11,
+    0.06,
+    0.06
+  ],
+  "inlier_streets": [
+    [
+      "FOSTER AV.",
+      "N. LOTUS AV."
+    ],
+    [
+      "FOSTER AV.",
+      "N. LONG AV."
+    ],
+    [
+      "N. LOTUS AV.",
+      "CARMEN AV."
+    ],
+    [
+      "CARMEN AV.",
+      "N. LONG AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3297,
+            374
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x N. LOTUS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7639875388116,
+            41.975151179063324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5275,
+            374
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x N. LONG AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76276667966896,
+            41.97516951907214
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3297,
+            4273
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LOTUS AV. x CARMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76391085681976,
+            41.973331096179805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5275,
+            4273
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x N. LONG AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76268696752477,
+            41.973349448898205
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

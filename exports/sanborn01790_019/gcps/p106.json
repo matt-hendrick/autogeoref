@@ -1,0 +1,156 @@
+{
+  "page": "106",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.12,
+  "auto_residuals_m": [
+    2.04,
+    2.92,
+    3.62,
+    4.2,
+    1.6,
+    1.31
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVISION",
+      "ORLEANS"
+    ],
+    [
+      "W. DIVISION",
+      "WELLS"
+    ],
+    [
+      "W. ELM",
+      "ORLEANS"
+    ],
+    [
+      "W. ELM",
+      "WELLS"
+    ],
+    [
+      "WENDELL",
+      "ORLEANS"
+    ],
+    [
+      "WENDELL",
+      "WELLS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            178,
+            1261
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63744453765463,
+            41.903804446374146
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4709,
+            1261
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63447783289097,
+            41.903853459341754
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            178,
+            3358
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63741456526547,
+            41.90284503611717
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4709,
+            3358
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63444202708902,
+            41.902884181942646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            178,
+            6990
+          ],
+          "username": "autogeoref",
+          "note": "auto: WENDELL x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63735363794795,
+            41.90128343535749
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4709,
+            6990
+          ],
+          "username": "autogeoref",
+          "note": "auto: WENDELL x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63438160680828,
+            41.901324595980185
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

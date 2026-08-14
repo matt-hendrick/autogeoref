@@ -1,0 +1,182 @@
+{
+  "page": "40",
+  "n_streets": 10,
+  "n_candidates": 29,
+  "n_inliers": 7,
+  "rotation_deg": -0.05,
+  "auto_residuals_m": [
+    2.83,
+    6.4,
+    8.12,
+    5.13,
+    3.23,
+    2.12,
+    3.88
+  ],
+  "inlier_streets": [
+    [
+      "DIVERSEY AV.",
+      "N. KEDZIE AV."
+    ],
+    [
+      "DIVERSEY AV.",
+      "N. TROY"
+    ],
+    [
+      "N. KEDZIE AV.",
+      "SCHUBERT AV."
+    ],
+    [
+      "SCHUBERT AV.",
+      "N. TROY"
+    ],
+    [
+      "N. TROY",
+      "LOGAN BLVD."
+    ],
+    [
+      "N. SAWYER AV.",
+      "WRIGHTWOOD AV."
+    ],
+    [
+      "N. KEDZIE AV.",
+      "WRIGHTWOOD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3589,
+            163
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AV. x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7073906617485,
+            41.932029790145926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5381,
+            163
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AV. x N. TROY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7061660517755,
+            41.932035104886424
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3589,
+            3966
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE AV. x SCHUBERT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7073440337426,
+            41.930244814834204
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5381,
+            3966
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHUBERT AV. x N. TROY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70611022853149,
+            41.930209282441886
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5381,
+            7099
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. TROY x LOGAN BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70607284631525,
+            41.92878389805548
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            140,
+            7988
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SAWYER AV. x WRIGHTWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70935687190787,
+            41.92834778960901
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2463,
+            7988
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE AV. x WRIGHTWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70785801370633,
+            41.92836548473612
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.067,
+    "dy_m": 0.054
+  }
+}

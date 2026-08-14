@@ -1,0 +1,159 @@
+{
+  "page": "37",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.27,
+  "auto_residuals_m": [
+    0.12,
+    0.18,
+    0.38,
+    0.29,
+    0.31,
+    0.09
+  ],
+  "inlier_streets": [
+    [
+      "W. HURON",
+      "N. LEAVITT AV."
+    ],
+    [
+      "W. HURON",
+      "N. HOYNE AV."
+    ],
+    [
+      "W. ERIE",
+      "N. LEAVITT AV."
+    ],
+    [
+      "W. ERIE",
+      "N. HOYNE AV."
+    ],
+    [
+      "N. LEAVITT AV.",
+      "W. OHIO"
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. OHIO"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            815,
+            557
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. LEAVITT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68189909480488,
+            41.89402790907594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4817,
+            557
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6794496499182,
+            41.89406801411214
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            815,
+            2612
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. LEAVITT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68187024478232,
+            41.893114165401904
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4817,
+            2612
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67942531296326,
+            41.893153059022815
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            815,
+            4646
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT AV. x W. OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68184374678765,
+            41.89220211494508
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4817,
+            4646
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.679394932431,
+            41.892244313612444
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.048,
+    "dy_m": 2.14
+  }
+}

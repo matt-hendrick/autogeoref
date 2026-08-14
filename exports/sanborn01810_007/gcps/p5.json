@@ -1,0 +1,163 @@
+{
+  "page": "5",
+  "n_streets": 32,
+  "n_candidates": 89,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. CRYSTAL LAKE AV.",
+      "S. CAROLINE AV."
+    ],
+    [
+      "E. CRYSTAL LAKE AV.",
+      "S. WILLIAMS"
+    ],
+    [
+      "S. CAROLINE AV.",
+      "E. PADDOCK"
+    ],
+    [
+      "S. CAROLINE AV.",
+      "E. FRANKLIN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2062,
+            564
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CRYSTAL LAKE AV. x S. CAROLINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.32262473391702,
+            42.241133944411835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5064,
+            564
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CRYSTAL LAKE AV. x S. WILLIAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.31900343391702,
+            42.24117204440468
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2062,
+            2490
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CAROLINE AV. x E. PADDOCK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.32258043391704,
+            42.239322444751885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2062,
+            3898
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CAROLINE AV. x E. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.32253913391703,
+            42.238016044997096
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            645,
+            765
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.32438906499966,
+            42.24090499845714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5805,
+            765
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.3180007859118,
+            42.24096977801188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            645,
+            6885
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.3242852840655,
+            42.235295458688164
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -5.169,
+    "dy_m": 1.781
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

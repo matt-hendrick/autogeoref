@@ -1,0 +1,119 @@
+{
+  "page": "57",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "ARCHER AV.",
+      "EMERALD AV."
+    ],
+    [
+      "LOWE AV.",
+      "W. 24TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2111,
+            3899
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARCHER AV. x EMERALD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64544542108239,
+            41.8477139061883
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3885,
+            2893
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOWE AV. x W. 24TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64443246543152,
+            41.84818417485481
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64643828303845,
+            41.8491313186462
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5279,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64358726215836,
+            41.84917650065146
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64636256275622,
+            41.84648003142014
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.5723,
+    "separation_ratio": 0.996,
+    "best_offset_m": 92.1,
+    "n_junctions": 14
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "page": "25",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 0.64,
+  "auto_residuals_m": [
+    1.33,
+    2.48,
+    1.25,
+    2.13,
+    1.81,
+    2.53,
+    1.43,
+    2.59,
+    1.31
+  ],
+  "inlier_streets": [
+    [
+      "AUGUSTA",
+      "ALMA AV."
+    ],
+    [
+      "AUGUSTA",
+      "N. 52ND AV."
+    ],
+    [
+      "AUGUSTA",
+      "N. 51ST CT."
+    ],
+    [
+      "ALMA AV.",
+      "IOWA"
+    ],
+    [
+      "ALMA AV.",
+      "W. CHICAGO AV."
+    ],
+    [
+      "IOWA",
+      "N. 52ND AV."
+    ],
+    [
+      "IOWA",
+      "N. 51ST CT."
+    ],
+    [
+      "N. 52ND AV.",
+      "W. CHICAGO AV."
+    ],
+    [
+      "N. 51ST CT.",
+      "W. CHICAGO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1165,
+            410
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x ALMA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7569086415184,
+            41.89856390041289
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3157,
+            410
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. 52ND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75568145066507,
+            41.89857035848789
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5251,
+            410
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. 51ST CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75445575286994,
+            41.89858001432716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1165,
+            4331
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALMA AV. x IOWA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75686283206295,
+            41.89673469667186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1165,
+            8174
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALMA AV. x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7568170680983,
+            41.89490788856473
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3157,
+            4331
+          ],
+          "username": "autogeoref",
+          "note": "auto: IOWA x N. 52ND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7556370436342,
+            41.896740388578976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5251,
+            4331
+          ],
+          "username": "autogeoref",
+          "note": "auto: IOWA x N. 51ST CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7544133599612,
+            41.89674832636918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3157,
+            8174
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 52ND AV. x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75559056890124,
+            41.8949236165433
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5251,
+            8174
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. 51ST CT. x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7543696435153,
+            41.89493910595344
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.919,
+    "dy_m": -1.862
+  }
+}

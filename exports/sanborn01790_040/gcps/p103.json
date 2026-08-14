@@ -1,0 +1,159 @@
+{
+  "page": "103",
+  "n_streets": 6,
+  "n_candidates": 10,
+  "n_inliers": 6,
+  "rotation_deg": 0.91,
+  "auto_residuals_m": [
+    6.28,
+    1.18,
+    5.17,
+    0.73,
+    9.88,
+    10.55
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. LINDER AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. LOTUS AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. LONG AV."
+    ],
+    [
+      "HIRSCH",
+      "N. LINDER AV."
+    ],
+    [
+      "HIRSCH",
+      "N. LOTUS AV."
+    ],
+    [
+      "HIRSCH",
+      "N. LONG AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            325,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. LINDER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7630287615745,
+            41.909405610761944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2266,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. LOTUS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7618040123139,
+            41.909420490360084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4258,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. LONG AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76057996131581,
+            41.909435282165845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            325,
+            7917
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. LINDER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76333718365527,
+            41.905783142284825
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2266,
+            7917
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. LOTUS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76209725802671,
+            41.90579802194067
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4258,
+            7917
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. LONG AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76109251409329,
+            41.90580872241432
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.748,
+    "dy_m": -0.532
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "page": "34",
+  "n_streets": 9,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "HOMER",
+      "N. OAKLEY AV."
+    ],
+    [
+      "HOMER",
+      "N. LEAVITT"
+    ],
+    [
+      "W. CORTLAND",
+      "N. LEAVITT"
+    ],
+    [
+      "N. LEAVITT",
+      "CHURCHILL ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1076,
+            293
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOMER x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6849359770375,
+            41.916847363916325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            293
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOMER x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68250166394469,
+            41.91689517683758
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            1990
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CORTLAND x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68248622339416,
+            41.916137435959946
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            5269
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x CHURCHILL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68244686307833,
+            41.91461915474849
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68523075893549,
+            41.916646040940535
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5235,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68239735498221,
+            41.91669348433787
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6851504942701,
+            41.91399174703673
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6352,
+    "separation_ratio": 1.45,
+    "best_offset_m": 3.2,
+    "n_junctions": 21
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "page": "6",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "CARMEN AV.",
+      "N. MAJOR AV."
+    ],
+    [
+      "CARMEN AV.",
+      "N. PARKSIDE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            765,
+            714
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x N. MAJOR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77094101548404,
+            41.973878148882356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2713,
+            714
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x N. PARKSIDE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76975252665349,
+            41.973864372811626
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77106546637523,
+            41.97379987979662
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5263,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76814717765079,
+            41.97383344592108
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77099981179752,
+            41.97064482365752
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6913,
+    "separation_ratio": 1.471,
+    "best_offset_m": 10.4,
+    "n_junctions": 17
+  }
+}

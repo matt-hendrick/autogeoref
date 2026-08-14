@@ -1,0 +1,114 @@
+{
+  "page": "57",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 0.36,
+  "auto_residuals_m": [
+    1.57,
+    1.56,
+    1.58,
+    1.56
+  ],
+  "inlier_streets": [
+    [
+      "W. OHIO",
+      "N. UNION"
+    ],
+    [
+      "W. OHIO",
+      "N. DESPLAINES"
+    ],
+    [
+      "N. UNION",
+      "GRAND AV."
+    ],
+    [
+      "N. DESPLAINES",
+      "GRAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            436,
+            3619
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. UNION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64587440680927,
+            41.89227018476501
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2828,
+            3619
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64445837730844,
+            41.89226526617321
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            436,
+            5980
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. UNION x GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64585562010569,
+            41.89120277390319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2828,
+            5980
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DESPLAINES x GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.644392551334,
+            41.89122104493073
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8",
+  "seam_adjusted": {
+    "dx_m": -2.683,
+    "dy_m": -1.007
+  }
+}

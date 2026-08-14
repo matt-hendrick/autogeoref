@@ -1,0 +1,228 @@
+{
+  "page": "132",
+  "n_streets": 10,
+  "n_candidates": 11,
+  "n_inliers": 9,
+  "rotation_deg": 2.35,
+  "auto_residuals_m": [
+    4.17,
+    1.08,
+    4.87,
+    7.06,
+    11.31,
+    9.72,
+    13.07,
+    4.88,
+    9.63
+  ],
+  "inlier_streets": [
+    [
+      "GRACELAND AVE.",
+      "SHERIDAN ROAD"
+    ],
+    [
+      "GRACELAND AVE.",
+      "STELLA"
+    ],
+    [
+      "SHERIDAN ROAD",
+      "DAKIN"
+    ],
+    [
+      "SHERIDAN ROAD",
+      "BYRON"
+    ],
+    [
+      "SHERIDAN ROAD",
+      "SHEFFIELD AVE."
+    ],
+    [
+      "DAKIN",
+      "STELLA"
+    ],
+    [
+      "STELLA",
+      "BYRON"
+    ],
+    [
+      "STELLA",
+      "GRACE"
+    ],
+    [
+      "SHEFFIELD AVE.",
+      "GRACE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4774,
+            491
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACELAND AVE. x SHERIDAN ROAD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65452763424322,
+            41.95447019137486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            910,
+            491
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACELAND AVE. x STELLA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6568458993907,
+            41.95443285618019
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4774,
+            2364
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHERIDAN ROAD x DAKIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65450199402567,
+            41.95356288315072
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4774,
+            4412
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHERIDAN ROAD x BYRON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65447349832085,
+            41.95265622967908
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4774,
+            4471
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHERIDAN ROAD x SHEFFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65447349832085,
+            41.95265622967908
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            910,
+            2364
+          ],
+          "username": "autogeoref",
+          "note": "auto: DAKIN x STELLA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6568158349165,
+            41.95346002078609
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            910,
+            4412
+          ],
+          "username": "autogeoref",
+          "note": "auto: STELLA x BYRON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65680721506067,
+            41.95262537339786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            910,
+            7401
+          ],
+          "username": "autogeoref",
+          "note": "auto: STELLA x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65678934876834,
+            41.95106854554358
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4774,
+            7401
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHEFFIELD AVE. x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6544273483609,
+            41.951106278975004
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.904,
+    "dy_m": -2.722
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "page": "68",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "BELMONT AVE.",
+      "EVANSTON AVE."
+    ],
+    [
+      "BRIAR PL.",
+      "EVANSTON AVE."
+    ],
+    [
+      "EVANSTON AVE.",
+      "BARRY AVE."
+    ],
+    [
+      "EVANSTON AVE.",
+      "WELLINGTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4652,
+            250
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AVE. x EVANSTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64439968804581,
+            41.94004496603848
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4652,
+            2269
+          ],
+          "username": "autogeoref",
+          "note": "auto: BRIAR PL. x EVANSTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6443691918994,
+            41.93914603674651
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4652,
+            5057
+          ],
+          "username": "autogeoref",
+          "note": "auto: EVANSTON AVE. x BARRY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64432852074869,
+            41.937903239833695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4652,
+            8242
+          ],
+          "username": "autogeoref",
+          "note": "auto: EVANSTON AVE. x WELLINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64427925702665,
+            41.93651289598939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64689247227204,
+            41.93978659495046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64418845695403,
+            41.93982661543073
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64681133066226,
+            41.93675306268311
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8146,
+    "separation_ratio": 1.401,
+    "best_offset_m": 9.6,
+    "n_junctions": 10
+  }
+}

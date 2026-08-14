@@ -1,0 +1,205 @@
+{
+  "page": "27",
+  "n_streets": 9,
+  "n_candidates": 16,
+  "n_inliers": 8,
+  "rotation_deg": 0.96,
+  "auto_residuals_m": [
+    2.66,
+    2.4,
+    0.13,
+    1.7,
+    1.8,
+    0.99,
+    1.86,
+    1.23
+  ],
+  "inlier_streets": [
+    [
+      "E. 75TH ST.",
+      "COLFAX AV."
+    ],
+    [
+      "COLFAX AV.",
+      "E. 76TH ST."
+    ],
+    [
+      "COLFAX AV.",
+      "E. 77TH ST."
+    ],
+    [
+      "E. 76TH ST.",
+      "SAGINAW AV."
+    ],
+    [
+      "E. 76TH ST.",
+      "S. MARQUETTE AV."
+    ],
+    [
+      "SAGINAW AV.",
+      "E. 77TH ST."
+    ],
+    [
+      "E. 76TH PL.",
+      "S. MARQUETTE AV."
+    ],
+    [
+      "S. MARQUETTE AV.",
+      "E. 77TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            402,
+            410
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 75TH ST. x COLFAX AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56160567967935,
+            41.75903946809103
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            402,
+            4303
+          ],
+          "username": "autogeoref",
+          "note": "auto: COLFAX AV. x E. 76TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56150532490072,
+            41.75722303451542
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            402,
+            8149
+          ],
+          "username": "autogeoref",
+          "note": "auto: COLFAX AV. x E. 77TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56146905531733,
+            41.75541037286112
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2804,
+            4303
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 76TH ST. x SAGINAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5600360906644,
+            41.757243946081665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5192,
+            4303
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 76TH ST. x S. MARQUETTE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55856790163564,
+            41.75726414912651
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2804,
+            8149
+          ],
+          "username": "autogeoref",
+          "note": "auto: SAGINAW AV. x E. 77TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55999887722558,
+            41.755429060845536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5192,
+            6480
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 76TH PL. x S. MARQUETTE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55854674547275,
+            41.75621942399109
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5192,
+            8149
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MARQUETTE AV. x E. 77TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5585314967622,
+            41.75544702959961
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.635,
+    "dy_m": -1.644
+  }
+}

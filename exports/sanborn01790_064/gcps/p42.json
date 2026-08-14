@@ -1,0 +1,253 @@
+{
+  "page": "42",
+  "n_streets": 10,
+  "n_candidates": 21,
+  "n_inliers": 10,
+  "rotation_deg": 1.59,
+  "auto_residuals_m": [
+    3.21,
+    8.0,
+    3.17,
+    1.97,
+    6.79,
+    4.98,
+    5.46,
+    2.72,
+    20.21,
+    17.73
+  ],
+  "inlier_streets": [
+    [
+      "E. 87TH ST.",
+      "S. KINGSTON AV."
+    ],
+    [
+      "E. 87TH ST.",
+      "S. KINGSTON AV."
+    ],
+    [
+      "E. 87TH ST.",
+      "S. COLFAX AV."
+    ],
+    [
+      "E. 87TH ST.",
+      "S. SAGINAW AV."
+    ],
+    [
+      "S. KINGSTON AV.",
+      "E. 88TH ST."
+    ],
+    [
+      "S. KINGSTON AV.",
+      "E. 88TH ST."
+    ],
+    [
+      "E. 88TH ST.",
+      "S. COLFAX AV."
+    ],
+    [
+      "E. 88TH ST.",
+      "S. SAGINAW AV."
+    ],
+    [
+      "S. SAGINAW AV.",
+      "E. 89TH ST."
+    ],
+    [
+      "S. SAGINAW AV.",
+      "E. 89TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            325
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 87TH ST. x S. KINGSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56241394958784,
+            41.73720722222551
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            404,
+            325
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 87TH ST. x S. KINGSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56241394958784,
+            41.73720722222551
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2649,
+            325
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 87TH ST. x S. COLFAX AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56117057098477,
+            41.737223004176975
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4966,
+            325
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 87TH ST. x S. SAGINAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55975233078722,
+            41.73724179785973
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            4135
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KINGSTON AV. x E. 88TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56239649768277,
+            41.73532866228733
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            404,
+            4135
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KINGSTON AV. x E. 88TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56239649768277,
+            41.73532866228733
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2649,
+            4135
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 88TH ST. x S. COLFAX AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5611271155122,
+            41.735397777598735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4966,
+            4135
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 88TH ST. x S. SAGINAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55970219876255,
+            41.73541628107513
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4966,
+            7571
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SAGINAW AV. x E. 89TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5596526592581,
+            41.73359016394414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4966,
+            8092
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SAGINAW AV. x E. 89TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5596526592581,
+            41.73359016394414
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -1.799,
+    "dy_m": -5.331
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "page": "4",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.42,
+  "auto_residuals_m": [
+    0.87,
+    2.9,
+    3.67,
+    4.53,
+    4.51
+  ],
+  "inlier_streets": [
+    [
+      "W. 31ST ST.",
+      "S. ROBEY"
+    ],
+    [
+      "S. ROBEY",
+      "W. 31ST PL."
+    ],
+    [
+      "S. ROBEY",
+      "W. 32ND ST."
+    ],
+    [
+      "S. LINCOLN",
+      "W. 31ST PL."
+    ],
+    [
+      "S. LINCOLN",
+      "W. 32ND ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            804,
+            595
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x S. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6754438965433,
+            41.83759192353842
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            804,
+            2600
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROBEY x W. 31ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67543855469293,
+            41.8366757633256
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            804,
+            4500
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROBEY x W. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6754208517642,
+            41.83586431211148
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4932,
+            2600
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LINCOLN x W. 31ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6730020018243,
+            41.83677021683039
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4932,
+            4500
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LINCOLN x W. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67298400307098,
+            41.83585478114212
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

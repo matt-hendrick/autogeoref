@@ -1,0 +1,205 @@
+{
+  "page": "18",
+  "n_streets": 9,
+  "n_candidates": 10,
+  "n_inliers": 8,
+  "rotation_deg": 0.01,
+  "auto_residuals_m": [
+    2.51,
+    1.67,
+    4.08,
+    4.57,
+    5.65,
+    5.84,
+    7.72,
+    17.04
+  ],
+  "inlier_streets": [
+    [
+      "W. FOSTER AV.",
+      "N. KOLMAR AV."
+    ],
+    [
+      "W. FOSTER AV.",
+      "N. KILBOURN AV."
+    ],
+    [
+      "N. KENTON AV.",
+      "CARMEN AV."
+    ],
+    [
+      "N. KOLMAR AV.",
+      "CARMEN AV."
+    ],
+    [
+      "CARMEN AV.",
+      "KIMBERLY AV."
+    ],
+    [
+      "CARMEN AV.",
+      "N. KILBOURN AV."
+    ],
+    [
+      "N. KILBOURN AV.",
+      "ARGYLE ST."
+    ],
+    [
+      "KENNISON AV.",
+      "N. KILPATRICK AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2923,
+            357
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FOSTER AV. x N. KOLMAR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74189123275626,
+            41.97540097025033
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4890,
+            357
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FOSTER AV. x N. KILBOURN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74066065287742,
+            41.97541214140079
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1010,
+            4329
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENTON AV. x CARMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74302118100455,
+            41.97354336044312
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2923,
+            4329
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KOLMAR AV. x CARMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7418416041735,
+            41.9735546004501
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            876,
+            4329
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x KIMBERLY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74302118100455,
+            41.97354336044312
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4890,
+            4329
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x N. KILBOURN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74060543647202,
+            41.973571936760415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4890,
+            8164
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILBOURN AV. x ARGYLE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74053998619785,
+            41.97176577707187
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4044,
+            6754
+          ],
+          "username": "autogeoref",
+          "note": "auto: KENNISON AV. x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74107178823337,
+            41.97226931813899
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.869,
+    "dy_m": 1.602
+  }
+}

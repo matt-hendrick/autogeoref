@@ -1,0 +1,159 @@
+{
+  "page": "39N",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.47,
+  "auto_residuals_m": [
+    0.43,
+    0.51,
+    1.01,
+    0.87,
+    0.69,
+    0.52
+  ],
+  "inlier_streets": [
+    [
+      "E. GRAND AV.",
+      "N. WABASH AV."
+    ],
+    [
+      "E. GRAND AV.",
+      "N. RUSH"
+    ],
+    [
+      "E. ILLINOIS",
+      "N. WABASH AV."
+    ],
+    [
+      "E. ILLINOIS",
+      "N. RUSH"
+    ],
+    [
+      "E. HUBBARD",
+      "N. WABASH AV."
+    ],
+    [
+      "E. HUBBARD",
+      "N. RUSH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1803,
+            1704
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. GRAND AV. x N. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6267212761796,
+            41.89171352360266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4073,
+            1704
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. GRAND AV. x N. RUSH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62537421923393,
+            41.89173829898327
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1803,
+            3516
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. ILLINOIS x N. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62669405986824,
+            41.89091674439064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4073,
+            3516
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. ILLINOIS x N. RUSH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62535042082173,
+            41.89094020136574
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1803,
+            5296
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. HUBBARD x N. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62666781124442,
+            41.890113854938086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4073,
+            5296
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. HUBBARD x N. RUSH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62531252379023,
+            41.8901427776864
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.341,
+    "dy_m": 3.905
+  }
+}

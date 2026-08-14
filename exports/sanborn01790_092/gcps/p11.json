@@ -1,0 +1,132 @@
+{
+  "page": "11",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "rotation_deg": 1.39,
+  "auto_residuals_m": [
+    1.21,
+    1.15,
+    2.01,
+    2.99,
+    2.97
+  ],
+  "inlier_streets": [
+    [
+      "AUGUSTA BLVD.",
+      "NOBLE"
+    ],
+    [
+      "W. WALTON (CORNELIA)",
+      "NOBLE"
+    ],
+    [
+      "NOBLE",
+      "W. CHESTNUT (CORNELL)"
+    ],
+    [
+      "W. CHESTNUT (CORNELL)",
+      "N. ELIZABETH"
+    ],
+    [
+      "N. ELIZABETH",
+      "FRY ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            529,
+            712
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA BLVD. x NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66250359751959,
+            41.899785944562296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            529,
+            2700
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALTON (CORNELIA) x NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66247874390314,
+            41.898880226216335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            529,
+            4648
+          ],
+          "username": "autogeoref",
+          "note": "auto: NOBLE x W. CHESTNUT (CORNELL)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6624525064935,
+            41.89796941264884
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4573,
+            4648
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHESTNUT (CORNELL) x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66005609721543,
+            41.898009534291276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4573,
+            6680
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELIZABETH x FRY ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65998406084304,
+            41.897109140068004
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

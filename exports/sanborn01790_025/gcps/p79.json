@@ -1,0 +1,141 @@
+{
+  "page": "79",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 21ST ST.",
+      "LOOMIS"
+    ],
+    [
+      "W. 21ST ST.",
+      "THROOP"
+    ],
+    [
+      "W. 21ST PL.",
+      "LOOMIS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            948,
+            2625
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66121804290295,
+            41.85424645026598
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4903,
+            2625
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65876672179853,
+            41.854282573714706
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            948,
+            4665
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST PL. x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66119161241619,
+            41.85331802803059
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66145002050528,
+            41.85510215306293
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5252,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65860300963968,
+            41.85514498611531
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66137786108199,
+            41.852441233315986
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6005,
+    "separation_ratio": 1.054,
+    "best_offset_m": 1.4,
+    "n_junctions": 22
+  }
+}

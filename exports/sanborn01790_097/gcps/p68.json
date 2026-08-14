@@ -1,0 +1,182 @@
+{
+  "page": "68",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 0.35,
+  "auto_residuals_m": [
+    6.13,
+    6.06,
+    5.61,
+    11.35,
+    11.41,
+    11.19,
+    16.53
+  ],
+  "inlier_streets": [
+    [
+      "W. OHIO",
+      "N. AVERS AV."
+    ],
+    [
+      "W. OHIO",
+      "N. HAMLIN AV."
+    ],
+    [
+      "W. OHIO",
+      "N. RIDGEWAY AV."
+    ],
+    [
+      "N. AVERS AV.",
+      "FERDINAND"
+    ],
+    [
+      "FERDINAND",
+      "N. HAMLIN AV."
+    ],
+    [
+      "FERDINAND",
+      "N. RIDGEWAY AV."
+    ],
+    [
+      "N. HAMLIN AV.",
+      "W. KINZIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1681,
+            207
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. AVERS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72229865174192,
+            41.89171798996279
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3671,
+            207
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. HAMLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72107552047628,
+            41.89172746001386
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5544,
+            207
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. RIDGEWAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71985947091464,
+            41.89173249355021
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1681,
+            4257
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AVERS AV. x FERDINAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72225065227397,
+            41.8898840539618
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3671,
+            4257
+          ],
+          "username": "autogeoref",
+          "note": "auto: FERDINAND x N. HAMLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72102673333004,
+            41.88988933108493
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5544,
+            4257
+          ],
+          "username": "autogeoref",
+          "note": "auto: FERDINAND x N. RIDGEWAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71980931444463,
+            41.88989380277371
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3671,
+            8426
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HAMLIN AV. x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72096502575707,
+            41.88769710359339
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.947,
+    "dy_m": -2.241
+  }
+}

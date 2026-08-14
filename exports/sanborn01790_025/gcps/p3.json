@@ -1,0 +1,164 @@
+{
+  "page": "3",
+  "n_streets": 13,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "S. JEFFERSON",
+      "MAXWELL"
+    ],
+    [
+      "S. CLINTON",
+      "MAXWELL"
+    ],
+    [
+      "S. CANAL",
+      "MAXWELL"
+    ],
+    [
+      "MAXWELL",
+      "S. CLINTON ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            549,
+            6281
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. JEFFERSON x MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64210910656936,
+            41.86484967820743
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2931,
+            6281
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLINTON x MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64064456142323,
+            41.86486920233759
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5311,
+            6281
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CANAL x MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63917012261709,
+            41.86489351080061
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2889,
+            6281
+          ],
+          "username": "autogeoref",
+          "note": "auto: MAXWELL x S. CLINTON ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64064456142323,
+            41.86486920233759
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64213415308632,
+            41.86736888569453
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5268,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63927884900879,
+            41.86741183527756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64206199366299,
+            41.864708476343054
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4618,
+    "separation_ratio": 1.126,
+    "best_offset_m": 0.9,
+    "n_junctions": 34
+  }
+}

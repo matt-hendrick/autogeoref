@@ -1,0 +1,228 @@
+{
+  "page": "46",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 1.15,
+  "auto_residuals_m": [
+    1.29,
+    3.0,
+    2.06,
+    3.21,
+    2.19,
+    4.75,
+    4.46,
+    2.84,
+    2.23
+  ],
+  "inlier_streets": [
+    [
+      "W. 51ST. ST.",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. 51ST. ST.",
+      "S. TRUMBULL AV."
+    ],
+    [
+      "W. 51ST. ST.",
+      "S. HOMAN AV."
+    ],
+    [
+      "S. ST. LOUIS AV.",
+      "W. 52ND ST."
+    ],
+    [
+      "S. ST. LOUIS AV.",
+      "W. 53RD ST."
+    ],
+    [
+      "S. TRUMBULL AV.",
+      "W. 52ND ST."
+    ],
+    [
+      "S. TRUMBULL AV.",
+      "W. 53RD ST."
+    ],
+    [
+      "S. HOMAN AV.",
+      "W. 52ND ST."
+    ],
+    [
+      "S. HOMAN AV.",
+      "W. 53RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            776,
+            332
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 51ST. ST. x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71111009256934,
+            41.800702255273464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2795,
+            332
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 51ST. ST. x S. TRUMBULL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70986420202365,
+            41.800723472256315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4634,
+            332
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 51ST. ST. x S. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70865621975277,
+            41.8007396603132
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            776,
+            4158
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x W. 52ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71103894915696,
+            41.7988774539399
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            776,
+            7920
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x W. 53RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7109907329808,
+            41.797045984636554
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2795,
+            4158
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. TRUMBULL AV. x W. 52ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70982301155628,
+            41.79889602455296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2795,
+            7920
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. TRUMBULL AV. x W. 53RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70976866726947,
+            41.797064642552996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4634,
+            4158
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOMAN AV. x W. 52ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70859781692586,
+            41.79891328055717
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4634,
+            7920
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOMAN AV. x W. 53RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70854587364795,
+            41.797082922634075
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.8,
+    "dy_m": -2.071
+  }
+}

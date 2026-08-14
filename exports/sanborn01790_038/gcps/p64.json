@@ -1,0 +1,138 @@
+{
+  "page": "64",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "MONTROSE AV.",
+      "N. CAMPBELL AV."
+    ],
+    [
+      "N. CAMPBELL AV.",
+      "PENSACOLA AV."
+    ],
+    [
+      "N. CAMPBELL AV.",
+      "BERTEAU AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5464,
+            376
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. CAMPBELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69180411533215,
+            41.961292022628086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5464,
+            2373
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL AV. x PENSACOLA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69178059857155,
+            41.960381554365284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5464,
+            8319
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL AV. x BERTEAU AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6916994229752,
+            41.957650610164194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69475964292235,
+            41.961039074517565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5287,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69188930067548,
+            41.96106328938742
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69471249827966,
+            41.95794897330038
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

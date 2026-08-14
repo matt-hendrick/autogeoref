@@ -1,0 +1,186 @@
+{
+  "page": "76",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "E. 83RD ST.",
+      "EAST END AV."
+    ],
+    [
+      "E. 83RD PL.",
+      "EAST END AV."
+    ],
+    [
+      "EAST END AV.",
+      "E. 84TH ST."
+    ],
+    [
+      "EAST END AV.",
+      "E. 84TH PL."
+    ],
+    [
+      "EAST END AV.",
+      "E. 85TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            852,
+            200
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 83RD ST. x EAST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58291210415551,
+            41.74423982977987
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            852,
+            2098
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 83RD PL. x EAST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58289011787164,
+            41.74332983551387
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            852,
+            3993
+          ],
+          "username": "autogeoref",
+          "note": "auto: EAST END AV. x E. 84TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58287004218762,
+            41.74241886508317
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            852,
+            5907
+          ],
+          "username": "autogeoref",
+          "note": "auto: EAST END AV. x E. 84TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58284927027967,
+            41.741507992596965
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            852,
+            7817
+          ],
+          "username": "autogeoref",
+          "note": "auto: EAST END AV. x E. 85TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5828286856922,
+            41.740596486156846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58308407185474,
+            41.743888617960714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5802898461657,
+            41.743924944314244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58301266502022,
+            41.74083076349042
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6287,
+    "separation_ratio": 1.076,
+    "best_offset_m": 6.6,
+    "n_junctions": 15
+  }
+}

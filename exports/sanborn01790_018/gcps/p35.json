@@ -1,0 +1,116 @@
+{
+  "page": "35",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "ILLINOIS",
+      "LASALLE AV."
+    ],
+    [
+      "KINZIE",
+      "LASALLE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1326,
+            2760
+          ],
+          "username": "autogeoref",
+          "note": "auto: ILLINOIS x LASALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63255880110928,
+            41.89080253760149
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1326,
+            6283
+          ],
+          "username": "autogeoref",
+          "note": "auto: KINZIE x LASALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63252548492973,
+            41.88918825501918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6330362506293,
+            41.89170616357315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5224,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63021814173935,
+            41.891744263942016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63297272486244,
+            41.8891023520961
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

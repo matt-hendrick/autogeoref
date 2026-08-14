@@ -1,0 +1,228 @@
+{
+  "page": "19",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 0.54,
+  "auto_residuals_m": [
+    1.43,
+    0.17,
+    3.75,
+    0.92,
+    0.35,
+    11.21,
+    0.72,
+    4.87,
+    2.27
+  ],
+  "inlier_streets": [
+    [
+      "W. ADAMS",
+      "S. HAMILTON AV."
+    ],
+    [
+      "W. ADAMS",
+      "S. LEAVITT"
+    ],
+    [
+      "W. ADAMS",
+      "S. HOYNE AV."
+    ],
+    [
+      "S. HAMILTON AV.",
+      "W. JACKSON BLVD."
+    ],
+    [
+      "W. JACKSON BLVD.",
+      "S. LEAVITT"
+    ],
+    [
+      "W. JACKSON BLVD.",
+      "S. HOYNE AV."
+    ],
+    [
+      "S. LEAVITT",
+      "W. VAN BUREN"
+    ],
+    [
+      "S. HOYNE AV.",
+      "W. GLADYS AV."
+    ],
+    [
+      "S. HOYNE AV.",
+      "W. VAN BUREN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2973,
+            835
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. HAMILTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6802510750081,
+            41.8786912987437
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            961,
+            835
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68146200014635,
+            41.878673153822504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5002,
+            835
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67901471743413,
+            41.87871572344753
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2973,
+            3158
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HAMILTON AV. x W. JACKSON BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68022193865392,
+            41.877636316321045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            961,
+            3158
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD. x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6814336391484,
+            41.87762020187996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5002,
+            3158
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67898203832101,
+            41.877564725437544
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            961,
+            6367
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68139388095486,
+            41.87616513221357
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5002,
+            4764
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x W. GLADYS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67899124901524,
+            41.876941530917904
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5002,
+            6367
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67894323489666,
+            41.876200479098685
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.931,
+    "dy_m": 1.822
+  }
+}

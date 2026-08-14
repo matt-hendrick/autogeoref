@@ -1,0 +1,155 @@
+{
+  "page": "74",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.03,
+  "auto_residuals_m": [
+    0.6,
+    0.44,
+    0.99,
+    0.43,
+    1.05,
+    0.64
+  ],
+  "inlier_streets": [
+    [
+      "LOWE AV.",
+      "W. 35TH ST."
+    ],
+    [
+      "LOWE AV.",
+      "W. 36TH ST."
+    ],
+    [
+      "W. 35TH ST.",
+      "WALLACE"
+    ],
+    [
+      "W. 35TH ST.",
+      "PARNELL"
+    ],
+    [
+      "WALLACE",
+      "W. 36TH ST."
+    ],
+    [
+      "PARNELL",
+      "W. 36TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1305,
+            3050
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOWE AV. x W. 35TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64245421487557,
+            41.83080029650294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1305,
+            7102
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOWE AV. x W. 36TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6424057261794,
+            41.8289738070762
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3326,
+            3050
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x WALLACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64123527964855,
+            41.830815422808534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5393,
+            3050
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x PARNELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64001583234496,
+            41.83083140301767
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3326,
+            7102
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALLACE x W. 36TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.641187724546,
+            41.82898951265119
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5393,
+            7102
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARNELL x W. 36TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63997046048243,
+            41.82900784617834
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

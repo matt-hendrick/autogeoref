@@ -1,0 +1,159 @@
+{
+  "page": "13",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 6,
+  "rotation_deg": -0.05,
+  "auto_residuals_m": [
+    2.0,
+    4.07,
+    6.79,
+    9.5,
+    6.77,
+    3.47
+  ],
+  "inlier_streets": [
+    [
+      "W. HOWARD",
+      "N. WOLCOTT AV. (HILLDALE AV.)"
+    ],
+    [
+      "W. BIRCHWOOD AV.",
+      "N. WOLCOTT AV. (HILLDALE AV.)"
+    ],
+    [
+      "W. BIRCHWOOD AV.",
+      "N. CLARK"
+    ],
+    [
+      "W. BIRCHWOOD AV.",
+      "N. WOLCOTT AV. (HILLDALE AV.)"
+    ],
+    [
+      "W. BIRCHWOOD AV.",
+      "N. CLARK"
+    ],
+    [
+      "N. WOLCOTT AV. (HILLDALE AV.)",
+      "W. FARGO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            876,
+            359
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HOWARD x N. WOLCOTT AV. (HILLDALE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67761457281716,
+            42.01944657911863
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            876,
+            3510
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BIRCHWOOD AV. x N. WOLCOTT AV. (HILLDALE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6776275726116,
+            42.01792461915459
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4269,
+            3510
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BIRCHWOOD AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67567275681489,
+            42.01790527847404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            876,
+            3699
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BIRCHWOOD AV. x N. WOLCOTT AV. (HILLDALE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6776275726116,
+            42.01792461915459
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4269,
+            3699
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BIRCHWOOD AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67567275681489,
+            42.01790527847404
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            876,
+            6189
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOLCOTT AV. (HILLDALE AV.) x W. FARGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67763215503989,
+            42.01664632659834
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.057,
+    "dy_m": 2.685
+  }
+}

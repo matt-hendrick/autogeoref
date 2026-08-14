@@ -1,0 +1,164 @@
+{
+  "page": "76",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. HOOKER",
+      "W. HAINES"
+    ],
+    [
+      "W. HAINES",
+      "N. HICKORY"
+    ],
+    [
+      "W. BLISS",
+      "N. HICKORY"
+    ],
+    [
+      "W. BLISS",
+      "N. CHERRY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5512,
+            2283
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOOKER x W. HAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64895898858839,
+            41.90115236706658
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5512,
+            4515
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HAINES x N. HICKORY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65012662827598,
+            41.90062858129903
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2655,
+            4515
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLISS x N. HICKORY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65099098711214,
+            41.901704295069656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2655,
+            6744
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLISS x N. CHERRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65212935355298,
+            41.90119746072818
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            576,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64969069932982,
+            41.9034118452855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5186,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6482406369238,
+            41.90163005681634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            576,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65273322544078,
+            41.90204020987368
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -58.9352,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6102,
+    "separation_ratio": 1.031,
+    "best_offset_m": 44.3,
+    "n_junctions": 4
+  }
+}

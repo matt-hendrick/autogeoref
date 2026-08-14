@@ -1,0 +1,205 @@
+{
+  "page": "47",
+  "n_streets": 7,
+  "n_candidates": 19,
+  "n_inliers": 8,
+  "rotation_deg": 0.18,
+  "auto_residuals_m": [
+    3.46,
+    4.74,
+    6.55,
+    8.19,
+    7.99,
+    5.97,
+    7.09,
+    5.82
+  ],
+  "inlier_streets": [
+    [
+      "AUGUSTA",
+      "SACRAMENTO BLVD"
+    ],
+    [
+      "AUGUSTA",
+      "N. RICHMOND"
+    ],
+    [
+      "AUGUSTA",
+      "N. FRANCISCO AV."
+    ],
+    [
+      "W. WALTON",
+      "SACRAMENTO BLVD"
+    ],
+    [
+      "W. WALTON",
+      "N. RICHMOND"
+    ],
+    [
+      "W. WALTON",
+      "N. FRANCISCO AV."
+    ],
+    [
+      "SACRAMENTO BLVD",
+      "W. CHICAGO AV."
+    ],
+    [
+      "N. RICHMOND",
+      "W. GRAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            503,
+            136
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x SACRAMENTO BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70197576963798,
+            41.89925628941631
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2782,
+            136
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. RICHMOND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70049391780199,
+            41.89927043545842
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4649,
+            136
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69928441538072,
+            41.89928133409821
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            503,
+            2586
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALTON x SACRAMENTO BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70195375274625,
+            41.898040174071575
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2782,
+            2586
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALTON x N. RICHMOND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70045935347416,
+            41.89805408578796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4649,
+            2586
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALTON x N. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69925405980295,
+            41.89806685009359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            503,
+            7619
+          ],
+          "username": "autogeoref",
+          "note": "auto: SACRAMENTO BLVD x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70222868786477,
+            41.89561281932304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2782,
+            6800
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RICHMOND x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70069054128614,
+            41.895949495845485
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.743,
+    "dy_m": 2.682
+  }
+}

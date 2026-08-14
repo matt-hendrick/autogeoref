@@ -1,0 +1,163 @@
+{
+  "page": "73",
+  "n_streets": 11,
+  "n_candidates": 13,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. GRAND AV.",
+      "N. LECLAIRE AV."
+    ],
+    [
+      "HOMER",
+      "N. LEAMINGTON AV."
+    ],
+    [
+      "N. LARAMIE AV.",
+      "BLOOMINGDALE AV."
+    ],
+    [
+      "N. LECLAIRE AV.",
+      "BLOOMINGDALE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5321,
+            740
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. LECLAIRE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75292327341938,
+            41.91667195222712
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3125,
+            2090
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOMER x N. LEAMINGTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75433989746698,
+            41.91606804542682
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            555,
+            8350
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LARAMIE AV. x BLOOMINGDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75580530814783,
+            41.91317392906582
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5321,
+            8350
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LECLAIRE AV. x BLOOMINGDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7527917407029,
+            41.91321225600207
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75586452671214,
+            41.916613273330526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5214,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75299813914272,
+            41.91665034966506
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75579139195341,
+            41.91348246882391
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -1.028,
+    "dy_m": 2.585
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

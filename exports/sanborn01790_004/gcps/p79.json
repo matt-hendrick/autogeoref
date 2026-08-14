@@ -1,0 +1,142 @@
+{
+  "page": "79",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 19TH (NOT OPEN)",
+      "S. ROCKWELL"
+    ],
+    [
+      "W. 21ST",
+      "S. ROCKWELL"
+    ],
+    [
+      "W. 21ST PL.",
+      "S. ROCKWELL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            831,
+            276
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH (NOT OPEN) x S. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69065479405957,
+            41.85561816851025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            831,
+            4220
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST x S. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69059888570183,
+            41.85382149241993
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            831,
+            6272
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST PL. x S. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69056966576703,
+            41.8528792512693
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            574,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69079571566105,
+            41.85534528020048
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5162,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68800400970986,
+            41.85538418416915
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            574,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69071827840928,
+            41.852262429706094
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.6331,
+    "separation_ratio": 0.892,
+    "best_offset_m": 99.6,
+    "n_junctions": 4
+  }
+}

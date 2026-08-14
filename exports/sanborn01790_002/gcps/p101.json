@@ -1,0 +1,160 @@
+{
+  "page": "101",
+  "n_streets": 6,
+  "n_candidates": 19,
+  "n_inliers": 6,
+  "rotation_deg": 0.67,
+  "auto_residuals_m": [
+    15.84,
+    9.64,
+    12.91,
+    1.55,
+    3.02,
+    9.42
+  ],
+  "inlier_streets": [
+    [
+      "ARMITAGE AV.",
+      "HUMBOLDT B'LV'D."
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. FRANCISCO AV. (HEINE)"
+    ],
+    [
+      "CORTLAND ST.",
+      "HUMBOLDT B'LV'D."
+    ],
+    [
+      "CORTLAND ST.",
+      "N. FRANCISCO AV. (HEINE)"
+    ],
+    [
+      "BLOOMINGDALE AV. (R'D.)",
+      "HUMBOLDT B'LV'D."
+    ],
+    [
+      "BLOOMINGDALE AV. (R'D.)",
+      "N. FRANCISCO AV. (HEINE)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            604,
+            233
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x HUMBOLDT B'LV'D."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7021412754636,
+            41.91744114077158
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4787,
+            233
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. FRANCISCO AV. (HEINE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69936200342121,
+            41.91746506878902
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            604,
+            4215
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND ST. x HUMBOLDT B'LV'D."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70173744197939,
+            41.91562906858762
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4787,
+            4215
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND ST. x N. FRANCISCO AV. (HEINE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69930403305185,
+            41.91565028431187
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            604,
+            8040
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. (R'D.) x HUMBOLDT B'LV'D."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70168601971253,
+            41.9139158103096
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4787,
+            8040
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. (R'D.) x N. FRANCISCO AV. (HEINE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.699245783066,
+            41.913937317462754
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": -5.836,
+    "dy_m": -0.553
+  }
+}

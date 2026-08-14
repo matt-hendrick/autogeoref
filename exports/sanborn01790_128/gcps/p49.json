@@ -1,0 +1,119 @@
+{
+  "page": "49",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. IMLAY",
+      "N. SAYRE AV."
+    ],
+    [
+      "W. DEVON AV.",
+      "N. NEWARK AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2063,
+            1222
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. IMLAY x N. SAYRE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.80102757651848,
+            41.99796273940645
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5237,
+            3541
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DEVON AV. x N. NEWARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.79878967586727,
+            41.99680063896645
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            839
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.8020239863193,
+            41.998164031111095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5124,
+            839
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7989007488074,
+            41.998170012015954
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            7547
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.8020121315092,
+            41.99474489538453
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.3898,
+    "separation_ratio": 0.8,
+    "best_offset_m": 78.2,
+    "n_junctions": 5
+  }
+}

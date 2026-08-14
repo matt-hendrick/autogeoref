@@ -1,0 +1,109 @@
+{
+  "page": "34S",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.82,
+  "auto_residuals_m": [
+    0.31,
+    0.32,
+    0.32,
+    0.27
+  ],
+  "inlier_streets": [
+    [
+      "W. MADISON",
+      "S. FRANKLIN"
+    ],
+    [
+      "W. MADISON",
+      "S. WELLS"
+    ],
+    [
+      "S. FRANKLIN",
+      "W. MONROE"
+    ],
+    [
+      "W. MONROE",
+      "S. WELLS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1291,
+            2314
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63531162391936,
+            41.88193375222943
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3727,
+            2314
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63382427570993,
+            41.88194570241048
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1291,
+            5177
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANKLIN x W. MONROE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63528127162,
+            41.88064073715115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3727,
+            5177
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63379804049073,
+            41.880660260380544
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,136 @@
+{
+  "page": "13",
+  "n_streets": 12,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 0.52,
+  "auto_residuals_m": [
+    3.9,
+    7.14,
+    11.61,
+    7.18,
+    7.69
+  ],
+  "inlier_streets": [
+    [
+      "W. 43RD",
+      "PACKERS AV."
+    ],
+    [
+      "W. 43RD",
+      "S. CENTRE AV."
+    ],
+    [
+      "W. 43RD PL.",
+      "PACKERS AV."
+    ],
+    [
+      "W. 43RD PL.",
+      "S. CENTRE AV."
+    ],
+    [
+      "W. 44TH",
+      "PACKERS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            472,
+            3221
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 43RD x PACKERS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65865322901772,
+            41.8159811464064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            6271,
+            3221
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 43RD x S. CENTRE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6553346977729,
+            41.81602541343383
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            472,
+            5004
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 43RD PL. x PACKERS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65863387076617,
+            41.81513961870417
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            6271,
+            5004
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 43RD PL. x S. CENTRE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65532343878428,
+            41.81519187909374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            472,
+            7575
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 44TH x PACKERS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65861185480266,
+            41.81420498125714
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.192,
+    "dy_m": 6.466
+  }
+}

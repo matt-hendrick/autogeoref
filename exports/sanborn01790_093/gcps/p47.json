@@ -1,0 +1,134 @@
+{
+  "page": "47",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 0.48,
+  "auto_residuals_m": [
+    2.65,
+    1.13,
+    0.56,
+    1.28,
+    4.53
+  ],
+  "inlier_streets": [
+    [
+      "W. VAN BUREN",
+      "S. MORGAN"
+    ],
+    [
+      "W. VAN BUREN",
+      "S. SANGAMON"
+    ],
+    [
+      "W. VAN BUREN",
+      "S. PEORIA"
+    ],
+    [
+      "W. HARRISON",
+      "S. MORGAN"
+    ],
+    [
+      "S. MORGAN",
+      "TILDEN ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1073,
+            1157
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.651873918822,
+            41.8766013305331
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2986,
+            1157
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. SANGAMON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65070322427835,
+            41.87661894370446
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4895,
+            1157
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. PEORIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64953765830164,
+            41.876637460495644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1073,
+            6005
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65181002081513,
+            41.874368613281234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1073,
+            2547
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MORGAN x TILDEN ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65185991035972,
+            41.87600648968602
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

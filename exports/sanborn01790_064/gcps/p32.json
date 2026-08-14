@@ -1,0 +1,163 @@
+{
+  "page": "32",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 93RD ST.",
+      "S. HARPER AV."
+    ],
+    [
+      "S. HARPER AV.",
+      "E. 94TH ST."
+    ],
+    [
+      "S. STONY ISLAND AV.",
+      "E. 94TH ST."
+    ],
+    [
+      "S. STONY ISLAND AV.",
+      "E. 95TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2747,
+            387
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 93RD ST. x S. HARPER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58669969559088,
+            41.725973686932306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2747,
+            4331
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HARPER AV. x E. 94TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58665829935934,
+            41.724148947540826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4984,
+            4331
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STONY ISLAND AV. x E. 94TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58518890860424,
+            41.72412463938216
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4984,
+            8137
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STONY ISLAND AV. x E. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58515788432844,
+            41.72233914897406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58802802940347,
+            41.72572784891217
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5115,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58518371177121,
+            41.72576627405578
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58795097882124,
+            41.72255081494061
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -3.452,
+    "dy_m": 0.015
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "page": "10",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.74,
+  "auto_residuals_m": [
+    6.09,
+    6.07,
+    6.08,
+    6.08
+  ],
+  "inlier_streets": [
+    [
+      "JEFFERSON AVE. (ROSALIE CT.)",
+      "57TH"
+    ],
+    [
+      "JEFFERSON AVE. (ROSALIE CT.)",
+      "59TH"
+    ],
+    [
+      "57TH",
+      "STONY ISLAND AVE."
+    ],
+    [
+      "STONY ISLAND AVE.",
+      "59TH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            978,
+            266
+          ],
+          "username": "autogeoref",
+          "note": "auto: JEFFERSON AVE. (ROSALIE CT.) x 57TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5889869054301,
+            41.79152618520333
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            978,
+            8075
+          ],
+          "username": "autogeoref",
+          "note": "auto: JEFFERSON AVE. (ROSALIE CT.) x 59TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58912818205778,
+            41.787876269393365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4841,
+            266
+          ],
+          "username": "autogeoref",
+          "note": "auto: 57TH x STONY ISLAND AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58671179149442,
+            41.79154701138399
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4841,
+            8075
+          ],
+          "username": "autogeoref",
+          "note": "auto: STONY ISLAND AVE. x 59TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58663462370964,
+            41.787901467460244
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

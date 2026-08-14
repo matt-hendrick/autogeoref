@@ -1,0 +1,159 @@
+{
+  "page": "53",
+  "n_streets": 10,
+  "n_candidates": 15,
+  "n_inliers": 6,
+  "rotation_deg": 2.01,
+  "auto_residuals_m": [
+    4.92,
+    3.77,
+    0.57,
+    3.83,
+    1.44,
+    2.83
+  ],
+  "inlier_streets": [
+    [
+      "W. 37TH PL.",
+      "S. ROCKWELL"
+    ],
+    [
+      "S. ROCKWELL",
+      "W. 38TH ST."
+    ],
+    [
+      "S. ROCKWELL",
+      "W. PERSHING (W. 39TH ST.) ROAD"
+    ],
+    [
+      "S. MAPLEWOOD AV.",
+      "W. 38TH ST."
+    ],
+    [
+      "W. 38TH ST.",
+      "S. CAMPBELL"
+    ],
+    [
+      "S. CAMPBELL",
+      "W. PERSHING (W. 39TH ST.) ROAD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            836,
+            2453
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH PL. x S. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68978734106884,
+            41.825612145755095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            836,
+            4526
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROCKWELL x W. 38TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68975864513581,
+            41.824697070334004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            836,
+            8374
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROCKWELL x W. PERSHING (W. 39TH ST.) ROAD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68971650847155,
+            41.82286855585696
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2887,
+            4526
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MAPLEWOOD AV. x W. 38TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68852858426271,
+            41.824720959115574
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4754,
+            4526
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x S. CAMPBELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68734442565993,
+            41.82474491148181
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4754,
+            8374
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CAMPBELL x W. PERSHING (W. 39TH ST.) ROAD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6872834903214,
+            41.82291446940289
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.174,
+    "dy_m": -2.162
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "page": "1",
+  "n_streets": 9,
+  "n_candidates": 10,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. PARKSIDE AV.",
+      "CARMEN AV."
+    ],
+    [
+      "N. MAJOR AV.",
+      "CARMEN AV."
+    ],
+    [
+      "FOSTER AV. (CITY SUBURB)",
+      "N. MENARD AV."
+    ],
+    [
+      "N. MANGO AV.",
+      "CARMEN AV."
+    ],
+    [
+      "CARMEN AV.",
+      "N. MENARD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4670,
+            2124
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PARKSIDE AV. x CARMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76975252665349,
+            41.973864372811626
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4670,
+            3996
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAJOR AV. x CARMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77094101548404,
+            41.973878148882356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            878,
+            7761
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. (CITY SUBURB) x N. MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77333928786895,
+            41.97567531675528
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4670,
+            5901
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MANGO AV. x CARMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77215458571568,
+            41.97387721269674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4670,
+            7761
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x N. MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77336670665014,
+            41.973875688012754
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76900408102094,
+            41.9757767151988
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5260,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76900492748214,
+            41.97360799530139
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77324778442357,
+            41.97577763064629
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -89.9318,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.6011,
+    "separation_ratio": 0.969,
+    "best_offset_m": 95.4,
+    "n_junctions": 21
+  }
+}

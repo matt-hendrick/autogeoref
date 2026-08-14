@@ -1,0 +1,113 @@
+{
+  "page": "58",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 4,
+  "rotation_deg": 0.01,
+  "auto_residuals_m": [
+    10.81,
+    2.02,
+    12.53,
+    3.74
+  ],
+  "inlier_streets": [
+    [
+      "ARCHER AV.",
+      "WALLACE"
+    ],
+    [
+      "W. 24TH PL.",
+      "S. LOWE AV."
+    ],
+    [
+      "W. 24TH PL.",
+      "WALLACE"
+    ],
+    [
+      "WALLACE",
+      "W. 25TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4494,
+            1465
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARCHER AV. x WALLACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64227405111986,
+            41.84893110734615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            873,
+            2843
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 24TH PL. x S. LOWE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64445828301278,
+            41.84818972895486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5073,
+            2843
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 24TH PL. x WALLACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64165399942203,
+            41.848124835045425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4494,
+            6842
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALLACE x W. 25TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64162589067429,
+            41.84630610596929
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.874,
+    "dy_m": 0.83
+  }
+}

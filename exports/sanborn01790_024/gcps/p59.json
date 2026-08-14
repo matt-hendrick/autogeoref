@@ -1,0 +1,207 @@
+{
+  "page": "59",
+  "n_streets": 11,
+  "n_candidates": 17,
+  "n_inliers": 8,
+  "rotation_deg": 1.28,
+  "auto_residuals_m": [
+    10.52,
+    10.26,
+    2.48,
+    5.39,
+    11.3,
+    24.57,
+    15.06,
+    9.4
+  ],
+  "inlier_streets": [
+    [
+      "W. HARRISON",
+      "LOOMIS"
+    ],
+    [
+      "W. HARRISON",
+      "THROOP"
+    ],
+    [
+      "PLUM ST.",
+      "LOOMIS"
+    ],
+    [
+      "OREGON AV.",
+      "LOOMIS"
+    ],
+    [
+      "OREGON AV.",
+      "SIBLEY"
+    ],
+    [
+      "OREGON AV.",
+      "SIBLEY"
+    ],
+    [
+      "LOOMIS",
+      "SPRUCE ST."
+    ],
+    [
+      "MACALISTER PL.",
+      "SIBLEY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1089,
+            1108
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6618090107269,
+            41.87417674872706
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4921,
+            1108
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65956273383323,
+            41.87421056600067
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1089,
+            2933
+          ],
+          "username": "autogeoref",
+          "note": "auto: PLUM ST. x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66178366575883,
+            41.873325387138934
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1089,
+            3354
+          ],
+          "username": "autogeoref",
+          "note": "auto: OREGON AV. x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6617775105971,
+            41.873130646654204
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3581,
+            3354
+          ],
+          "username": "autogeoref",
+          "note": "auto: OREGON AV. x SIBLEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6602489211946,
+            41.873155345146124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3074,
+            3354
+          ],
+          "username": "autogeoref",
+          "note": "auto: OREGON AV. x SIBLEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6602489211946,
+            41.873155345146124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1089,
+            4736
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOOMIS x SPRUCE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6617583140869,
+            41.87250081090563
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3074,
+            5518
+          ],
+          "username": "autogeoref",
+          "note": "auto: MACALISTER PL. x SIBLEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66021884829634,
+            41.87216872836163
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -2.288,
+    "dy_m": -3.979
+  }
+}

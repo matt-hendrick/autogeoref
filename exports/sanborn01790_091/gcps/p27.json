@@ -1,0 +1,142 @@
+{
+  "page": "27",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N. HONORE AV. (GIRARD)",
+      "W. ARMITAGE AV."
+    ],
+    [
+      "N. WOOD",
+      "W. ARMITAGE AV."
+    ],
+    [
+      "W. ARMITAGE AV.",
+      "N. HERMITAGE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1093,
+            6566
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HONORE AV. (GIRARD) x W. ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6739757733423,
+            41.91782699743729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3095,
+            6566
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOOD x W. ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67276153473277,
+            41.91784987403031
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            6566
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARMITAGE AV. x N. HERMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67154504752413,
+            41.91787771519872
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67435848567035,
+            41.920469106577364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5220,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67153336225122,
+            41.92051640848907
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67427823196557,
+            41.91781533412391
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.465,
+    "separation_ratio": 0.812,
+    "best_offset_m": 98.3,
+    "n_junctions": 19
+  }
+}

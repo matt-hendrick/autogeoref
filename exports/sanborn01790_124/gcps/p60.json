@@ -1,0 +1,159 @@
+{
+  "page": "60",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 1.27,
+  "auto_residuals_m": [
+    9.55,
+    10.35,
+    8.5,
+    6.27,
+    5.76,
+    5.31
+  ],
+  "inlier_streets": [
+    [
+      "W. PRATT AV.",
+      "N. RIDGE RD."
+    ],
+    [
+      "W. PRATT AV.",
+      "N. SEELEY AV."
+    ],
+    [
+      "W. COLUMBIA AV.",
+      "N. SEELEY AV."
+    ],
+    [
+      "W. COLUMBIA AV.",
+      "N. DAMEN AV."
+    ],
+    [
+      "N. SEELEY AV.",
+      "W. ALBION AV."
+    ],
+    [
+      "N. DAMEN AV.",
+      "W. ALBION AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4858,
+            268
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PRATT AV. x N. RIDGE RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68025481204303,
+            42.00522058744349
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2787,
+            268
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PRATT AV. x N. SEELEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68178809206987,
+            42.005197925038004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2787,
+            2143
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. COLUMBIA AV. x N. SEELEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68162686148322,
+            42.00422272299168
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4715,
+            2143
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. COLUMBIA AV. x N. DAMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68042517031574,
+            42.00425615105942
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2787,
+            7760
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEELEY AV. x W. ALBION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68152630654073,
+            42.0015943716422
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4715,
+            7760
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAMEN AV. x W. ALBION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68034024256718,
+            42.00159874547015
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -9.378,
+    "dy_m": 2.211
+  }
+}

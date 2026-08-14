@@ -1,0 +1,136 @@
+{
+  "page": "66",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "rotation_deg": 0.15,
+  "auto_residuals_m": [
+    2.29,
+    2.57,
+    2.32,
+    4.74,
+    7.29
+  ],
+  "inlier_streets": [
+    [
+      "POLK",
+      "S. OAKLEY BLVD."
+    ],
+    [
+      "POLK",
+      "S. LEAVITT"
+    ],
+    [
+      "TAYLOR",
+      "S. OAKLEY BLVD."
+    ],
+    [
+      "S. LEAVITT",
+      "DE KALB ST."
+    ],
+    [
+      "S. LEAVITT",
+      "DE KALB ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            835,
+            1053
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x S. OAKLEY BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68369778045752,
+            41.87136959006927
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4721,
+            1053
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68124774587864,
+            41.871406922399906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            835,
+            6231
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x S. OAKLEY BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68363211028374,
+            41.86901604218345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4721,
+            3040
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT x DE KALB ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68122562490026,
+            41.870506485114916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4721,
+            3998
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT x DE KALB ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68121158982132,
+            41.869984912730736
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.419,
+    "dy_m": 0.653
+  }
+}

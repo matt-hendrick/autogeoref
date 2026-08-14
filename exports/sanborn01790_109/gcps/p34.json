@@ -1,0 +1,141 @@
+{
+  "page": "34",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. SACRAMENTO AV.",
+      "W. 36TH PL."
+    ],
+    [
+      "S. RICHMOND AV.",
+      "W. 36TH ST."
+    ],
+    [
+      "S. SACRAMENTO AV.",
+      "W. 36TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3421,
+            6259
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SACRAMENTO AV. x W. 36TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69965199457026,
+            41.82724918126192
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5328,
+            4263
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RICHMOND AV. x W. 36TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69842632363759,
+            41.82819632431993
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3314,
+            6259
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SACRAMENTO AV. x W. 36TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69965199457026,
+            41.82724918126192
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70144428957619,
+            41.8297284199704
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5288,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69852003240828,
+            41.82977644379596
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70135101435358,
+            41.82657486932414
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6476,
+    "separation_ratio": 1.115,
+    "best_offset_m": 7.7,
+    "n_junctions": 6
+  }
+}

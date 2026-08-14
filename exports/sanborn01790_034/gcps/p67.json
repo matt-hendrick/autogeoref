@@ -1,0 +1,202 @@
+{
+  "page": "67",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "FOSTER AV.",
+      "EVANSTON AV."
+    ],
+    [
+      "WINONA AV.",
+      "EVANSTON AV."
+    ],
+    [
+      "CARMEN AV.",
+      "EVANSTON AV."
+    ],
+    [
+      "ARGYLE AV.",
+      "EVANSTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5528,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x EVANSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65986612874853,
+            41.97632276261375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5528,
+            2188
+          ],
+          "username": "autogeoref",
+          "note": "auto: WINONA AV. x EVANSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65984315447632,
+            41.97542898885856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5528,
+            3846
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x EVANSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65982221599606,
+            41.97461872358594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5528,
+            8355
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARGYLE AV. x EVANSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6597679094357,
+            41.9726762521587
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66286238582715,
+            41.97598985425972
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5222,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66004427072087,
+            41.9760311787941
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66278091232597,
+            41.97291905107878
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.681,
+    "separation_ratio": 1.194,
+    "best_offset_m": 7.0,
+    "n_junctions": 5
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5"
+      ],
+      "consensus_numerals": 5,
+      "votable": 4,
+      "in_block": 4,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 13.9,
+          "addr_diff": 5.2
+        },
+        {
+          "perp_m": 13.9,
+          "addr_diff": 5.6
+        },
+        {
+          "perp_m": 13.9,
+          "addr_diff": 4.2
+        },
+        {
+          "perp_m": 13.9,
+          "addr_diff": 4.6
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

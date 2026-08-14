@@ -1,0 +1,228 @@
+{
+  "page": "66",
+  "n_streets": 6,
+  "n_candidates": 11,
+  "n_inliers": 9,
+  "rotation_deg": 0.95,
+  "auto_residuals_m": [
+    10.31,
+    6.51,
+    7.4,
+    13.53,
+    5.28,
+    17.32,
+    6.59,
+    16.89,
+    11.57
+  ],
+  "inlier_streets": [
+    [
+      "W. BLOOMINGDALE AV.",
+      "N. AUSTIN AV."
+    ],
+    [
+      "W. BLOOMINGDALE AV.",
+      "N. MASON AV."
+    ],
+    [
+      "W. BLOOMINGDALE AV.",
+      "N. MAYFIELD AV."
+    ],
+    [
+      "N. AUSTIN AV.",
+      "WABANSIA AV."
+    ],
+    [
+      "N. AUSTIN AV.",
+      "W. NORTH AV."
+    ],
+    [
+      "N. MASON AV.",
+      "WABANSIA AV."
+    ],
+    [
+      "N. MASON AV.",
+      "W. NORTH AV."
+    ],
+    [
+      "WABANSIA AV.",
+      "N. MAYFIELD AV."
+    ],
+    [
+      "N. MAYFIELD AV.",
+      "W. NORTH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            208,
+            215
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLOOMINGDALE AV. x N. AUSTIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77539243991961,
+            41.91291108575693
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2181,
+            215
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLOOMINGDALE AV. x N. MASON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77413873374758,
+            41.9129251807165
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4218,
+            215
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLOOMINGDALE AV. x N. MAYFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77288794675322,
+            41.91294120872581
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            208,
+            4056
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AUSTIN AV. x WABANSIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77533053448161,
+            41.91108713529152
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            208,
+            8032
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AUSTIN AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7756478294082,
+            41.90926072286047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2181,
+            4056
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MASON AV. x WABANSIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77407636830632,
+            41.91110304955458
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2181,
+            8032
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MASON AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77444080462438,
+            41.90927561325054
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4218,
+            4056
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. MAYFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77282129388864,
+            41.91111919678157
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4218,
+            8032
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAYFIELD AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77322752509504,
+            41.90929020769575
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -5.403,
+    "dy_m": 1.071
+  }
+}

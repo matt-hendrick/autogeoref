@@ -1,0 +1,182 @@
+{
+  "page": "28",
+  "n_streets": 14,
+  "n_candidates": 65,
+  "n_inliers": 7,
+  "rotation_deg": 0.95,
+  "auto_residuals_m": [
+    8.54,
+    8.83,
+    8.53,
+    3.4,
+    8.18,
+    3.36,
+    6.74
+  ],
+  "inlier_streets": [
+    [
+      "E. 78TH ST.",
+      "MUSKEGON AV."
+    ],
+    [
+      "E. 78TH ST.",
+      "EXCHANGE AV."
+    ],
+    [
+      "MUSKEGON AV.",
+      "E. 78TH ST."
+    ],
+    [
+      "MUSKEGON AV.",
+      "E. 79TH ST."
+    ],
+    [
+      "E. 78TH ST.",
+      "EXCHANGE AV."
+    ],
+    [
+      "ESCANABA AV.",
+      "E. 79TH ST."
+    ],
+    [
+      "E. 79TH ST.",
+      "EXCHANGE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1068,
+            1895
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 78TH ST. x MUSKEGON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5555769231954,
+            41.753696899542156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3448,
+            1895
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 78TH ST. x EXCHANGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5542419806102,
+            41.753714333796005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1068,
+            1677
+          ],
+          "username": "autogeoref",
+          "note": "auto: MUSKEGON AV. x E. 78TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5555769231954,
+            41.753696899542156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1068,
+            5787
+          ],
+          "username": "autogeoref",
+          "note": "auto: MUSKEGON AV. x E. 79TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55554288043949,
+            41.751885569483406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3448,
+            1677
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 78TH ST. x EXCHANGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5542419806102,
+            41.753714333796005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3486,
+            5787
+          ],
+          "username": "autogeoref",
+          "note": "auto: ESCANABA AV. x E. 79TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55410777769252,
+            41.7519040766347
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5309,
+            5787
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 79TH ST. x EXCHANGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55293539701293,
+            41.751919320712375
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -4.017,
+    "dy_m": 1.364
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "page": "10",
+  "n_streets": 9,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. DELAWARE PL.",
+      "N. DEWITT PL. (CT.)"
+    ],
+    [
+      "E. DELAWARE PL.",
+      "N. DEWITT"
+    ],
+    [
+      "N. DEWITT PL. (CT.)",
+      "E. CHESTNUT"
+    ],
+    [
+      "N. DEWITT PL. (CT.)",
+      "E. PEARSON"
+    ],
+    [
+      "E. CHESTNUT",
+      "N. DEWITT"
+    ],
+    [
+      "N. DEWITT",
+      "E. PEARSON"
+    ],
+    [
+      "E. CHICAGO AV.",
+      "N. FAIRBANKS CT."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            633,
+            985
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. DELAWARE PL. x N. DEWITT PL. (CT.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62021525570565,
+            41.89926725700094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            630,
+            985
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. DELAWARE PL. x N. DEWITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62021525570565,
+            41.89926725700094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            633,
+            2764
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DEWITT PL. (CT.) x E. CHESTNUT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62019853660634,
+            41.89844395421407
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            633,
+            4587
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DEWITT PL. (CT.) x E. PEARSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62018203433632,
+            41.897640441326914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            630,
+            2764
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CHESTNUT x N. DEWITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62019853660634,
+            41.89844395421407
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            630,
+            4587
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DEWITT x E. PEARSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62018203433632,
+            41.897640441326914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            412,
+            6429
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CHICAGO AV. x N. FAIRBANKS CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62036950838899,
+            41.89678520652087
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62026132527905,
+            41.899374078579946
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5314,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61739061007815,
+            41.89941850083755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62018732189377,
+            41.89672455399456
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.5228,
+    "separation_ratio": 0.865,
+    "best_offset_m": 94.7,
+    "n_junctions": 8
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "page": "92",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "TAYLOR",
+      "LYTLE ST"
+    ],
+    [
+      "TAYLOR",
+      "THROOP"
+    ],
+    [
+      "TAYLOR",
+      "LYTLE"
+    ],
+    [
+      "TAYLOR",
+      "S. RACINE AV. (S. CENTRE AV.)"
+    ],
+    [
+      "THROOP",
+      "ELBURN AV"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2552,
+            714
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x LYTLE ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65833035758156,
+            41.86939260185368
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1038,
+            714
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65923156261354,
+            41.869378178568155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3021,
+            714
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x LYTLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.658013019502,
+            41.86939722712741
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4930,
+            714
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x S. RACINE AV. (S. CENTRE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65679010734038,
+            41.86941523454146
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1038,
+            2382
+          ],
+          "username": "autogeoref",
+          "note": "auto: THROOP x ELBURN AV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65920740888286,
+            41.86858950396874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65947766227167,
+            41.86935754212041
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65665851572827,
+            41.86940151679836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65940392946082,
+            41.86673627899948
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -3.912,
+    "dy_m": -0.035
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6632,
+    "separation_ratio": 1.321,
+    "best_offset_m": 9.6,
+    "n_junctions": 24
+  }
+}

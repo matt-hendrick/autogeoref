@@ -1,0 +1,142 @@
+{
+  "page": "17",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. ADAMS",
+      "S. WESTERN AV."
+    ],
+    [
+      "S. WESTERN AV.",
+      "W. JACKSON B'LVD"
+    ],
+    [
+      "S. WESTERN AV.",
+      "W. VAN-BUREN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            936,
+            855
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68636483638392,
+            41.87858891347069
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            936,
+            3162
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WESTERN AV. x W. JACKSON B'LVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68634308010438,
+            41.877550167347295
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            936,
+            6389
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WESTERN AV. x W. VAN-BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68626949839522,
+            41.87608361824806
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6865691046633,
+            41.87862847446889
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5291,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68374322869936,
+            41.878672547722935
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68649537185244,
+            41.87600759152428
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5569,
+    "separation_ratio": 1.214,
+    "best_offset_m": 1.7,
+    "n_junctions": 36
+  }
+}

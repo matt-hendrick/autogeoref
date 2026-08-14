@@ -1,0 +1,162 @@
+{
+  "page": "113",
+  "n_streets": 6,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "THOMAS",
+      "N. WINCHESTER AV."
+    ],
+    [
+      "AUGUSTA",
+      "N. WINCHESTER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2969,
+            1501
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x N. WINCHESTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67598405010243,
+            41.901391546135855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2969,
+            5528
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. WINCHESTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67593156031144,
+            41.89957146414551
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67745667127465,
+            41.9017255445784
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5241,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67460442993347,
+            41.90177226962888
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67737773259607,
+            41.899056097577535
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7277,
+    "separation_ratio": 1.166,
+    "best_offset_m": 1.9,
+    "n_junctions": 17
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5"
+      ],
+      "consensus_numerals": 6,
+      "votable": 5,
+      "in_block": 5,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 14.5,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 14.4,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 14.3,
+          "addr_diff": 1.5
+        },
+        {
+          "perp_m": 14.3,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 14.2,
+          "addr_diff": 1.3
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

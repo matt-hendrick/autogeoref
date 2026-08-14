@@ -1,0 +1,182 @@
+{
+  "page": "30",
+  "n_streets": 13,
+  "n_candidates": 15,
+  "n_inliers": 7,
+  "rotation_deg": 0.34,
+  "auto_residuals_m": [
+    4.87,
+    5.54,
+    1.74,
+    5.68,
+    5.76,
+    6.59,
+    2.81
+  ],
+  "inlier_streets": [
+    [
+      "W. CULLERTON",
+      "S. WENTWORTH AV."
+    ],
+    [
+      "W. CULLERTON (W. 20TH ST.)",
+      "S. WENTWORTH AV."
+    ],
+    [
+      "W. 21ST ST.",
+      "S. WENTWORTH AV."
+    ],
+    [
+      "W. 21ST ST.",
+      "S. LA SALLE"
+    ],
+    [
+      "S. WENTWORTH AV.",
+      "W. CERMAK RD. (W. 22ND ST.)"
+    ],
+    [
+      "S. LA SALLE",
+      "W. CERMAK RD. (W. 22ND ST.)"
+    ],
+    [
+      "W. CERMAK RD. (W. 22ND ST.)",
+      "WENTWORTH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4196,
+            372
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CULLERTON x S. WENTWORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63182808693438,
+            41.85538116641551
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4196,
+            518
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CULLERTON (W. 20TH ST.) x S. WENTWORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63182808693438,
+            41.85538116641551
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4196,
+            3173
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. WENTWORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63179575977796,
+            41.85417023153375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5580,
+            3173
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. LA SALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63093572945417,
+            41.85416498860565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4196,
+            6184
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WENTWORTH AV. x W. CERMAK RD. (W. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63176006729876,
+            41.85283538581532
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5580,
+            6184
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LA SALLE x W. CERMAK RD. (W. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6307561464544,
+            41.85284857606978
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3720,
+            6184
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CERMAK RD. (W. 22ND ST.) x WENTWORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63199104949173,
+            41.85283173555262
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.98,
+    "dy_m": -3.016
+  }
+}

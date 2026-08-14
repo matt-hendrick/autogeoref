@@ -1,0 +1,207 @@
+{
+  "page": "31",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.56,
+  "auto_residuals_m": [
+    0.31,
+    0.26,
+    0.24,
+    0.37,
+    1.28,
+    1.49,
+    0.82,
+    0.9
+  ],
+  "inlier_streets": [
+    [
+      "FRANKFORT",
+      "N. LEAVITT"
+    ],
+    [
+      "FRANKFORT",
+      "N. HOYNE AV."
+    ],
+    [
+      "LUBECK",
+      "N. LEAVITT"
+    ],
+    [
+      "LUBECK",
+      "N. HOYNE AV."
+    ],
+    [
+      "COBLENTZ",
+      "N. LEAVITT"
+    ],
+    [
+      "COBLENTZ",
+      "N. HOYNE AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. LEAVITT"
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. HOYNE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            674,
+            1217
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRANKFORT x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68259147718094,
+            41.91992046368659
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4686,
+            1217
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRANKFORT x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68017535488853,
+            41.91997036692435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            674,
+            2889
+          ],
+          "username": "autogeoref",
+          "note": "auto: LUBECK x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68256574423046,
+            41.919161675587446
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4686,
+            2889
+          ],
+          "username": "autogeoref",
+          "note": "auto: LUBECK x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6801493125458,
+            41.91920970226188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            674,
+            4582
+          ],
+          "username": "autogeoref",
+          "note": "auto: COBLENTZ x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68253901555272,
+            41.918402574112406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4686,
+            4582
+          ],
+          "username": "autogeoref",
+          "note": "auto: COBLENTZ x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68012214172602,
+            41.918453096101175
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            674,
+            6242
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68252061764952,
+            41.9176355524296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4686,
+            6242
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68009809950317,
+            41.91768328593811
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -0.232,
+    "dy_m": -3.492
+  }
+}

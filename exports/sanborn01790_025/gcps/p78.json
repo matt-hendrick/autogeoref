@@ -1,0 +1,163 @@
+{
+  "page": "78",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 21ST ST.",
+      "LOOMIS"
+    ],
+    [
+      "W. 21ST ST.",
+      "LAFLIN"
+    ],
+    [
+      "LOOMIS",
+      "W. 21ST PL."
+    ],
+    [
+      "LAFLIN",
+      "W. 21ST PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4939,
+            2666
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66121804290295,
+            41.85424645026598
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            2666
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x LAFLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66366523050348,
+            41.854209515474224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4939,
+            4683
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOOMIS x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66119161241619,
+            41.85331802803059
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            4683
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAFLIN x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66363776905351,
+            41.85328349746558
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66389858040024,
+            41.855079148146224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5252,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66105156953462,
+            41.85512198121402
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66382642097693,
+            41.8524182274422
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.6796,
+    "separation_ratio": 0.956,
+    "best_offset_m": 99.2,
+    "n_junctions": 26
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "page": "35",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.38,
+  "auto_residuals_m": [
+    1.1,
+    1.42,
+    3.05,
+    3.37,
+    2.8,
+    0.79,
+    2.78,
+    0.78
+  ],
+  "inlier_streets": [
+    [
+      "W. TOUHY AV.",
+      "N. DAMEN AV."
+    ],
+    [
+      "W. TOUHY AV.",
+      "N. WOLCOTT AV. (N. HILLDALE AV.)"
+    ],
+    [
+      "W. ESTES AV.",
+      "N. DAMEN AV."
+    ],
+    [
+      "W. ESTES AV.",
+      "N. WOLCOTT AV. (N. HILLDALE AV.)"
+    ],
+    [
+      "N. DAMEN AV.",
+      "W. GREENLEAF AV."
+    ],
+    [
+      "N. DAMEN AV.",
+      "W. LUNT AV."
+    ],
+    [
+      "N. WOLCOTT AV. (N. HILLDALE AV.)",
+      "W. GREENLEAF AV."
+    ],
+    [
+      "N. WOLCOTT AV. (N. HILLDALE AV.)",
+      "W. LUNT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            972,
+            319
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TOUHY AV. x N. DAMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68028734742049,
+            42.01254322074953
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4424,
+            319
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TOUHY AV. x N. WOLCOTT AV. (N. HILLDALE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67820410364364,
+            42.01258272432916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            972,
+            2900
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ESTES AV. x N. DAMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68024218323977,
+            42.01131762636276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4424,
+            2900
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ESTES AV. x N. WOLCOTT AV. (N. HILLDALE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6781590693688,
+            42.011352706028156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            972,
+            5600
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAMEN AV. x W. GREENLEAF AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68020108320302,
+            42.01010324314043
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            972,
+            8177
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAMEN AV. x W. LUNT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68015688210082,
+            42.00888304875594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4424,
+            5600
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOLCOTT AV. (N. HILLDALE AV.) x W. GREENLEAF AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6781201768988,
+            42.01014026333466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4424,
+            8177
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOLCOTT AV. (N. HILLDALE AV.) x W. LUNT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67807525933806,
+            42.00892032783647
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.901,
+    "dy_m": 1.122
+  }
+}

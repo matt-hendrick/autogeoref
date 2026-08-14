@@ -1,0 +1,145 @@
+{
+  "page": "39",
+  "n_streets": 4,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 32ND PL.",
+      "S. RACINE (S. CENTRE AV.)"
+    ],
+    [
+      "W. 32ND PL.",
+      "S. MAY (WALL)"
+    ],
+    [
+      "W. 33RD ST.",
+      "S. RACINE (S. CENTRE AV.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3381,
+            176
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 32ND PL. x S. RACINE (S. CENTRE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6559508261159,
+            41.83521104806245
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5379,
+            176
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 32ND PL. x S. MAY (WALL)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6547344526493,
+            41.83522792724874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3381,
+            2061
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x S. RACINE (S. CENTRE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65592469472514,
+            41.83432382947352
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65763314858006,
+            41.8349273445277
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5299,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65477866775697,
+            41.834962899808396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65757379749638,
+            41.8322821711181
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -0.589,
+    "dy_m": 3.38
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.6245,
+    "separation_ratio": 0.931,
+    "best_offset_m": 95.7,
+    "n_junctions": 17
+  }
+}

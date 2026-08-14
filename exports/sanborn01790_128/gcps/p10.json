@@ -1,0 +1,180 @@
+{
+  "page": "10",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 7,
+  "rotation_deg": -0.13,
+  "auto_residuals_m": [
+    2.17,
+    4.58,
+    3.93,
+    4.45,
+    5.99,
+    2.23,
+    4.38
+  ],
+  "inlier_streets": [
+    [
+      "W. BRYN MAWR AV.",
+      "N. LINDER AV."
+    ],
+    [
+      "W. BRYN MAWR AV.",
+      "N. LOTUS AV."
+    ],
+    [
+      "W. CATALPA AV.",
+      "N. LINDER AV."
+    ],
+    [
+      "W. CATALPA AV.",
+      "N. LOTUS AV."
+    ],
+    [
+      "W. CATALPA AV.",
+      "N. LONG AV."
+    ],
+    [
+      "N. LINDER AV.",
+      "W. BALMORAL AV."
+    ],
+    [
+      "N. LOTUS AV.",
+      "W. BALMORAL AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            826,
+            273
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BRYN MAWR AV. x N. LINDER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76590416510925,
+            41.982948878272
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2849,
+            273
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BRYN MAWR AV. x N. LOTUS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76468657652077,
+            41.98295486294577
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            826,
+            4125
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CATALPA AV. x N. LINDER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76593688312381,
+            41.981136927258135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2849,
+            4125
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CATALPA AV. x N. LOTUS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76471629860453,
+            41.98114078911144
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4654,
+            4125
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CATALPA AV. x N. LONG AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7634995809572,
+            41.98114905915587
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            826,
+            8121
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LINDER AV. x W. BALMORAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76596958504295,
+            41.97932291166918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2849,
+            8121
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LOTUS AV. x W. BALMORAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76475135371203,
+            41.979326518830796
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

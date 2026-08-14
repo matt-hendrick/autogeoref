@@ -1,0 +1,185 @@
+{
+  "page": "72",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. NORTH PARK AV.",
+      "W. SCHILLER ST."
+    ],
+    [
+      "N. NORTH PARK AV.",
+      "W. EVERGREEN AV. (W. SIDE)"
+    ],
+    [
+      "W. SCHILLER ST.",
+      "N. WIELAND"
+    ],
+    [
+      "W. SCHILLER ST.",
+      "N. WELLS"
+    ],
+    [
+      "W. EVERGREEN AV. (W. SIDE)",
+      "N. WELLS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1401,
+            3971
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NORTH PARK AV. x W. SCHILLER ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63655677771526,
+            41.907632629718265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1401,
+            6052
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NORTH PARK AV. x W. EVERGREEN AV. (W. SIDE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63652856900441,
+            41.90666543284965
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2997,
+            3971
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SCHILLER ST. x N. WIELAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63559711762316,
+            41.90765120391338
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4608,
+            3971
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SCHILLER ST. x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63460571840626,
+            41.907666066813654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4608,
+            6052
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EVERGREEN AV. (W. SIDE) x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63457505389886,
+            41.9066923386699
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6370913409294,
+            41.90908004807917
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5295,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63423132102642,
+            41.90912429810749
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63701732743712,
+            41.906430564416354
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.2074,
+    "separation_ratio": 0.573,
+    "best_offset_m": 99.7,
+    "n_junctions": 7
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "page": "73",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 1.32,
+  "auto_residuals_m": [
+    2.35,
+    1.22,
+    0.44,
+    0.43,
+    0.19,
+    5.61,
+    3.18,
+    6.19,
+    4.69
+  ],
+  "inlier_streets": [
+    [
+      "W. KINZIE",
+      "N. HERMITAGE ST."
+    ],
+    [
+      "W. KINZIE",
+      "N. WOOD"
+    ],
+    [
+      "W. KINZIE",
+      "N. PAULINA"
+    ],
+    [
+      "CARROLL AV.",
+      "N. WOOD"
+    ],
+    [
+      "CARROLL AV.",
+      "N. PAULINA"
+    ],
+    [
+      "N. WOOD",
+      "FULTON"
+    ],
+    [
+      "N. WOOD",
+      "WALNUT"
+    ],
+    [
+      "N. PAULINA",
+      "FULTON"
+    ],
+    [
+      "N. PAULINA",
+      "WALNUT"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2943,
+            386
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. HERMITAGE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67071506762703,
+            41.88884270525171
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            798,
+            386
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67193851653103,
+            41.88881498179861
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5129,
+            386
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6695001363968,
+            41.88885211252022
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            798,
+            2773
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARROLL AV. x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6719050099506,
+            41.887769003829916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5129,
+            2773
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARROLL AV. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66946908382917,
+            41.88780937037747
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            798,
+            4750
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOOD x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67187852534745,
+            41.88686557184035
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            798,
+            6727
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOOD x WALNUT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6718551848183,
+            41.886061123693494
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5129,
+            4750
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66944485749377,
+            41.886903465202266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5129,
+            6727
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x WALNUT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66942371917929,
+            41.8861130112536
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": 2.477,
+    "dy_m": 2.272
+  }
+}

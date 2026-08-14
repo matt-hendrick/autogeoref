@@ -1,0 +1,138 @@
+{
+  "page": "24",
+  "n_streets": 14,
+  "n_candidates": 11,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. WELLINGTON",
+      "N. SPAULDING AVE."
+    ],
+    [
+      "W. GEORGE",
+      "N. SPAULDING AVE."
+    ],
+    [
+      "N. SPAULDING AVE.",
+      "W. DIVERSEY AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5182,
+            137
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WELLINGTON x N. SPAULDING AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.709953768969,
+            41.935681527845254
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5182,
+            4038
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GEORGE x N. SPAULDING AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7099089021805,
+            41.933863502848006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5182,
+            8088
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPAULDING AVE. x W. DIVERSEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70986561490756,
+            41.93200261942901
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7128023197466,
+            41.93532184523681
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71006760961103,
+            41.935347542751785
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7127502216331,
+            41.93225366199954
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

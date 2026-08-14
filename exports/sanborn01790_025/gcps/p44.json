@@ -1,0 +1,111 @@
+{
+  "page": "44",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.14,
+  "auto_residuals_m": [
+    0.17,
+    0.19,
+    0.21,
+    0.16
+  ],
+  "inlier_streets": [
+    [
+      "W.16TH ST.",
+      "RUBLE"
+    ],
+    [
+      "W.16TH ST.",
+      "S. JEFFERSON"
+    ],
+    [
+      "W.18TH ST.",
+      "RUBLE"
+    ],
+    [
+      "W.18TH ST.",
+      "S. JEFFERSON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            516,
+            831
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.16TH ST. x RUBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.643860116891,
+            41.85995783474836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3625,
+            831
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.16TH ST. x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64194022992864,
+            41.85998394441006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            516,
+            5999
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.18TH ST. x RUBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64378261788815,
+            41.85759049685119
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3625,
+            5999
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.18TH ST. x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64186356938727,
+            41.857621402399346
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

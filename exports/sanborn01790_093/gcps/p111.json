@@ -1,0 +1,145 @@
+{
+  "page": "111",
+  "n_streets": 7,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. ROOSEVELT ROAD (W. 12TH ST.)",
+      "S. MORGAN"
+    ],
+    [
+      "S. MORGAN",
+      "MAXWELL"
+    ],
+    [
+      "S. SANGAMON",
+      "MAXWELL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2986,
+            978
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROOSEVELT ROAD (W. 12TH ST.) x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6510547740279,
+            41.86710034306913
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2986,
+            6104
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MORGAN x MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65098149751202,
+            41.8647040511155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4608,
+            6104
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SANGAMON x MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64994793098911,
+            41.864735233659
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65250098625755,
+            41.86715022544569
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5311,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64961921016699,
+            41.86719533730064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65242581077608,
+            41.86448698278769
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -0.92,
+    "dy_m": 1.945
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.3105,
+    "separation_ratio": 0.909,
+    "best_offset_m": 97.3,
+    "n_junctions": 24
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "page": "71",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 1.03,
+  "auto_residuals_m": [
+    5.83,
+    5.52,
+    5.8,
+    6.1,
+    0.26,
+    0.39
+  ],
+  "inlier_streets": [
+    [
+      "N. LONG AV.",
+      "CORTLAND"
+    ],
+    [
+      "N. LONG AV.",
+      "BLOOMINGDALE AV."
+    ],
+    [
+      "CORTLAND",
+      "N. LONG AV."
+    ],
+    [
+      "N. LONG AV.",
+      "BLOOMINGDALE AV."
+    ],
+    [
+      "N. LOREL AV.",
+      "BLOOMINGDALE AV."
+    ],
+    [
+      "N. LOCKWOOD AV.",
+      "BLOOMINGDALE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            882,
+            5599
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LONG AV. x CORTLAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76071229713601,
+            41.91442388056767
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            882,
+            8407
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LONG AV. x BLOOMINGDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76066103972306,
+            41.91309455287931
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1052,
+            5599
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x N. LONG AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76071229713601,
+            41.91442388056767
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1052,
+            8407
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LONG AV. x BLOOMINGDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76066103972306,
+            41.91309455287931
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2948,
+            8407
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LOREL AV. x BLOOMINGDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75943980817685,
+            41.91311104387505
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4938,
+            8407
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LOCKWOOD AV. x BLOOMINGDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75821690380084,
+            41.91312735214168
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.73,
+    "dy_m": 0.145
+  }
+}

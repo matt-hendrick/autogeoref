@@ -1,0 +1,109 @@
+{
+  "page": "123",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "rotation_deg": 0.31,
+  "auto_residuals_m": [
+    5.42,
+    6.14,
+    5.46,
+    6.12
+  ],
+  "inlier_streets": [
+    [
+      "W. CERMAK RD. (W. 22ND ST.)",
+      "S. HALSTED"
+    ],
+    [
+      "W. CERMAK RD. (W. 22ND ST.)",
+      "S. UNION AV."
+    ],
+    [
+      "S. HALSTED",
+      "LUMBER ST."
+    ],
+    [
+      "S. UNION AV.",
+      "W. LUMBER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1398,
+            458
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CERMAK RD. (W. 22ND ST.) x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64649538701056,
+            41.85264651773822
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4415,
+            458
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CERMAK RD. (W. 22ND ST.) x S. UNION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6447417348026,
+            41.85266762547187
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1398,
+            5717
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x LUMBER ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64643963084583,
+            41.85029392171888
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4415,
+            5128
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. UNION AV. x W. LUMBER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64449832046304,
+            41.85055285248986
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,155 @@
+{
+  "page": "5",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.03,
+  "auto_residuals_m": [
+    0.58,
+    1.39,
+    0.89,
+    0.69,
+    1.08,
+    0.47
+  ],
+  "inlier_streets": [
+    [
+      "BELMONT AV.",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "BELMONT AV.",
+      "DRAKE AV."
+    ],
+    [
+      "BELMONT AV.",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "N. CENTRAL PARK AV.",
+      "BARRY AV."
+    ],
+    [
+      "DRAKE AV.",
+      "BARRY AV."
+    ],
+    [
+      "N. ST. LOUIS AV.",
+      "BARRY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            788,
+            140
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AV. x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71739917234156,
+            41.9392162135784
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2729,
+            140
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AV. x DRAKE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71617638602828,
+            41.939231009777174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4632,
+            140
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AV. x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7149405725459,
+            41.939245841613264
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            788,
+            3824
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL PARK AV. x BARRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71733309197079,
+            41.93739315537677
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2729,
+            3824
+          ],
+          "username": "autogeoref",
+          "note": "auto: DRAKE AV. x BARRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71610854600249,
+            41.937411817400246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4632,
+            3824
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ST. LOUIS AV. x BARRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71487939893031,
+            41.937429104319165
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,159 @@
+{
+  "page": "53",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 6,
+  "rotation_deg": 2.07,
+  "auto_residuals_m": [
+    6.13,
+    4.39,
+    0.71,
+    8.39,
+    3.53,
+    3.09
+  ],
+  "inlier_streets": [
+    [
+      "W. 37TH PL.",
+      "S. ROCKWELL"
+    ],
+    [
+      "S. ROCKWELL",
+      "W. 38TH ST."
+    ],
+    [
+      "S. ROCKWELL",
+      "W. 39TH ST."
+    ],
+    [
+      "S. MAPLEWOOD AV.",
+      "W. 38TH ST."
+    ],
+    [
+      "W. 38TH ST.",
+      "S. CAMPBELL AV."
+    ],
+    [
+      "S. CAMPBELL AV.",
+      "W. 39TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            823,
+            2407
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH PL. x S. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68981094879452,
+            41.82561586764547
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            823,
+            4501
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROCKWELL x W. 38TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68978225286148,
+            41.82470079227757
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            823,
+            8340
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROCKWELL x W. 39TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68974011619721,
+            41.82287227790682
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2596,
+            4501
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MAPLEWOOD AV. x W. 38TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68855219198838,
+            41.82472468105776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4575,
+            4501
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x S. CAMPBELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6873680333856,
+            41.8247486334226
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4575,
+            8340
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CAMPBELL AV. x W. 39TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68730709804707,
+            41.82291819145009
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.454,
+    "dy_m": -1.606
+  }
+}

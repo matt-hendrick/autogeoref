@@ -1,0 +1,205 @@
+{
+  "page": "44",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.98,
+  "auto_residuals_m": [
+    2.13,
+    3.39,
+    1.22,
+    2.81,
+    2.46,
+    0.84,
+    1.33,
+    1.42
+  ],
+  "inlier_streets": [
+    [
+      "W. LUNT AV.",
+      "N. OAKLEY AV. (ELLWOOD)"
+    ],
+    [
+      "W. LUNT AV.",
+      "N. BELL AV. (PINGREE)"
+    ],
+    [
+      "W. MORSE AV.",
+      "N. OAKLEY AV. (ELLWOOD)"
+    ],
+    [
+      "W. MORSE AV.",
+      "N. BELL AV. (PINGREE)"
+    ],
+    [
+      "N. OAKLEY AV. (ELLWOOD)",
+      "W. FARWELL AV."
+    ],
+    [
+      "N. OAKLEY AV. (ELLWOOD)",
+      "W. PRATT AV."
+    ],
+    [
+      "N. BELL AV. (PINGREE)",
+      "W. FARWELL AV."
+    ],
+    [
+      "N. BELL AV. (PINGREE)",
+      "W. PRATT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            901,
+            293
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LUNT AV. x N. OAKLEY AV. (ELLWOOD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68810979646736,
+            42.008682494310655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4309,
+            293
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LUNT AV. x N. BELL AV. (PINGREE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68604417339833,
+            42.008772447113124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            901,
+            3544
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MORSE AV. x N. OAKLEY AV. (ELLWOOD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6880613331395,
+            42.007192074300846
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4309,
+            3544
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MORSE AV. x N. BELL AV. (PINGREE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68599252573173,
+            42.00723475621021
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            901,
+            5572
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. (ELLWOOD) x W. FARWELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6880300886383,
+            42.00628310212209
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            901,
+            8221
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. (ELLWOOD) x W. PRATT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68799105063783,
+            42.00505274735607
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4309,
+            5572
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BELL AV. (PINGREE) x W. FARWELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68594952853707,
+            42.00632485445782
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4309,
+            8221
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BELL AV. (PINGREE) x W. PRATT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68592261411074,
+            42.005091521103445
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.693,
+    "dy_m": -1.508
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "page": "125",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "rotation_deg": 0.46,
+  "auto_residuals_m": [
+    0.36,
+    0.85,
+    0.67,
+    0.63,
+    0.44
+  ],
+  "inlier_streets": [
+    [
+      "ROSCOE",
+      "N. CALIFORNIA AV."
+    ],
+    [
+      "N. CALIFORNIA AV.",
+      "MELROSE"
+    ],
+    [
+      "N. CALIFORNIA AV.",
+      "BELMONT AV."
+    ],
+    [
+      "ELSTON AV.",
+      "MELROSE"
+    ],
+    [
+      "N. FRANCISCO",
+      "BELMONT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5498,
+            391
+          ],
+          "username": "autogeoref",
+          "note": "auto: ROSCOE x N. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6979233603128,
+            41.94279029120117
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5498,
+            5951
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CALIFORNIA AV. x MELROSE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69785144578637,
+            41.9402422632317
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5498,
+            7832
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CALIFORNIA AV. x BELMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69782343512458,
+            41.93939273980253
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2768,
+            5951
+          ],
+          "username": "autogeoref",
+          "note": "auto: ELSTON AV. x MELROSE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69954424625192,
+            41.94023337130885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1550,
+            7832
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANCISCO x BELMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70027737880446,
+            41.939376547275224
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,182 @@
+{
+  "page": "123",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "rotation_deg": 1.13,
+  "auto_residuals_m": [
+    14.12,
+    0.76,
+    4.18,
+    9.11,
+    3.94,
+    0.32,
+    4.2
+  ],
+  "inlier_streets": [
+    [
+      "W. GARFIELD AV.",
+      "N. LINCOLN AV."
+    ],
+    [
+      "W. GARFIELD AV.",
+      "N. LARRABEE"
+    ],
+    [
+      "W. GARFIELD AV.",
+      "N. MOHAWK"
+    ],
+    [
+      "W. GARFIELD AV.",
+      "N. CLEVELAND AV."
+    ],
+    [
+      "N. LARRABEE",
+      "W. CENTER"
+    ],
+    [
+      "N. MOHAWK",
+      "W. CENTER"
+    ],
+    [
+      "N. CLEVELAND AV.",
+      "W. CENTER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5306,
+            562
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GARFIELD AV. x N. LINCOLN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6413220802156,
+            41.920114540358725
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            930,
+            562
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GARFIELD AV. x N. LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64374564977108,
+            41.920076871948886
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2948,
+            562
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GARFIELD AV. x N. MOHAWK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64253555373264,
+            41.92009612995238
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4949,
+            562
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GARFIELD AV. x N. CLEVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6413220802156,
+            41.920114540358725
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            930,
+            4460
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LARRABEE x W. CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64368431999496,
+            41.91825822612085
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2948,
+            4460
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MOHAWK x W. CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64247273194204,
+            41.91827462961872
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4949,
+            4460
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLEVELAND AV. x W. CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64126291011017,
+            41.9182910471665
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.921,
+    "dy_m": 0.758
+  }
+}

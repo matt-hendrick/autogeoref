@@ -1,0 +1,205 @@
+{
+  "page": "60",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.61,
+  "auto_residuals_m": [
+    5.58,
+    1.81,
+    4.92,
+    1.46,
+    1.73,
+    3.71,
+    2.06,
+    1.47
+  ],
+  "inlier_streets": [
+    [
+      "HOWE ST.",
+      "WILLOW"
+    ],
+    [
+      "WILLOW",
+      "ORCHARD"
+    ],
+    [
+      "WILLOW",
+      "VINE"
+    ],
+    [
+      "WILLOW",
+      "LARRABEE"
+    ],
+    [
+      "ORCHARD",
+      "W. NORTH AV."
+    ],
+    [
+      "VINE",
+      "W. NORTH AV."
+    ],
+    [
+      "LARRABEE",
+      "W. NORTH AV."
+    ],
+    [
+      "LARRABEE",
+      "Eugenie St."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2865,
+            412
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOWE ST. x WILLOW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64474248755893,
+            41.913899098386324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            983,
+            412
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILLOW x ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64595762009934,
+            41.913882599417356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3489,
+            412
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILLOW x VINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6444543283606,
+            41.91390298739933
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4921,
+            412
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILLOW x LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64353091148392,
+            41.91391547331299
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            983,
+            6984
+          ],
+          "username": "autogeoref",
+          "note": "auto: ORCHARD x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64585004914316,
+            41.910972837236116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3489,
+            6984
+          ],
+          "username": "autogeoref",
+          "note": "auto: VINE x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64436161846083,
+            41.91100398649212
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4921,
+            6984
+          ],
+          "username": "autogeoref",
+          "note": "auto: LARRABEE x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64343604064179,
+            41.911034986677436
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4921,
+            2922
+          ],
+          "username": "autogeoref",
+          "note": "auto: LARRABEE x Eugenie St."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64349559584227,
+            41.912827175279354
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.608,
+    "dy_m": 2.577
+  }
+}

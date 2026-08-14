@@ -1,0 +1,111 @@
+{
+  "page": "31",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.88,
+  "auto_residuals_m": [
+    0.12,
+    0.12,
+    0.06,
+    0.08
+  ],
+  "inlier_streets": [
+    [
+      "ALTGELD",
+      "N. TRIPP AV."
+    ],
+    [
+      "ALTGELD",
+      "N. KEELER AV."
+    ],
+    [
+      "N. TRIPP AV.",
+      "FULLERTON AV."
+    ],
+    [
+      "N. KEELER AV.",
+      "FULLERTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            332,
+            4207
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALTGELD x N. TRIPP AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73295064570975,
+            41.926237079570676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2374,
+            4207
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALTGELD x N. KEELER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73172337785539,
+            41.92625093595674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            332,
+            8208
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. TRIPP AV. x FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73289097214638,
+            41.92441139947362
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2374,
+            8208
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEELER AV. x FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73166684699434,
+            41.9244256778844
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

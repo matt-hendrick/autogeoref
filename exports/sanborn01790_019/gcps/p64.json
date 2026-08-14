@@ -1,0 +1,182 @@
+{
+  "page": "64",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "rotation_deg": -88.58,
+  "auto_residuals_m": [
+    2.29,
+    2.49,
+    1.9,
+    3.41,
+    0.66,
+    2.71,
+    2.28
+  ],
+  "inlier_streets": [
+    [
+      "N. PARK AV.",
+      "EUGENIE"
+    ],
+    [
+      "N. PARK AV.",
+      "W. NORTH AV."
+    ],
+    [
+      "EUGENIE",
+      "SEDGWICK"
+    ],
+    [
+      "EUGENIE",
+      "HUDSON AV."
+    ],
+    [
+      "SEDGWICK",
+      "W. NORTH AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "HUDSON AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "ORLEANS ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            1282
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PARK AV. x EUGENIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6367354665232,
+            41.91283844225057
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4906,
+            1282
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PARK AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63668007245019,
+            41.91112887172807
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            4456
+          ],
+          "username": "autogeoref",
+          "note": "auto: EUGENIE x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63865529942701,
+            41.91283621080426
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            6426
+          ],
+          "username": "autogeoref",
+          "note": "auto: EUGENIE x HUDSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63987855112343,
+            41.912861367793994
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4906,
+            4456
+          ],
+          "username": "autogeoref",
+          "note": "auto: SEDGWICK x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63861010938481,
+            41.91110115958218
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4906,
+            6426
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x HUDSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63982401186534,
+            41.91108344096005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4906,
+            2902
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x ORLEANS ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63764145512057,
+            41.91111533426228
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.965,
+    "dy_m": -1.999
+  }
+}

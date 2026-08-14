@@ -1,0 +1,113 @@
+{
+  "page": "87S",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.3,
+  "auto_residuals_m": [
+    0.65,
+    0.65,
+    0.66,
+    0.66
+  ],
+  "inlier_streets": [
+    [
+      "E. 11TH (HARMON PL.)",
+      "S. STATE"
+    ],
+    [
+      "E. 11TH (HARMON PL.)",
+      "S. WABASH AV."
+    ],
+    [
+      "S. STATE",
+      "E. ROOSEVELT RD"
+    ],
+    [
+      "S. WABASH AV.",
+      "E. ROOSEVELT RD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1662,
+            1741
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 11TH (HARMON PL.) x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62747281784841,
+            41.86925513280761
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4266,
+            1741
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 11TH (HARMON PL.) x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6258802652752,
+            41.86929071646142
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1662,
+            5820
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x E. ROOSEVELT RD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62742390471831,
+            41.8674332690105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4266,
+            5820
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. ROOSEVELT RD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62583509076968,
+            41.867451536391876
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.582,
+    "dy_m": 2.942
+  }
+}

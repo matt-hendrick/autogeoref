@@ -1,0 +1,132 @@
+{
+  "page": "20",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.93,
+  "auto_residuals_m": [
+    4.98,
+    7.7,
+    2.73,
+    2.57,
+    2.57
+  ],
+  "inlier_streets": [
+    [
+      "W. TAYLOR",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "S. CENTRAL PARK AV.",
+      "FILLMORE"
+    ],
+    [
+      "S. CENTRAL PARK AV.",
+      "GRENSHAW"
+    ],
+    [
+      "FILLMORE",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "GRENSHAW",
+      "S. ST. LOUIS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1697,
+            2283
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TAYLOR x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71549977727057,
+            41.868908945391816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1697,
+            4301
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTRAL PARK AV. x FILLMORE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71547682590067,
+            41.86811104762053
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1697,
+            6193
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTRAL PARK AV. x GRENSHAW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71544564769638,
+            41.86721388119905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5528,
+            4301
+          ],
+          "username": "autogeoref",
+          "note": "auto: FILLMORE x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71303676469049,
+            41.86813783628055
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5528,
+            6193
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRENSHAW x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71300940164825,
+            41.86727595900749
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

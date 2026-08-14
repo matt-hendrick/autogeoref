@@ -1,0 +1,142 @@
+{
+  "page": "14S",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 44TH (PRIVATE ST.)",
+      "PACKERS AV. (PRIVATE ST.)"
+    ],
+    [
+      "W. 44TH",
+      "PACKERS AV. (PRIVATE ST.)"
+    ],
+    [
+      "PACKERS AV. (PRIVATE ST.)",
+      "W. 45TH (PRIVATE ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4839,
+            737
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 44TH (PRIVATE ST.) x PACKERS AV. (PRIVATE ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65861013003732,
+            41.81416168981951
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4839,
+            741
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 44TH x PACKERS AV. (PRIVATE ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65861013003732,
+            41.81416168981951
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4839,
+            4765
+          ],
+          "username": "autogeoref",
+          "note": "auto: PACKERS AV. (PRIVATE ST.) x W. 45TH (PRIVATE ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65856378835613,
+            41.8123609310853
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            661,
+            780
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66114775028727,
+            41.814102554637174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5946,
+            780
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65794269200642,
+            41.814161906034485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            661,
+            7016
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66105379853268,
+            41.81128420178314
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.2272,
+    "separation_ratio": 0.342,
+    "best_offset_m": 98.1,
+    "n_junctions": 5
+  }
+}

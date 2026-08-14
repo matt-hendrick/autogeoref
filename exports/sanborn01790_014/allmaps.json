@@ -1,0 +1,133 @@
+{
+ "@context": "http://iiif.io/api/extension/georef/1/context.json",
+ "type": "AnnotationPage",
+ "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+ "items": [
+  {
+   "@context": "http://iiif.io/api/extension/georef/1/context.json",
+   "type": "Annotation",
+   "motivation": "georeferencing",
+   "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "target": {
+    "type": "SpecificResource",
+    "source": {
+     "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd410m:g4104m:g4104cm:g017901901SPL:01790_SPL_1901-0038",
+     "type": "ImageService2",
+     "width": 6516,
+     "height": 7736
+    },
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg width=\"6516\" height=\"7736\"><polygon points=\"98,116 6418,116 6418,7620 98,7620\" /></svg>"
+    }
+   },
+   "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+     "type": "polynomial",
+     "options": {
+      "order": 1
+     }
+    },
+    "features": [
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        5966.0,
+        4932.0
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -87.63421212420747,
+        41.794498932530516
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        1199.0,
+        2785.0
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -87.63554458351909,
+        41.792165098508335
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        232.0,
+        2785.0
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -87.63553261180083,
+        41.79170006159039
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        652.0,
+        774.0
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -87.63684323842892,
+        41.79188218974004
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        5864.0,
+        774.0
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -87.63691324505717,
+        41.7944064507631
+       ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+       "resourceCoords": [
+        652.0,
+        6962.0
+       ]
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+        -87.63282357653964,
+        41.791944157102385
+       ]
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

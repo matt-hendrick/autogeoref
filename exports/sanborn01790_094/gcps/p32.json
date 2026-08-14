@@ -1,0 +1,155 @@
+{
+  "page": "32",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.9,
+  "auto_residuals_m": [
+    0.78,
+    0.15,
+    1.06,
+    0.32,
+    0.65,
+    0.53
+  ],
+  "inlier_streets": [
+    [
+      "W. 16TH ST.",
+      "S. WOLCOTT AV. (S. LINCOLN)"
+    ],
+    [
+      "W. 16TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "W. 17TH ST."
+    ],
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "W. 18TH ST."
+    ],
+    [
+      "S. WOOD",
+      "W. 17TH ST."
+    ],
+    [
+      "S. WOOD",
+      "W. 18TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            953,
+            2421
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH ST. x S. WOLCOTT AV. (S. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67359923623832,
+            41.85951723774477
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4618,
+            2421
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67114344425268,
+            41.859541719232595
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            953,
+            4403
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x W. 17TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67357030386736,
+            41.858607151015164
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            953,
+            6437
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67355168698464,
+            41.857693470791666
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4618,
+            4403
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x W. 17TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67112299466102,
+            41.85863826623979
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4618,
+            6437
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67109738229927,
+            41.857723908121905
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

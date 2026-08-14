@@ -1,0 +1,157 @@
+{
+  "page": "41",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.17,
+  "auto_residuals_m": [
+    0.7,
+    0.45,
+    1.1,
+    0.41,
+    1.07,
+    0.63
+  ],
+  "inlier_streets": [
+    [
+      "E. 103RD ST.",
+      "S. CALUMET AV."
+    ],
+    [
+      "E. 103RD ST.",
+      "S. VERNON AV."
+    ],
+    [
+      "S. CALUMET AV.",
+      "E. 104TH ST."
+    ],
+    [
+      "S. CALUMET AV.",
+      "E. 105TH ST."
+    ],
+    [
+      "S. VERNON AV.",
+      "E. 104TH ST."
+    ],
+    [
+      "S. VERNON AV.",
+      "E. 105TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            257,
+            325
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 103RD ST. x S. CALUMET AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61498750432243,
+            41.70729437566717
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4282,
+            325
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 103RD ST. x S. VERNON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61254994840242,
+            41.70733325184455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            257,
+            4307
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALUMET AV. x E. 104TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61493864570694,
+            41.705470743617504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            257,
+            8243
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALUMET AV. x E. 105TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61488849481404,
+            41.70364607213231
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4282,
+            4307
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. VERNON AV. x E. 104TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61249872512431,
+            41.70550765777671
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4282,
+            8243
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. VERNON AV. x E. 105TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61244953820663,
+            41.703681708427276
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

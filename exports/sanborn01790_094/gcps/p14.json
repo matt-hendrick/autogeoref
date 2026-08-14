@@ -1,0 +1,163 @@
+{
+  "page": "14",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W.14TH ST.",
+      "S. WOLCOTT AV. (S. LINCOLN)"
+    ],
+    [
+      "W.14TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "W.14TH PL.",
+      "S. WOOD"
+    ],
+    [
+      "W.15TH ST.",
+      "S. WOOD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            915,
+            578
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.14TH ST. x S. WOLCOTT AV. (S. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67369542037936,
+            41.863163391917006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4920,
+            578
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.14TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67124796048262,
+            41.863201596523
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4920,
+            2500
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.14TH PL. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67122331029584,
+            41.86229252354112
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4920,
+            4483
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.15TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67119409287777,
+            41.86138771197845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67392128842192,
+            41.863086527746376
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5219,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6710520304749,
+            41.86312842247525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6738514049491,
+            41.860431892559035
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.6459,
+    "separation_ratio": 0.995,
+    "best_offset_m": 96.3,
+    "n_junctions": 9
+  }
+}

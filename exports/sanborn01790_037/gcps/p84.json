@@ -1,0 +1,116 @@
+{
+  "page": "84",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "WEST END AV.",
+      "S. FRANKLIN AV."
+    ],
+    [
+      "S. FRANKLIN AV.",
+      "WASHINGTON B'L'V'D"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            176,
+            168
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x S. FRANKLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77192457566267,
+            41.88408344644293
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            176,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANKLIN AV. x WASHINGTON B'L'V'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77185668832362,
+            41.88214866678483
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77164847206583,
+            41.88374410910918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5265,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76875542644416,
+            41.88377073449133
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77159648467226,
+            41.88061299720096
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 2 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

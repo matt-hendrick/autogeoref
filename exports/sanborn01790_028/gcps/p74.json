@@ -1,0 +1,207 @@
+{
+  "page": "74",
+  "n_streets": 9,
+  "n_candidates": 29,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. OHIO",
+      "N. SACRAMENTO BLVD."
+    ],
+    [
+      "W. OHIO",
+      "N. ALBANY"
+    ],
+    [
+      "W. OHIO",
+      "N. SACRAMENTO BLVD."
+    ],
+    [
+      "FRANKLIN BLVD",
+      "N. ALBANY"
+    ],
+    [
+      "FRANKLIN BLVD",
+      "N. WHIPPLE"
+    ],
+    [
+      "FRANKLIN BLVD",
+      "N. SACRAMENTO BLVD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4612,
+            138
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. SACRAMENTO BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.702023217147,
+            41.89194592368725
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1493,
+            138
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. ALBANY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70400381987913,
+            41.89192583456387
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5074,
+            138
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. SACRAMENTO BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70166901589464,
+            41.891949118281644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1493,
+            4038
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRANKLIN BLVD x N. ALBANY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70394859243713,
+            41.890101653607495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3316,
+            4038
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRANKLIN BLVD x N. WHIPPLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70276459719923,
+            41.89011461537356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5074,
+            4038
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRANKLIN BLVD x N. SACRAMENTO BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7017304051233,
+            41.890180599015174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70455760965888,
+            41.89161011787566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70172275793313,
+            41.89163831306085
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70450205830326,
+            41.88851495078312
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -2.529,
+    "dy_m": 0.35
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "page": "27",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 1.23,
+  "auto_residuals_m": [
+    3.82,
+    2.52,
+    1.64,
+    4.83,
+    1.85,
+    1.24,
+    3.39
+  ],
+  "inlier_streets": [
+    [
+      "E. 75TH ST.",
+      "COLFAX AV."
+    ],
+    [
+      "COLFAX AV.",
+      "E. 76TH ST."
+    ],
+    [
+      "COLFAX AV.",
+      "E. 77TH ST."
+    ],
+    [
+      "SAGINAW AV.",
+      "E. 76TH ST."
+    ],
+    [
+      "SAGINAW AV.",
+      "E. 77TH ST."
+    ],
+    [
+      "E. 76TH ST.",
+      "MARQUETTE AV."
+    ],
+    [
+      "MARQUETTE AV.",
+      "E. 77TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            396,
+            311
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 75TH ST. x COLFAX AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56161870525099,
+            41.75904063406566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            396,
+            4282
+          ],
+          "username": "autogeoref",
+          "note": "auto: COLFAX AV. x E. 76TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56151835047237,
+            41.75722420052304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            396,
+            8143
+          ],
+          "username": "autogeoref",
+          "note": "auto: COLFAX AV. x E. 77TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56148208088894,
+            41.75541153890168
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2756,
+            4282
+          ],
+          "username": "autogeoref",
+          "note": "auto: SAGINAW AV. x E. 76TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56004911623604,
+            41.7572451120889
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2756,
+            8143
+          ],
+          "username": "autogeoref",
+          "note": "auto: SAGINAW AV. x E. 77TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56001190279721,
+            41.75543022688576
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5228,
+            4282
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 76TH ST. x MARQUETTE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55858092720727,
+            41.75726531513339
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5228,
+            8143
+          ],
+          "username": "autogeoref",
+          "note": "auto: MARQUETTE AV. x E. 77TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5585445223338,
+            41.75544819563951
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.085,
+    "dy_m": -1.47
+  }
+}

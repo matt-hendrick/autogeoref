@@ -1,0 +1,155 @@
+{
+  "page": "2S",
+  "n_streets": 6,
+  "n_candidates": 11,
+  "n_inliers": 6,
+  "rotation_deg": 0.25,
+  "auto_residuals_m": [
+    0.4,
+    0.84,
+    1.08,
+    1.34,
+    0.24,
+    0.82
+  ],
+  "inlier_streets": [
+    [
+      "W. LAKE",
+      "N. WACKER DRIVE (N. MARKET)"
+    ],
+    [
+      "W. LAKE",
+      "N. FRANKLIN"
+    ],
+    [
+      "N. WACKER DRIVE (N. MARKET)",
+      "COUCH PL."
+    ],
+    [
+      "N. WACKER DRIVE (N. MARKET)",
+      "W. RANDOLPH"
+    ],
+    [
+      "COUCH PL.",
+      "N. FRANKLIN"
+    ],
+    [
+      "N. FRANKLIN",
+      "W. RANDOLPH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1714,
+            3164
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. WACKER DRIVE (N. MARKET)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6368281000361,
+            41.8857258117659
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4165,
+            3164
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63541002760226,
+            41.88573488223764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1714,
+            4568
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WACKER DRIVE (N. MARKET) x COUCH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63681267691189,
+            41.88509367591442
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1714,
+            5959
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WACKER DRIVE (N. MARKET) x W. RANDOLPH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63682564264386,
+            41.88446096547034
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4165,
+            4568
+          ],
+          "username": "autogeoref",
+          "note": "auto: COUCH PL. x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63539537381472,
+            41.88509441690815
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4165,
+            5959
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANKLIN x W. RANDOLPH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63537917986328,
+            41.88446483376496
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,113 @@
+{
+  "page": "152",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.04,
+  "auto_residuals_m": [
+    0.24,
+    0.27,
+    0.29,
+    0.26
+  ],
+  "inlier_streets": [
+    [
+      "W. FULLERTON AV.",
+      "N. SOUTHPORT AV."
+    ],
+    [
+      "W. FULLERTON AV.",
+      "N. WAYNE AV. (N. WARD)"
+    ],
+    [
+      "N. SOUTHPORT AV.",
+      "W. BELDEN AV."
+    ],
+    [
+      "N. WAYNE AV. (N. WARD)",
+      "W. BELDEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2506,
+            1690
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. SOUTHPORT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66335069444338,
+            41.92522062333096
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4511,
+            1690
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. WAYNE AV. (N. WARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66212799497362,
+            41.92523928302202
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2506,
+            5681
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SOUTHPORT AV. x W. BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66328191197717,
+            41.92342216301499
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4511,
+            5681
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WAYNE AV. (N. WARD) x W. BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66206685154062,
+            41.923436529716945
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.588,
+    "dy_m": 0.423
+  }
+}

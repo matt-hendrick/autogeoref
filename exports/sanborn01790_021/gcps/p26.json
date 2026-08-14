@@ -1,0 +1,159 @@
+{
+  "page": "26",
+  "n_streets": 5,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 0.96,
+  "auto_residuals_m": [
+    13.84,
+    6.59,
+    7.19,
+    13.57,
+    6.27,
+    7.37
+  ],
+  "inlier_streets": [
+    [
+      "E. 31ST ST.",
+      "CALUMET AV."
+    ],
+    [
+      "E. 31ST ST.",
+      "SOUTH PARK AV."
+    ],
+    [
+      "E. 31ST ST.",
+      "VERNON AV."
+    ],
+    [
+      "CALUMET AV.",
+      "E. 32ND ST."
+    ],
+    [
+      "SOUTH PARK AV.",
+      "E. 32ND ST."
+    ],
+    [
+      "VERNON AV.",
+      "E. 32ND ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            857,
+            549
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 31ST ST. x CALUMET AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61828682938523,
+            41.83841100404428
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2580,
+            549
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 31ST ST. x SOUTH PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6171412886473,
+            41.83842516422629
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5412,
+            549
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 31ST ST. x VERNON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61555471387584,
+            41.83844591113949
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            857,
+            4540
+          ],
+          "username": "autogeoref",
+          "note": "auto: CALUMET AV. x E. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61824664470522,
+            41.83658466278878
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2580,
+            4540
+          ],
+          "username": "autogeoref",
+          "note": "auto: SOUTH PARK AV. x E. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61746279610654,
+            41.83659397046363
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5412,
+            4540
+          ],
+          "username": "autogeoref",
+          "note": "auto: VERNON AV. x E. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61589151043704,
+            41.83661338050483
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.019,
+    "dy_m": 0.273
+  }
+}

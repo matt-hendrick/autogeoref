@@ -1,0 +1,159 @@
+{
+  "page": "77",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 6,
+  "rotation_deg": 1.14,
+  "auto_residuals_m": [
+    2.07,
+    2.99,
+    2.29,
+    4.94,
+    4.01,
+    4.97
+  ],
+  "inlier_streets": [
+    [
+      "W. 103RD ST.",
+      "S. PROSPECT AV."
+    ],
+    [
+      "W. 104TH ST.",
+      "S. PROSPECT AV."
+    ],
+    [
+      "W. 104TH ST.",
+      "S. PROSPECT AV."
+    ],
+    [
+      "W. 104TH ST.",
+      "S. CHURCH"
+    ],
+    [
+      "S. PROSPECT AV.",
+      "W. 105TH ST."
+    ],
+    [
+      "S. CHURCH",
+      "W. 105TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            755,
+            234
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 103RD ST. x S. PROSPECT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66206114719321,
+            41.70669050232612
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            755,
+            3149
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 104TH ST. x S. PROSPECT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66202079858024,
+            41.705336084149074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            755,
+            4209
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 104TH ST. x S. PROSPECT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66201619917724,
+            41.70487525796224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4635,
+            4209
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 104TH ST. x S. CHURCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65957828484288,
+            41.70490553568038
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            755,
+            8223
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PROSPECT AV. x W. 105TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66190055539971,
+            41.70305693141056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4635,
+            8223
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CHURCH x W. 105TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65960719793983,
+            41.70309096580448
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.493,
+    "dy_m": -1.577
+  }
+}

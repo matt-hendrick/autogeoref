@@ -1,0 +1,132 @@
+{
+  "page": "32",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 0.54,
+  "auto_residuals_m": [
+    1.07,
+    1.68,
+    3.53,
+    1.68,
+    3.76
+  ],
+  "inlier_streets": [
+    [
+      "WASHINGTON",
+      "DEARBORN"
+    ],
+    [
+      "WASHINGTON",
+      "STATE"
+    ],
+    [
+      "MADISON",
+      "DEARBORN"
+    ],
+    [
+      "MADISON",
+      "STATE"
+    ],
+    [
+      "DEARBORN",
+      "CALHOUN PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1067,
+            2270
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON x DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62943536686878,
+            41.88321488938261
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4079,
+            2270
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62786972954076,
+            41.88321808845637
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1067,
+            4925
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON x DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62940235620849,
+            41.881997992621635
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4079,
+            4925
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62780610570387,
+            41.882042038691424
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1067,
+            3735
+          ],
+          "username": "autogeoref",
+          "note": "auto: DEARBORN x CALHOUN PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62942114845528,
+            41.88258203720155
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

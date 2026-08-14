@@ -1,0 +1,136 @@
+{
+  "page": "86",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 5,
+  "rotation_deg": 1.18,
+  "auto_residuals_m": [
+    0.19,
+    0.64,
+    0.46,
+    0.24,
+    0.21
+  ],
+  "inlier_streets": [
+    [
+      "W. WILLOW",
+      "N. FREMONT"
+    ],
+    [
+      "W. WILLOW",
+      "N. DAYTON"
+    ],
+    [
+      "W. WILLOW",
+      "N. HALSTED"
+    ],
+    [
+      "N. DAYTON",
+      "W. NORTH AV."
+    ],
+    [
+      "N. HALSTED",
+      "W. NORTH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1184,
+            516
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WILLOW x N. FREMONT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65076277016503,
+            41.91378582448929
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3171,
+            516
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WILLOW x N. DAYTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64955280209931,
+            41.91380573743703
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5196,
+            516
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WILLOW x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64833664877368,
+            41.91382301018381
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3171,
+            6924
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAYTON x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64947676730974,
+            41.91089633399144
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5196,
+            6924
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64824698698112,
+            41.91091546763846
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.737,
+    "dy_m": -0.621
+  }
+}

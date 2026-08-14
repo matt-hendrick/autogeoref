@@ -1,0 +1,163 @@
+{
+  "page": "71",
+  "n_streets": 6,
+  "n_candidates": 15,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "OGDEN AV.",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "S. ST. LOUIS AV.",
+      "W. 21ST"
+    ],
+    [
+      "S. TRUMBULL AV.",
+      "W. 21ST"
+    ],
+    [
+      "S. HOMAN AV.",
+      "W. 21ST"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1201,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: OGDEN AV. x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71256522571599,
+            41.85532029328433
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1201,
+            4443
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x W. 21ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71242986611394,
+            41.85352567097469
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3083,
+            4443
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. TRUMBULL AV. x W. 21ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71124321177986,
+            41.85352791425007
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4922,
+            4443
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOMAN AV. x W. 21ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71021844831061,
+            41.85352665680849
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            574,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71287718746184,
+            41.85511746566613
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5162,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71008548151065,
+            41.85515636977337
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            574,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71279975021005,
+            41.85203460419106
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -4.487,
+    "dy_m": -3.412
+  },
+  "junction_snap": {
+    "skipped": "only 1 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

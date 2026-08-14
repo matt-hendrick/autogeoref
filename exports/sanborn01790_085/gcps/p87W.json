@@ -1,0 +1,109 @@
+{
+  "page": "87W",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.99,
+  "auto_residuals_m": [
+    0.12,
+    0.15,
+    0.12,
+    0.12
+  ],
+  "inlier_streets": [
+    [
+      "W. ADAMS",
+      "S. CLINTON"
+    ],
+    [
+      "W. ADAMS",
+      "S. CANAL"
+    ],
+    [
+      "W. JACKSON B'LVD",
+      "S. CLINTON"
+    ],
+    [
+      "W. JACKSON B'LVD",
+      "S. CANAL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1726,
+            890
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64110945685262,
+            41.8792919532778
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4137,
+            890
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6396032206973,
+            41.8793123376878
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1726,
+            3694
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON B'LVD x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64107028567325,
+            41.87802652529316
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4137,
+            3694
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON B'LVD x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63956050811275,
+            41.87804478273413
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

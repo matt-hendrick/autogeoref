@@ -1,0 +1,156 @@
+{
+  "page": "22",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.38,
+  "auto_residuals_m": [
+    1.76,
+    2.33,
+    4.71,
+    3.8,
+    3.06,
+    1.68
+  ],
+  "inlier_streets": [
+    [
+      "RANDOLPH",
+      "LASALLE"
+    ],
+    [
+      "RANDOLPH",
+      "CLARK"
+    ],
+    [
+      "WASHINGTON",
+      "LASALLE"
+    ],
+    [
+      "WASHINGTON",
+      "CLARK"
+    ],
+    [
+      "MADISON",
+      "LASALLE"
+    ],
+    [
+      "MADISON",
+      "CLARK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1192,
+            348
+          ],
+          "username": "autogeoref",
+          "note": "auto: RANDOLPH x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63243521047721,
+            41.8844728196944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3709,
+            348
+          ],
+          "username": "autogeoref",
+          "note": "auto: RANDOLPH x CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6309349560629,
+            41.884476682934555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1192,
+            3264
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63240735265198,
+            41.883208929824065
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3709,
+            3264
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON x CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6309068674027,
+            41.88321075181364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1192,
+            5938
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63236016501149,
+            41.8819606761068
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3709,
+            5938
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON x CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63088320810661,
+            41.88197707945246
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

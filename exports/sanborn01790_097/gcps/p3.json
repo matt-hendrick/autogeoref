@@ -1,0 +1,155 @@
+{
+  "page": "3",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 0.7,
+  "auto_residuals_m": [
+    0.5,
+    0.42,
+    0.34,
+    0.3,
+    0.15,
+    0.29
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. HAMLIN AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. RIDGEWAY AV."
+    ],
+    [
+      "LE MOYNE",
+      "N. HAMLIN AV."
+    ],
+    [
+      "LE MOYNE",
+      "N. RIDGEWAY AV."
+    ],
+    [
+      "N. HAMLIN AV.",
+      "HIRSCH"
+    ],
+    [
+      "N. RIDGEWAY AV.",
+      "HIRSCH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            886,
+            584
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. HAMLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72167327218342,
+            41.90993635136556
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2832,
+            584
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. RIDGEWAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72045120068809,
+            41.909945867856074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            886,
+            4548
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. HAMLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72160434767768,
+            41.90812516958552
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2832,
+            4548
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. RIDGEWAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72039329896215,
+            41.908137929737265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            886,
+            8491
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HAMLIN AV. x HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72154508085701,
+            41.90632304853275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2832,
+            8491
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RIDGEWAY AV. x HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72033461164195,
+            41.90633366712999
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

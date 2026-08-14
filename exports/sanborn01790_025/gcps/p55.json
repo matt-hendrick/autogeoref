@@ -1,0 +1,226 @@
+{
+  "page": "55",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 1.19,
+  "auto_residuals_m": [
+    0.39,
+    1.03,
+    1.01,
+    1.44,
+    0.57,
+    1.86,
+    0.58,
+    1.37,
+    0.21
+  ],
+  "inlier_streets": [
+    [
+      "W.18TH ST.",
+      "S. PAULINA"
+    ],
+    [
+      "W.18TH ST.",
+      "S. MARSHFIELD"
+    ],
+    [
+      "W.18TH ST.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "W.18TH PL.",
+      "S. PAULINA"
+    ],
+    [
+      "W.18TH PL.",
+      "S. MARSHFIELD"
+    ],
+    [
+      "W.18TH PL.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "S. PAULINA",
+      "W.19TH ST."
+    ],
+    [
+      "S. MARSHFIELD",
+      "W.19TH ST."
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W.19TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            793,
+            652
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.18TH ST. x S. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66865542553315,
+            41.857756292023446
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3813,
+            652
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.18TH ST. x S. MARSHFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66684108639798,
+            41.85778139047335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4959,
+            652
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.18TH ST. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66613813488557,
+            41.8577937467939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            793,
+            2645
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.18TH PL. x S. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66862904796815,
+            41.85684373730383
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3813,
+            2645
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.18TH PL. x S. MARSHFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6668085154924,
+            41.85686602005315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4959,
+            2645
+          ],
+          "username": "autogeoref",
+          "note": "auto: W.18TH PL. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6661231004649,
+            41.85688501131943
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            793,
+            4582
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PAULINA x W.19TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66860117016796,
+            41.85593155932071
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3813,
+            4582
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MARSHFIELD x W.19TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66678205380565,
+            41.85595435812409
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4959,
+            4582
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W.19TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66609536444594,
+            41.85597434295099
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

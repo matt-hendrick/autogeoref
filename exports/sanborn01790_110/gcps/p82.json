@@ -1,0 +1,159 @@
+{
+  "page": "82",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.2,
+  "auto_residuals_m": [
+    0.24,
+    0.75,
+    0.52,
+    0.48,
+    0.73,
+    0.28
+  ],
+  "inlier_streets": [
+    [
+      "W. 55TH ST.",
+      "S. TRUMBULL AV."
+    ],
+    [
+      "W. 55TH ST.",
+      "S. HOMAN AV."
+    ],
+    [
+      "W. 55TH ST.",
+      "S. CHRISTIANA AV. (TURNER AV.)"
+    ],
+    [
+      "S. TRUMBULL AV.",
+      "W. 56TH ST."
+    ],
+    [
+      "S. HOMAN AV.",
+      "W. 56TH ST."
+    ],
+    [
+      "S. CHRISTIANA AV. (TURNER AV.)",
+      "W. 56TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1361,
+            389
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 55TH ST. x S. TRUMBULL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70965271825827,
+            41.79342437383646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3414,
+            389
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 55TH ST. x S. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70842664104119,
+            41.79344290155184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5434,
+            389
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 55TH ST. x S. CHRISTIANA AV. (TURNER AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70720020496545,
+            41.79346224848715
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1361,
+            4382
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. TRUMBULL AV. x W. 56TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70960061164932,
+            41.79160760718995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3414,
+            4382
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOMAN AV. x W. 56TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70837654053096,
+            41.79162639092999
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5434,
+            4382
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CHRISTIANA AV. (TURNER AV.) x W. 56TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70715260254734,
+            41.79164642115614
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.425,
+    "dy_m": 0.225
+  }
+}

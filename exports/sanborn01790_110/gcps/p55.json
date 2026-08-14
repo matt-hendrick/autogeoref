@@ -1,0 +1,136 @@
+{
+  "page": "55",
+  "n_streets": 6,
+  "n_candidates": 10,
+  "n_inliers": 5,
+  "rotation_deg": -88.83,
+  "auto_residuals_m": [
+    3.82,
+    1.38,
+    3.76,
+    4.07,
+    2.83
+  ],
+  "inlier_streets": [
+    [
+      "W. 51ST ST.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "W. 51ST ST.",
+      "S. WESTERN AV. BLVD"
+    ],
+    [
+      "S. OAKLEY AV.",
+      "W. 51ST PL."
+    ],
+    [
+      "W. 51ST PL.",
+      "S. WESTERN AV. BLVD"
+    ],
+    [
+      "W. 52ND ST.",
+      "S. WESTERN AV. BLVD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            330,
+            4741
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 51ST ST. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6818809439918,
+            41.80116340521638
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            330,
+            8015
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 51ST ST. x S. WESTERN AV. BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68376832093881,
+            41.801150613398576
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2254,
+            4741
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY AV. x W. 51ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68187377566048,
+            41.80026370853418
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2254,
+            8015
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 51ST PL. x S. WESTERN AV. BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68373663397088,
+            41.800264725123405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5559,
+            8015
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 52ND ST. x S. WESTERN AV. BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68369792612044,
+            41.798849979301785
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -10.611,
+    "dy_m": 3.499
+  }
+}

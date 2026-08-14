@@ -1,0 +1,136 @@
+{
+  "page": "69",
+  "n_streets": 8,
+  "n_candidates": 15,
+  "n_inliers": 5,
+  "rotation_deg": 1.7,
+  "auto_residuals_m": [
+    2.49,
+    4.26,
+    6.92,
+    4.28,
+    5.33
+  ],
+  "inlier_streets": [
+    [
+      "FULLERTON AV.",
+      "N. SAWYER AV."
+    ],
+    [
+      "FULLERTON AV.",
+      "N. KEDZIE BLVD."
+    ],
+    [
+      "BELDEN AV.",
+      "N. SAWYER AV."
+    ],
+    [
+      "BELDEN AV.",
+      "N. KEDZIE BLVD."
+    ],
+    [
+      "PALMER ST.",
+      "N. SAWYER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            212,
+            318
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. SAWYER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70925118886996,
+            41.924682415503135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2756,
+            318
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. KEDZIE BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70758280611336,
+            41.92470001973638
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            212,
+            4304
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x N. SAWYER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70911444179703,
+            41.922853770610814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2756,
+            4304
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x N. KEDZIE BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70752474721743,
+            41.92287260287078
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            212,
+            8023
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER ST. x N. SAWYER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70905575305805,
+            41.92102295968734
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.681,
+    "dy_m": -2.151
+  }
+}

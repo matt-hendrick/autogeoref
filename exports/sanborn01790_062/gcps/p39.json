@@ -1,0 +1,164 @@
+{
+  "page": "39",
+  "n_streets": 10,
+  "n_candidates": 14,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. ELSTON AV.",
+      "N. MAJOR AV."
+    ],
+    [
+      "N. MAJOR AV.",
+      "W. SEMINOLE"
+    ],
+    [
+      "W. SEMINOLE",
+      "N. MANGO AV."
+    ],
+    [
+      "W. SEMINOLE",
+      "N. MENARD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2086,
+            4203
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELSTON AV. x N. MAJOR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7706434077218,
+            41.9862244398017
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5453,
+            4203
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAJOR AV. x W. SEMINOLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77069391176329,
+            41.98474987363319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5453,
+            6187
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SEMINOLE x N. MANGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77190450541532,
+            41.98474493315061
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5453,
+            8177
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SEMINOLE x N. MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77311781663276,
+            41.98473974398812
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            566,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76844746216777,
+            41.98686802399524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5094,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76859432470792,
+            41.984774872701784
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            566,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77267840579509,
+            41.98703203778323
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -92.483,
+  "seam_adjusted": {
+    "dx_m": 3.498,
+    "dy_m": -1.001
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

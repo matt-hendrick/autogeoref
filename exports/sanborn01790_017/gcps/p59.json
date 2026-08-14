@@ -1,0 +1,163 @@
+{
+  "page": "59",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "JACKSON B'LV'D",
+      "WABASH AV."
+    ],
+    [
+      "JACKSON B'LV'D",
+      "STATE"
+    ],
+    [
+      "VANBUREN",
+      "WABASH AV."
+    ],
+    [
+      "VANBUREN",
+      "STATE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4430,
+            2266
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'LV'D x WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62608247266967,
+            41.87824593364609
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1644,
+            2266
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'LV'D x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62767706288287,
+            41.87817592525118
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4430,
+            5159
+          ],
+          "username": "autogeoref",
+          "note": "auto: VANBUREN x WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62605731225683,
+            41.8769719747855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1644,
+            5159
+          ],
+          "username": "autogeoref",
+          "note": "auto: VANBUREN x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62765212002273,
+            41.87692951144422
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62830980149529,
+            41.878840958323146
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5314,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6255862283574,
+            41.878878434346184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6282473708672,
+            41.87632566359825
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.596,
+    "separation_ratio": 1.311,
+    "best_offset_m": 10.1,
+    "n_junctions": 10
+  }
+}

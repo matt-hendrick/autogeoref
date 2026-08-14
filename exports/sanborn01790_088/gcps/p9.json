@@ -1,0 +1,159 @@
+{
+  "page": "9",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. DELAWARE PL.",
+      "N. DEWITT PL. (CT.)"
+    ],
+    [
+      "E. CHESTNUT",
+      "N. DEWITT PL. (CT.)"
+    ],
+    [
+      "N. DEWITT PL. (CT.)",
+      "E. PEARSON"
+    ],
+    [
+      "E. CHICAGO AV.",
+      "N. FAIRBANKS CT."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4408,
+            968
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. DELAWARE PL. x N. DEWITT PL. (CT.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62021525570565,
+            41.89926725700094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4408,
+            2775
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CHESTNUT x N. DEWITT PL. (CT.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62019853660634,
+            41.89844395421407
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4408,
+            4570
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DEWITT PL. (CT.) x E. PEARSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62018203433632,
+            41.897640441326914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4050,
+            6400
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CHICAGO AV. x N. FAIRBANKS CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62036950838899,
+            41.89678520652087
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62254379379418,
+            41.899331757909486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5320,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61967016169382,
+            41.89937622533348
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62246978030188,
+            41.89668186970245
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

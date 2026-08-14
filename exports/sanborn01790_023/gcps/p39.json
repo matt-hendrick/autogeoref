@@ -1,0 +1,207 @@
+{
+  "page": "39",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.25,
+  "auto_residuals_m": [
+    0.45,
+    0.67,
+    0.89,
+    0.85,
+    0.11,
+    0.09,
+    0.5,
+    0.2
+  ],
+  "inlier_streets": [
+    [
+      "W. HURON",
+      "N. ROBEY"
+    ],
+    [
+      "W. HURON",
+      "N. LINCOLN"
+    ],
+    [
+      "W. ERIE",
+      "N. ROBEY"
+    ],
+    [
+      "W. ERIE",
+      "N. LINCOLN"
+    ],
+    [
+      "W. OHIO",
+      "N. ROBEY"
+    ],
+    [
+      "W. OHIO",
+      "N. LINCOLN"
+    ],
+    [
+      "EMERSON AV.",
+      "N. ROBEY"
+    ],
+    [
+      "EMERSON AV.",
+      "N. LINCOLN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            844,
+            538
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6770015022758,
+            41.89407521568199
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4941,
+            538
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67455969444639,
+            41.89411625125274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            844,
+            2552
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6769751554006,
+            41.89315479179994
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4941,
+            2552
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67453298041481,
+            41.893194686998115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            844,
+            4560
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67694944323712,
+            41.892251315984794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4941,
+            4560
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67450736317684,
+            41.89229104109269
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            844,
+            6164
+          ],
+          "username": "autogeoref",
+          "note": "auto: EMERSON AV. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67692987468851,
+            41.89152935044701
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4941,
+            6164
+          ],
+          "username": "autogeoref",
+          "note": "auto: EMERSON AV. x N. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67448683715945,
+            41.89156699641515
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -0.113,
+    "dy_m": -2.742
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "page": "103",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 0.15,
+  "auto_residuals_m": [
+    4.71,
+    4.68,
+    3.49,
+    9.12,
+    5.63
+  ],
+  "inlier_streets": [
+    [
+      "W. 36TH ST. (PRIVATE)",
+      "S. RACINE AV. (S. CENTRE AV.)"
+    ],
+    [
+      "W. 36TH ST. (PRIVATE)",
+      "WALL ST. (PRIVATE)"
+    ],
+    [
+      "S. RACINE AV. (S. CENTRE AV.)",
+      "W. 37TH ST. (PRIVATE)"
+    ],
+    [
+      "S. MAY ST. (WALL)",
+      "W. 37TH ST. (PRIVATE)"
+    ],
+    [
+      "W. 37TH ST. (PRIVATE)",
+      "WALL ST. (PRIVATE)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            330,
+            2126
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. (PRIVATE) x S. RACINE AV. (S. CENTRE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65566235786218,
+            41.828628682294735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2032,
+            2126
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. (PRIVATE) x WALL ST. (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65453476332226,
+            41.82862735237479
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            330,
+            6052
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RACINE AV. (S. CENTRE AV.) x W. 37TH ST. (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65561850522754,
+            41.82697624363568
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2248,
+            6052
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MAY ST. (WALL) x W. 37TH ST. (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65455580620834,
+            41.82698086386959
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2032,
+            6052
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH ST. (PRIVATE) x WALL ST. (PRIVATE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65455580620834,
+            41.82698086386959
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

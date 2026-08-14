@@ -1,0 +1,159 @@
+{
+  "page": "78",
+  "n_streets": 5,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 0.67,
+  "auto_residuals_m": [
+    3.77,
+    4.79,
+    1.25,
+    2.82,
+    3.32,
+    1.53
+  ],
+  "inlier_streets": [
+    [
+      "W. KINZIE",
+      "N. ELIZABETH"
+    ],
+    [
+      "W. KINZIE",
+      "N. RACINE AV."
+    ],
+    [
+      "N. ELIZABETH",
+      "CARROLL AV."
+    ],
+    [
+      "N. ELIZABETH",
+      "W. FULTON MARKET"
+    ],
+    [
+      "CARROLL AV.",
+      "N. RACINE AV."
+    ],
+    [
+      "N. RACINE AV.",
+      "W. FULTON MARKET"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1516,
+            1186
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65895685708861,
+            41.888949022019816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4866,
+            1186
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65701048725721,
+            41.8889471895727
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1516,
+            3989
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELIZABETH x CARROLL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65895373837064,
+            41.88767579445344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1516,
+            6237
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELIZABETH x W. FULTON MARKET"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65892755598891,
+            41.886646639862185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4866,
+            3989
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARROLL AV. x N. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.656898056578,
+            41.887701474323755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4866,
+            6237
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RACINE AV. x W. FULTON MARKET"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65687340354057,
+            41.88667519111845
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -4.023,
+    "dy_m": -0.177
+  }
+}

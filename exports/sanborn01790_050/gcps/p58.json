@@ -1,0 +1,159 @@
+{
+  "page": "58",
+  "n_streets": 8,
+  "n_candidates": 17,
+  "n_inliers": 6,
+  "rotation_deg": 0.5,
+  "auto_residuals_m": [
+    2.2,
+    3.07,
+    1.94,
+    1.66,
+    3.34,
+    2.65
+  ],
+  "inlier_streets": [
+    [
+      "LAWRENCE AV.",
+      "N. KOSTNER AV."
+    ],
+    [
+      "LELAND AV.",
+      "N. KENNETH AV."
+    ],
+    [
+      "LELAND AV.",
+      "N. KOSTNER AV."
+    ],
+    [
+      "N. KENNETH AV.",
+      "WILSON AV."
+    ],
+    [
+      "N. KOSTNER AV.",
+      "WILSON AV."
+    ],
+    [
+      "LOWELL AV.",
+      "WILSON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3548,
+            302
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x N. KOSTNER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.737882597464,
+            41.968131732576076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            225,
+            4082
+          ],
+          "username": "autogeoref",
+          "note": "auto: LELAND AV. x N. KENNETH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73997497552547,
+            41.96628418827756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2422,
+            4082
+          ],
+          "username": "autogeoref",
+          "note": "auto: LELAND AV. x N. KOSTNER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73858286867323,
+            41.96629914954465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            225,
+            7779
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENNETH AV. x WILSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73991842973426,
+            41.96445971618014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2422,
+            7779
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KOSTNER AV. x WILSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73852730146348,
+            41.964474464269735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4803,
+            7779
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOWELL AV. x WILSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73709556686661,
+            41.96448915367132
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.192,
+    "dy_m": -0.329
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "page": "130",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 5,
+  "rotation_deg": 1.57,
+  "auto_residuals_m": [
+    4.26,
+    5.85,
+    1.59,
+    3.69,
+    3.66
+  ],
+  "inlier_streets": [
+    [
+      "GRACELAND AVE.",
+      "SOUTHPORT AVE."
+    ],
+    [
+      "SOUTHPORT AVE.",
+      "BYRON"
+    ],
+    [
+      "SOUTHPORT AVE.",
+      "GRACE"
+    ],
+    [
+      "BYRON",
+      "HERNDON"
+    ],
+    [
+      "HERNDON",
+      "GRACE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            260,
+            468
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACELAND AVE. x SOUTHPORT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66421530893221,
+            41.95435489995687
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            260,
+            4433
+          ],
+          "username": "autogeoref",
+          "note": "auto: SOUTHPORT AVE. x BYRON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66416875555085,
+            41.952533431192734
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            260,
+            7597
+          ],
+          "username": "autogeoref",
+          "note": "auto: SOUTHPORT AVE. x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66412542904347,
+            41.95097637446516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4235,
+            4433
+          ],
+          "username": "autogeoref",
+          "note": "auto: BYRON x HERNDON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66174390346329,
+            41.95256827112501
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4235,
+            7597
+          ],
+          "username": "autogeoref",
+          "note": "auto: HERNDON x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6617005600623,
+            41.951011826533005
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

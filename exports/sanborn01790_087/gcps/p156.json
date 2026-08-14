@@ -1,0 +1,159 @@
+{
+  "page": "156",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.23,
+  "auto_residuals_m": [
+    0.3,
+    0.33,
+    0.03,
+    0.05,
+    0.36,
+    0.31
+  ],
+  "inlier_streets": [
+    [
+      "W WEBSTER AV.",
+      "N. RACINE AV."
+    ],
+    [
+      "W WEBSTER AV.",
+      "N. CLIFTON AV."
+    ],
+    [
+      "W WEBSTER AV.",
+      "N. SEMINARY AV."
+    ],
+    [
+      "N. RACINE AV.",
+      "W. DICKENS AV. (W. GARFIELD AV.)"
+    ],
+    [
+      "N. CLIFTON AV.",
+      "W. DICKENS AV. (W. GARFIELD AV.)"
+    ],
+    [
+      "N. SEMINARY AV.",
+      "W. DICKENS AV. (W. GARFIELD AV.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            965,
+            2707
+          ],
+          "username": "autogeoref",
+          "note": "auto: W WEBSTER AV. x N. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65836330787728,
+            41.92166307904876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2991,
+            2707
+          ],
+          "username": "autogeoref",
+          "note": "auto: W WEBSTER AV. x N. CLIFTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65715403361058,
+            41.92168162917687
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5005,
+            2707
+          ],
+          "username": "autogeoref",
+          "note": "auto: W WEBSTER AV. x N. SEMINARY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65594381433593,
+            41.921701603630574
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            965,
+            6738
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RACINE AV. x W. DICKENS AV. (W. GARFIELD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6583074460652,
+            41.919848622234156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2991,
+            6738
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLIFTON AV. x W. DICKENS AV. (W. GARFIELD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65709573860687,
+            41.919868713748905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5005,
+            6738
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEMINARY AV. x W. DICKENS AV. (W. GARFIELD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65588222205568,
+            41.91988726177359
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.157,
+    "dy_m": 0.245
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "page": "cbd2",
+  "n_streets": 44,
+  "n_candidates": 234,
+  "n_inliers": 3,
+  "status": "OK (reviewer-verified)",
+  "rescue_anchors": [
+    [
+      "RUSH",
+      "W. CHESTNUT"
+    ],
+    [
+      "RUSH",
+      "E. CHESTNUT"
+    ],
+    [
+      "LAKE SHORE DRIVE",
+      "E. OAK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2275,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: RUSH x W. CHESTNUT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6293469367418,
+            41.893465506727956
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2275,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: RUSH x E. CHESTNUT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6293469367418,
+            41.893465506727956
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3200,
+            2970
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAKE SHORE DRIVE x E. OAK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62709612343467,
+            41.89593144404713
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            900,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63296554431967,
+            41.90004491512779
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            8100,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61485826643803,
+            41.900280164398524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            900,
+            6480
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63271269335078,
+            41.88926204768505
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  },
+  "reviewer_review": {
+    "verdict": "adjusted",
+    "ops": [
+      {
+        "type": "translate",
+        "dx_m": -331.5611307695508,
+        "dy_m": -731.1863604756072
+      }
+    ],
+    "timestamp": "2026-07-19T01:34:33+00:00",
+    "note": "",
+    "previous_status": "OK (rescued)"
+  },
+  "reviewer_mask_px": [
+    [
+      180.0,
+      144.0
+    ],
+    [
+      8820.0,
+      144.0
+    ],
+    [
+      8820.0,
+      7056.0
+    ],
+    [
+      180.0,
+      7056.0
+    ]
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "page": "89",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": -87.95,
+  "auto_residuals_m": [
+    3.57,
+    1.19,
+    3.54,
+    6.21,
+    5.09
+  ],
+  "inlier_streets": [
+    [
+      "N. SACRAMENTO AV.",
+      "CARROLL AV."
+    ],
+    [
+      "N. SACRAMENTO AV.",
+      "FULTON"
+    ],
+    [
+      "N. FRANCISCO AV.",
+      "CARROLL AV."
+    ],
+    [
+      "N. FRANCISCO AV.",
+      "FULTON"
+    ],
+    [
+      "N. CALIFORNIA AV.",
+      "FULTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2487,
+            8366
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO AV. x CARROLL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70136893838279,
+            41.88756500318859
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4985,
+            8366
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO AV. x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70133737465848,
+            41.88646384918575
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2487,
+            4316
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANCISCO AV. x CARROLL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6989037604446,
+            41.88759495807961
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4985,
+            4316
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANCISCO AV. x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69887469587145,
+            41.88649087736001
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4985,
+            532
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CALIFORNIA AV. x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69641046022566,
+            41.886521232399026
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.46,
+    "dy_m": -2.501
+  }
+}

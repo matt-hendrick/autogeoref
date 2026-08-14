@@ -1,0 +1,230 @@
+{
+  "page": "33",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 0.59,
+  "auto_residuals_m": [
+    2.2,
+    4.0,
+    2.93,
+    2.53,
+    4.38,
+    2.32,
+    4.42,
+    3.89,
+    1.56
+  ],
+  "inlier_streets": [
+    [
+      "E. CULLERTON (E. 20TH ST.)",
+      "S. STATE"
+    ],
+    [
+      "E. CULLERTON (E. 20TH ST.)",
+      "S. WABASH AV."
+    ],
+    [
+      "E. CULLERTON (E. 20TH ST.)",
+      "S. MICHIGAN AV. (BOULEVARD)"
+    ],
+    [
+      "E. 21ST ST.",
+      "S. STATE"
+    ],
+    [
+      "E. 21ST ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 21ST ST.",
+      "S. MICHIGAN AV. (BOULEVARD)"
+    ],
+    [
+      "S. STATE",
+      "E. CERMAK RD. (E. 22ND ST.)"
+    ],
+    [
+      "S. WABASH AV.",
+      "E. CERMAK RD. (E. 22ND ST.)"
+    ],
+    [
+      "S. MICHIGAN AV. (BOULEVARD)",
+      "E. CERMAK RD. (E. 22ND ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            346,
+            815
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CULLERTON (E. 20TH ST.) x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62715862113379,
+            41.85545874387058
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2749,
+            815
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CULLERTON (E. 20TH ST.) x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62557121517149,
+            41.8554804497149
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5468,
+            815
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CULLERTON (E. 20TH ST.) x S. MICHIGAN AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62388841265253,
+            41.85550332840494
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            346,
+            3461
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 21ST ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62712680919019,
+            41.85426228753484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2749,
+            3461
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 21ST ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62554246873202,
+            41.854275541191875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5468,
+            3461
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 21ST ST. x S. MICHIGAN AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62386391006767,
+            41.8542966043359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            346,
+            6617
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x E. CERMAK RD. (E. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62710118495622,
+            41.852882607643664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2749,
+            6617
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. CERMAK RD. (E. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62551207984906,
+            41.852862556997636
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5468,
+            6617
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. (BOULEVARD) x E. CERMAK RD. (E. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62382273022159,
+            41.85287772814081
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -1.39,
+    "dy_m": 1.825
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "page": "40",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.33,
+  "auto_residuals_m": [
+    0.12,
+    0.16,
+    1.23,
+    1.18,
+    2.19,
+    1.07,
+    2.06,
+    1.0
+  ],
+  "inlier_streets": [
+    [
+      "W. TOUHY AV.",
+      "N. ASHLAND BLVD."
+    ],
+    [
+      "W. TOUHY AV.",
+      "N. GREENVIEW AV."
+    ],
+    [
+      "W. ESTES AV.",
+      "N. ASHLAND BLVD."
+    ],
+    [
+      "W. ESTES AV.",
+      "N. GREENVIEW AV."
+    ],
+    [
+      "N. ASHLAND BLVD.",
+      "W. GREENLEAF AV."
+    ],
+    [
+      "N. ASHLAND BLVD.",
+      "W. LUNT AV."
+    ],
+    [
+      "N. GREENVIEW AV.",
+      "W. GREENLEAF AV."
+    ],
+    [
+      "N. GREENVIEW AV.",
+      "W. LUNT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1099,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TOUHY AV. x N. ASHLAND BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6702014565908,
+            42.012701033578644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4704,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TOUHY AV. x N. GREENVIEW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66803071347114,
+            42.012738701514756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1099,
+            2910
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ESTES AV. x N. ASHLAND BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67016202610654,
+            42.011476718507154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4704,
+            2910
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ESTES AV. x N. GREENVIEW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6679911110784,
+            42.01151460896583
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1099,
+            5582
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND BLVD. x W. GREENLEAF AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67012003606506,
+            42.01026123809736
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1099,
+            8180
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND BLVD. x W. LUNT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67007689574324,
+            42.00903554679542
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4704,
+            5582
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GREENVIEW AV. x W. GREENLEAF AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6679490600778,
+            42.01029789176684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4704,
+            8180
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GREENVIEW AV. x W. LUNT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66790734302441,
+            42.00907351172688
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.382,
+    "dy_m": -1.974
+  }
+}

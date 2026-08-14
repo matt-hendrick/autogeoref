@@ -1,0 +1,182 @@
+{
+  "page": "76",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "rotation_deg": 0.07,
+  "auto_residuals_m": [
+    0.48,
+    3.48,
+    6.78,
+    19.18,
+    12.08,
+    2.47,
+    1.01
+  ],
+  "inlier_streets": [
+    [
+      "ARMITAGE AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. KILPATRICK AV."
+    ],
+    [
+      "N. CICERO AV.",
+      "CORTLAND ST."
+    ],
+    [
+      "N. CICERO AV.",
+      "W. GRAND AV."
+    ],
+    [
+      "N. CICERO AV.",
+      "BLOOMINGDALE AV."
+    ],
+    [
+      "CORTLAND ST.",
+      "N. KILPATRICK AV."
+    ],
+    [
+      "N. KILPATRICK AV.",
+      "HOMER ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1063,
+            368
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74611576933648,
+            41.916886414437045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4964,
+            368
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74370055647437,
+            41.91691444997238
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1063,
+            4307
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CICERO AV. x CORTLAND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74603742090733,
+            41.91505886953587
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1063,
+            7296
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CICERO AV. x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74599556867317,
+            41.913877428647105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1063,
+            8240
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CICERO AV. x BLOOMINGDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7459742163357,
+            41.91324068220618
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4964,
+            4307
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND ST. x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74362928122035,
+            41.915089502136425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4964,
+            2322
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILPATRICK AV. x HOMER ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74366287428396,
+            41.91599900405364
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.566,
+    "dy_m": -6.927
+  }
+}

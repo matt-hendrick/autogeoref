@@ -1,0 +1,198 @@
+{
+  "page": "40",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "ARGYLE",
+      "N. KILBOURN AV."
+    ],
+    [
+      "KENTUCKY AV.",
+      "N. KILBOURN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2285,
+            342
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARGYLE x N. KILBOURN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74055677571052,
+            41.9717550777218
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2285,
+            2179
+          ],
+          "username": "autogeoref",
+          "note": "auto: KENTUCKY AV. x N. KILBOURN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74052978376419,
+            41.97088826339269
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7416066973531,
+            41.97149977744748
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5283,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73867743011434,
+            41.97153347106335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74154104277541,
+            41.968344607376125
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6381,
+    "separation_ratio": 1.638,
+    "best_offset_m": 16.2,
+    "n_junctions": 22
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 14,
+      "votable": 14,
+      "in_block": 14,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 9.5,
+          "addr_diff": 8.8
+        },
+        {
+          "perp_m": 13.3,
+          "addr_diff": 6.8
+        },
+        {
+          "perp_m": 12.7,
+          "addr_diff": 7.4
+        },
+        {
+          "perp_m": 12.3,
+          "addr_diff": 7.6
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 3.0
+        },
+        {
+          "perp_m": 10.5,
+          "addr_diff": 7.8
+        },
+        {
+          "perp_m": 10.1,
+          "addr_diff": 6.5
+        },
+        {
+          "perp_m": 10.0,
+          "addr_diff": 7.1
+        },
+        {
+          "perp_m": 9.7,
+          "addr_diff": 7.3
+        },
+        {
+          "perp_m": 9.6,
+          "addr_diff": 7.7
+        },
+        {
+          "perp_m": 9.4,
+          "addr_diff": 8.3
+        },
+        {
+          "perp_m": 9.4,
+          "addr_diff": 8.6
+        },
+        {
+          "perp_m": 9.5,
+          "addr_diff": 9.1
+        },
+        {
+          "perp_m": 9.5,
+          "addr_diff": 9.3
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

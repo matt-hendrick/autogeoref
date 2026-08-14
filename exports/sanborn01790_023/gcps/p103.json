@@ -1,0 +1,203 @@
+{
+  "page": "103",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.3,
+  "auto_residuals_m": [
+    0.93,
+    1.62,
+    0.74,
+    1.54,
+    0.8,
+    1.84,
+    1.21,
+    2.3
+  ],
+  "inlier_streets": [
+    [
+      "PARK AV.",
+      "N. ROBEY"
+    ],
+    [
+      "PARK AV.",
+      "N. LINCOLN"
+    ],
+    [
+      "W. WASHINGTON BLVD.",
+      "N. ROBEY"
+    ],
+    [
+      "W. WASHINGTON BLVD.",
+      "N. LINCOLN"
+    ],
+    [
+      "WARREN AV.",
+      "N. ROBEY"
+    ],
+    [
+      "WARREN AV.",
+      "N. LINCOLN"
+    ],
+    [
+      "W. MADISON",
+      "N. ROBEY"
+    ],
+    [
+      "W. MADISON",
+      "N. LINCOLN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            892,
+            571
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARK AV. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67671486245459,
+            41.884067509308764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4976,
+            571
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARK AV. x N. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6742655920645,
+            41.88411796531682
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            892,
+            2589
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67669035874793,
+            41.883146912641266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4976,
+            2589
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON BLVD. x N. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67423824515168,
+            41.88318343690166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            892,
+            4608
+          ],
+          "username": "autogeoref",
+          "note": "auto: WARREN AV. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6766631127456,
+            41.88223191596526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4976,
+            4608
+          ],
+          "username": "autogeoref",
+          "note": "auto: WARREN AV. x N. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6742107067109,
+            41.882271463550595
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            892,
+            6658
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67664187142,
+            41.881313862632844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4976,
+            6658
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x N. LINCOLN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67422526984457,
+            41.88135213178245
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

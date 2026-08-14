@@ -1,0 +1,159 @@
+{
+  "page": "7",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 0.8,
+  "auto_residuals_m": [
+    1.96,
+    0.39,
+    1.76,
+    0.42,
+    10.85,
+    7.1
+  ],
+  "inlier_streets": [
+    [
+      "AUGUSTA",
+      "N. WOOD"
+    ],
+    [
+      "AUGUSTA",
+      "N. PAULINA"
+    ],
+    [
+      "W. WALTON",
+      "N. WOOD"
+    ],
+    [
+      "W. WALTON",
+      "N. PAULINA"
+    ],
+    [
+      "N. WOOD",
+      "IOWA ST."
+    ],
+    [
+      "N. WOOD",
+      "RICE ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            908,
+            1194
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6722788892889,
+            41.89960215959105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4886,
+            1194
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66983589833191,
+            41.89963811290025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            908,
+            3713
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALTON x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67224826823004,
+            41.89845994700848
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4886,
+            3713
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALTON x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66980509841628,
+            41.89849989019596
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            908,
+            5393
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOOD x IOWA ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67222734535699,
+            41.897781588313855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            908,
+            7122
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOOD x RICE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67220099250764,
+            41.8968767434052
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.385,
+    "dy_m": -4.572
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "page": "132",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. JACKSON BLVD.",
+      "S. WASHTENAW AV."
+    ],
+    [
+      "GLADYS AV.",
+      "S. WASHTENAW AV."
+    ],
+    [
+      "W. VAN BUREN",
+      "S. WASHTENAW AV."
+    ],
+    [
+      "S. WASHTENAW AV.",
+      "W. CONGRESS"
+    ],
+    [
+      "S. WASHTENAW AV.",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            856,
+            274
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD. x S. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69378017226892,
+            41.877461567398335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            856,
+            1750
+          ],
+          "username": "autogeoref",
+          "note": "auto: GLADYS AV. x S. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6937430012553,
+            41.876733700715306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            856,
+            3357
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69371398295573,
+            41.87600814581228
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            856,
+            5754
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WASHTENAW AV. x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69372917354991,
+            41.874912445164284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            856,
+            8183
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WASHTENAW AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69367799018836,
+            41.87381634142982
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            862
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69391588887278,
+            41.87715590303838
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5323,
+            862
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69101308295288,
+            41.87718499285658
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            7761
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69385892387106,
+            41.87400441378303
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.665,
+    "separation_ratio": 1.067,
+    "best_offset_m": 36.2,
+    "n_junctions": 9
+  }
+}

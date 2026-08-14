@@ -1,0 +1,97 @@
+# Crystal Lake, Illinois — THE COUNTER-EXAMPLE. Do not copy this file.
+#
+# `configs/staunton/staunton.toml` is the worked example. This config is kept
+# on purpose, and only as a regression case: it is by a wide margin the most
+# off-cardinal town in the corpus, and the town whose failure produced two of
+# the five pre-spend filters in `docs/ADDING-A-CITY.md` §0 — the growth ratio
+# and the off-cardinal share. A reader who wants a template wants Staunton.
+#
+# It was run end to end. It places badly, and the funnel does not say so — it
+# reports 6 of 9 accepted at a 4.99 m median auto residual, while projecting
+# each sheet's labels through its own served transform puts the median sheet
+# over 100 m out and one committed sheet is warped 36.7 degrees out of square.
+#
+# The two things it fails on, both measurable before any model call:
+#
+#   Growth. 4,368 people in 1950 against 40,269 in 2020, a factor of 9.2. The
+#   search box holds 563 centerline streets over 63 km2 where Staunton's holds
+#   174 over 51, and most of the extra are subdivision streets no sheet drew.
+#
+#   Off-cardinal streets. 30.3% of the named centerline metres in the box run
+#   more than 15 degrees off the nearest cardinal axis, against 12-19% for
+#   Chicago, Cleveland and Staunton. The reader's label frame is cardinal, so
+#   that share of the network cannot be anchored on.
+#
+# DO NOT RE-PLACE IT EXPECTING A GOOD VOLUME. With the shear gate and the
+# normalize fix it goes from six accepts to five, and four of the five are
+# still misplaced — their fits are square and simply in the wrong place, which
+# only the diagonal-label work addresses, and that measured inside the noise.
+#
+# Its archive under `deploy/tiles/crystal-lake/` is a local bake. No PAGE can
+# list it — `deploy-bundle` reads `viewer/<slug>/manifest.json` and this city
+# has none, so building one is the deliberate act that would publish it. That
+# gate does not cover the archive itself: `docs/OPERATIONS.md` has the operator
+# upload `deploy/tiles/` by hand, so a wholesale sync ships this .pmtiles as an
+# unreferenced file. Exclude it there, and do not build the manifest.
+
+[city]
+name = "Crystal Lake, Ill."
+loc_query = "sanborn maps crystal lake illinois"
+# Required key. The directory holds one optional file per volume, and a
+# missing file means "no aliases" — the honest state before any historical
+# rename has been curated.
+aliases_dir = "aliases"
+# No `centerlines` key, so OpenStreetMap is the source: `autogeoref run`
+# makes one polite Overpass fetch per uncovered volume bbox into
+# cache/osm-centerlines-crystal-lake-ill.geojson beside this file, and never
+# fetches that area again. Overpass carries no node ids, so the converter
+# derives the intersection graph from the vertices two different streets share,
+# which is the centerline half of the channel below. The SHEET half is separate
+# and can still come up empty: on this volume the drawn-street extractor finds
+# no crossings, so the channel scores nothing. Declared anyway — it costs no
+# model budget and it fires wherever the linework is heavier.
+evidence_channels = ["junction"]
+# `addresses` is deliberately NOT declared. OSM ways carry no address ranges,
+# so the channel could only abstain, and a channel that abstains on every page
+# is a funnel that looks verified and is not. To turn it on, bring a
+# centerline file that has ranges (docs/ADDING-A-CITY.md §2a).
+# The house voice, same as the reference city's. Every model is an external CLI
+# you install and authenticate yourself; this one needs `codex`. README Setup
+# lists the alternatives and what each wants.
+annotation_model = "codex:gpt-5.6-terra"
+annotation_variant = "high"
+escalation_models = ["codex:gpt-5.6-terra", "codex:gpt-5.6-sol"]
+escalation_variants = ["high", "high"]
+
+[viewer]
+# The deploy/tiles/ directory this city's archives land in. The FIRST entry is
+# where `publish` writes and where `status` looks for a bake; leaving it at the
+# default would put this city's volumes, unlabelled, on the reference city's
+# page — which for a counter-example would be the worst outcome available.
+# docs/ADDING-A-CITY.md §6a.
+serving_dirs = ["crystal-lake"]
+
+[volumes.sanborn01810_007]
+# April 1936 base carrying a January 1955 paste-on revision, so "1955" is the
+# revision date. Nine sheets.
+#
+# bounds_bbox is a hard membership filter with no padding applied, so it is
+# drawn around the streets the sheets actually name — read off this volume's
+# own key map (sheet 1, which also carries the printed street index) and
+# located against modern OSM — and then given about a kilometre of margin on
+# every edge. The town's corners: the Country Club subdivision and Broadway
+# west of the lake, the south city limits below Nash Ave, the Kent/Thomas
+# platting east of Lindsley's Addition, and Hickory Dr and McCollum's Addition
+# north of Terra Cotta Ave.
+#
+# The north edge reaches well past the town on purpose. The key map notes
+# "2 1/2 MI. TO AMERICAN TERRA COTTA CORP. SHEET NO. 9", and the works sit up
+# Terra Cotta Rd around 42.28 — outside any box drawn round the town. Sheet 9
+# also draws blocks inside the town, so it is a detached-area sheet and may
+# still flag on its own merits; the search box should not be the reason.
+# Bounds are a search area, not a gate: a generous edge costs a little
+# candidate discrimination, while a tight one silently drops sheets.
+bounds_bbox = [-88.375, 42.211, -88.290, 42.292]
+# No recorded scale or rotation: stage_match derives both two-pass. That is
+# the right default for a new volume — a pinned constant is a claim you have
+# measured, not a guess to start from.

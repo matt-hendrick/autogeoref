@@ -1,0 +1,185 @@
+{
+  "page": "33",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. VAN BUREN",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. CONGRESS ST.",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. CONGRESS ST.",
+      "S. CLAREMONT AV."
+    ],
+    [
+      "S. WESTERN AV.",
+      "W. HARRISON"
+    ],
+    [
+      "S. CLAREMONT AV.",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            1241
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68626949839522,
+            41.87608361824806
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            3630
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONGRESS ST. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68625810834267,
+            41.87499489802188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2979,
+            3630
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONGRESS ST. x S. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6850322376491,
+            41.87497756391088
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            932,
+            6093
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WESTERN AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6862347929508,
+            41.87389111334788
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2979,
+            6093
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLAREMONT AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68500516076203,
+            41.87390734684232
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6865127226693,
+            41.87630758928597
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5301,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68363631847113,
+            41.87635261059807
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68643754718782,
+            41.873644728130934
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.559,
+    "separation_ratio": 1.091,
+    "best_offset_m": 2.3,
+    "n_junctions": 29
+  }
+}

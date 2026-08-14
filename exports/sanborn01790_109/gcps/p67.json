@@ -1,0 +1,164 @@
+{
+  "page": "67",
+  "n_streets": 10,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. PERSHING ROAD",
+      "S. CALIFORNIA AV."
+    ],
+    [
+      "W. 39TH PL.",
+      "S. CALIFORNIA AV."
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. 40TH ST."
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. 41ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            697,
+            247
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PERSHING ROAD x S. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69462723194921,
+            41.8227862362537
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            697,
+            2211
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 39TH PL. x S. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69462962673495,
+            41.821893577204044
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            697,
+            4184
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. 40TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69460080087828,
+            41.82103204149657
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            697,
+            7879
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. 41ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6945440663804,
+            41.81928098810689
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69470754885965,
+            41.82253573751867
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69178926362605,
+            41.822583668654275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69461427363706,
+            41.81938183257713
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6086,
+    "separation_ratio": 1.439,
+    "best_offset_m": 4.6,
+    "n_junctions": 19
+  }
+}

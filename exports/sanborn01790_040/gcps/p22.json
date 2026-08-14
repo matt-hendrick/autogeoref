@@ -1,0 +1,137 @@
+{
+  "page": "22",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "WRIGHTWOOD AV.",
+      "N. LOCKWOOD AV."
+    ],
+    [
+      "ALTGELD",
+      "N. LOREL AV."
+    ],
+    [
+      "ALTGELD",
+      "N. LOCKWOOD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3174,
+            181
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AV. x N. LOCKWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7587413207563,
+            41.92774646944596
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1367,
+            4103
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALTGELD x N. LOREL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7599031645524,
+            41.92590047865729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3174,
+            4103
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALTGELD x N. LOCKWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75867462433705,
+            41.92592400452807
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76034933269477,
+            41.927398292049794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5268,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7574684995847,
+            41.92743554893756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76027657430186,
+            41.92428412606525
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

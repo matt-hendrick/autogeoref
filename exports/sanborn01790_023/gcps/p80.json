@@ -1,0 +1,109 @@
+{
+  "page": "80",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.04,
+  "auto_residuals_m": [
+    0.09,
+    0.12,
+    0.12,
+    0.11
+  ],
+  "inlier_streets": [
+    [
+      "W. KINZIE",
+      "N. CARPENTER"
+    ],
+    [
+      "W. KINZIE",
+      "N. MORGAN"
+    ],
+    [
+      "N. CARPENTER",
+      "CARROLL AV."
+    ],
+    [
+      "N. MORGAN",
+      "CARROLL AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2962,
+            1996
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. CARPENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.653399805915,
+            41.88897716483123
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4928,
+            1996
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65223573982676,
+            41.88899399084541
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2962,
+            4742
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CARPENTER x CARROLL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65336721734069,
+            41.887748289766805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4928,
+            4742
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MORGAN x CARROLL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65220081485306,
+            41.887762957553726
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

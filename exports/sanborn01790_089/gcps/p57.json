@@ -1,0 +1,119 @@
+{
+  "page": "57",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. HALSTED",
+      "S. ARCHER AV."
+    ],
+    [
+      "S. EMERALD AV.",
+      "W. 25TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            796,
+            3953
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x S. ARCHER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64648892228787,
+            41.84719816894758
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2592,
+            4873
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EMERALD AV. x W. 25TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64544565245,
+            41.84681871285119
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64668702321721,
+            41.84866925613713
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5243,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64384760603039,
+            41.84870928651706
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64661947640491,
+            41.84601061127845
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.5735,
+    "separation_ratio": 0.989,
+    "best_offset_m": 76.4,
+    "n_junctions": 20
+  }
+}

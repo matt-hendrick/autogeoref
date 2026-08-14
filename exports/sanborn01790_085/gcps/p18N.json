@@ -1,0 +1,182 @@
+{
+  "page": "18N",
+  "n_streets": 9,
+  "n_candidates": 11,
+  "n_inliers": 7,
+  "rotation_deg": 0.95,
+  "auto_residuals_m": [
+    7.22,
+    1.81,
+    7.79,
+    2.78,
+    2.45,
+    7.33,
+    7.46
+  ],
+  "inlier_streets": [
+    [
+      "N. HUDSON",
+      "W. ERIE"
+    ],
+    [
+      "N. SEDGWICK",
+      "W. ERIE"
+    ],
+    [
+      "W. ERIE",
+      "N. ORLEANS"
+    ],
+    [
+      "W. ONTARIO",
+      "N. ORLEANS"
+    ],
+    [
+      "N. ORLEANS",
+      "W. OHIO"
+    ],
+    [
+      "N. ORLEANS",
+      "W. GRAND AV."
+    ],
+    [
+      "N. KINGSBURY",
+      "W. GRAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            802,
+            967
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HUDSON x W. ERIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64000658090688,
+            41.893927750773294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3217,
+            967
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. ERIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63854459014786,
+            41.89394475755926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5503,
+            967
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6371206025166,
+            41.89396208564049
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5503,
+            2761
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ONTARIO x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63709663025787,
+            41.893157507961604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5503,
+            4462
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ORLEANS x W. OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63707211023204,
+            41.89238555308105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5503,
+            6360
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ORLEANS x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63704787859565,
+            41.891557058670536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            412,
+            6360
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KINGSBURY x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63989563320827,
+            41.89150939502043
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.934,
+    "dy_m": 1.678
+  }
+}

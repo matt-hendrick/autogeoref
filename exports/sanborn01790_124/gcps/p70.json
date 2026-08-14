@@ -1,0 +1,136 @@
+{
+  "page": "70",
+  "n_streets": 5,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": -88.53,
+  "auto_residuals_m": [
+    0.75,
+    0.52,
+    1.09,
+    0.48,
+    0.36
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH SHORE AV.",
+      "N. SHERIDAN RD."
+    ],
+    [
+      "W. ALBION AV.",
+      "N. WINTHROP AV."
+    ],
+    [
+      "W. ALBION AV.",
+      "N. SHERIDAN RD."
+    ],
+    [
+      "N. WINTHROP AV.",
+      "W. LOYOLA AV."
+    ],
+    [
+      "W. LOYOLA AV.",
+      "N. SHERIDAN RD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            483,
+            7622
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH SHORE AV. x N. SHERIDAN RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66082550075642,
+            42.003661810869865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2876,
+            4046
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ALBION AV. x N. WINTHROP AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65862011486625,
+            42.002563360377174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2876,
+            7622
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ALBION AV. x N. SHERIDAN RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66078705783032,
+            42.00253166394611
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5077,
+            4046
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WINTHROP AV. x W. LOYOLA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65858709588642,
+            42.0015415591928
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5077,
+            7622
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LOYOLA AV. x N. SHERIDAN RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66075004175575,
+            42.00151294413683
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.505,
+    "dy_m": -2.908
+  }
+}

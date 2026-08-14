@@ -1,0 +1,158 @@
+{
+  "page": "29",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 2,
+  "status": "OK (verified: corroboration+junction)",
+  "rescue_anchors": [
+    [
+      "STEWART",
+      "W. CERMAK RD. (W. 22ND ST.)"
+    ],
+    [
+      "W. CERMAK RD. (W. 22ND ST.)",
+      "PRINCETON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            729,
+            6030
+          ],
+          "username": "autogeoref",
+          "note": "auto: STEWART x W. CERMAK RD. (W. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63696616791478,
+            41.852838353817695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4185,
+            6030
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CERMAK RD. (W. 22ND ST.) x PRINCETON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6348146592484,
+            41.85286504604013
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63709214016336,
+            41.85523945192478
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5258,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63424492505776,
+            41.85527958811768
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63702460257501,
+            41.852581443153255
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4368,
+    "separation_ratio": 1.11,
+    "best_offset_m": 22.8,
+    "n_junctions": 7
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": null
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 4,
+      "votable": 4,
+      "in_block": 2,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 547.8,
+          "addr_diff": 232.0
+        },
+        {
+          "perp_m": 286.3,
+          "addr_diff": 142.0
+        },
+        {
+          "perp_m": 11.9,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 14.5,
+          "addr_diff": 3.6
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "page": "10",
+  "n_streets": 7,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "E. 73RD ST.",
+      "EAST-END AV."
+    ],
+    [
+      "E. 74TH ST.",
+      "EAST-END AV."
+    ],
+    [
+      "EAST-END AV.",
+      "E. 75TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            386,
+            198
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 73RD ST. x EAST-END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58357670592845,
+            41.76243706523993
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            386,
+            4298
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 74TH ST. x EAST-END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58353177447444,
+            41.760614461700776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            386,
+            8112
+          ],
+          "username": "autogeoref",
+          "note": "auto: EAST-END AV. x E. 75TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58348535494676,
+            41.75879257949558
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58345803260072,
+            41.76218060299332
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58066380691167,
+            41.76221691899616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5833866257662,
+            41.759123619790095
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

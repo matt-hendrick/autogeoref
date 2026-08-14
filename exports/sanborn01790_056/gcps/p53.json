@@ -1,0 +1,159 @@
+{
+  "page": "53",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 0.19,
+  "auto_residuals_m": [
+    0.79,
+    4.26,
+    0.8,
+    7.33,
+    0.46,
+    2.58
+  ],
+  "inlier_streets": [
+    [
+      "W. 95TH ST.",
+      "S. LOOMIS"
+    ],
+    [
+      "W. 95TH ST.",
+      "S. THROOP"
+    ],
+    [
+      "S. LOOMIS",
+      "W. 97TH ST."
+    ],
+    [
+      "W. 95TH PL.",
+      "S. THROOP"
+    ],
+    [
+      "S. THROOP",
+      "W. 96TH ST."
+    ],
+    [
+      "S. THROOP",
+      "W. 97TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            744,
+            232
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH ST. x S. LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65770223784412,
+            41.72129434098988
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4704,
+            232
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH ST. x S. THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65538376876867,
+            41.72132341339872
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            744,
+            7006
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LOOMIS x W. 97TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65761019410039,
+            41.71808233210979
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4704,
+            2236
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH PL. x S. THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65535849205823,
+            41.72029864166947
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4704,
+            4698
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. THROOP x W. 96TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65532657576507,
+            41.71918727774625
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4704,
+            7006
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. THROOP x W. 97TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65529737645676,
+            41.718110642545064
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.023,
+    "dy_m": 2.202
+  }
+}

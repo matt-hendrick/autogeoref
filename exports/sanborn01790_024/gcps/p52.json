@@ -1,0 +1,182 @@
+{
+  "page": "52",
+  "n_streets": 10,
+  "n_candidates": 12,
+  "n_inliers": 7,
+  "rotation_deg": 1.07,
+  "auto_residuals_m": [
+    17.41,
+    2.03,
+    5.42,
+    20.26,
+    1.86,
+    8.87,
+    3.42
+  ],
+  "inlier_streets": [
+    [
+      "S. ROBEY ST.",
+      "W. HARRISON"
+    ],
+    [
+      "S. ROBEY ST.",
+      "POLK"
+    ],
+    [
+      "W. HARRISON",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. HARRISON",
+      "S. ROBEY"
+    ],
+    [
+      "S. HOYNE AV.",
+      "FLOURNOY"
+    ],
+    [
+      "S. HOYNE AV.",
+      "LEXINGTON"
+    ],
+    [
+      "S. ROBEY",
+      "POLK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4573,
+            948
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROBEY ST. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6764139912787,
+            41.87403987523054
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4573,
+            6594
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROBEY ST. x POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67634136654466,
+            41.87147513927192
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            628,
+            948
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67885903030425,
+            41.8740017506486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5144,
+            948
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6764139912787,
+            41.87403987523054
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            628,
+            2620
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x FLOURNOY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67883785701888,
+            41.87323417051734
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            628,
+            4586
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x LEXINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67884983165453,
+            41.8723666170832
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5144,
+            6594
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROBEY x POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67599036552096,
+            41.87148051099371
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.727,
+    "dy_m": -0.393
+  }
+}

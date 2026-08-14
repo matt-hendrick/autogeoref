@@ -1,0 +1,182 @@
+{
+  "page": "68",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 1.12,
+  "auto_residuals_m": [
+    4.4,
+    4.96,
+    11.8,
+    7.35,
+    11.42,
+    7.91,
+    1.46
+  ],
+  "inlier_streets": [
+    [
+      "W. KINZIE ST.",
+      "N. OAKLEY BLVD"
+    ],
+    [
+      "W. KINZIE ST.",
+      "N. LEAVITT"
+    ],
+    [
+      "N. OAKLEY BLVD",
+      "FULTON"
+    ],
+    [
+      "N. OAKLEY BLVD",
+      "WALNUT"
+    ],
+    [
+      "N. LEAVITT",
+      "FULTON"
+    ],
+    [
+      "N. LEAVITT",
+      "WALNUT"
+    ],
+    [
+      "N. LEAVITT",
+      "CARROLL AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            860,
+            366
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE ST. x N. OAKLEY BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68418424297491,
+            41.88861535634313
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5243,
+            366
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE ST. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68174028126447,
+            41.88865458161101
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            860,
+            4659
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY BLVD x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68412208488334,
+            41.886673662177635
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            860,
+            7103
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY BLVD x WALNUT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6841023377488,
+            41.88575759472171
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5243,
+            4659
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68168115271551,
+            41.88671159195734
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5243,
+            7103
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x WALNUT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68165367442013,
+            41.885796967095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5243,
+            2710
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x CARROLL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6817080595177,
+            41.88761059841539
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.067,
+    "dy_m": 2.026
+  }
+}

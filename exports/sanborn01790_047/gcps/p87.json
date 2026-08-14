@@ -1,0 +1,123 @@
+{
+  "page": "87",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 83RD ST.",
+      "S. HOUSTON AV."
+    ],
+    [
+      "COMMERCIAL AV.",
+      "E. 85TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2381,
+            336
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 83RD ST. x S. HOUSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55029228253116,
+            41.74467175710927
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            257,
+            8127
+          ],
+          "username": "autogeoref",
+          "note": "auto: COMMERCIAL AV. x E. 85TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55146426736918,
+            41.74101651857776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            575,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55137494834919,
+            41.74439742608379
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5175,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.54853145745834,
+            41.74443454285638
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            575,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55130136718115,
+            41.74125923738098
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 3.586,
+    "dy_m": -0.357
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7395,
+    "separation_ratio": 1.563,
+    "best_offset_m": 7.0,
+    "n_junctions": 3
+  }
+}

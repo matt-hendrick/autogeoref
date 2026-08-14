@@ -1,0 +1,160 @@
+{
+  "page": "12",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. MAPLE",
+      "N. DEARBORN"
+    ],
+    [
+      "W. OAK",
+      "N. DEARBORN"
+    ],
+    [
+      "N. DEARBORN",
+      "W. WALTON"
+    ],
+    [
+      "N. DEARBORN",
+      "W. DELAWARE PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3387,
+            796
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MAPLE x N. DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62992464341089,
+            41.901863657925624
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3387,
+            3638
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OAK x N. DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62988880303618,
+            41.900572544878884
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3387,
+            5382
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DEARBORN x W. WALTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62986027265124,
+            41.899806923261465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3387,
+            6750
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DEARBORN x W. DELAWARE PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6298386890822,
+            41.89911787831123
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.631629273225,
+            41.9018542481908
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5158,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62884604632735,
+            41.90189733411032
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63155530384249,
+            41.89920722110679
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "page": "69",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 6,
+  "rotation_deg": 0.92,
+  "auto_residuals_m": [
+    0.6,
+    0.41,
+    0.92,
+    0.33,
+    0.77,
+    1.12
+  ],
+  "inlier_streets": [
+    [
+      "W. OHIO",
+      "N. RIDGEWAY AV."
+    ],
+    [
+      "W. OHIO",
+      "N. LAWNDALE AV."
+    ],
+    [
+      "W. OHIO",
+      "MONTICELLO AV."
+    ],
+    [
+      "N. RIDGEWAY AV.",
+      "FERDINAND"
+    ],
+    [
+      "N. LAWNDALE AV.",
+      "FERDINAND"
+    ],
+    [
+      "FERDINAND",
+      "MONTICELLO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            343,
+            325
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. RIDGEWAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71986797796039,
+            41.89174747940672
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2274,
+            325
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71864569504834,
+            41.89176455645963
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4186,
+            325
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x MONTICELLO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71742699308129,
+            41.891775604842486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            343,
+            4184
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RIDGEWAY AV. x FERDINAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71981782149038,
+            41.8899087890616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2274,
+            4184
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAWNDALE AV. x FERDINAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7185939261007,
+            41.889923756556435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4186,
+            4184
+          ],
+          "username": "autogeoref",
+          "note": "auto: FERDINAND x MONTICELLO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71740307159084,
+            41.889938457928395
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

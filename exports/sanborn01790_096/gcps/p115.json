@@ -1,0 +1,229 @@
+{
+  "page": "115",
+  "n_streets": 6,
+  "n_candidates": 16,
+  "n_inliers": 7,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "BLOOMINGDALE AV.",
+      "N. ALBANY AV."
+    ],
+    [
+      "BLOOMINGDALE AV.",
+      "N. WHIPPLE AV."
+    ],
+    [
+      "WABANSIA AV.",
+      "N. ALBANY AV."
+    ],
+    [
+      "WABANSIA AV.",
+      "N. WHIPPLE AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. ALBANY AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. WHIPPLE AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "HUMBOLDT BLVD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            878,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70462164620439,
+            41.91368719672203
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2802,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. x N. WHIPPLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70348534499026,
+            41.913750772315225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            878,
+            4231
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7045696882182,
+            41.911960569912885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2802,
+            4231
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABANSIA AV. x N. WHIPPLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70343197633315,
+            41.91197392362425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            878,
+            8147
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70451463251344,
+            41.91014919383565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2802,
+            8147
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. WHIPPLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70337751590732,
+            41.9101626304463
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5132,
+            8147
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x HUMBOLDT BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70186599251484,
+            41.910173043555254
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70479842396647,
+            41.91348975628424
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5223,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7019341128405,
+            41.91352112153335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70473665696217,
+            41.91036609102322
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.663,
+    "separation_ratio": 1.007,
+    "best_offset_m": 2.8,
+    "n_junctions": 11
+  }
+}

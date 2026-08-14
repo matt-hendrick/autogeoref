@@ -1,0 +1,123 @@
+{
+  "page": "118",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "MONTROSE AV.",
+      "SHERIDAN R'D"
+    ],
+    [
+      "HAZEL",
+      "JUNIOR TERRACE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            89,
+            502
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x SHERIDAN R'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65477926902334,
+            41.96179326779367
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4298,
+            3656
+          ],
+          "username": "autogeoref",
+          "note": "auto: HAZEL x JUNIOR TERRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6521857962955,
+            41.96034789798337
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65447776729415,
+            41.961610918209814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5209,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65166645218984,
+            41.96165215233596
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6543963033736,
+            41.95853978302738
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -3.424,
+    "dy_m": 2.178
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7595,
+    "separation_ratio": 1.86,
+    "best_offset_m": 2.5,
+    "n_junctions": 14
+  }
+}

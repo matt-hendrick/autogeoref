@@ -1,0 +1,207 @@
+{
+  "page": "90",
+  "n_streets": 5,
+  "n_candidates": 10,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 38TH ST.",
+      "S. WOLCOTT AV."
+    ],
+    [
+      "W. 38TH ST.",
+      "S. HONORE"
+    ],
+    [
+      "W. 38TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "S. WOLCOTT AV.",
+      "W. PERSHING (W. 39TH ST.) ROAD"
+    ],
+    [
+      "S. HONORE",
+      "W. PERSHING (W. 39TH ST.) ROAD"
+    ],
+    [
+      "S. WOOD",
+      "W. PERSHING (W. 39TH ST.) ROAD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            948,
+            3068
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x S. WOLCOTT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67269018763224,
+            41.82494423638651
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3019,
+            3068
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x S. HONORE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67146152485489,
+            41.82495723198575
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5049,
+            3068
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6702551077059,
+            41.82496817982556
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            948,
+            7070
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. x W. PERSHING (W. 39TH ST.) ROAD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6726435137582,
+            41.82314335876214
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3019,
+            7070
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HONORE x W. PERSHING (W. 39TH ST.) ROAD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67141255534216,
+            41.82315670979213
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5049,
+            7070
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x W. PERSHING (W. 39TH ST.) ROAD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67021336600156,
+            41.82317034492454
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6729552058602,
+            41.82599694702648
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5288,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67010654259316,
+            41.82603243479447
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67289585477653,
+            41.82335140457664
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6439,
+    "separation_ratio": 1.016,
+    "best_offset_m": 2.1,
+    "n_junctions": 20
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "page": "2",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 87TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "W. 88TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "S. WOOD",
+      "W. 89TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            266
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 87TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66792458294832,
+            41.73572492050934
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            3965
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 88TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66787450977077,
+            41.73390599226002
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            7765
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x W. 89TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66781877703939,
+            41.73205599902356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67071868738579,
+            41.735345439720135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5281,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6677482842084,
+            41.735384284372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6706432577355,
+            41.73213340908664
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7043,
+    "separation_ratio": 1.257,
+    "best_offset_m": 23.5,
+    "n_junctions": 10
+  }
+}

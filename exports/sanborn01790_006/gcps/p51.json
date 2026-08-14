@@ -1,0 +1,159 @@
+{
+  "page": "51",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "WENTWORTH AVE.",
+      "W. 61ST"
+    ],
+    [
+      "WENTWORTH AVE.",
+      "W. 62ND"
+    ],
+    [
+      "LA SALLE",
+      "W. 61ST"
+    ],
+    [
+      "LA SALLE",
+      "W. 62ND"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1003,
+            814
+          ],
+          "username": "autogeoref",
+          "note": "auto: WENTWORTH AVE. x W. 61ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63020163036244,
+            41.78312741826728
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1003,
+            3973
+          ],
+          "username": "autogeoref",
+          "note": "auto: WENTWORTH AVE. x W. 62ND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63016441363209,
+            41.781682349713684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3159,
+            814
+          ],
+          "username": "autogeoref",
+          "note": "auto: LA SALLE x W. 61ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62896996246273,
+            41.78314744236992
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3159,
+            3973
+          ],
+          "username": "autogeoref",
+          "note": "auto: LA SALLE x W. 62ND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62893675135369,
+            41.78170493347513
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            572,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63049915940508,
+            41.78309801344055
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5144,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62773403950436,
+            41.78313834740967
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            572,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63041868570883,
+            41.7800303792641
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "page": "18",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.39,
+  "auto_residuals_m": [
+    9.14,
+    0.82,
+    9.54,
+    2.51,
+    9.38,
+    8.9
+  ],
+  "inlier_streets": [
+    [
+      "TOWNSEND",
+      "ERIE"
+    ],
+    [
+      "SEDGWICK",
+      "ERIE"
+    ],
+    [
+      "ERIE",
+      "ORLEANS"
+    ],
+    [
+      "ONTARIO",
+      "ORLEANS"
+    ],
+    [
+      "OHIO",
+      "ORLEANS"
+    ],
+    [
+      "OHIO",
+      "KINGSBURY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            695,
+            982
+          ],
+          "username": "autogeoref",
+          "note": "auto: TOWNSEND x ERIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63999828945681,
+            41.893928125239704
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3066,
+            982
+          ],
+          "username": "autogeoref",
+          "note": "auto: SEDGWICK x ERIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63853629869779,
+            41.89394513202555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5406,
+            982
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63711231106653,
+            41.893962460106685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5406,
+            2723
+          ],
+          "username": "autogeoref",
+          "note": "auto: ONTARIO x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6370883388078,
+            41.893157882432526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5406,
+            4496
+          ],
+          "username": "autogeoref",
+          "note": "auto: OHIO x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63706381878194,
+            41.89238592755648
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            357,
+            4496
+          ],
+          "username": "autogeoref",
+          "note": "auto: OHIO x KINGSBURY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64049090510917,
+            41.89229174511305
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8",
+  "seam_adjusted": {
+    "dx_m": -1.011,
+    "dy_m": 1.734
+  }
+}

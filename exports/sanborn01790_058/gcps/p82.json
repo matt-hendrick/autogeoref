@@ -1,0 +1,229 @@
+{
+  "page": "82",
+  "n_streets": 9,
+  "n_candidates": 16,
+  "n_inliers": 7,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. ALBION AV.",
+      "N. LAKEWOOD AV."
+    ],
+    [
+      "W. ALBION AV.",
+      "N. SHERIDAN RD."
+    ],
+    [
+      "N. LAKEWOOD AV.",
+      "W. LOYOLA AV."
+    ],
+    [
+      "N. LAKEWOOD AV.",
+      "W. ARTHUR AV."
+    ],
+    [
+      "N. SHERIDAN RD.",
+      "W. LOYOLA AV."
+    ],
+    [
+      "N. SHERIDAN RD.",
+      "W. ARTHUR AV."
+    ],
+    [
+      "W. ARTHUR AV.",
+      "N. MAGNOLIA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            225,
+            1967
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ALBION AV. x N. LAKEWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6635239699837,
+            42.00243790775476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4630,
+            1967
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ALBION AV. x N. SHERIDAN RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6607722805439,
+            42.00253695095609
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            225,
+            4477
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAKEWOOD AV. x W. LOYOLA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66349138321968,
+            42.00137644706004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            225,
+            6678
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAKEWOOD AV. x W. ARTHUR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66345865386413,
+            42.00039408026111
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4630,
+            4175
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SHERIDAN RD. x W. LOYOLA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66073526446931,
+            42.00151823123147
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4630,
+            6678
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SHERIDAN RD. x W. ARTHUR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6607016709845,
+            42.00042439247117
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2749,
+            6678
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARTHUR AV. x N. MAGNOLIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66191461235151,
+            42.00041176789029
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            563,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6633132899798,
+            42.003018438693886
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5070,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66054542416346,
+            42.003066320759835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            563,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66321601443141,
+            41.99991322147371
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 1.14,
+    "dy_m": -2.116
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "page": "19",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.99,
+  "auto_residuals_m": [
+    1.44,
+    1.49,
+    1.47,
+    1.46
+  ],
+  "inlier_streets": [
+    [
+      "E. 16TH ST. (BLVD) RD.",
+      "S. MICHIGAN AV. (BOULEVARD)"
+    ],
+    [
+      "E. 16TH ST. (BLVD) RD.",
+      "S. INDIANA AV."
+    ],
+    [
+      "S. MICHIGAN AV. (BOULEVARD)",
+      "E. 18TH ST."
+    ],
+    [
+      "S. INDIANA AV.",
+      "E. 18TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1388,
+            1097
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 16TH ST. (BLVD) RD. x S. MICHIGAN AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6239878208229,
+            41.860228703876864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4231,
+            1097
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 16TH ST. (BLVD) RD. x S. INDIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62238557202141,
+            41.86028985871813
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1388,
+            6188
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. (BOULEVARD) x E. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62393332320357,
+            41.85787798307047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4231,
+            6188
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. INDIANA AV. x E. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62233216446609,
+            41.85789991052894
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

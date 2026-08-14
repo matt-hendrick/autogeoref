@@ -1,0 +1,156 @@
+{
+  "page": "106",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.32,
+  "auto_residuals_m": [
+    1.47,
+    3.1,
+    1.68,
+    1.65,
+    3.31,
+    1.71
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVISION",
+      "N. PAULINA"
+    ],
+    [
+      "W. DIVISION",
+      "N. MARSHFIELD"
+    ],
+    [
+      "W. DIVISION",
+      "N. ASHLAND"
+    ],
+    [
+      "HADDON AV.",
+      "N. PAULINA"
+    ],
+    [
+      "HADDON AV.",
+      "N. MARSHFIELD"
+    ],
+    [
+      "HADDON AV.",
+      "N. ASHLAND"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            791,
+            1501
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66994431909416,
+            41.903305709375566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2969,
+            1501
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. MARSHFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66872055598577,
+            41.90332695243095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5005,
+            1501
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. ASHLAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6674952601697,
+            41.90334633244782
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            791,
+            3912
+          ],
+          "username": "autogeoref",
+          "note": "auto: HADDON AV. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66991348920169,
+            41.9022356213721
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2969,
+            3912
+          ],
+          "username": "autogeoref",
+          "note": "auto: HADDON AV. x N. MARSHFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66869322609882,
+            41.90225769833006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5005,
+            3912
+          ],
+          "username": "autogeoref",
+          "note": "auto: HADDON AV. x N. ASHLAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66746575698576,
+            41.90227891756988
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

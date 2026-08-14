@@ -1,0 +1,226 @@
+{
+  "page": "65",
+  "n_streets": 9,
+  "n_candidates": 10,
+  "n_inliers": 9,
+  "rotation_deg": -0.49,
+  "auto_residuals_m": [
+    0.78,
+    4.01,
+    1.37,
+    4.86,
+    10.29,
+    2.82,
+    12.22,
+    2.95,
+    7.21
+  ],
+  "inlier_streets": [
+    [
+      "W. CHICAGO AV.",
+      "N. ROCKWELL"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. CAMPBELL"
+    ],
+    [
+      "W. SUPERIOR",
+      "N. ROCKWELL"
+    ],
+    [
+      "W. SUPERIOR",
+      "N. CAMPBELL"
+    ],
+    [
+      "W. HURON",
+      "N. ROCKWELL"
+    ],
+    [
+      "W. HURON",
+      "N. CAMPBELL"
+    ],
+    [
+      "N. ROCKWELL",
+      "W. GRAND AV."
+    ],
+    [
+      "N. CAMPBELL",
+      "W. ERIE ST."
+    ],
+    [
+      "N. CAMPBELL",
+      "W. OHIO"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            390,
+            396
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69177259281258,
+            41.89570221470266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4434,
+            396
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. CAMPBELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68930746909409,
+            41.8957161991803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            390,
+            2401
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69174496954645,
+            41.89477487648227
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4434,
+            2401
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x N. CAMPBELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6892797702741,
+            41.89479985753515
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            390,
+            4228
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69171593402596,
+            41.89387542102873
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4434,
+            4228
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. CAMPBELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68924303080614,
+            41.89390951829899
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            390,
+            7912
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROCKWELL x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6916677819315,
+            41.89233237886836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4434,
+            6274
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL x W. ERIE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68918524978181,
+            41.892996080069565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4434,
+            8134
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL x W. OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68918763120844,
+            41.892085115545505
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

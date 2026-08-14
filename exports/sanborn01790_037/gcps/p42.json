@@ -1,0 +1,120 @@
+{
+  "page": "42",
+  "n_streets": 7,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. CHICAGO AV.",
+      "N. WILLOW AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. 53RD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            776,
+            185
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. WILLOW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7606428634433,
+            41.89489035046391
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4934,
+            185
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. 53RD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75805075262019,
+            41.89491038878456
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76074640669877,
+            41.89458124254699
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5246,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75786374636905,
+            41.89460776785062
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76069441930518,
+            41.891450661752934
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8872,
+    "separation_ratio": 1.149,
+    "best_offset_m": 2.1,
+    "n_junctions": 6
+  }
+}

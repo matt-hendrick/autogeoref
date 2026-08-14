@@ -1,0 +1,163 @@
+{
+  "page": "66",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "FULTON",
+      "N. DESPLAINES"
+    ],
+    [
+      "W. LAKE",
+      "N. UNION"
+    ],
+    [
+      "W. LAKE",
+      "N. DESPLAINES"
+    ],
+    [
+      "W. RANDOLPH",
+      "N. DESPLAINES"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3368,
+            1189
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6442693615611,
+            41.886791727055716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1600,
+            3635
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. UNION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64537300652486,
+            41.885678060579
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3368,
+            3635
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64423658369331,
+            41.885683935845655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3368,
+            6304
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64419876405631,
+            41.88441540666645
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64597347682572,
+            41.88696492818271
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5254,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6431393476785,
+            41.887003247986726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64590995105887,
+            41.884360923449314
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 0.766,
+    "dy_m": -1.885
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

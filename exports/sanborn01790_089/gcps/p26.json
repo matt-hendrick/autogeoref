@@ -1,0 +1,109 @@
+{
+  "page": "26",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.05,
+  "auto_residuals_m": [
+    0.13,
+    0.13,
+    0.17,
+    0.18
+  ],
+  "inlier_streets": [
+    [
+      "E. 18TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 18TH ST.",
+      "S. MICHIGAN AV. (BOULEVARD)"
+    ],
+    [
+      "S. WABASH AV.",
+      "E. CULLERTON (E. 20TH ST.)"
+    ],
+    [
+      "S. MICHIGAN AV. (BOULEVARD)",
+      "E. CULLERTON (E. 20TH ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1518,
+            1011
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 18TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62561064449152,
+            41.857855084134805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4300,
+            1011
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 18TH ST. x S. MICHIGAN AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62393332320357,
+            41.85787798307047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1518,
+            6325
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. CULLERTON (E. 20TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62555872858904,
+            41.85546823877771
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4300,
+            6325
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. (BOULEVARD) x E. CULLERTON (E. 20TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62387592607008,
+            41.85549111747212
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,211 @@
+{
+  "page": "45",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 95TH ST.",
+      "S. VANDERPOEL AV."
+    ],
+    [
+      "W. 96TH ST.",
+      "S. VANDERPOEL AV."
+    ],
+    [
+      "RR BEVERLY SUB DISTRICT",
+      "W. 95TH ST."
+    ],
+    [
+      "RR BEVERLY SUB DISTRICT",
+      "W. 95TH ST."
+    ],
+    [
+      "RR BEVERLY SUB DISTRICT",
+      "W. 96TH ST."
+    ],
+    [
+      "RR BEVERLY SUB DISTRICT",
+      "W. 96TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2330,
+            230
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH ST. x S. VANDERPOEL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66633539095135,
+            41.72118644290943
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2330,
+            3986
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 96TH ST. x S. VANDERPOEL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66633523608249,
+            41.719416581023104
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            287,
+            230
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR BEVERLY SUB DISTRICT x W. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66757244171525,
+            41.721169793962446
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            287,
+            230
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR BEVERLY SUB DISTRICT x W. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66761486028285,
+            41.721169154217144
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            287,
+            3986
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR BEVERLY SUB DISTRICT x W. 96TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66753184913783,
+            41.71939060909295
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            287,
+            3986
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR BEVERLY SUB DISTRICT x W. 96TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66756951732087,
+            41.719382212717754
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66741545848264,
+            41.720863201186894
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5207,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66455150012852,
+            41.72090343173934
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66733623905348,
+            41.71772130824077
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -8.377,
+    "dy_m": 3.437
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6669,
+    "separation_ratio": 1.357,
+    "best_offset_m": 3.9,
+    "n_junctions": 7
+  }
+}

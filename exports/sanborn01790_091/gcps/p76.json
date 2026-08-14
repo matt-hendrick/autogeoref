@@ -1,0 +1,136 @@
+{
+  "page": "76",
+  "n_streets": 10,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 1.29,
+  "auto_residuals_m": [
+    3.41,
+    7.22,
+    3.8,
+    8.39,
+    8.37
+  ],
+  "inlier_streets": [
+    [
+      "BESLY CT.",
+      "W. NORTH AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. NOBLE"
+    ],
+    [
+      "W. NORTH AV.",
+      "N. THROOP (Mc HENRY)"
+    ],
+    [
+      "ELSTON AV.",
+      "W. LE MOYNE (BLANCHE)"
+    ],
+    [
+      "N. THROOP (Mc HENRY)",
+      "W. LE MOYNE (BLANCHE)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            269,
+            866
+          ],
+          "username": "autogeoref",
+          "note": "auto: BESLY CT. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66308182075122,
+            41.9106986384272
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            811,
+            866
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66285958439786,
+            41.91070004731396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4795,
+            866
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. THROOP (Mc HENRY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66042649407767,
+            41.91074373855909
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3196,
+            4568
+          ],
+          "username": "autogeoref",
+          "note": "auto: ELSTON AV. x W. LE MOYNE (BLANCHE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66116137603743,
+            41.909054856377395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4795,
+            4568
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. THROOP (Mc HENRY) x W. LE MOYNE (BLANCHE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66037467173821,
+            41.90906307212141
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.157,
+    "dy_m": 0.189
+  }
+}

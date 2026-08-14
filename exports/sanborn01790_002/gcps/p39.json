@@ -1,0 +1,137 @@
+{
+  "page": "39",
+  "n_streets": 9,
+  "n_candidates": 7,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. DIVERSEY AVE.",
+      "KIMBALL AVE."
+    ],
+    [
+      "KIMBALL AVE.",
+      "W. WRIGHTWOOD AVE."
+    ],
+    [
+      "N. SAWYER AVE.",
+      "W. WRIGHTWOOD AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            260
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AVE. x KIMBALL AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71225309781728,
+            41.93198308021713
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            8200
+          ],
+          "username": "autogeoref",
+          "note": "auto: KIMBALL AVE. x W. WRIGHTWOOD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71220167385148,
+            41.92831616223309
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5016,
+            8200
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SAWYER AVE. x W. WRIGHTWOOD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70939340639049,
+            41.92834742871105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71221942113577,
+            41.93171546014782
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70948471100019,
+            41.93174115911584
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71216732302227,
+            41.928647103428716
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

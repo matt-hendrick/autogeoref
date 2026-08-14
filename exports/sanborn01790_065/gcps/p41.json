@@ -1,0 +1,109 @@
+{
+  "page": "41",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 0.15,
+  "auto_residuals_m": [
+    1.87,
+    1.84,
+    1.83,
+    1.8
+  ],
+  "inlier_streets": [
+    [
+      "E. 97TH ST.",
+      "S. AVENUE N."
+    ],
+    [
+      "E. 97TH ST.",
+      "S. AVENUE M."
+    ],
+    [
+      "S. AVENUE N.",
+      "E. 98TH ST."
+    ],
+    [
+      "E. 98TH ST.",
+      "S. AVENUE M."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1950,
+            274
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 97TH ST. x S. AVENUE N."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53891150164169,
+            41.71948995361623
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3939,
+            274
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 97TH ST. x S. AVENUE M."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53770453575565,
+            41.719510198875255
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1950,
+            4146
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. AVENUE N. x E. 98TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53886288665967,
+            41.71771458900309
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3939,
+            4146
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 98TH ST. x S. AVENUE M."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53770093212405,
+            41.71769894799958
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

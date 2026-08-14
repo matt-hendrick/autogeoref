@@ -1,0 +1,251 @@
+{
+  "page": "6",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 10,
+  "rotation_deg": 0.85,
+  "auto_residuals_m": [
+    2.27,
+    2.51,
+    1.27,
+    1.23,
+    3.35,
+    3.24,
+    3.21,
+    2.55,
+    3.34,
+    4.08
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. HOMAN AV."
+    ],
+    [
+      "PIERCE AV.",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "PIERCE AV.",
+      "N. HOMAN AV."
+    ],
+    [
+      "LE MOYNE",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "LE MOYNE",
+      "N. HOMAN AV."
+    ],
+    [
+      "BEACH AV.",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "BEACH AV.",
+      "N. HOMAN AV."
+    ],
+    [
+      "HIRSCH",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "HIRSCH",
+      "N. HOMAN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            895,
+            377
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71435588528566,
+            41.910007137444516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4768,
+            377
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71187695571737,
+            41.91004012519655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            895,
+            2353
+          ],
+          "username": "autogeoref",
+          "note": "auto: PIERCE AV. x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71432208195895,
+            41.909085826768546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4768,
+            2353
+          ],
+          "username": "autogeoref",
+          "note": "auto: PIERCE AV. x N. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7118794903895,
+            41.90911846083939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            895,
+            4337
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71429565333555,
+            41.90818580677829
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4768,
+            4337
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7118461868173,
+            41.90821197612991
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            895,
+            6258
+          ],
+          "username": "autogeoref",
+          "note": "auto: BEACH AV. x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71426630580248,
+            41.90728358622062
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4768,
+            6258
+          ],
+          "username": "autogeoref",
+          "note": "auto: BEACH AV. x N. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71181925533149,
+            41.90730608887614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            895,
+            8087
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7142343449054,
+            41.90638245817675
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4768,
+            8087
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71178952682442,
+            41.906403855928374
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.405,
+    "dy_m": -2.05
+  }
+}

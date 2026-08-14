@@ -1,0 +1,159 @@
+{
+  "page": "97",
+  "n_streets": 10,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.25,
+  "auto_residuals_m": [
+    2.35,
+    2.35,
+    6.26,
+    14.49,
+    6.61,
+    1.7
+  ],
+  "inlier_streets": [
+    [
+      "W. ROOSEVELT ROAD (W. 12TH ST.)",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. ROOSEVELT ROAD (W. 12TH ST.)",
+      "S. OAKLEY AV."
+    ],
+    [
+      "W. 13TH ST.",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. 13TH ST.",
+      "S. CLAREMONT AV. (RALEIGH CT.)"
+    ],
+    [
+      "W. 13TH ST.",
+      "S. HEATH"
+    ],
+    [
+      "W. 13TH ST.",
+      "S. OAKLEY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            827,
+            253
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROOSEVELT ROAD (W. 12TH ST.) x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68600219445474,
+            41.86661541324741
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4959,
+            253
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROOSEVELT ROAD (W. 12TH ST.) x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68355332945447,
+            41.866649810998496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            827,
+            4113
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68595258688316,
+            41.8647948977032
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1909,
+            4113
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. CLAREMONT AV. (RALEIGH CT.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6851366058108,
+            41.864815518992806
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3623,
+            4113
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. HEATH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6843273961864,
+            41.86483011124036
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4959,
+            4113
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68350508176944,
+            41.86483952124998
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.032,
+    "dy_m": 0.429
+  }
+}

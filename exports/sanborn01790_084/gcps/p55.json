@@ -1,0 +1,163 @@
+{
+  "page": "55",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. BLACKHAWK",
+      "N. SMITH AV."
+    ],
+    [
+      "W. BLACKHAWK",
+      "N. DAYTON"
+    ],
+    [
+      "W. EASTMAN",
+      "N. DAYTON"
+    ],
+    [
+      "N. DAYTON",
+      "W. REES"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2918,
+            1402
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLACKHAWK x N. SMITH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65104940068294,
+            41.90852178002897
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5477,
+            1402
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLACKHAWK x N. DAYTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64945052943746,
+            41.90854087610476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5477,
+            3884
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EASTMAN x N. DAYTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6494275554625,
+            41.9074442522025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5477,
+            6315
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAYTON x W. REES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64936433029531,
+            41.90634702390592
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            575,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65244226647009,
+            41.908811365780664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5172,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64965126926526,
+            41.90885456728102
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            575,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65236830718852,
+            41.906164988551694
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -1.115,
+    "dy_m": -1.858
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

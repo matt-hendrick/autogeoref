@@ -1,0 +1,205 @@
+{
+  "page": "64W",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 8,
+  "rotation_deg": 0.74,
+  "auto_residuals_m": [
+    0.8,
+    1.02,
+    0.41,
+    3.21,
+    2.91,
+    4.09,
+    2.03,
+    0.95
+  ],
+  "inlier_streets": [
+    [
+      "W. KINZIE",
+      "N. DESPLAINES"
+    ],
+    [
+      "W. KINZIE",
+      "N. JEFFERSON"
+    ],
+    [
+      "W. KINZIE",
+      "N. CLINTON"
+    ],
+    [
+      "N. DESPLAINES",
+      "W. WAYMAN"
+    ],
+    [
+      "N. DESPLAINES",
+      "W. FULTON"
+    ],
+    [
+      "N. JEFFERSON",
+      "W. WAYMAN"
+    ],
+    [
+      "N. JEFFERSON",
+      "W. FULTON"
+    ],
+    [
+      "N. CLINTON",
+      "W. FULTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            480,
+            602
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64432981134983,
+            41.889053527877664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2924,
+            602
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64287037140795,
+            41.88906898173414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5421,
+            602
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6413883761887,
+            41.889078350836066
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            480,
+            4203
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DESPLAINES x W. WAYMAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64428970975473,
+            41.88744467107487
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            480,
+            5706
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DESPLAINES x W. FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64427212837218,
+            41.88682428920163
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2924,
+            4203
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. JEFFERSON x W. WAYMAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64281832146314,
+            41.88745372332197
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2924,
+            5706
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. JEFFERSON x W. FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64280221350603,
+            41.88683125048763
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5421,
+            5706
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLINTON x W. FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6413320379536,
+            41.88683539088867
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.458,
+    "dy_m": 2.984
+  }
+}

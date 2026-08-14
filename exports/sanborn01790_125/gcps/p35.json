@@ -1,0 +1,205 @@
+{
+  "page": "35",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.81,
+  "auto_residuals_m": [
+    0.94,
+    1.62,
+    1.27,
+    0.37,
+    1.27,
+    1.22,
+    5.23,
+    3.61
+  ],
+  "inlier_streets": [
+    [
+      "W. 103RD ST.",
+      "S. PRINCETON AV."
+    ],
+    [
+      "W. 103RD ST.",
+      "S. WENTWORTH AV."
+    ],
+    [
+      "S. PRINCETON AV.",
+      "W. 103RD PL."
+    ],
+    [
+      "S. PRINCETON AV.",
+      "W. 104TH ST."
+    ],
+    [
+      "W. 103RD PL.",
+      "S. WENTWORTH AV."
+    ],
+    [
+      "W. 104TH ST.",
+      "S. WENTWORTH AV."
+    ],
+    [
+      "S. WENTWORTH AV.",
+      "W. 104TH PL."
+    ],
+    [
+      "S. WENTWORTH AV.",
+      "W. 105TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            955,
+            349
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 103RD ST. x S. PRINCETON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63068609264889,
+            41.70708817408101
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            349
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 103RD ST. x S. WENTWORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62828032260596,
+            41.70711552230812
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            955,
+            2309
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PRINCETON AV. x W. 103RD PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63065382930002,
+            41.70617641848382
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            955,
+            4324
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PRINCETON AV. x W. 104TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63062923217208,
+            41.70526453397683
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            2309
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 103RD PL. x S. WENTWORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62823290543659,
+            41.70620594953376
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            4324
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 104TH ST. x S. WENTWORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62821009028369,
+            41.70529518613056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            6221
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WENTWORTH AV. x W. 104TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62818582829104,
+            41.70438412609811
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            8340
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WENTWORTH AV. x W. 105TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62816317137126,
+            41.70347287680434
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.764,
+    "dy_m": 2.141
+  }
+}

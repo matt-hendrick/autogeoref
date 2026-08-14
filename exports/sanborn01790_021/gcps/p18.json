@@ -1,0 +1,157 @@
+{
+  "page": "18",
+  "n_streets": 5,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 0.57,
+  "auto_residuals_m": [
+    9.81,
+    8.58,
+    1.68,
+    2.74,
+    2.4,
+    5.06
+  ],
+  "inlier_streets": [
+    [
+      "W. 31ST ST.",
+      "STEWART AV."
+    ],
+    [
+      "W. 31ST ST.",
+      "SHIELDS AV."
+    ],
+    [
+      "W. 31ST ST.",
+      "PRINCETON AV."
+    ],
+    [
+      "W. 32ND ST.",
+      "STEWART AV."
+    ],
+    [
+      "W. 32ND ST.",
+      "SHIELDS AV."
+    ],
+    [
+      "W. 32ND ST.",
+      "PRINCETON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2257,
+            438
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x STEWART AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63614437189992,
+            41.838175132280874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3297,
+            438
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x SHIELDS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63531796382082,
+            41.838188419968
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5309,
+            438
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x PRINCETON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63410385970707,
+            41.838205229690395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2257,
+            4449
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 32ND ST. x STEWART AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63593201663629,
+            41.83635962608405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3297,
+            4449
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 32ND ST. x SHIELDS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63527436177007,
+            41.836366996399136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5309,
+            4449
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 32ND ST. x PRINCETON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63405743273103,
+            41.83636058137832
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

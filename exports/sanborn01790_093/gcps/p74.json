@@ -1,0 +1,109 @@
+{
+  "page": "74",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.17,
+  "auto_residuals_m": [
+    0.19,
+    0.19,
+    0.22,
+    0.2
+  ],
+  "inlier_streets": [
+    [
+      "W. POLK",
+      "S. ASHLAND BLV'D"
+    ],
+    [
+      "W. POLK",
+      "S. LAFLIN"
+    ],
+    [
+      "S. ASHLAND BLV'D",
+      "W. TAYLOR"
+    ],
+    [
+      "S. LAFLIN",
+      "W. TAYLOR"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            879,
+            1049
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POLK x S. ASHLAND BLV'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66653065394335,
+            41.87162812695728
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4816,
+            1049
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POLK x S. LAFLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66414972482549,
+            41.87166240162181
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            879,
+            6253
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND BLV'D x W. TAYLOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6664612348903,
+            41.86926239348533
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4816,
+            6253
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LAFLIN x W. TAYLOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66407554592598,
+            41.86930066328234
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

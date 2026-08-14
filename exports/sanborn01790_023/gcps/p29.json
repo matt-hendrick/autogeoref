@@ -1,0 +1,142 @@
+{
+  "page": "29",
+  "n_streets": 12,
+  "n_candidates": 12,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "FRY ST.",
+      "N. RACINE"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. RACINE"
+    ],
+    [
+      "N. RACINE",
+      "W. HURON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1055,
+            751
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRY ST. x N. RACINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65754112415293,
+            41.89716178989263
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1055,
+            2819
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. RACINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65751044536314,
+            41.89622794834256
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1055,
+            7048
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RACINE x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65746509232056,
+            41.89440803543744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65782271525269,
+            41.89717449124378
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5266,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65503034812369,
+            41.89722057554312
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65774522659993,
+            41.89457304851325
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6666,
+    "separation_ratio": 1.225,
+    "best_offset_m": 11.7,
+    "n_junctions": 21
+  }
+}

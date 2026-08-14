@@ -1,0 +1,159 @@
+{
+  "page": "89",
+  "n_streets": 6,
+  "n_candidates": 12,
+  "n_inliers": 6,
+  "rotation_deg": 0.59,
+  "auto_residuals_m": [
+    2.41,
+    2.27,
+    0.2,
+    0.48,
+    2.63,
+    2.51
+  ],
+  "inlier_streets": [
+    [
+      "W. 43RD ST.",
+      "S. KEDZIE AV."
+    ],
+    [
+      "W. 43RD ST.",
+      "S. SAWYER AV."
+    ],
+    [
+      "W. 43RD ST.",
+      "S. SPAULDING AV."
+    ],
+    [
+      "S. KEDZIE AV.",
+      "W. 45TH ST."
+    ],
+    [
+      "S. SAWYER AV.",
+      "W. 45TH ST."
+    ],
+    [
+      "S. SPAULDING AV.",
+      "W. 45TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5440,
+            94
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 43RD ST. x S. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70424060795226,
+            41.815415131814085
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3661,
+            94
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 43RD ST. x S. SAWYER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70546686443554,
+            41.81542218821644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1807,
+            94
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 43RD ST. x S. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70669046628586,
+            41.815406187060375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5440,
+            8217
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEDZIE AV. x W. 45TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70409274651598,
+            41.81168584506107
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3661,
+            8217
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SAWYER AV. x W. 45TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70530862688103,
+            41.811678662134284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1807,
+            8217
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPAULDING AV. x W. 45TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70650579239832,
+            41.81165773639567
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.427,
+    "dy_m": -0.868
+  }
+}

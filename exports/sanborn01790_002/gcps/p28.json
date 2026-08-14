@@ -1,0 +1,181 @@
+{
+  "page": "28",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. WELLINGTON",
+      "N. FRANCISCO AVE."
+    ],
+    [
+      "W. WELLINGTON",
+      "N. MOZART"
+    ],
+    [
+      "W. GEORGE",
+      "N. FRANCISCO AVE."
+    ],
+    [
+      "N. FRANCISCO AVE.",
+      "W. DIVERSEY AVE."
+    ],
+    [
+      "N. MOZART",
+      "W. DIVERSEY AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3313,
+            244
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WELLINGTON x N. FRANCISCO AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70012389964778,
+            41.935773297966925
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5274,
+            244
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WELLINGTON x N. MOZART"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69894918870757,
+            41.93573862843759
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3313,
+            4225
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GEORGE x N. FRANCISCO AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70012313827901,
+            41.933900869007246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3313,
+            8069
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANCISCO AVE. x W. DIVERSEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7000731439417,
+            41.93207930239132
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5274,
+            8069
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MOZART x W. DIVERSEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69884620967954,
+            41.93208768471771
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70184479629133,
+            41.93543296364496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69911008615574,
+            41.93545866111516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70179269817783,
+            41.93236478575314
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

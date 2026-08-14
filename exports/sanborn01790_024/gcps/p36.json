@@ -1,0 +1,251 @@
+{
+  "page": "36",
+  "n_streets": 10,
+  "n_candidates": 11,
+  "n_inliers": 10,
+  "rotation_deg": 1.29,
+  "auto_residuals_m": [
+    2.28,
+    4.0,
+    7.45,
+    7.49,
+    6.99,
+    4.34,
+    15.16,
+    18.95,
+    21.59,
+    16.08
+  ],
+  "inlier_streets": [
+    [
+      "S. SEELEY AV.",
+      "W. VAN BUREN"
+    ],
+    [
+      "W. VAN BUREN",
+      "S. SEELEY AV."
+    ],
+    [
+      "W. VAN BUREN",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. VAN BUREN",
+      "S. ROBEY"
+    ],
+    [
+      "S. HOYNE AV.",
+      "W. CONGRESS"
+    ],
+    [
+      "S. HOYNE AV.",
+      "W. HARRISON"
+    ],
+    [
+      "S. ROBEY",
+      "W. CONGRESS"
+    ],
+    [
+      "S. ROBEY",
+      "W. HARRISON"
+    ],
+    [
+      "W. CONGRESS",
+      "S. ROBEY ST."
+    ],
+    [
+      "W. HARRISON",
+      "S. ROBEY ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2921,
+            1276
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SEELEY AV. x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6777050178484,
+            41.876188346718685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2887,
+            1276
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. SEELEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6777050178484,
+            41.876188346718685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            950,
+            1276
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67892404688216,
+            41.87617520897439
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4926,
+            1276
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67650022097814,
+            41.87619405151606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            950,
+            4084
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67890107080623,
+            41.87496660586881
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            950,
+            6108
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.678873942338,
+            41.87399129576281
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4926,
+            4084
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROBEY x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6764596021336,
+            41.87500835432054
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4926,
+            6108
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROBEY x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67642890331238,
+            41.87402942035099
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5455,
+            4084
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONGRESS x S. ROBEY ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6764596021336,
+            41.87500835432054
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5455,
+            6108
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. ROBEY ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67642890331238,
+            41.87402942035099
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.067,
+    "dy_m": -1.956
+  }
+}

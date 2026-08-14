@@ -1,0 +1,163 @@
+{
+  "page": "69",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "POLK",
+      "S. ROBEY"
+    ],
+    [
+      "CYPRESS",
+      "TAYLOR"
+    ],
+    [
+      "S. SEELEY AV.",
+      "TAYLOR"
+    ],
+    [
+      "S. ROBEY",
+      "TAYLOR"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4911,
+            1062
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x S. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67603282888444,
+            41.871483139868815
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1309,
+            6235
+          ],
+          "username": "autogeoref",
+          "note": "auto: CYPRESS x TAYLOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67816536668823,
+            41.869079602276464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3084,
+            6235
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SEELEY AV. x TAYLOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67707982063708,
+            41.86909448099621
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4911,
+            6235
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROBEY x TAYLOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67596572281691,
+            41.869115073818435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67864682132885,
+            41.8715487036309
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67582815545835,
+            41.87159266930397
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67857309858664,
+            41.86892788830191
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.351,
+    "separation_ratio": 1.142,
+    "best_offset_m": 33.2,
+    "n_junctions": 35
+  }
+}

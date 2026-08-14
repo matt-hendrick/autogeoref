@@ -1,0 +1,252 @@
+{
+  "page": "98",
+  "n_streets": 9,
+  "n_candidates": 11,
+  "n_inliers": 8,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. LAKE",
+      "N. KEDZIE AV."
+    ],
+    [
+      "W. LAKE",
+      "S. KEDZIE AV."
+    ],
+    [
+      "(PARK) MAYPOLE BLVD.(AV)",
+      "N. KEDZIE AV."
+    ],
+    [
+      "(PARK) MAYPOLE BLVD.(AV)",
+      "S. KEDZIE AV."
+    ],
+    [
+      "W. WASHINGTON B'LVD",
+      "N. KEDZIE AV."
+    ],
+    [
+      "W. WASHINGTON B'LVD",
+      "S. KEDZIE AV."
+    ],
+    [
+      "N. KEDZIE AV.",
+      "W. MADISON"
+    ],
+    [
+      "W. MADISON",
+      "S. KEDZIE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5190,
+            647
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7062192817429,
+            41.884352065435834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5244,
+            647
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x S. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7062192817429,
+            41.884352065435834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5190,
+            2406
+          ],
+          "username": "autogeoref",
+          "note": "auto: (PARK) MAYPOLE BLVD.(AV) x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70619688066391,
+            41.88359041599409
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5244,
+            2406
+          ],
+          "username": "autogeoref",
+          "note": "auto: (PARK) MAYPOLE BLVD.(AV) x S. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70619688066391,
+            41.88359041599409
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5190,
+            4320
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON B'LVD x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70617046525842,
+            41.88279431932727
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5244,
+            4320
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON B'LVD x S. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70617046525842,
+            41.88279431932727
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5190,
+            8275
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDZIE AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70612273769949,
+            41.8809727424174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5244,
+            8275
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70612273769949,
+            41.8809727424174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            862
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7090412060932,
+            41.88429192010215
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5316,
+            862
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70614183602744,
+            41.88432097224416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            7760
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70898424769766,
+            41.88114114819882
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6174,
+    "separation_ratio": 1.032,
+    "best_offset_m": 7.4,
+    "n_junctions": 15
+  }
+}

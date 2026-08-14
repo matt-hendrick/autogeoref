@@ -1,0 +1,132 @@
+{
+  "page": "96",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": -0.69,
+  "auto_residuals_m": [
+    5.76,
+    1.9,
+    5.77,
+    10.08,
+    8.15
+  ],
+  "inlier_streets": [
+    [
+      "ARMITAGE AV.",
+      "MONTICELLO AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "CORTLAND",
+      "MONTICELLO AV."
+    ],
+    [
+      "CORTLAND",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "BLOOMINGDALE AV.",
+      "N. CENTRAL PARK AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            544,
+            320
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x MONTICELLO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71799378258574,
+            41.91726789073761
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2529,
+            320
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71677224478826,
+            41.91728273131426
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            544,
+            4261
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x MONTICELLO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7179387709909,
+            41.91544550988217
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2529,
+            4261
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71671621008349,
+            41.915463374061375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2529,
+            7980
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71665595986536,
+            41.91354916525296
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

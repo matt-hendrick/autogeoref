@@ -1,0 +1,192 @@
+{
+  "page": "51",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 3,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "LAWRENCE AV.",
+      "N. LARAMIE AV."
+    ],
+    [
+      "W. GIDDINGS",
+      "N. LARAMIE AV."
+    ],
+    [
+      "N. LARAMIE AV.",
+      "LELAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3676,
+            257
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75770091084826,
+            41.96790150056457
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3676,
+            2407
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GIDDINGS x N. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75766771811728,
+            41.9668557902051
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3676,
+            4076
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LARAMIE AV. x LELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75764211491209,
+            41.96603577434802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75961329078525,
+            41.967556324515186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5242,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75670647959853,
+            41.967589761902424
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75954763620753,
+            41.964400959122415
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.695,
+    "separation_ratio": 1.502,
+    "best_offset_m": 3.4,
+    "n_junctions": 11
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 7,
+      "votable": 7,
+      "in_block": 7,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 11.6,
+          "addr_diff": 1.7
+        },
+        {
+          "perp_m": 11.2,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 10.8,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 10.4,
+          "addr_diff": 3.0
+        },
+        {
+          "perp_m": 10.1,
+          "addr_diff": 2.3
+        },
+        {
+          "perp_m": 5.7,
+          "addr_diff": 0.0
+        },
+        {
+          "perp_m": 7.3,
+          "addr_diff": 2.6
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

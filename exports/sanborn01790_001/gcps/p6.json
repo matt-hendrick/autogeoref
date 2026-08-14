@@ -1,0 +1,159 @@
+{
+  "page": "6",
+  "n_streets": 9,
+  "n_candidates": 11,
+  "n_inliers": 6,
+  "rotation_deg": 1.28,
+  "auto_residuals_m": [
+    10.82,
+    6.91,
+    11.94,
+    4.75,
+    5.79,
+    5.36
+  ],
+  "inlier_streets": [
+    [
+      "WRIGHTWOOD AVE.",
+      "WARD"
+    ],
+    [
+      "WRIGHTWOOD AVE.",
+      "SOUTHPORT AVE."
+    ],
+    [
+      "WARD",
+      "FULLERTON AVE."
+    ],
+    [
+      "SOUTHPORT AVE.",
+      "FULLERTON AVE."
+    ],
+    [
+      "LILL AVE.",
+      "SURREY CT."
+    ],
+    [
+      "FULLERTON AVE.",
+      "SURREY CT."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2560,
+            135
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE. x WARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6622243034178,
+            41.92884358696033
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            83,
+            135
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE. x SOUTHPORT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66343765170849,
+            41.92882369311117
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2560,
+            8075
+          ],
+          "username": "autogeoref",
+          "note": "auto: WARD x FULLERTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66209902430569,
+            41.92521188016998
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            83,
+            8075
+          ],
+          "username": "autogeoref",
+          "note": "auto: SOUTHPORT AVE. x FULLERTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66332172377547,
+            41.925193220470895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5149,
+            2679
+          ],
+          "username": "autogeoref",
+          "note": "auto: LILL AVE. x SURREY CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66059750396458,
+            41.92771033866039
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5149,
+            8075
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AVE. x SURREY CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66050914130098,
+            41.92523615105411
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.637,
+    "dy_m": -3.677
+  }
+}

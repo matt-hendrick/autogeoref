@@ -1,0 +1,203 @@
+{
+  "page": "41",
+  "n_streets": 6,
+  "n_candidates": 15,
+  "n_inliers": 8,
+  "rotation_deg": 0.83,
+  "auto_residuals_m": [
+    2.54,
+    1.54,
+    1.19,
+    2.8,
+    3.59,
+    4.34,
+    2.74,
+    2.92
+  ],
+  "inlier_streets": [
+    [
+      "DIVERSEY AV.",
+      "N. TROY"
+    ],
+    [
+      "DIVERSEY AV.",
+      "N. ALBANY"
+    ],
+    [
+      "DIVERSEY AV.",
+      "N. WHIPPLE"
+    ],
+    [
+      "SCHUBERT AV.",
+      "N. TROY"
+    ],
+    [
+      "SCHUBERT AV.",
+      "N. ALBANY"
+    ],
+    [
+      "SCHUBERT AV.",
+      "N. WHIPPLE"
+    ],
+    [
+      "LOGAN BLVD",
+      "N. ALBANY"
+    ],
+    [
+      "LOGAN BLVD",
+      "N. WHIPPLE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            361,
+            466
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AV. x N. TROY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7062025862581,
+            41.93203474400933
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2324,
+            466
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AV. x N. ALBANY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7049808959862,
+            41.93204084212247
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4282,
+            466
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AV. x N. WHIPPLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70375219012719,
+            41.932052176335674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            361,
+            4312
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHUBERT AV. x N. TROY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7061467630141,
+            41.930208921554474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2324,
+            4312
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHUBERT AV. x N. ALBANY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70492722291503,
+            41.930216590157805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4282,
+            4312
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHUBERT AV. x N. WHIPPLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70369978496485,
+            41.930224753263076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2324,
+            7783
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOGAN BLVD x N. ALBANY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70488262279555,
+            41.928642605657544
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4282,
+            7783
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOGAN BLVD x N. WHIPPLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70365333896206,
+            41.92865723677083
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

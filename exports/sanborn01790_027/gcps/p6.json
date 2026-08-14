@@ -1,0 +1,182 @@
+{
+  "page": "6",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 7,
+  "rotation_deg": 1.06,
+  "auto_residuals_m": [
+    1.67,
+    0.37,
+    1.83,
+    3.87,
+    5.82,
+    7.36,
+    17.0
+  ],
+  "inlier_streets": [
+    [
+      "BELMONT AV.",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "BELMONT AV.",
+      "BERNARD"
+    ],
+    [
+      "BELMONT AV.",
+      "KIMBALL AV."
+    ],
+    [
+      "N. ST. LOUIS AV.",
+      "BARRY AV."
+    ],
+    [
+      "BERNARD",
+      "BARRY AV."
+    ],
+    [
+      "KIMBALL AV.",
+      "BARRY AV."
+    ],
+    [
+      "BARRY AV.",
+      "GRESHAM AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            930,
+            163
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AV. x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71496170092138,
+            41.93924294824072
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2873,
+            163
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AV. x BERNARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71373065129768,
+            41.93925638908878
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4802,
+            163
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AV. x KIMBALL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71251267002651,
+            41.93927658412088
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            930,
+            3880
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ST. LOUIS AV. x BARRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71490052730579,
+            41.9374262108642
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2873,
+            3880
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERNARD x BARRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71367345623192,
+            41.93744216488067
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4802,
+            3880
+          ],
+          "username": "autogeoref",
+          "note": "auto: KIMBALL AV. x BARRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71245163334264,
+            41.93745979112286
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3651,
+            3880
+          ],
+          "username": "autogeoref",
+          "note": "auto: BARRY AV. x GRESHAM AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71297010276824,
+            41.93745239701492
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.352,
+    "dy_m": -0.433
+  }
+}

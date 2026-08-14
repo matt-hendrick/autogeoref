@@ -1,0 +1,109 @@
+{
+  "page": "60",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 1.15,
+  "auto_residuals_m": [
+    5.96,
+    5.96,
+    5.98,
+    5.99
+  ],
+  "inlier_streets": [
+    [
+      "GRAND AV.",
+      "N. DESPLAINES ST."
+    ],
+    [
+      "GRAND AV.",
+      "N. JEFFERSON"
+    ],
+    [
+      "W. KINZIE",
+      "N. DESPLAINES ST."
+    ],
+    [
+      "W. KINZIE",
+      "N. JEFFERSON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            908,
+            1117
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRAND AV. x N. DESPLAINES ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64436844953492,
+            41.89122777892418
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3278,
+            1117
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRAND AV. x N. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64312317570496,
+            41.89125279692674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            908,
+            6232
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. DESPLAINES ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64433392563384,
+            41.889033572641836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3278,
+            6232
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64287448569196,
+            41.88904902650314
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

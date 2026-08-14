@@ -1,0 +1,141 @@
+{
+  "page": "12",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "FULLERTON AV.",
+      "N. OAKLEY AV."
+    ],
+    [
+      "LYNDALE (PLEASANT PL.)",
+      "N. OAKLEY AV."
+    ],
+    [
+      "LYNDALE (PLEASANT PL.)",
+      "N. LEAVITT"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            855,
+            1226
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68520910256512,
+            41.924931958973914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            855,
+            6264
+          ],
+          "username": "autogeoref",
+          "note": "auto: LYNDALE (PLEASANT PL.) x N. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68512969823543,
+            41.92264773372578
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4988,
+            6264
+          ],
+          "username": "autogeoref",
+          "note": "auto: LYNDALE (PLEASANT PL.) x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68268818429277,
+            41.922678793967826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68540340543683,
+            41.925158038769155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5260,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68254087780537,
+            41.925204915115614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68532446675823,
+            41.922489571583135
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4796,
+    "separation_ratio": 1.02,
+    "best_offset_m": 3.9,
+    "n_junctions": 45
+  }
+}

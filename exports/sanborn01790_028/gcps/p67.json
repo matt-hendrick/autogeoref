@@ -1,0 +1,109 @@
+{
+  "page": "67",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.84,
+  "auto_residuals_m": [
+    0.11,
+    0.16,
+    0.17,
+    0.1
+  ],
+  "inlier_streets": [
+    [
+      "W. OHIO",
+      "N. HARDING"
+    ],
+    [
+      "W. OHIO",
+      "N. SPRINGFIELD"
+    ],
+    [
+      "FERDINAND",
+      "N. HARDING"
+    ],
+    [
+      "FERDINAND",
+      "N. SPRINGFIELD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2194,
+            95
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. HARDING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72475495424158,
+            41.891707633725794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4172,
+            95
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. SPRINGFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72353437973231,
+            41.89172010528824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2194,
+            4069
+          ],
+          "username": "autogeoref",
+          "note": "auto: FERDINAND x N. HARDING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7247021804327,
+            41.88987253985291
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4172,
+            4069
+          ],
+          "username": "autogeoref",
+          "note": "auto: FERDINAND x N. SPRINGFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72348585419637,
+            41.88988658725587
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

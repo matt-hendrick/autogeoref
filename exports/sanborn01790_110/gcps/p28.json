@@ -1,0 +1,116 @@
+{
+  "page": "28",
+  "n_streets": 4,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "S. KEDZIE AV.",
+      "W. 51ST. ST."
+    ],
+    [
+      "S. SAWYER AVE.",
+      "W. 51ST. ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4698,
+            7768
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEDZIE AV. x W. 51ST. ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70376588355697,
+            41.80082074696813
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2700,
+            7768
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SAWYER AVE. x W. 51ST. ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70498807418683,
+            41.800804328186096
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70638747588157,
+            41.80395946288513
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70349664139331,
+            41.80400611291371
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70629672005174,
+            41.80083431957058
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 1 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

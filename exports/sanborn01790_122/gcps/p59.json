@@ -1,0 +1,160 @@
+{
+  "page": "59",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 99TH ST.",
+      "S. WOOD"
+    ],
+    [
+      "BEVERLY GLEN PKWY. (PRIVATE)",
+      "S. WOOD"
+    ],
+    [
+      "S. WOOD",
+      "W. 100TH ST."
+    ],
+    [
+      "S. WOOD",
+      "W. 100TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            391,
+            270
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 99TH ST. x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66723981780852,
+            41.71388981528372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            391,
+            2330
+          ],
+          "username": "autogeoref",
+          "note": "auto: BEVERLY GLEN PKWY. (PRIVATE) x S. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66726938512363,
+            41.712846661036046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            391,
+            4054
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x W. 100TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66726559824023,
+            41.71205583286633
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            391,
+            6027
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOOD x W. 100TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66724022497121,
+            41.71114624530793
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66715659118366,
+            41.713582088722916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5269,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66419327485777,
+            41.71362085382663
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66708115266245,
+            41.7103685920766
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

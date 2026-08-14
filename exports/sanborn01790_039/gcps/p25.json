@@ -1,0 +1,292 @@
+{
+  "page": "25",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "ARTHINGTON",
+      "S. KEELER AV."
+    ],
+    [
+      "TAYLOR",
+      "S. KEELER AV."
+    ],
+    [
+      "FILLMORE",
+      "S. KEELER AV."
+    ],
+    [
+      "S. KEELER AV.",
+      "GRENSHAW"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2996,
+            181
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARTHINGTON x S. KEELER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73019905931302,
+            41.869965366431416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2996,
+            2039
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x S. KEELER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.730161735108,
+            41.869031313937406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2996,
+            4445
+          ],
+          "username": "autogeoref",
+          "note": "auto: FILLMORE x S. KEELER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73012828043227,
+            41.867923426482555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2996,
+            6355
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEELER AV. x GRENSHAW"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73009745339928,
+            41.86701109149815
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73169555670509,
+            41.869587799275386
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5217,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72877761395505,
+            41.86962930707963
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73161378776429,
+            41.86640016105522
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8796,
+    "separation_ratio": 1.242,
+    "best_offset_m": 1.1,
+    "n_junctions": 5
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 26,
+      "votable": 26,
+      "in_block": 26,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 10.3,
+          "addr_diff": 2.1
+        },
+        {
+          "perp_m": 10.5,
+          "addr_diff": 2.9
+        },
+        {
+          "perp_m": 10.5,
+          "addr_diff": 3.6
+        },
+        {
+          "perp_m": 10.7,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 10.7,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 10.7,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 10.7,
+          "addr_diff": 3.7
+        },
+        {
+          "perp_m": 13.1,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 0.5
+        },
+        {
+          "perp_m": 6.9,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 6.9,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 6.8,
+          "addr_diff": 2.2
+        },
+        {
+          "perp_m": 6.8,
+          "addr_diff": 2.9
+        },
+        {
+          "perp_m": 6.6,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 6.6,
+          "addr_diff": 2.7
+        },
+        {
+          "perp_m": 10.9,
+          "addr_diff": 4.7
+        },
+        {
+          "perp_m": 4.4,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 4.6,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 4.9,
+          "addr_diff": 1.5
+        },
+        {
+          "perp_m": 6.5,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 6.5,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 7.6,
+          "addr_diff": 1.3
+        },
+        {
+          "perp_m": 7.9,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 8.7,
+          "addr_diff": 2.7
+        },
+        {
+          "perp_m": 8.8,
+          "addr_diff": 3.5
+        },
+        {
+          "perp_m": 12.8,
+          "addr_diff": 0.2
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

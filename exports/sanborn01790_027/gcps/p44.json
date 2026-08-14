@@ -1,0 +1,167 @@
+{
+  "page": "44",
+  "n_streets": 6,
+  "n_candidates": 13,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "DIVERSEY AV.",
+      "N. TALMAN AV."
+    ],
+    [
+      "N. FAIRFIELD AV.",
+      "SCHUBERT AV."
+    ],
+    [
+      "SCHUBERT AV.",
+      "N. WASHTENAW AV."
+    ],
+    [
+      "SCHUBERT AV.",
+      "N. TALMAN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5198,
+            386
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AV. x N. TALMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69392695654003,
+            41.932117795118806
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1194,
+            4344
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FAIRFIELD AV. x SCHUBERT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69639829650127,
+            41.93027496861255
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3207,
+            4344
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHUBERT AV. x N. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69517846011743,
+            41.93028598845945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5198,
+            4344
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHUBERT AV. x N. TALMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69395688728854,
+            41.930279381756165
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69684811393228,
+            41.931897622367885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69403306611817,
+            41.93192504356265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69679405341576,
+            41.928826017466804
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -1.878,
+    "dy_m": -1.159
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7216,
+    "separation_ratio": 1.023,
+    "best_offset_m": 2.7,
+    "n_junctions": 15
+  }
+}

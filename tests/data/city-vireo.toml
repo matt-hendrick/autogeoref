@@ -1,0 +1,29 @@
+# Fictional city for the viewer generalization contract: a working viewer
+# must render from this config with generic fallbacks — proving no Chicago
+# fact survives in viewer/index.html. Coordinates are Banks Peninsula, NZ
+# (also exercises the east-of-Greenwich / southern-hemisphere path).
+
+[city]
+name = "Port Vireo"
+loc_query = "sanborn maps port vireo"
+centerlines = "vireo-centerlines.geojson"
+aliases_dir = "vireo-aliases"
+
+[viewer]
+default_era = "1905"
+home_point = [172.64, -43.53]
+
+[viewer.geocoder]
+suffix = ", Port Vireo"
+bbox = [172.5, -43.65, 172.8, -43.45]
+
+[[viewer.era]]
+years = [1900, 1910]
+label = "1905"
+credits = "auto-georeferenced by this pipeline"
+
+# The optional guided-story block, exercised so the generalization contract
+# covers it: prose lives in the sidecar, never inline here. Kept LAST — the
+# tests build story variants by cutting the file here.
+[viewer.stories]
+file = "vireo-stories.json"

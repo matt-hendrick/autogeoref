@@ -1,0 +1,114 @@
+{
+  "page": "63",
+  "n_streets": 11,
+  "n_candidates": 9,
+  "n_inliers": 4,
+  "rotation_deg": -88.3,
+  "auto_residuals_m": [
+    3.47,
+    3.51,
+    3.53,
+    3.5
+  ],
+  "inlier_streets": [
+    [
+      "N. PARK AV.",
+      "MENOMONEE"
+    ],
+    [
+      "N. PARK AV.",
+      "EUGENIE"
+    ],
+    [
+      "MENOMONEE",
+      "HUDSON AV."
+    ],
+    [
+      "EUGENIE",
+      "HUDSON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            666,
+            1153
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PARK AV. x MENOMONEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63678191908123,
+            41.91475063614644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4467,
+            1153
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PARK AV. x EUGENIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6367229709576,
+            41.91282745224123
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            666,
+            6902
+          ],
+          "username": "autogeoref",
+          "note": "auto: MENOMONEE x HUDSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63995704691372,
+            41.91468301800111
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4467,
+            6902
+          ],
+          "username": "autogeoref",
+          "note": "auto: EUGENIE x HUDSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63986605555783,
+            41.9128503777886
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": -0.574,
+    "dy_m": -3.643
+  }
+}

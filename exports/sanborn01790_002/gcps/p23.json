@@ -1,0 +1,137 @@
+{
+  "page": "23",
+  "n_streets": 13,
+  "n_candidates": 20,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. CENTRAL PARK AVE",
+      "W. WOLFRAM"
+    ],
+    [
+      "N. CENTRAL PARK AVE",
+      "W. DIVERSEY AVE"
+    ],
+    [
+      "DRAKE AVE",
+      "W. WOLFRAM"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            117,
+            5965
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL PARK AVE x W. WOLFRAM"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71721348287542,
+            41.93282842342324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            117,
+            8117
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL PARK AVE x W. DIVERSEY AVE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71719504599346,
+            41.93191091575848
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2248,
+            5965
+          ],
+          "username": "autogeoref",
+          "note": "auto: DRAKE AVE x W. WOLFRAM"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71599534005162,
+            41.93283773320964
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71701731829654,
+            41.93521897629391
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71428260816096,
+            41.93524467385035
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71696522018304,
+            41.93215078810806
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

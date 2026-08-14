@@ -1,0 +1,185 @@
+{
+  "page": "70",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. SEDGWICK",
+      "W. SCHILLER"
+    ],
+    [
+      "N. SEDGWICK",
+      "W. SIGEL"
+    ],
+    [
+      "W. SCHILLER",
+      "N. ORLEANS"
+    ],
+    [
+      "W. SCHILLER",
+      "N. NORTH PARK AV."
+    ],
+    [
+      "N. NORTH PARK AV.",
+      "W. SIGEL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1199,
+            4393
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. SCHILLER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63848350620195,
+            41.90760068649159
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1199,
+            6451
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. SIGEL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63845336181345,
+            41.90663436993473
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2735,
+            4393
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SCHILLER x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63751933026056,
+            41.90761713609655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4331,
+            4393
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SCHILLER x N. NORTH PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63655677771526,
+            41.907632629718265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4331,
+            6451
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NORTH PARK AV. x W. SIGEL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63652856900441,
+            41.90666543284965
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            575,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63889087286907,
+            41.90923530654248
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5172,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63609987566423,
+            41.909278507755936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            575,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6388169135875,
+            41.90658894688757
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.4561,
+    "separation_ratio": 0.886,
+    "best_offset_m": 99.6,
+    "n_junctions": 11
+  }
+}

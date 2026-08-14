@@ -1,0 +1,157 @@
+{
+  "page": "98",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.9,
+  "auto_residuals_m": [
+    0.18,
+    0.3,
+    0.38,
+    0.21,
+    0.43,
+    0.13
+  ],
+  "inlier_streets": [
+    [
+      "WEST END AV.",
+      "(N. 43RD PL.) N. KILDARE AV."
+    ],
+    [
+      "WEST END AV.",
+      "N. KEELER AV. (N. 42ND AV.)"
+    ],
+    [
+      "(N. 43RD PL.) N. KILDARE AV.",
+      "W. WASHINGTON B'LVD"
+    ],
+    [
+      "(N. 43RD PL.) N. KILDARE AV.",
+      "W. MADISON"
+    ],
+    [
+      "N. KEELER AV. (N. 42ND AV.)",
+      "W. WASHINGTON B'LVD"
+    ],
+    [
+      "N. KEELER AV. (N. 42ND AV.)",
+      "W. MADISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            797,
+            2830
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x (N. 43RD PL.) N. KILDARE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7331076386458,
+            41.883274870771885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4856,
+            2830
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x N. KEELER AV. (N. 42ND AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73065309369267,
+            41.8833044794706
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            797,
+            5519
+          ],
+          "username": "autogeoref",
+          "note": "auto: (N. 43RD PL.) N. KILDARE AV. x W. WASHINGTON B'LVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73306567958576,
+            41.881957111392
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            797,
+            8223
+          ],
+          "username": "autogeoref",
+          "note": "auto: (N. 43RD PL.) N. KILDARE AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73302542683962,
+            41.880639240694656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4856,
+            5519
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEELER AV. (N. 42ND AV.) x W. WASHINGTON B'LVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73061527830244,
+            41.8819856043459
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4856,
+            8223
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEELER AV. (N. 42ND AV.) x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73057382276151,
+            41.88066748258477
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

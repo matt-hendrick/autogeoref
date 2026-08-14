@@ -1,0 +1,113 @@
+{
+  "page": "117",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 1.08,
+  "auto_residuals_m": [
+    0.06,
+    0.02,
+    0.02,
+    0.05
+  ],
+  "inlier_streets": [
+    [
+      "E. 28TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 28TH ST.",
+      "S. MICHIGAN AV. (BOULEVARD)"
+    ],
+    [
+      "S. WABASH AV.",
+      "E. 29TH ST."
+    ],
+    [
+      "S. MICHIGAN AV. (BOULEVARD)",
+      "E. 29TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1578,
+            2461
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 28TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62525017039191,
+            41.84333751138883
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4346,
+            2461
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 28TH ST. x S. MICHIGAN AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62355880756515,
+            41.8433609808943
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1578,
+            5520
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 29TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6252153219529,
+            41.84194893003021
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4346,
+            5520
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. (BOULEVARD) x E. 29TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62352429487257,
+            41.84197312290046
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.375,
+    "dy_m": -3.428
+  }
+}

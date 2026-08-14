@@ -1,0 +1,159 @@
+{
+  "page": "123",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.12,
+  "auto_residuals_m": [
+    0.25,
+    0.49,
+    0.34,
+    0.27,
+    0.3,
+    0.2
+  ],
+  "inlier_streets": [
+    [
+      "W. DICKENS AV. (W. GARFIELD AV.)",
+      "N. LARRABEE"
+    ],
+    [
+      "W. DICKENS AV. (W. GARFIELD AV.)",
+      "N. MOHAWK"
+    ],
+    [
+      "W. DICKENS AV. (W. GARFIELD AV.)",
+      "N. CLEVELAND AV."
+    ],
+    [
+      "N. LARRABEE",
+      "W. ARMITAGE AV. (W. CENTER)"
+    ],
+    [
+      "N. MOHAWK",
+      "W. ARMITAGE AV. (W. CENTER)"
+    ],
+    [
+      "N. CLEVELAND AV.",
+      "W. ARMITAGE AV. (W. CENTER)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            996,
+            555
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. (W. GARFIELD AV.) x N. LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64374756318263,
+            41.920071083464514
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3017,
+            555
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. (W. GARFIELD AV.) x N. MOHAWK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6425374671442,
+            41.92009034146974
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5022,
+            555
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. (W. GARFIELD AV.) x N. CLEVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64132399362715,
+            41.92010875187777
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            996,
+            4564
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LARRABEE x W. ARMITAGE AV. (W. CENTER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64368623340651,
+            41.9182524374715
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3017,
+            4564
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MOHAWK x W. ARMITAGE AV. (W. CENTER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6424746453536,
+            41.91826884097087
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5022,
+            4564
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLEVELAND AV. x W. ARMITAGE AV. (W. CENTER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64126482352171,
+            41.91828525852013
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.134,
+    "dy_m": -0.108
+  }
+}

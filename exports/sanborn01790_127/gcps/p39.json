@@ -1,0 +1,161 @@
+{
+  "page": "39",
+  "n_streets": 9,
+  "n_candidates": 15,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N. MOZART",
+      "W. PETERSON AV."
+    ],
+    [
+      "N. FRANCISCO AV.",
+      "W. PETERSON AV."
+    ],
+    [
+      "N. RICHMOND",
+      "W. PETERSON AV."
+    ],
+    [
+      "W. PETERSON AV.",
+      "N. SACRAMENTO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            310,
+            253
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MOZART x W. PETERSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70061591994376,
+            41.99043622478115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            310,
+            2056
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANCISCO AV. x W. PETERSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70182619111134,
+            41.990429368988224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            310,
+            3985
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RICHMOND x W. PETERSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70303965358335,
+            41.990422984743795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            310,
+            5909
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PETERSON AV. x N. SACRAMENTO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70425358390403,
+            41.99041482791233
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7010650543691,
+            41.99031356116141
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5216,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70103104305214,
+            41.98817252944298
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70529195640442,
+            41.99027646669976
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -89.7216,
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

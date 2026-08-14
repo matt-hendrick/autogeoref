@@ -1,0 +1,161 @@
+{
+  "page": "27",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.18,
+  "auto_residuals_m": [
+    0.27,
+    0.78,
+    0.54,
+    0.41,
+    0.52,
+    0.21
+  ],
+  "inlier_streets": [
+    [
+      "WEBSTER AV.",
+      "BISSELL"
+    ],
+    [
+      "WEBSTER AV.",
+      "FREMONT"
+    ],
+    [
+      "WEBSTER AV.",
+      "DAYTON"
+    ],
+    [
+      "GARFIELD AV.",
+      "BISSELL"
+    ],
+    [
+      "GARFIELD AV.",
+      "FREMONT"
+    ],
+    [
+      "GARFIELD AV.",
+      "DAYTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            460,
+            2074
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x BISSELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65229470095773,
+            41.92175817733172
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2479,
+            2074
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x FREMONT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65108378831236,
+            41.92177750241192
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4471,
+            2074
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x DAYTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64986884181162,
+            41.92179772731159
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            460,
+            6078
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x BISSELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65222980938573,
+            41.91994095978119
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2479,
+            6078
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x FREMONT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65101801322196,
+            41.91995825099998
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4471,
+            6078
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x DAYTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64980895938476,
+            41.91997547083538
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -2.127,
+    "dy_m": -0.115
+  }
+}

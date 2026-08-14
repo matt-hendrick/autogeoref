@@ -1,0 +1,145 @@
+{
+  "page": "58",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "WALLACE",
+      "W. 24TH PL."
+    ],
+    [
+      "WALLACE",
+      "W. 25TH PL."
+    ],
+    [
+      "LOWE AV.",
+      "W. 25TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4531,
+            2874
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALLACE x W. 24TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64161183250259,
+            41.84815201669788
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4531,
+            7058
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALLACE x W. 25TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64158372375486,
+            41.846333288394476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1117,
+            7058
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOWE AV. x W. 25TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64354394949592,
+            41.84622329254712
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64401520172156,
+            41.84910734487395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5279,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64116418084147,
+            41.849152526896134
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64393948143935,
+            41.846456056654326
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 1.82,
+    "dy_m": 4.892
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5169,
+    "separation_ratio": 1.035,
+    "best_offset_m": 32.8,
+    "n_junctions": 24
+  }
+}

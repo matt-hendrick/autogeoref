@@ -1,0 +1,158 @@
+{
+  "page": "110",
+  "n_streets": 9,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "LARRABEE ST",
+      "W. CHICAGO AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "KINGSBURY ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            412,
+            6865
+          ],
+          "username": "autogeoref",
+          "note": "auto: LARRABEE ST x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64292899500003,
+            41.89647627925845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2622,
+            6865
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x KINGSBURY ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64152366011751,
+            41.896493130145686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64287709569142,
+            41.89925313435042
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5243,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64004105306034,
+            41.899299705662244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.642798449563,
+            41.896599749980936
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5923,
+    "separation_ratio": 1.094,
+    "best_offset_m": 35.0,
+    "n_junctions": 23
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5"
+      ],
+      "consensus_numerals": 4,
+      "votable": 4,
+      "in_block": 4,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 24.5,
+          "addr_diff": 36.2
+        },
+        {
+          "perp_m": 23.9,
+          "addr_diff": 14.4
+        },
+        {
+          "perp_m": 23.8,
+          "addr_diff": 14.6
+        },
+        {
+          "perp_m": 23.7,
+          "addr_diff": 15.0
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

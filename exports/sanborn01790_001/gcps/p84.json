@@ -1,0 +1,120 @@
+{
+  "page": "84",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "ROSCOE",
+      "N. HALSTED"
+    ],
+    [
+      "N. HALSTED",
+      "BELMONT AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5411,
+            158
+          ],
+          "username": "autogeoref",
+          "note": "auto: ROSCOE x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64937492158377,
+            41.94361618418947
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5411,
+            8254
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x BELMONT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64926661399988,
+            41.93998093427661
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65233729827017,
+            41.94329112022065
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64963328295214,
+            41.94333113850142
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65225615666039,
+            41.94025775466906
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7107,
+    "separation_ratio": 1.532,
+    "best_offset_m": 3.2,
+    "n_junctions": 8
+  }
+}

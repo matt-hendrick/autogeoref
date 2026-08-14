@@ -1,0 +1,189 @@
+{
+  "page": "68",
+  "n_streets": 9,
+  "n_candidates": 12,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 39TH ST.",
+      "S. ROCKWELL ST."
+    ],
+    [
+      "W. 40TH ST.",
+      "S. TALMAN AV."
+    ],
+    [
+      "W. 40TH ST.",
+      "S. ROCKWELL ST."
+    ],
+    [
+      "S. TALMAN AV.",
+      "W. 40TH PL."
+    ],
+    [
+      "S. ROCKWELL ST.",
+      "W. 40TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5355,
+            187
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 39TH ST. x S. ROCKWELL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68971945494567,
+            41.82289587543016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3582,
+            3874
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 40TH ST. x S. TALMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69080687345807,
+            41.821147400893594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5355,
+            3874
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 40TH ST. x S. ROCKWELL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68967520687671,
+            41.821079813531604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3582,
+            7165
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. TALMAN AV. x W. 40TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69076326796825,
+            41.81961813533571
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5355,
+            7165
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROCKWELL ST. x W. 40TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68963615952538,
+            41.8196355298168
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69268548924967,
+            41.822493453047386
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5307,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68976375819888,
+            41.8225452036136
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69258534494818,
+            41.81935349264441
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 0.846,
+    "dy_m": 1.919
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7825,
+    "separation_ratio": 2.039,
+    "best_offset_m": 2.2,
+    "n_junctions": 14
+  }
+}

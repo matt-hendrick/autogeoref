@@ -1,0 +1,155 @@
+{
+  "page": "102",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.37,
+  "auto_residuals_m": [
+    0.2,
+    0.35,
+    0.23,
+    0.07,
+    0.93,
+    0.56
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVISION",
+      "N. HOYNE AV."
+    ],
+    [
+      "W. DIVISION",
+      "N. DAMEN AV. (N. ROBEY)"
+    ],
+    [
+      "N. HOYNE AV.",
+      "HADDON AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "THOMAS"
+    ],
+    [
+      "HADDON AV.",
+      "N. DAMEN AV. (N. ROBEY)"
+    ],
+    [
+      "N. DAMEN AV. (N. ROBEY)",
+      "THOMAS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1014,
+            1801
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67969985673835,
+            41.90314674511196
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4991,
+            1801
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. DAMEN AV. (N. ROBEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67725780383195,
+            41.90319112564266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1014,
+            3841
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x HADDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67967429801898,
+            41.90221700333931
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1014,
+            5805
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x THOMAS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67965045261816,
+            41.901325916320985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4991,
+            3841
+          ],
+          "username": "autogeoref",
+          "note": "auto: HADDON AV. x N. DAMEN AV. (N. ROBEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67723016761295,
+            41.902255786994125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4991,
+            5805
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAMEN AV. (N. ROBEY) x THOMAS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6772060081038,
+            41.90137322571447
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

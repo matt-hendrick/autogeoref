@@ -1,0 +1,132 @@
+{
+  "page": "61",
+  "n_streets": 13,
+  "n_candidates": 12,
+  "n_inliers": 5,
+  "rotation_deg": 0.92,
+  "auto_residuals_m": [
+    0.33,
+    1.72,
+    3.52,
+    3.38,
+    4.85
+  ],
+  "inlier_streets": [
+    [
+      "LAWRENCE AV.",
+      "N. KEDVALE AV."
+    ],
+    [
+      "LAWRENCE AV.",
+      "N. KARLOV AV."
+    ],
+    [
+      "N. KEDVALE AV.",
+      "LELAND AV."
+    ],
+    [
+      "N. KARLOV AV.",
+      "EASTWOOD AV."
+    ],
+    [
+      "EASTWOOD AV.",
+      "KENNICOTT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3272,
+            942
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x N. KEDVALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73173309494042,
+            41.968199297503894
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5232,
+            942
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x N. KARLOV AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73047772933455,
+            41.96821526523504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3272,
+            3336
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDVALE AV. x LELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73171052192774,
+            41.967119276188875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5232,
+            6648
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KARLOV AV. x EASTWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73038719147549,
+            41.96564143028668
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3946,
+            6648
+          ],
+          "username": "autogeoref",
+          "note": "auto: EASTWOOD AV. x KENNICOTT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73112911642994,
+            41.96563642932785
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,157 @@
+{
+  "page": "94",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.93,
+  "auto_residuals_m": [
+    1.59,
+    0.69,
+    1.09,
+    2.1,
+    1.61,
+    2.5
+  ],
+  "inlier_streets": [
+    [
+      "W. 57TH ST.",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. 57TH ST.",
+      "S. SEELEY AV."
+    ],
+    [
+      "W. 58TH ST.",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. 58TH ST.",
+      "S. SEELEY AV."
+    ],
+    [
+      "W. 59TH ST.",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. 59TH ST.",
+      "S. SEELEY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1308,
+            177
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 57TH ST. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6766325808268,
+            41.79024336155066
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3267,
+            177
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 57TH ST. x S. SEELEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6754140518574,
+            41.79025673558101
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1308,
+            4096
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 58TH ST. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67658479239974,
+            41.78842095659895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3267,
+            4096
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 58TH ST. x S. SEELEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67536457219182,
+            41.78843660236716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1308,
+            8064
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 59TH ST. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67653715903388,
+            41.78659724676092
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3267,
+            8064
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 59TH ST. x S. SEELEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67526434783422,
+            41.78661307163443
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

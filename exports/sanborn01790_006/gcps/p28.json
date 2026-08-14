@@ -1,0 +1,205 @@
+{
+  "page": "28",
+  "n_streets": 9,
+  "n_candidates": 10,
+  "n_inliers": 8,
+  "rotation_deg": 1.35,
+  "auto_residuals_m": [
+    5.59,
+    6.54,
+    5.82,
+    13.49,
+    12.72,
+    15.07,
+    13.18,
+    12.45
+  ],
+  "inlier_streets": [
+    [
+      "W. 59TH",
+      "UNION AVE."
+    ],
+    [
+      "W. 59TH",
+      "LOWE AVE."
+    ],
+    [
+      "W. 59TH",
+      "WALLACE"
+    ],
+    [
+      "UNION AVE.",
+      "W. 60TH"
+    ],
+    [
+      "UNION AVE.",
+      "W. 61ST"
+    ],
+    [
+      "LOWE AVE.",
+      "W. 60TH"
+    ],
+    [
+      "WALLACE",
+      "W. 60TH"
+    ],
+    [
+      "WALLACE",
+      "W. 61ST"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            833,
+            268
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 59TH x UNION AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64253538576877,
+            41.78708282510667
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2845,
+            268
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 59TH x LOWE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.641291360771,
+            41.78710403944269
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4862,
+            268
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 59TH x WALLACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64017196463772,
+            41.787122159961086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            833,
+            5336
+          ],
+          "username": "autogeoref",
+          "note": "auto: UNION AVE. x W. 60TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64247978434359,
+            41.784639023700706
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            833,
+            8334
+          ],
+          "username": "autogeoref",
+          "note": "auto: UNION AVE. x W. 61ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64247044257978,
+            41.78344035012915
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2845,
+            5336
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOWE AVE. x W. 60TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64122163852873,
+            41.78466195928421
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4862,
+            5336
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALLACE x W. 60TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64011489239898,
+            41.78468326425982
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4862,
+            8334
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALLACE x W. 61ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64008184606818,
+            41.78348172162859
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.142,
+    "dy_m": 2.293
+  }
+}

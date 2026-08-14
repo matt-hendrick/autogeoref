@@ -1,0 +1,180 @@
+{
+  "page": "41",
+  "n_streets": 4,
+  "n_candidates": 6,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "MADISON",
+      "MARKET"
+    ],
+    [
+      "MONROE",
+      "MARKET"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4046,
+            796
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON x MARKET"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63701942281264,
+            41.88191379199248
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4046,
+            3780
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONROE x MARKET"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63698657733174,
+            41.88062283080204
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63901218643933,
+            41.88190898114475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5314,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63628861330147,
+            41.88194645536854
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63894975581127,
+            41.87939380717825
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7002,
+    "separation_ratio": 1.151,
+    "best_offset_m": 24.2,
+    "n_junctions": 13
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 23,
+      "votable": 9,
+      "in_block": 9,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 14.5,
+          "addr_diff": 25.1
+        },
+        {
+          "perp_m": 14.5,
+          "addr_diff": 25.5
+        },
+        {
+          "perp_m": 14.1,
+          "addr_diff": 25.8
+        },
+        {
+          "perp_m": 14.6,
+          "addr_diff": 26.1
+        },
+        {
+          "perp_m": 14.6,
+          "addr_diff": 26.4
+        },
+        {
+          "perp_m": 14.6,
+          "addr_diff": 26.7
+        },
+        {
+          "perp_m": 14.6,
+          "addr_diff": 26.9
+        },
+        {
+          "perp_m": 14.9,
+          "addr_diff": 27.3
+        },
+        {
+          "perp_m": 27.2,
+          "addr_diff": 16.0
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

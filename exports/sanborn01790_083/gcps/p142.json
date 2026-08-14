@@ -1,0 +1,182 @@
+{
+  "page": "142",
+  "n_streets": 9,
+  "n_candidates": 9,
+  "n_inliers": 7,
+  "rotation_deg": 1.0,
+  "auto_residuals_m": [
+    1.7,
+    2.31,
+    2.82,
+    2.54,
+    4.35,
+    14.45,
+    8.99
+  ],
+  "inlier_streets": [
+    [
+      "FULLERTON PKWY.",
+      "N. CAMBRIDGE AV."
+    ],
+    [
+      "FULLERTON PKWY.",
+      "N. GENEVA TER."
+    ],
+    [
+      "FULLERTON PKWY.",
+      "N. CLEVELAND AV."
+    ],
+    [
+      "W. KEMPER PL.",
+      "N. GENEVA TER."
+    ],
+    [
+      "N. GENEVA TER.",
+      "W. BELDEN AV."
+    ],
+    [
+      "N. CAMBRIDGE AV.",
+      "W. BELDEN AV."
+    ],
+    [
+      "N. CLEVELAND AV.",
+      "W. BELDEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2792,
+            1598
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON PKWY. x N. CAMBRIDGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64271945407735,
+            41.92554151980845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            884,
+            1598
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON PKWY. x N. GENEVA TER."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6439011778667,
+            41.92552357577036
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4743,
+            1598
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON PKWY. x N. CLEVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64147576951586,
+            41.92556055311012
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            884,
+            3651
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KEMPER PL. x N. GENEVA TER."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64384881159963,
+            41.92460842467585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            884,
+            5657
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GENEVA TER. x W. BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64381961389998,
+            41.92369586066375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3793,
+            5657
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMBRIDGE AV. x W. BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64219418508904,
+            41.92371722326043
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4743,
+            5657
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLEVELAND AV. x W. BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64139769774343,
+            41.923728848676085
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.918,
+    "dy_m": -1.289
+  }
+}

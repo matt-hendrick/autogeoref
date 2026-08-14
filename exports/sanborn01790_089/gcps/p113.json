@@ -1,0 +1,251 @@
+{
+  "page": "113",
+  "n_streets": 9,
+  "n_candidates": 12,
+  "n_inliers": 8,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 27TH ST.",
+      "S. STATE"
+    ],
+    [
+      "W. 27TH ST.",
+      "S. FEDERAL"
+    ],
+    [
+      "S. STATE",
+      "W. 29TH ST."
+    ],
+    [
+      "S. STATE",
+      "W. 29TH ST."
+    ],
+    [
+      "RR JOLIET SUB DISTRICT",
+      "W. 27TH ST."
+    ],
+    [
+      "RR JOLIET SUB DISTRICT",
+      "W. 27TH ST."
+    ],
+    [
+      "RR JOLIET SUB DISTRICT",
+      "W. 29TH ST."
+    ],
+    [
+      "RR JOLIET SUB DISTRICT",
+      "W. 29TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5432,
+            447
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 27TH ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62694898013507,
+            41.844280517194996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1613,
+            447
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 27TH ST. x S. FEDERAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62915019642747,
+            41.84425147067569
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5432,
+            5690
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x W. 29TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6266807607483,
+            41.841915391498205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5432,
+            5690
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x W. 29TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62689086848019,
+            41.8419127402509
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            555,
+            447
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR JOLIET SUB DISTRICT x W. 27TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62975584165973,
+            41.8442400778481
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            555,
+            447
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR JOLIET SUB DISTRICT x W. 27TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62981849704305,
+            41.84423917396169
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            555,
+            5690
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR JOLIET SUB DISTRICT x W. 29TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62968894029004,
+            41.8418733135369
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            555,
+            5690
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR JOLIET SUB DISTRICT x W. 29TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62975099044094,
+            41.84187228080327
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            577,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62979359285474,
+            41.84411667677362
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5196,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62698000627398,
+            41.84415634581398
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            577,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62972604604244,
+            41.84145784272646
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -1.972,
+    "dy_m": -5.692
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "page": "88",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "rotation_deg": 0.87,
+  "auto_residuals_m": [
+    0.24,
+    0.2,
+    0.2,
+    0.23
+  ],
+  "inlier_streets": [
+    [
+      "WASHINGTON B'LVD",
+      "S. 53RD AV."
+    ],
+    [
+      "WASHINGTON B'LVD",
+      "S. 52ND AV."
+    ],
+    [
+      "S. 53RD AV.",
+      "W. MADISON"
+    ],
+    [
+      "S. 52ND AV.",
+      "W. MADISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1414,
+            4416
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON B'LVD x S. 53RD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75758031071429,
+            41.882322479496466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5504,
+            4416
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON B'LVD x S. 52ND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75513982393194,
+            41.88234730836879
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1414,
+            8400
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 53RD AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75750458855228,
+            41.880324874030094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5504,
+            8400
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 52ND AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75506692770652,
+            41.88035513195425
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.004,
+    "dy_m": -2.499
+  }
+}

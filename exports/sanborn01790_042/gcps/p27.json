@@ -1,0 +1,116 @@
+{
+  "page": "27",
+  "n_streets": 5,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "S. HOMAN AV.",
+      "W. 51ST. ST."
+    ],
+    [
+      "S. SPAULDING AV.",
+      "W. 51ST. ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            852,
+            8031
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOMAN AV. x W. 51ST. ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70867238942789,
+            41.80075352906877
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4793,
+            8031
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPAULDING AV. x W. 51ST. ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70620986978146,
+            41.80078747656186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70895706044006,
+            41.80412052369239
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70613181421567,
+            41.8041656798265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70886821347635,
+            41.801031623102716
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

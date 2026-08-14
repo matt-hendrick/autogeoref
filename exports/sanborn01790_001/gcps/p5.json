@@ -1,0 +1,182 @@
+{
+  "page": "5",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 1.54,
+  "auto_residuals_m": [
+    4.18,
+    2.32,
+    1.92,
+    4.3,
+    4.47,
+    2.13,
+    6.59
+  ],
+  "inlier_streets": [
+    [
+      "WRIGHTWOOD AVE.",
+      "PERRY"
+    ],
+    [
+      "WRIGHTWOOD AVE.",
+      "SOUTHPORT AVE."
+    ],
+    [
+      "LILL AVE.",
+      "PERRY"
+    ],
+    [
+      "LILL AVE.",
+      "SOUTHPORT AVE."
+    ],
+    [
+      "FULLERTON AVE.",
+      "PERRY"
+    ],
+    [
+      "FULLERTON AVE.",
+      "SOUTHPORT AVE."
+    ],
+    [
+      "PERRY",
+      "MONTANA"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1203,
+            231
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE. x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66588247150712,
+            41.92880669989154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5026,
+            231
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE. x SOUTHPORT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66346459218386,
+            41.92884217228231
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1203,
+            2129
+          ],
+          "username": "autogeoref",
+          "note": "auto: LILL AVE. x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66585205514384,
+            41.92790084754498
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5026,
+            2129
+          ],
+          "username": "autogeoref",
+          "note": "auto: LILL AVE. x SOUTHPORT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66343358024449,
+            41.92793297478329
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1203,
+            8190
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AVE. x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66578976702436,
+            41.92517740341514
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5026,
+            8190
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AVE. x SOUTHPORT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66334866425085,
+            41.925211700693666
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1203,
+            6042
+          ],
+          "username": "autogeoref",
+          "note": "auto: PERRY x MONTANA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66579216541678,
+            41.9260858817145
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.362,
+    "dy_m": -0.912
+  }
+}

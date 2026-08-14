@@ -1,0 +1,185 @@
+{
+  "page": "9",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "status": "OK (verified: corroboration+junction)",
+  "rescue_anchors": [
+    [
+      "CHICAGO AV.",
+      "LASALLE AV."
+    ],
+    [
+      "SUPERIOR",
+      "LASALLE AV."
+    ],
+    [
+      "HURON",
+      "LASALLE AV."
+    ],
+    [
+      "ERIE",
+      "LASALLE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1405,
+            609
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHICAGO AV. x LASALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63270950977699,
+            41.89661325461928
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1405,
+            2778
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUPERIOR x LASALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63269092567164,
+            41.89561363850262
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1405,
+            4572
+          ],
+          "username": "autogeoref",
+          "note": "auto: HURON x LASALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63267601682391,
+            41.894811703463795
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1405,
+            6373
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x LASALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63266113303544,
+            41.89401109283434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63321625529517,
+            41.89654850968547
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5224,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63039814640521,
+            41.89658660716585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63315272952829,
+            41.89394489560452
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6971,
+    "separation_ratio": 1.056,
+    "best_offset_m": 17.4,
+    "n_junctions": 18
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": null
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5"
+      ],
+      "consensus_numerals": 5,
+      "votable": 0,
+      "in_block": 0,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": []
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "page": "17",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.18,
+  "auto_residuals_m": [
+    0.59,
+    0.55,
+    0.77,
+    0.13,
+    0.57,
+    0.62
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVISION",
+      "N. WELLS"
+    ],
+    [
+      "W. DIVISION",
+      "N. CLARK"
+    ],
+    [
+      "W. ELM",
+      "N. CLARK"
+    ],
+    [
+      "W. ELM",
+      "N. WELLS"
+    ],
+    [
+      "W. HILL",
+      "N. WELLS"
+    ],
+    [
+      "W. MAPLE",
+      "N. CLARK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            399,
+            1477
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63447783289097,
+            41.903853459341754
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5382,
+            1477
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63144510788678,
+            41.903900857655486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5382,
+            3156
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63142394406579,
+            41.90313510431044
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            399,
+            3618
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63444202708902,
+            41.902884181942646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            399,
+            5346
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HILL x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63441232934939,
+            41.90210414515497
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5382,
+            6032
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MAPLE x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63138828891759,
+            41.901843506273046
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

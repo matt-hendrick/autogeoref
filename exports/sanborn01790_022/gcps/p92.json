@@ -1,0 +1,179 @@
+{
+  "page": "92",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 1.35,
+  "auto_residuals_m": [
+    1.33,
+    1.0,
+    2.97,
+    1.62,
+    0.54,
+    2.56,
+    2.08
+  ],
+  "inlier_streets": [
+    [
+      "POTOMAC AV.",
+      "N. OAKLEY AV. (BOULEVARD)"
+    ],
+    [
+      "POTOMAC AV.",
+      "N. LEAVITT"
+    ],
+    [
+      "N. OAKLEY AV. (BOULEVARD)",
+      "W. DIVISION"
+    ],
+    [
+      "N. OAKLEY AV. (BOULEVARD)",
+      "HADDON AV."
+    ],
+    [
+      "N. LEAVITT",
+      "CRYSTAL ST."
+    ],
+    [
+      "N. LEAVITT",
+      "W. DIVISION"
+    ],
+    [
+      "N. LEAVITT",
+      "HADDON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            998,
+            674
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. OAKLEY AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6846329311447,
+            41.90488093884954
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5218,
+            674
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68219368797513,
+            41.90492137839087
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            998,
+            4661
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. (BOULEVARD) x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68458031086207,
+            41.90306107981301
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            998,
+            6810
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. (BOULEVARD) x HADDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68455553585234,
+            41.90212624986565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5218,
+            2618
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x CRYSTAL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68216971006784,
+            41.90403777147063
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5218,
+            4661
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68214005889998,
+            41.90310657134834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5218,
+            6810
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x HADDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6821190786772,
+            41.90217178907101
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

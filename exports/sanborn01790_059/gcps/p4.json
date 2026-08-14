@@ -1,0 +1,136 @@
+{
+  "page": "4",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "rotation_deg": 0.5,
+  "auto_residuals_m": [
+    1.11,
+    0.53,
+    4.8,
+    4.87,
+    1.26
+  ],
+  "inlier_streets": [
+    [
+      "E. 113TH ST.",
+      "S. ST. LAWRENCE AV."
+    ],
+    [
+      "E. 114TH ST.",
+      "S. ST. LAWRENCE AV."
+    ],
+    [
+      "E. 114TH PL.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "E. 115TH ST.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "E. 115TH ST.",
+      "S. ST. LAWRENCE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5068,
+            264
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 113TH ST. x S. ST. LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60834273486576,
+            41.68915154836638
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5068,
+            4139
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 114TH ST. x S. ST. LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60830660379919,
+            41.68734161823098
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            6299
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 114TH PL. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61132542349617,
+            41.68632404686881
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            8204
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 115TH ST. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61139813537828,
+            41.68542509426978
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5068,
+            8204
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 115TH ST. x S. ST. LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60826858147486,
+            41.685453643747735
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.297,
+    "dy_m": -2.572
+  }
+}

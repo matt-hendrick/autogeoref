@@ -1,0 +1,114 @@
+{
+  "page": "83",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.78,
+  "auto_residuals_m": [
+    1.53,
+    1.47,
+    1.5,
+    1.49
+  ],
+  "inlier_streets": [
+    [
+      "WALNUT",
+      "N. WESTERN AV."
+    ],
+    [
+      "WALNUT",
+      "N. OAKLEY BLVD"
+    ],
+    [
+      "W. LAKE",
+      "N. WESTERN AV."
+    ],
+    [
+      "W. LAKE",
+      "N. OAKLEY BLVD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            919,
+            1606
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68655454517678,
+            41.88568081287163
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5020,
+            1606
+          ],
+          "username": "autogeoref",
+          "note": "auto: WALNUT x N. OAKLEY BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68410089146121,
+            41.885718243956525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            919,
+            3958
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68652758259412,
+            41.88460908019621
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5020,
+            3958
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. OAKLEY BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68406156311096,
+            41.88468551204852
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8",
+  "seam_adjusted": {
+    "dx_m": 0.094,
+    "dy_m": -3.858
+  }
+}

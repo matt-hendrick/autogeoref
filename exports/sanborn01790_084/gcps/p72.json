@@ -1,0 +1,181 @@
+{
+  "page": "72",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. NORTH PARK AV.",
+      "W. SCHILLER"
+    ],
+    [
+      "N. NORTH PARK AV.",
+      "W. SIGEL"
+    ],
+    [
+      "N. WIELAND",
+      "W. SCHILLER"
+    ],
+    [
+      "N. WELLS",
+      "W. SCHILLER"
+    ],
+    [
+      "N. WELLS",
+      "W. SIGEL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1314,
+            3921
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NORTH PARK AV. x W. SCHILLER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63655677771526,
+            41.907632629718265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1314,
+            6096
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NORTH PARK AV. x W. SIGEL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63652856900441,
+            41.90666543284965
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2916,
+            3921
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WIELAND x W. SCHILLER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63559711762316,
+            41.90765120391338
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4568,
+            3921
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS x W. SCHILLER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63460571840626,
+            41.907666066813654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4568,
+            6096
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS x W. SIGEL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63457505389886,
+            41.9066923386699
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            576,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6370565230546,
+            41.90907320006014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5186,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63425824118681,
+            41.90911651414119
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            576,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63698255367208,
+            41.90642647225104
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

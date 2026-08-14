@@ -1,0 +1,228 @@
+{
+  "page": "3",
+  "n_streets": 13,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 1.05,
+  "auto_residuals_m": [
+    1.41,
+    0.82,
+    1.1,
+    4.92,
+    5.05,
+    5.62,
+    5.38,
+    5.65,
+    5.0
+  ],
+  "inlier_streets": [
+    [
+      "W. ROOSEVELT ROAD (W. 12TH ST.)",
+      "S. JEFFERSON"
+    ],
+    [
+      "W. ROOSEVELT ROAD (W. 12TH ST.)",
+      "S. CLINTON"
+    ],
+    [
+      "W. ROOSEVELT ROAD (W. 12TH ST.)",
+      "S. CANAL"
+    ],
+    [
+      "MAXWELL",
+      "S. JEFFERSON"
+    ],
+    [
+      "MAXWELL",
+      "S. CLINTON"
+    ],
+    [
+      "MAXWELL",
+      "S. CANAL"
+    ],
+    [
+      "S. JEFFERSON",
+      "MAXWELL"
+    ],
+    [
+      "S. CLINTON",
+      "MAXWELL"
+    ],
+    [
+      "S. CANAL",
+      "MAXWELL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            666,
+            1110
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROOSEVELT ROAD (W. 12TH ST.) x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64219587621369,
+            41.867255934020726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2907,
+            1110
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROOSEVELT ROAD (W. 12TH ST.) x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6407298414267,
+            41.86727740205482
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5224,
+            1110
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROOSEVELT ROAD (W. 12TH ST.) x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63922600615254,
+            41.86728920081286
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            666,
+            6232
+          ],
+          "username": "autogeoref",
+          "note": "auto: MAXWELL x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64211712852483,
+            41.86488595107128
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2907,
+            6232
+          ],
+          "username": "autogeoref",
+          "note": "auto: MAXWELL x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6406525833787,
+            41.86490547519037
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5224,
+            6232
+          ],
+          "username": "autogeoref",
+          "note": "auto: MAXWELL x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63917814457255,
+            41.8649297836396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            666,
+            6085
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. JEFFERSON x MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64211712852483,
+            41.86488595107128
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2907,
+            6085
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLINTON x MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6406525833787,
+            41.86490547519037
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5224,
+            6085
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CANAL x MAXWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63917814457255,
+            41.8649297836396
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.893,
+    "dy_m": 5.422
+  }
+}

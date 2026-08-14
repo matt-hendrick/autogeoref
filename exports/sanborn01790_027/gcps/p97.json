@@ -1,0 +1,230 @@
+{
+  "page": "97",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 4,
+  "status": "OK (verified: corroboration+junction+addresses)",
+  "rescue_anchors": [
+    [
+      "ARMITAGE AV.",
+      "KIMBALL AVE."
+    ],
+    [
+      "ARMITAGE AV.",
+      "KIMBALL AV."
+    ],
+    [
+      "CORTLAND",
+      "KIMBALL AVE."
+    ],
+    [
+      "CORTLAND",
+      "KIMBALL AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5239,
+            384
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x KIMBALL AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71190508385426,
+            41.91734226071864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5241,
+            384
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x KIMBALL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71190508385426,
+            41.91734226071864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5239,
+            4311
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x KIMBALL AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71185966321976,
+            41.915525308349615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5241,
+            4311
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x KIMBALL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71185966321976,
+            41.915525308349615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71482079021222,
+            41.91711382251933
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71200574239813,
+            41.91714125006867
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71476672969571,
+            41.914041505827
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7292,
+    "separation_ratio": 1.496,
+    "best_offset_m": 3.4,
+    "n_junctions": 10
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 11,
+      "votable": 11,
+      "in_block": 11,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 8.3,
+          "addr_diff": 3.7
+        },
+        {
+          "perp_m": 8.4,
+          "addr_diff": 4.1
+        },
+        {
+          "perp_m": 8.1,
+          "addr_diff": 2.7
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 2.2
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 8.9,
+          "addr_diff": 2.1
+        },
+        {
+          "perp_m": 8.8,
+          "addr_diff": 1.0
+        },
+        {
+          "perp_m": 8.8,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 8.8,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 8.7,
+          "addr_diff": 1.2
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "page": "40",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 2,
+  "status": "OK (verified: corroboration+junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. 16TH ST.",
+      "S. MORGAN"
+    ],
+    [
+      "S. MORGAN",
+      "W. 18TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4954,
+            2374
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH ST. x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65094087180448,
+            41.859851138488516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4954,
+            6369
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MORGAN x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65088954643177,
+            41.858032260387
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65362332358696,
+            41.86055458180429
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6507621654775,
+            41.860597624030895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65355116416364,
+            41.857893888907505
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6196,
+    "separation_ratio": 1.31,
+    "best_offset_m": 2.8,
+    "n_junctions": 26
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 4,
+      "votable": 4,
+      "in_block": 4,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 9.9,
+          "addr_diff": 4.5
+        },
+        {
+          "perp_m": 9.9,
+          "addr_diff": 2.1
+        },
+        {
+          "perp_m": 10.0,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 10.0,
+          "addr_diff": 1.8
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

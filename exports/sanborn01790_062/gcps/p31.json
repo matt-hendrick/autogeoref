@@ -1,0 +1,138 @@
+{
+  "page": "31",
+  "n_streets": 10,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. NEWBURG AV.",
+      "N. NASHOTAH AV."
+    ],
+    [
+      "N. NAVARRE AV.",
+      "N. NASHOTAH AV."
+    ],
+    [
+      "N. NAVARRE AV.",
+      "N. NAPOLEON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            772,
+            814
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NEWBURG AV. x N. NASHOTAH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78949442582758,
+            41.989819556581566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            772,
+            3238
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NAVARRE AV. x N. NASHOTAH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.79041291152123,
+            41.98890401147093
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4543,
+            3238
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NAVARRE AV. x N. NAPOLEON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78845405675027,
+            41.98780581634143
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            566,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78959332287988,
+            41.98983427322778
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5094,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78733629851503,
+            41.98857790708125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            566,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.79213298495633,
+            41.98731372801599
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -37.1022,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "page": "9",
+  "n_streets": 11,
+  "n_candidates": 20,
+  "n_inliers": 5,
+  "rotation_deg": 1.28,
+  "auto_residuals_m": [
+    6.2,
+    6.47,
+    0.27,
+    5.29,
+    5.28
+  ],
+  "inlier_streets": [
+    [
+      "E. 107TH ST.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "E. 107TH ST.",
+      "S. CHAMPLAIN AV."
+    ],
+    [
+      "E. 107TH ST.",
+      "S. LANGLEY AV."
+    ],
+    [
+      "S. CHAMPLAIN AV.",
+      "E. 108TH ST."
+    ],
+    [
+      "S. LANGLEY AV.",
+      "E. 108TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1480,
+            257
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 107TH ST. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60824836668095,
+            41.700083458357945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3193,
+            257
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 107TH ST. x S. CHAMPLAIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60741023469167,
+            41.70009961304252
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5105,
+            257
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 107TH ST. x S. LANGLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6062874888554,
+            41.7001161113719
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3193,
+            4224
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CHAMPLAIN AV. x E. 108TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60735163649781,
+            41.698241109710594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5105,
+            4224
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LANGLEY AV. x E. 108TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60619426791773,
+            41.69826090667205
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -5.454,
+    "dy_m": 0.189
+  }
+}

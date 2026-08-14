@@ -1,0 +1,141 @@
+{
+  "page": "28",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. TAYLOR",
+      "S. CALIFORNIA AV."
+    ],
+    [
+      "W. TAYLOR",
+      "S. FAIRFIELD AV."
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "FILLMORE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            850,
+            2334
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TAYLOR x S. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69596242045509,
+            41.869217878761
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2755,
+            2334
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TAYLOR x S. FAIRFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69478747366456,
+            41.869223245214776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            850,
+            4167
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x FILLMORE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6959396326581,
+            41.86831769602964
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69614226154127,
+            41.86986090187246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5154,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69335493588184,
+            41.869899735982415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6960648242895,
+            41.86677875113254
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 1.847,
+    "dy_m": -2.186
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

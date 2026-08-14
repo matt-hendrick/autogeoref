@@ -1,0 +1,184 @@
+{
+  "page": "68",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 7,
+  "rotation_deg": 1.05,
+  "auto_residuals_m": [
+    7.2,
+    4.48,
+    1.32,
+    4.4,
+    1.2,
+    0.55,
+    1.11
+  ],
+  "inlier_streets": [
+    [
+      "ELSTON AV.",
+      "N. HAMLIN AV."
+    ],
+    [
+      "BELLE PLAINE AV.",
+      "N. AVERS AV."
+    ],
+    [
+      "BELLE PLAINE AV.",
+      "N. HAMLIN AV."
+    ],
+    [
+      "BELLE PLAINE AV.",
+      "N. RIDGEWAY AV."
+    ],
+    [
+      "N. AVERS AV.",
+      "IRVING PARK BL'VD"
+    ],
+    [
+      "N. HAMLIN AV.",
+      "IRVING PARK BL'VD"
+    ],
+    [
+      "N. RIDGEWAY AV.",
+      "IRVING PARK BL'VD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3431,
+            2630
+          ],
+          "username": "autogeoref",
+          "note": "auto: ELSTON AV. x N. HAMLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72279870358754,
+            41.95619029717149
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1420,
+            4195
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELLE PLAINE AV. x N. AVERS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7240132442166,
+            41.955535525627084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3431,
+            4195
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELLE PLAINE AV. x N. HAMLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72277908344962,
+            41.95553127425336
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5432,
+            4195
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELLE PLAINE AV. x N. RIDGEWAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72155667821524,
+            41.9555685016293
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1420,
+            8096
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AVERS AV. x IRVING PARK BL'VD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72395811408126,
+            41.953713086871836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3431,
+            8096
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HAMLIN AV. x IRVING PARK BL'VD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72272704751138,
+            41.95373422028587
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5432,
+            8096
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RIDGEWAY AV. x IRVING PARK BL'VD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72150301523939,
+            41.953747196936305
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -1.837,
+    "dy_m": 1.273
+  }
+}

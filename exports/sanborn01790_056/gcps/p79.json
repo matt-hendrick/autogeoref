@@ -1,0 +1,136 @@
+{
+  "page": "79",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 5,
+  "rotation_deg": 1.15,
+  "auto_residuals_m": [
+    1.5,
+    1.53,
+    5.8,
+    6.16,
+    0.4
+  ],
+  "inlier_streets": [
+    [
+      "W. 103RD ST.",
+      "S. CHARLES"
+    ],
+    [
+      "W. 103RD ST.",
+      "S. CHURCH"
+    ],
+    [
+      "S. LOOMIS",
+      "W. 104TH ST."
+    ],
+    [
+      "S. CHARLES",
+      "W. 104TH ST."
+    ],
+    [
+      "W. 104TH ST.",
+      "S. CHURCH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4260,
+            249
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 103RD ST. x S. CHARLES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65865960800916,
+            41.7067399093851
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1601,
+            249
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 103RD ST. x S. CHURCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6603479109418,
+            41.7067136377155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5121,
+            4256
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LOOMIS x W. 104TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65746861205555,
+            41.704939480891646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4260,
+            4256
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CHARLES x W. 104TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65789920179886,
+            41.70493421678968
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1601,
+            4256
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 104TH ST. x S. CHURCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6596192390367,
+            41.70490807750192
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.066,
+    "dy_m": -1.198
+  }
+}

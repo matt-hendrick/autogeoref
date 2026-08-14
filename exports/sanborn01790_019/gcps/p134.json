@@ -1,0 +1,196 @@
+{
+  "page": "134",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "BLACK HAWK",
+      "NORTH BRANCH"
+    ],
+    [
+      "BLACK HAWK",
+      "CHERRY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2874,
+            860
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLACK HAWK x NORTH BRANCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65661884392496,
+            41.907149409788325
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4765,
+            860
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLACK HAWK x CHERRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65545145583967,
+            41.907155648149555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65800670527611,
+            41.90717822023447
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5243,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65517066264502,
+            41.90722478576621
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65792805914766,
+            41.90452516517522
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6377,
+    "separation_ratio": 1.141,
+    "best_offset_m": 3.8,
+    "n_junctions": 4
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 13,
+      "votable": 13,
+      "in_block": 13,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 16.6,
+          "addr_diff": 0.0
+        },
+        {
+          "perp_m": 11.0,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 13.9,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 10.0,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 9.7,
+          "addr_diff": 2.8
+        },
+        {
+          "perp_m": 9.7,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 9.6,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 9.3,
+          "addr_diff": 0.9
+        },
+        {
+          "perp_m": 14.5,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 14.5,
+          "addr_diff": 0.0
+        },
+        {
+          "perp_m": 14.7,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 15.1,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 25.6,
+          "addr_diff": 3.8
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

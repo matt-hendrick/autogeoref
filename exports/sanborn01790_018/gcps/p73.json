@@ -1,0 +1,160 @@
+{
+  "page": "73",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.52,
+  "auto_residuals_m": [
+    6.27,
+    5.57,
+    10.44,
+    10.89,
+    4.14,
+    5.28
+  ],
+  "inlier_streets": [
+    [
+      "W. RANDOLPH",
+      "S. DESPLAINES"
+    ],
+    [
+      "W. RANDOLPH",
+      "S. JEFFERSON"
+    ],
+    [
+      "W. WASHINGTON",
+      "S. DESPLAINES"
+    ],
+    [
+      "W. WASHINGTON",
+      "S. JEFFERSON"
+    ],
+    [
+      "W. MADISON",
+      "S. DESPLAINES"
+    ],
+    [
+      "W. MADISON",
+      "S. JEFFERSON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1650,
+            868
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x S. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6442069027928,
+            41.88445408275698
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4056,
+            868
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64273484774756,
+            41.88445934511402
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1650,
+            3498
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON x S. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64416738790125,
+            41.883191347406246
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4056,
+            3498
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64270102850261,
+            41.88319817950633
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1650,
+            6794
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6441284933549,
+            41.88184619163827
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4056,
+            6794
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64266229238785,
+            41.88186363951814
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8",
+  "seam_adjusted": {
+    "dx_m": -0.14,
+    "dy_m": 3.898
+  }
+}

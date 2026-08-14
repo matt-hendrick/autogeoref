@@ -1,0 +1,156 @@
+{
+  "page": "101",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.34,
+  "auto_residuals_m": [
+    1.47,
+    1.1,
+    2.83,
+    2.44,
+    1.28,
+    1.26
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVISION",
+      "N. LEAVITT"
+    ],
+    [
+      "W. DIVISION",
+      "N. HOYNE AV."
+    ],
+    [
+      "HADDON AV.",
+      "N. LEAVITT"
+    ],
+    [
+      "HADDON AV.",
+      "N. HOYNE AV."
+    ],
+    [
+      "THOMAS",
+      "N. LEAVITT"
+    ],
+    [
+      "THOMAS",
+      "N. HOYNE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1040,
+            1779
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68214005889998,
+            41.90310657134834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4762,
+            1779
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67969985673835,
+            41.90314674511196
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1040,
+            3835
+          ],
+          "username": "autogeoref",
+          "note": "auto: HADDON AV. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6821190786772,
+            41.90217178907101
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4762,
+            3835
+          ],
+          "username": "autogeoref",
+          "note": "auto: HADDON AV. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67967429801898,
+            41.90221700333931
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1040,
+            5913
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68209256861847,
+            41.901283398424816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4762,
+            5913
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67965045261816,
+            41.901325916320985
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

@@ -1,0 +1,249 @@
+{
+  "page": "124",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 10,
+  "rotation_deg": 1.02,
+  "auto_residuals_m": [
+    0.9,
+    1.13,
+    0.81,
+    0.81,
+    0.94,
+    4.46,
+    3.71,
+    0.99,
+    4.28,
+    3.39
+  ],
+  "inlier_streets": [
+    [
+      "W. JACKSON",
+      "S. 52ND AV."
+    ],
+    [
+      "W. JACKSON",
+      "S. 51ST AV."
+    ],
+    [
+      "GLADYS AV.",
+      "S. 52ND AV."
+    ],
+    [
+      "GLADYS AV.",
+      "S. 51ST AV."
+    ],
+    [
+      "S. 52ND AV.",
+      "W. VAN BUREN"
+    ],
+    [
+      "S. 52ND AV.",
+      "W. CONGRESS"
+    ],
+    [
+      "S. 52ND AV.",
+      "W. HARRISON"
+    ],
+    [
+      "S. 51ST AV.",
+      "W. VAN BUREN"
+    ],
+    [
+      "S. 51ST AV.",
+      "W. CONGRESS"
+    ],
+    [
+      "S. 51ST AV.",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            202,
+            202
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON x S. 52ND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7549294065161,
+            41.87665941576931
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2447,
+            202
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON x S. 51ST AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75341667809357,
+            41.87667800638939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            202,
+            2092
+          ],
+          "username": "autogeoref",
+          "note": "auto: GLADYS AV. x S. 52ND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75489376768476,
+            41.875754059501155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2447,
+            2092
+          ],
+          "username": "autogeoref",
+          "note": "auto: GLADYS AV. x S. 51ST AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75338358743716,
+            41.875773924356764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            202,
+            4005
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 52ND AV. x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75485935806,
+            41.87484754872849
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            202,
+            5938
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 52ND AV. x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75482794050608,
+            41.873945123701915
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            202,
+            7909
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 52ND AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75480598003337,
+            41.87294637538623
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2447,
+            4005
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 51ST AV. x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75334881638302,
+            41.87486873132175
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2447,
+            5938
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 51ST AV. x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75331802880591,
+            41.873964036851916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2447,
+            7909
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 51ST AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75328121637399,
+            41.872967967126066
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

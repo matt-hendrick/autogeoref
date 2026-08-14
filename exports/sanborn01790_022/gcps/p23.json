@@ -1,0 +1,141 @@
+{
+  "page": "23",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "WEBSTER AV.",
+      "N. ROBEY"
+    ],
+    [
+      "N. ROBEY",
+      "HERVEY ST."
+    ],
+    [
+      "N. WINCHESTER AV.",
+      "HERVEY ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1021,
+            2824
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67775237983534,
+            41.92139775199985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1021,
+            6875
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROBEY x HERVEY ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67768648255917,
+            41.91957522614286
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2986,
+            6875
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WINCHESTER AV. x HERVEY ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67646489591826,
+            41.91959692975436
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67803544825529,
+            41.92236251383745
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5242,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6751822272674,
+            41.922409239826905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67795650957669,
+            41.919693929734876
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6209,
+    "separation_ratio": 1.22,
+    "best_offset_m": 4.3,
+    "n_junctions": 29
+  }
+}

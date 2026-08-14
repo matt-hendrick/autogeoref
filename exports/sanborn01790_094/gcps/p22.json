@@ -1,0 +1,141 @@
+{
+  "page": "22",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 14TH ST.",
+      "S. MORGAN"
+    ],
+    [
+      "W. 14TH PL.",
+      "S. ABERDEEN (SOLON)"
+    ],
+    [
+      "S. ABERDEEN (SOLON)",
+      "W. 15TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5507,
+            573
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 14TH ST. x S. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65093732897722,
+            41.863498706070914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            238,
+            2563
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 14TH PL. x S. ABERDEEN (SOLON)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6541463357397,
+            41.86250015191796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            238,
+            4636
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ABERDEEN (SOLON) x W. 15TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6541381144131,
+            41.861649100012045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            581,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65397082980846,
+            41.863397916419075
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5227,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65109711879686,
+            41.86343987596385
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            581,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65390094633564,
+            41.86074329415954
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4675,
+    "separation_ratio": 1.129,
+    "best_offset_m": 1.1,
+    "n_junctions": 17
+  }
+}

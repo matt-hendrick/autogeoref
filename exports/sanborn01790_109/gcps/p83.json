@@ -1,0 +1,160 @@
+{
+  "page": "83",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 41ST ST.",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. 42ND ST.",
+      "S. WESTERN AV."
+    ],
+    [
+      "S. WESTERN AV.",
+      "W. 42ND PL."
+    ],
+    [
+      "S. WESTERN AV.",
+      "W. 43RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            200,
+            370
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 41ST ST. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68416110253149,
+            41.819339848810145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            200,
+            4307
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68411350947558,
+            41.817521716562375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            200,
+            6204
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WESTERN AV. x W. 42ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68409357675864,
+            41.81661374273677
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            200,
+            8308
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WESTERN AV. x W. 43RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68407223333281,
+            41.81570339522608
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68392431219687,
+            41.81912846671694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5270,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.681010505914,
+            41.81917632683496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68383103697424,
+            41.81597439395829
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

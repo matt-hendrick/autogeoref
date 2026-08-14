@@ -1,0 +1,157 @@
+{
+  "page": "34",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.54,
+  "auto_residuals_m": [
+    1.2,
+    1.21,
+    2.9,
+    1.69,
+    2.68,
+    1.59
+  ],
+  "inlier_streets": [
+    [
+      "W. VAN BUREN",
+      "S. OAKLEY BLVD."
+    ],
+    [
+      "W. VAN BUREN",
+      "S. LEAVITT"
+    ],
+    [
+      "S. OAKLEY BLVD.",
+      "W. CONGRESS ST."
+    ],
+    [
+      "S. OAKLEY BLVD.",
+      "W. HARRISON"
+    ],
+    [
+      "S. LEAVITT",
+      "W. CONGRESS ST."
+    ],
+    [
+      "S. LEAVITT",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            904,
+            1258
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. OAKLEY BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68382782869742,
+            41.87612017906912
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5016,
+            1258
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68140224427015,
+            41.87615294529265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            904,
+            3881
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY BLVD. x W. CONGRESS ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68379895109196,
+            41.874959022735574
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            904,
+            6092
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY BLVD. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6837806656002,
+            41.87392690469076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5016,
+            3881
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT x W. CONGRESS ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68137099868815,
+            41.87493877639919
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5016,
+            6092
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68134463424222,
+            41.87396538354069
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

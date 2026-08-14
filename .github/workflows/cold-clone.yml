@@ -1,0 +1,61 @@
+# Tier 1 of the cold-clone check: build the tracked image and run it. It proves
+# something the `test` job structurally cannot, because that job runs from a
+# checkout on a runner whose system packages are already there — never from a
+# bare image that has to install GDAL and resolve the lockfile itself.
+#
+# Path-filtered rather than every push. The image is rebuilt from scratch each
+# run (a few minutes), and what can break it is a narrow set: the dependency
+# set, the interpreter pin, the build context, the Make targets, or the setup
+# instructions a stranger follows. Everything else is already covered by `ci`.
+#
+# Not offline: `uv sync` and the wheel smoke both resolve against PyPI.
+# Tiers 2 and 3 stay manual — tier 2 needs the gitignored fixture tree and
+# tier 3 spends model budget.
+
+name: cold-clone
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "Dockerfile"
+      - ".dockerignore"
+      - "uv.lock"
+      - "pyproject.toml"
+      - "Makefile"
+      - ".python-version"
+      - "README.md"
+      - ".github/workflows/cold-clone.yml"
+  pull_request:
+    paths:
+      - "Dockerfile"
+      - ".dockerignore"
+      - "uv.lock"
+      - "pyproject.toml"
+      - "Makefile"
+      - ".python-version"
+      - "README.md"
+      - ".github/workflows/cold-clone.yml"
+
+jobs:
+  cold:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the cold-clone image
+        run: docker build -t autogeoref-cold .
+      # Ends COLD-START-OK, exit 0: install, lint, strict typing, the fast
+      # suite, the wheel contract and the CLI, on a machine that has never seen
+      # the project.
+      - name: Cold start
+        run: docker run --rm autogeoref-cold
+      # The build context must equal the tracked tree, in both directions.
+      # tests/test_docker_context.py holds the half a test can reach without a
+      # daemon; this is the exact comparison, and the only place it can run.
+      - name: Build context equals the tracked tree
+        run: |
+          docker run --rm autogeoref-cold \
+            bash -lc 'cd /app && find . -type f -not -path "./.venv/*" -printf "%P\n"' \
+            | sort > /tmp/in-image.txt
+          git ls-files | sort > /tmp/tracked.txt
+          diff /tmp/tracked.txt /tmp/in-image.txt

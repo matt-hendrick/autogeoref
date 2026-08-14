@@ -1,0 +1,160 @@
+{
+  "page": "35",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.54,
+  "auto_residuals_m": [
+    0.6,
+    0.77,
+    1.11,
+    0.97,
+    0.76,
+    0.47
+  ],
+  "inlier_streets": [
+    [
+      "ARMITAGE AV.",
+      "N. LEAVITT"
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. HOYNE AV."
+    ],
+    [
+      "HOMER",
+      "N. LEAVITT"
+    ],
+    [
+      "HOMER",
+      "N. HOYNE AV."
+    ],
+    [
+      "CORTLAND",
+      "N. LEAVITT"
+    ],
+    [
+      "CORTLAND",
+      "N. HOYNE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            637,
+            1215
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68251787778789,
+            41.917642664649435
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4617,
+            1215
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68009535964154,
+            41.917690398152615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            637,
+            2940
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOMER x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68250100817451,
+            41.91687894688151
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4617,
+            2940
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOMER x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68006985665104,
+            41.91692653216616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            637,
+            4602
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.682485567624,
+            41.91612120581118
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4617,
+            4602
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6800490952522,
+            41.91617160411376
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8",
+  "seam_adjusted": {
+    "dx_m": 0.073,
+    "dy_m": -2.428
+  }
+}

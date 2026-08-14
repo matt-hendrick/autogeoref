@@ -1,0 +1,203 @@
+{
+  "page": "68",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": -0.48,
+  "auto_residuals_m": [
+    0.78,
+    0.44,
+    0.33,
+    1.2,
+    0.75,
+    0.6,
+    0.84,
+    0.27
+  ],
+  "inlier_streets": [
+    [
+      "E. 107TH ST.",
+      "S. AVENUE E."
+    ],
+    [
+      "E. 107TH ST.",
+      "S. AVENUE D"
+    ],
+    [
+      "E. 107TH ST.",
+      "S. AVENUE C"
+    ],
+    [
+      "S. AVENUE E.",
+      "E. 108TH ST."
+    ],
+    [
+      "E. 108TH ST.",
+      "S. AVENUE D"
+    ],
+    [
+      "E. 108TH ST.",
+      "S. AVENUE C"
+    ],
+    [
+      "S. AVENUE D",
+      "E. 109TH ST."
+    ],
+    [
+      "S. AVENUE C",
+      "E. 109TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1495,
+            256
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 107TH ST. x S. AVENUE E."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.52924272391729,
+            41.70088904808277
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3241,
+            256
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 107TH ST. x S. AVENUE D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.52817366021767,
+            41.700883576179336
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5201,
+            256
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 107TH ST. x S. AVENUE C"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.52697049426472,
+            41.70087854176863
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1495,
+            4099
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. AVENUE E. x E. 108TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.52924521098603,
+            41.69906588407568
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3241,
+            4099
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 108TH ST. x S. AVENUE D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.52817915119662,
+            41.69905307357634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5201,
+            4099
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 108TH ST. x S. AVENUE C"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.52698986873895,
+            41.69904974953983
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3241,
+            7866
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. AVENUE D x E. 109TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.52820738493195,
+            41.697254255958725
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5201,
+            7866
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. AVENUE C x E. 109TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.52700331466257,
+            41.69724803287556
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

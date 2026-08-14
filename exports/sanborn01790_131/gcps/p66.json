@@ -1,0 +1,228 @@
+{
+  "page": "66",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": -0.5,
+  "auto_residuals_m": [
+    6.81,
+    9.96,
+    7.48,
+    12.46,
+    6.59,
+    13.46,
+    12.71,
+    9.44,
+    6.59
+  ],
+  "inlier_streets": [
+    [
+      "E. 107TH ST.",
+      "S. EWING AV."
+    ],
+    [
+      "E. 107TH ST.",
+      "S. AVENUE J."
+    ],
+    [
+      "E. 107TH ST.",
+      "S. AVENUE H."
+    ],
+    [
+      "S. EWING AV.",
+      "E. 108TH ST."
+    ],
+    [
+      "S. EWING AV.",
+      "E. 109TH ST."
+    ],
+    [
+      "E. 108TH ST.",
+      "S. AVENUE J."
+    ],
+    [
+      "E. 108TH ST.",
+      "S. AVENUE H."
+    ],
+    [
+      "S. AVENUE J.",
+      "E. 109TH ST."
+    ],
+    [
+      "S. AVENUE H.",
+      "E. 109TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1329,
+            268
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 107TH ST. x S. EWING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5352718513701,
+            41.70095654815191
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3220,
+            268
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 107TH ST. x S. AVENUE J."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53406533899444,
+            41.700951467767425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4822,
+            268
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 107TH ST. x S. AVENUE H."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53285444075968,
+            41.700943427501706
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1329,
+            3973
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EWING AV. x E. 108TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5352698367325,
+            41.699137437802534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1329,
+            8168
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EWING AV. x E. 109TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53527107062148,
+            41.69733083692922
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3220,
+            3973
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 108TH ST. x S. AVENUE J."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53406356924252,
+            41.699133691253856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4822,
+            3973
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 108TH ST. x S. AVENUE H."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53285273682063,
+            41.69912129295942
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3220,
+            8168
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. AVENUE J. x E. 109TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53406435732833,
+            41.69732234983289
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4822,
+            8168
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. AVENUE H. x E. 109TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53285441494944,
+            41.697312434280036
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.28,
+    "dy_m": 5.172
+  }
+}

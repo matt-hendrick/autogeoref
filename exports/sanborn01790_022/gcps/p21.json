@@ -1,0 +1,159 @@
+{
+  "page": "21",
+  "n_streets": 9,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 1.2,
+  "auto_residuals_m": [
+    0.5,
+    0.24,
+    0.35,
+    0.48,
+    0.38,
+    0.19
+  ],
+  "inlier_streets": [
+    [
+      "LYNDALE",
+      "N. HAMILTON AV."
+    ],
+    [
+      "LYNDALE",
+      "N. HOYNE AV."
+    ],
+    [
+      "LYNDALE",
+      "N. LEAVITT"
+    ],
+    [
+      "N. HAMILTON AV.",
+      "WEBSTER AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "WEBSTER AV."
+    ],
+    [
+      "WEBSTER AV.",
+      "N. LEAVITT"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2965,
+            630
+          ],
+          "username": "autogeoref",
+          "note": "auto: LYNDALE x N. HAMILTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68147610024914,
+            41.922716139785194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4904,
+            630
+          ],
+          "username": "autogeoref",
+          "note": "auto: LYNDALE x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68027114515813,
+            41.92273256169124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            998,
+            630
+          ],
+          "username": "autogeoref",
+          "note": "auto: LYNDALE x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68268537256593,
+            41.922697054350614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2965,
+            3626
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HAMILTON AV. x WEBSTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68142602087767,
+            41.921350821155926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4904,
+            3626
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x WEBSTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6802194190095,
+            41.92137097550982
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            998,
+            3626
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68263722684678,
+            41.921331353644426
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.313,
+    "dy_m": 2.732
+  }
+}

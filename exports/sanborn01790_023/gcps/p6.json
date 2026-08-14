@@ -1,0 +1,142 @@
+{
+  "page": "6",
+  "n_streets": 8,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "AUGUSTA",
+      "N. WOOD"
+    ],
+    [
+      "IOWA",
+      "N. WOOD"
+    ],
+    [
+      "N. WOOD",
+      "W. WALTON ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4916,
+            763
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67228234780276,
+            41.89963272937494
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4916,
+            4797
+          ],
+          "username": "autogeoref",
+          "note": "auto: IOWA x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67223080387083,
+            41.897812158969266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4916,
+            3347
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOOD x W. WALTON ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6722517267439,
+            41.898490517339155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67486725751952,
+            41.89959562112867
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5276,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67206964068305,
+            41.899641790316984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67478976886677,
+            41.89699427702125
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8495,
+    "separation_ratio": 1.259,
+    "best_offset_m": 5.3,
+    "n_junctions": 18
+  }
+}

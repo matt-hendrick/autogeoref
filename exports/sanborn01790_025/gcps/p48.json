@@ -1,0 +1,132 @@
+{
+  "page": "48",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 0.95,
+  "auto_residuals_m": [
+    0.18,
+    0.13,
+    0.43,
+    0.15,
+    0.29
+  ],
+  "inlier_streets": [
+    [
+      "W. 18TH ST.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "W. 18TH PL.",
+      "S. WESTERN AV."
+    ],
+    [
+      "W. 18TH PL.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "S. WESTERN AV.",
+      "W. 19TH ST."
+    ],
+    [
+      "S. OAKLEY AV.",
+      "W. 19TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4970,
+            527
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68333917671428,
+            41.85757273695722
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            893,
+            2503
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH PL. x S. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68575934073066,
+            41.85663502486321
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4970,
+            2503
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH PL. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68331961085775,
+            41.85666875984711
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            893,
+            4522
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WESTERN AV. x W. 19TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68573742251986,
+            41.855709431908764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4970,
+            4522
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY AV. x W. 19TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6832946000007,
+            41.85573700678045
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

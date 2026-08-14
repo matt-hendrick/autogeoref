@@ -1,0 +1,132 @@
+{
+  "page": "16S",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 0.07,
+  "auto_residuals_m": [
+    0.08,
+    0.44,
+    0.96,
+    0.09,
+    0.51
+  ],
+  "inlier_streets": [
+    [
+      "W. LAKE",
+      "N. CLARK"
+    ],
+    [
+      "W. LAKE",
+      "N. DEARBORN"
+    ],
+    [
+      "W. COUCH",
+      "N. DEARBORN"
+    ],
+    [
+      "W. RANDOLPH",
+      "N. CLARK"
+    ],
+    [
+      "W. RANDOLPH",
+      "N. DEARBORN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1723,
+            2237
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63097594032088,
+            41.88574158397299
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4179,
+            2237
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62949751733571,
+            41.885745411248635
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4179,
+            3608
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. COUCH x N. DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62947672053768,
+            41.88511272320087
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1723,
+            5017
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6309349560629,
+            41.884476682934555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4179,
+            5017
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62945714001543,
+            41.884481938532005
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

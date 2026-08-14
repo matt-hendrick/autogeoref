@@ -1,0 +1,132 @@
+{
+  "page": "5",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 1.29,
+  "auto_residuals_m": [
+    2.27,
+    0.77,
+    3.48,
+    3.94,
+    5.72
+  ],
+  "inlier_streets": [
+    [
+      "W. CARMEN AV.",
+      "N. MENARD AV."
+    ],
+    [
+      "W. CARMEN AV.",
+      "N. MANGO AV."
+    ],
+    [
+      "W. CARMEN AV.",
+      "N. MAJOR AV."
+    ],
+    [
+      "N. MANGO AV.",
+      "HIGGINS AV."
+    ],
+    [
+      "N. MAJOR AV.",
+      "GOODMAN ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            801,
+            831
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CARMEN AV. x N. MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77336670665014,
+            41.973875688012754
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2715,
+            831
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CARMEN AV. x N. MANGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77215458571568,
+            41.97387721269674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4653,
+            831
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CARMEN AV. x N. MAJOR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77094101548404,
+            41.973878148882356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2715,
+            5355
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MANGO AV. x HIGGINS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7721991349963,
+            41.971569941000304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4653,
+            3969
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAJOR AV. x GOODMAN ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77097018343596,
+            41.97235487103763
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

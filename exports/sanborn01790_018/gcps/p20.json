@@ -1,0 +1,156 @@
+{
+  "page": "20",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.03,
+  "auto_residuals_m": [
+    0.19,
+    0.08,
+    0.32,
+    0.13,
+    0.19,
+    0.09
+  ],
+  "inlier_streets": [
+    [
+      "ERIE",
+      "N. FRANKLIN"
+    ],
+    [
+      "ERIE",
+      "WELLS"
+    ],
+    [
+      "ONTARIO",
+      "N. FRANKLIN"
+    ],
+    [
+      "ONTARIO",
+      "WELLS"
+    ],
+    [
+      "OHIO",
+      "N. FRANKLIN"
+    ],
+    [
+      "OHIO",
+      "WELLS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1063,
+            852
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63563873438162,
+            41.89396977759222
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3657,
+            852
+          ],
+          "username": "autogeoref",
+          "note": "auto: ERIE x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63413279104483,
+            41.893989065379564
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1063,
+            2666
+          ],
+          "username": "autogeoref",
+          "note": "auto: ONTARIO x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63561454695721,
+            41.893167557684194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3657,
+            2666
+          ],
+          "username": "autogeoref",
+          "note": "auto: ONTARIO x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63411054863546,
+            41.893188651485055
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1063,
+            4485
+          ],
+          "username": "autogeoref",
+          "note": "auto: OHIO x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63559584976322,
+            41.89236840477464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3657,
+            4485
+          ],
+          "username": "autogeoref",
+          "note": "auto: OHIO x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6340884673957,
+            41.892388585055315
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

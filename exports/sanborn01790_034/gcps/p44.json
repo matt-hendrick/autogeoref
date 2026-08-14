@@ -1,0 +1,186 @@
+{
+  "page": "44",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "BRYN MAWR AV.",
+      "WAYNE AV."
+    ],
+    [
+      "CATALPA AV.",
+      "WAYNE AV."
+    ],
+    [
+      "BALMORAL AV.",
+      "WAYNE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4613,
+            283
+          ],
+          "username": "autogeoref",
+          "note": "auto: BRYN MAWR AV. x WAYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66375300610238,
+            41.98356683830385
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4613,
+            4269
+          ],
+          "username": "autogeoref",
+          "note": "auto: CATALPA AV. x WAYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66370509313073,
+            41.98174127157755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4613,
+            8283
+          ],
+          "username": "autogeoref",
+          "note": "auto: BALMORAL AV. x WAYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66365732007776,
+            41.97991567489045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66619396053179,
+            41.983252430447855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5236,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66336807399466,
+            41.983293864215824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6661124870306,
+            41.98018197746126
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.9,
+    "separation_ratio": 1.331,
+    "best_offset_m": 5.2,
+    "n_junctions": 5
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 14,
+      "votable": 5,
+      "in_block": 5,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 15.4,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 15.4,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 15.4,
+          "addr_diff": 0.0
+        },
+        {
+          "perp_m": 15.4,
+          "addr_diff": 3.6
+        },
+        {
+          "perp_m": 15.4,
+          "addr_diff": 0.5
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

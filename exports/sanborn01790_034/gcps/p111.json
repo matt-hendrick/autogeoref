@@ -1,0 +1,182 @@
+{
+  "page": "111",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 7,
+  "rotation_deg": 1.59,
+  "auto_residuals_m": [
+    2.92,
+    1.42,
+    1.85,
+    2.21,
+    11.14,
+    3.94,
+    4.73
+  ],
+  "inlier_streets": [
+    [
+      "MONTROSE AV.",
+      "N. HOYNE AV."
+    ],
+    [
+      "MONTROSE AV.",
+      "N. LEAVITT"
+    ],
+    [
+      "PENSACOLA AV.",
+      "N. HOYNE AV."
+    ],
+    [
+      "N. HOYNE AV.",
+      "CULLOM AV."
+    ],
+    [
+      "CULLOM AV.",
+      "LINCOLN AV."
+    ],
+    [
+      "CULLOM AV.",
+      "N. LEAVITT"
+    ],
+    [
+      "N. LEAVITT",
+      "BERTEAU AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4273,
+            138
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68142717809798,
+            41.961407079765344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            85,
+            138
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68385442786888,
+            41.9613671364374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4273,
+            2270
+          ],
+          "username": "autogeoref",
+          "note": "auto: PENSACOLA AV. x N. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68139845503995,
+            41.960486329873746
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4273,
+            4337
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x CULLOM AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68136815520424,
+            41.959574791967434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1977,
+            4337
+          ],
+          "username": "autogeoref",
+          "note": "auto: CULLOM AV. x LINCOLN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68258493852257,
+            41.95955785284621
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            85,
+            4337
+          ],
+          "username": "autogeoref",
+          "note": "auto: CULLOM AV. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68379839576028,
+            41.95954090752947
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            85,
+            8354
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x BERTEAU AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68374421248991,
+            41.957718304530296
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.729,
+    "dy_m": -2.728
+  }
+}

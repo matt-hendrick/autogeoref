@@ -1,0 +1,206 @@
+{
+  "page": "86",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "BUCKINGHAM PL.",
+      "EVANSTON AVE."
+    ],
+    [
+      "ALDINE",
+      "EVANSTON AVE."
+    ],
+    [
+      "EVANSTON AVE.",
+      "MELROSE"
+    ],
+    [
+      "EVANSTON AVE.",
+      "BELMONT AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4787,
+            2194
+          ],
+          "username": "autogeoref",
+          "note": "auto: BUCKINGHAM PL. x EVANSTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64450646102136,
+            41.94277748549621
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4787,
+            3409
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALDINE x EVANSTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64446722642542,
+            41.94222846128588
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4787,
+            5686
+          ],
+          "username": "autogeoref",
+          "note": "auto: EVANSTON AVE. x MELROSE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64443353420671,
+            41.941134899206986
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4787,
+            8100
+          ],
+          "username": "autogeoref",
+          "note": "auto: EVANSTON AVE. x BELMONT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64439968804581,
+            41.94004496603848
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64709374904122,
+            41.94333661575299
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6443897337232,
+            41.94337663400521
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64701260743144,
+            41.940303252365766
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8023,
+    "separation_ratio": 1.347,
+    "best_offset_m": 6.6,
+    "n_junctions": 8
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5"
+      ],
+      "consensus_numerals": 11,
+      "votable": 5,
+      "in_block": 5,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 13.7,
+          "addr_diff": 6.0
+        },
+        {
+          "perp_m": 13.7,
+          "addr_diff": 8.4
+        },
+        {
+          "perp_m": 13.7,
+          "addr_diff": 5.8
+        },
+        {
+          "perp_m": 13.7,
+          "addr_diff": 3.1
+        },
+        {
+          "perp_m": 13.7,
+          "addr_diff": 1.9
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "page": "87",
+  "n_streets": 7,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. BLACKHAWK",
+      "N. ASHLAND AV."
+    ],
+    [
+      "W. BLACKHAWK",
+      "N. BOSWORTH AV. (DICKSON)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            992,
+            2808
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLACKHAWK x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66759020994513,
+            41.90700668711342
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3234,
+            2808
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLACKHAWK x N. BOSWORTH AV. (DICKSON)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66632404171224,
+            41.90700730632451
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6679166461966,
+            41.907932006785366
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5257,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66507155207744,
+            41.90797965243057
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66783639249182,
+            41.90527771301844
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4105,
+    "separation_ratio": 1.106,
+    "best_offset_m": 6.5,
+    "n_junctions": 35
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 7,
+      "votable": 7,
+      "in_block": 7,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 15.5,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 15.4,
+          "addr_diff": 3.4
+        },
+        {
+          "perp_m": 15.3,
+          "addr_diff": 4.5
+        },
+        {
+          "perp_m": 9.1,
+          "addr_diff": 4.1
+        },
+        {
+          "perp_m": 9.3,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 9.4,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 9.4,
+          "addr_diff": 0.3
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

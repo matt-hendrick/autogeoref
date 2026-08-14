@@ -1,0 +1,113 @@
+{
+  "page": "73",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 0.54,
+  "auto_residuals_m": [
+    0.71,
+    1.35,
+    1.36,
+    0.66
+  ],
+  "inlier_streets": [
+    [
+      "WILSON AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "W. SUNNYSIDE AV.",
+      "N. LAMON AV."
+    ],
+    [
+      "N. LAMON AV.",
+      "MONTROSE AV."
+    ],
+    [
+      "N. CICERO AV.",
+      "MONTROSE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5119,
+            325
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILSON AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7475864535218,
+            41.96436846951903
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1233,
+            4288
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUNNYSIDE AV. x N. LAMON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75000063439549,
+            41.962519661324436
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1233,
+            8181
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAMON AV. x MONTROSE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74993813767855,
+            41.96069700332804
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5119,
+            8181
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CICERO AV. x MONTROSE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74750140041691,
+            41.960724300529954
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.779,
+    "dy_m": 0.273
+  }
+}

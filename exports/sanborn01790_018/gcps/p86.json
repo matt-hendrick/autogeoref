@@ -1,0 +1,202 @@
+{
+  "page": "86",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.04,
+  "auto_residuals_m": [
+    1.11,
+    0.91,
+    1.72,
+    2.27,
+    0.59,
+    0.18,
+    1.42,
+    0.21
+  ],
+  "inlier_streets": [
+    [
+      "W. ADAMS",
+      "S. JEFFERSON"
+    ],
+    [
+      "W. ADAMS",
+      "S. CLINTON"
+    ],
+    [
+      "W. QUINCY",
+      "S. JEFFERSON"
+    ],
+    [
+      "W. QUINCY",
+      "S. CLINTON"
+    ],
+    [
+      "S. JEFFERSON",
+      "W. JACKSON BLVD"
+    ],
+    [
+      "S. JEFFERSON",
+      "W. VANBUREN"
+    ],
+    [
+      "S. CLINTON",
+      "W. JACKSON BLVD"
+    ],
+    [
+      "S. CLINTON",
+      "W. VANBUREN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1722,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64257716392909,
+            41.87927354816091
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4035,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64110945685259,
+            41.87929195327779
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1722,
+            2221
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. QUINCY x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64255830212281,
+            41.87864148464271
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4035,
+            2221
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. QUINCY x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64109387829848,
+            41.87865774906392
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1722,
+            3714
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. JEFFERSON x W. JACKSON BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64253573739707,
+            41.87800107027075
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1722,
+            6593
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. JEFFERSON x W. VANBUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64249756636984,
+            41.87673297474871
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4035,
+            3714
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLINTON x W. JACKSON BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64107028567324,
+            41.878026525293144
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4035,
+            6593
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLINTON x W. VANBUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64102694800312,
+            41.876752158321636
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

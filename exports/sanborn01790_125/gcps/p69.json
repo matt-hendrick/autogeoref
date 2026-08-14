@@ -1,0 +1,136 @@
+{
+  "page": "69",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 1.7,
+  "auto_residuals_m": [
+    7.52,
+    9.16,
+    5.58,
+    1.7,
+    5.61
+  ],
+  "inlier_streets": [
+    [
+      "W. 99TH ST.",
+      "S. WENTWORTH AV."
+    ],
+    [
+      "W. 100TH ST.",
+      "S. WENTWORTH AV."
+    ],
+    [
+      "W. 100TH ST.",
+      "S. PERRY AV."
+    ],
+    [
+      "W. 101ST ST.",
+      "S. WENTWORTH AV."
+    ],
+    [
+      "W. 101ST ST.",
+      "S. PERRY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            906,
+            276
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 99TH ST. x S. WENTWORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62846626216798,
+            41.71414449487963
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            906,
+            4198
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 100TH ST. x S. WENTWORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62841894191077,
+            41.712562502699186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4738,
+            4198
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 100TH ST. x S. PERRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6260053422698,
+            41.7125917517342
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            906,
+            8235
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 101ST ST. x S. WENTWORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62837502310151,
+            41.71074614270758
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4738,
+            8235
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 101ST ST. x S. PERRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62596652462311,
+            41.71077332677379
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.491,
+    "dy_m": -0.676
+  }
+}

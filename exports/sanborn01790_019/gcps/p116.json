@@ -1,0 +1,184 @@
+{
+  "page": "116",
+  "n_streets": 11,
+  "n_candidates": 13,
+  "n_inliers": 7,
+  "rotation_deg": -88.06,
+  "auto_residuals_m": [
+    3.56,
+    5.54,
+    4.21,
+    9.23,
+    2.21,
+    1.12,
+    0.23
+  ],
+  "inlier_streets": [
+    [
+      "THE LAKE SHORE DRIVE",
+      "E. BELLEVUE PL."
+    ],
+    [
+      "THE LAKE SHORE DRIVE",
+      "E. OAK"
+    ],
+    [
+      "E. BELLEVUE PL.",
+      "N. STATE"
+    ],
+    [
+      "E. OAK",
+      "RUSH"
+    ],
+    [
+      "E. OAK",
+      "N. STATE"
+    ],
+    [
+      "E. WALTON PL.",
+      "N. STATE"
+    ],
+    [
+      "E. DELAWARE PL.",
+      "N. STATE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            209,
+            260
+          ],
+          "username": "autogeoref",
+          "note": "auto: THE LAKE SHORE DRIVE x E. BELLEVUE PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62427650593543,
+            41.901639282829485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2007,
+            260
+          ],
+          "username": "autogeoref",
+          "note": "auto: THE LAKE SHORE DRIVE x E. OAK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62416025723154,
+            41.900844898301244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            209,
+            6898
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. BELLEVUE PL. x N. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62837878091558,
+            41.901582837576484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2007,
+            5452
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. OAK x RUSH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62755350335384,
+            41.90078218679438
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2007,
+            6898
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. OAK x N. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62835972387465,
+            41.90076488432731
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3801,
+            6898
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. WALTON PL. x N. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62833233750716,
+            41.89996141409835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5576,
+            6898
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. DELAWARE PL. x N. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62830808710822,
+            41.899164288464334
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -4.742,
+    "dy_m": 3.653
+  }
+}

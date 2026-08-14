@@ -1,0 +1,182 @@
+{
+  "page": "26",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 7,
+  "rotation_deg": 1.32,
+  "auto_residuals_m": [
+    9.11,
+    9.53,
+    4.67,
+    14.71,
+    11.14,
+    3.55,
+    3.85
+  ],
+  "inlier_streets": [
+    [
+      "W. DEVON AV.",
+      "N. WHIPPLE"
+    ],
+    [
+      "W. DEVON AV.",
+      "N. SACRAMENTO"
+    ],
+    [
+      "W. ROSEMONT AV.",
+      "N. WHIPPLE"
+    ],
+    [
+      "W. ROSEMONT AV.",
+      "N. SACRAMENTO"
+    ],
+    [
+      "W. ROSEMONT AV.",
+      "N. RICHMOND"
+    ],
+    [
+      "W. GRANVILLE AV.",
+      "N. WHIPPLE"
+    ],
+    [
+      "W. GRANVILLE AV.",
+      "N. RICHMOND"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1380,
+            259
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DEVON AV. x N. WHIPPLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70571063658312,
+            41.99745769054402
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3414,
+            259
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DEVON AV. x N. SACRAMENTO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.704493080352,
+            41.997480642662474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1380,
+            3969
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROSEMONT AV. x N. WHIPPLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70562492680804,
+            41.99568507089047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3414,
+            3969
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROSEMONT AV. x N. SACRAMENTO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70441271677512,
+            41.99570328066169
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4866,
+            3969
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ROSEMONT AV. x N. RICHMOND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70319534314771,
+            41.99572210734341
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1380,
+            7788
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRANVILLE AV. x N. WHIPPLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70556725522577,
+            41.99388737549786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4866,
+            7788
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRANVILLE AV. x N. RICHMOND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70313615226402,
+            41.993941487563504
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.362,
+    "dy_m": 0.744
+  }
+}

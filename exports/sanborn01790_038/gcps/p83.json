@@ -1,0 +1,134 @@
+{
+  "page": "83",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 1.19,
+  "auto_residuals_m": [
+    0.11,
+    0.62,
+    0.07,
+    1.35,
+    0.77
+  ],
+  "inlier_streets": [
+    [
+      "IRVING PARK BL'VD",
+      "DRAKE AV."
+    ],
+    [
+      "IRVING PARK BL'VD",
+      "BERNARD"
+    ],
+    [
+      "DRAKE AV.",
+      "GRACE"
+    ],
+    [
+      "BYRON",
+      "BERNARD"
+    ],
+    [
+      "BERNARD",
+      "GRACE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            419,
+            412
+          ],
+          "username": "autogeoref",
+          "note": "auto: IRVING PARK BL'VD x DRAKE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71658824999635,
+            41.953804033563095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4505,
+            412
+          ],
+          "username": "autogeoref",
+          "note": "auto: IRVING PARK BL'VD x BERNARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71412472112088,
+            41.953839341818274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            419,
+            8355
+          ],
+          "username": "autogeoref",
+          "note": "auto: DRAKE AV. x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71648726286885,
+            41.95016444160983
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4505,
+            4403
+          ],
+          "username": "autogeoref",
+          "note": "auto: BYRON x BERNARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71406254335811,
+            41.952019915582234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4505,
+            8355
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERNARD x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71402643502522,
+            41.9501986743912
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

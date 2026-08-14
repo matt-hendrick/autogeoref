@@ -1,0 +1,136 @@
+{
+  "page": "32",
+  "n_streets": 9,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 0.76,
+  "auto_residuals_m": [
+    5.8,
+    7.87,
+    6.62,
+    14.1,
+    7.54
+  ],
+  "inlier_streets": [
+    [
+      "61ST",
+      "STONY ISLAND AVE."
+    ],
+    [
+      "62ND",
+      "STONY ISLAND AVE."
+    ],
+    [
+      "63RD",
+      "WASHINGTON AVE."
+    ],
+    [
+      "63RD",
+      "JEFFERSON AVE."
+    ],
+    [
+      "63RD",
+      "STONY ISLAND AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5401,
+            718
+          ],
+          "username": "autogeoref",
+          "note": "auto: 61ST x STONY ISLAND AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5865192401005,
+            41.783842745068185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5401,
+            2591
+          ],
+          "username": "autogeoref",
+          "note": "auto: 62ND x STONY ISLAND AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58650091855745,
+            41.78291428883286
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            895,
+            7859
+          ],
+          "username": "autogeoref",
+          "note": "auto: 63RD x WASHINGTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58895305276371,
+            41.78058644593707
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3288,
+            7859
+          ],
+          "username": "autogeoref",
+          "note": "auto: 63RD x JEFFERSON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58780654406942,
+            41.780597867300884
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5401,
+            7859
+          ],
+          "username": "autogeoref",
+          "note": "auto: 63RD x STONY ISLAND AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58643830093624,
+            41.7806249336136
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.198,
+    "dy_m": 0.825
+  }
+}

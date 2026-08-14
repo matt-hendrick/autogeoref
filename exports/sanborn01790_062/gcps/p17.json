@@ -1,0 +1,141 @@
+{
+  "page": "17",
+  "n_streets": 9,
+  "n_candidates": 14,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. ROGERS AV.",
+      "N. LOCKWOOD AV."
+    ],
+    [
+      "N. LOCKWOOD AV.",
+      "W. FOSTER AV."
+    ],
+    [
+      "W. FOSTER AV.",
+      "N. LATROBE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1331,
+            5026
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROGERS AV. x N. LOCKWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76031728501985,
+            41.976061859223506
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1331,
+            6831
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LOCKWOOD AV. x W. FOSTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.760287188261,
+            41.975191092287204
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3465,
+            6831
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FOSTER AV. x N. LATROBE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7590398869153,
+            41.97520438725079
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            564,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76081059918802,
+            41.97797423850318
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5074,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75800175574764,
+            41.97797945274689
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            564,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76080001967203,
+            41.97482460387173
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -2.615,
+    "dy_m": -0.171
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "page": "61",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 6,
+  "rotation_deg": 1.02,
+  "auto_residuals_m": [
+    3.47,
+    2.65,
+    6.81,
+    6.34,
+    3.42,
+    3.77
+  ],
+  "inlier_streets": [
+    [
+      "STONY ISLAND AV.",
+      "E. 82ND ST."
+    ],
+    [
+      "STONY ISLAND AV.",
+      "E. 83RD ST."
+    ],
+    [
+      "CORNELL AV.",
+      "E. 82ND ST."
+    ],
+    [
+      "CORNELL AV.",
+      "E. 83RD ST."
+    ],
+    [
+      "E. 82ND ST.",
+      "EAST END AV."
+    ],
+    [
+      "EAST END AV.",
+      "E. 83RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            478,
+            4356
+          ],
+          "username": "autogeoref",
+          "note": "auto: STONY ISLAND AV. x E. 82ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58537712933999,
+            41.746026551189466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            478,
+            8203
+          ],
+          "username": "autogeoref",
+          "note": "auto: STONY ISLAND AV. x E. 83RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58534695660086,
+            41.74420409272414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2852,
+            4356
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORNELL AV. x E. 82ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58413889221211,
+            41.74604232913263
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2852,
+            8203
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORNELL AV. x E. 83RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58409713767735,
+            41.74422259517397
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4855,
+            4356
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 82ND ST. x EAST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58292437173094,
+            41.74605698294937
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4855,
+            8203
+          ],
+          "username": "autogeoref",
+          "note": "auto: EAST END AV. x E. 83RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58288368145992,
+            41.74423879758736
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.164,
+    "dy_m": -0.154
+  }
+}

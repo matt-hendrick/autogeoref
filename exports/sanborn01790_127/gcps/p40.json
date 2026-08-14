@@ -1,0 +1,165 @@
+{
+  "page": "40",
+  "n_streets": 10,
+  "n_candidates": 14,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N. MOZART",
+      "W. ARDMORE"
+    ],
+    [
+      "N. RICHMOND",
+      "W. ARDMORE"
+    ],
+    [
+      "N. SACRAMENTO AV.",
+      "W. ARDMORE"
+    ],
+    [
+      "W. ARDMORE",
+      "N. WHIPPLE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4771,
+            219
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MOZART x W. ARDMORE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70056240476785,
+            41.98675212178005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4771,
+            3946
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RICHMOND x W. ARDMORE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70291699932551,
+            41.986736461882835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4771,
+            5898
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO AV. x W. ARDMORE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70413057119248,
+            41.98673226882823
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4771,
+            7794
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARDMORE x N. WHIPPLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70534908170433,
+            41.98672575190361
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70102757503062,
+            41.98869167754372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5241,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70099116475075,
+            41.98654063741085
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70525394017457,
+            41.988652154422454
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -89.3533,
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.6201,
+    "separation_ratio": 0.742,
+    "best_offset_m": 83.7,
+    "n_junctions": 5
+  }
+}

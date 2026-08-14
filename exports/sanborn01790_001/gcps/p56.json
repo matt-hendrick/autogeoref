@@ -1,0 +1,109 @@
+{
+  "page": "56",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.84,
+  "auto_residuals_m": [
+    0.46,
+    0.41,
+    0.41,
+    0.42
+  ],
+  "inlier_streets": [
+    [
+      "BELMONT AVE.",
+      "N. HOYNE AVE."
+    ],
+    [
+      "BELMONT AVE.",
+      "N. ROBEY"
+    ],
+    [
+      "N. HOYNE AVE.",
+      "WELLINGTON"
+    ],
+    [
+      "N. ROBEY",
+      "WELLINGTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            139,
+            187
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AVE. x N. HOYNE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68078018138547,
+            41.93954339753241
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4152,
+            187
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AVE. x N. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67835522179259,
+            41.939572858850184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            139,
+            8190
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AVE. x WELLINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68067510133888,
+            41.935907029447684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4152,
+            8190
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROBEY x WELLINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67823722458954,
+            41.93593030422807
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

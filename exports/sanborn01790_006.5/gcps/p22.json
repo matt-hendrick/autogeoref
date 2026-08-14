@@ -1,0 +1,113 @@
+{
+  "page": "22",
+  "n_streets": 10,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": -89.71,
+  "auto_residuals_m": [
+    1.06,
+    1.08,
+    3.44,
+    3.45
+  ],
+  "inlier_streets": [
+    [
+      "60TH",
+      "STONY ISLAND AVE."
+    ],
+    [
+      "60TH",
+      "MADISON AVE."
+    ],
+    [
+      "JEFFERSON AVE.",
+      "61ST"
+    ],
+    [
+      "STONY ISLAND AVE.",
+      "61ST"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            468,
+            254
+          ],
+          "username": "autogeoref",
+          "note": "auto: 60TH x STONY ISLAND AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58655877592632,
+            41.7861246264837
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            468,
+            8246
+          ],
+          "username": "autogeoref",
+          "note": "auto: 60TH x MADISON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5914383371723,
+            41.78607777905515
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5357,
+            2741
+          ],
+          "username": "autogeoref",
+          "note": "auto: JEFFERSON AVE. x 61ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58808869960004,
+            41.783805806594934
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5357,
+            254
+          ],
+          "username": "autogeoref",
+          "note": "auto: STONY ISLAND AVE. x 61ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58650237872264,
+            41.78381933411028
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.075,
+    "dy_m": -2.67
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "page": "26",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 8,
+  "rotation_deg": 0.55,
+  "auto_residuals_m": [
+    7.56,
+    17.25,
+    11.76,
+    4.88,
+    13.92,
+    22.35,
+    0.76,
+    22.41
+  ],
+  "inlier_streets": [
+    [
+      "N. ROGERS AV.",
+      "W. HOWARD"
+    ],
+    [
+      "W. HOWARD",
+      "N. GREENVIEW AV."
+    ],
+    [
+      "N. GREENVIEW AV.",
+      "W. BIRCHWOOD AV."
+    ],
+    [
+      "N. GREENVIEW AV.",
+      "W. FARGO AV."
+    ],
+    [
+      "N. GREENVIEW AV.",
+      "W. JARVIS AV."
+    ],
+    [
+      "W. BIRCHWOOD AV.",
+      "N. SHERIDAN RD."
+    ],
+    [
+      "N. SHERIDAN RD.",
+      "W. FARGO AV."
+    ],
+    [
+      "N. SHERIDAN RD.",
+      "W. JARVIS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            827,
+            831
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROGERS AV. x W. HOWARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66831970192709,
+            42.01935307212785
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            536,
+            831
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HOWARD x N. GREENVIEW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66831970192709,
+            42.01935307212785
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            536,
+            3134
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GREENVIEW AV. x W. BIRCHWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66828818504608,
+            42.01815488605124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            536,
+            5456
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GREENVIEW AV. x W. FARGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66824894171776,
+            42.0171065498004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            536,
+            7780
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GREENVIEW AV. x W. JARVIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66821385683453,
+            42.016037643462624
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4846,
+            3134
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BIRCHWOOD AV. x N. SHERIDAN RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66580178594351,
+            42.01819433975955
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4846,
+            5456
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SHERIDAN RD. x W. FARGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66548826766014,
+            42.017151077609064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4846,
+            7780
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SHERIDAN RD. x W. JARVIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6651676601446,
+            42.016089324849304
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -8.264,
+    "dy_m": -1.813
+  }
+}

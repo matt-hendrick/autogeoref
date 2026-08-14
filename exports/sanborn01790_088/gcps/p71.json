@@ -1,0 +1,196 @@
+{
+  "page": "71",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. NORTH AV.",
+      "N. NORTH PARK AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. WIELAND"
+    ],
+    [
+      "W. NORTH AV.",
+      "N. WELLS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1234,
+            1186
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. NORTH PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63666242055488,
+            41.91114223523955
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2971,
+            1186
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. WIELAND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63570119384946,
+            41.91115356033721
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4584,
+            1186
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63471084674639,
+            41.91116140604561
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63712146624604,
+            41.91133568925235
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5275,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63427214164102,
+            41.91137977224608
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63704745275376,
+            41.9086862992073
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5803,
+    "separation_ratio": 1.006,
+    "best_offset_m": 22.6,
+    "n_junctions": 9
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 8,
+      "votable": 8,
+      "in_block": 8,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 13.0,
+          "addr_diff": 2.9
+        },
+        {
+          "perp_m": 12.9,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 12.9,
+          "addr_diff": 2.1
+        },
+        {
+          "perp_m": 12.9,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 12.8,
+          "addr_diff": 0.5
+        },
+        {
+          "perp_m": 12.8,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 12.7,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 12.7,
+          "addr_diff": 1.3
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

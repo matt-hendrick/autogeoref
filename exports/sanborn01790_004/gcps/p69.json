@@ -1,0 +1,141 @@
+{
+  "page": "69",
+  "n_streets": 6,
+  "n_candidates": 13,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 19TH",
+      "S. RIDGEWAY AV. (BONNEY)"
+    ],
+    [
+      "W. 19TH",
+      "S. LAWNDALE AV."
+    ],
+    [
+      "OGDEN AV.",
+      "S. LAWNDALE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            181,
+            638
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH x S. RIDGEWAY AV. (BONNEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71876604719166,
+            41.8550585945626
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2296,
+            638
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH x S. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71754668855425,
+            41.85507564388489
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2296,
+            3402
+          ],
+          "username": "autogeoref",
+          "note": "auto: OGDEN AV. x S. LAWNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71750583139436,
+            41.853812293178734
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            574,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7185665219589,
+            41.85496134659169
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5162,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7157748160077,
+            41.8550002507939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            574,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71848908470712,
+            41.85187847759172
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 2.231,
+    "dy_m": 0.906
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

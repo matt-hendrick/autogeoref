@@ -1,0 +1,228 @@
+{
+  "page": "27",
+  "n_streets": 10,
+  "n_candidates": 24,
+  "n_inliers": 9,
+  "rotation_deg": 1.37,
+  "auto_residuals_m": [
+    5.76,
+    21.1,
+    15.13,
+    13.63,
+    15.41,
+    3.39,
+    0.63,
+    7.79,
+    5.71
+  ],
+  "inlier_streets": [
+    [
+      "HIGGINS AV.",
+      "N MANGO AV."
+    ],
+    [
+      "N MANGO AV.",
+      "GROVER"
+    ],
+    [
+      "N MENARD AV.",
+      "AINSLIE"
+    ],
+    [
+      "AINSLIE",
+      "N MENARD AV."
+    ],
+    [
+      "AINSLIE",
+      "N MAJOR AV."
+    ],
+    [
+      "GUNNISON",
+      "N MENARD AV."
+    ],
+    [
+      "GUNNISON",
+      "N MAJOR AV."
+    ],
+    [
+      "N MENARD AV.",
+      "LAWRENCE AV."
+    ],
+    [
+      "N MAJOR AV.",
+      "LAWRENCE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2290,
+            523
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIGGINS AV. x N MANGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77218815758353,
+            41.97155667029222
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2290,
+            2628
+          ],
+          "username": "autogeoref",
+          "note": "auto: N MANGO AV. x GROVER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77218126960383,
+            41.97061598475729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            285,
+            4352
+          ],
+          "username": "autogeoref",
+          "note": "auto: N MENARD AV. x AINSLIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77344697815161,
+            41.969508571128465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1106,
+            4352
+          ],
+          "username": "autogeoref",
+          "note": "auto: AINSLIE x N MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77284889014147,
+            41.96951600974684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5447,
+            4352
+          ],
+          "username": "autogeoref",
+          "note": "auto: AINSLIE x N MAJOR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77021765012516,
+            41.969549192709636
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1106,
+            6394
+          ],
+          "username": "autogeoref",
+          "note": "auto: GUNNISON x N MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77281934792327,
+            41.96860380468037
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5447,
+            6394
+          ],
+          "username": "autogeoref",
+          "note": "auto: GUNNISON x N MAJOR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77018651124165,
+            41.96863732852144
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1106,
+            8284
+          ],
+          "username": "autogeoref",
+          "note": "auto: N MENARD AV. x LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77279520247609,
+            41.96769979175909
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5447,
+            8284
+          ],
+          "username": "autogeoref",
+          "note": "auto: N MAJOR AV. x LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77015799415693,
+            41.96773439901876
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.222,
+    "dy_m": -1.987
+  }
+}

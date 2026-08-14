@@ -1,0 +1,109 @@
+{
+  "page": "22",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 0.34,
+  "auto_residuals_m": [
+    0.79,
+    0.78,
+    0.81,
+    0.8
+  ],
+  "inlier_streets": [
+    [
+      "E. 103RD ST.",
+      "S. HOXIE AV."
+    ],
+    [
+      "E. 103RD ST.",
+      "S. TORRENCE AV."
+    ],
+    [
+      "S. HOXIE AV.",
+      "E. 105TH ST."
+    ],
+    [
+      "S. TORRENCE AV.",
+      "E. 105TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1890,
+            455
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 103RD ST. x S. HOXIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56088614893275,
+            41.70815387053788
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3840,
+            455
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 103RD ST. x S. TORRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5596623678323,
+            41.70816769305468
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1890,
+            7909
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOXIE AV. x E. 105TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5608353080185,
+            41.70458703795567
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3840,
+            7909
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. TORRENCE AV. x E. 105TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.55962879075982,
+            41.70458386243668
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

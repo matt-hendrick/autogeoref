@@ -1,0 +1,228 @@
+{
+  "page": "26",
+  "n_streets": 10,
+  "n_candidates": 20,
+  "n_inliers": 9,
+  "rotation_deg": 0.76,
+  "auto_residuals_m": [
+    4.84,
+    3.89,
+    4.58,
+    3.59,
+    2.29,
+    7.03,
+    2.18,
+    2.56,
+    2.25
+  ],
+  "inlier_streets": [
+    [
+      "STRONG",
+      "N. MENARD AV."
+    ],
+    [
+      "STRONG",
+      "N. MARMORA AV."
+    ],
+    [
+      "N. MENARD AV.",
+      "W. AINSLIE"
+    ],
+    [
+      "N. MARMORA AV.",
+      "W. AINSLIE"
+    ],
+    [
+      "N. MARMORA AV.",
+      "GUNNISON"
+    ],
+    [
+      "W. AINSLIE",
+      "N. MENARD AV."
+    ],
+    [
+      "GUNNISON",
+      "N. MENARD AV."
+    ],
+    [
+      "N. MENARD AV.",
+      "LAWRENCE AV."
+    ],
+    [
+      "LAWRENCE AV.",
+      "MARMORA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4069,
+            1597
+          ],
+          "username": "autogeoref",
+          "note": "auto: STRONG x N. MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77346729704628,
+            41.97029778768013
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            268,
+            1597
+          ],
+          "username": "autogeoref",
+          "note": "auto: STRONG x N. MARMORA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77588487384446,
+            41.97028502202467
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4069,
+            3136
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MENARD AV. x W. AINSLIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77347956004698,
+            41.96952368566171
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            268,
+            3136
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MARMORA AV. x W. AINSLIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77590165092477,
+            41.96949378072064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            268,
+            5066
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MARMORA AV. x GUNNISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77592201101882,
+            41.96857978736417
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5175,
+            3136
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. AINSLIE x N. MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77288147203683,
+            41.96953112427832
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5175,
+            5066
+          ],
+          "username": "autogeoref",
+          "note": "auto: GUNNISON x N. MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77285192981863,
+            41.968618919428295
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5175,
+            6961
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MENARD AV. x LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77282778437147,
+            41.9677149067215
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1943,
+            6961
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x MARMORA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77484698060053,
+            41.96768819741047
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.405,
+    "dy_m": 0.276
+  }
+}

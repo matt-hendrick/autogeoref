@@ -1,0 +1,142 @@
+{
+  "page": "55",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. MORSE AV.",
+      "N. LAKEWOOD AV."
+    ],
+    [
+      "N. LAKEWOOD AV.",
+      "W. FARWELL AV."
+    ],
+    [
+      "N. LAKEWOOD AV.",
+      "W. PRATT BLVD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            215,
+            2857
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MORSE AV. x N. LAKEWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66372947343784,
+            42.007945492225545
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            215,
+            5574
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAKEWOOD AV. x W. FARWELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66368880493766,
+            42.00673204233673
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            215,
+            8221
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAKEWOOD AV. x W. PRATT BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66364715173148,
+            42.005496761653184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6635440480044,
+            42.008873731661595
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5034,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66079583683614,
+            42.008921269341215
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66344677245601,
+            42.005768800209026
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6442,
+    "separation_ratio": 1.86,
+    "best_offset_m": 5.6,
+    "n_junctions": 11
+  }
+}

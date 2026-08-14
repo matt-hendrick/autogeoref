@@ -1,0 +1,163 @@
+{
+  "page": "54S",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. JACKSON BLVD.",
+      "S. CLARK"
+    ],
+    [
+      "W. JACKSON BLVD.",
+      "S. FEDERAL"
+    ],
+    [
+      "S. CLARK",
+      "W. VAN BUREN"
+    ],
+    [
+      "S. FEDERAL",
+      "W. VAN BUREN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2032,
+            2263
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD. x S. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63080671057088,
+            41.87814303886455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3727,
+            2263
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLVD. x S. FEDERAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62975251179532,
+            41.87815625367817
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2032,
+            5106
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLARK x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63077081639437,
+            41.87687926376154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3727,
+            5106
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FEDERAL x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62974662202208,
+            41.87688672384412
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63169366381072,
+            41.87884106324938
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5216,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62887052742398,
+            41.878868806912834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63164657682493,
+            41.87618477571439
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -2.386,
+    "dy_m": -0.734
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

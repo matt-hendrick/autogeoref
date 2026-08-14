@@ -1,0 +1,229 @@
+{
+  "page": "8",
+  "n_streets": 7,
+  "n_candidates": 13,
+  "n_inliers": 7,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. BIRCHWOOD AV.",
+      "N. WESTERN AV."
+    ],
+    [
+      "W. BIRCHWOOD AV.",
+      "N. CLAREMONT AV. (BARTON AV.)"
+    ],
+    [
+      "W. BIRCHWOOD AV.",
+      "N. CLAREMONT AV. (BARTON AV.)"
+    ],
+    [
+      "W. BIRCHWOOD AV.",
+      "N. OAKLEY AV. (ELLWOOD)"
+    ],
+    [
+      "N. WESTERN AV.",
+      "W. FARGO AV."
+    ],
+    [
+      "N. WESTERN AV.",
+      "W. JARVIS AV."
+    ],
+    [
+      "N. CLAREMONT AV. (BARTON AV.)",
+      "W. JARVIS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            810,
+            2209
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BIRCHWOOD AV. x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69018501028714,
+            42.017419252689486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2925,
+            2209
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BIRCHWOOD AV. x N. CLAREMONT AV. (BARTON AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68884132066657,
+            42.01741009701025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2925,
+            2209
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BIRCHWOOD AV. x N. CLAREMONT AV. (BARTON AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68896455793877,
+            42.01741062780664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4908,
+            2209
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BIRCHWOOD AV. x N. OAKLEY AV. (ELLWOOD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68774090465163,
+            42.017401901966586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            810,
+            3478
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x W. FARGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69019128172192,
+            42.01680055698769
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            810,
+            5924
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x W. JARVIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69020450216327,
+            42.01564626277566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2925,
+            5924
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLAREMONT AV. (BARTON AV.) x W. JARVIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68885933329663,
+            42.015633798911324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6903819796139,
+            42.01799982311793
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5322,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68744494567322,
+            42.0180485398669
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69028768384773,
+            42.014861955978695
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 1.301,
+    "dy_m": -2.649
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

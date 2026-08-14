@@ -1,0 +1,189 @@
+{
+  "page": "48",
+  "n_streets": 4,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "BLOOMINGDALE AV.",
+      "N. HERMITAGE AV."
+    ],
+    [
+      "BLOOMINGDALE AV.",
+      "N. PAULINA"
+    ],
+    [
+      "BLOOMINGDALE AV.",
+      "N. MARSHFIELD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            751,
+            3347
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. x N. HERMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67144720224759,
+            41.91427158893398
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2744,
+            3347
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67023144658617,
+            41.91429234726252
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4778,
+            3347
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. x N. MARSHFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66901169252041,
+            41.91425364769035
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67159718675019,
+            41.91544184785591
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5242,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66874396576229,
+            41.91548857891306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67151823729057,
+            41.91277260983114
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6472,
+    "separation_ratio": 1.022,
+    "best_offset_m": 45.4,
+    "n_junctions": 7
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol"
+      ],
+      "consensus_numerals": 6,
+      "votable": 6,
+      "in_block": 6,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 7.1,
+          "addr_diff": 14.4
+        },
+        {
+          "perp_m": 7.6,
+          "addr_diff": 11.6
+        },
+        {
+          "perp_m": 7.4,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 19.2,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 20.1,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 20.3,
+          "addr_diff": 0.9
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

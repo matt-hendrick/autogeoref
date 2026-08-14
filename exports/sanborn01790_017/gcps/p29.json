@@ -1,0 +1,203 @@
+{
+  "page": "29",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "WASHINGTON",
+      "FRANKLIN"
+    ],
+    [
+      "CALHOUN PL.",
+      "FRANKLIN"
+    ],
+    [
+      "RR LOOP L",
+      "WASHINGTON"
+    ],
+    [
+      "RR LOOP L",
+      "WASHINGTON"
+    ],
+    [
+      "RR LOOP L",
+      "CALHOUN PL."
+    ],
+    [
+      "RR LOOP L",
+      "CALHOUN PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1721,
+            2209
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON x FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63534261021458,
+            41.88320544069878
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1721,
+            3703
+          ],
+          "username": "autogeoref",
+          "note": "auto: CALHOUN PL. x FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63532463645545,
+            41.88257297906834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4221,
+            2209
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR LOOP L x WASHINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63386178850737,
+            41.88320991999488
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4221,
+            2209
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR LOOP L x WASHINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63390585198094,
+            41.8832101254808
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4221,
+            3703
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR LOOP L x CALHOUN PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63388737648884,
+            41.88258160574655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4221,
+            3703
+          ],
+          "username": "autogeoref",
+          "note": "auto: RR LOOP L x CALHOUN PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63384238708214,
+            41.88258170850007
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63599811577538,
+            41.88382612742376
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5304,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63327961704549,
+            41.88386353070543
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63593569367262,
+            41.88131137237914
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

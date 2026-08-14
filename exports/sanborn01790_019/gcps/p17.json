@@ -1,0 +1,136 @@
+{
+  "page": "17",
+  "n_streets": 12,
+  "n_candidates": 20,
+  "n_inliers": 5,
+  "rotation_deg": -88.63,
+  "auto_residuals_m": [
+    5.29,
+    3.21,
+    2.05,
+    7.89,
+    7.91
+  ],
+  "inlier_streets": [
+    [
+      "CLEVELAND AV.",
+      "GRANT PL."
+    ],
+    [
+      "CLEVELAND AV.",
+      "WEBSTER AV."
+    ],
+    [
+      "CLEVELAND AV.",
+      "BELDEN AV."
+    ],
+    [
+      "WEBSTER AV.",
+      "LARRABEE ST."
+    ],
+    [
+      "LARRABEE ST.",
+      "LINCOLN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2975,
+            302
+          ],
+          "username": "autogeoref",
+          "note": "auto: CLEVELAND AV. x GRANT PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64141125728445,
+            41.922827829142186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4989,
+            302
+          ],
+          "username": "autogeoref",
+          "note": "auto: CLEVELAND AV. x WEBSTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64138216801474,
+            41.92191048273432
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            769,
+            302
+          ],
+          "username": "autogeoref",
+          "note": "auto: CLEVELAND AV. x BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64144035873626,
+            41.92372135615911
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4989,
+            4394
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x LARRABEE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64380363442916,
+            41.92187178185321
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5236,
+            4394
+          ],
+          "username": "autogeoref",
+          "note": "auto: LARRABEE ST. x LINCOLN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64380363442916,
+            41.92187178185321
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.831,
+    "dy_m": -2.41
+  }
+}

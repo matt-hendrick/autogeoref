@@ -1,0 +1,159 @@
+{
+  "page": "39",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.67,
+  "auto_residuals_m": [
+    2.98,
+    3.2,
+    6.34,
+    6.26,
+    3.43,
+    3.13
+  ],
+  "inlier_streets": [
+    [
+      "AUGUSTA",
+      "N. HARDING AV."
+    ],
+    [
+      "AUGUSTA",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "IOWA (GLENVIEW)",
+      "N. HARDING AV."
+    ],
+    [
+      "IOWA (GLENVIEW)",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. HARDING AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. SPRINGFIELD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2288,
+            291
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72497268753277,
+            41.899019030738714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4295,
+            291
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72375772173277,
+            41.89902825123769
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2288,
+            4375
+          ],
+          "username": "autogeoref",
+          "note": "auto: IOWA (GLENVIEW) x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72491830121918,
+            41.89719065613598
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4295,
+            4375
+          ],
+          "username": "autogeoref",
+          "note": "auto: IOWA (GLENVIEW) x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72369342577993,
+            41.89720074501503
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2288,
+            8185
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72486491296853,
+            41.89536160180837
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4295,
+            8185
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72363947643028,
+            41.89537419295519
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.221,
+    "dy_m": -2.362
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "page": "44",
+  "n_streets": 4,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. 33RD ST.",
+      "LOWE AV."
+    ],
+    [
+      "W. 33RD ST.",
+      "WALLACE"
+    ],
+    [
+      "W. 33RD ST.",
+      "PARNELL AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1282,
+            1728
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x LOWE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64253637075794,
+            41.83444761440928
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3145,
+            1728
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x WALLACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64132481303376,
+            41.83446374065046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5306,
+            1728
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 33RD ST. x PARNELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64009771196247,
+            41.83447959125166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64291759321033,
+            41.834887292811445
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5308,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64009509131141,
+            41.83492326583997
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6428576466448,
+            41.83227618712399
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6198,
+    "separation_ratio": 1.005,
+    "best_offset_m": 2.4,
+    "n_junctions": 14
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 3,
+      "votable": 3,
+      "in_block": 3,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 13.5,
+          "addr_diff": 2.1
+        },
+        {
+          "perp_m": 13.6,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 13.5,
+          "addr_diff": 0.9
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

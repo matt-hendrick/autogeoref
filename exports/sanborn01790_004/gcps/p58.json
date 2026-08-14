@@ -1,0 +1,136 @@
+{
+  "page": "58",
+  "n_streets": 6,
+  "n_candidates": 12,
+  "n_inliers": 5,
+  "rotation_deg": 1.26,
+  "auto_residuals_m": [
+    4.11,
+    1.23,
+    4.11,
+    6.24,
+    5.11
+  ],
+  "inlier_streets": [
+    [
+      "W. 16TH",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "W. 16TH",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. 18TH (66' WIDE)",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "W. 18TH (66' WIDE)",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "S. ST. LOUIS AV.",
+      "OGDEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1312,
+            164
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71518481649032,
+            41.85897520570782
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5268,
+            164
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71274903236399,
+            41.859001191161056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1312,
+            4044
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH (66' WIDE) x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71513500336654,
+            41.85713858981353
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5268,
+            4044
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH (66' WIDE) x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71269929079014,
+            41.857173609073705
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5268,
+            8075
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x OGDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71250327789399,
+            41.8553438587728
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.409,
+    "dy_m": 0.11
+  }
+}

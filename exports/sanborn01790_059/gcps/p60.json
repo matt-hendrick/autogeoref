@@ -1,0 +1,251 @@
+{
+  "page": "60",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 10,
+  "rotation_deg": 0.42,
+  "auto_residuals_m": [
+    13.52,
+    10.43,
+    25.45,
+    7.38,
+    2.64,
+    21.37,
+    3.94,
+    0.62,
+    3.17,
+    9.42
+  ],
+  "inlier_streets": [
+    [
+      "E. 101ST ST.",
+      "S. DAUPHIN AV."
+    ],
+    [
+      "E. 101ST ST.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "E. 101ST PL.",
+      "S. ST. LAWRENCE AV."
+    ],
+    [
+      "E. 101ST PL.",
+      "S. DAUPHIN AV."
+    ],
+    [
+      "S. ST. LAWRENCE AV.",
+      "E. 102ND ST."
+    ],
+    [
+      "S. ST. LAWRENCE AV.",
+      "E. 102ND PL."
+    ],
+    [
+      "E. 102ND ST.",
+      "S. DAUPHIN AV."
+    ],
+    [
+      "S. DAUPHIN AV.",
+      "E. 102ND PL."
+    ],
+    [
+      "S. DAUPHIN AV.",
+      "E. 103RD ST."
+    ],
+    [
+      "S. COTTAGE GROVE AV.",
+      "E. 103RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3412,
+            285
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 101ST ST. x S. DAUPHIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60663203237587,
+            41.71105827941421
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5047,
+            285
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 101ST ST. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60573808358325,
+            41.71093602046241
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            400,
+            2232
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 101ST PL. x S. ST. LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60898366091263,
+            41.71011253288484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3412,
+            2232
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 101ST PL. x S. DAUPHIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60684204853978,
+            41.710145199298154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            400,
+            4239
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LAWRENCE AV. x E. 102ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60895663982787,
+            41.709199018803794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            400,
+            6253
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LAWRENCE AV. x E. 102ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60893153762936,
+            41.708286516153365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3412,
+            4239
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 102ND ST. x S. DAUPHIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60705018859916,
+            41.70922661896557
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3412,
+            6253
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAUPHIN AV. x E. 102ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60726522741544,
+            41.708311099348386
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3412,
+            8287
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAUPHIN AV. x E. 103RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60748248438588,
+            41.707398412429235
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5047,
+            8287
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. COTTAGE GROVE AV. x E. 103RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60653030591232,
+            41.707419516157444
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.425,
+    "dy_m": -2.077
+  }
+}

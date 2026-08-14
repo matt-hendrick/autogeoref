@@ -1,0 +1,185 @@
+{
+  "page": "24",
+  "n_streets": 9,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. TAYLOR",
+      "S. KEDZIE"
+    ],
+    [
+      "W. TAYLOR",
+      "S. ALBANY"
+    ],
+    [
+      "FILLMORE",
+      "S. KEDZIE"
+    ],
+    [
+      "FILLMORE",
+      "S. TROY"
+    ],
+    [
+      "FILLMORE",
+      "S. ALBANY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            870,
+            2334
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TAYLOR x S. KEDZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70577727721367,
+            41.86913262227424
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4924,
+            2334
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TAYLOR x S. ALBANY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70333815889063,
+            41.86916230034804
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            870,
+            4341
+          ],
+          "username": "autogeoref",
+          "note": "auto: FILLMORE x S. KEDZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70574824220792,
+            41.868224377105456
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2736,
+            4341
+          ],
+          "username": "autogeoref",
+          "note": "auto: FILLMORE x S. TROY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70452429527917,
+            41.86823718951804
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4924,
+            4341
+          ],
+          "username": "autogeoref",
+          "note": "auto: FILLMORE x S. ALBANY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70330619252795,
+            41.868252495988145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70596388075505,
+            41.8698000459115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5154,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70317655509561,
+            41.86983888005842
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70588644350327,
+            41.866717892237475
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  },
+  "seam_adjusted": {
+    "dx_m": -2.347,
+    "dy_m": -0.069
+  }
+}

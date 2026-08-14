@@ -1,0 +1,182 @@
+{
+  "page": "37",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "rotation_deg": 1.44,
+  "auto_residuals_m": [
+    7.18,
+    14.6,
+    4.19,
+    3.76,
+    14.8,
+    2.15,
+    11.26
+  ],
+  "inlier_streets": [
+    [
+      "W. TOUHY AV.",
+      "N. CLARK"
+    ],
+    [
+      "W. ESTES AV.",
+      "N. RAVENSWOOD AV."
+    ],
+    [
+      "W. ESTES AV.",
+      "N. CLARK"
+    ],
+    [
+      "N. RAVENSWOOD AV.",
+      "W. GREENLEAF AV."
+    ],
+    [
+      "N. RAVENSWOOD AV.",
+      "W. LUNT AV."
+    ],
+    [
+      "N. CLARK",
+      "W. GREENLEAF AV."
+    ],
+    [
+      "N. CLARK",
+      "W. LUNT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3221,
+            266
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TOUHY AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67466486850856,
+            42.01262974190088
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1524,
+            2898
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ESTES AV. x N. RAVENSWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67543337962333,
+            42.01138855324344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3221,
+            2898
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ESTES AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67446442045546,
+            42.01140677419361
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1524,
+            5606
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RAVENSWOOD AV. x W. GREENLEAF AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67538799440503,
+            42.010183593223964
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1524,
+            8198
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RAVENSWOOD AV. x W. LUNT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67535483251532,
+            42.00895663097919
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3221,
+            5606
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. GREENLEAF AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67426150377686,
+            42.01019364635451
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3221,
+            8198
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. LUNT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67398996616089,
+            42.00898809588567
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.997,
+    "dy_m": -0.833
+  }
+}

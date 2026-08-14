@@ -1,0 +1,136 @@
+{
+  "page": "91",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 0.6,
+  "auto_residuals_m": [
+    0.99,
+    1.0,
+    1.2,
+    0.95,
+    0.85
+  ],
+  "inlier_streets": [
+    [
+      "W. EUGENIE",
+      "N. SEDGWICK"
+    ],
+    [
+      "W. EUGENIE",
+      "N. NORTH PARK AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. SEDGWICK"
+    ],
+    [
+      "W. NORTH AV.",
+      "N. NORTH PARK AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. ORLEANS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1353,
+            1644
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EUGENIE x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63865821895166,
+            41.91286160012605
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4535,
+            1644
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EUGENIE x N. NORTH PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63673838604787,
+            41.912863831571464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1353,
+            5560
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63861302890952,
+            41.911126549594115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4535,
+            5560
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. NORTH PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6366829919749,
+            41.91115426172897
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2931,
+            5560
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63764437464528,
+            41.91114072426856
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.29,
+    "dy_m": 1.799
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "page": "91",
+  "n_streets": 10,
+  "n_candidates": 18,
+  "n_inliers": 6,
+  "rotation_deg": -0.12,
+  "auto_residuals_m": [
+    3.1,
+    2.46,
+    3.18,
+    3.43,
+    10.11,
+    9.79
+  ],
+  "inlier_streets": [
+    [
+      "FULTON",
+      "N. LAFLIN"
+    ],
+    [
+      "FULTON",
+      "N. LOOMIS (SHELDON)"
+    ],
+    [
+      "N. LAFLIN",
+      "W. LAKE"
+    ],
+    [
+      "W. LAKE",
+      "N. LOOMIS (SHELDON)"
+    ],
+    [
+      "N. LOOMIS (SHELDON)",
+      "W. RANDOLPH"
+    ],
+    [
+      "W. RANDOLPH",
+      "OGDEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1889,
+            1023
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. LAFLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66430679933607,
+            41.88653418596017
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4714,
+            1023
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. LOOMIS (SHELDON)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66247092924102,
+            41.886567758717305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1889,
+            3585
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAFLIN x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66427153946117,
+            41.88536299224338
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4714,
+            3585
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. LOOMIS (SHELDON)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66241068864593,
+            41.88539762739063
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4714,
+            6356
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LOOMIS (SHELDON) x W. RANDOLPH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66236889614594,
+            41.88403609131371
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3114,
+            6356
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x OGDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66336096911884,
+            41.88416580455794
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.444,
+    "dy_m": -2.687
+  }
+}

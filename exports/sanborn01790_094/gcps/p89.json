@@ -1,0 +1,163 @@
+{
+  "page": "89",
+  "n_streets": 9,
+  "n_candidates": 15,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. CERMAK RD. (W. 22ND ST.)",
+      "S. DAMEN AV. (S. ROBEY)"
+    ],
+    [
+      "W. CERMAK RD. (W. 22ND ST.)",
+      "S. WOLCOTT AV. (S. LINCOLN)"
+    ],
+    [
+      "S. DAMEN AV. (S. ROBEY)",
+      "W. 22ND PL."
+    ],
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "W. 22ND PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            940,
+            4112
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CERMAK RD. (W. 22ND ST.) x S. DAMEN AV. (S. ROBEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67584031181202,
+            41.852175950483684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4878,
+            4112
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CERMAK RD. (W. 22ND ST.) x S. WOLCOTT AV. (S. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67339068825835,
+            41.85221117420381
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            940,
+            6103
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAMEN AV. (S. ROBEY) x W. 22ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6758128025343,
+            41.85126886004585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4878,
+            6103
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x W. 22ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67336904824928,
+            41.851303285998824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67609556345371,
+            41.853739794142854
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5239,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67321542023771,
+            41.85378185395696
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67602567028027,
+            41.85108440239092
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.5103,
+    "separation_ratio": 0.987,
+    "best_offset_m": 97.6,
+    "n_junctions": 16
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "page": "113",
+  "n_streets": 10,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 0.73,
+  "auto_residuals_m": [
+    0.82,
+    2.09,
+    2.06,
+    3.5,
+    3.67,
+    3.01
+  ],
+  "inlier_streets": [
+    [
+      "W. OAK",
+      "WELLS"
+    ],
+    [
+      "W. OAK",
+      "LA SALLE"
+    ],
+    [
+      "W. OAK",
+      "N. CLARK"
+    ],
+    [
+      "LOCUST",
+      "WELLS"
+    ],
+    [
+      "WELLS",
+      "W. WALTON PL."
+    ],
+    [
+      "N. CLARK",
+      "W. WALTON PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            399,
+            2005
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OAK x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63437213913936,
+            41.90054891364859
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2904,
+            2005
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OAK x LA SALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63285678659423,
+            41.90054416949867
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5342,
+            2005
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OAK x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63136846686007,
+            41.90055891717836
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            399,
+            5441
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOCUST x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63430968913922,
+            41.89898786366167
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            399,
+            3791
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLS x W. WALTON PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63434062095885,
+            41.899771530995075
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5342,
+            3791
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. WALTON PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6313482525701,
+            41.899795262832534
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8",
+  "seam_adjusted": {
+    "dx_m": -2.04,
+    "dy_m": 0.925
+  }
+}

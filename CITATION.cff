@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: autogeoref
+abstract: >-
+  Automatic georeferencing for scanned Sanborn fire-insurance maps. A vision
+  model reads street labels off a sheet, the labels are matched against
+  reference street geometry, and a constrained RANSAC fit is committed only
+  where independent evidence gates accept it; sheets that fail remain flagged
+  rather than silently placed.
+type: software
+authors:
+  - given-names: Matt
+    family-names: Hendrick
+    email: 75456865+matt-hendrick@users.noreply.github.com
+repository-code: "https://github.com/matt-hendrick/autogeoref"
+license: MIT
+version: 0.1.0
+keywords:
+  - georeferencing
+  - sanborn-maps
+  - historical-maps
+  - gis
+  - iiif
+  - allmaps
+references:
+  - type: article
+    title: >-
+      Toward a Georeferencing Commons: A Crowdsourcing Case Study and the
+      Creation of OldInsuranceMaps.net
+    authors:
+      - given-names: Adam
+        family-names: Cox
+    journal: "Journal of Map & Geography Libraries"
+    volume: 19
+    issue: 3
+    year: 2024
+    start: 160
+    end: 184
+    doi: 10.1080/15420353.2024.2326812

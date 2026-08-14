@@ -1,0 +1,205 @@
+{
+  "page": "125",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 8,
+  "rotation_deg": 1.1,
+  "auto_residuals_m": [
+    1.44,
+    2.79,
+    2.75,
+    4.12,
+    2.78,
+    1.44,
+    1.47,
+    0.14
+  ],
+  "inlier_streets": [
+    [
+      "W. DICKENS AV. (W. GARFIELD AV.)",
+      "N. HUDSON AV."
+    ],
+    [
+      "W. DICKENS AV. (W. GARFIELD AV.)",
+      "N. CLEVELAND AV."
+    ],
+    [
+      "W. DICKENS AV. (W. GARFIELD AV.)",
+      "N. SEDGWICK"
+    ],
+    [
+      "W. DICKENS AV. (W. GARFIELD AV.)",
+      "N. HUDSON AV."
+    ],
+    [
+      "N. HUDSON AV.",
+      "W. ARMITAGE AV. (W. CENTER)"
+    ],
+    [
+      "N. CLEVELAND AV.",
+      "W. ARMITAGE AV. (W. CENTER)"
+    ],
+    [
+      "N. SEDGWICK",
+      "W. ARMITAGE AV. (W. CENTER)"
+    ],
+    [
+      "W. ARMITAGE AV. (W. CENTER)",
+      "N. HUDSON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3013,
+            602
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. (W. GARFIELD AV.) x N. HUDSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64004618762931,
+            41.920124964560735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            934,
+            602
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. (W. GARFIELD AV.) x N. CLEVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64133810616028,
+            41.92010794977875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4963,
+            602
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. (W. GARFIELD AV.) x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63890765824367,
+            41.92014112396518
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2973,
+            602
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. (W. GARFIELD AV.) x N. HUDSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64004618762931,
+            41.920124964560735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3013,
+            4624
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HUDSON AV. x W. ARMITAGE AV. (W. CENTER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6400629101463,
+            41.91830174168164
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            934,
+            4624
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLEVELAND AV. x W. ARMITAGE AV. (W. CENTER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64127893605483,
+            41.91828445639819
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4963,
+            4624
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. ARMITAGE AV. (W. CENTER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63884879026662,
+            41.91832085052315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2973,
+            4624
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARMITAGE AV. (W. CENTER) x N. HUDSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6400629101463,
+            41.91830174168164
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.705,
+    "dy_m": -0.228
+  }
+}

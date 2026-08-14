@@ -1,0 +1,119 @@
+# Staunton, Illinois — the worked example for a new city.
+#
+# This is close to the smallest honest config: a name, a search query, an
+# aliases directory, one volume with a search box, and the model keys below.
+# Everything else the pipeline needs it fetches or derives. The model keys are
+# the one thing it does not derive — drop them and you get the built-in default,
+# which is a different CLI. Read docs/ADDING-A-CITY.md alongside it.
+#
+# Why this volume for a first run: fourteen sheets in fifteen files (~10 minutes
+# to fetch at the fetch script's polite pacing, against ~50 for a Chicago book),
+# a compact downtown printed at one scale, and a town whose 1948 street plan is
+# still almost exactly the street plan on the ground.
+#
+# That last property is the one to copy when picking your own first volume, and
+# it is worth more than charm. Matching searches modern centerlines for the
+# intersections a sheet names, so every modern street inside the search box that
+# did NOT exist in the printed year is a chance to match the wrong one. The
+# census counted 4,047 people here in 1950 and 5,054 in 2020, so the box below
+# holds 174 centerline streets over 51 km2 and nearly all of them are on these
+# sheets — 87% of the volume's street reads resolve with no alias table at all.
+# A town that has multiplied since its last edition puts thousands of
+# subdivision streets in the same search, and the names repeat.
+#
+# The check that matters is not the funnel. Projecting every label through each
+# sheet's as-served transform and measuring the ground distance to that street's
+# modern centerline puts the median sheet about 2 m out, and no sheet over 30 m.
+# A second check that reads no label text at all — correlating each sheet's
+# drawn street corridors against the modern centerlines — agrees on ten of the
+# eleven, within a few metres of where they were placed, and abstains on the
+# eleventh rather than contradicting it.
+
+[city]
+name = "Staunton, Ill."
+# The volume-family identifier, not a natural-language phrase. `discover`
+# paginates loc.gov/search and that endpoint starts timing out a few pages in,
+# so a query has to be narrow enough to answer in one page: "sanborn maps
+# staunton illinois" matches 9,358 records across 94 pages and never finishes,
+# while this matches the seven Staunton editions and nothing else. Read the
+# prefix off the item id of any edition of the town.
+loc_query = "sanborn02165"
+# Required key. The directory holds one optional file per volume, and a
+# missing file means "no aliases" — the honest state before any historical
+# rename has been curated.
+aliases_dir = "aliases"
+# No `centerlines` key, so OpenStreetMap is the source: `autogeoref run`
+# makes one polite Overpass fetch per uncovered volume bbox into
+# cache/osm-centerlines-staunton-ill.geojson beside this file, and never
+# fetches that area again. Overpass carries no node ids, so the converter
+# derives the intersection graph from the vertices two different streets share,
+# which is the centerline half of the channel below. The SHEET half is separate
+# and can still come up empty on a given page; the channel then scores nothing
+# there. Declared anyway — it costs no model budget.
+evidence_channels = ["junction"]
+# `addresses` is deliberately NOT declared. OSM ways carry no address ranges,
+# so the channel could only abstain, and a channel that abstains on every page
+# is a funnel that looks verified and is not. To turn it on, bring a
+# centerline file that has ranges (docs/ADDING-A-CITY.md §2a).
+# What names a published layer: without it the viewer draws this volume under a
+# single `undated` chip instead of its decade. Written by
+# `uv run autogeoref discover "<loc_query>" --out <this path>`.
+loc_catalog = "loc-catalog-staunton.json"
+# The house voice, same as the reference city's. Every model is an external CLI
+# you install and authenticate yourself; this one needs `codex`. README Setup
+# lists the alternatives and what each wants.
+annotation_model = "codex:gpt-5.6-terra"
+annotation_variant = "high"
+escalation_models = ["codex:gpt-5.6-terra", "codex:gpt-5.6-sol"]
+escalation_variants = ["high", "high"]
+
+[viewer]
+# The deploy/tiles/ directory this city's archives land in, and the only key
+# this example needs from the [viewer] block. The FIRST entry is where
+# `publish` writes and where `status` looks for a bake; leaving it at the
+# default would put this city's volumes, unlabelled, on the reference city's
+# page. docs/ADDING-A-CITY.md §6a.
+serving_dirs = ["staunton"]
+# Open on the public square, at Main and Union.
+home_point = [-89.7920, 39.0117]
+
+# One bucket, because one volume. Without it the 1948 edition draws under a bare
+# `1948` chip, which is honest but reads oddly next to a city that groups by
+# decade; docs/ADDING-A-CITY.md §6 covers the rule for a multi-volume city.
+[[viewer.era]]
+years = [1940, 1949]
+label = "1940s"
+
+[volumes.sanborn02165_007]
+# April 1921 base carrying a January 1948 additional index and two pasted
+# correction records, so "1948" is the revision date the catalog carries. The
+# sheet's own corner says "14 Sheets", printed at 50 feet to an inch throughout
+# — one scale for the whole book, so no `page_scale_multiples` exemption applies
+# here.
+#
+# FIFTEEN files for fourteen sheets: LOC photographed sheet 1 twice, once with
+# the pasted-on January 1948 index flap down (p1a) and once with it lifted
+# (p1b). Both arrive as addressable pages and both are read and then flagged,
+# which costs two model calls and two rows in the funnel. Nothing in the config
+# suppresses a page, and nothing should: a page id this repo cannot address is
+# a page it would silently skip.
+#
+# bounds_bbox is a hard membership filter with no padding applied, so it is
+# drawn around the streets the sheets actually name — read off this volume's
+# own key map (sheet 1, which also carries the printed street index) and
+# located against modern OSM — and then given about a kilometre of margin on
+# every edge.
+#
+# The north and east edges reach past the built-up town on purpose. The key
+# map draws only sheets 2-13; the printed index puts the water works ("large
+# reservoir located 2 miles N of P.O."), the Community High School, and the
+# Mt. Olive & Staunton and Consolidated Coal shafts on SHEET 14, which the key
+# map does not draw at all. Reservoir Rd runs to 39.047 and Number 7 Mine Ln to
+# -89.757, so the box covers both. Sheet 14 is a detached-area sheet and may
+# still flag on its own merits; the search box should not be the reason.
+# Bounds are a search area, not a gate: a generous edge costs a little
+# candidate discrimination, while a tight one silently drops sheets.
+bounds_bbox = [-89.825, 38.985, -89.750, 39.055]
+# No recorded scale or rotation: stage_match derives both two-pass. That is
+# the right default for a new volume — a pinned constant is a claim you have
+# measured, not a guess to start from.

@@ -1,0 +1,159 @@
+{
+  "page": "56",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.72,
+  "auto_residuals_m": [
+    2.88,
+    3.05,
+    6.19,
+    6.22,
+    3.25,
+    3.12
+  ],
+  "inlier_streets": [
+    [
+      "W. CHICAGO AV.",
+      "DRAKE AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "W. HURON",
+      "DRAKE AV."
+    ],
+    [
+      "W. HURON",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "DRAKE AV.",
+      "W. OHIO"
+    ],
+    [
+      "N. ST. LOUIS AV.",
+      "W. OHIO"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3304,
+            315
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x DRAKE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71509897327705,
+            41.89546019281704
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5353,
+            315
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71387796092793,
+            41.89547047386985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3304,
+            4433
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x DRAKE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71504332954255,
+            41.89362745894659
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5353,
+            4433
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.713825407873,
+            41.8936390379666
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3304,
+            8281
+          ],
+          "username": "autogeoref",
+          "note": "auto: DRAKE AV. x W. OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71498962174728,
+            41.891795100705174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5353,
+            8281
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ST. LOUIS AV. x W. OHIO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71377113839944,
+            41.89180729088563
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.567,
+    "dy_m": -1.922
+  }
+}

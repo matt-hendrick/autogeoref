@@ -1,0 +1,211 @@
+{
+  "page": "93",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "MONTROSE AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "PENSACOLA AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "CULLOM AV.",
+      "N. CICERO AV."
+    ],
+    [
+      "N. CICERO AV.",
+      "HUTCHINSON"
+    ],
+    [
+      "N. CICERO AV.",
+      "BERTEAU AV."
+    ],
+    [
+      "HUTCHINSON",
+      "N. KILPATRICK AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2086,
+            227
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7475281073303,
+            41.9607350618518
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2086,
+            2111
+          ],
+          "username": "autogeoref",
+          "note": "auto: PENSACOLA AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74749245704278,
+            41.95982321313773
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2086,
+            4171
+          ],
+          "username": "autogeoref",
+          "note": "auto: CULLOM AV. x N. CICERO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74746948564679,
+            41.95891088890899
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2086,
+            6121
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CICERO AV. x HUTCHINSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74743895844207,
+            41.957994817720014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2086,
+            8145
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CICERO AV. x BERTEAU AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74740769928279,
+            41.95708399890868
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4788,
+            6121
+          ],
+          "username": "autogeoref",
+          "note": "auto: HUTCHINSON x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74572312059992,
+            41.95801423917698
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74842878680589,
+            41.96043121765935
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5263,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74551049808146,
+            41.9604647908283
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74836313222819,
+            41.95727549939398
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 0.806,
+    "dy_m": 1.884
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.4039,
+    "separation_ratio": 0.976,
+    "best_offset_m": 75.6,
+    "n_junctions": 23
+  }
+}

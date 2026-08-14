@@ -1,0 +1,123 @@
+{
+  "page": "48",
+  "n_streets": 9,
+  "n_candidates": 11,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. HURON",
+      "N. CARPENTER"
+    ],
+    [
+      "W. ERIE",
+      "N. MORGAN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2711,
+            1668
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. CARPENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65351920696571,
+            41.89436509473381
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4714,
+            4039
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ERIE x N. MORGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65231418680419,
+            41.893373472768054
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            581,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65485456864887,
+            41.894800150754094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5226,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65202274888601,
+            41.89484688004372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            581,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65477540306324,
+            41.892141863119
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 3.533,
+    "dy_m": -3.877
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5433,
+    "separation_ratio": 1.16,
+    "best_offset_m": 11.4,
+    "n_junctions": 32
+  }
+}

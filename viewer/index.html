@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas Viewer</title>
+<!--SOCIAL-->
+<!-- The title above is a placeholder and the marker is where the deploy writes
+     the real one, along with the description and the share-card tags.
+
+     They cannot be written here. A share card is nothing BUT city facts — the
+     city's name, its dek, the URL it is served from — and this file is
+     city-fact-free by contract (tests/test_viewer_pages.py greps it). Nor can
+     the page fill them in at runtime the way it fills its <h1>: a crawler or a
+     link unfurler reads the markup and never runs the script, which is why the
+     served title was "Atlas Viewer" everywhere the site was shared.
+
+     So they are generated at deploy time, for the same reason config.js is:
+     a per-deploy fact stays out of the tree. viewer/deploy.py writes both. -->
+<!-- Markup only: the styling is app.css, the behaviour is app.js, and the
+     decisions that need no DOM are lib.js. All four are copied verbatim into
+     the deploy bundle, with no build step between an edit here and what a
+     visitor loads.
+
+     City-fact-free by contract: every city-specific string, coordinate, and
+     credit comes from manifest.json's `site` block (written by
+     `autogeoref viewer-manifest` from the city TOML's [viewer] table).
+     tests/test_viewer.py greps all four page files to keep it that way. -->
+<!-- Icons. The hrefs are relative because the two roots differ: the local
+     server puts this page under /viewer/, the deploy bundle IS the web root,
+     and an absolute path is only right for one of them. The .ico comes first
+     on purpose — a browser takes the last format it understands, so this
+     order gets the vector where it is supported and the raster where it is
+     not. viewer/deploy.py's ICON_FILES is what ships them. -->
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#14161B">
+<meta name="theme-color" content="#14161B">
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<link rel="stylesheet" href="vendor/maplibre-gl-compare.css">
+<link rel="stylesheet" href="vendor/fonts/fonts.css">
+<link rel="stylesheet" href="app.css">
+<!-- No glyph preloads here, and the reason is worth keeping.
+
+     The page runs TWO maps, each with its own style and its own glyph cache,
+     and they ask for the same three Latin ranges at the same moment — so
+     neither serves the other from cache and each file is fetched twice.
+     Preloading them collapses that to one fetch and saves ~227 KB, measured.
+
+     But this file is shared by every city, and only a city with a VECTOR
+     basemap ever asks for those files: `bareStyle` declares no `glyphs` at
+     all, so for a city with no basemap configured the preload downloads 233 KB
+     that nothing reads, on exactly the slow connections it was meant to help.
+     Three of the four cities configured here are in that position.
+
+     So a preload has to be conditional on the resolved style, which means
+     emitting it from `app.js` once `chooseBasemap` has answered — not from
+     markup that cannot know. Worth doing; not done here. -->
+</head>
+<body>
+
+<div id="loading">loading…</div>
+
+<div id="compare-wrap">
+  <div id="before"></div>
+  <div id="after"></div>
+</div>
+
+<div class="plate" id="plate-era"></div>
+<div class="plate" id="plate-now"></div>
+
+<button id="panel-reopen" type="button" aria-controls="panel-body" aria-expanded="false"
+        aria-label="Show the atlas panel" title="Show the atlas panel">☰</button>
+
+<aside id="panel">
+  <header>
+    <button id="panel-toggle" type="button" aria-controls="panel-body" aria-expanded="true"
+            aria-label="Hide the atlas panel" title="Hide the atlas panel">–</button>
+    <div class="kicker" id="kicker"></div>
+    <h1><span id="h1-head"></span><br><span class="now" id="h1-note"></span></h1>
+    <p class="dek" id="dek"></p>
+  </header>
+
+  <div id="panel-body">
+  <div id="eras"></div>
+
+  <div id="controls">
+    <div class="ctl-label"><span>Atlas opacity</span><output id="op-out">100%</output></div>
+    <input type="range" id="opacity" min="20" max="100" value="100">
+    <p class="hint"><b>Drag the round handle</b> to swipe · click a district below to fly there</p>
+    <form id="search-row" autocomplete="off">
+      <input id="address" type="text" placeholder="Find an address" spellcheck="false">
+      <button id="search-go" type="submit">Go</button>
+    </form>
+    <p id="search-note"></p>
+    <button id="copy-link" type="button">Copy a link to this view</button>
+  </div>
+
+  <div id="story-entry"></div>
+
+  <nav id="volumes"><div class="vol-head">Districts on file · <span id="vol-ct">0</span></div></nav>
+
+  <article id="story" aria-live="polite"></article>
+  <div id="story-nav">
+    <button id="story-prev" type="button">‹ Back</button>
+    <button id="story-next" type="button">Next ›</button>
+    <button id="story-exit" type="button">Leave the story</button>
+  </div>
+
+  <!-- Colophon. These two are project facts, not city facts, so they are
+       markup here rather than another key in manifest.site: every city's page
+       owes a reader the method behind the placement and the code that ran it,
+       and a per-city key would leave a city that set none with neither. The
+       credit line below links the method as well — that one is the attribution
+       claim, made where the claim is, and it is the copy a collapsed panel
+       leaves behind in the Sources control. -->
+  <p id="colophon">
+    <a href="walkthrough.html">How this map was made</a>
+    <a href="https://github.com/matt-hendrick/autogeoref" target="_blank" rel="noopener"
+       aria-label="Source on GitHub, opens in a new tab"
+       >Source on GitHub<span aria-hidden="true"> ↗</span></a>
+  </p>
+
+  <footer id="footer"></footer>
+  </div>
+</aside>
+
+<div id="attrib">
+  <button id="attrib-toggle" type="button" aria-controls="attrib-text" aria-expanded="false">Sources</button>
+  <div id="attrib-text" hidden></div>
+</div>
+
+<script src="vendor/maplibre-gl.js"></script>
+<script src="vendor/maplibre-gl-compare.js"></script>
+<script src="vendor/pmtiles.js"></script>
+<script src="config.js"></script>
+<script src="lib.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

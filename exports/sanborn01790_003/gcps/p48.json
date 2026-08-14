@@ -1,0 +1,159 @@
+{
+  "page": "48",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.58,
+  "auto_residuals_m": [
+    1.05,
+    2.68,
+    1.65,
+    1.67,
+    2.8,
+    1.17
+  ],
+  "inlier_streets": [
+    [
+      "AUGUSTA",
+      "N. FRANCISCO"
+    ],
+    [
+      "AUGUSTA",
+      "N. MOZART"
+    ],
+    [
+      "AUGUSTA",
+      "N. CALIFORNIA AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. FRANCISCO"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. MOZART"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. CALIFORNIA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            748,
+            395
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. FRANCISCO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69925266891853,
+            41.89925028941576
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2794,
+            395
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. MOZART"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69803029028759,
+            41.899261726203356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4762,
+            395
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUGUSTA x N. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69678362040084,
+            41.89927002246106
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            748,
+            8274
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. FRANCISCO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69915417306085,
+            41.89562300322531
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2794,
+            8274
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. MOZART"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69793843667865,
+            41.89563570935426
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4762,
+            8274
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69669552805546,
+            41.89564040564117
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.791,
+    "dy_m": -1.961
+  }
+}

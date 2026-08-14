@@ -1,0 +1,113 @@
+{
+  "page": "144",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "rotation_deg": 1.25,
+  "auto_residuals_m": [
+    5.2,
+    5.14,
+    3.46,
+    3.46
+  ],
+  "inlier_streets": [
+    [
+      "N. LAKEVIEW AV.",
+      "FULLERTON PKWY."
+    ],
+    [
+      "FULLERTON PKWY.",
+      "N. COMMONWEALTH AV."
+    ],
+    [
+      "N. COMMONWEALTH AV.",
+      "W. BELDEN AV."
+    ],
+    [
+      "N. CLARK",
+      "W. BELDEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1390,
+            1717
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAKEVIEW AV. x FULLERTON PKWY."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63910084903357,
+            41.925602658108254
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3034,
+            1717
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON PKWY. x N. COMMONWEALTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63809470070409,
+            41.9256175922594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3034,
+            5763
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. COMMONWEALTH AV. x W. BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63803781609457,
+            41.92378329662484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            558,
+            5763
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63935109427915,
+            41.923760945491324
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.676,
+    "dy_m": -1.406
+  }
+}

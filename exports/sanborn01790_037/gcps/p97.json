@@ -1,0 +1,182 @@
+{
+  "page": "97",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 7,
+  "rotation_deg": 0.9,
+  "auto_residuals_m": [
+    2.79,
+    1.36,
+    1.2,
+    1.52,
+    0.8,
+    1.55,
+    0.8
+  ],
+  "inlier_streets": [
+    [
+      "S. 43RD. CT.",
+      "WEST END AV."
+    ],
+    [
+      "WEST END AV.",
+      "S. 44TH. AV."
+    ],
+    [
+      "WEST END AV.",
+      "S. 43RD. AV."
+    ],
+    [
+      "S. 44TH. AV.",
+      "WASHINGTON B'LVD"
+    ],
+    [
+      "S. 44TH. AV.",
+      "W. MADISON"
+    ],
+    [
+      "S. 43RD. AV.",
+      "WASHINGTON B'LVD"
+    ],
+    [
+      "S. 43RD. AV.",
+      "W. MADISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2800,
+            2764
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 43RD. CT. x WEST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73433705808966,
+            41.883244173381456
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            793,
+            2764
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x S. 44TH. AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7355633579038,
+            41.88323007926654
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4926,
+            2764
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x S. 43RD. AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7331109893618,
+            41.88325871252481
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            793,
+            5566
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 44TH. AV. x WASHINGTON B'LVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73551933139251,
+            41.88191203601378
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            793,
+            8308
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 44TH. AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73547903918652,
+            41.880594494326004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4926,
+            5566
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 43RD. AV. x WASHINGTON B'LVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73306903030176,
+            41.88194095281169
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4926,
+            8308
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 43RD. AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73302877755562,
+            41.880623081781074
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.373,
+    "dy_m": -2.416
+  }
+}

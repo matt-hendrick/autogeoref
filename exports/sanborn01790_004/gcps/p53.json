@@ -1,0 +1,159 @@
+{
+  "page": "53",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "OGDEN AV. B'LV'D.",
+      "S. ROCKWELL"
+    ],
+    [
+      "S. ROCKWELL",
+      "W. 15TH PL."
+    ],
+    [
+      "S. ROCKWELL",
+      "W. 16TH"
+    ],
+    [
+      "W. 16TH",
+      "S. CAMPBELL AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            882,
+            247
+          ],
+          "username": "autogeoref",
+          "note": "auto: OGDEN AV. B'LV'D. x S. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69086155261108,
+            41.86289635779146
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            882,
+            5949
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROCKWELL x W. 15TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69079205574872,
+            41.86020294407067
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            882,
+            8049
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROCKWELL x W. 16TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69076371742126,
+            41.85928398598988
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            8049
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH x S. CAMPBELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68828972747094,
+            41.85933700094088
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            572,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69104075618083,
+            41.86255880094523
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5145,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68825829751223,
+            41.86259757167431
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            572,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69096331892905,
+            41.859476298168246
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

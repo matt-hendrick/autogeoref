@@ -1,0 +1,159 @@
+{
+  "page": "134",
+  "n_streets": 14,
+  "n_candidates": 15,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. WISCONSIN",
+      "N. CLARK"
+    ],
+    [
+      "W. WISCONSIN",
+      "N. LINCOLN AV."
+    ],
+    [
+      "N. LINCOLN AV.",
+      "N. WELLS"
+    ],
+    [
+      "N. WELLS",
+      "W. MENOMONEE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2814,
+            3081
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WISCONSIN x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63494696265784,
+            41.91657917539721
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1730,
+            3081
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WISCONSIN x N. LINCOLN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63550274301194,
+            41.91656606904018
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2885,
+            5467
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LINCOLN AV. x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6348440698927,
+            41.91544131087588
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2885,
+            6971
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS x W. MENOMONEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63482326259515,
+            41.914806419691345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            571,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63631010686464,
+            41.91760469648324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5139,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63352419235648,
+            41.91765367487151
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            571,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63622569128768,
+            41.91494602457922
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

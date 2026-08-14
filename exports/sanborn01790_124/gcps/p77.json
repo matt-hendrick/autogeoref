@@ -1,0 +1,136 @@
+{
+  "page": "77",
+  "n_streets": 6,
+  "n_candidates": 11,
+  "n_inliers": 5,
+  "rotation_deg": -88.47,
+  "auto_residuals_m": [
+    5.67,
+    2.32,
+    9.56,
+    3.07,
+    2.41
+  ],
+  "inlier_streets": [
+    [
+      "N. ASHLAND AV.",
+      "W. ARTHUR AV."
+    ],
+    [
+      "N. ASHLAND AV.",
+      "W. ALBION AV."
+    ],
+    [
+      "N. CLARK",
+      "W. ARTHUR AV."
+    ],
+    [
+      "W. ALBION AV.",
+      "N. RAVENSWOOD AV."
+    ],
+    [
+      "W. ARTHUR AV.",
+      "N. RAVENSWOOD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4985,
+            480
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND AV. x W. ARTHUR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67045765429863,
+            41.99995946097013
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1031,
+            480
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND AV. x W. ALBION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6705053170421,
+            42.00175901592309
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3389,
+            2294
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. ARTHUR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.671478968397,
+            42.00061867204225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1031,
+            8068
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ALBION AV. x N. RAVENSWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67513392480335,
+            42.001677429270536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3389,
+            8068
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARTHUR AV. x N. RAVENSWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67510134896774,
+            42.0005544857418
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.765,
+    "dy_m": 4.742
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "page": "10",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 0.41,
+  "auto_residuals_m": [
+    3.19,
+    3.79,
+    0.58,
+    2.53,
+    2.52
+  ],
+  "inlier_streets": [
+    [
+      "DEVON AV.",
+      "EVANSTON AV."
+    ],
+    [
+      "EVANSTON AV.",
+      "ROSEMONT AV."
+    ],
+    [
+      "EVANSTON AV.",
+      "GRANVILLE AV."
+    ],
+    [
+      "ROSEMONT AV.",
+      "WINTHROP AV."
+    ],
+    [
+      "WINTHROP AV.",
+      "GRANVILLE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            999,
+            304
+          ],
+          "username": "autogeoref",
+          "note": "auto: DEVON AV. x EVANSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66054502344734,
+            41.99818919073466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            999,
+            4239
+          ],
+          "username": "autogeoref",
+          "note": "auto: EVANSTON AV. x ROSEMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66045898774829,
+            41.9963744298075
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            999,
+            8347
+          ],
+          "username": "autogeoref",
+          "note": "auto: EVANSTON AV. x GRANVILLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6604063967028,
+            41.99455255214568
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4377,
+            4239
+          ],
+          "username": "autogeoref",
+          "note": "auto: ROSEMONT AV. x WINTHROP AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6584094549696,
+            41.99639283466855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4377,
+            8347
+          ],
+          "username": "autogeoref",
+          "note": "auto: WINTHROP AV. x GRANVILLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65835589364731,
+            41.994575987137424
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

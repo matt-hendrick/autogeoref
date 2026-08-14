@@ -1,0 +1,132 @@
+{
+  "page": "37",
+  "n_streets": 12,
+  "n_candidates": 11,
+  "n_inliers": 5,
+  "rotation_deg": 1.18,
+  "auto_residuals_m": [
+    0.37,
+    0.12,
+    0.39,
+    0.82,
+    0.84
+  ],
+  "inlier_streets": [
+    [
+      "W. VAN BUREN",
+      "S. DAMEN AV. (S. ROBEY)"
+    ],
+    [
+      "S. DAMEN AV. (S. ROBEY)",
+      "W. CONGRESS"
+    ],
+    [
+      "S. DAMEN AV. (S. ROBEY)",
+      "W. HARRISON"
+    ],
+    [
+      "W. CONGRESS",
+      "S. WOLCOTT AV. (S. LINCOLN)"
+    ],
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1032,
+            1247
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. DAMEN AV. (S. ROBEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67652777230792,
+            41.87620713472233
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1032,
+            3853
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAMEN AV. (S. ROBEY) x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67648715346337,
+            41.87502143776953
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1032,
+            6006
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAMEN AV. (S. ROBEY) x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67645645464218,
+            41.87404250400038
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4966,
+            3853
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONGRESS x S. WOLCOTT AV. (S. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67406705729854,
+            41.875057740504495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4966,
+            6006
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67401717196883,
+            41.87408098662272
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

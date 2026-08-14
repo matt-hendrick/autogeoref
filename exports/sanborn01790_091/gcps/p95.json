@@ -1,0 +1,157 @@
+{
+  "page": "95",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.19,
+  "auto_residuals_m": [
+    0.38,
+    0.25,
+    0.04,
+    0.39,
+    0.36,
+    0.51
+  ],
+  "inlier_streets": [
+    [
+      "POTOMAC AV.",
+      "N. DAMEN AV. (N. ROBEY)"
+    ],
+    [
+      "POTOMAC AV.",
+      "N. WOLCOTT AV. (N. LINCOLN)"
+    ],
+    [
+      "W. CRYSTAL",
+      "N. DAMEN AV. (N. ROBEY)"
+    ],
+    [
+      "W. CRYSTAL",
+      "N. WOLCOTT AV. (N. LINCOLN)"
+    ],
+    [
+      "N. DAMEN AV. (N. ROBEY)",
+      "W. DIVISION"
+    ],
+    [
+      "N. WOLCOTT AV. (N. LINCOLN)",
+      "W. DIVISION"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1089,
+            1659
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. DAMEN AV. (N. ROBEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67730915577295,
+            41.905003652528926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5042,
+            1659
+          ],
+          "username": "autogeoref",
+          "note": "auto: POTOMAC AV. x N. WOLCOTT AV. (N. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67488555297189,
+            41.905039043720905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1089,
+            3625
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CRYSTAL x N. DAMEN AV. (N. ROBEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67728395230554,
+            41.90412164499185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5042,
+            3625
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CRYSTAL x N. WOLCOTT AV. (N. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67485937862212,
+            41.904160245007425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1089,
+            5699
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAMEN AV. (N. ROBEY) x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67725780383195,
+            41.90319112564266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5042,
+            5699
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOLCOTT AV. (N. LINCOLN) x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67482205342465,
+            41.903230183021435
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

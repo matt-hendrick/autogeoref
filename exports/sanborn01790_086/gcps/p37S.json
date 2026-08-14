@@ -1,0 +1,113 @@
+{
+  "page": "37S",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.14,
+  "auto_residuals_m": [
+    0.1,
+    0.11,
+    0.15,
+    0.14
+  ],
+  "inlier_streets": [
+    [
+      "W. MADISON",
+      "S. CLARK"
+    ],
+    [
+      "W. MADISON",
+      "S. DEARBORN"
+    ],
+    [
+      "S. CLARK",
+      "W. MONROE"
+    ],
+    [
+      "S. DEARBORN",
+      "W. MONROE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1798,
+            2160
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63090048270952,
+            41.88198109903118
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4241,
+            2160
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62941963081141,
+            41.882002012199045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1798,
+            5023
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLARK x W. MONROE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63087033579404,
+            41.880700483301446
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4241,
+            5023
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DEARBORN x W. MONROE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6293859411558,
+            41.880723343132665
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.923,
+    "dy_m": 0.601
+  }
+}

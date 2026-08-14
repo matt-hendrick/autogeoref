@@ -1,0 +1,189 @@
+{
+  "page": "3",
+  "n_streets": 9,
+  "n_candidates": 12,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 114TH ST.",
+      "S. FRONT AV."
+    ],
+    [
+      "E. 114TH ST.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "S. FRONT AV.",
+      "E. 114TH ST."
+    ],
+    [
+      "S. COTTAGE GROVE AV.",
+      "E. 114TH ST."
+    ],
+    [
+      "S. COTTAGE GROVE AV.",
+      "E. 115TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2811,
+            4261
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 114TH ST. x S. FRONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61217906661666,
+            41.687292785440356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4409,
+            4261
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 114TH ST. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61118487719428,
+            41.68734304779749
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2811,
+            4267
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRONT AV. x E. 114TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61217906661666,
+            41.687292785440356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4409,
+            4267
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. COTTAGE GROVE AV. x E. 114TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61118487719428,
+            41.68734304779749
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4409,
+            8285
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. COTTAGE GROVE AV. x E. 115TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61117598009943,
+            41.68546008068784
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61358170899352,
+            41.688855393878114
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5306,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61068331955714,
+            41.68889443363938
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61350630616863,
+            41.68573349740588
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -10.521,
+    "dy_m": 2.195
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6014,
+    "separation_ratio": 1.24,
+    "best_offset_m": 5.6,
+    "n_junctions": 6
+  }
+}

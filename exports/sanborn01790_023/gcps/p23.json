@@ -1,0 +1,205 @@
+{
+  "page": "23",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.03,
+  "auto_residuals_m": [
+    1.11,
+    4.18,
+    1.72,
+    0.45,
+    3.38,
+    1.57,
+    2.07,
+    3.1
+  ],
+  "inlier_streets": [
+    [
+      "N. HERMITAGE AV.",
+      "W. CHICAGO AV."
+    ],
+    [
+      "RICE ST.",
+      "N. WOOD"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. WOOD"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. PAULINA"
+    ],
+    [
+      "N. WOOD",
+      "W. SUPERIOR"
+    ],
+    [
+      "N. WOOD",
+      "W. HURON"
+    ],
+    [
+      "N. PAULINA",
+      "W. SUPERIOR"
+    ],
+    [
+      "N. PAULINA",
+      "W. HURON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2988,
+            3012
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HERMITAGE AV. x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6709570036675,
+            41.89602931020462
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            970,
+            1011
+          ],
+          "username": "autogeoref",
+          "note": "auto: RICE ST. x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67220341795891,
+            41.89692445890359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            970,
+            3012
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67217209562904,
+            41.896008978612294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5035,
+            3012
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.669726770428,
+            41.89605035647745
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            970,
+            5079
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOOD x W. SUPERIOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67214062696469,
+            41.89509301351751
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            970,
+            7213
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOOD x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67211372930211,
+            41.8941916753101
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5035,
+            5079
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x W. SUPERIOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66969325932658,
+            41.89513456392691
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5035,
+            7213
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66966819706914,
+            41.89423459228593
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.115,
+    "dy_m": 2.564
+  }
+}

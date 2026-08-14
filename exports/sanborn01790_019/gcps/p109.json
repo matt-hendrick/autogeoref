@@ -1,0 +1,174 @@
+{
+  "page": "109",
+  "n_streets": 9,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "HOBBIE",
+      "LARRABEE"
+    ],
+    [
+      "W. OAK",
+      "LARRABEE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            77,
+            795
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOBBIE x LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64313447510769,
+            41.90148331006503
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            77,
+            3131
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OAK x LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64309182321425,
+            41.90041308978199
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64282194710314,
+            41.9015104370137
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5243,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63998590447207,
+            41.90155700667928
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64274330097471,
+            41.8988571464365
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7064,
+    "separation_ratio": 1.027,
+    "best_offset_m": 13.0,
+    "n_junctions": 17
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5"
+      ],
+      "consensus_numerals": 8,
+      "votable": 8,
+      "in_block": 8,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 8.4,
+          "addr_diff": 13.8
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 8.9
+        },
+        {
+          "perp_m": 9.0,
+          "addr_diff": 5.5
+        },
+        {
+          "perp_m": 13.0,
+          "addr_diff": 5.8
+        },
+        {
+          "perp_m": 13.1,
+          "addr_diff": 3.7
+        },
+        {
+          "perp_m": 13.1,
+          "addr_diff": 4.9
+        },
+        {
+          "perp_m": 13.1,
+          "addr_diff": 2.2
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 1.1
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

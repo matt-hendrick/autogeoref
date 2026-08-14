@@ -1,0 +1,163 @@
+{
+  "page": "39",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 3,
+  "status": "OK (verified: corroboration+junction)",
+  "rescue_anchors": [
+    [
+      "W. 22ND PL.",
+      "PRINCETON AV."
+    ],
+    [
+      "ALEXANDER",
+      "PRINCETON AV."
+    ],
+    [
+      "PRINCETON AV.",
+      "W. 23RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5126,
+            2420
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND PL. x PRINCETON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6347847051211,
+            41.85213508762351
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5126,
+            4170
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALEXANDER x PRINCETON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63477003696052,
+            41.851413780871255
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5126,
+            5340
+          ],
+          "username": "autogeoref",
+          "note": "auto: PRINCETON AV. x W. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6347601453202,
+            41.85093508552782
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63757504730913,
+            41.85292804935585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5272,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63472003428471,
+            41.85296829692769
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63750750049684,
+            41.850269581492206
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5721,
+    "separation_ratio": 1.22,
+    "best_offset_m": 29.7,
+    "n_junctions": 21
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": null
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 0,
+      "votable": 0,
+      "in_block": 0,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": []
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

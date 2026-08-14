@@ -1,0 +1,132 @@
+{
+  "page": "31",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.03,
+  "auto_residuals_m": [
+    0.63,
+    0.98,
+    0.38,
+    0.1,
+    0.1
+  ],
+  "inlier_streets": [
+    [
+      "W. 103RD ST.",
+      "S. UNION AV."
+    ],
+    [
+      "W. 103RD ST.",
+      "S. LOWE AV."
+    ],
+    [
+      "W. 103RD ST.",
+      "S. WALLACE"
+    ],
+    [
+      "S. UNION AV.",
+      "W. 104TH ST."
+    ],
+    [
+      "W. 104TH ST.",
+      "S. WALLACE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1225,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 103RD ST. x S. UNION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64040611536484,
+            41.7069483915423
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3219,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 103RD ST. x S. LOWE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63919098990628,
+            41.70696473554138
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5255,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 103RD ST. x S. WALLACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63797706035749,
+            41.706980056055365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1225,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. UNION AV. x W. 104TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64035045263253,
+            41.70512678267603
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5255,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 104TH ST. x S. WALLACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63792499390833,
+            41.705160485797194
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

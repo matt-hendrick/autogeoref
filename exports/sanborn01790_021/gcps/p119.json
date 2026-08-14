@@ -1,0 +1,134 @@
+{
+  "page": "119",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": -0.37,
+  "auto_residuals_m": [
+    1.24,
+    2.62,
+    7.61,
+    14.35,
+    5.39
+  ],
+  "inlier_streets": [
+    [
+      "GRAND BLVD",
+      "E. 37TH ST."
+    ],
+    [
+      "VERNON AV.",
+      "E. 37TH ST."
+    ],
+    [
+      "RHODES AV.",
+      "BRYANT AV."
+    ],
+    [
+      "RHODES AV.",
+      "E. 36TH ST."
+    ],
+    [
+      "RHODES AV.",
+      "E. 37TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            751,
+            5523
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRAND BLVD x E. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61681190631977,
+            41.827480388854
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3021,
+            5523
+          ],
+          "username": "autogeoref",
+          "note": "auto: VERNON AV. x E. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61555106930797,
+            41.82749793903286
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5002,
+            390
+          ],
+          "username": "autogeoref",
+          "note": "auto: RHODES AV. x BRYANT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61445723645433,
+            41.82984782971572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5002,
+            2797
+          ],
+          "username": "autogeoref",
+          "note": "auto: RHODES AV. x E. 36TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6144322633774,
+            41.828613093487924
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5002,
+            5523
+          ],
+          "username": "autogeoref",
+          "note": "auto: RHODES AV. x E. 37TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61442837644204,
+            41.82751274014808
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

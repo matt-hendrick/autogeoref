@@ -1,0 +1,132 @@
+{
+  "page": "109",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.61,
+  "auto_residuals_m": [
+    0.36,
+    1.76,
+    2.99,
+    0.38,
+    1.2
+  ],
+  "inlier_streets": [
+    [
+      "W. TAYLOR",
+      "S. DESPLAINES"
+    ],
+    [
+      "W. TAYLOR",
+      "S. JEFFERSON"
+    ],
+    [
+      "DEKOVEN",
+      "S. JEFFERSON"
+    ],
+    [
+      "S. DESPLAINES",
+      "W. 12TH"
+    ],
+    [
+      "S. JEFFERSON",
+      "W. 12TH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1657,
+            915
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TAYLOR x S. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64374043386938,
+            41.86969599086629
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4071,
+            915
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TAYLOR x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64227226139808,
+            41.86971723718162
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4071,
+            2612
+          ],
+          "username": "autogeoref",
+          "note": "auto: DEKOVEN x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64224576865489,
+            41.86899180463442
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1657,
+            6521
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DESPLAINES x W. 12TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64366116498095,
+            41.86719926416694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4071,
+            6521
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. JEFFERSON x W. 12TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64218785425821,
+            41.86721966250146
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

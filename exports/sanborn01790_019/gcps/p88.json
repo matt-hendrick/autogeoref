@@ -1,0 +1,167 @@
+{
+  "page": "88",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. SCHILLER",
+      "WELLS"
+    ],
+    [
+      "W. SCHILLER",
+      "LA SALLE AV."
+    ],
+    [
+      "W. GOETHE",
+      "WELLS"
+    ],
+    [
+      "W. GOETHE",
+      "LA SALLE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            439,
+            1529
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SCHILLER x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63461681259999,
+            41.90764647840806
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2957,
+            1529
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SCHILLER x LA SALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63305691901587,
+            41.907683093493695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            439,
+            5827
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GOETHE x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63455316090443,
+            41.905709723444154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2957,
+            5827
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GOETHE x LA SALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63299712346682,
+            41.905736331373745
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63452407395539,
+            41.90801674160954
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5246,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63168657095221,
+            41.90806333050747
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63444542782693,
+            41.905363721396235
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -1.235,
+    "dy_m": -2.93
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8224,
+    "separation_ratio": 1.449,
+    "best_offset_m": 1.2,
+    "n_junctions": 15
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "page": "2",
+  "n_streets": 8,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. LOCUST",
+      "N. WELLS"
+    ],
+    [
+      "W. CHESTNUT",
+      "N. WELLS"
+    ],
+    [
+      "N. WELLS",
+      "W. INSTITUTE"
+    ],
+    [
+      "N. WELLS",
+      "W. CHICAGO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1725,
+            1040
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LOCUST x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63429136350743,
+            41.89898167876879
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1725,
+            2739
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHESTNUT x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63426200654631,
+            41.89820411330934
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1725,
+            4462
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS x W. INSTITUTE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63423344764207,
+            41.89741903339393
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1725,
+            6307
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63420286756008,
+            41.89659580798893
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            596,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63496999220823,
+            41.89910330667337
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5363,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63207302491232,
+            41.899148135353244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            596,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63489597871593,
+            41.89645340898676
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4967,
+    "separation_ratio": 1.13,
+    "best_offset_m": 13.3,
+    "n_junctions": 6
+  }
+}

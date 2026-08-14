@@ -1,0 +1,247 @@
+{
+  "page": "28",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 8,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. ASTOR",
+      "E. SCHILLER"
+    ],
+    [
+      "N. ASTOR",
+      "E. BANKS"
+    ],
+    [
+      "N. ASTOR",
+      "E. GOETHE"
+    ],
+    [
+      "E. SCHILLER",
+      "N. ASTOR"
+    ],
+    [
+      "N. ASTOR",
+      "E. BANKS"
+    ],
+    [
+      "E. BANKS",
+      "N. RITCHIE"
+    ],
+    [
+      "N. RITCHIE",
+      "E. GOETHE"
+    ],
+    [
+      "E. GOETHE",
+      "N. STONE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1355,
+            1514
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASTOR x E. SCHILLER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62755700929215,
+            41.90781763422443
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1355,
+            3773
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASTOR x E. BANKS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62751220832932,
+            41.90678465957361
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1355,
+            5917
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASTOR x E. GOETHE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62731416298293,
+            41.90582945894471
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1245,
+            1514
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. SCHILLER x N. ASTOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62755700929215,
+            41.90781763422443
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1245,
+            3773
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASTOR x E. BANKS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62751220832932,
+            41.90678465957361
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2755,
+            3773
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. BANKS x N. RITCHIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62665414209422,
+            41.906797206918206
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2755,
+            5917
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RITCHIE x E. GOETHE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6265645131161,
+            41.90584076494274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4106,
+            5917
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. GOETHE x N. STONE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6258125616183,
+            41.90585162870384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62797204925708,
+            41.908160405557524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5306,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62510619555523,
+            41.90820474648471
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            590,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6278980357648,
+            41.90551088372719
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

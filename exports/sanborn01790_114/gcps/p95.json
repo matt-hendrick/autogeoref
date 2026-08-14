@@ -1,0 +1,116 @@
+{
+  "page": "95",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "E. 85TH ST.",
+      "S. CHAPPEL AV."
+    ],
+    [
+      "S. CHAPPEL AV.",
+      "E. 86TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            279,
+            217
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 85TH ST. x S. CHAPPEL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57457144846735,
+            41.74070887112832
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            279,
+            4167
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CHAPPEL AV. x E. 86TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.574544367591,
+            41.73889062983776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57438750162129,
+            41.74040788969078
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5247,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57156493257673,
+            41.74044386573338
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57431717316305,
+            41.73733570889828
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "page": "25",
+  "n_streets": 9,
+  "n_candidates": 13,
+  "n_inliers": 6,
+  "rotation_deg": 1.33,
+  "auto_residuals_m": [
+    0.08,
+    0.78,
+    1.61,
+    0.32,
+    0.96,
+    0.41
+  ],
+  "inlier_streets": [
+    [
+      "DIVERSEY AVE.",
+      "RACINE AVE."
+    ],
+    [
+      "DIVERSEY AVE.",
+      "SEMINARY AVE."
+    ],
+    [
+      "DIVERSEY AVE.",
+      "SEMINARY AVE."
+    ],
+    [
+      "RACINE AVE.",
+      "WRIGHTWOOD AVE."
+    ],
+    [
+      "SEMINARY AVE.",
+      "DIVERSEY SCHOOL CT."
+    ],
+    [
+      "SEMINARY AVE.",
+      "WRIGHTWOOD AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            595,
+            175
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AVE. x RACINE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65870641883869,
+            41.93253300249337
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5149,
+            175
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AVE. x SEMINARY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65584276485227,
+            41.932581497492265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4421,
+            175
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AVE. x SEMINARY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65628024927341,
+            41.932574463671855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            595,
+            8125
+          ],
+          "username": "autogeoref",
+          "note": "auto: RACINE AVE. x WRIGHTWOOD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.658574076644,
+            41.92890011169496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5149,
+            1120
+          ],
+          "username": "autogeoref",
+          "note": "auto: SEMINARY AVE. x DIVERSEY SCHOOL CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65582840149631,
+            41.93215049404941
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4421,
+            8125
+          ],
+          "username": "autogeoref",
+          "note": "auto: SEMINARY AVE. x WRIGHTWOOD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65615601306935,
+            41.928942884566084
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8",
+  "seam_adjusted": {
+    "dx_m": 0.452,
+    "dy_m": -3.472
+  }
+}

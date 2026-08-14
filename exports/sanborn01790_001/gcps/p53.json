@@ -1,0 +1,159 @@
+{
+  "page": "53",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 1.08,
+  "auto_residuals_m": [
+    10.11,
+    7.32,
+    5.16,
+    15.22,
+    3.04,
+    10.14
+  ],
+  "inlier_streets": [
+    [
+      "BELMONT AVE.",
+      "N. WESTERN AVE."
+    ],
+    [
+      "BELMONT AVE.",
+      "N. OAKLEY AVE."
+    ],
+    [
+      "N. WESTERN AVE.",
+      "NELSON"
+    ],
+    [
+      "N. WESTERN AVE.",
+      "FLETCHER"
+    ],
+    [
+      "N. OAKLEY AVE.",
+      "NELSON"
+    ],
+    [
+      "N. OAKLEY AVE.",
+      "FLETCHER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            916,
+            1203
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AVE. x N. WESTERN AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.688038684872,
+            41.93947386450357
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4933,
+            1203
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AVE. x N. OAKLEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68560972618114,
+            41.939498206628755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            916,
+            7628
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AVE. x NELSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68797922379913,
+            41.936736500537975
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            916,
+            3101
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AVE. x FLETCHER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68813640450436,
+            41.93853099373652
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4933,
+            7628
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AVE. x NELSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68555063441208,
+            41.93676385075761
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4933,
+            3101
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AVE. x FLETCHER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68559030718566,
+            41.938582778002925
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.492,
+    "dy_m": 2.004
+  }
+}

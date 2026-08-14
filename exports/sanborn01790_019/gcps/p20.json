@@ -1,0 +1,182 @@
+{
+  "page": "20",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (verified: corroboration+junction+addresses)",
+  "rescue_anchors": [
+    [
+      "WEBSTER AV.",
+      "SEDGWICK"
+    ],
+    [
+      "GARFIELD AV.",
+      "SEDGWICK"
+    ],
+    [
+      "GARFIELD AV. B'LV'D",
+      "SEDGWICK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            851,
+            2691
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63893677042908,
+            41.9219606218427
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            851,
+            6774
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6388743756624,
+            41.920142647952524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            851,
+            6774
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. B'LV'D x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6388743756624,
+            41.920142647952524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63912029198738,
+            41.92286513169608
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5261,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63627451354225,
+            41.92291184559895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63904164585895,
+            41.92021272862302
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6059,
+    "separation_ratio": 1.55,
+    "best_offset_m": 4.5,
+    "n_junctions": 20
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 5,
+      "votable": 4,
+      "in_block": 4,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 7.6,
+          "addr_diff": 3.2
+        },
+        {
+          "perp_m": 7.4,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 6.6,
+          "addr_diff": 3.7
+        },
+        {
+          "perp_m": 17.9,
+          "addr_diff": 2.3
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

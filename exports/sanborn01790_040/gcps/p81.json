@@ -1,0 +1,109 @@
+{
+  "page": "81",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.97,
+  "auto_residuals_m": [
+    0.2,
+    0.19,
+    0.17,
+    0.18
+  ],
+  "inlier_streets": [
+    [
+      "ARMITAGE AV.",
+      "N. TRIPP AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. KEDVALE AV."
+    ],
+    [
+      "CORTLAND",
+      "N. TRIPP AV."
+    ],
+    [
+      "CORTLAND",
+      "N. KEDVALE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            398
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. TRIPP AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7326692384093,
+            41.917087129826314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4369,
+            398
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. KEDVALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73022163645065,
+            41.91711872699774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            4380
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x N. TRIPP AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73260492631547,
+            41.91526617408821
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4369,
+            4380
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x N. KEDVALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73016356883316,
+            41.91529634560232
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

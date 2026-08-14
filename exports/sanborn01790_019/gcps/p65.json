@@ -1,0 +1,159 @@
+{
+  "page": "65",
+  "n_streets": 10,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": -88.74,
+  "auto_residuals_m": [
+    5.45,
+    3.42,
+    3.2,
+    3.44,
+    5.89,
+    3.65
+  ],
+  "inlier_streets": [
+    [
+      "LA SALLE AV.",
+      "EUGENIE"
+    ],
+    [
+      "WELLS",
+      "MENOMONEE"
+    ],
+    [
+      "WELLS",
+      "EUGENIE"
+    ],
+    [
+      "MENOMONEE",
+      "N. PARK AV."
+    ],
+    [
+      "EUGENIE",
+      "CRILLY CT."
+    ],
+    [
+      "EUGENIE",
+      "N. PARK AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4906,
+            787
+          ],
+          "username": "autogeoref",
+          "note": "auto: LA SALLE AV. x EUGENIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63309567492415,
+            41.91289862870269
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            606,
+            3314
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLS x MENOMONEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6348039577997,
+            41.91479438720533
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4906,
+            3314
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLS x EUGENIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63474497890986,
+            41.912872057680495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            606,
+            6554
+          ],
+          "username": "autogeoref",
+          "note": "auto: MENOMONEE x N. PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63675745795604,
+            41.91476295608359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4906,
+            4870
+          ],
+          "username": "autogeoref",
+          "note": "auto: EUGENIE x CRILLY CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63573688166274,
+            41.9128558184497
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4906,
+            6554
+          ],
+          "username": "autogeoref",
+          "note": "auto: EUGENIE x N. PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63669850983243,
+            41.91283977254963
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.149,
+    "dy_m": -1.8
+  }
+}

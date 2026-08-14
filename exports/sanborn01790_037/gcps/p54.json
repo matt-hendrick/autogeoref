@@ -1,0 +1,141 @@
+{
+  "page": "54",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. FRANKLIN AV.",
+      "MIDWAY PARK"
+    ],
+    [
+      "N. PRAIRIE AV.",
+      "MIDWAY PARK"
+    ],
+    [
+      "N. PRAIRIE AV.",
+      "W. LAKE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            468,
+            4752
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANKLIN AV. x MIDWAY PARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77208718132657,
+            41.888982303589906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3905,
+            4752
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PRAIRIE AV. x MIDWAY PARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76993011163516,
+            41.88900294072672
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3905,
+            7226
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PRAIRIE AV. x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76990123619748,
+            41.88786875153288
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77202048787808,
+            41.89078051314228
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5256,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76913238763352,
+            41.89080709008361
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77196850048448,
+            41.88764974606654
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6489,
+    "separation_ratio": 1.214,
+    "best_offset_m": 2.8,
+    "n_junctions": 19
+  }
+}

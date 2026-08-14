@@ -1,0 +1,182 @@
+{
+  "page": "7",
+  "n_streets": 9,
+  "n_candidates": 10,
+  "n_inliers": 7,
+  "rotation_deg": 1.15,
+  "auto_residuals_m": [
+    0.45,
+    2.59,
+    2.46,
+    5.32,
+    5.58,
+    3.12,
+    3.1
+  ],
+  "inlier_streets": [
+    [
+      "WRIGHTWOOD AVE.",
+      "RACINE AVE."
+    ],
+    [
+      "LILL (NOT OPEN) AVE.",
+      "RACINE AVE."
+    ],
+    [
+      "LILL (NOT OPEN) AVE.",
+      "SURREY CT."
+    ],
+    [
+      "MONTANA",
+      "RACINE AVE."
+    ],
+    [
+      "MONTANA",
+      "SURREY CT."
+    ],
+    [
+      "FULLERTON AVE.",
+      "RACINE AVE."
+    ],
+    [
+      "FULLERTON AVE.",
+      "SURREY CT."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4810,
+            89
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE. x RACINE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65860408935768,
+            41.92890648081998
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4810,
+            2722
+          ],
+          "username": "autogeoref",
+          "note": "auto: LILL (NOT OPEN) AVE. x RACINE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6585579356561,
+            41.927749776585394
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1405,
+            2722
+          ],
+          "username": "autogeoref",
+          "note": "auto: LILL (NOT OPEN) AVE. x SURREY CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66062917856154,
+            41.92771807799328
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4810,
+            5979
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTANA x RACINE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6585121067397,
+            41.92624177689787
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1405,
+            5979
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTANA x SURREY CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.660573009223,
+            41.926209221817494
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4810,
+            8269
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AVE. x RACINE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65847933957772,
+            41.92527477667156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1405,
+            8269
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AVE. x SURREY CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6605408158979,
+            41.92524389068715
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.889,
+    "dy_m": -2.519
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "page": "14",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "DIVERSEY AV.",
+      "N. KILDARE AV."
+    ],
+    [
+      "PARKER AV.",
+      "N. KILDARE AV."
+    ],
+    [
+      "SCHUBERT AV.",
+      "N. KILDARE AV."
+    ],
+    [
+      "N. KILDARE AV.",
+      "DRUMMOND PL."
+    ],
+    [
+      "N. KILDARE AV.",
+      "WRIGHTWOOD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3676,
+            283
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AV. x N. KILDARE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73434464077624,
+            41.93169382109993
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3676,
+            2226
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARKER AV. x N. KILDARE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73431631360829,
+            41.930781049472465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3676,
+            4356
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHUBERT AV. x N. KILDARE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73428729427937,
+            41.929869504869
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3676,
+            6212
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILDARE AV. x DRUMMOND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73425857683364,
+            41.9289629232514
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3676,
+            8274
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILDARE AV. x WRIGHTWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73422901321968,
+            41.92802336601257
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73623310078457,
+            41.9314150735029
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5302,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73331822262615,
+            41.93145276831058
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73615995742477,
+            41.928284627084444
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.682,
+    "separation_ratio": 1.057,
+    "best_offset_m": 2.5,
+    "n_junctions": 11
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 5,
+      "votable": 5,
+      "in_block": 5,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 16.2,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 16.5,
+          "addr_diff": 1.5
+        },
+        {
+          "perp_m": 16.6,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 16.6,
+          "addr_diff": 5.7
+        },
+        {
+          "perp_m": 5.3,
+          "addr_diff": 0.3
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

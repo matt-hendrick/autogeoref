@@ -1,0 +1,137 @@
+{
+  "page": "43",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. DAYTON",
+      "W. EVERGREEN AV. (W. REES)"
+    ],
+    [
+      "W. EVERGREEN AV. (W. REES)",
+      "N. HALSTED"
+    ],
+    [
+      "N. HALSTED",
+      "W. DIVISION"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3231,
+            676
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DAYTON x W. EVERGREEN AV. (W. REES)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6493543140799,
+            41.90635944574908
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5245,
+            676
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EVERGREEN AV. (W. REES) x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64815642739026,
+            41.90637894363095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5245,
+            6679
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64809420876098,
+            41.90363709551224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65097961530783,
+            41.90630038615852
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5323,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64810452475774,
+            41.906344871295644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65090560181555,
+            41.903650787134715
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

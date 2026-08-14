@@ -1,0 +1,205 @@
+{
+  "page": "110",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.99,
+  "auto_residuals_m": [
+    2.89,
+    3.03,
+    2.41,
+    2.21,
+    5.58,
+    5.1,
+    5.53,
+    4.7
+  ],
+  "inlier_streets": [
+    [
+      "W. MADISON",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. MADISON",
+      "S. HOMAN AV."
+    ],
+    [
+      "W. MONROE",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. MONROE",
+      "S. HOMAN AV."
+    ],
+    [
+      "S. ST. LOUIS AV.",
+      "W. ADAMS"
+    ],
+    [
+      "S. ST. LOUIS AV.",
+      "W. JACKSON BLVD"
+    ],
+    [
+      "S. HOMAN AV.",
+      "W. ADAMS"
+    ],
+    [
+      "S. HOMAN AV.",
+      "W. JACKSON BLVD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            890,
+            496
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71357799547923,
+            41.880865434889095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5072,
+            496
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71096872332743,
+            41.88089786690458
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            890,
+            3421
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71352479159079,
+            41.87954076286421
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5072,
+            3421
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71092868601977,
+            41.879572879264664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            890,
+            6186
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71348363726244,
+            41.8782768248724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            890,
+            8301
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x W. JACKSON BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71345010206518,
+            41.87722225555901
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5072,
+            6186
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOMAN AV. x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71088954436686,
+            41.87830962805824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5072,
+            8301
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOMAN AV. x W. JACKSON BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71084926600082,
+            41.877258283592646
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.098,
+    "dy_m": -2.837
+  }
+}

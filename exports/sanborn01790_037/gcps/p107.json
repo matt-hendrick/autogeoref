@@ -1,0 +1,186 @@
+{
+  "page": "107",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. MADISON",
+      "S. 52ND AV."
+    ],
+    [
+      "W. MONROE",
+      "S. 52ND AV."
+    ],
+    [
+      "S. 52ND AV.",
+      "W. ADAMS"
+    ],
+    [
+      "S. 52ND AV.",
+      "W. QUINCY"
+    ],
+    [
+      "S. 52ND AV.",
+      "W. JACKSON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            266,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. 52ND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75506689177391,
+            41.88037184606608
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            266,
+            2285
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. 52ND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75502923445121,
+            41.87937642656878
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            266,
+            4324
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 52ND AV. x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7549962155895,
+            41.878471324892686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            266,
+            6327
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 52ND AV. x W. QUINCY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75496320191719,
+            41.87756602001809
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            266,
+            8381
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 52ND AV. x W. JACKSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7549294065161,
+            41.87665941576931
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75482634736348,
+            41.880088361109266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5262,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75193478535492,
+            41.880114974359934
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75477435996987,
+            41.87695707006273
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.9693,
+    "separation_ratio": 1.001,
+    "best_offset_m": 11.7,
+    "n_junctions": 3
+  }
+}

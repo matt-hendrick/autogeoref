@@ -1,0 +1,109 @@
+{
+  "page": "97",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 0.91,
+  "auto_residuals_m": [
+    4.86,
+    4.87,
+    4.9,
+    4.9
+  ],
+  "inlier_streets": [
+    [
+      "MONTROSE AV.",
+      "N. KILBOURN AV."
+    ],
+    [
+      "MONTROSE AV.",
+      "N. KENNETH AV."
+    ],
+    [
+      "N. KILBOURN AV.",
+      "BERTEAU AV."
+    ],
+    [
+      "N. KENNETH AV.",
+      "BERTEAU AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2991,
+            257
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. KILBOURN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74121984529876,
+            41.9607969809014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5311,
+            257
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. KENNETH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73982171091713,
+            41.960811604956206
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2991,
+            8162
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILBOURN AV. x BERTEAU AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74063296832415,
+            41.95711489384526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5311,
+            8162
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENNETH AV. x BERTEAU AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7394103023121,
+            41.95713119999625
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,138 @@
+{
+  "page": "52S",
+  "n_streets": 8,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. ADAMS",
+      "S. CLARK"
+    ],
+    [
+      "S. CLARK",
+      "W. QUINCY"
+    ],
+    [
+      "S. CLARK",
+      "W. JACKSON BLVD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4191,
+            2243
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63081997102897,
+            41.87941409078617
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4191,
+            3658
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLARK x W. QUINCY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63080277904756,
+            41.8787856504593
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4191,
+            5082
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLARK x W. JACKSON BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6307852767682,
+            41.878147948261876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63302521989735,
+            41.88008878239968
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5216,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63020208351064,
+            41.88011652552144
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63297813291157,
+            41.877432546727206
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

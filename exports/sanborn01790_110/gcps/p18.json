@@ -1,0 +1,186 @@
+{
+  "page": "18",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 47TH ST.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "W. 47TH PL.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "S. OAKLEY AV.",
+      "W. 48TH ST."
+    ],
+    [
+      "S. OAKLEY AV.",
+      "W. 48TH PL."
+    ],
+    [
+      "S. OAKLEY AV.",
+      "W. 49TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            829,
+            317
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 47TH ST. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68198711764616,
+            41.80843350099796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            829,
+            2330
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 47TH PL. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6819576072516,
+            41.807523243311145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            829,
+            4316
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY AV. x W. 48TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68193129379104,
+            41.80661413808963
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            829,
+            6238
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY AV. x W. 48TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68189967032674,
+            41.80571103508752
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            829,
+            8136
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY AV. x W. 49TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68192243788565,
+            41.80485747335081
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            581,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68213811755501,
+            41.808194903691
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5229,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67927390398461,
+            41.80824112107672
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            581,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6820473617252,
+            41.805069966961405
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6841,
+    "separation_ratio": 1.165,
+    "best_offset_m": 1.8,
+    "n_junctions": 10
+  }
+}

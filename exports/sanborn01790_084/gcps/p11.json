@@ -1,0 +1,136 @@
+{
+  "page": "11",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 0.93,
+  "auto_residuals_m": [
+    0.72,
+    0.58,
+    0.75,
+    0.43,
+    0.41
+  ],
+  "inlier_streets": [
+    [
+      "W. MAPLE",
+      "N. LASALLE"
+    ],
+    [
+      "W. MAPLE",
+      "N. CLARK"
+    ],
+    [
+      "W. OAK",
+      "N. LASALLE"
+    ],
+    [
+      "W. OAK",
+      "N. CLARK"
+    ],
+    [
+      "N. CLARK",
+      "W. WALTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1712,
+            745
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MAPLE x N. LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63281452685418,
+            41.90182346020039
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4158,
+            745
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MAPLE x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63134580758779,
+            41.9018426972584
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1712,
+            3607
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OAK x N. LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63279597963265,
+            41.90053717572534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4158,
+            3607
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OAK x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6313076598985,
+            41.900551923406645
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4158,
+            5315
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. WALTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63128744560854,
+            41.89978826897718
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.729,
+    "dy_m": -0.121
+  }
+}

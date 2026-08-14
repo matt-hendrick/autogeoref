@@ -1,0 +1,202 @@
+{
+  "page": "8",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.01,
+  "auto_residuals_m": [
+    1.7,
+    1.95,
+    1.51,
+    1.44,
+    2.62,
+    2.67,
+    2.59,
+    2.29
+  ],
+  "inlier_streets": [
+    [
+      "CHICAGO AV.",
+      "WELLS"
+    ],
+    [
+      "CHICAGO AV.",
+      "LASALLE AV."
+    ],
+    [
+      "SUPERIOR",
+      "WELLS"
+    ],
+    [
+      "SUPERIOR",
+      "LASALLE AV."
+    ],
+    [
+      "WELLS",
+      "HURON"
+    ],
+    [
+      "WELLS",
+      "ERIE"
+    ],
+    [
+      "LASALLE AV.",
+      "HURON"
+    ],
+    [
+      "LASALLE AV.",
+      "ERIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1600,
+            549
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHICAGO AV. x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63420286756008,
+            41.89659580798892
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4197,
+            549
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHICAGO AV. x LASALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.632709509777,
+            41.896613254619275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1600,
+            2790
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUPERIOR x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63417507067966,
+            41.89559471639134
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4197,
+            2790
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUPERIOR x LASALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63269092567162,
+            41.89561363850262
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1600,
+            4566
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLS x HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63415257616138,
+            41.89479259153042
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1600,
+            6252
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLS x ERIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63413279104482,
+            41.893989065379564
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4197,
+            4566
+          ],
+          "username": "autogeoref",
+          "note": "auto: LASALLE AV. x HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6326760168239,
+            41.89481170346378
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4197,
+            6252
+          ],
+          "username": "autogeoref",
+          "note": "auto: LASALLE AV. x ERIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63266113303543,
+            41.89401109283434
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

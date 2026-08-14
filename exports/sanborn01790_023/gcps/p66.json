@@ -1,0 +1,136 @@
+{
+  "page": "66",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 1.17,
+  "auto_residuals_m": [
+    0.6,
+    0.56,
+    0.9,
+    0.83,
+    0.47
+  ],
+  "inlier_streets": [
+    [
+      "W. OHIO",
+      "N. PEORIA"
+    ],
+    [
+      "W. OHIO",
+      "N. HALSTED"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. PEORIA"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. GREEN"
+    ],
+    [
+      "W. GRAND AV.",
+      "N. HALSTED"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            674,
+            1197
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. PEORIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6499910181965,
+            41.892193957420005
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4284,
+            1197
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64763696599577,
+            41.89223689396932
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            674,
+            3607
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. PEORIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64999872505793,
+            41.8911496617069
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2493,
+            3607
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. GREEN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64882780191927,
+            41.89116260842191
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4284,
+            3607
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64765280564194,
+            41.89117847524242
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -4.003,
+    "dy_m": -1.052
+  }
+}

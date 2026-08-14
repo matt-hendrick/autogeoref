@@ -1,0 +1,255 @@
+{
+  "page": "7",
+  "n_streets": 8,
+  "n_candidates": 23,
+  "n_inliers": 8,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 71ST ST.",
+      "CRANDON AV."
+    ],
+    [
+      "E. 71ST ST.",
+      "OGLESBY AV."
+    ],
+    [
+      "CRANDON AV.",
+      "E. 72ND ST."
+    ],
+    [
+      "CRANDON AV.",
+      "E. 73RD ST."
+    ],
+    [
+      "E. 72ND ST.",
+      "OGLESBY AV."
+    ],
+    [
+      "E. 72ND ST.",
+      "YATES AV."
+    ],
+    [
+      "OGLESBY AV.",
+      "E. 73RD ST."
+    ],
+    [
+      "YATES AV.",
+      "E. 73RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            790,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 71ST ST. x CRANDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56898218354004,
+            41.766138630623345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2735,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 71ST ST. x OGLESBY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56776711833534,
+            41.76613248982586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            790,
+            4014
+          ],
+          "username": "autogeoref",
+          "note": "auto: CRANDON AV. x E. 72ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56894711875206,
+            41.76440427876478
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            790,
+            7870
+          ],
+          "username": "autogeoref",
+          "note": "auto: CRANDON AV. x E. 73RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5689101117599,
+            41.762587231986565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2735,
+            4014
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 72ND ST. x OGLESBY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56773108964984,
+            41.76441669692141
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4795,
+            4014
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 72ND ST. x YATES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56651925639197,
+            41.7644287119802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2735,
+            7870
+          ],
+          "username": "autogeoref",
+          "note": "auto: OGLESBY AV. x E. 73RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56769710550876,
+            41.76259979098326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4795,
+            7870
+          ],
+          "username": "autogeoref",
+          "note": "auto: YATES AV. x E. 73RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56648276215877,
+            41.76261317293904
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56913554588202,
+            41.76586471489438
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56634132019298,
+            41.76590102881207
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5690641390475,
+            41.762807907207076
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -3.6,
+    "dy_m": -0.93
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8624,
+    "separation_ratio": 1.096,
+    "best_offset_m": 9.5,
+    "n_junctions": 9
+  }
+}

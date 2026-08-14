@@ -1,0 +1,159 @@
+{
+  "page": "116",
+  "n_streets": 7,
+  "n_candidates": 19,
+  "n_inliers": 6,
+  "rotation_deg": 0.72,
+  "auto_residuals_m": [
+    3.7,
+    3.51,
+    6.12,
+    6.06,
+    2.39,
+    2.52
+  ],
+  "inlier_streets": [
+    [
+      "BLOOMINGDALE AV. (ROAD)",
+      "HUMBOLDT B'LV'D."
+    ],
+    [
+      "BLOOMINGDALE AV. (ROAD)",
+      "N. FRANCISCO AV."
+    ],
+    [
+      "W. WABANSIA AV.",
+      "HUMBOLDT B'LV'D."
+    ],
+    [
+      "W. WABANSIA AV.",
+      "N. FRANCISCO AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "HUMBOLDT B'LV'D."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. FRANCISCO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            656,
+            194
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. (ROAD) x HUMBOLDT B'LV'D."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70165878279312,
+            41.913931974171135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4860,
+            194
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. (ROAD) x N. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6992185461466,
+            41.913953481318856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            656,
+            3444
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WABANSIA AV. x HUMBOLDT B'LV'D."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70160837463463,
+            41.91233177905667
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4860,
+            3444
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WABANSIA AV. x N. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69917313192454,
+            41.91235492064802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            656,
+            8106
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x HUMBOLDT B'LV'D."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70154241482928,
+            41.910187190109234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4860,
+            8106
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69910546443658,
+            41.91021081879191
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.804,
+    "dy_m": 1.865
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "page": "28",
+  "n_streets": 9,
+  "n_candidates": 15,
+  "n_inliers": 9,
+  "rotation_deg": 1.52,
+  "auto_residuals_m": [
+    2.89,
+    2.28,
+    6.44,
+    4.91,
+    3.03,
+    3.25,
+    11.38,
+    6.51,
+    9.25
+  ],
+  "inlier_streets": [
+    [
+      "W. FRY",
+      "N. ELIZABETH"
+    ],
+    [
+      "W. FRY",
+      "N. RACINE"
+    ],
+    [
+      "N. ELIZABETH",
+      "W. CHICAGO AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. ELIZABETH (KEITH)"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. RACINE"
+    ],
+    [
+      "N. ELIZABETH (KEITH)",
+      "W. HURON"
+    ],
+    [
+      "N. WILLARD CT. (AYRES CT.)",
+      "W. SUPERIOR ST."
+    ],
+    [
+      "N. WILLARD CT. (AYRES CT.)",
+      "W. HURON"
+    ],
+    [
+      "N. RACINE",
+      "W. HURON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            840,
+            546
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FRY x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66002084685394,
+            41.89711108585898
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4906,
+            546
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FRY x N. RACINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65757791016382,
+            41.89716373568201
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            840,
+            2570
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELIZABETH x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65999486787636,
+            41.89618992259957
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1499,
+            2570
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. ELIZABETH (KEITH)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65950779038279,
+            41.89619713727336
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4906,
+            2570
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. RACINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65754723137402,
+            41.89622989416039
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1499,
+            6666
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELIZABETH (KEITH) x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65946268094874,
+            41.894377266602525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2982,
+            4720
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WILLARD CT. (AYRES CT.) x W. SUPERIOR ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.658519092254,
+            41.8952966716605
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2982,
+            6666
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WILLARD CT. (AYRES CT.) x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65849833894393,
+            41.8943931348446
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4906,
+            6666
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RACINE x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65750187833146,
+            41.894409981310716
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -4.095,
+    "dy_m": 0.291
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "page": "76",
+  "n_streets": 10,
+  "n_candidates": 11,
+  "n_inliers": 9,
+  "rotation_deg": 0.8,
+  "auto_residuals_m": [
+    3.23,
+    4.12,
+    4.3,
+    4.76,
+    0.52,
+    1.36,
+    0.63,
+    1.47,
+    0.87
+  ],
+  "inlier_streets": [
+    [
+      "W. 53RD ST.",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. 53RD ST.",
+      "S. SEELEY AV."
+    ],
+    [
+      "W. 53RD PL.",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. 53RD PL.",
+      "S. SEELEY AV."
+    ],
+    [
+      "W. 54TH ST.",
+      "S. HOYNE AV."
+    ],
+    [
+      "W. 54TH ST.",
+      "S. SEELEY AV."
+    ],
+    [
+      "S. HOYNE AV.",
+      "W. 54TH PL."
+    ],
+    [
+      "S. HOYNE AV.",
+      "W. GARFIELD BLVD"
+    ],
+    [
+      "S. SEELEY AV.",
+      "W. GARFIELD BLVD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            710,
+            324
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 53RD ST. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67684026054762,
+            41.79751237264828
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2652,
+            324
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 53RD ST. x S. SEELEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6756698265247,
+            41.79752589390441
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            710,
+            2254
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 53RD PL. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6768157965017,
+            41.79662136385839
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2652,
+            2254
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 53RD PL. x S. SEELEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67559861954132,
+            41.79663514087786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            710,
+            4045
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 54TH ST. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67679031659387,
+            41.795716538774684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2652,
+            4045
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 54TH ST. x S. SEELEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67557404921523,
+            41.79572825046985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            710,
+            5952
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x W. 54TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67676379189498,
+            41.79479380219997
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            710,
+            7813
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x W. GARFIELD BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67673885487191,
+            41.79387664106034
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2652,
+            7813
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SEELEY AV. x W. GARFIELD BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67552337258437,
+            41.79389100637011
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.389,
+    "dy_m": -2.057
+  }
+}

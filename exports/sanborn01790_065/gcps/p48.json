@@ -1,0 +1,136 @@
+{
+  "page": "48",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 5,
+  "rotation_deg": 0.41,
+  "auto_residuals_m": [
+    2.9,
+    3.62,
+    2.47,
+    0.73,
+    2.5
+  ],
+  "inlier_streets": [
+    [
+      "E. 101ST. ST.",
+      "S. EWING"
+    ],
+    [
+      "E. 102ND ST.",
+      "S. EWING"
+    ],
+    [
+      "E. 102ND ST.",
+      "S. AVENUE H"
+    ],
+    [
+      "S. EWING",
+      "E. 103RD ST."
+    ],
+    [
+      "S. AVENUE H",
+      "E. 103RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            989,
+            247
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 101ST. ST. x S. EWING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53526856521316,
+            41.71196129334036
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            989,
+            4273
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 102ND ST. x S. EWING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53527436593862,
+            41.71003464682538
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4945,
+            4273
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 102ND ST. x S. AVENUE H"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5328550968664,
+            41.71003992013842
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            989,
+            7951
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EWING x E. 103RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.535278499439,
+            41.70820539271124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4945,
+            7951
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. AVENUE H x E. 103RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.53285881682076,
+            41.708206518615306
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.113,
+    "dy_m": -1.675
+  }
+}

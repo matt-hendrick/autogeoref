@@ -1,0 +1,165 @@
+{
+  "page": "18",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N. BELL AV. (PINGREE)",
+      "W. CHASE AV."
+    ],
+    [
+      "N. OAKLEY AV. (ELLWOOD)",
+      "W. CHASE AV."
+    ],
+    [
+      "W. CHASE AV.",
+      "N. CLAREMONT AV. (BARTON AV.)"
+    ],
+    [
+      "W. CHASE AV.",
+      "N. WESTERN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            529,
+            778
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BELL AV. (PINGREE) x W. CHASE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68619163439706,
+            42.01406092746698
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            529,
+            2987
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. (ELLWOOD) x W. CHASE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68753537103143,
+            42.01407620848387
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            529,
+            5211
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHASE AV. x N. CLAREMONT AV. (BARTON AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68888584079745,
+            42.01409120724221
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            529,
+            7426
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHASE AV. x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69023209799535,
+            42.014105061701535
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            561,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68621435919097,
+            42.01408732687259
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5046,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6861804143191,
+            42.01203991688843
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            561,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69039375240334,
+            42.014049075740914
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -89.0527,
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.7892,
+    "separation_ratio": 0.999,
+    "best_offset_m": 89.5,
+    "n_junctions": 7
+  }
+}

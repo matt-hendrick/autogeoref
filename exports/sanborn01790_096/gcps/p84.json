@@ -1,0 +1,228 @@
+{
+  "page": "84",
+  "n_streets": 13,
+  "n_candidates": 20,
+  "n_inliers": 9,
+  "rotation_deg": -88.65,
+  "auto_residuals_m": [
+    4.43,
+    12.4,
+    6.59,
+    0.66,
+    2.05,
+    0.38,
+    4.33,
+    3.22,
+    8.92
+  ],
+  "inlier_streets": [
+    [
+      "CHARLESTON ST.",
+      "N. WESTERN AV."
+    ],
+    [
+      "CHARLESTON ST.",
+      "N. CAMPBELL AV. (POWELL AV.)"
+    ],
+    [
+      "CHARLESTON ST.",
+      "N. MAPLEWOOD AV."
+    ],
+    [
+      "N. WESTERN AV.",
+      "W. MCLEAN AV."
+    ],
+    [
+      "N. WESTERN AV.",
+      "W. ARMITAGE AV."
+    ],
+    [
+      "N. WESTERN AV.",
+      "CHARLESTON"
+    ],
+    [
+      "W. MCLEAN AV.",
+      "N. CAMPBELL AV. (POWELL AV.)"
+    ],
+    [
+      "N. CAMPBELL AV. (POWELL AV.)",
+      "CHARLESTON"
+    ],
+    [
+      "CHARLESTON",
+      "N. MAPLEWOOD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            491,
+            1811
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHARLESTON ST. x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6874786531565,
+            41.919877624058685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            491,
+            4696
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHARLESTON ST. x N. CAMPBELL AV. (POWELL AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68923587305193,
+            41.92000612462299
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            491,
+            8126
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHARLESTON ST. x N. MAPLEWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6913469456658,
+            41.91998633605334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3246,
+            1811
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x W. MCLEAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68743866572422,
+            41.91861546621403
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5457,
+            1811
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x W. ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6874054178413,
+            41.91759825375767
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            270,
+            1811
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x CHARLESTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6874823248891,
+            41.920010739964276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3246,
+            4696
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MCLEAN AV. x N. CAMPBELL AV. (POWELL AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68919087085274,
+            41.91860684067332
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            270,
+            4696
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL AV. (POWELL AV.) x CHARLESTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68923587305193,
+            41.92000612462299
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            270,
+            8126
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHARLESTON x N. MAPLEWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6913469456658,
+            41.91998633605334
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.509,
+    "dy_m": 4.565
+  }
+}

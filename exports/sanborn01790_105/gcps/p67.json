@@ -1,0 +1,182 @@
+{
+  "page": "67",
+  "n_streets": 12,
+  "n_candidates": 14,
+  "n_inliers": 7,
+  "rotation_deg": 0.48,
+  "auto_residuals_m": [
+    3.29,
+    6.51,
+    4.31,
+    2.45,
+    4.12,
+    3.69,
+    2.99
+  ],
+  "inlier_streets": [
+    [
+      "W. LAKE",
+      "N. CENTRAL AV."
+    ],
+    [
+      "W. LAKE",
+      "(N. PARK AV.) N. PARKSIDE AV."
+    ],
+    [
+      "W. LAKE",
+      "N.(S.) CENTRAL AV."
+    ],
+    [
+      "N. CENTRAL AV.",
+      "WEST END AV. (RANDOLPH ST.)"
+    ],
+    [
+      "N.(S.) WALLER AV.",
+      "WEST END AV. (RANDOLPH ST.)"
+    ],
+    [
+      "(N. PARK AV.) N. PARKSIDE AV.",
+      "WEST END AV. (RANDOLPH ST.)"
+    ],
+    [
+      "N.(S.) CENTRAL AV.",
+      "WEST END AV. (RANDOLPH ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5530,
+            302
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76508224413628,
+            41.88773984381346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2849,
+            302
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x (N. PARK AV.) N. PARKSIDE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76674145614349,
+            41.887791880856824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5589,
+            302
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N.(S.) CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76508224413628,
+            41.88773984381346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5530,
+            8215
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL AV. x WEST END AV. (RANDOLPH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76496465957112,
+            41.88424642446633
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            334,
+            8215
+          ],
+          "username": "autogeoref",
+          "note": "auto: N.(S.) WALLER AV. x WEST END AV. (RANDOLPH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7682341224155,
+            41.88419470580792
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2849,
+            8215
+          ],
+          "username": "autogeoref",
+          "note": "auto: (N. PARK AV.) N. PARKSIDE AV. x WEST END AV. (RANDOLPH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7666126888124,
+            41.88421991722585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5589,
+            8215
+          ],
+          "username": "autogeoref",
+          "note": "auto: N.(S.) CENTRAL AV. x WEST END AV. (RANDOLPH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76496465957112,
+            41.88424642446633
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.138,
+    "dy_m": 1.637
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "page": "71",
+  "n_streets": 9,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "status": "OK (verified: corroboration+junction)",
+  "rescue_anchors": [
+    [
+      "W. RANDOLPH",
+      "S. HALSTED"
+    ],
+    [
+      "W. RANDOLPH",
+      "S. HALSTED"
+    ],
+    [
+      "W. WASHINGTON",
+      "S. HALSTED"
+    ],
+    [
+      "W. MADISON",
+      "S. HALSTED"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1536,
+            665
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64743284255557,
+            41.88429326866873
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1536,
+            665
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64743635398656,
+            41.88440647398417
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1536,
+            3343
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64740458962416,
+            41.883146147394534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1536,
+            6434
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64736007193765,
+            41.88177784426841
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64800922984311,
+            41.88432704898807
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5254,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64517510069591,
+            41.884365370374276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64794570407626,
+            41.88172293674046
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8168,
+    "separation_ratio": 1.128,
+    "best_offset_m": 4.6,
+    "n_junctions": 18
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": null
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5"
+      ],
+      "consensus_numerals": 0,
+      "votable": 0,
+      "in_block": 0,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": []
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "page": "72",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.65,
+  "auto_residuals_m": [
+    0.09,
+    0.09,
+    0.1,
+    0.1
+  ],
+  "inlier_streets": [
+    [
+      "W. 19TH",
+      "S. HOMAN AV."
+    ],
+    [
+      "W. 19TH",
+      "S. SPAULDING AV."
+    ],
+    [
+      "W. 21ST",
+      "S. HOMAN AV."
+    ],
+    [
+      "W. 21ST",
+      "S. SPAULDING AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            874,
+            319
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH x S. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71023125764383,
+            41.85537716743348
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4977,
+            319
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH x S. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70779552174467,
+            41.85539685375508
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            874,
+            4233
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST x S. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71017814090382,
+            41.853549486933986
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4977,
+            4233
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST x S. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7077396816758,
+            41.85357076553241
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

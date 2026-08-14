@@ -1,0 +1,184 @@
+{
+  "page": "45",
+  "n_streets": 11,
+  "n_candidates": 12,
+  "n_inliers": 7,
+  "rotation_deg": 1.35,
+  "auto_residuals_m": [
+    0.72,
+    0.86,
+    5.34,
+    5.0,
+    15.44,
+    1.9,
+    4.7
+  ],
+  "inlier_streets": [
+    [
+      "W. 16TH ST.",
+      "S. CLINTON (BURLINGTON)"
+    ],
+    [
+      "W. 16TH ST.",
+      "S. CANAL"
+    ],
+    [
+      "S. CLINTON (BURLINGTON)",
+      "W. 18TH ST."
+    ],
+    [
+      "S. NORMAL AVE.",
+      "W. 18TH ST."
+    ],
+    [
+      "S. NORMAL AVE.",
+      "CANALPORT AV."
+    ],
+    [
+      "S. CANAL",
+      "W. 17TH ST."
+    ],
+    [
+      "S. CANAL",
+      "W. 18TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1326,
+            1021
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH ST. x S. CLINTON (BURLINGTON)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64094881023023,
+            41.860015336205926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4494,
+            1021
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH ST. x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6390149778515,
+            41.86003923545498
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1326,
+            6124
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLINTON (BURLINGTON) x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64087041301858,
+            41.857656081124716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2871,
+            6124
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. NORMAL AVE. x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63996813353181,
+            41.8576693562715
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2871,
+            5843
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. NORMAL AVE. x CANALPORT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63996813353181,
+            41.8576693562715
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4494,
+            3568
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CANAL x W. 17TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63897571363997,
+            41.85886481563308
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4494,
+            6124
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CANAL x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6389370347382,
+            41.85768668420579
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -0.146,
+    "dy_m": 3.17
+  }
+}

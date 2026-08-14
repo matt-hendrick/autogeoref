@@ -1,0 +1,141 @@
+{
+  "page": "53",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. CERMAK RD (E. 22ND ST.)",
+      "S. PRAIRIE AV. BLVD."
+    ],
+    [
+      "E. CERMAK RD (E. 22ND ST.)",
+      "CALUMET AV."
+    ],
+    [
+      "S. PRAIRIE AV. BLVD.",
+      "E. 23RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1600,
+            844
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CERMAK RD (E. 22ND ST.) x S. PRAIRIE AV. BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62066449700608,
+            41.85290975880621
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4277,
+            844
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CERMAK RD (E. 22ND ST.) x CALUMET AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6190406680195,
+            41.85300185053043
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1600,
+            4683
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PRAIRIE AV. BLVD. x E. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62061857638265,
+            41.851153837717646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62128734534514,
+            41.852970129731425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5243,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61844792815833,
+            41.85301015741999
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62121979853283,
+            41.850311663616694
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5626,
+    "separation_ratio": 1.222,
+    "best_offset_m": 21.9,
+    "n_junctions": 10
+  }
+}

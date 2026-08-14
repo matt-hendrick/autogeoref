@@ -1,0 +1,155 @@
+{
+  "page": "102",
+  "n_streets": 5,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 1.23,
+  "auto_residuals_m": [
+    1.69,
+    3.03,
+    1.34,
+    1.33,
+    2.93,
+    1.61
+  ],
+  "inlier_streets": [
+    [
+      "W. MADISON",
+      "S. MAYFIELD AV. (FIFTH TOWN AVE.)"
+    ],
+    [
+      "W. MADISON",
+      "S. MENARD AV. (S. PRAIRIE AV.)"
+    ],
+    [
+      "W. MADISON",
+      "S. WALLER AV."
+    ],
+    [
+      "S. MAYFIELD AV. (FIFTH TOWN AVE.)",
+      "W. ADAMS BLVD."
+    ],
+    [
+      "S. MENARD AV. (S. PRAIRIE AV.)",
+      "W. ADAMS BLVD."
+    ],
+    [
+      "S. WALLER AV.",
+      "W. ADAMS BLVD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            342,
+            291
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. MAYFIELD AV. (FIFTH TOWN AVE.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77139810141522,
+            41.8801400636342
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2889,
+            291
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. MENARD AV. (S. PRAIRIE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76975918638793,
+            41.88016659526128
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5564,
+            291
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. WALLER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76812153950834,
+            41.880194667922865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            342,
+            5375
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MAYFIELD AV. (FIFTH TOWN AVE.) x W. ADAMS BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77130090373066,
+            41.877658831853346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2889,
+            5375
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MENARD AV. (S. PRAIRIE AV.) x W. ADAMS BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76966617274893,
+            41.87768440301978
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5564,
+            5375
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WALLER AV. x W. ADAMS BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76802995943164,
+            41.87770882807795
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

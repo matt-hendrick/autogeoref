@@ -1,0 +1,186 @@
+{
+  "page": "105",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. MADISON",
+      "S. LOTUS (S. WALNUT)"
+    ],
+    [
+      "W. MONROE",
+      "S. LOTUS (S. WALNUT)"
+    ],
+    [
+      "W. ADAMS",
+      "S. LOTUS (S. WALNUT)"
+    ],
+    [
+      "S. LOTUS (S. WALNUT)",
+      "W. QUINCY"
+    ],
+    [
+      "S. LOTUS (S. WALNUT)",
+      "W. JACKSON BLVD. (ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            128,
+            302
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. LOTUS (S. WALNUT)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76182370291399,
+            41.88028657519914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            128,
+            2260
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. LOTUS (S. WALNUT)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76178922491444,
+            41.879290839345664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            128,
+            4278
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. LOTUS (S. WALNUT)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76175528993,
+            41.87838463173259
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            128,
+            6272
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LOTUS (S. WALNUT) x W. QUINCY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7617245623539,
+            41.87747872588397
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            128,
+            8165
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LOTUS (S. WALNUT) x W. JACKSON BLVD. (ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76169164464889,
+            41.87656913415633
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76151012427573,
+            41.87997065873875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5244,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75863199603592,
+            41.88000555933118
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76144170613168,
+            41.876842844177226
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.5779,
+    "separation_ratio": 0.898,
+    "best_offset_m": 78.0,
+    "n_junctions": 7
+  }
+}

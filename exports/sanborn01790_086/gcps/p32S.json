@@ -1,0 +1,205 @@
+{
+  "page": "32S",
+  "n_streets": 11,
+  "n_candidates": 16,
+  "n_inliers": 8,
+  "rotation_deg": 1.22,
+  "auto_residuals_m": [
+    8.32,
+    7.1,
+    7.31,
+    2.0,
+    7.66,
+    3.01,
+    8.76,
+    8.5
+  ],
+  "inlier_streets": [
+    [
+      "N. DEARBORN",
+      "W. WASHINGTON"
+    ],
+    [
+      "N. DEARBORN",
+      "W. MADISON"
+    ],
+    [
+      "N. DEARBORN",
+      "N. CALHOUN PL."
+    ],
+    [
+      "W. WASHINGTON",
+      "N. STATE"
+    ],
+    [
+      "W. WASHINGTON",
+      "N. DEARBORN"
+    ],
+    [
+      "W. MADISON",
+      "N. STATE"
+    ],
+    [
+      "W. MADISON",
+      "N. DEARBORN"
+    ],
+    [
+      "N. DEARBORN",
+      "N. CALHOUN PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1772,
+            2283
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DEARBORN x W. WASHINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62940203038858,
+            41.88322238665439
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1772,
+            4948
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DEARBORN x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62936901972832,
+            41.8820054900362
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1772,
+            3659
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DEARBORN x N. CALHOUN PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62938781197509,
+            41.88258953454758
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4271,
+            2283
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON x N. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62783639306056,
+            41.88322558572778
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1988,
+            2283
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WASHINGTON x N. DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62940203038858,
+            41.88322238665439
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4271,
+            4948
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x N. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6277727692237,
+            41.882049536100816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1988,
+            4948
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x N. DEARBORN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62936901972832,
+            41.8820054900362
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1988,
+            3659
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. DEARBORN x N. CALHOUN PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62938781197509,
+            41.88258953454758
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.711,
+    "dy_m": 1.121
+  }
+}

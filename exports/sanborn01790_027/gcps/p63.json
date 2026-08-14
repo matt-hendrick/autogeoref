@@ -1,0 +1,132 @@
+{
+  "page": "63",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.14,
+  "auto_residuals_m": [
+    0.73,
+    0.41,
+    0.72,
+    1.45,
+    1.07
+  ],
+  "inlier_streets": [
+    [
+      "FULLERTON AV.",
+      "N. HARDING AV."
+    ],
+    [
+      "FULLERTON AV.",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "N. HARDING AV.",
+      "BELDEN AV."
+    ],
+    [
+      "BELDEN AV.",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "N. SPRINGFIELD AV.",
+      "PALMER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2374,
+            229
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72555139712588,
+            41.92449914138997
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4358,
+            229
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72432683986098,
+            41.92451509692798
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2374,
+            4125
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HARDING AV. x BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72549349130176,
+            41.9226699058936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4358,
+            4125
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72427405001427,
+            41.92268313334475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4358,
+            8083
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPRINGFIELD AV. x PALMER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72421765644205,
+            41.9208511346766
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

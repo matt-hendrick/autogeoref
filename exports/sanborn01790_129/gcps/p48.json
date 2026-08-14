@@ -1,0 +1,109 @@
+{
+  "page": "48",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.04,
+  "auto_residuals_m": [
+    0.21,
+    0.23,
+    0.23,
+    0.19
+  ],
+  "inlier_streets": [
+    [
+      "W. MONTROSE AV.",
+      "N. MOBILE AV."
+    ],
+    [
+      "W. MONTROSE AV.",
+      "N. MELVINA AV."
+    ],
+    [
+      "N. MOBILE AV.",
+      "W. BERTEAU AV."
+    ],
+    [
+      "N. MELVINA AV.",
+      "W. BERTEAU AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            765,
+            268
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONTROSE AV. x N. MOBILE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78435804997353,
+            41.96025037044529
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4591,
+            268
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONTROSE AV. x N. MELVINA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.781906484959,
+            41.96028452278488
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            765,
+            7776
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MOBILE AV. x W. BERTEAU AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78423756173626,
+            41.95660183423468
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4591,
+            7776
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MELVINA AV. x W. BERTEAU AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7817931347209,
+            41.95663381322398
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

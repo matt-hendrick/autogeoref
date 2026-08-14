@@ -1,0 +1,159 @@
+{
+  "page": "78",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": -0.53,
+  "auto_residuals_m": [
+    8.82,
+    7.37,
+    12.7,
+    7.82,
+    10.13,
+    4.91
+  ],
+  "inlier_streets": [
+    [
+      "N. KILDARE AV.",
+      "SUNNYSIDE AV."
+    ],
+    [
+      "N. KILDARE AV.",
+      "MONTROSE AV."
+    ],
+    [
+      "SUNNYSIDE AV.",
+      "N. TRIPP AV."
+    ],
+    [
+      "N. TRIPP AV.",
+      "MONTROSE AV."
+    ],
+    [
+      "N. TRIPP AV.",
+      "KEOKUK"
+    ],
+    [
+      "MONTROSE AV.",
+      "N. KEELER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            372,
+            5477
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILDARE AV. x SUNNYSIDE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73567171724935,
+            41.96195415161674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            372,
+            7777
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILDARE AV. x MONTROSE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73564269627951,
+            41.96083440683499
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2649,
+            5477
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUNNYSIDE AV. x N. TRIPP AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73422205737775,
+            41.96197417556823
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2649,
+            7777
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. TRIPP AV. x MONTROSE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73417632938303,
+            41.96084916850735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2649,
+            3185
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. TRIPP AV. x KEOKUK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7342526429492,
+            41.9628392554107
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5228,
+            7777
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. KEELER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73270936610923,
+            41.96086609546515
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.272,
+    "dy_m": -3.91
+  }
+}

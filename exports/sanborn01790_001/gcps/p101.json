@@ -1,0 +1,167 @@
+{
+  "page": "101",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "ADDISON",
+      "WILTON AVE."
+    ],
+    [
+      "ADDISON",
+      "SHEFFIELD AVE"
+    ],
+    [
+      "SHEFFIELD AVE",
+      "CORNELIA"
+    ],
+    [
+      "SHEFFIELD AVE",
+      "ROSCOE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2235,
+            96
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADDISON x WILTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65307558219978,
+            41.94727077165614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            117,
+            96
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADDISON x SHEFFIELD AVE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65428946369178,
+            41.94724993203655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            117,
+            4281
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHEFFIELD AVE x CORNELIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65423071665076,
+            41.945401408208554
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            117,
+            8275
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHEFFIELD AVE x ROSCOE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65417889129719,
+            41.94357593576782
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.654030213792,
+            41.946945977209715
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65132619847397,
+            41.946985993196485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65394907218223,
+            41.94391278553749
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 4.553,
+    "dy_m": 0.8
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.845,
+    "separation_ratio": 1.005,
+    "best_offset_m": 9.3,
+    "n_junctions": 3
+  }
+}

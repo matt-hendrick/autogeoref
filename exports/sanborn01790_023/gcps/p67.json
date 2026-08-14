@@ -1,0 +1,132 @@
+{
+  "page": "67",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "rotation_deg": 1.75,
+  "auto_residuals_m": [
+    1.24,
+    0.17,
+    1.22,
+    2.63,
+    2.55
+  ],
+  "inlier_streets": [
+    [
+      "W. KINZIE ST.",
+      "N. CLAREMONT AV."
+    ],
+    [
+      "W. KINZIE ST.",
+      "N. OAKLEY BLVD"
+    ],
+    [
+      "N. CLAREMONT AV.",
+      "FULTON"
+    ],
+    [
+      "N. OAKLEY BLVD",
+      "FULTON"
+    ],
+    [
+      "N. OAKLEY BLVD",
+      "WALNUT"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3066,
+            372
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE ST. x N. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68541048178461,
+            41.8885817530473
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5175,
+            372
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE ST. x N. OAKLEY BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68418364110369,
+            41.88860180755523
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3066,
+            4697
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLAREMONT AV. x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68535377558472,
+            41.88664127754677
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5175,
+            4697
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY BLVD x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6841214830121,
+            41.88666011297794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5175,
+            6833
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY BLVD x WALNUT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68410173587758,
+            41.885744045327726
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

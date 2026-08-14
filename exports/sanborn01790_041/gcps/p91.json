@@ -1,0 +1,142 @@
+{
+  "page": "91",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 45TH ST.",
+      "S. ALBANY AV."
+    ],
+    [
+      "W. 45TH ST.",
+      "S. WHIPPLE"
+    ],
+    [
+      "W. 45TH ST.",
+      "S. SACRAMENTO"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            398,
+            8225
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 45TH ST. x S. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70165098476103,
+            41.81179659647159
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2251,
+            8225
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 45TH ST. x S. WHIPPLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70043306480473,
+            41.81181620936706
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4139,
+            8225
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 45TH ST. x S. SACRAMENTO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69921531035259,
+            41.81183540849822
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7015796556452,
+            41.815201991402674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5281,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69867229295127,
+            41.81525349333602
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70147951134373,
+            41.81206167347776
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.917,
+    "separation_ratio": 1.008,
+    "best_offset_m": 5.3,
+    "n_junctions": 9
+  }
+}

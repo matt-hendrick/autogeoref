@@ -1,0 +1,163 @@
+{
+  "page": "5",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. HARRISON",
+      "S. CENTRAL AV."
+    ],
+    [
+      "W. HARRISON",
+      "S. LOTUS AV."
+    ],
+    [
+      "FLOURNOY",
+      "S. CENTRAL AV."
+    ],
+    [
+      "FLOURNOY",
+      "S. LOTUS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            702,
+            680
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76458743090484,
+            41.87282667841069
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5642,
+            680
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. LOTUS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76154980506244,
+            41.87286479318047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            702,
+            2862
+          ],
+          "username": "autogeoref",
+          "note": "auto: FLOURNOY x S. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76456963340951,
+            41.87181349326689
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5642,
+            2862
+          ],
+          "username": "autogeoref",
+          "note": "auto: FLOURNOY x S. LOTUS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76151300273484,
+            41.87187146456164
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76469734007037,
+            41.87275222125832
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5214,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76178141073608,
+            41.872793698368326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76461557112958,
+            41.869564740831876
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6999,
+    "separation_ratio": 1.12,
+    "best_offset_m": 5.8,
+    "n_junctions": 9
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "page": "49",
+  "n_streets": 10,
+  "n_candidates": 9,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. INDIANAPOLIS AV.",
+      "E. 103RD ST."
+    ],
+    [
+      "E. 102ND ST.",
+      "S. AVENUE F."
+    ],
+    [
+      "S. AVENUE F.",
+      "E. 103RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2625,
+            8172
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. INDIANAPOLIS AV. x E. 103RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5304346511514,
+            41.70822660281759
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2516,
+            4365
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 102ND ST. x S. AVENUE F."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5305179836189,
+            41.71006759013215
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2516,
+            8172
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. AVENUE F. x E. 103RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5304346511514,
+            41.70822660281759
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            572,
+            839
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5317183601885,
+            41.71169621137787
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5144,
+            839
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.52883222760826,
+            41.71169953796251
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            572,
+            7547
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5317118224125,
+            41.70853523840248
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -4.331,
+    "dy_m": -2.032
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

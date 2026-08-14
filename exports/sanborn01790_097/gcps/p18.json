@@ -1,0 +1,205 @@
+{
+  "page": "18",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.79,
+  "auto_residuals_m": [
+    1.76,
+    1.2,
+    2.13,
+    2.55,
+    0.31,
+    0.26,
+    0.86,
+    0.21
+  ],
+  "inlier_streets": [
+    [
+      "HIRSCH",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "HIRSCH",
+      "N. HOMAN AV."
+    ],
+    [
+      "EVERGREEN AV.",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "EVERGREEN AV.",
+      "N. HOMAN AV."
+    ],
+    [
+      "N. ST. LOUIS AV.",
+      "W. POTOMAC AV."
+    ],
+    [
+      "W. POTOMAC AV.",
+      "N. HOMAN AV."
+    ],
+    [
+      "N. HOMAN AV.",
+      "CRYSTAL ST."
+    ],
+    [
+      "N. HOMAN AV.",
+      "W. DIVISION"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1020,
+            155
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71424976897883,
+            41.906408605537564
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5072,
+            155
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIRSCH x N. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71180495089784,
+            41.90643000328042
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1020,
+            2099
+          ],
+          "username": "autogeoref",
+          "note": "auto: EVERGREEN AV. x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71421948486491,
+            41.905505711783874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5072,
+            2099
+          ],
+          "username": "autogeoref",
+          "note": "auto: EVERGREEN AV. x N. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71177643829316,
+            41.90552803482031
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1020,
+            4147
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ST. LOUIS AV. x W. POTOMAC AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71419017958954,
+            41.904598191164474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5072,
+            4147
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POTOMAC AV. x N. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7117458623519,
+            41.904622982872525
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5072,
+            6169
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOMAN AV. x CRYSTAL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71171609811599,
+            41.90371491157087
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5072,
+            8187
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOMAN AV. x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71168678280762,
+            41.902800204242084
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.312,
+    "dy_m": 1.861
+  }
+}

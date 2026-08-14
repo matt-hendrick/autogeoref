@@ -1,0 +1,205 @@
+{
+  "page": "62",
+  "n_streets": 8,
+  "n_candidates": 15,
+  "n_inliers": 8,
+  "rotation_deg": 0.65,
+  "auto_residuals_m": [
+    4.8,
+    13.22,
+    4.59,
+    2.36,
+    1.91,
+    3.95,
+    2.04,
+    1.93
+  ],
+  "inlier_streets": [
+    [
+      "N. ELIZABETH",
+      "W. GRAND AV."
+    ],
+    [
+      "N. OGDEN",
+      "W. GRAND AV."
+    ],
+    [
+      "W. GRAND AV.",
+      "N. RACINE AV."
+    ],
+    [
+      "W. GRAND AV.",
+      "N. ELIZABETH"
+    ],
+    [
+      "N. RACINE AV.",
+      "W. HUBBARD (W. AUSTIN AV.)"
+    ],
+    [
+      "N. RACINE AV.",
+      "W. KINZIE"
+    ],
+    [
+      "W. HUBBARD (W. AUSTIN AV.)",
+      "N. ELIZABETH"
+    ],
+    [
+      "N. ELIZABETH",
+      "W. KINZIE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            963,
+            1715
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELIZABETH x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65955032009343,
+            41.89105548089459
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1971,
+            1715
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OGDEN x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65909421424965,
+            41.89106280495369
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4388,
+            1715
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65745449314915,
+            41.891081857840206
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1743,
+            1715
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRAND AV. x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65909421424965,
+            41.89106280495369
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4388,
+            4174
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RACINE AV. x W. HUBBARD (W. AUSTIN AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6574260780369,
+            41.88998998180911
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4388,
+            6462
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RACINE AV. x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65741469835295,
+            41.888945539604755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1743,
+            4174
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HUBBARD (W. AUSTIN AV.) x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65904088540272,
+            41.88997252557628
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1743,
+            6462
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELIZABETH x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65898881914642,
+            41.88895160336441
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -7.581,
+    "dy_m": 0.209
+  }
+}

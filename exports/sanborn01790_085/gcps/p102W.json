@@ -1,0 +1,155 @@
+{
+  "page": "102W",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.06,
+  "auto_residuals_m": [
+    0.31,
+    0.11,
+    0.38,
+    0.28,
+    0.11,
+    0.2
+  ],
+  "inlier_streets": [
+    [
+      "W. POLK",
+      "S. JEFFERSON"
+    ],
+    [
+      "W. POLK",
+      "S. CLINTON"
+    ],
+    [
+      "W. CABRINI (GILPIN PL.)",
+      "S. JEFFERSON"
+    ],
+    [
+      "W. CABRINI (GILPIN PL.)",
+      "S. CLINTON"
+    ],
+    [
+      "S. JEFFERSON",
+      "W. TAYLOR"
+    ],
+    [
+      "S. CLINTON",
+      "W. TAYLOR"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1701,
+            1294
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POLK x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64234704093296,
+            41.87198933784766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4130,
+            1294
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POLK x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64087654462146,
+            41.87200820564217
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1701,
+            2836
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CABRINI (GILPIN PL.) x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64232314818557,
+            41.871276268986456
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4130,
+            2836
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CABRINI (GILPIN PL.) x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64085323932703,
+            41.87129712715387
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1701,
+            6236
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. JEFFERSON x W. TAYLOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64227226139808,
+            41.86971723718162
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4130,
+            6236
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLINTON x W. TAYLOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64080090725452,
+            41.86973815574546
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,205 @@
+{
+  "page": "100",
+  "n_streets": 8,
+  "n_candidates": 15,
+  "n_inliers": 8,
+  "rotation_deg": 0.7,
+  "auto_residuals_m": [
+    4.91,
+    3.67,
+    7.03,
+    3.99,
+    13.58,
+    4.24,
+    8.84,
+    15.59
+  ],
+  "inlier_streets": [
+    [
+      "ARMITAGE AV.",
+      "N. ALBANY AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "HUMBOLDT BLVD"
+    ],
+    [
+      "HOMER ST.",
+      "N. ALBANY AV."
+    ],
+    [
+      "CORTLAND",
+      "N. ALBANY AV."
+    ],
+    [
+      "CORTLAND",
+      "HUMBOLDT BLVD"
+    ],
+    [
+      "N. ALBANY AV.",
+      "MOFFAT ST."
+    ],
+    [
+      "N. ALBANY AV.",
+      "BLOOMINGDALE AV."
+    ],
+    [
+      "HUMBOLDT BLVD",
+      "BLOOMINGDALE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            295
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70518090316209,
+            41.91741345783618
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5183,
+            295
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x HUMBOLDT BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70205971741896,
+            41.91744233060151
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            2250
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOMER ST. x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7052221250458,
+            41.91651688919575
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            4232
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70519341281468,
+            41.915586875928916
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5183,
+            4232
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x HUMBOLDT BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70200589154446,
+            41.91562115202696
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            6033
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ALBANY AV. x MOFFAT ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70516415322233,
+            41.91469248155562
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            8073
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ALBANY AV. x BLOOMINGDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70513660956347,
+            41.913732380856636
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5183,
+            8073
+          ],
+          "username": "autogeoref",
+          "note": "auto: HUMBOLDT BLVD x BLOOMINGDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70229452307497,
+            41.91375183206136
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.243,
+    "dy_m": -0.375
+  }
+}

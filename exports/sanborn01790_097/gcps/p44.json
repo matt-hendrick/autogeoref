@@ -1,0 +1,184 @@
+{
+  "page": "44",
+  "n_streets": 9,
+  "n_candidates": 14,
+  "n_inliers": 7,
+  "rotation_deg": 0.59,
+  "auto_residuals_m": [
+    0.19,
+    0.93,
+    0.81,
+    0.68,
+    0.57,
+    0.72,
+    0.47
+  ],
+  "inlier_streets": [
+    [
+      "W. AUGUSTA BLVD. (ST.)",
+      "N. HOMAN AV."
+    ],
+    [
+      "W. WALTON",
+      "N. HOMAN AV."
+    ],
+    [
+      "N. HOMAN AV.",
+      "W. IOWA"
+    ],
+    [
+      "N. HOMAN AV.",
+      "RICE"
+    ],
+    [
+      "N. HOMAN AV.",
+      "W. CHICAGO AV."
+    ],
+    [
+      "N. CHRISTIANA AV.",
+      "W. CHICAGO AV."
+    ],
+    [
+      "N. SPAULDING AV.",
+      "W. CHICAGO AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            849,
+            213
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. AUGUSTA BLVD. (ST.) x N. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71158614623114,
+            41.899158436496876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            849,
+            2093
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALTON x N. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71155427753143,
+            41.89825977575398
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            849,
+            4050
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOMAN AV. x W. IOWA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71152497285821,
+            41.897342730270125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            849,
+            5960
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOMAN AV. x RICE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71149616705821,
+            41.89643566648985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            849,
+            7881
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOMAN AV. x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7114659133452,
+            41.89551602802075
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3242,
+            7881
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CHRISTIANA AV. x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70993669058831,
+            41.895529957657914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4871,
+            7881
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPAULDING AV. x W. CHICAGO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70888053146146,
+            41.895540745906715
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -3.34,
+    "dy_m": 1.407
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "page": "6",
+  "n_streets": 6,
+  "n_candidates": 12,
+  "n_inliers": 9,
+  "rotation_deg": 0.79,
+  "auto_residuals_m": [
+    0.44,
+    0.58,
+    0.78,
+    0.94,
+    0.8,
+    1.07,
+    0.49,
+    0.61,
+    0.43
+  ],
+  "inlier_streets": [
+    [
+      "E. 71ST ST.",
+      "S. PAXTON AV."
+    ],
+    [
+      "E. 71ST ST.",
+      "LUELLA AV."
+    ],
+    [
+      "E. 71ST ST.",
+      "S. CRANDON AV."
+    ],
+    [
+      "E. 72ND ST.",
+      "S. PAXTON AV."
+    ],
+    [
+      "E. 72ND ST.",
+      "LUELLA AV."
+    ],
+    [
+      "E. 72ND ST.",
+      "S. CRANDON AV."
+    ],
+    [
+      "E. 73RD ST.",
+      "S. PAXTON AV."
+    ],
+    [
+      "E. 73RD ST.",
+      "LUELLA AV."
+    ],
+    [
+      "E. 73RD ST.",
+      "S. CRANDON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1439,
+            323
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 71ST ST. x S. PAXTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57140239141961,
+            41.76611921437302
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3476,
+            323
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 71ST ST. x LUELLA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57018748640036,
+            41.76613324944643
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5528,
+            323
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 71ST ST. x S. CRANDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56897646127167,
+            41.766141880250466
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1439,
+            4248
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 72ND ST. x S. PAXTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57136891746002,
+            41.764381290825284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3476,
+            4248
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 72ND ST. x LUELLA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57015478004264,
+            41.76439320168139
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5528,
+            4248
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 72ND ST. x S. CRANDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5689413964837,
+            41.764407528479744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1439,
+            8311
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 73RD ST. x S. PAXTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57132828638466,
+            41.76256444469222
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3476,
+            8311
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 73RD ST. x LUELLA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.57011500882818,
+            41.76257782634686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5528,
+            8311
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 73RD ST. x S. CRANDON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56890438949155,
+            41.76259048179356
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -2.963,
+    "dy_m": -0.445
+  }
+}

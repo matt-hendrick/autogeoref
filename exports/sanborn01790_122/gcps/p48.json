@@ -1,0 +1,220 @@
+{
+  "page": "48",
+  "n_streets": 5,
+  "n_candidates": 8,
+  "n_inliers": 3,
+  "status": "OK (verified: corroboration+junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. 95TH ST.",
+      "S. BISHOP"
+    ],
+    [
+      "W. 95TH ST.",
+      "S. BISHOP"
+    ],
+    [
+      "W. 95TH ST.",
+      "S. LOOMIS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3369,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH ST. x S. BISHOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65912198215624,
+            41.72125814367256
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3369,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH ST. x S. BISHOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6590305394558,
+            41.72125932423258
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5265,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 95TH ST. x S. LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65781184936925,
+            41.721277857017455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66080883591862,
+            41.720971807119604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5286,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65783590172288,
+            41.721010693569504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66073340626835,
+            41.717759057782075
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8084,
+    "separation_ratio": 1.331,
+    "best_offset_m": 17.9,
+    "n_junctions": 6
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 14,
+      "votable": 14,
+      "in_block": 14,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 13.5,
+          "addr_diff": 30.8
+        },
+        {
+          "perp_m": 13.0,
+          "addr_diff": 9.9
+        },
+        {
+          "perp_m": 10.8,
+          "addr_diff": 5.1
+        },
+        {
+          "perp_m": 11.2,
+          "addr_diff": 4.6
+        },
+        {
+          "perp_m": 8.8,
+          "addr_diff": 6.1
+        },
+        {
+          "perp_m": 6.7,
+          "addr_diff": 3.4
+        },
+        {
+          "perp_m": 4.4,
+          "addr_diff": 5.2
+        },
+        {
+          "perp_m": 2.2,
+          "addr_diff": 7.0
+        },
+        {
+          "perp_m": 0.2,
+          "addr_diff": 8.8
+        },
+        {
+          "perp_m": 20.1,
+          "addr_diff": 5.6
+        },
+        {
+          "perp_m": 22.2,
+          "addr_diff": 6.8
+        },
+        {
+          "perp_m": 24.5,
+          "addr_diff": 6.5
+        },
+        {
+          "perp_m": 26.7,
+          "addr_diff": 8.3
+        },
+        {
+          "perp_m": 28.8,
+          "addr_diff": 10.0
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

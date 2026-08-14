@@ -1,0 +1,166 @@
+{
+  "page": "93",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 2,
+  "status": "OK (verified: corroboration+junction+addresses)",
+  "rescue_anchors": [
+    [
+      "WEST END AV.",
+      "N. KILPATRICK AV. (N. 47TH AV.)"
+    ],
+    [
+      "N. KILPATRICK AV. (N. 47TH AV.)",
+      "W. WASHINGTON BLVD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4951,
+            2834
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x N. KILPATRICK AV. (N. 47TH AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74292203628544,
+            41.88316081775709
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4951,
+            5540
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILPATRICK AV. (N. 47TH AV.) x W. WASHINGTON BLVD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74287341464883,
+            41.88184561963967
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7456267478232,
+            41.88400433668318
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5271,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.742733801693,
+            41.88403941474495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7455583377236,
+            41.88087708730731
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7162,
+    "separation_ratio": 1.428,
+    "best_offset_m": 1.9,
+    "n_junctions": 12
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 6,
+      "votable": 6,
+      "in_block": 6,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 34.2,
+          "addr_diff": 3.9
+        },
+        {
+          "perp_m": 34.2,
+          "addr_diff": 3.5
+        },
+        {
+          "perp_m": 34.2,
+          "addr_diff": 3.3
+        },
+        {
+          "perp_m": 34.3,
+          "addr_diff": 4.1
+        },
+        {
+          "perp_m": 37.1,
+          "addr_diff": 1.8
+        },
+        {
+          "perp_m": 37.2,
+          "addr_diff": 2.5
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

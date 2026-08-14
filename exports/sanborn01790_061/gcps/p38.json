@@ -1,0 +1,138 @@
+{
+  "page": "38",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. ARDMORE AV.",
+      "N. SACRAMENTO"
+    ],
+    [
+      "W. HOLLYWOOD AV.",
+      "N. SACRAMENTO"
+    ],
+    [
+      "N. SACRAMENTO",
+      "W. BRYN MAWR AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5036,
+            181
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARDMORE AV. x N. SACRAMENTO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70413057119248,
+            41.98673226882823
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5036,
+            4169
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HOLLYWOOD AV. x N. SACRAMENTO"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70407005975201,
+            41.984914532862156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5036,
+            8121
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO x W. BRYN MAWR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70401180930091,
+            41.98309763003143
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70687104483409,
+            41.98639363252756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5120,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70405888127635,
+            41.98643427662972
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70678930783443,
+            41.983268957548695
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

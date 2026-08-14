@@ -1,0 +1,120 @@
+{
+  "page": "112",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "THOMAS",
+      "N. HOYNE"
+    ],
+    [
+      "CORTEZ",
+      "N. HOYNE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            871,
+            1666
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x N. HOYNE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67965045261816,
+            41.901325916320985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            871,
+            3552
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTEZ x N. HOYNE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67962519149357,
+            41.90041644459745
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6798391634738,
+            41.90172345986346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5255,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67697908495904,
+            41.90177031330298
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67976021401415,
+            41.899053648188875
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6884,
+    "separation_ratio": 1.146,
+    "best_offset_m": 5.6,
+    "n_junctions": 16
+  }
+}

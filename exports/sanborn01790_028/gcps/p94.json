@@ -1,0 +1,207 @@
+{
+  "page": "94",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 8,
+  "rotation_deg": -88.9,
+  "auto_residuals_m": [
+    4.58,
+    4.07,
+    1.95,
+    1.74,
+    1.59,
+    0.97,
+    4.17,
+    4.65
+  ],
+  "inlier_streets": [
+    [
+      "N. WESTERN AV.",
+      "FULTON"
+    ],
+    [
+      "N. WESTERN AV.",
+      "W. LAKE"
+    ],
+    [
+      "N. ARTESIAN AV.",
+      "FULTON"
+    ],
+    [
+      "N. ARTESIAN AV.",
+      "W. LAKE"
+    ],
+    [
+      "N. CAMPBELL AV.",
+      "FULTON"
+    ],
+    [
+      "N. CAMPBELL AV.",
+      "W. LAKE"
+    ],
+    [
+      "N. MAPLEWOOD AV.",
+      "FULTON"
+    ],
+    [
+      "N. MAPLEWOOD AV.",
+      "W. LAKE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            208
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6865574216111,
+            41.88663027267407
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5041,
+            208
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6865071998203,
+            41.884635911947754
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            2217
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ARTESIAN AV. x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68777899887948,
+            41.886624716475986
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5041,
+            2217
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ARTESIAN AV. x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68773673820556,
+            41.88459125077
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            4201
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL AV. x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68902378541037,
+            41.886612671555056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5041,
+            4201
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL AV. x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68896465089298,
+            41.88454488233629
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            6181
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAPLEWOOD AV. x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69025175727943,
+            41.886600758006495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5041,
+            6181
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAPLEWOOD AV. x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69019094658945,
+            41.8844910221542
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 2.363,
+    "dy_m": 0.154
+  }
+}

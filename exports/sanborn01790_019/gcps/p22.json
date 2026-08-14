@@ -1,0 +1,132 @@
+{
+  "page": "22",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 5,
+  "rotation_deg": 0.99,
+  "auto_residuals_m": [
+    1.63,
+    0.64,
+    1.03,
+    4.17,
+    4.16
+  ],
+  "inlier_streets": [
+    [
+      "BELDEN AV.",
+      "PERRY"
+    ],
+    [
+      "BELDEN AV.",
+      "HIGH"
+    ],
+    [
+      "BELDEN AV.",
+      "SOUTHPORT AV."
+    ],
+    [
+      "HIGH",
+      "WEBSTER AV."
+    ],
+    [
+      "WEBSTER AV.",
+      "SOUTHPORT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            970,
+            791
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6657395540188,
+            41.92338585213313
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2898,
+            791
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x HIGH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66451008291399,
+            41.92340269325007
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4888,
+            791
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x SOUTHPORT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66325866357762,
+            41.923419335762716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3634,
+            4705
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIGH x WEBSTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66390952745368,
+            41.92161581359976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4888,
+            4705
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEBSTER AV. x SOUTHPORT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66319747425776,
+            41.921620247028905
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

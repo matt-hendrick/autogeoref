@@ -1,0 +1,207 @@
+{
+  "page": "62",
+  "n_streets": 10,
+  "n_candidates": 10,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. PRATT BLVD.",
+      "N. WOLCOTT AV. (HILLDALE AV.)"
+    ],
+    [
+      "W. PRATT BLVD.",
+      "N. RAVENSWOOD AV."
+    ],
+    [
+      "W. COLUMBIA AV.",
+      "N. RAVENSWOOD AV."
+    ],
+    [
+      "W. COLUMBIA AV.",
+      "N. RAVENSWOOD AV."
+    ],
+    [
+      "N. RAVENSWOOD AV.",
+      "W. NORTH SHORE AV."
+    ],
+    [
+      "N. RAVENSWOOD AV.",
+      "W. WALLEN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            563,
+            281
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PRATT BLVD. x N. WOLCOTT AV. (HILLDALE AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67791806319181,
+            42.0052833738401
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5047,
+            281
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PRATT BLVD. x N. RAVENSWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67521553021987,
+            42.00533117590186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5047,
+            1998
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. COLUMBIA AV. x N. RAVENSWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6751839616976,
+            42.00439701164492
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5047,
+            2173
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. COLUMBIA AV. x N. RAVENSWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6751839616976,
+            42.00439701164492
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5047,
+            4135
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RAVENSWOOD AV. x W. NORTH SHORE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67515812172012,
+            42.003495398407345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5047,
+            6093
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RAVENSWOOD AV. x W. WALLEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67513253672098,
+            42.00258566396887
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67795298786213,
+            42.004958441744044
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5034,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67520477669385,
+            42.0050059823494
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            559,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6778557123137,
+            42.001853319202134
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 1.294,
+    "dy_m": 4.303
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "page": "70",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. NORTH AV.",
+      "N. DAMEN AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. WINCHESTER AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. ELK GROVE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            346,
+            1647
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. DAMEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67758604860713,
+            41.910472743733905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2380,
+            1647
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. WINCHESTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6762453413179,
+            41.91050602865696
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4708,
+            1647
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. ELK GROVE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67501822734258,
+            41.910524042006585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67744916707996,
+            41.91089632988372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5252,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67460699550224,
+            41.91094392437614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67736891337518,
+            41.90824215936681
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

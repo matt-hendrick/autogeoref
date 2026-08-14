@@ -1,0 +1,141 @@
+{
+  "page": "148",
+  "n_streets": 10,
+  "n_candidates": 8,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. WEBSTER AV.",
+      "N. WAYNE AV."
+    ],
+    [
+      "W. WEBSTER AV.",
+      "N. SOUTHPORT AV."
+    ],
+    [
+      "N. SOUTHPORT AV.",
+      "W. DICKENS AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2990,
+            1093
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. WAYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66198508256834,
+            41.92163026514816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            961,
+            1093
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEBSTER AV. x N. SOUTHPORT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66319747425776,
+            41.921620247028905
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            961,
+            5132
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SOUTHPORT AV. x W. DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66314912463456,
+            41.919853624948814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            592,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6634289022927,
+            41.92179226782788
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5327,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6605696828515,
+            41.921834456956205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            592,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66335875112561,
+            41.91916016028987
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.6917,
+    "separation_ratio": 0.986,
+    "best_offset_m": 99.0,
+    "n_junctions": 3
+  }
+}

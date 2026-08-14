@@ -1,0 +1,203 @@
+{
+  "page": "27",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.32,
+  "auto_residuals_m": [
+    0.27,
+    0.26,
+    0.19,
+    0.46,
+    0.65,
+    0.34,
+    0.32,
+    0.17
+  ],
+  "inlier_streets": [
+    [
+      "W. ADAMS",
+      "LOOMIS"
+    ],
+    [
+      "W. ADAMS",
+      "THROOP"
+    ],
+    [
+      "COTTAGE PL.",
+      "THROOP"
+    ],
+    [
+      "W. JACKSON BLV'D",
+      "LOOMIS"
+    ],
+    [
+      "W. JACKSON BLV'D",
+      "THROOP"
+    ],
+    [
+      "LOOMIS",
+      "W. VAN BUREN"
+    ],
+    [
+      "THROOP",
+      "GARDEN ST."
+    ],
+    [
+      "THROOP",
+      "W. VAN BUREN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            914,
+            838
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6619206882347,
+            41.8789777798095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4921,
+            838
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65948984558405,
+            41.87901918124683
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4921,
+            2638
+          ],
+          "username": "autogeoref",
+          "note": "auto: COTTAGE PL. x THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65946659411196,
+            41.878193507427035
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            914,
+            3597
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLV'D x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66188613898555,
+            41.87770975134615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4921,
+            3597
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BLV'D x THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6594514864154,
+            41.87775019453567
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            914,
+            6384
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOOMIS x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66185300948864,
+            41.87643780360712
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4921,
+            5058
+          ],
+          "username": "autogeoref",
+          "note": "auto: THROOP x GARDEN ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65943176503382,
+            41.877087014619434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4921,
+            6384
+          ],
+          "username": "autogeoref",
+          "note": "auto: THROOP x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65941602820931,
+            41.87647920698992
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

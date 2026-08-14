@@ -1,0 +1,132 @@
+{
+  "page": "31",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.09,
+  "auto_residuals_m": [
+    0.55,
+    0.67,
+    0.19,
+    0.58,
+    0.55
+  ],
+  "inlier_streets": [
+    [
+      "W. 16TH ST.",
+      "S. WOLCOTT AV. (S. LINCOLN)"
+    ],
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "W. 17TH ST."
+    ],
+    [
+      "S. WOLCOTT AV. (S. LINCOLN)",
+      "W. 18TH ST."
+    ],
+    [
+      "W. 17TH ST.",
+      "S. DAMEN AVE. (S. ROBEY)"
+    ],
+    [
+      "S. DAMEN AVE. (S. ROBEY)",
+      "W. 18TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4828,
+            2431
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 16TH ST. x S. WOLCOTT AV. (S. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67359923623832,
+            41.85951723774477
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4828,
+            4416
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x W. 17TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67357030386736,
+            41.858607151015164
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4828,
+            6431
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WOLCOTT AV. (S. LINCOLN) x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67355168698464,
+            41.857693470791666
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            971,
+            4416
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 17TH ST. x S. DAMEN AVE. (S. ROBEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67601932569313,
+            41.85857196568941
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            971,
+            6431
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAMEN AVE. (S. ROBEY) x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67599457628432,
+            41.857662774615065
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

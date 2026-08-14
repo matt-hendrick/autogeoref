@@ -1,0 +1,182 @@
+{
+  "page": "58",
+  "n_streets": 10,
+  "n_candidates": 11,
+  "n_inliers": 7,
+  "rotation_deg": 1.22,
+  "auto_residuals_m": [
+    0.58,
+    0.65,
+    0.49,
+    0.55,
+    1.64,
+    1.61,
+    2.96
+  ],
+  "inlier_streets": [
+    [
+      "W. HARRISON",
+      "S. LOOMIS"
+    ],
+    [
+      "FLOURNOY (PLUM)",
+      "S. LAFLIN"
+    ],
+    [
+      "FLOURNOY (PLUM)",
+      "S. LOOMIS"
+    ],
+    [
+      "S. LAFLIN",
+      "W. LEXINGTON (SPRUCE)"
+    ],
+    [
+      "S. LAFLIN",
+      "W. POLK"
+    ],
+    [
+      "S. LOOMIS",
+      "W. LEXINGTON (SPRUCE)"
+    ],
+    [
+      "W. POLK",
+      "S. BISHOP ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4774,
+            1113
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6618076991866,
+            41.87419799288451
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            904,
+            2956
+          ],
+          "username": "autogeoref",
+          "note": "auto: FLOURNOY (PLUM) x S. LAFLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66422000179489,
+            41.87330775891624
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4774,
+            2956
+          ],
+          "username": "autogeoref",
+          "note": "auto: FLOURNOY (PLUM) x S. LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66178235421853,
+            41.87334663157935
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            904,
+            4743
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LAFLIN x W. LEXINGTON (SPRUCE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66419450423719,
+            41.87248480252423
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            904,
+            6529
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LAFLIN x W. POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66416896673888,
+            41.87165703016934
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4774,
+            4743
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LOOMIS x W. LEXINGTON (SPRUCE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6617570025466,
+            41.872522055620124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2907,
+            6529
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POLK x S. BISHOP ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66295378084037,
+            41.87167765055365
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.142,
+    "dy_m": -0.803
+  }
+}

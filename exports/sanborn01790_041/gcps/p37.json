@@ -1,0 +1,203 @@
+{
+  "page": "37",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.48,
+  "auto_residuals_m": [
+    1.63,
+    1.94,
+    1.91,
+    1.69,
+    1.61,
+    1.82,
+    1.93,
+    1.6
+  ],
+  "inlier_streets": [
+    [
+      "W. 35TH ST.",
+      "S. WASHTENAW AV."
+    ],
+    [
+      "W. 35TH ST.",
+      "S. ROCKWELL"
+    ],
+    [
+      "W. 35TH PL.",
+      "S. WASHTENAW AV."
+    ],
+    [
+      "W. 35TH PL.",
+      "S. ROCKWELL"
+    ],
+    [
+      "S. WASHTENAW AV.",
+      "W. 36TH ST."
+    ],
+    [
+      "S. WASHTENAW AV.",
+      "W. 36TH PL."
+    ],
+    [
+      "W. 36TH ST.",
+      "S. ROCKWELL"
+    ],
+    [
+      "S. ROCKWELL",
+      "W. 36TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            831,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x S. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69237883942229,
+            41.83013956871411
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4896,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x S. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68993221351614,
+            41.8301888802947
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            831,
+            2249
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH PL. x S. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69235426293531,
+            41.82922605238686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4896,
+            2249
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH PL. x S. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6899025337317,
+            41.82927486262453
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            831,
+            4258
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WASHTENAW AV. x W. 36TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69232821372523,
+            41.82831600358676
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            831,
+            6318
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WASHTENAW AV. x W. 36TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69229581897491,
+            41.82740342468236
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4896,
+            4258
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68987357943608,
+            41.82836130578909
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4896,
+            6318
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROCKWELL x W. 36TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68985220047209,
+            41.827449119195
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

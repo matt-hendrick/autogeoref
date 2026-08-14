@@ -1,0 +1,164 @@
+{
+  "page": "86",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. LAKE",
+      "N. KEDZIE AV."
+    ],
+    [
+      "W. WALNUT",
+      "N. KEDZIE AV."
+    ],
+    [
+      "FULTON",
+      "N. KEDZIE AV."
+    ],
+    [
+      "W. CARROLL AV.",
+      "N. KEDZIE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5113,
+            8271
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7062192817429,
+            41.884352065435834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5113,
+            6156
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WALNUT x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70624950091927,
+            41.88539710846534
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5113,
+            3904
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70628201060157,
+            41.8864195103415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5113,
+            1483
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CARROLL AV. x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70631439881598,
+            41.8875208945545
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            862
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70907664797129,
+            41.88776326591645
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5287,
+            862
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70619347550367,
+            41.887792154186364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7760
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70901968957574,
+            41.884612665198574
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.641,
+    "separation_ratio": 1.363,
+    "best_offset_m": 2.0,
+    "n_junctions": 8
+  }
+}

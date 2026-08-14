@@ -1,0 +1,145 @@
+{
+  "page": "6",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "CARMEN AV.",
+      "N. MAJOR AV."
+    ],
+    [
+      "CARMEN AV.",
+      "N. PARKSIDE AV."
+    ],
+    [
+      "N. PARKSIDE AV.",
+      "GOODMAN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            646,
+            810
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x N. MAJOR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77090776883537,
+            41.97389899922868
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2626,
+            810
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x N. PARKSIDE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76971928000482,
+            41.973885223162455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2626,
+            4803
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PARKSIDE AV. x GOODMAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76972825455776,
+            41.97204963151175
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77099901106556,
+            41.97386431225399
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5113,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76817518881609,
+            41.973896039051155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77093512986761,
+            41.97072164584882
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 3.701,
+    "dy_m": 3.122
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6138,
+    "separation_ratio": 1.397,
+    "best_offset_m": 6.2,
+    "n_junctions": 22
+  }
+}

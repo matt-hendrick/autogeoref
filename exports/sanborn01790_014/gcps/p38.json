@@ -1,0 +1,142 @@
+{
+  "page": "38",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "GARFIELD BLVD",
+      "SHIELDS AV."
+    ],
+    [
+      "STEWART AV.",
+      "TREMONT"
+    ],
+    [
+      "STEWART AV.",
+      "W. 56TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5966,
+            4932
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD BLVD x SHIELDS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63421212420747,
+            41.794498932530516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1199,
+            2785
+          ],
+          "username": "autogeoref",
+          "note": "auto: STEWART AV. x TREMONT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63554458351909,
+            41.792165098508335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            232,
+            2785
+          ],
+          "username": "autogeoref",
+          "note": "auto: STEWART AV. x W. 56TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63553261180083,
+            41.79170006159039
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            652,
+            774
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63684323842892,
+            41.79188218974004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5864,
+            774
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63691324505717,
+            41.7944064507631
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            652,
+            6962
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63282357653964,
+            41.791944157102385
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": 91.1594,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.3226,
+    "separation_ratio": 0.685,
+    "best_offset_m": 84.5,
+    "n_junctions": 20
+  }
+}

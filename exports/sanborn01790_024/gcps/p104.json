@@ -1,0 +1,203 @@
+{
+  "page": "104",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.06,
+  "auto_residuals_m": [
+    0.33,
+    0.1,
+    1.33,
+    1.48,
+    3.57,
+    1.92,
+    3.47,
+    1.87
+  ],
+  "inlier_streets": [
+    [
+      "WASHBURN AV.",
+      "S. PAULINA"
+    ],
+    [
+      "WASHBURN AV.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "W. 13TH ST.",
+      "S. PAULINA"
+    ],
+    [
+      "W. 13TH ST.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "S. PAULINA",
+      "HASTINGS"
+    ],
+    [
+      "S. PAULINA",
+      "W. 14TH ST."
+    ],
+    [
+      "S. ASHLAND AV.",
+      "HASTINGS"
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 14TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            992,
+            994
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHBURN AV. x S. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66887724233567,
+            41.86595315849353
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4853,
+            994
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHBURN AV. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66636844305408,
+            41.865989169108616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            992,
+            2968
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66885066496639,
+            41.86504654662772
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4853,
+            2968
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66634162745402,
+            41.86508038325975
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            992,
+            5029
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PAULINA x HASTINGS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66882586558036,
+            41.864139952586484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            992,
+            6939
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PAULINA x W. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66880074848619,
+            41.86323271605219
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4853,
+            5029
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x HASTINGS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66631928323291,
+            41.8641739613359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4853,
+            6939
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66629589917501,
+            41.86326770666442
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

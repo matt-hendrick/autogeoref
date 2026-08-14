@@ -1,0 +1,185 @@
+{
+  "page": "3",
+  "n_streets": 7,
+  "n_candidates": 12,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. JUNEWAY TER.",
+      "N. ASHLAND AV."
+    ],
+    [
+      "W. JUNEWAY TER.",
+      "N. ASHLAND AV."
+    ],
+    [
+      "W. JONQUIL TER.",
+      "N. ASHLAND AV."
+    ],
+    [
+      "W. JONQUIL TER.",
+      "N. BOSWORTH AV."
+    ],
+    [
+      "N. MARSHFIELD AV.",
+      "W. HOWARD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2430,
+            1813
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JUNEWAY TER. x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67068095442312,
+            42.02227055620428
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2430,
+            1216
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JUNEWAY TER. x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67071677631603,
+            42.02249457074459
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2430,
+            4267
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JONQUIL TER. x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6706899374027,
+            42.02115829187598
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4458,
+            4267
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JONQUIL TER. x N. BOSWORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66944896962964,
+            42.02114711341753
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            200,
+            8064
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MARSHFIELD AV. x W. HOWARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67188768931409,
+            42.0193821230203
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6718477075575,
+            42.02269031945271
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5269,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66893997938422,
+            42.022738546547885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6717534007016,
+            42.01955231474664
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 3.294,
+    "dy_m": 0.6
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

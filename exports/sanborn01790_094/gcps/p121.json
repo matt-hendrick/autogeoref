@@ -1,0 +1,167 @@
+{
+  "page": "121",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. PEORIA ST.",
+      "W. CERMAK RD. (W. 22ND ST.)"
+    ],
+    [
+      "W. CERMAK RD. (W. 22ND ST.)",
+      "S. HALSTED"
+    ],
+    [
+      "W. 22ND PL. (JOHN PL.)",
+      "S. HALSTED"
+    ],
+    [
+      "S. HALSTED",
+      "W. 23RD ST. (O'NEIL)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1976,
+            1636
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PEORIA ST. x W. CERMAK RD. (W. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64817206819642,
+            41.85260815738751
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4663,
+            1636
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CERMAK RD. (W. 22ND ST.) x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64653502966404,
+            41.85264210153266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4663,
+            3639
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND PL. (JOHN PL.) x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6465069712217,
+            41.85173122392989
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4663,
+            5618
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. 23RD ST. (O'NEIL)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64647846954182,
+            41.850807456766425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            577,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64906434614115,
+            41.853027303538646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5191,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6462104265277,
+            41.853068980863995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            577,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6489944529677,
+            41.850371882208066
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -4.413,
+    "dy_m": -0.66
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.6063,
+    "separation_ratio": 0.868,
+    "best_offset_m": 99.8,
+    "n_junctions": 6
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "page": "91",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "rotation_deg": 0.83,
+  "auto_residuals_m": [
+    3.19,
+    0.38,
+    3.93,
+    2.18,
+    0.69,
+    1.32,
+    1.34
+  ],
+  "inlier_streets": [
+    [
+      "W. EUGENIE",
+      "N. SEDGWICK"
+    ],
+    [
+      "W. EUGENIE",
+      "N. NORTH PARK AV."
+    ],
+    [
+      "W. CONCORD PL. (W. STARR)",
+      "N. SEDGWICK"
+    ],
+    [
+      "W. CONCORD PL. (W. STARR)",
+      "N. NORTH PARK AV."
+    ],
+    [
+      "N. SEDGWICK",
+      "W. NORTH AV."
+    ],
+    [
+      "N. NORTH PARK AV.",
+      "W. NORTH AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. ORLEANS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1421,
+            1668
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EUGENIE x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63863801584094,
+            41.91286900032931
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4634,
+            1668
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EUGENIE x N. NORTH PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63671818293714,
+            41.91287123177448
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1421,
+            3308
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONCORD PL. (W. STARR) x N. SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63862325384468,
+            41.91210209101536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4634,
+            3308
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONCORD PL. (W. STARR) x N. NORTH PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63669807248148,
+            41.912134746333486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1421,
+            5578
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63859282579877,
+            41.911133949998536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4634,
+            5578
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NORTH PARK AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63666278886414,
+            41.9111616621302
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3013,
+            5578
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6376241715345,
+            41.91114812467135
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.041,
+    "dy_m": 2.906
+  }
+}

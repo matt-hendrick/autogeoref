@@ -1,0 +1,159 @@
+{
+  "page": "35",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.28,
+  "auto_residuals_m": [
+    0.1,
+    0.22,
+    0.19,
+    0.19,
+    0.28,
+    0.15
+  ],
+  "inlier_streets": [
+    [
+      "W. 50TH ST.",
+      "S. ROCKWELL"
+    ],
+    [
+      "W. 50TH ST.",
+      "S. MAPLEWOOD AV."
+    ],
+    [
+      "W. 50TH ST.",
+      "S. CAMPBELL AV."
+    ],
+    [
+      "S. ROCKWELL",
+      "W. 51ST ST."
+    ],
+    [
+      "S. MAPLEWOOD AV.",
+      "W. 51ST ST."
+    ],
+    [
+      "S. CAMPBELL AV.",
+      "W. 51ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            792,
+            4108
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 50TH ST. x S. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68915139994718,
+            41.80289497183517
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2758,
+            4108
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 50TH ST. x S. MAPLEWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68793415896495,
+            41.80291539117017
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4742,
+            4108
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 50TH ST. x S. CAMPBELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6867122487182,
+            41.80293525649457
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            792,
+            8066
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROCKWELL x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68910198490536,
+            41.80107210426992
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2758,
+            8066
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MAPLEWOOD AV. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68788352548576,
+            41.801092532482464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4742,
+            8066
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CAMPBELL AV. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68666196588174,
+            41.801113359248546
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.07,
+    "dy_m": -0.095
+  }
+}

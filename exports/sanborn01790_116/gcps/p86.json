@@ -1,0 +1,356 @@
+{
+  "page": "86",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "MONTROSE AV.",
+      "N. CENTRAL AV."
+    ],
+    [
+      "PENSACOLA AV.",
+      "N. CENTRAL AV."
+    ],
+    [
+      "CULLOM AV.",
+      "N. CENTRAL AV."
+    ],
+    [
+      "N. CENTRAL AV.",
+      "CULLOM AV."
+    ],
+    [
+      "N. CENTRAL AV.",
+      "HUTCHINSON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2349,
+            302
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76724278356714,
+            41.96048439223921
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2349,
+            2147
+          ],
+          "username": "autogeoref",
+          "note": "auto: PENSACOLA AV. x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76721214964464,
+            41.95957088805308
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2349,
+            3956
+          ],
+          "username": "autogeoref",
+          "note": "auto: CULLOM AV. x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7671837423452,
+            41.95865641995071
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2349,
+            4025
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL AV. x CULLOM AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7671837423452,
+            41.95865641995071
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2349,
+            5915
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL AV. x HUTCHINSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76715186082458,
+            41.957745876353606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76831781267823,
+            41.96013200060366
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76539153957972,
+            41.96016566578611
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76825215810052,
+            41.95697626752056
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6865,
+    "separation_ratio": 1.08,
+    "best_offset_m": 13.1,
+    "n_junctions": 15
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 37,
+      "votable": 37,
+      "in_block": 37,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 3.7,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 3.5,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 3.2,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 2.9,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 20.5,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 20.8,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 21.0,
+          "addr_diff": 1.3
+        },
+        {
+          "perp_m": 21.2,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 1.3,
+          "addr_diff": 4.8
+        },
+        {
+          "perp_m": 1.5,
+          "addr_diff": 3.6
+        },
+        {
+          "perp_m": 1.7,
+          "addr_diff": 2.2
+        },
+        {
+          "perp_m": 2.0,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 2.7,
+          "addr_diff": 2.8
+        },
+        {
+          "perp_m": 3.3,
+          "addr_diff": 0.5
+        },
+        {
+          "perp_m": 24.0,
+          "addr_diff": 4.9
+        },
+        {
+          "perp_m": 24.2,
+          "addr_diff": 3.6
+        },
+        {
+          "perp_m": 24.6,
+          "addr_diff": 2.9
+        },
+        {
+          "perp_m": 24.9,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 25.1,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 25.3,
+          "addr_diff": 3.1
+        },
+        {
+          "perp_m": 25.6,
+          "addr_diff": 1.7
+        },
+        {
+          "perp_m": 25.8,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 3.2,
+          "addr_diff": 4.1
+        },
+        {
+          "perp_m": 3.5,
+          "addr_diff": 2.9
+        },
+        {
+          "perp_m": 3.7,
+          "addr_diff": 3.7
+        },
+        {
+          "perp_m": 4.2,
+          "addr_diff": 3.3
+        },
+        {
+          "perp_m": 4.9,
+          "addr_diff": 1.5
+        },
+        {
+          "perp_m": 5.1,
+          "addr_diff": 2.3
+        },
+        {
+          "perp_m": 5.4,
+          "addr_diff": 0.9
+        },
+        {
+          "perp_m": 26.8,
+          "addr_diff": 4.2
+        },
+        {
+          "perp_m": 27.3,
+          "addr_diff": 3.7
+        },
+        {
+          "perp_m": 27.5,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 27.8,
+          "addr_diff": 3.2
+        },
+        {
+          "perp_m": 28.0,
+          "addr_diff": 1.8
+        },
+        {
+          "perp_m": 28.2,
+          "addr_diff": 2.3
+        },
+        {
+          "perp_m": 28.5,
+          "addr_diff": 1.0
+        },
+        {
+          "perp_m": 28.9,
+          "addr_diff": 0.2
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

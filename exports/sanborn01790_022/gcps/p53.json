@@ -1,0 +1,159 @@
+{
+  "page": "53",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "HOLT",
+      "W. NORTH AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "NOBLE ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            430,
+            6785
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOLT x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66565567775791,
+            41.91065828354943
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5016,
+            6785
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x NOBLE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66283122458435,
+            41.91069878382174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66563507324317,
+            41.91341482151939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5252,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66277646419846,
+            41.91346164231094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66555612378353,
+            41.910745498722584
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7385,
+    "separation_ratio": 1.472,
+    "best_offset_m": 23.6,
+    "n_junctions": 10
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol"
+      ],
+      "consensus_numerals": 4,
+      "votable": 4,
+      "in_block": 4,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 20.1,
+          "addr_diff": 15.8
+        },
+        {
+          "perp_m": 3.8,
+          "addr_diff": 5.7
+        },
+        {
+          "perp_m": 47.8,
+          "addr_diff": 46.5
+        },
+        {
+          "perp_m": 49.0,
+          "addr_diff": 5.2
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "page": "74",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "RHODES AVE.",
+      "70TH"
+    ],
+    [
+      "RHODES AVE.",
+      "71ST"
+    ],
+    [
+      "ST. LAWRENCE AVE.",
+      "71ST"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2670,
+            4258
+          ],
+          "username": "autogeoref",
+          "note": "auto: RHODES AVE. x 70TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61168114957117,
+            41.76758883647532
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2670,
+            8104
+          ],
+          "username": "autogeoref",
+          "note": "auto: RHODES AVE. x 71ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6116362088767,
+            41.76577309584382
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4716,
+            8104
+          ],
+          "username": "autogeoref",
+          "note": "auto: ST. LAWRENCE AVE. x 71ST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61042831416898,
+            41.76579394374067
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61302816758258,
+            41.76911820103702
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61030793167548,
+            41.769148278471896
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61296734803054,
+            41.766058317234126
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

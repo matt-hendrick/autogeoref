@@ -1,0 +1,185 @@
+{
+  "page": "3",
+  "n_streets": 15,
+  "n_candidates": 34,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 107TH ST.",
+      "S. HALE AV."
+    ],
+    [
+      "S. HALE AV.",
+      "W. 107TH PL."
+    ],
+    [
+      "S. LONGWOOD DR.",
+      "W. 108TH PL."
+    ],
+    [
+      "S. LONGWOOD DR.",
+      "W. 110TH PL."
+    ],
+    [
+      "W. 108TH PL.",
+      "S. HALE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2938,
+            393
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 107TH ST. x S. HALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6689927279439,
+            41.699262657658984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2938,
+            1750
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALE AV. x W. 107TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66894397481123,
+            41.69802477161855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            710,
+            4450
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LONGWOOD DR. x W. 108TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67160819548111,
+            41.695483276226085
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            710,
+            7044
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LONGWOOD DR. x W. 110TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67153495203361,
+            41.69311279320865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2009,
+            4450
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 108TH PL. x S. HALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66993314475145,
+            41.69551046216015
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67184879340827,
+            41.698787031385095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5110,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.666286627979,
+            41.698863368237234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            568,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67169565114976,
+            41.692566002436855
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.8017,
+    "separation_ratio": 0.987,
+    "best_offset_m": 50.8,
+    "n_junctions": 3
+  }
+}

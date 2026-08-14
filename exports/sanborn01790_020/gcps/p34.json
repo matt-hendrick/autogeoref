@@ -1,0 +1,223 @@
+{
+  "page": "34",
+  "n_streets": 8,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "E. 21ST ST.",
+      "S. MICHIGAN"
+    ],
+    [
+      "E. 21ST ST.",
+      "INDIANA"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1615,
+            3530
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 21ST ST. x S. MICHIGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62385142348522,
+            41.854284393172684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4368,
+            3530
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 21ST ST. x INDIANA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62225486267744,
+            41.85430913297858
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62455037815485,
+            41.855539459380786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62169984329945,
+            41.855584629158194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62447465787261,
+            41.85288843774927
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7521,
+    "separation_ratio": 1.826,
+    "best_offset_m": 6.3,
+    "n_junctions": 16
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol"
+      ],
+      "consensus_numerals": 32,
+      "votable": 20,
+      "in_block": 20,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 14.2,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 14.2,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 14.3,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 14.3,
+          "addr_diff": 1.2
+        },
+        {
+          "perp_m": 14.4,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 14.5,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 14.5,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 14.5,
+          "addr_diff": 1.0
+        },
+        {
+          "perp_m": 14.4,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 14.4,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 14.4,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 19.3,
+          "addr_diff": 3.2
+        },
+        {
+          "perp_m": 19.4,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 19.5,
+          "addr_diff": 1.8
+        },
+        {
+          "perp_m": 19.6,
+          "addr_diff": 0.9
+        },
+        {
+          "perp_m": 19.5,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 19.0,
+          "addr_diff": 2.2
+        },
+        {
+          "perp_m": 18.9,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 18.3,
+          "addr_diff": 4.1
+        },
+        {
+          "perp_m": 12.7,
+          "addr_diff": 2.8
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

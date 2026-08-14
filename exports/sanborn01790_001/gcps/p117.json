@@ -1,0 +1,159 @@
+{
+  "page": "117",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.24,
+  "auto_residuals_m": [
+    0.79,
+    0.74,
+    1.45,
+    1.62,
+    0.73,
+    0.95
+  ],
+  "inlier_streets": [
+    [
+      "GRACE",
+      "SHEFFIELD AVE."
+    ],
+    [
+      "GRACE",
+      "WILTON AVE."
+    ],
+    [
+      "WAVELAND AVE.",
+      "SHEFFIELD AVE."
+    ],
+    [
+      "WAVELAND AVE.",
+      "WILTON AVE."
+    ],
+    [
+      "ADDISON",
+      "SHEFFIELD AVE."
+    ],
+    [
+      "ADDISON",
+      "WILTON AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            187,
+            42
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACE x SHEFFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6544032375787,
+            41.95114546250339
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2123,
+            42
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACE x WILTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65319362571147,
+            41.95116462269585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            187,
+            4398
+          ],
+          "username": "autogeoref",
+          "note": "auto: WAVELAND AVE. x SHEFFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65434276327892,
+            41.949064426104385
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2123,
+            4398
+          ],
+          "username": "autogeoref",
+          "note": "auto: WAVELAND AVE. x WILTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65313206472158,
+            41.949082761784744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            187,
+            8221
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADDISON x SHEFFIELD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65428914928141,
+            41.94726558635503
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2123,
+            8221
+          ],
+          "username": "autogeoref",
+          "note": "auto: ADDISON x WILTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65307526778942,
+            41.94728642596951
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.588,
+    "dy_m": 3.143
+  }
+}

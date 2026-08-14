@@ -1,0 +1,132 @@
+{
+  "page": "121",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 0.88,
+  "auto_residuals_m": [
+    1.94,
+    1.95,
+    0.44,
+    1.9,
+    1.87
+  ],
+  "inlier_streets": [
+    [
+      "W. GARFIELD AV.",
+      "N. HALSTED"
+    ],
+    [
+      "W. GARFIELD AV.",
+      "N. BURLING"
+    ],
+    [
+      "N. HALSTED",
+      "W. CENTER"
+    ],
+    [
+      "N. BURLING",
+      "W. CENTER"
+    ],
+    [
+      "N. ORCHARD",
+      "W. CENTER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            908,
+            1624
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GARFIELD AV. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64857459457885,
+            41.91999391592971
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2902,
+            1624
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GARFIELD AV. x N. BURLING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64738861431982,
+            41.919993354354595
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            908,
+            5655
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x W. CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64850888668978,
+            41.91817970832017
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2902,
+            5655
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. BURLING x W. CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64731152245535,
+            41.91819449461465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4808,
+            5655
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ORCHARD x W. CENTER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64611764942781,
+            41.91821424044822
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

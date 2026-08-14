@@ -1,0 +1,185 @@
+{
+  "page": "11",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 14TH ST.",
+      "S. STATE ST."
+    ],
+    [
+      "W. 14TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 14TH ST.",
+      "S. STATE ST."
+    ],
+    [
+      "E. 14TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "W. 15TH ST.",
+      "S. STATE ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1884,
+            70
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 14TH ST. x S. STATE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62734348872135,
+            41.8640525087489
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4524,
+            70
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 14TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62575092290862,
+            41.86406829546555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1884,
+            66
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 14TH ST. x S. STATE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62734348872135,
+            41.8640525087489
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4524,
+            66
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 14TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62575092290862,
+            41.86406829546555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1884,
+            4672
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 15TH ST. x S. STATE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62729064752962,
+            41.861953875380145
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62812915485605,
+            41.863732499422724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5277,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62527959205005,
+            41.86377764801213
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62805343457383,
+            41.86108181741175
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5396,
+    "separation_ratio": 1.017,
+    "best_offset_m": 27.6,
+    "n_junctions": 24
+  }
+}

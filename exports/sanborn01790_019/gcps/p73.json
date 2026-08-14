@@ -1,0 +1,156 @@
+{
+  "page": "73",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.07,
+  "auto_residuals_m": [
+    0.13,
+    0.05,
+    0.14,
+    0.07,
+    0.17,
+    0.2
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "CLEVELAND AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "HUDSON AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "SEDGWICK"
+    ],
+    [
+      "CLEVELAND AV.",
+      "BLACKHAWK"
+    ],
+    [
+      "HUDSON AV.",
+      "BLACKHAWK"
+    ],
+    [
+      "SEDGWICK",
+      "BLACKHAWK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            877,
+            1664
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x CLEVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64101649429568,
+            41.91107925310668
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2865,
+            1664
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x HUDSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63980635997002,
+            41.91109680448104
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4857,
+            1664
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63859245748951,
+            41.91111452309947
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            877,
+            5562
+          ],
+          "username": "autogeoref",
+          "note": "auto: CLEVELAND AV. x BLACKHAWK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64095621986584,
+            41.909209848515324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2865,
+            5562
+          ],
+          "username": "autogeoref",
+          "note": "auto: HUDSON AV. x BLACKHAWK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63974588577932,
+            41.90922739481267
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4857,
+            5562
+          ],
+          "username": "autogeoref",
+          "note": "auto: SEDGWICK x BLACKHAWK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63853410185948,
+            41.90924184960764
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

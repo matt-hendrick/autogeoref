@@ -1,0 +1,159 @@
+{
+  "page": "28",
+  "n_streets": 9,
+  "n_candidates": 11,
+  "n_inliers": 6,
+  "rotation_deg": 0.61,
+  "auto_residuals_m": [
+    3.5,
+    1.26,
+    8.58,
+    3.85,
+    5.92,
+    5.91
+  ],
+  "inlier_streets": [
+    [
+      "HIGGINS AV.",
+      "N. CENTRAL AV."
+    ],
+    [
+      "EDMUNDS",
+      "N. CENTRAL AV."
+    ],
+    [
+      "N. CENTRAL AV.",
+      "W. GUNNISON"
+    ],
+    [
+      "N. CENTRAL AV.",
+      "LAWRENCE AV."
+    ],
+    [
+      "W. GUNNISON",
+      "N. MAJOR AV."
+    ],
+    [
+      "N. MAJOR AV.",
+      "LAWRENCE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4460,
+            1928
+          ],
+          "username": "autogeoref",
+          "note": "auto: HIGGINS AV. x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76753090998618,
+            41.97033504461001
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4460,
+            1964
+          ],
+          "username": "autogeoref",
+          "note": "auto: EDMUNDS x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76753090998618,
+            41.97033504461001
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4460,
+            6061
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL AV. x W. GUNNISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76747519267408,
+            41.968695875588274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4460,
+            8041
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL AV. x LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7674472148857,
+            41.96778890645719
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            296,
+            6061
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GUNNISON x N. MAJOR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77016801492994,
+            41.96865686480641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            296,
+            8041
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAJOR AV. x LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77013949784522,
+            41.96775393558064
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.281,
+    "dy_m": 0.938
+  }
+}

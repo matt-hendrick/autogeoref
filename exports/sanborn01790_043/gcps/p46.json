@@ -1,0 +1,249 @@
+{
+  "page": "46",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 10,
+  "rotation_deg": 1.25,
+  "auto_residuals_m": [
+    2.76,
+    2.91,
+    2.8,
+    2.76,
+    0.99,
+    1.24,
+    0.9,
+    1.96,
+    1.16,
+    2.26
+  ],
+  "inlier_streets": [
+    [
+      "W. 63RD ST.",
+      "S. SPAULDING AV."
+    ],
+    [
+      "W. 63RD ST.",
+      "S. KEDZIE AV."
+    ],
+    [
+      "W. 63RD PL.",
+      "S. SPAULDING AV."
+    ],
+    [
+      "W. 63RD PL.",
+      "S. KEDZIE AV."
+    ],
+    [
+      "W. 64TH ST.",
+      "S. SPAULDING AV."
+    ],
+    [
+      "W. 64TH ST.",
+      "S. KEDZIE AV."
+    ],
+    [
+      "S. SPAULDING AV.",
+      "W. 64TH PL."
+    ],
+    [
+      "S. SPAULDING AV.",
+      "W. 65TH ST."
+    ],
+    [
+      "S. KEDZIE AV.",
+      "W. 64TH PL."
+    ],
+    [
+      "S. KEDZIE AV.",
+      "W. 65TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            806,
+            262
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD ST. x S. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70555931864082,
+            41.77893486844531
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4599,
+            262
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD ST. x S. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70313675401562,
+            41.77897327959139
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            806,
+            2310
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD PL. x S. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70553390960154,
+            41.778008304205386
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4599,
+            2310
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD PL. x S. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70311589962662,
+            41.77804738833322
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            806,
+            4208
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 64TH ST. x S. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70551439468898,
+            41.77710296540045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4599,
+            4208
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 64TH ST. x S. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70309547584462,
+            41.77714402666527
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            806,
+            6146
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPAULDING AV. x W. 64TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7054904646384,
+            41.77619044766696
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            806,
+            8029
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPAULDING AV. x W. 65TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70546602284077,
+            41.77528538379346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4599,
+            6146
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEDZIE AV. x W. 64TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70307367682251,
+            41.77623150233555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4599,
+            8029
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KEDZIE AV. x W. 65TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70305229212845,
+            41.77532246374264
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

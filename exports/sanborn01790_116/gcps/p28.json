@@ -1,0 +1,180 @@
+{
+  "page": "28",
+  "n_streets": 9,
+  "n_candidates": 13,
+  "n_inliers": 7,
+  "rotation_deg": 0.74,
+  "auto_residuals_m": [
+    5.11,
+    4.85,
+    3.07,
+    3.88,
+    3.56,
+    1.9,
+    4.94
+  ],
+  "inlier_streets": [
+    [
+      "W. GOODMAN",
+      "N. CENTRAL AV."
+    ],
+    [
+      "AINSLIE",
+      "N. CENTRAL AV."
+    ],
+    [
+      "AINSLIE",
+      "N. MAJOR AV."
+    ],
+    [
+      "N. CENTRAL AV.",
+      "W. GUNNISON"
+    ],
+    [
+      "N. CENTRAL AV.",
+      "LAWRENCE AV."
+    ],
+    [
+      "W. GUNNISON",
+      "N. MAJOR AV."
+    ],
+    [
+      "N. MAJOR AV.",
+      "LAWRENCE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4820,
+            264
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GOODMAN x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76760110295619,
+            41.971448583266245
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4820,
+            4439
+          ],
+          "username": "autogeoref",
+          "note": "auto: AINSLIE x N. CENTRAL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76753648186362,
+            41.96960013095418
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            563,
+            4439
+          ],
+          "username": "autogeoref",
+          "note": "auto: AINSLIE x N. MAJOR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77022862753793,
+            41.969562463835956
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4820,
+            6410
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL AV. x W. GUNNISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7675046663986,
+            41.96868961062343
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4820,
+            8279
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL AV. x LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7674766886102,
+            41.96778264140314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            563,
+            6410
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GUNNISON x N. MAJOR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77019748865442,
+            41.96865059983773
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            563,
+            8279
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAJOR AV. x LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77016897156972,
+            41.96774767052315
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

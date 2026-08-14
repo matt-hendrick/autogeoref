@@ -1,0 +1,156 @@
+{
+  "page": "83",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": -88.7,
+  "auto_residuals_m": [
+    1.27,
+    1.3,
+    2.53,
+    2.5,
+    1.2,
+    1.14
+  ],
+  "inlier_streets": [
+    [
+      "W. ADAMS",
+      "S. HALSTED"
+    ],
+    [
+      "W. ADAMS",
+      "S. DESPLAINES"
+    ],
+    [
+      "W. QUINCY",
+      "S. HALSTED"
+    ],
+    [
+      "W. QUINCY",
+      "S. DESPLAINES"
+    ],
+    [
+      "W. JACKSON B'L'V'D",
+      "S. HALSTED"
+    ],
+    [
+      "W. JACKSON B'L'V'D",
+      "S. DESPLAINES"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1522,
+            6153
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6472802199686,
+            41.87921705057448
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1522,
+            868
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64404179026306,
+            41.879258374460925
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2842,
+            6153
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. QUINCY x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64726248899575,
+            41.878580908054474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2842,
+            868
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. QUINCY x S. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64402664386978,
+            41.87862226127665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4265,
+            6153
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON B'L'V'D x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64724174302187,
+            41.87794739482335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4265,
+            868
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON B'L'V'D x S. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64400300375502,
+            41.877988021851365
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

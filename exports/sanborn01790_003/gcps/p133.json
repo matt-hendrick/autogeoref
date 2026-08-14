@@ -1,0 +1,160 @@
+{
+  "page": "133",
+  "n_streets": 10,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "JACKSON B'LV'D",
+      "S. CAMPBELL AV."
+    ],
+    [
+      "S. CAMPBELL AV.",
+      "W. VAN BUREN"
+    ],
+    [
+      "S. CAMPBELL AV.",
+      "W. CONGRESS"
+    ],
+    [
+      "S. CAMPBELL AV.",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5229,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'LV'D x S. CAMPBELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6887651001557,
+            41.877521852589254
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5229,
+            3380
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CAMPBELL AV. x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68873173601591,
+            41.876064588643985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5229,
+            5782
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CAMPBELL AV. x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68869000187627,
+            41.87497389914476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5229,
+            8354
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CAMPBELL AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68866263796669,
+            41.873864970033964
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            567,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69158622675535,
+            41.877212766816626
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5106,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68881778732109,
+            41.87724091767932
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            567,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69152955827991,
+            41.87412307906852
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

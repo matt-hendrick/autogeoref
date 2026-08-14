@@ -1,0 +1,164 @@
+{
+  "page": "78",
+  "n_streets": 7,
+  "n_candidates": 10,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "S. FRANCISCO AV.",
+      "W. 42ND ST."
+    ],
+    [
+      "S. FRANCISCO AV.",
+      "W. 42ND ST."
+    ],
+    [
+      "W. 42ND ST.",
+      "S. MOZART AV."
+    ],
+    [
+      "W. 42ND ST.",
+      "S. CALIFORNIA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1018,
+            4414
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x W. 42ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69693349228055,
+            41.81731124311116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1003,
+            4414
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x W. 42ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69693349228055,
+            41.81731124311116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3002,
+            4414
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. MOZART AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69570827037964,
+            41.81733059513861
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4820,
+            4414
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 42ND ST. x S. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.694482155008,
+            41.81735993530741
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69722782277687,
+            41.818961054994524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5298,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69429809133585,
+            41.81900917681361
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            589,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69713454755426,
+            41.81580697399069
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6432,
+    "separation_ratio": 1.3,
+    "best_offset_m": 5.2,
+    "n_junctions": 18
+  }
+}

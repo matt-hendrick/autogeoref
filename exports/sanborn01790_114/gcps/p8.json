@@ -1,0 +1,182 @@
+{
+  "page": "8",
+  "n_streets": 8,
+  "n_candidates": 14,
+  "n_inliers": 2,
+  "status": "OK (verified: corroboration+junction+addresses)",
+  "rescue_anchors": [
+    [
+      "SOUTH SHORE DRIVE",
+      "YATES AV."
+    ],
+    [
+      "YATES AV.",
+      "E. 73RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            393,
+            272
+          ],
+          "username": "autogeoref",
+          "note": "auto: SOUTH SHORE DRIVE x YATES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56648436980566,
+            41.76631773150708
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            393,
+            8340
+          ],
+          "username": "autogeoref",
+          "note": "auto: YATES AV. x E. 73RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56645042280854,
+            41.76261940452505
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56638602429278,
+            41.766030017266296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5281,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56354505771414,
+            41.766066213349475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56631569583453,
+            41.762959062539004
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.9436,
+    "separation_ratio": 1.475,
+    "best_offset_m": 6.2,
+    "n_junctions": 4
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 10,
+      "votable": 10,
+      "in_block": 10,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 0.6,
+          "addr_diff": 2.9
+        },
+        {
+          "perp_m": 0.6,
+          "addr_diff": 2.2
+        },
+        {
+          "perp_m": 0.5,
+          "addr_diff": 1.7
+        },
+        {
+          "perp_m": 0.5,
+          "addr_diff": 1.2
+        },
+        {
+          "perp_m": 0.4,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 0.3,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 30.6,
+          "addr_diff": 3.6
+        },
+        {
+          "perp_m": 39.7,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 29.7,
+          "addr_diff": 3.2
+        },
+        {
+          "perp_m": 40.1,
+          "addr_diff": 1.2
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

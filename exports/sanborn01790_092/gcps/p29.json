@@ -1,0 +1,207 @@
+{
+  "page": "29",
+  "n_streets": 13,
+  "n_candidates": 19,
+  "n_inliers": 6,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "FRY ST.",
+      "N. ELSTON AV."
+    ],
+    [
+      "FRY ST.",
+      "N. RACINE ST."
+    ],
+    [
+      "N. ELSTON AV.",
+      "FRY ST."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. RACINE ST."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. MAY AV."
+    ],
+    [
+      "N. RACINE ST.",
+      "W. HURON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2993,
+            685
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRY ST. x N. ELSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65655842123597,
+            41.897310049915646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1378,
+            685
+          ],
+          "username": "autogeoref",
+          "note": "auto: FRY ST. x N. RACINE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65754112415293,
+            41.89716178989263
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2993,
+            388
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELSTON AV. x FRY ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65655842123597,
+            41.897310049915646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1378,
+            2740
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. RACINE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65751044536314,
+            41.89622794834256
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4053,
+            2740
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. MAY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65593775438029,
+            41.8962573783691
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1378,
+            6890
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RACINE ST. x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65746509232056,
+            41.89440803543744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65803492962,
+            41.89716414007155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5249,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65519091845124,
+            41.89721106880059
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65795577484492,
+            41.89450631382727
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6192,
+    "separation_ratio": 1.23,
+    "best_offset_m": 9.2,
+    "n_junctions": 25
+  }
+}

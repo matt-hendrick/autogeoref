@@ -1,0 +1,142 @@
+{
+  "page": "32",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "S. FRANCISCO AV.",
+      "W. 51ST ST."
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. 51ST ST."
+    ],
+    [
+      "W. 51ST ST.",
+      "S. MOZART ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            753,
+            7712
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANCISCO AV. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69644134865467,
+            41.80094733937572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4589,
+            7712
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69400021685243,
+            41.80098939874947
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2799,
+            7712
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 51ST ST. x S. MOZART ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69521900239094,
+            41.80096766229844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69666340248781,
+            41.80416962275813
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69383815626341,
+            41.804214778857634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69657455552411,
+            41.801080724535424
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7881,
+    "separation_ratio": 1.285,
+    "best_offset_m": 11.6,
+    "n_junctions": 3
+  }
+}

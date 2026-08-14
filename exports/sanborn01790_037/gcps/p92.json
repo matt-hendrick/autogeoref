@@ -1,0 +1,109 @@
+{
+  "page": "92",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 0.97,
+  "auto_residuals_m": [
+    0.4,
+    0.38,
+    0.36,
+    0.4
+  ],
+  "inlier_streets": [
+    [
+      "WEST END AV.",
+      "S. 49TH AV."
+    ],
+    [
+      "WEST END AV.",
+      "S. 48TH AV."
+    ],
+    [
+      "S. 49TH AV.",
+      "WASHINGTON BL'VD"
+    ],
+    [
+      "S. 48TH AV.",
+      "WASHINGTON BL'VD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            957,
+            2923
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x S. 49TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7478220536959,
+            41.8831005972922
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5026,
+            2923
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. x S. 48TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74537571461889,
+            41.88313009328202
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            957,
+            5717
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 49TH AV. x WASHINGTON BL'VD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74777348873042,
+            41.88178407537596
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5026,
+            5717
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 48TH AV. x WASHINGTON BL'VD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74534057142273,
+            41.881816295281446
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

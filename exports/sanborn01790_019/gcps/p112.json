@@ -1,0 +1,179 @@
+{
+  "page": "112",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 1.01,
+  "auto_residuals_m": [
+    0.53,
+    0.27,
+    0.72,
+    0.56,
+    0.2,
+    0.43,
+    0.27
+  ],
+  "inlier_streets": [
+    [
+      "WENDELL",
+      "ORLEANS"
+    ],
+    [
+      "WENDELL",
+      "WELLS"
+    ],
+    [
+      "W. OAK",
+      "ORLEANS"
+    ],
+    [
+      "W. OAK",
+      "WELLS"
+    ],
+    [
+      "LOCUST",
+      "ORLEANS"
+    ],
+    [
+      "LOCUST",
+      "N. FRANKLIN"
+    ],
+    [
+      "LOCUST",
+      "WELLS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            110,
+            1172
+          ],
+          "username": "autogeoref",
+          "note": "auto: WENDELL x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63735363794795,
+            41.90128343535749
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4771,
+            1172
+          ],
+          "username": "autogeoref",
+          "note": "auto: WENDELL x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63438160680828,
+            41.901324595980185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            110,
+            2893
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OAK x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63732281516198,
+            41.900505144155765
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4771,
+            2893
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OAK x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63435381350757,
+            41.9005427289069
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            110,
+            6298
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOCUST x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63726170310554,
+            41.89894350839984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2439,
+            6298
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOCUST x N. FRANKLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63577201754707,
+            41.89896283124702
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4771,
+            6298
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOCUST x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63429136350743,
+            41.89898167876879
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

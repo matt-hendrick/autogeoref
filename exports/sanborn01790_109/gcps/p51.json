@@ -1,0 +1,205 @@
+{
+  "page": "51",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.56,
+  "auto_residuals_m": [
+    1.23,
+    0.91,
+    0.44,
+    3.04,
+    2.31,
+    0.16,
+    2.81,
+    2.09
+  ],
+  "inlier_streets": [
+    [
+      "W. 37TH PL.",
+      "S. CALIFORNIA AV."
+    ],
+    [
+      "W. 37TH PL.",
+      "S. WASHTENAW AV."
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. 38TH ST."
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. 38TH PL."
+    ],
+    [
+      "S. CALIFORNIA AV.",
+      "W. PERSHING (W. 39TH ST.) ROAD"
+    ],
+    [
+      "S. WASHTENAW AV.",
+      "W. 38TH ST."
+    ],
+    [
+      "S. WASHTENAW AV.",
+      "W. 38TH PL."
+    ],
+    [
+      "S. WASHTENAW AV.",
+      "W. PERSHING (W. 39TH ST.) ROAD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            827,
+            2124
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH PL. x S. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69469450506789,
+            41.82550604058819
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4688,
+            2124
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH PL. x S. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69224509515658,
+            41.82555976107098
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            827,
+            4031
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. 38TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69466693587053,
+            41.82459857663541
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            827,
+            5972
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. 38TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69463817108507,
+            41.823683560504776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            827,
+            7802
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALIFORNIA AV. x W. PERSHING (W. 39TH ST.) ROAD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69463245116101,
+            41.82277090620618
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4688,
+            4031
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WASHTENAW AV. x W. 38TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6922150885395,
+            41.8246461802669
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4688,
+            5972
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WASHTENAW AV. x W. 38TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6921870647169,
+            41.82373247097067
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4688,
+            7802
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WASHTENAW AV. x W. PERSHING (W. 39TH ST.) ROAD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69216076305631,
+            41.82282003679724
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.581,
+    "dy_m": -2.29
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "page": "117",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. THOMAS (TELL PL.)",
+      "N. ASHLAND AV."
+    ],
+    [
+      "N. ASHLAND AV.",
+      "W. CORTEZ (EMMA)"
+    ],
+    [
+      "N. ASHLAND AV.",
+      "W. AUGUSTA BLVD (ST)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1014,
+            1765
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. THOMAS (TELL PL.) x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66744355790661,
+            41.90152434375603
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1014,
+            3784
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND AV. x W. CORTEZ (EMMA)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66741771411735,
+            41.90061719664926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1014,
+            5805
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND AV. x W. AUGUSTA BLVD (ST)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66739245957523,
+            41.89970797652407
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66772065109504,
+            41.90199544131137
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5271,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66486776353196,
+            41.90204322191275
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66764038642962,
+            41.89934053818587
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6271,
+    "separation_ratio": 1.171,
+    "best_offset_m": 23.8,
+    "n_junctions": 22
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 27,
+      "votable": 27,
+      "in_block": 27,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 10.4,
+          "addr_diff": 4.3
+        },
+        {
+          "perp_m": 9.9,
+          "addr_diff": 2.3
+        },
+        {
+          "perp_m": 9.9,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 9.3,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 9.3,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 1.7
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 1.7
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 3.6
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 3.5
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 2.7
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 2.7
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 4.3
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 3.9
+        },
+        {
+          "perp_m": 8.6,
+          "addr_diff": 7.4
+        },
+        {
+          "perp_m": 11.9,
+          "addr_diff": 1.7
+        },
+        {
+          "perp_m": 11.9,
+          "addr_diff": 1.7
+        },
+        {
+          "perp_m": 11.9,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 12.0,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 12.0,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 12.0,
+          "addr_diff": 1.5
+        },
+        {
+          "perp_m": 12.1,
+          "addr_diff": 3.4
+        },
+        {
+          "perp_m": 12.1,
+          "addr_diff": 3.3
+        },
+        {
+          "perp_m": 12.1,
+          "addr_diff": 3.2
+        },
+        {
+          "perp_m": 12.2,
+          "addr_diff": 3.0
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

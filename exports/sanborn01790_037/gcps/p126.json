@@ -1,0 +1,164 @@
+{
+  "page": "126",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "GLADYS AV.",
+      "S. 48TH AV."
+    ],
+    [
+      "W. VAN BUREN",
+      "S. 48TH AV."
+    ],
+    [
+      "S. 48TH AV.",
+      "W. CONGRESS"
+    ],
+    [
+      "S. 48TH AV.",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5451,
+            2209
+          ],
+          "username": "autogeoref",
+          "note": "auto: GLADYS AV. x S. 48TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74510145843472,
+            41.875902659263296
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5451,
+            4243
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. 48TH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7450667800435,
+            41.875000222062184
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5451,
+            6244
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 48TH AV. x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74503468233168,
+            41.87409121007789
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5451,
+            8238
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. 48TH AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74499844275364,
+            41.87314050249694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74809202504353,
+            41.876523543664625
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5263,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74519996849729,
+            41.87655016295175
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74804003764996,
+            41.87339207794783
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.7118,
+    "separation_ratio": 0.991,
+    "best_offset_m": 89.0,
+    "n_junctions": 4
+  }
+}

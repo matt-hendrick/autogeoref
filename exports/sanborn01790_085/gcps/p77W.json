@@ -1,0 +1,109 @@
+{
+  "page": "77W",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": -88.62,
+  "auto_residuals_m": [
+    0.26,
+    0.31,
+    0.25,
+    0.24
+  ],
+  "inlier_streets": [
+    [
+      "W. MADISON",
+      "S. HALSTED"
+    ],
+    [
+      "W. MADISON",
+      "S. DESPLAINES"
+    ],
+    [
+      "S. HALSTED",
+      "W. MONROE"
+    ],
+    [
+      "S. DESPLAINES",
+      "W. MONROE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1507,
+            6246
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64736007193765,
+            41.88177784426841
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1507,
+            1021
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6441272357135,
+            41.88182012116629
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4331,
+            6246
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. MONROE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6473217715858,
+            41.88049224033456
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4331,
+            1021
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DESPLAINES x W. MONROE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64408202022257,
+            41.88052976618306
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

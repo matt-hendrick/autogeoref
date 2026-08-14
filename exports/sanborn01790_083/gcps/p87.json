@@ -1,0 +1,136 @@
+{
+  "page": "87",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.18,
+  "auto_residuals_m": [
+    0.55,
+    0.06,
+    0.51,
+    0.5,
+    0.47
+  ],
+  "inlier_streets": [
+    [
+      "W. WILLOW",
+      "N. HALSTED"
+    ],
+    [
+      "W. WILLOW",
+      "N. BURLING"
+    ],
+    [
+      "W. WILLOW",
+      "N. ORCHARD"
+    ],
+    [
+      "N. HALSTED",
+      "W. NORTH AV."
+    ],
+    [
+      "N. ORCHARD",
+      "W. NORTH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            939,
+            472
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WILLOW x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6483254018663,
+            41.913821098326174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2942,
+            472
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WILLOW x N. BURLING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64712265255645,
+            41.913840809578545
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4949,
+            472
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WILLOW x N. ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64591632454575,
+            41.91385930953302
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            939,
+            6871
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64823574007377,
+            41.91091355569374
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4949,
+            6871
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ORCHARD x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64580875358956,
+            41.91094954629007
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.989,
+    "dy_m": -0.907
+  }
+}

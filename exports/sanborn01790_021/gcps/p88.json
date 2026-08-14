@@ -1,0 +1,170 @@
+{
+  "page": "88",
+  "n_streets": 5,
+  "n_candidates": 12,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. 38TH ST.",
+      "S. ROBEY"
+    ],
+    [
+      "S. ROBEY",
+      "W. 39TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            939,
+            3059
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x S. ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6751355484446,
+            41.82491602959281
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            939,
+            7091
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ROBEY x W. 39TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67508752848833,
+            41.82311272304483
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67536728584437,
+            41.82594757489665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5272,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67256392604038,
+            41.82598330894765
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6753073474649,
+            41.82333646116149
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8297,
+    "separation_ratio": 1.007,
+    "best_offset_m": 0.5,
+    "n_junctions": 10
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 7,
+      "votable": 7,
+      "in_block": 7,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 11.5,
+          "addr_diff": 3.4
+        },
+        {
+          "perp_m": 11.4,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 11.4,
+          "addr_diff": 1.0
+        },
+        {
+          "perp_m": 11.4,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 11.7,
+          "addr_diff": 6.5
+        },
+        {
+          "perp_m": 14.0,
+          "addr_diff": 1.7
+        },
+        {
+          "perp_m": 13.7,
+          "addr_diff": 3.7
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

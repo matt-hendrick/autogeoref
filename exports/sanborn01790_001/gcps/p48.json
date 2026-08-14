@@ -1,0 +1,255 @@
+{
+  "page": "48",
+  "n_streets": 12,
+  "n_candidates": 18,
+  "n_inliers": 8,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "WELLINGTON",
+      "N. HALSTED"
+    ],
+    [
+      "N. CLARK",
+      "OAKDALE AVE. (NOT OPEN)"
+    ],
+    [
+      "N. CLARK",
+      "OAKDALE AVE"
+    ],
+    [
+      "OAKDALE AVE. (NOT OPEN)",
+      "N. HALSTED"
+    ],
+    [
+      "OAKDALE AVE.",
+      "N. HALSTED"
+    ],
+    [
+      "OAKDALE AVE",
+      "N. HALSTED"
+    ],
+    [
+      "N. HALSTED",
+      "GEORGE"
+    ],
+    [
+      "N. HALSTED",
+      "DIVERSEY AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            832,
+            104
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLINGTON x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64912416569017,
+            41.93635932464101
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4256,
+            2144
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x OAKDALE AVE. (NOT OPEN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64708574650838,
+            41.93551623297666
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4256,
+            2189
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x OAKDALE AVE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64708574650838,
+            41.93551623297666
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            832,
+            2144
+          ],
+          "username": "autogeoref",
+          "note": "auto: OAKDALE AVE. (NOT OPEN) x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64909075476409,
+            41.93543826812764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            832,
+            2212
+          ],
+          "username": "autogeoref",
+          "note": "auto: OAKDALE AVE. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64909075476409,
+            41.93543826812764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            832,
+            2189
+          ],
+          "username": "autogeoref",
+          "note": "auto: OAKDALE AVE x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64909075476409,
+            41.93543826812764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            832,
+            4204
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x GEORGE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64906006339227,
+            41.9345242053935
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            832,
+            8117
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x DIVERSEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64899516121942,
+            41.932700278832705
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64929883768733,
+            41.936053717467395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64659482236928,
+            41.93609374029031
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64921769607756,
+            41.933020007633694
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 1.866,
+    "dy_m": -2.947
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8315,
+    "separation_ratio": 1.234,
+    "best_offset_m": 4.8,
+    "n_junctions": 6
+  }
+}

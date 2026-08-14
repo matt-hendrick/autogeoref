@@ -1,0 +1,187 @@
+{
+  "page": "49",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 4,
+  "status": "OK (verified: corroboration+junction)",
+  "rescue_anchors": [
+    [
+      "WELLINGTON",
+      "EVANSTON AVE."
+    ],
+    [
+      "OAKDALE AVE.",
+      "EVANSTON AVE."
+    ],
+    [
+      "OAKDALE AVE.",
+      "EVANSTON AVE."
+    ],
+    [
+      "EVANSTON AVE.",
+      "SURF"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4766,
+            114
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLINGTON x EVANSTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64427925702665,
+            41.93651289598939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4766,
+            2063
+          ],
+          "username": "autogeoref",
+          "note": "auto: OAKDALE AVE. x EVANSTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64424961109044,
+            41.935588293581716
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4766,
+            2063
+          ],
+          "username": "autogeoref",
+          "note": "auto: OAKDALE AVE. x EVANSTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64424747554227,
+            41.935522694237605
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4766,
+            5095
+          ],
+          "username": "autogeoref",
+          "note": "auto: EVANSTON AVE. x SURF"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64426481624173,
+            41.93425234805743
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6468589430151,
+            41.936114626534085
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64415492769707,
+            41.93615464931878
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64677780140532,
+            41.93308091959762
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7849,
+    "separation_ratio": 1.63,
+    "best_offset_m": 15.1,
+    "n_junctions": 9
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": null
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 53,
+      "votable": 0,
+      "in_block": 0,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": []
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

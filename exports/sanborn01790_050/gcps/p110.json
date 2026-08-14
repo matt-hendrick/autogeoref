@@ -1,0 +1,113 @@
+{
+  "page": "110",
+  "n_streets": 4,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 1.13,
+  "auto_residuals_m": [
+    0.02,
+    0.01,
+    0.01,
+    0.02
+  ],
+  "inlier_streets": [
+    [
+      "BERTEAU AV.",
+      "N. KOLMAR AV."
+    ],
+    [
+      "BERTEAU AV.",
+      "N. KILBOURN AV."
+    ],
+    [
+      "N. KOLMAR AV.",
+      "IRVING PARK RD. -(BLVD)"
+    ],
+    [
+      "N. KILBOURN AV.",
+      "IRVING PARK RD. -(BLVD)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1990,
+            402
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x N. KOLMAR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74188816658618,
+            41.957094070800316
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3967,
+            402
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x N. KILBOURN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74066680786092,
+            41.95711192112025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1990,
+            7758
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KOLMAR AV. x IRVING PARK RD. -(BLVD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.741783677366,
+            41.95348037695635
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3967,
+            7758
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILBOURN AV. x IRVING PARK RD. -(BLVD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74056227976071,
+            41.95349836244851
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.767,
+    "dy_m": -0.445
+  }
+}

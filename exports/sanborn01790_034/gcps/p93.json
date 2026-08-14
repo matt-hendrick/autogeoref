@@ -1,0 +1,138 @@
+{
+  "page": "93",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "rotation_deg": 0.3,
+  "auto_residuals_m": [
+    1.83,
+    4.14,
+    4.69,
+    4.09,
+    4.16
+  ],
+  "inlier_streets": [
+    [
+      "LAWRENCE AV.",
+      "KENMORE AV."
+    ],
+    [
+      "LAWRENCE AV.",
+      "WINTHROP"
+    ],
+    [
+      "KENMORE AV.",
+      "LELAND AV."
+    ],
+    [
+      "KENMORE AV.",
+      "WILSON AV."
+    ],
+    [
+      "LELAND AV.",
+      "WINTHROP"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3635,
+            281
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x KENMORE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65623372366255,
+            41.969052379043994
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1397,
+            281
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x WINTHROP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65763808488951,
+            41.96903402891564
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3635,
+            4261
+          ],
+          "username": "autogeoref",
+          "note": "auto: KENMORE AV. x LELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65621906711446,
+            41.96722613586256
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3635,
+            8047
+          ],
+          "username": "autogeoref",
+          "note": "auto: KENMORE AV. x WILSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65620374032652,
+            41.965397225724615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1397,
+            4261
+          ],
+          "username": "autogeoref",
+          "note": "auto: LELAND AV. x WINTHROP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65755328582478,
+            41.96720842675143
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -1.476,
+    "dy_m": -2.738
+  }
+}

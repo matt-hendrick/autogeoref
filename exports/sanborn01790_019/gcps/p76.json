@@ -1,0 +1,276 @@
+{
+  "page": "76",
+  "n_streets": 10,
+  "n_candidates": 16,
+  "n_inliers": 11,
+  "rotation_deg": -88.71,
+  "auto_residuals_m": [
+    0.39,
+    0.94,
+    0.43,
+    1.08,
+    0.37,
+    0.55,
+    0.87,
+    1.18,
+    0.38,
+    0.4,
+    0.63
+  ],
+  "inlier_streets": [
+    [
+      "WELLS",
+      "W. SCHILLER"
+    ],
+    [
+      "WELLS",
+      "SIGEL"
+    ],
+    [
+      "WELLS",
+      "SIGEL ST."
+    ],
+    [
+      "WIELAND",
+      "W. SCHILLER"
+    ],
+    [
+      "NORTH PARK AV.",
+      "W. SCHILLER"
+    ],
+    [
+      "NORTH PARK AV.",
+      "SIGEL"
+    ],
+    [
+      "NORTH PARK AV.",
+      "SIGEL ST."
+    ],
+    [
+      "W. SCHILLER",
+      "ORLEANS"
+    ],
+    [
+      "W. SCHILLER",
+      "SEDGWICK"
+    ],
+    [
+      "SIGEL",
+      "SEDGWICK"
+    ],
+    [
+      "SEDGWICK",
+      "SIGEL ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3178,
+            580
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLS x W. SCHILLER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63460742520529,
+            41.90762200960628
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5320,
+            580
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLS x SIGEL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63457676069788,
+            41.90664828079055
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5335,
+            580
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLS x SIGEL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63457676069788,
+            41.90664828079055
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3178,
+            2190
+          ],
+          "username": "autogeoref",
+          "note": "auto: WIELAND x W. SCHILLER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63559882442219,
+            41.90760714669575
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3178,
+            3777
+          ],
+          "username": "autogeoref",
+          "note": "auto: NORTH PARK AV. x W. SCHILLER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6365584845143,
+            41.90758857248781
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5320,
+            3777
+          ],
+          "username": "autogeoref",
+          "note": "auto: NORTH PARK AV. x SIGEL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63653027580345,
+            41.906621374951726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5335,
+            3777
+          ],
+          "username": "autogeoref",
+          "note": "auto: NORTH PARK AV. x SIGEL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63653027580345,
+            41.906621374951726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3178,
+            5381
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SCHILLER x ORLEANS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6375210370596,
+            41.90757307885541
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3178,
+            6948
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SCHILLER x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63848521300099,
+            41.9075566292391
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5320,
+            6948
+          ],
+          "username": "autogeoref",
+          "note": "auto: SIGEL x SEDGWICK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63845506861247,
+            41.90659031201537
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5335,
+            6948
+          ],
+          "username": "autogeoref",
+          "note": "auto: SEDGWICK x SIGEL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63845506861247,
+            41.90659031201537
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -0.19,
+    "dy_m": -6.59
+  }
+}

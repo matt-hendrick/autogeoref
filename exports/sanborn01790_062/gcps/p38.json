@@ -1,0 +1,111 @@
+{
+  "page": "38",
+  "n_streets": 9,
+  "n_candidates": 9,
+  "n_inliers": 4,
+  "rotation_deg": 0.78,
+  "auto_residuals_m": [
+    6.28,
+    10.89,
+    9.38,
+    4.79
+  ],
+  "inlier_streets": [
+    [
+      "W. ARDMORE AV.",
+      "N. MARMORA AV."
+    ],
+    [
+      "W. SEMINOLE",
+      "N. MENARD AV."
+    ],
+    [
+      "N. MENARD AV.",
+      "W. BRYN MAWR"
+    ],
+    [
+      "N. MARMORA AV.",
+      "W. BRYN MAWR"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2096,
+            1116
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARDMORE AV. x N. MARMORA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77459348791685,
+            41.98603779391352
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5090,
+            4073
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SEMINOLE x N. MENARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77314923970141,
+            41.98474642804942
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5090,
+            8094
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MENARD AV. x W. BRYN MAWR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77319133648214,
+            41.982920665852674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1182,
+            8094
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MARMORA AV. x W. BRYN MAWR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77561396701084,
+            41.98291229150401
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

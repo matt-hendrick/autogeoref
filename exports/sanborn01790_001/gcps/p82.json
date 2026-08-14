@@ -1,0 +1,109 @@
+{
+  "page": "82",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.14,
+  "auto_residuals_m": [
+    0.14,
+    0.14,
+    0.17,
+    0.13
+  ],
+  "inlier_streets": [
+    [
+      "ROSCOE",
+      "CLIFTON AVE."
+    ],
+    [
+      "ROSCOE",
+      "SEMINARY AVE."
+    ],
+    [
+      "BELMONT AVE.",
+      "CLIFTON AVE."
+    ],
+    [
+      "BELMONT AVE.",
+      "SEMINARY AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            79,
+            204
+          ],
+          "username": "autogeoref",
+          "note": "auto: ROSCOE x CLIFTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6578565181744,
+            41.94351246899677
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2181,
+            204
+          ],
+          "username": "autogeoref",
+          "note": "auto: ROSCOE x SEMINARY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65664409762775,
+            41.9435319166618
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            79,
+            8134
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AVE. x CLIFTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65775237566505,
+            41.939857002085816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2181,
+            8134
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AVE. x SEMINARY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65653663510068,
+            41.93987353623901
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

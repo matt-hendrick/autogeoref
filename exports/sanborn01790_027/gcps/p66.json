@@ -1,0 +1,159 @@
+{
+  "page": "66",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.11,
+  "auto_residuals_m": [
+    0.86,
+    0.34,
+    0.71,
+    0.86,
+    1.34,
+    1.69
+  ],
+  "inlier_streets": [
+    [
+      "FULLERTON AV.",
+      "MONTICELLO AV."
+    ],
+    [
+      "FULLERTON AV.",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "MEDILL AV.",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "BELDEN AV.",
+      "MONTICELLO AV."
+    ],
+    [
+      "BELDEN AV.",
+      "N. CENTRAL PARK AV."
+    ],
+    [
+      "LYNDALE",
+      "N. CENTRAL PARK AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            621,
+            268
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x MONTICELLO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71820195634818,
+            41.92460192560551
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2644,
+            268
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71698091215383,
+            41.92461618371568
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2644,
+            2221
+          ],
+          "username": "autogeoref",
+          "note": "auto: MEDILL AV. x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71695408083794,
+            41.923703091955396
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            621,
+            4187
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x MONTICELLO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71814949796166,
+            41.922772323563166
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2644,
+            4187
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7169257174982,
+            41.92278671493956
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2644,
+            6200
+          ],
+          "username": "autogeoref",
+          "note": "auto: LYNDALE x N. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71689717211618,
+            41.92187301790609
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.451,
+    "dy_m": 1.914
+  }
+}

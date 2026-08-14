@@ -1,0 +1,113 @@
+{
+  "page": "46",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.84,
+  "auto_residuals_m": [
+    0.09,
+    0.07,
+    0.09,
+    0.07
+  ],
+  "inlier_streets": [
+    [
+      "S. CENTRAL PARK AV.",
+      "W. 15TH"
+    ],
+    [
+      "S. CENTRAL PARK AV.",
+      "W. 16TH"
+    ],
+    [
+      "S. ST. LOUIS AV.",
+      "W. 15TH"
+    ],
+    [
+      "S. ST. LOUIS AV.",
+      "W. 16TH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1393,
+            4010
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTRAL PARK AV. x W. 15TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71525419671674,
+            41.86078983209847
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1393,
+            8028
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTRAL PARK AV. x W. 16TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71519964767565,
+            41.8589613696319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5432,
+            4010
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x W. 15TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71281640646431,
+            41.86081729049626
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5432,
+            8028
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x W. 16TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7127638635493,
+            41.85898735509075
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.758,
+    "dy_m": -1.958
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "page": "36",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.77,
+  "auto_residuals_m": [
+    0.46,
+    0.42,
+    0.44,
+    0.45
+  ],
+  "inlier_streets": [
+    [
+      "ILLINOIS",
+      "N. CLARK"
+    ],
+    [
+      "ILLINOIS",
+      "DEARBORN AV."
+    ],
+    [
+      "KINZIE",
+      "N. CLARK"
+    ],
+    [
+      "KINZIE",
+      "DEARBORN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1704,
+            2713
+          ],
+          "username": "autogeoref",
+          "note": "auto: ILLINOIS x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63110568432744,
+            41.89082366003323
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4107,
+            2713
+          ],
+          "username": "autogeoref",
+          "note": "auto: ILLINOIS x DEARBORN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62962816679939,
+            41.89083279154936
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1704,
+            6344
+          ],
+          "username": "autogeoref",
+          "note": "auto: KINZIE x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63105969692897,
+            41.889211911567216
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4107,
+            6344
+          ],
+          "username": "autogeoref",
+          "note": "auto: KINZIE x DEARBORN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62958692820277,
+            41.88923234663126
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

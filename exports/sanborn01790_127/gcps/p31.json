@@ -1,0 +1,182 @@
+{
+  "page": "31",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 7,
+  "rotation_deg": 1.01,
+  "auto_residuals_m": [
+    5.76,
+    7.18,
+    4.37,
+    4.87,
+    8.9,
+    5.91,
+    3.1
+  ],
+  "inlier_streets": [
+    [
+      "W. GRANVILLE AV.",
+      "N. KEDZIE AV."
+    ],
+    [
+      "W. GRANVILLE AV.",
+      "N. TROY"
+    ],
+    [
+      "W. GRANVILLE AV.",
+      "N. ALBANY AV."
+    ],
+    [
+      "W. HOOD AV.",
+      "N. KEDZIE AV."
+    ],
+    [
+      "W. HOOD AV.",
+      "N. TROY"
+    ],
+    [
+      "W. HOOD AV.",
+      "N. ALBANY AV."
+    ],
+    [
+      "N. ALBANY AV.",
+      "W. PETERSON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            342,
+            317
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRANVILLE AV. x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70924241668628,
+            41.99386211852288
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2179,
+            317
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRANVILLE AV. x N. TROY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7080167530643,
+            41.99387361446447
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4293,
+            317
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. GRANVILLE AV. x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70680207873141,
+            41.99388475554707
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            342,
+            2113
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HOOD AV. x N. KEDZIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70921356505693,
+            41.993000531871914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2179,
+            2113
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HOOD AV. x N. TROY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7079819017464,
+            41.99301081566461
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4293,
+            2113
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HOOD AV. x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70677262353439,
+            41.99302081463264
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4293,
+            8014
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ALBANY AV. x W. PETERSON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70668421089198,
+            41.99041191204899
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.326,
+    "dy_m": 1.981
+  }
+}

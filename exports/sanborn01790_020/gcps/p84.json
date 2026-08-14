@@ -1,0 +1,141 @@
+{
+  "page": "84",
+  "n_streets": 4,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 25TH ST.",
+      "S. MICHIGAN AV. (BOULEVARD.)"
+    ],
+    [
+      "E. 26TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 26TH ST.",
+      "S. MICHIGAN AV. (BOULEVARD.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4430,
+            238
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 25TH ST. x S. MICHIGAN AV. (BOULEVARD.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62366854302473,
+            41.847467724602566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1529,
+            4256
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 26TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6253261003465,
+            41.84561360323313
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4430,
+            4256
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 26TH ST. x S. MICHIGAN AV. (BOULEVARD.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62363620513878,
+            41.845638283663774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62598527397218,
+            41.84720091934896
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5292,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6231274487463,
+            41.847246210553756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62590955368995,
+            41.84454955212124
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6991,
+    "separation_ratio": 1.185,
+    "best_offset_m": 7.5,
+    "n_junctions": 11
+  }
+}

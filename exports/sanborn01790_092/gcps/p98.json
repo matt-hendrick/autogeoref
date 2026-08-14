@@ -1,0 +1,157 @@
+{
+  "page": "98",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 6,
+  "rotation_deg": 1.26,
+  "auto_residuals_m": [
+    1.11,
+    2.3,
+    1.14,
+    1.09,
+    2.33,
+    1.19
+  ],
+  "inlier_streets": [
+    [
+      "W. LAKE",
+      "N. PEORIA"
+    ],
+    [
+      "W. LAKE",
+      "N. GREEN"
+    ],
+    [
+      "W. LAKE",
+      "N. HALSTED"
+    ],
+    [
+      "N. PEORIA",
+      "W. RANDOLPH (MART)"
+    ],
+    [
+      "N. GREEN",
+      "W. RANDOLPH (MART)"
+    ],
+    [
+      "N. HALSTED",
+      "W. RANDOLPH (MART)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            837,
+            3553
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. PEORIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64980845207373,
+            41.88562718974464
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2960,
+            3553
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. GREEN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64864058226212,
+            41.88564452894375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4972,
+            3553
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64747399426841,
+            41.885664545043056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            837,
+            6310
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PEORIA x W. RANDOLPH (MART)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64977141296946,
+            41.88436737048062
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2960,
+            6310
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GREEN x W. RANDOLPH (MART)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64860362989117,
+            41.88438798703172
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4972,
+            6310
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x W. RANDOLPH (MART)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64743635398656,
+            41.88440647398417
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

@@ -1,0 +1,134 @@
+{
+  "page": "21",
+  "n_streets": 9,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 0.06,
+  "auto_residuals_m": [
+    3.95,
+    2.77,
+    4.98,
+    1.26,
+    4.96
+  ],
+  "inlier_streets": [
+    [
+      "W. 14TH ST.",
+      "S. RACINE AV. (S. CENTRAL)"
+    ],
+    [
+      "W. 14TH PL.",
+      "S. RACINE AV. (S. CENTRAL)"
+    ],
+    [
+      "W. 14TH PL.",
+      "S. ABERDEEN (SOLON)"
+    ],
+    [
+      "S. RACINE AV. (S. CENTRAL)",
+      "W. 15TH ST."
+    ],
+    [
+      "S. ABERDEEN (SOLON)",
+      "W. 15TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            805,
+            666
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 14TH ST. x S. RACINE AV. (S. CENTRAL)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65657977573342,
+            41.86342074587135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            805,
+            2610
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 14TH PL. x S. RACINE AV. (S. CENTRAL)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65655385309933,
+            41.862512615658446
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4874,
+            2610
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 14TH PL. x S. ABERDEEN (SOLON)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6541463357397,
+            41.86250015191796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            805,
+            4674
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RACINE AV. (S. CENTRAL) x W. 15TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65652889460952,
+            41.8616063713428
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4874,
+            4674
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ABERDEEN (SOLON) x W. 15TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6541381144131,
+            41.861649100012045
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

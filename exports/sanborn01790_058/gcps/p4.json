@@ -1,0 +1,163 @@
+{
+  "page": "4",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. JONQUIL TER.",
+      "N. GREENVIEW AV."
+    ],
+    [
+      "W. JONQUIL TER.",
+      "N. SHERIDAN RD."
+    ],
+    [
+      "N. GREENVIEW AV.",
+      "W. HOWARD"
+    ],
+    [
+      "N. GREENVIEW AV.",
+      "W. HOWARD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1480,
+            4059
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JONQUIL TER. x N. GREENVIEW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66823625191425,
+            42.02113456517642
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4275,
+            4059
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JONQUIL TER. x N. SHERIDAN RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66658430826874,
+            42.02112182537587
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1480,
+            7832
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GREENVIEW AV. x W. HOWARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66824546515201,
+            42.0193651716406
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1480,
+            8138
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GREENVIEW AV. x W. HOWARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.668243330457,
+            42.01921351591244
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            560,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66889563585761,
+            42.0225512909726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5037,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66614545922454,
+            42.02259885242044
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            560,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66879836030922,
+            42.01944702717976
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4143,
+    "separation_ratio": 1.561,
+    "best_offset_m": 6.9,
+    "n_junctions": 11
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "page": "47",
+  "n_streets": 5,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "S. WABASH AV.",
+      "E. 23RD ST."
+    ],
+    [
+      "S. MICHIGAN AV. (BOULEVARD)",
+      "E. 23RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1439,
+            4522
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62545947187377,
+            41.8510883600714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4370,
+            4522
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. (BOULEVARD) x E. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62375961107644,
+            41.851113586581334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62606677040702,
+            41.85279359726874
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62321623555161,
+            41.85283876898538
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62599105012478,
+            41.85014246182699
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5734,
+    "separation_ratio": 1.169,
+    "best_offset_m": 5.8,
+    "n_junctions": 14
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 37,
+      "votable": 26,
+      "in_block": 26,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 20.5,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 21.2,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 21.2,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 20.3,
+          "addr_diff": 3.7
+        },
+        {
+          "perp_m": 10.7,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 10.9,
+          "addr_diff": 0.5
+        },
+        {
+          "perp_m": 11.1,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 11.2,
+          "addr_diff": 1.2
+        },
+        {
+          "perp_m": 11.3,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 11.4,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 11.4,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 11.4,
+          "addr_diff": 0.5
+        },
+        {
+          "perp_m": 11.4,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 11.5,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 11.6,
+          "addr_diff": 2.7
+        },
+        {
+          "perp_m": 11.6,
+          "addr_diff": 4.6
+        },
+        {
+          "perp_m": 11.6,
+          "addr_diff": 4.6
+        },
+        {
+          "perp_m": 11.6,
+          "addr_diff": 4.4
+        },
+        {
+          "perp_m": 11.4,
+          "addr_diff": 3.3
+        },
+        {
+          "perp_m": 11.4,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 11.4,
+          "addr_diff": 3.6
+        },
+        {
+          "perp_m": 11.4,
+          "addr_diff": 2.7
+        },
+        {
+          "perp_m": 11.4,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 23.6,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 23.5,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 20.1,
+          "addr_diff": 2.7
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

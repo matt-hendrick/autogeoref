@@ -1,0 +1,274 @@
+{
+  "page": "9",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. HARRISON",
+      "S. LAVERGNE AV."
+    ],
+    [
+      "FLOURNOY",
+      "S. LAVERGNE AV."
+    ],
+    [
+      "LEXINGTON",
+      "S. LAVERGNE AV."
+    ],
+    [
+      "S. LAVERGNE AV.",
+      "POLK"
+    ],
+    [
+      "S. LAVERGNE AV.",
+      "ARTHINGTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3433,
+            298
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. LAVERGNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74914536308712,
+            41.87302707581935
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3433,
+            2411
+          ],
+          "username": "autogeoref",
+          "note": "auto: FLOURNOY x S. LAVERGNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74912013700163,
+            41.872023551222014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3433,
+            4399
+          ],
+          "username": "autogeoref",
+          "note": "auto: LEXINGTON x S. LAVERGNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74907780636153,
+            41.87111602757497
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3433,
+            6384
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LAVERGNE AV. x POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74904719380848,
+            41.87021365562776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3433,
+            8306
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LAVERGNE AV. x ARTHINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74901954259111,
+            41.86930854885574
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75092002071455,
+            41.872756362310746
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5214,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74800409138024,
+            41.87279783941808
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75083825177374,
+            41.86956888209082
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7295,
+    "separation_ratio": 1.157,
+    "best_offset_m": 2.8,
+    "n_junctions": 6
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 16,
+      "votable": 16,
+      "in_block": 16,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 5.5,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 12.2,
+          "addr_diff": 0.5
+        },
+        {
+          "perp_m": 8.2,
+          "addr_diff": 0.0
+        },
+        {
+          "perp_m": 8.7,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 14.3,
+          "addr_diff": 14.5
+        },
+        {
+          "perp_m": 7.9,
+          "addr_diff": 1.2
+        },
+        {
+          "perp_m": 16.4,
+          "addr_diff": 0.9
+        },
+        {
+          "perp_m": 16.7,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 16.9,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 8.4,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 8.1,
+          "addr_diff": 2.2
+        },
+        {
+          "perp_m": 13.1,
+          "addr_diff": 20.7
+        },
+        {
+          "perp_m": 13.0,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 12.9,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 12.9,
+          "addr_diff": 1.2
+        },
+        {
+          "perp_m": 12.8,
+          "addr_diff": 1.9
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

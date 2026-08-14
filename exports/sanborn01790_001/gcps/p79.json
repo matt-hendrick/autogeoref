@@ -1,0 +1,205 @@
+{
+  "page": "79",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.0,
+  "auto_residuals_m": [
+    0.81,
+    0.05,
+    1.45,
+    0.75,
+    0.4,
+    0.92,
+    0.3,
+    0.34
+  ],
+  "inlier_streets": [
+    [
+      "ROSCOE",
+      "PERRY"
+    ],
+    [
+      "ROSCOE",
+      "SOUTHPORT AVE."
+    ],
+    [
+      "SCHOOL",
+      "PERRY"
+    ],
+    [
+      "SCHOOL",
+      "SOUTHPORT AVE."
+    ],
+    [
+      "MELROSE",
+      "PERRY"
+    ],
+    [
+      "MELROSE",
+      "SOUTHPORT AVE."
+    ],
+    [
+      "BELMONT AVE.",
+      "PERRY"
+    ],
+    [
+      "BELMONT AVE.",
+      "SOUTHPORT AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            905,
+            156
+          ],
+          "username": "autogeoref",
+          "note": "auto: ROSCOE x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66634157405404,
+            41.94339892850694
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4835,
+            156
+          ],
+          "username": "autogeoref",
+          "note": "auto: ROSCOE x SOUTHPORT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66391676079101,
+            41.943436233312134
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            905,
+            4194
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHOOL x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66629239829781,
+            41.941578778800135
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4835,
+            4194
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHOOL x SOUTHPORT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66386569613846,
+            41.9416056337649
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            905,
+            6188
+          ],
+          "username": "autogeoref",
+          "note": "auto: MELROSE x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6662642627707,
+            41.94066086292266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4835,
+            6188
+          ],
+          "username": "autogeoref",
+          "note": "auto: MELROSE x SOUTHPORT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66384164524489,
+            41.940688306197984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            905,
+            8196
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AVE. x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66624166398377,
+            41.939748196367425
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4835,
+            8196
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AVE. x SOUTHPORT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66382033298216,
+            41.939783008903945
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.066,
+    "dy_m": 2.713
+  }
+}

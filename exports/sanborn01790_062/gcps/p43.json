@@ -1,0 +1,138 @@
+{
+  "page": "43",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. PETERSON AV.",
+      "N. MELVINA AV."
+    ],
+    [
+      "W. THORNDALE AV.",
+      "N. MELVINA AV."
+    ],
+    [
+      "N. MELVINA AV.",
+      "W. ARDMORE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            385,
+            253
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PETERSON AV. x N. MELVINA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78275168556885,
+            41.9901670456631
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            385,
+            2198
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. THORNDALE AV. x N. MELVINA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78276594606267,
+            41.98925624474393
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            385,
+            8161
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MELVINA AV. x W. ARDMORE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7828161160193,
+            41.9865024926292
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78266723509174,
+            41.989885867997245
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5123,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77983148892952,
+            41.9898911311975
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78265665681982,
+            41.986737192855685
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

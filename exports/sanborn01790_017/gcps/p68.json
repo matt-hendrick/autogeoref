@@ -1,0 +1,109 @@
+{
+  "page": "68",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 1.06,
+  "auto_residuals_m": [
+    0.68,
+    0.71,
+    0.65,
+    0.67
+  ],
+  "inlier_streets": [
+    [
+      "VANBUREN",
+      "PLYMOUTH CT."
+    ],
+    [
+      "VANBUREN",
+      "STATE"
+    ],
+    [
+      "PLYMOUTH CT.",
+      "HARRISON"
+    ],
+    [
+      "HARRISON",
+      "STATE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2056,
+            1007
+          ],
+          "username": "autogeoref",
+          "note": "auto: VANBUREN x PLYMOUTH CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62873959125237,
+            41.87690697946369
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3990,
+            1007
+          ],
+          "username": "autogeoref",
+          "note": "auto: VANBUREN x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62765212002274,
+            41.87692951144422
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2056,
+            6736
+          ],
+          "username": "autogeoref",
+          "note": "auto: PLYMOUTH CT. x HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62868559875919,
+            41.8745451806989
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3990,
+            6736
+          ],
+          "username": "autogeoref",
+          "note": "auto: HARRISON x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62761115199736,
+            41.874552397608696
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

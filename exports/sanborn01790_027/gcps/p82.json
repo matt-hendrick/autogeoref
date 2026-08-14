@@ -1,0 +1,113 @@
+{
+  "page": "82",
+  "n_streets": 9,
+  "n_candidates": 10,
+  "n_inliers": 4,
+  "rotation_deg": -88.73,
+  "auto_residuals_m": [
+    0.6,
+    0.6,
+    0.63,
+    0.64
+  ],
+  "inlier_streets": [
+    [
+      "N. WESTERN AV.",
+      "FULLERTON AV."
+    ],
+    [
+      "N. WESTERN AV.",
+      "LYNDALE ST."
+    ],
+    [
+      "FULLERTON AV.",
+      "N. MAPLEWOOD AV."
+    ],
+    [
+      "LYNDALE ST.",
+      "N. MAPLEWOOD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            338,
+            1656
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x FULLERTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68760041945247,
+            41.924903402669564
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5142,
+            1656
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x LYNDALE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68752514621171,
+            41.92247011123111
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            338,
+            7668
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. MAPLEWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69145718003139,
+            41.924866509898294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5142,
+            7668
+          ],
+          "username": "autogeoref",
+          "note": "auto: LYNDALE ST. x N. MAPLEWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69138736183953,
+            41.922449187540785
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 4.619,
+    "dy_m": 0.407
+  }
+}

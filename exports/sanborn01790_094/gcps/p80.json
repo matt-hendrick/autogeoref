@@ -1,0 +1,155 @@
+{
+  "page": "80",
+  "n_streets": 8,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.13,
+  "auto_residuals_m": [
+    0.66,
+    0.22,
+    1.19,
+    0.58,
+    0.65,
+    0.49
+  ],
+  "inlier_streets": [
+    [
+      "S. THROOP",
+      "W. CERMAK RD. (W. 22ND ST.)"
+    ],
+    [
+      "S. THROOP",
+      "W. 21ST ST."
+    ],
+    [
+      "W. CERMAK RD. (W. 22ND ST.)",
+      "ALLPORT"
+    ],
+    [
+      "W. CERMAK RD. (W. 22ND ST.)",
+      "S. RACINE AV."
+    ],
+    [
+      "ALLPORT",
+      "W. 21ST ST."
+    ],
+    [
+      "W. 21ST ST.",
+      "S. RACINE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            854,
+            6562
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. THROOP x W. CERMAK RD. (W. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65870613489751,
+            41.85245630751673
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            854,
+            2579
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. THROOP x W. 21ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65876672179853,
+            41.854282573714706
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2862,
+            6562
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CERMAK RD. (W. 22ND ST.) x ALLPORT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65749020430665,
+            41.85247495568445
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4836,
+            6562
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CERMAK RD. (W. 22ND ST.) x S. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65626276944792,
+            41.85249383325876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2862,
+            2579
+          ],
+          "username": "autogeoref",
+          "note": "auto: ALLPORT x W. 21ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65754124591815,
+            41.85430322312284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4836,
+            2579
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65632103323779,
+            41.85431695327064
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

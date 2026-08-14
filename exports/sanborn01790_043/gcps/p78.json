@@ -1,0 +1,160 @@
+{
+  "page": "78",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 67TH PL.",
+      "S. HAMLIN AV."
+    ],
+    [
+      "S. HAMLIN AV.",
+      "W. 68TH ST."
+    ],
+    [
+      "S. HAMLIN AV.",
+      "W. 68TH PL."
+    ],
+    [
+      "S. HAMLIN AV.",
+      "W. 69TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4948,
+            2283
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 67TH PL. x S. HAMLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7176495305908,
+            41.7705401119725
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4948,
+            4177
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HAMLIN AV. x W. 68TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71762702374289,
+            41.76962900902896
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4948,
+            6237
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HAMLIN AV. x W. 68TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71760413743712,
+            41.76871842202896
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4948,
+            8200
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HAMLIN AV. x W. 69TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71758575592467,
+            41.76780742268161
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72042189747638,
+            41.77118592124205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71760296591502,
+            41.77123025930346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72033470491682,
+            41.768102341119224
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "page": "115",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 5,
+  "rotation_deg": 1.17,
+  "auto_residuals_m": [
+    2.17,
+    2.15,
+    1.87,
+    0.66,
+    2.46
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. KOSTNER AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. KILDARE AV."
+    ],
+    [
+      "N. KOSTNER AV.",
+      "HIRSCH"
+    ],
+    [
+      "N. KOLIN AV.",
+      "HIRSCH"
+    ],
+    [
+      "N. KILDARE AV.",
+      "HIRSCH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            931,
+            353
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. KOSTNER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73624294379506,
+            41.9097560221802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            353
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. KILDARE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73385618790203,
+            41.909787037900394
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            931,
+            8251
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KOSTNER AV. x HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73621965554061,
+            41.90613414636334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2983,
+            8251
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KOLIN AV. x HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73499361655728,
+            41.90615131131762
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            8251
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILDARE AV. x HIRSCH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73375685962564,
+            41.906176838337736
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.245,
+    "dy_m": 0.069
+  }
+}

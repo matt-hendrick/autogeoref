@@ -1,0 +1,185 @@
+{
+  "page": "70",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 101ST PL.",
+      "S. ELIZABETH"
+    ],
+    [
+      "S. ELIZABETH",
+      "W. 102ND PL."
+    ],
+    [
+      "S. ELIZABETH",
+      "W. 103RD ST."
+    ],
+    [
+      "S. RACINE AV.",
+      "W. 103RD ST."
+    ],
+    [
+      "S. RACINE AV.",
+      "W. 101ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3410,
+            3389
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 101ST PL. x S. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65377328861773,
+            41.70904258546223
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3410,
+            5358
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ELIZABETH x W. 102ND PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65375057471233,
+            41.70815372863113
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3410,
+            8245
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ELIZABETH x W. 103RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6536935790111,
+            41.70682787542966
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5358,
+            8245
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RACINE AV. x W. 103RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65257165982315,
+            41.7068385160849
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5358,
+            315
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RACINE AV. x W. 101ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65265439677974,
+            41.71046893938345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            578,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65557240049564,
+            41.71020264102862
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5206,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65270943210294,
+            41.710242864346036
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            578,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65549318106646,
+            41.707060226923396
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  },
+  "seam_adjusted": {
+    "dx_m": -1.546,
+    "dy_m": 1.597
+  }
+}

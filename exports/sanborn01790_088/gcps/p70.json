@@ -1,0 +1,185 @@
+{
+  "page": "70",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. SEDGWICK",
+      "W. SCHILLER"
+    ],
+    [
+      "N. SEDGWICK",
+      "W. EVERGREEN AV. (W. SIGEL)"
+    ],
+    [
+      "N. ORLEANS",
+      "W. SCHILLER"
+    ],
+    [
+      "N. NORTH PARK AV.",
+      "W. SCHILLER"
+    ],
+    [
+      "N. NORTH PARK AV.",
+      "W. EVERGREEN AV. (W. SIGEL)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1291,
+            4375
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. SCHILLER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63848350620195,
+            41.90760068649159
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1291,
+            6477
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SEDGWICK x W. EVERGREEN AV. (W. SIGEL)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63845336181345,
+            41.90663436993473
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2887,
+            4375
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ORLEANS x W. SCHILLER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63751933026056,
+            41.90761713609655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4489,
+            4375
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NORTH PARK AV. x W. SCHILLER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63655677771526,
+            41.907632629718265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4489,
+            6477
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. NORTH PARK AV. x W. EVERGREEN AV. (W. SIGEL)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63652856900441,
+            41.90666543284965
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63896323945627,
+            41.90923625173511
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5295,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6361032195533,
+            41.909280501655154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.638889225964,
+            41.906586774555215
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.4718,
+    "separation_ratio": 0.937,
+    "best_offset_m": 98.9,
+    "n_junctions": 9
+  }
+}

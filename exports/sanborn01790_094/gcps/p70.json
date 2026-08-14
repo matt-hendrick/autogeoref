@@ -1,0 +1,203 @@
+{
+  "page": "70",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 8,
+  "rotation_deg": 0.86,
+  "auto_residuals_m": [
+    2.79,
+    4.05,
+    1.35,
+    2.41,
+    0.72,
+    1.54,
+    1.67,
+    0.71
+  ],
+  "inlier_streets": [
+    [
+      "W. CULLERTON (W. 20TH ST.)",
+      "S. OAKLEY AV."
+    ],
+    [
+      "W. CULLERTON (W. 20TH ST.)",
+      "S. LEAVITT ST."
+    ],
+    [
+      "W. 21ST ST.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "W. 21ST ST.",
+      "S. LEAVITT ST."
+    ],
+    [
+      "S. OAKLEY AV.",
+      "W. 21ST PL."
+    ],
+    [
+      "S. OAKLEY AV.",
+      "W. CERMAK RD. (W. 22ND ST.)"
+    ],
+    [
+      "S. LEAVITT ST.",
+      "W. 21ST PL."
+    ],
+    [
+      "S. LEAVITT ST.",
+      "W. CERMAK RD. (W. 22ND ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            915,
+            279
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CULLERTON (W. 20TH ST.) x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6832668935717,
+            41.85482294645214
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            279
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CULLERTON (W. 20TH ST.) x S. LEAVITT ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68088442661565,
+            41.85482606371327
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            915,
+            2250
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68324351674,
+            41.853893275615924
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            2250
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST ST. x S. LEAVITT ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68079343990175,
+            41.85392674073212
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            915,
+            4246
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY AV. x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68321730353783,
+            41.852982734718665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            915,
+            6241
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY AV. x W. CERMAK RD. (W. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68318776381041,
+            41.85206220714356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            4246
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT ST. x W. 21ST PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6807671170039,
+            41.853017915789806
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4752,
+            6241
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT ST. x W. CERMAK RD. (W. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68074340845699,
+            41.85209861754436
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

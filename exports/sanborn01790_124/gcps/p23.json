@@ -1,0 +1,159 @@
+{
+  "page": "23",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 1.31,
+  "auto_residuals_m": [
+    2.4,
+    1.17,
+    7.43,
+    7.47,
+    0.87,
+    2.26
+  ],
+  "inlier_streets": [
+    [
+      "W. JARVIS AV.",
+      "N. PAULINA"
+    ],
+    [
+      "W. SHERWIN AV.",
+      "N. PAULINA"
+    ],
+    [
+      "N. CLARK",
+      "W. CHASE AV."
+    ],
+    [
+      "N. CLARK",
+      "W. TOUHY AV."
+    ],
+    [
+      "N. PAULINA",
+      "W. CHASE AV."
+    ],
+    [
+      "N. PAULINA",
+      "W. TOUHY AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4911,
+            572
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JARVIS AV. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67246924756407,
+            42.01593964948724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4911,
+            2917
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SHERWIN AV. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67243371412982,
+            42.014873233295226
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            967,
+            5343
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. CHASE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67481424541934,
+            42.01374555414252
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            967,
+            7834
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. TOUHY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67462736384543,
+            42.01262365479453
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4911,
+            5343
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x W. CHASE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67239582301445,
+            42.01378825511601
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4911,
+            7834
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x W. TOUHY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67235591198602,
+            42.01266365609789
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.178,
+    "dy_m": -1.745
+  }
+}

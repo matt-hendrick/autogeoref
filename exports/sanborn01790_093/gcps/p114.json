@@ -1,0 +1,180 @@
+{
+  "page": "114",
+  "n_streets": 11,
+  "n_candidates": 25,
+  "n_inliers": 7,
+  "rotation_deg": 2.1,
+  "auto_residuals_m": [
+    1.29,
+    1.06,
+    3.66,
+    1.48,
+    3.46,
+    3.99,
+    1.65
+  ],
+  "inlier_streets": [
+    [
+      "MAXWELL",
+      "S. PEORIA"
+    ],
+    [
+      "MAXWELL",
+      "S. NEWBERRY"
+    ],
+    [
+      "MAXWELL",
+      "S. HALSTED"
+    ],
+    [
+      "S. PEORIA",
+      "W. 14TH ST."
+    ],
+    [
+      "S. NEWBERRY",
+      "W. 14TH ST."
+    ],
+    [
+      "S. HALSTED",
+      "W. LIBERTY ST."
+    ],
+    [
+      "S. HALSTED",
+      "W. 14TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1038,
+            4178
+          ],
+          "username": "autogeoref",
+          "note": "auto: MAXWELL x S. PEORIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64890302272481,
+            41.8647534874685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2724,
+            4178
+          ],
+          "username": "autogeoref",
+          "note": "auto: MAXWELL x S. NEWBERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64786972178516,
+            41.86478464363663
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4405,
+            4178
+          ],
+          "username": "autogeoref",
+          "note": "auto: MAXWELL x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64684702376375,
+            41.86478337265161
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1038,
+            6785
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PEORIA x W. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64891410151148,
+            41.86350232564777
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2724,
+            6785
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. NEWBERRY x W. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64786141820079,
+            41.863503116379974
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4405,
+            5553
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. LIBERTY ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64683289002718,
+            41.864172684270535
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4405,
+            6785
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64681117023628,
+            41.863559680706196
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

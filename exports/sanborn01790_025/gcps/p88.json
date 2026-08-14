@@ -1,0 +1,142 @@
+{
+  "page": "88",
+  "n_streets": 7,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 22ND PL.",
+      "S. HOYNE AV."
+    ],
+    [
+      "S. HOYNE AV.",
+      "W. 23RD ST."
+    ],
+    [
+      "S. HOYNE AV.",
+      "W. 23RD PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            939,
+            2224
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 22ND PL. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67826909733081,
+            41.85122954111359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            939,
+            4191
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x W. 23RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67824478247029,
+            41.85032277142398
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            939,
+            6168
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x W. 23RD PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6782207097535,
+            41.849425091685944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67850433259642,
+            41.85189504597634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5252,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67565732173081,
+            41.851937881176475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67843217317312,
+            41.849233992807875
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6665,
+    "separation_ratio": 1.057,
+    "best_offset_m": 2.5,
+    "n_junctions": 25
+  }
+}

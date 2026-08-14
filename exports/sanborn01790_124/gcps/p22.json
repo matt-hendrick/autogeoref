@@ -1,0 +1,182 @@
+{
+  "page": "22",
+  "n_streets": 10,
+  "n_candidates": 12,
+  "n_inliers": 7,
+  "rotation_deg": 2.62,
+  "auto_residuals_m": [
+    14.16,
+    8.93,
+    6.0,
+    0.95,
+    4.82,
+    8.94,
+    5.2
+  ],
+  "inlier_streets": [
+    [
+      "N. ROGERS AV.",
+      "N. HONORE (CLAYTON CT.)"
+    ],
+    [
+      "N. HONORE (CLAYTON CT.)",
+      "W. CHASE AV."
+    ],
+    [
+      "N. HONORE (CLAYTON CT.)",
+      "W. CHASE AV."
+    ],
+    [
+      "W. CHASE AV.",
+      "N. CLARK"
+    ],
+    [
+      "W. TOUHY AV.",
+      "N. CLARK"
+    ],
+    [
+      "N. CLARK",
+      "W. JARVIS AV."
+    ],
+    [
+      "N. CLARK",
+      "W. CHASE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2052,
+            1599
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROGERS AV. x N. HONORE (CLAYTON CT.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67669024017415,
+            42.01530976794947
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2052,
+            5330
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HONORE (CLAYTON CT.) x W. CHASE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6766308752611,
+            42.01372226026484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2052,
+            5251
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HONORE (CLAYTON CT.) x W. CHASE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6766308752611,
+            42.01372226026484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5022,
+            5330
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHASE AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67476241262743,
+            42.01374454631697
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5022,
+            7815
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TOUHY AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67457553105353,
+            42.01262264695121
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5022,
+            629
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. JARVIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67512300285038,
+            42.015888036732065
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5022,
+            5251
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x W. CHASE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67476241262743,
+            42.01374454631697
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 6.948,
+    "dy_m": -1.896
+  }
+}

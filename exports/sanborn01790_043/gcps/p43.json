@@ -1,0 +1,249 @@
+{
+  "page": "43",
+  "n_streets": 7,
+  "n_candidates": 15,
+  "n_inliers": 10,
+  "rotation_deg": 1.13,
+  "auto_residuals_m": [
+    2.51,
+    0.67,
+    1.63,
+    1.01,
+    0.95,
+    1.16,
+    1.22,
+    0.48,
+    0.72,
+    1.6
+  ],
+  "inlier_streets": [
+    [
+      "W. 63RD ST.",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "W. 63RD ST.",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "W. 63RD PL.",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "W. 63RD PL.",
+      "S. ST. LOUIS AV."
+    ],
+    [
+      "S. CENTRAL PARK AV.",
+      "W. 64TH ST."
+    ],
+    [
+      "S. CENTRAL PARK AV.",
+      "W. 64TH PL."
+    ],
+    [
+      "S. CENTRAL PARK AV.",
+      "W. 65TH ST."
+    ],
+    [
+      "S. ST. LOUIS AV.",
+      "W. 64TH ST."
+    ],
+    [
+      "S. ST. LOUIS AV.",
+      "W. 64TH PL."
+    ],
+    [
+      "S. ST. LOUIS AV.",
+      "W. 65TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            936,
+            274
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD ST. x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71272560685652,
+            41.77883209108066
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4548,
+            274
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD ST. x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71041021118253,
+            41.77885360597242
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            936,
+            2168
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD PL. x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7126998473162,
+            41.777890912993215
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4548,
+            2168
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 63RD PL. x S. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71038565355717,
+            41.777928946089986
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            936,
+            4053
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTRAL PARK AV. x W. 64TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7126830248161,
+            41.7769857733852
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            936,
+            5934
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTRAL PARK AV. x W. 64TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71266168870929,
+            41.77607680949523
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            936,
+            7846
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTRAL PARK AV. x W. 65TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71263984151166,
+            41.77517025301491
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4548,
+            4053
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x W. 64TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7103638573432,
+            41.77702320539189
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4548,
+            5934
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x W. 64TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71034467718657,
+            41.77611392459576
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4548,
+            7846
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ST. LOUIS AV. x W. 65TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71032281207795,
+            41.77520698370172
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

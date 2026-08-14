@@ -1,0 +1,145 @@
+{
+  "page": "44",
+  "n_streets": 10,
+  "n_candidates": 11,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. PETERSON AV.",
+      "N. McCOOK AV."
+    ],
+    [
+      "N. ELSTON AV.",
+      "N. AUSTIN"
+    ],
+    [
+      "W. ARDMORE AV.",
+      "N. AUSTIN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2825,
+            247
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PETERSON AV. x N. McCOOK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77928041168977,
+            41.99018462078096
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4845,
+            589
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELSTON AV. x N. AUSTIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77789315964445,
+            41.98994527219459
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4845,
+            7996
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARDMORE AV. x N. AUSTIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77796135883958,
+            41.98654264489249
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            566,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78062714603496,
+            41.98985567117423
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5094,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77780734222641,
+            41.989860904787655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            566,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.780616566519,
+            41.98670662422805
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 0.225,
+    "dy_m": -2.427
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8062,
+    "separation_ratio": 1.307,
+    "best_offset_m": 6.3,
+    "n_junctions": 7
+  }
+}

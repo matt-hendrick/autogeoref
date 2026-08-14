@@ -1,0 +1,157 @@
+{
+  "page": "34",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.12,
+  "auto_residuals_m": [
+    1.6,
+    0.99,
+    1.16,
+    1.89,
+    2.05,
+    2.52
+  ],
+  "inlier_streets": [
+    [
+      "E. CULLERTON (E. 20TH ST.)",
+      "S. MICHIGAN"
+    ],
+    [
+      "E. CULLERTON (E. 20TH ST.)",
+      "S. INDIANA"
+    ],
+    [
+      "E. 21ST ST.",
+      "S. MICHIGAN"
+    ],
+    [
+      "E. 21ST ST.",
+      "S. INDIANA"
+    ],
+    [
+      "S. MICHIGAN",
+      "E. CERMAK RD. (E. 22ND ST.)"
+    ],
+    [
+      "S. INDIANA",
+      "E. CERMAK RD. (E. 22ND ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1611,
+            857
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CULLERTON (E. 20TH ST.) x S. MICHIGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62387592607008,
+            41.85549111747212
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4137,
+            857
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. CULLERTON (E. 20TH ST.) x S. INDIANA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62227801603771,
+            41.855513137067504
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1611,
+            3495
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 21ST ST. x S. MICHIGAN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62385142348522,
+            41.854284393172684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4137,
+            3495
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 21ST ST. x S. INDIANA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62225486267744,
+            41.85430913297858
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1611,
+            6647
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN x E. CERMAK RD. (E. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62381024363914,
+            41.852865516706714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4137,
+            6647
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. INDIANA x E. CERMAK RD. (E. 22ND ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62227410889163,
+            41.852887712156274
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

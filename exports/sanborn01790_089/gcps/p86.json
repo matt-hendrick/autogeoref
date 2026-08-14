@@ -1,0 +1,141 @@
+{
+  "page": "86",
+  "n_streets": 4,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 25TH ST.",
+      "PRAIRIE AV. BLVD."
+    ],
+    [
+      "INDIANA AV.",
+      "E. 26TH ST."
+    ],
+    [
+      "PRAIRIE AV. BLVD.",
+      "E. 26TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4207,
+            256
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 25TH ST. x PRAIRIE AV. BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62055127997037,
+            41.8475026528722
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1538,
+            4311
+          ],
+          "username": "autogeoref",
+          "note": "auto: INDIANA AV. x E. 26TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62213773032782,
+            41.84566047016123
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4207,
+            4311
+          ],
+          "username": "autogeoref",
+          "note": "auto: PRAIRIE AV. BLVD. x E. 26TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62048133166658,
+            41.84568496332805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            577,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62275189884996,
+            41.847270012526174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5193,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61993977437896,
+            41.847309658998
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            577,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62268435203765,
+            41.84461130951829
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5076,
+    "separation_ratio": 1.232,
+    "best_offset_m": 2.9,
+    "n_junctions": 19
+  }
+}

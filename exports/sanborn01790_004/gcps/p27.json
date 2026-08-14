@@ -1,0 +1,163 @@
+{
+  "page": "27",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. TAYLOR",
+      "S. FRANCISCO AV."
+    ],
+    [
+      "FILLMORE",
+      "S. FRANCISCO AV."
+    ],
+    [
+      "FILLMORE",
+      "S. CALIFORNIA AV."
+    ],
+    [
+      "FILLMORE",
+      "S. MOZART (HULL AV.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            721,
+            2288
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. TAYLOR x S. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69844248972547,
+            41.86923224809728
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            721,
+            4435
+          ],
+          "username": "autogeoref",
+          "note": "auto: FILLMORE x S. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69841156741211,
+            41.8683205947242
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4922,
+            4435
+          ],
+          "username": "autogeoref",
+          "note": "auto: FILLMORE x S. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69597281642466,
+            41.86834694286979
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2749,
+            4435
+          ],
+          "username": "autogeoref",
+          "note": "auto: FILLMORE x S. MOZART (HULL AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69719149518147,
+            41.868335615549334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69857689629175,
+            41.86992518597539
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5154,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69578957063233,
+            41.86996402004627
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            573,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69849945904001,
+            41.86684303833484
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -1.847,
+    "dy_m": 2.186
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

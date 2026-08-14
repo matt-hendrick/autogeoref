@@ -1,0 +1,198 @@
+{
+  "page": "5",
+  "n_streets": 4,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "FOSTER AV.",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "FOSTER AV.",
+      "BERNARD RD"
+    ],
+    [
+      "FOSTER AV.",
+      "KIMBALL AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            474,
+            332
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71598863804135,
+            41.97566456597703
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2339,
+            332
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x BERNARD RD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71477583609457,
+            41.97567819414701
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4431,
+            332
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x KIMBALL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71355596587128,
+            41.97568972032608
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7158868994647,
+            41.97543251141647
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5271,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.713024864303,
+            41.97545665075117
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71583975482201,
+            41.97234310828014
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7795,
+    "separation_ratio": 1.138,
+    "best_offset_m": 7.8,
+    "n_junctions": 5
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 8,
+      "votable": 8,
+      "in_block": 8,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 10.5,
+          "addr_diff": 5.0
+        },
+        {
+          "perp_m": 10.5,
+          "addr_diff": 1.0
+        },
+        {
+          "perp_m": 10.5,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 10.7,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 12.8,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 12.6,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 12.3,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 12.7,
+          "addr_diff": 0.5
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

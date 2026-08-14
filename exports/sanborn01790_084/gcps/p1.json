@@ -1,0 +1,160 @@
+{
+  "page": "1",
+  "n_streets": 9,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. HILL",
+      "N. WELLS"
+    ],
+    [
+      "W. WENDELL",
+      "N. WELLS"
+    ],
+    [
+      "N. WELLS",
+      "W. OAK"
+    ],
+    [
+      "N. WELLS",
+      "W. LOCUST"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1682,
+            243
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HILL x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63441232934939,
+            41.90210414515497
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1682,
+            1895
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WENDELL x N. WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63438160680828,
+            41.901324595980185
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1682,
+            3621
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS x W. OAK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63435381350757,
+            41.9005427289069
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1682,
+            7047
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WELLS x W. LOCUST"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63429136350743,
+            41.89898167876879
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            574,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63506366911963,
+            41.901843550831856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5169,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63227461449162,
+            41.90188672697513
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            574,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6349896997371,
+            41.89919652330439
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

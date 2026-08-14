@@ -1,0 +1,110 @@
+{
+  "page": "34",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.02,
+  "auto_residuals_m": [
+    0.34,
+    0.35,
+    0.33,
+    0.3
+  ],
+  "inlier_streets": [
+    [
+      "ILLINOIS",
+      "WELLS"
+    ],
+    [
+      "ILLINOIS",
+      "LASALLE AV."
+    ],
+    [
+      "KINZIE",
+      "WELLS"
+    ],
+    [
+      "KINZIE",
+      "LASALLE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1641,
+            2702
+          ],
+          "username": "autogeoref",
+          "note": "auto: ILLINOIS x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.634049268783,
+            41.890785482355696
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4056,
+            2702
+          ],
+          "username": "autogeoref",
+          "note": "auto: ILLINOIS x LASALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63255880110928,
+            41.890802537601495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1641,
+            6007
+          ],
+          "username": "autogeoref",
+          "note": "auto: KINZIE x WELLS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63400656419944,
+            41.8891658841864
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4056,
+            6007
+          ],
+          "username": "autogeoref",
+          "note": "auto: KINZIE x LASALLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63252548492973,
+            41.88918825501918
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

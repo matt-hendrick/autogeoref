@@ -1,0 +1,137 @@
+{
+  "page": "66",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "BELMONT AVE.",
+      "N. HALSTED"
+    ],
+    [
+      "N.CLARK",
+      "FLETCHER"
+    ],
+    [
+      "N. HALSTED",
+      "WELLINGTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5178,
+            250
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AVE. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64926661399988,
+            41.93998093427661
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3934,
+            2316
+          ],
+          "username": "autogeoref",
+          "note": "auto: N.CLARK x FLETCHER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64991001702883,
+            41.939007446499204
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5178,
+            8190
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x WELLINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64914092825337,
+            41.936379017835726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65205139024668,
+            41.93967149638391
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64934737492864,
+            41.93971151693641
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6519702486369,
+            41.936637958641334
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

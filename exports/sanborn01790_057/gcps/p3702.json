@@ -1,0 +1,109 @@
+{
+  "page": "3702",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 0.89,
+  "auto_residuals_m": [
+    0.08,
+    0.04,
+    0.07,
+    0.07
+  ],
+  "inlier_streets": [
+    [
+      "W. 65TH ST.",
+      "S. KILPATRICK AV."
+    ],
+    [
+      "W. 65TH ST.",
+      "S. KNOX AV."
+    ],
+    [
+      "S. KILPATRICK AV.",
+      "W. 66TH ST."
+    ],
+    [
+      "W. 66TH ST.",
+      "S. KNOX AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            665,
+            300
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 65TH ST. x S. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73973851336682,
+            41.774818613502866
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2613,
+            300
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 65TH ST. x S. KNOX AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73851986529823,
+            41.77483185929567
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            665,
+            4116
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. KILPATRICK AV. x W. 66TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73968724982144,
+            41.77299798809321
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2613,
+            4116
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 66TH ST. x S. KNOX AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73846931189574,
+            41.77301281641405
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

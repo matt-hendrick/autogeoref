@@ -1,0 +1,136 @@
+{
+  "page": "1",
+  "n_streets": 11,
+  "n_candidates": 12,
+  "n_inliers": 5,
+  "rotation_deg": -0.35,
+  "auto_residuals_m": [
+    5.63,
+    1.08,
+    2.95,
+    8.89,
+    12.34
+  ],
+  "inlier_streets": [
+    [
+      "BELMONT AV.",
+      "MILWAUKEE AV."
+    ],
+    [
+      "BELMONT AV.",
+      "N. HARDING AV."
+    ],
+    [
+      "N. HARDING AV.",
+      "BARRY AV."
+    ],
+    [
+      "N. HARDING AV.",
+      "WELLINGTON AV."
+    ],
+    [
+      "BARRY AV.",
+      "N. DAVLIN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5396,
+            138
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AV. x MILWAUKEE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72392907525337,
+            41.939170461539724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1916,
+            138
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AV. x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72596398731159,
+            41.939146905583925
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1916,
+            4026
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HARDING AV. x BARRY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7259341766004,
+            41.9373229672566
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1916,
+            8168
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HARDING AV. x WELLINGTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72588789130893,
+            41.93547697013379
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3500,
+            5200
+          ],
+          "username": "autogeoref",
+          "note": "auto: BARRY AV. x N. DAVLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72493118960126,
+            41.93671451156397
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.088,
+    "dy_m": 5.623
+  }
+}

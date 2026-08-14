@@ -1,0 +1,142 @@
+{
+  "page": "86",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. MARQUETTE RD (W. 67TH ST)",
+      "S. HAMILTON AV."
+    ],
+    [
+      "W. 68TH ST.",
+      "S. HAMILTON AV."
+    ],
+    [
+      "W. 69TH ST.",
+      "S. HAMILTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5152,
+            303
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MARQUETTE RD (W. 67TH ST) x S. HAMILTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67725588612564,
+            41.772032477379405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5152,
+            4220
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 68TH ST. x S. HAMILTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67719345708747,
+            41.77021840888976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5152,
+            8163
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 69TH ST. x S. HAMILTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6771529099214,
+            41.76840313352393
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68012079407255,
+            41.77176306125726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67730186251119,
+            41.77180739891975
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68003360151299,
+            41.7686795088773
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.7521,
+    "separation_ratio": 0.995,
+    "best_offset_m": 99.5,
+    "n_junctions": 5
+  }
+}

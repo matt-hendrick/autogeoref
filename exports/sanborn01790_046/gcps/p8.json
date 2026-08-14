@@ -1,0 +1,167 @@
+{
+  "page": "8",
+  "n_streets": 8,
+  "n_candidates": 14,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "SOUTH SHORE DRIVE",
+      "YATES AV."
+    ],
+    [
+      "YATES AV.",
+      "E.72ND ST."
+    ],
+    [
+      "YATES AV.",
+      "E.73RD ST."
+    ],
+    [
+      "E.72ND ST.",
+      "EXCHANGE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            254,
+            208
+          ],
+          "username": "autogeoref",
+          "note": "auto: SOUTH SHORE DRIVE x YATES AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56650353087066,
+            41.76631416697741
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            254,
+            4199
+          ],
+          "username": "autogeoref",
+          "note": "auto: YATES AV. x E.72ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56650607810676,
+            41.764431378755596
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            254,
+            8161
+          ],
+          "username": "autogeoref",
+          "note": "auto: YATES AV. x E.73RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56646958387354,
+            41.7626158397899
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2502,
+            4199
+          ],
+          "username": "autogeoref",
+          "note": "auto: E.72ND ST. x EXCHANGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56517422521887,
+            41.76445845873241
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56635701656842,
+            41.76601235869044
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.56356279087937,
+            41.766048672524576
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5662856097339,
+            41.76295555803734
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -2.133,
+    "dy_m": -0.532
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.9564,
+    "separation_ratio": 1.581,
+    "best_offset_m": 0.7,
+    "n_junctions": 3
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "page": "61",
+  "n_streets": 8,
+  "n_candidates": 12,
+  "n_inliers": 6,
+  "rotation_deg": -0.35,
+  "auto_residuals_m": [
+    0.96,
+    2.06,
+    1.09,
+    1.11,
+    2.24,
+    1.12
+  ],
+  "inlier_streets": [
+    [
+      "E. 106TH ST.",
+      "S. AVENUE C"
+    ],
+    [
+      "E. 106TH ST.",
+      "S. AVENUE B"
+    ],
+    [
+      "E. 106TH ST.",
+      "STATE LINE RD."
+    ],
+    [
+      "S. AVENUE C",
+      "E. 107TH ST."
+    ],
+    [
+      "S. AVENUE B",
+      "E. 107TH ST."
+    ],
+    [
+      "STATE LINE RD.",
+      "E. 107TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1017,
+            4256
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 106TH ST. x S. AVENUE C"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.52696067643201,
+            41.702692173076485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2954,
+            4256
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 106TH ST. x S. AVENUE B"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5257434090093,
+            41.70268582863355
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4803,
+            4256
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 106TH ST. x STATE LINE RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.52452737282296,
+            41.7026806103456
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1017,
+            8235
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. AVENUE C x E. 107TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.52697049426472,
+            41.70087854176863
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2954,
+            8235
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. AVENUE B x E. 107TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.52575628968397,
+            41.700873609287854
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4803,
+            8235
+          ],
+          "username": "autogeoref",
+          "note": "auto: STATE LINE RD. x E. 107TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.52453837163888,
+            41.70086784528079
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

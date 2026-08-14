@@ -1,0 +1,132 @@
+{
+  "page": "39",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 0.88,
+  "auto_residuals_m": [
+    2.14,
+    2.09,
+    0.44,
+    2.24,
+    2.19
+  ],
+  "inlier_streets": [
+    [
+      "GARFIELD AV.",
+      "N. HALSTED"
+    ],
+    [
+      "GARFIELD AV.",
+      "BURLING"
+    ],
+    [
+      "CENTER",
+      "N. HALSTED"
+    ],
+    [
+      "CENTER",
+      "BURLING"
+    ],
+    [
+      "CENTER",
+      "ORCHARD"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            606,
+            275
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64857459457885,
+            41.91999391592971
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2451,
+            275
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x BURLING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64738861431982,
+            41.919993354354595
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            606,
+            4328
+          ],
+          "username": "autogeoref",
+          "note": "auto: CENTER x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64850888668978,
+            41.91817970832017
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2451,
+            4328
+          ],
+          "username": "autogeoref",
+          "note": "auto: CENTER x BURLING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64731152245535,
+            41.91819449461465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4200,
+            4328
+          ],
+          "username": "autogeoref",
+          "note": "auto: CENTER x ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64611764942781,
+            41.91821424044822
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

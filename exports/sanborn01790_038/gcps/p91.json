@@ -1,0 +1,205 @@
+{
+  "page": "91",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.35,
+  "auto_residuals_m": [
+    2.1,
+    1.56,
+    3.31,
+    2.94,
+    1.17,
+    3.09,
+    1.98,
+    1.22
+  ],
+  "inlier_streets": [
+    [
+      "IRVING PARK BLVD",
+      "N. CAMPBELL AV."
+    ],
+    [
+      "IRVING PARK BLVD",
+      "N. WESTERN AV."
+    ],
+    [
+      "N. CAMPBELL AV.",
+      "DAKIN"
+    ],
+    [
+      "N. CAMPBELL AV.",
+      "BYRON"
+    ],
+    [
+      "N. CAMPBELL AV.",
+      "GRACE"
+    ],
+    [
+      "DAKIN",
+      "N. WESTERN AV."
+    ],
+    [
+      "BYRON",
+      "N. WESTERN AV."
+    ],
+    [
+      "N. WESTERN AV.",
+      "GRACE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1680,
+            412
+          ],
+          "username": "autogeoref",
+          "note": "auto: IRVING PARK BLVD x N. CAMPBELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6908764845846,
+            41.953974678783084
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5564,
+            412
+          ],
+          "username": "autogeoref",
+          "note": "auto: IRVING PARK BLVD x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68846833906167,
+            41.95398525668015
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1680,
+            2487
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL AV. x DAKIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69082276138633,
+            41.95304794057021
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1680,
+            4343
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL AV. x BYRON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69079698266737,
+            41.95215131634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1680,
+            8315
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CAMPBELL AV. x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69072751818314,
+            41.950345563921665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5564,
+            2487
+          ],
+          "username": "autogeoref",
+          "note": "auto: DAKIN x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68844164311314,
+            41.95305753172979
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5564,
+            4343
+          ],
+          "username": "autogeoref",
+          "note": "auto: BYRON x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6884169423272,
+            41.95216858808338
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5564,
+            8315
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68836334077467,
+            41.95035158543897
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.234,
+    "dy_m": -4.114
+  }
+}

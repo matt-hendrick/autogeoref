@@ -1,0 +1,114 @@
+{
+  "page": "73",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 2.46,
+  "auto_residuals_m": [
+    1.22,
+    1.18,
+    1.23,
+    1.17
+  ],
+  "inlier_streets": [
+    [
+      "HARRISON",
+      "LASALLE"
+    ],
+    [
+      "HARRISON",
+      "CLARK"
+    ],
+    [
+      "POLK",
+      "LASALLE"
+    ],
+    [
+      "POLK",
+      "CLARK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1997,
+            1062
+          ],
+          "username": "autogeoref",
+          "note": "auto: HARRISON x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63171990246029,
+            41.87450079183727
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3895,
+            1062
+          ],
+          "username": "autogeoref",
+          "note": "auto: HARRISON x CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6307022746949,
+            41.87451735850821
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1997,
+            6615
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x LASALLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63164903778977,
+            41.87217906667263
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3895,
+            6615
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63063746317985,
+            41.87222741142363
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": -2.983,
+    "dy_m": -0.639
+  }
+}

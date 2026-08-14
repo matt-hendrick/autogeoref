@@ -1,0 +1,132 @@
+{
+  "page": "18",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.47,
+  "auto_residuals_m": [
+    1.4,
+    1.55,
+    1.43,
+    1.5,
+    0.32
+  ],
+  "inlier_streets": [
+    [
+      "W. 14TH ST.",
+      "S. LOOMIS"
+    ],
+    [
+      "W. 14TH PL.",
+      "S. LAFLIN"
+    ],
+    [
+      "W. 14TH PL.",
+      "S. LOOMIS"
+    ],
+    [
+      "S. LAFLIN",
+      "W. 15TH ST."
+    ],
+    [
+      "S. LOOMIS",
+      "W. 15TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4935,
+            846
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 14TH ST. x S. LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66146862363144,
+            41.86335758125317
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            807,
+            2847
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 14TH PL. x S. LAFLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66390775143286,
+            41.86238890783071
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4935,
+            2847
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 14TH PL. x S. LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66144627180596,
+            41.862435274156134
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            807,
+            4866
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LAFLIN x W. 15TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66386526856262,
+            41.86149431890017
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4935,
+            4866
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LOOMIS x W. 15TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66141899493293,
+            41.86153278810587
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

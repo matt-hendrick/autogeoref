@@ -1,0 +1,184 @@
+{
+  "page": "41",
+  "n_streets": 7,
+  "n_candidates": 12,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "N. WESTERN AV.",
+      "MOFFAT ST."
+    ],
+    [
+      "N. WESTERN AV.",
+      "UPTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            751,
+            5842
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x MOFFAT ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68734017391645,
+            41.91485512999192
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            751,
+            6261
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x UPTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68733583978774,
+            41.9147157530554
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68751121097475,
+            41.91720729181465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5263,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6846467240499,
+            41.9172542060914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6874322615151,
+            41.914538127625
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6059,
+    "separation_ratio": 1.005,
+    "best_offset_m": 17.6,
+    "n_junctions": 27
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "claude-opus-4-8",
+        "claude-sonnet-5",
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 10,
+      "votable": 10,
+      "in_block": 10,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 25.7,
+          "addr_diff": 7.8
+        },
+        {
+          "perp_m": 25.7,
+          "addr_diff": 9.0
+        },
+        {
+          "perp_m": 25.6,
+          "addr_diff": 9.1
+        },
+        {
+          "perp_m": 25.6,
+          "addr_diff": 7.1
+        },
+        {
+          "perp_m": 25.6,
+          "addr_diff": 7.0
+        },
+        {
+          "perp_m": 25.6,
+          "addr_diff": 6.8
+        },
+        {
+          "perp_m": 25.6,
+          "addr_diff": 6.6
+        },
+        {
+          "perp_m": 25.6,
+          "addr_diff": 4.3
+        },
+        {
+          "perp_m": 25.5,
+          "addr_diff": 33.9
+        },
+        {
+          "perp_m": 21.8,
+          "addr_diff": 4.0
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "page": "100",
+  "n_streets": 7,
+  "n_candidates": 13,
+  "n_inliers": 6,
+  "rotation_deg": 0.69,
+  "auto_residuals_m": [
+    6.71,
+    2.19,
+    3.98,
+    13.41,
+    9.11,
+    14.34
+  ],
+  "inlier_streets": [
+    [
+      "ARMITAGE AV.",
+      "N. ALBANY AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "HUMBOLDT B'LV'D."
+    ],
+    [
+      "CORTLAND AV.",
+      "N. ALBANY AV."
+    ],
+    [
+      "CORTLAND AV.",
+      "HUMBOLDT B'LV'D."
+    ],
+    [
+      "BLOOMINGDALE AV. (R'D.)",
+      "N. ALBANY AV."
+    ],
+    [
+      "BLOOMINGDALE AV. (R'D.)",
+      "HUMBOLDT B'LV'D."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            314,
+            71
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70518922156164,
+            41.91741139234395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5184,
+            71
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x HUMBOLDT B'LV'D."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7020680358185,
+            41.91744026511021
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            314,
+            4138
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND AV. x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70520173121423,
+            41.91558481037756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5184,
+            4138
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND AV. x HUMBOLDT B'LV'D."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70201420994398,
+            41.91561908647673
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            314,
+            8131
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. (R'D.) x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70514492796299,
+            41.91373031524526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5184,
+            8131
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. (R'D.) x HUMBOLDT B'LV'D."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70230284147449,
+            41.91374976645063
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": 2.317,
+    "dy_m": -0.684
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "page": "78",
+  "n_streets": 14,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "ST. GEORGE'S CT.",
+      "STAVE"
+    ],
+    [
+      "ST. GEORGE'S CT.",
+      "MILWAUKEE AV."
+    ],
+    [
+      "PRINDIVILLE",
+      "STAVE"
+    ],
+    [
+      "PRINDIVILLE",
+      "MILWAUKEE AV."
+    ],
+    [
+      "STAVE",
+      "JULIA CT."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1265,
+            1315
+          ],
+          "username": "autogeoref",
+          "note": "auto: ST. GEORGE'S CT. x STAVE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6970727269989,
+            41.921053722822094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4081,
+            1315
+          ],
+          "username": "autogeoref",
+          "note": "auto: ST. GEORGE'S CT. x MILWAUKEE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69595150624113,
+            41.922039761622365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1265,
+            2572
+          ],
+          "username": "autogeoref",
+          "note": "auto: PRINDIVILLE x STAVE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69650779296641,
+            41.92071713276482
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4081,
+            2572
+          ],
+          "username": "autogeoref",
+          "note": "auto: PRINDIVILLE x MILWAUKEE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69537744846153,
+            41.92169260803862
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1265,
+            4606
+          ],
+          "username": "autogeoref",
+          "note": "auto: STAVE x JULIA CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69549086337078,
+            41.92009572191764
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69759249663886,
+            41.92095815182006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69583282003677,
+            41.922515949257104
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6944349535625,
+            41.91898347098956
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": 49.9047,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6999,
+    "separation_ratio": 1.093,
+    "best_offset_m": 40.1,
+    "n_junctions": 17
+  }
+}

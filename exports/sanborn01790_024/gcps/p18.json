@@ -1,0 +1,159 @@
+{
+  "page": "18",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.09,
+  "auto_residuals_m": [
+    0.22,
+    0.28,
+    0.02,
+    0.19,
+    0.2,
+    0.16
+  ],
+  "inlier_streets": [
+    [
+      "W. ADAMS",
+      "S. OAKLEY"
+    ],
+    [
+      "W. ADAMS",
+      "S. LEAVITT"
+    ],
+    [
+      "W. JACKSON BL'VD",
+      "S. OAKLEY"
+    ],
+    [
+      "W. JACKSON BL'VD",
+      "S. LEAVITT"
+    ],
+    [
+      "S. OAKLEY",
+      "W. VAN BUREN"
+    ],
+    [
+      "S. LEAVITT",
+      "W. VAN BUREN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1007,
+            860
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. OAKLEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68387455618038,
+            41.878631700090644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4923,
+            860
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ADAMS x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6814440248575,
+            41.87866873272585
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1007,
+            3173
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BL'VD x S. OAKLEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68384389389381,
+            41.877582794065376
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4923,
+            3173
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BL'VD x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68141566385955,
+            41.87761578071046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1007,
+            6380
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68380149009327,
+            41.876127944723855
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4923,
+            6380
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68137590566602,
+            41.8761607109434
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.932,
+    "dy_m": 1.161
+  }
+}

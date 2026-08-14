@@ -1,0 +1,109 @@
+{
+  "page": "82",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.0,
+  "auto_residuals_m": [
+    0.12,
+    0.1,
+    0.06,
+    0.11
+  ],
+  "inlier_streets": [
+    [
+      "ARMITAGE AV.",
+      "N. KARLOV AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "KEYSTONE AV."
+    ],
+    [
+      "CORTLAND",
+      "N. KARLOV AV."
+    ],
+    [
+      "CORTLAND",
+      "KEYSTONE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1288,
+            387
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. KARLOV AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72900021051463,
+            41.91713497652798
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3323,
+            387
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x KEYSTONE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72778108343076,
+            41.91715012557363
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1288,
+            4380
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x N. KARLOV AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72894679674927,
+            41.915311269721364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3323,
+            4380
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND x KEYSTONE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72772480654334,
+            41.91532790122533
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

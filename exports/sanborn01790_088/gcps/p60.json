@@ -1,0 +1,136 @@
+{
+  "page": "60",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 2.07,
+  "auto_residuals_m": [
+    7.99,
+    3.47,
+    7.98,
+    8.88,
+    6.58
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. SHEFFIELD AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. FREMONT AV."
+    ],
+    [
+      "N. SHEFFIELD AV.",
+      "W. WEED"
+    ],
+    [
+      "W. WEED",
+      "N. FREMONT AV."
+    ],
+    [
+      "N. FREMONT AV.",
+      "W. BLACKHAWK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1234,
+            886
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. SHEFFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65312064134233,
+            41.91082970798847
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4524,
+            886
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. FREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65111888399619,
+            41.91086361016375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1234,
+            3162
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SHEFFIELD AV. x W. WEED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65320523644861,
+            41.90976816880574
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4524,
+            3162
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WEED x N. FREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65108969396259,
+            41.9098040262989
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4524,
+            6362
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FREMONT AV. x W. BLACKHAWK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65105254478642,
+            41.90852402631393
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.465,
+    "dy_m": -1.522
+  }
+}

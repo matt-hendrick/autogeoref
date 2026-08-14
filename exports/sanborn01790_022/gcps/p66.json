@@ -1,0 +1,133 @@
+{
+  "page": "66",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 0.33,
+  "auto_residuals_m": [
+    0.06,
+    0.06,
+    5.07,
+    3.86,
+    8.88
+  ],
+  "inlier_streets": [
+    [
+      "N. OAKLEY AV. (BOULEVARD)",
+      "LE MOYNE"
+    ],
+    [
+      "N. OAKLEY AV. (BOULEVARD)",
+      "W. NORTH AV."
+    ],
+    [
+      "LE MOYNE",
+      "N. LEAVITT"
+    ],
+    [
+      "W. NORTH AV.",
+      "N. LEAVITT"
+    ],
+    [
+      "N. LEAVITT",
+      "PIERCE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            862,
+            4784
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. (BOULEVARD) x LE MOYNE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68473289254248,
+            41.90852762943526
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            862,
+            467
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. (BOULEVARD) x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68478216828716,
+            41.91035748123603
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4811,
+            4784
+          ],
+          "username": "autogeoref",
+          "note": "auto: LE MOYNE x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68229858463908,
+            41.90857230632047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4811,
+            467
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6823465782277,
+            41.91039347150648
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4811,
+            2893
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x PIERCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68231855214881,
+            41.909280321487714
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

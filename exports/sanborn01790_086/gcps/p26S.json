@@ -1,0 +1,228 @@
+{
+  "page": "26S",
+  "n_streets": 7,
+  "n_candidates": 13,
+  "n_inliers": 9,
+  "rotation_deg": 0.22,
+  "auto_residuals_m": [
+    2.86,
+    2.78,
+    3.19,
+    1.9,
+    2.46,
+    3.24,
+    2.68,
+    5.41,
+    4.13
+  ],
+  "inlier_streets": [
+    [
+      "E. RANDOLPH",
+      "N. WABASH"
+    ],
+    [
+      "E. RANDOLPH",
+      "N. GARLAND CT."
+    ],
+    [
+      "E. RANDOLPH",
+      "N. MICHIGAN AV."
+    ],
+    [
+      "N. WABASH",
+      "E. WASHINGTON"
+    ],
+    [
+      "N. WABASH",
+      "E. MADISON"
+    ],
+    [
+      "E. WASHINGTON",
+      "N. GARLAND CT."
+    ],
+    [
+      "E. WASHINGTON",
+      "N. MICHIGAN AV."
+    ],
+    [
+      "N. GARLAND CT.",
+      "E. MADISON"
+    ],
+    [
+      "N. MICHIGAN AV.",
+      "E. MADISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1488,
+            1009
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. RANDOLPH x N. WABASH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62622048408659,
+            41.88449784356771
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2923,
+            1009
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. RANDOLPH x N. GARLAND CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62532985239089,
+            41.884500300567794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4285,
+            1009
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. RANDOLPH x N. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6244239399721,
+            41.88447336348859
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1488,
+            3828
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WABASH x E. WASHINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62620184487402,
+            41.883223654068196
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1488,
+            6328
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WABASH x E. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62618699203502,
+            41.88208182454206
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2923,
+            3828
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. WASHINGTON x N. GARLAND CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6253117994622,
+            41.883225301996
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4285,
+            3828
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. WASHINGTON x N. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62437200232182,
+            41.883232782452886
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2923,
+            6328
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. GARLAND CT. x E. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62530929190696,
+            41.88209827299314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4285,
+            6328
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MICHIGAN AV. x E. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62433814414585,
+            41.88211225778482
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.091,
+    "dy_m": 0.287
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "page": "71",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 2,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "WILSON AV.",
+      "LECLAIRE AV."
+    ],
+    [
+      "LECLAIRE AV.",
+      "WINDSOR AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3397,
+            202
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILSON AV. x LECLAIRE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75496697281852,
+            41.96427773974819
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3397,
+            2152
+          ],
+          "username": "autogeoref",
+          "note": "auto: LECLAIRE AV. x WINDSOR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75493444735315,
+            41.963366922496334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75670926651124,
+            41.96395350283091
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5249,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75379896216087,
+            41.96398698229364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75664361193353,
+            41.96079795900145
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7183,
+    "separation_ratio": 1.613,
+    "best_offset_m": 1.9,
+    "n_junctions": 10
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 84,
+      "votable": 84,
+      "in_block": 84,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 13.4,
+          "addr_diff": 2.9
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 3.8
+        },
+        {
+          "perp_m": 12.9,
+          "addr_diff": 2.8
+        },
+        {
+          "perp_m": 12.8,
+          "addr_diff": 1.8
+        },
+        {
+          "perp_m": 12.7,
+          "addr_diff": 3.2
+        },
+        {
+          "perp_m": 12.8,
+          "addr_diff": 2.1
+        },
+        {
+          "perp_m": 12.9,
+          "addr_diff": 1.0
+        },
+        {
+          "perp_m": 13.0,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 13.0,
+          "addr_diff": 2.9
+        },
+        {
+          "perp_m": 13.1,
+          "addr_diff": 4.0
+        },
+        {
+          "perp_m": 13.1,
+          "addr_diff": 3.0
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 3.9
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 4.9
+        },
+        {
+          "perp_m": 8.4,
+          "addr_diff": 3.8
+        },
+        {
+          "perp_m": 8.4,
+          "addr_diff": 2.8
+        },
+        {
+          "perp_m": 8.4,
+          "addr_diff": 1.8
+        },
+        {
+          "perp_m": 8.4,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 0.3
+        },
+        {
+          "perp_m": 8.5,
+          "addr_diff": 1.3
+        },
+        {
+          "perp_m": 15.3,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 11.0,
+          "addr_diff": 1.7
+        },
+        {
+          "perp_m": 10.3,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 10.3,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 10.2,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 10.2,
+          "addr_diff": 3.5
+        },
+        {
+          "perp_m": 10.2,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 10.2,
+          "addr_diff": 3.3
+        },
+        {
+          "perp_m": 10.2,
+          "addr_diff": 4.2
+        },
+        {
+          "perp_m": 13.5,
+          "addr_diff": 1.7
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 1.1
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 1.8
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 1.2
+        },
+        {
+          "perp_m": 13.3,
+          "addr_diff": 1.8
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 2.5
+        },
+        {
+          "perp_m": 12.5,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 12.5,
+          "addr_diff": 3.1
+        },
+        {
+          "perp_m": 12.5,
+          "addr_diff": 2.0
+        },
+        {
+          "perp_m": 12.5,
+          "addr_diff": 0.9
+        },
+        {
+          "perp_m": 12.5,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 12.5,
+          "addr_diff": 0.7
+        },
+        {
+          "perp_m": 12.5,
+          "addr_diff": 1.7
+        },
+        {
+          "perp_m": 12.5,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 12.5,
+          "addr_diff": 1.0
+        },
+        {
+          "perp_m": 9.6,
+          "addr_diff": 2.3
+        },
+        {
+          "perp_m": 9.6,
+          "addr_diff": 2.9
+        },
+        {
+          "perp_m": 9.6,
+          "addr_diff": 1.5
+        },
+        {
+          "perp_m": 9.7,
+          "addr_diff": 0.0
+        },
+        {
+          "perp_m": 9.7,
+          "addr_diff": 1.4
+        },
+        {
+          "perp_m": 9.7,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 9.8,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 9.9,
+          "addr_diff": 0.4
+        },
+        {
+          "perp_m": 14.5,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 14.5,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 14.4,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 14.3,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 14.3,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 14.2,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 14.2,
+          "addr_diff": 1.3
+        },
+        {
+          "perp_m": 14.1,
+          "addr_diff": 2.1
+        },
+        {
+          "perp_m": 14.0,
+          "addr_diff": 0.8
+        },
+        {
+          "perp_m": 14.0,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 14.0,
+          "addr_diff": 2.3
+        },
+        {
+          "perp_m": 13.9,
+          "addr_diff": 3.1
+        },
+        {
+          "perp_m": 13.9,
+          "addr_diff": 1.8
+        },
+        {
+          "perp_m": 13.9,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 13.5,
+          "addr_diff": 35.1
+        },
+        {
+          "perp_m": 13.5,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 13.6,
+          "addr_diff": 1.2
+        },
+        {
+          "perp_m": 13.6,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 13.7,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 13.8,
+          "addr_diff": 0.9
+        },
+        {
+          "perp_m": 13.8,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 13.8,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 13.9,
+          "addr_diff": 0.6
+        },
+        {
+          "perp_m": 13.9,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 13.9,
+          "addr_diff": 0.9
+        },
+        {
+          "perp_m": 6.8,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 6.8,
+          "addr_diff": 2.6
+        },
+        {
+          "perp_m": 6.8,
+          "addr_diff": 1.6
+        },
+        {
+          "perp_m": 6.7,
+          "addr_diff": 3.5
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

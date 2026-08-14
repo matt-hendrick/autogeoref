@@ -1,0 +1,180 @@
+{
+  "page": "47",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 3,
+  "status": "OK (verified: corroboration+junction+addresses)",
+  "rescue_anchors": [
+    [
+      "E. 79TH ST.",
+      "EAST END AV."
+    ],
+    [
+      "E. 79TH ST.",
+      "S. STONY ISLAND AV."
+    ],
+    [
+      "E. 79TH ST.",
+      "CORNELL AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4477,
+            276
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 79TH ST. x EAST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58330802065815,
+            41.75151433881225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            268,
+            276
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 79TH ST. x S. STONY ISLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58582440080069,
+            41.75150555852535
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2481,
+            276
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 79TH ST. x CORNELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58440676494945,
+            41.751500236668555
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58561192309092,
+            41.751233467384786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5249,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58278838575511,
+            41.751269449701496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58554159463267,
+            41.74816180454085
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6754,
+    "separation_ratio": 1.196,
+    "best_offset_m": 16.5,
+    "n_junctions": 4
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 4,
+      "votable": 4,
+      "in_block": 4,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 10.4,
+          "addr_diff": 0.9
+        },
+        {
+          "perp_m": 9.8,
+          "addr_diff": 1.3
+        },
+        {
+          "perp_m": 9.8,
+          "addr_diff": 1.2
+        },
+        {
+          "perp_m": 8.4,
+          "addr_diff": 0.3
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

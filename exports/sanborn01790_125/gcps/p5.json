@@ -1,0 +1,228 @@
+{
+  "page": "5",
+  "n_streets": 7,
+  "n_candidates": 12,
+  "n_inliers": 9,
+  "rotation_deg": 1.1,
+  "auto_residuals_m": [
+    1.35,
+    1.77,
+    0.82,
+    2.75,
+    0.67,
+    1.88,
+    1.08,
+    1.25,
+    0.34
+  ],
+  "inlier_streets": [
+    [
+      "E. 111TH ST.",
+      "S. ST. LAWRENCE"
+    ],
+    [
+      "E. 111TH ST.",
+      "S. CHAMPLAIN"
+    ],
+    [
+      "E. 111TH ST.",
+      "S. LANGLEY"
+    ],
+    [
+      "E. 111TH PL.",
+      "S. ST. LAWRENCE"
+    ],
+    [
+      "E. 112TH ST.",
+      "S. ST. LAWRENCE"
+    ],
+    [
+      "E. 112TH ST.",
+      "S. LANGLEY"
+    ],
+    [
+      "E. 113TH ST.",
+      "S. ST. LAWRENCE"
+    ],
+    [
+      "E. 113TH ST.",
+      "S. CHAMPLAIN"
+    ],
+    [
+      "E. 113TH ST.",
+      "S. LANGLEY"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            904,
+            340
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 111TH ST. x S. ST. LAWRENCE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60838941415554,
+            41.69279533143572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2862,
+            340
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 111TH ST. x S. CHAMPLAIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60718139018121,
+            41.69281292556922
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4784,
+            340
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 111TH ST. x S. LANGLEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60596929045498,
+            41.69282499282191
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            904,
+            2298
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 111TH PL. x S. ST. LAWRENCE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60837088716814,
+            41.69186892096483
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            904,
+            4246
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 112TH ST. x S. ST. LAWRENCE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60835523191976,
+            41.69098840515579
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4784,
+            4246
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 112TH ST. x S. LANGLEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60593811229339,
+            41.691014819479825
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            904,
+            8213
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 113TH ST. x S. ST. LAWRENCE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60831665677306,
+            41.68917811321411
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2862,
+            8213
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 113TH ST. x S. CHAMPLAIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60710912649226,
+            41.6891941908393
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4784,
+            8213
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 113TH ST. x S. LANGLEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6059010421016,
+            41.68920721099908
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.606,
+    "dy_m": 1.388
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "page": "48N",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. HUBBARD (E. AUSTIN AV.)",
+      "N. WABASH AV. (CASS)"
+    ],
+    [
+      "E. HUBBARD (E. AUSTIN AV.)",
+      "N. RUSH"
+    ],
+    [
+      "E. HUBBARD (E. AUSTIN AV.)",
+      "N. STATE"
+    ],
+    [
+      "E. KINZIE",
+      "N. STATE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2801,
+            1811
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. HUBBARD (E. AUSTIN AV.) x N. WABASH AV. (CASS)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62665888199048,
+            41.89010284764229
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5053,
+            1811
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. HUBBARD (E. AUSTIN AV.) x N. RUSH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62530359453629,
+            41.890131770395584
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            626,
+            1811
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. HUBBARD (E. AUSTIN AV.) x N. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62800293529811,
+            41.89008054817838
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            626,
+            3629
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. KINZIE x N. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62801755148577,
+            41.88926759333181
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6280380142666,
+            41.8905726142696
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5245,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62521536097523,
+            41.89061081725543
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            583,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62797353084602,
+            41.88793230461196
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 0.653,
+    "dy_m": 2.259
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

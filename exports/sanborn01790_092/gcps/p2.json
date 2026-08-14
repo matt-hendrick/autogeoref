@@ -1,0 +1,205 @@
+{
+  "page": "2",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 1.35,
+  "auto_residuals_m": [
+    11.57,
+    11.64,
+    18.64,
+    18.38,
+    1.75,
+    8.83,
+    1.87,
+    8.61
+  ],
+  "inlier_streets": [
+    [
+      "W. RICE",
+      "N. LEAVITT"
+    ],
+    [
+      "W. RICE",
+      "N. OAKLEY BLVD."
+    ],
+    [
+      "IOWA",
+      "N. LEAVITT"
+    ],
+    [
+      "IOWA",
+      "N. OAKLEY BLVD."
+    ],
+    [
+      "N. LEAVITT",
+      "W. WALTON (CORNELIA)"
+    ],
+    [
+      "N. LEAVITT",
+      "W. AUGUSTA BLVD."
+    ],
+    [
+      "N. OAKLEY BLVD.",
+      "W. WALTON (CORNELIA)"
+    ],
+    [
+      "N. OAKLEY BLVD.",
+      "W. AUGUSTA BLVD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5033,
+            6704
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RICE x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68197370022166,
+            41.89677531597885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            897,
+            6704
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RICE x N. OAKLEY BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68442215940553,
+            41.896732926410294
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5033,
+            4407
+          ],
+          "username": "autogeoref",
+          "note": "auto: IOWA x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68199951494661,
+            41.89767504302414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            897,
+            4407
+          ],
+          "username": "autogeoref",
+          "note": "auto: IOWA x N. OAKLEY BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68444432693511,
+            41.89763388866214
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5033,
+            2744
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x W. WALTON (CORNELIA)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68202377593347,
+            41.89858556105439
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5033,
+            998
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x W. AUGUSTA BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68204619869341,
+            41.89949361571373
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            897,
+            2744
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY BLVD. x W. WALTON (CORNELIA)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68446821165996,
+            41.89854189944011
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            897,
+            998
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY BLVD. x W. AUGUSTA BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68448644635802,
+            41.8994492991133
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.03,
+    "dy_m": 4.128
+  }
+}

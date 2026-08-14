@@ -1,0 +1,113 @@
+{
+  "page": "21",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.19,
+  "auto_residuals_m": [
+    0.06,
+    0.07,
+    0.04,
+    0.06
+  ],
+  "inlier_streets": [
+    [
+      "DIVERSEY AVE.",
+      "N. ASHLAND AVE."
+    ],
+    [
+      "DIVERSEY AVE.",
+      "PERRY"
+    ],
+    [
+      "N. ASHLAND AVE.",
+      "WRIGHTWOOD AVE."
+    ],
+    [
+      "PERRY",
+      "WRIGHTWOOD AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1311,
+            229
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AVE. x N. ASHLAND AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66839586817284,
+            41.93237982932489
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5172,
+            229
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AVE. x PERRY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.665986729579,
+            41.93241772150601
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1311,
+            7534
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND AVE. x WRIGHTWOOD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66827337982325,
+            41.928752496226835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5172,
+            7534
+          ],
+          "username": "autogeoref",
+          "note": "auto: PERRY x WRIGHTWOOD AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66586311281277,
+            41.92878908284925
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.207,
+    "dy_m": -3.548
+  }
+}

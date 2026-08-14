@@ -1,0 +1,159 @@
+{
+  "page": "35",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.21,
+  "auto_residuals_m": [
+    0.69,
+    0.42,
+    1.14,
+    0.59,
+    0.85,
+    0.62
+  ],
+  "inlier_streets": [
+    [
+      "W. VAN BUREN",
+      "S. LEAVITT"
+    ],
+    [
+      "W. VAN BUREN",
+      "S. HOYNE AV."
+    ],
+    [
+      "S. LEAVITT",
+      "W. CONGRESS"
+    ],
+    [
+      "S. LEAVITT",
+      "W. HARRISON"
+    ],
+    [
+      "W. CONGRESS",
+      "S. HOYNE AV."
+    ],
+    [
+      "S. HOYNE AV.",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            838,
+            1283
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68137168358416,
+            41.87615466430414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5078,
+            1283
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67892103752597,
+            41.87619001119506
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            838,
+            3947
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68134043800217,
+            41.87494049544334
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            838,
+            6129
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68131407355621,
+            41.87396710261101
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5078,
+            3947
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONGRESS x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67889806145001,
+            41.87498140836939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5078,
+            6129
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67887093298177,
+            41.87400609848928
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.402,
+    "dy_m": 0.257
+  }
+}

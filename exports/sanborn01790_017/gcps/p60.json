@@ -1,0 +1,109 @@
+{
+  "page": "60",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.44,
+  "auto_residuals_m": [
+    0.26,
+    0.22,
+    0.27,
+    0.22
+  ],
+  "inlier_streets": [
+    [
+      "WABASH AVE.",
+      "JACKSON B'LV'D"
+    ],
+    [
+      "WABASH AVE.",
+      "VANBUREN"
+    ],
+    [
+      "JACKSON B'LV'D",
+      "MICHIGAN AV."
+    ],
+    [
+      "MICHIGAN AV.",
+      "VANBUREN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1507,
+            2234
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABASH AVE. x JACKSON B'LV'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62608247266965,
+            41.878245933646085
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1507,
+            5066
+          ],
+          "username": "autogeoref",
+          "note": "auto: WABASH AVE. x VANBUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62605731225682,
+            41.876971974785505
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4399,
+            2234
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'LV'D x MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62430787810028,
+            41.8782796897762
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4399,
+            5066
+          ],
+          "username": "autogeoref",
+          "note": "auto: MICHIGAN AV. x VANBUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62429116622434,
+            41.87700454921314
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

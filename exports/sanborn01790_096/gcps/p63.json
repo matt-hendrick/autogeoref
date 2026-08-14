@@ -1,0 +1,182 @@
+{
+  "page": "63",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 7,
+  "rotation_deg": -0.28,
+  "auto_residuals_m": [
+    1.59,
+    4.46,
+    7.53,
+    3.31,
+    14.06,
+    11.34,
+    8.48
+  ],
+  "inlier_streets": [
+    [
+      "FULLERTON AV.",
+      "N. PULASKI RD. (N. CRAWFORD AV.)"
+    ],
+    [
+      "FULLERTON AV.",
+      "N. HARDING AV."
+    ],
+    [
+      "FULLERTON AV.",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "N. PULASKI RD. (N. CRAWFORD AV.)",
+      "W. PALMER"
+    ],
+    [
+      "N. HARDING AV.",
+      "BELDEN AV."
+    ],
+    [
+      "BELDEN AV.",
+      "N. SPRINGFIELD AV."
+    ],
+    [
+      "N. SPRINGFIELD AV.",
+      "W. PALMER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            398,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. PULASKI RD. (N. CRAWFORD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72676499076016,
+            41.92451819524074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2275,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72554780386474,
+            41.92453338196845
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4192,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72432324659984,
+            41.92454933749791
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            398,
+            8352
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PULASKI RD. (N. CRAWFORD AV.) x W. PALMER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7266638052263,
+            41.92085914320345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2275,
+            4047
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HARDING AV. x BELDEN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72548989804062,
+            41.92270414745375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4192,
+            4047
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x N. SPRINGFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72427045675313,
+            41.92271737489781
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4192,
+            8352
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPRINGFIELD AV. x W. PALMER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72421406318091,
+            41.92088537721278
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.4,
+    "dy_m": 5.123
+  }
+}

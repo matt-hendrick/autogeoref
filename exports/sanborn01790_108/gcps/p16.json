@@ -1,0 +1,180 @@
+{
+  "page": "16",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 7,
+  "rotation_deg": 1.3,
+  "auto_residuals_m": [
+    0.9,
+    0.76,
+    0.79,
+    0.55,
+    1.54,
+    1.52,
+    0.73
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVERSEY AV.",
+      "N. KARLOV AV."
+    ],
+    [
+      "W. DIVERSEY AV.",
+      "N. PULASKI RD."
+    ],
+    [
+      "PARKER AV.",
+      "N. KARLOV AV."
+    ],
+    [
+      "PARKER AV.",
+      "N. PULASKI RD."
+    ],
+    [
+      "W. SCHUBERT AV.",
+      "N. KARLOV AV."
+    ],
+    [
+      "W. SCHUBERT AV.",
+      "N. PULASKI RD."
+    ],
+    [
+      "WRIGHTWOOD AV.",
+      "N. PULASKI RD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1397,
+            244
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AV. x N. KARLOV AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72942947883685,
+            41.93175534828659
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5226,
+            244
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVERSEY AV. x N. PULASKI RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72697870530516,
+            41.93179036101964
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1397,
+            2277
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARKER AV. x N. KARLOV AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72939715910906,
+            41.9308431903823
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5226,
+            2277
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARKER AV. x N. PULASKI RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.726952985985,
+            41.93087609738728
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1397,
+            4301
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SCHUBERT AV. x N. KARLOV AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72935467217305,
+            41.92992126675714
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5226,
+            4301
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SCHUBERT AV. x N. PULASKI RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72692475034334,
+            41.929978704161364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5226,
+            8376
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AV. x N. PULASKI RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72687552889508,
+            41.92813173321963
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

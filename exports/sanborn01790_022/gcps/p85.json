@@ -1,0 +1,111 @@
+{
+  "page": "85",
+  "n_streets": 13,
+  "n_candidates": 7,
+  "n_inliers": 4,
+  "rotation_deg": 1.57,
+  "auto_residuals_m": [
+    2.18,
+    8.53,
+    9.13,
+    2.82
+  ],
+  "inlier_streets": [
+    [
+      "BRIGHAM",
+      "N. WOOD"
+    ],
+    [
+      "BRIGHAM",
+      "N. PAULINA"
+    ],
+    [
+      "BLACKHAWK ST.",
+      "N. PAULINA"
+    ],
+    [
+      "N. WOOD",
+      "ELLEN"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            914,
+            1512
+          ],
+          "username": "autogeoref",
+          "note": "auto: BRIGHAM x N. WOOD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6724944827469,
+            41.9075436363685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4879,
+            1512
+          ],
+          "username": "autogeoref",
+          "note": "auto: BRIGHAM x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67004813832249,
+            41.90757421264487
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4879,
+            2838
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLACKHAWK ST. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6700289611652,
+            41.90699212724614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1765,
+            5802
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOOD x ELLEN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6724210860135,
+            41.90554871520483
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

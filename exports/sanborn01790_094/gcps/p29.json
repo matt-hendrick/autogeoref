@@ -1,0 +1,167 @@
+{
+  "page": "29",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 17TH ST.",
+      "S. HOYNE AV."
+    ],
+    [
+      "S. LEAVITT AVE.",
+      "W. 18TH ST."
+    ],
+    [
+      "S. HAMILTON AV. (WALLICK CT.)",
+      "W. 18TH ST."
+    ],
+    [
+      "S. HOYNE AV.",
+      "W. 18TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5003,
+            4303
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 17TH ST. x S. HOYNE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67846325674857,
+            41.858497365769104
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            931,
+            6318
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAVITT AVE. x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6809191956657,
+            41.85761046599034
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2876,
+            6318
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HAMILTON AV. (WALLICK CT.) x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67968625902894,
+            41.857626661647664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5003,
+            6318
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOYNE AV. x W. 18TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67846365525762,
+            41.85763906624169
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68122207318325,
+            41.86016378214288
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5219,
+            720
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67835281523622,
+            41.86020567878672
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            580,
+            6484
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68115218971043,
+            41.857509025616764
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": -1.989,
+    "dy_m": 0.777
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5223,
+    "separation_ratio": 1.047,
+    "best_offset_m": 2.8,
+    "n_junctions": 14
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "page": "24",
+  "n_streets": 6,
+  "n_candidates": 10,
+  "n_inliers": 7,
+  "rotation_deg": 0.87,
+  "auto_residuals_m": [
+    3.41,
+    17.7,
+    5.63,
+    26.76,
+    3.8,
+    4.78,
+    3.87
+  ],
+  "inlier_streets": [
+    [
+      "PETERSON AV.",
+      "N. HERMITAGE AV."
+    ],
+    [
+      "PETERSON AV.",
+      "N. PAULINA"
+    ],
+    [
+      "PETERSON AV.",
+      "N. CLARK"
+    ],
+    [
+      "RIDGE AV.",
+      "N. PAULINA"
+    ],
+    [
+      "N. HERMITAGE AV.",
+      "THORNDALE AV."
+    ],
+    [
+      "N. PAULINA",
+      "THORNDALE AV."
+    ],
+    [
+      "N. CLARK",
+      "THORNDALE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            91,
+            266
+          ],
+          "username": "autogeoref",
+          "note": "auto: PETERSON AV. x N. HERMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67321669786035,
+            41.99078557772529
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2626,
+            266
+          ],
+          "username": "autogeoref",
+          "note": "auto: PETERSON AV. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67180815422827,
+            41.99075997746153
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5279,
+            266
+          ],
+          "username": "autogeoref",
+          "note": "auto: PETERSON AV. x N. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67005602806509,
+            41.99079306240901
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2626,
+            1159
+          ],
+          "username": "autogeoref",
+          "note": "auto: RIDGE AV. x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67139449899975,
+            41.990374366757116
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            91,
+            5430
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HERMITAGE AV. x THORNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67315343680094,
+            41.988353621982
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2626,
+            5430
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x THORNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67159608630226,
+            41.988385362688604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5279,
+            5430
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLARK x THORNDALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66987839887142,
+            41.98841821106946
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": -3.53,
+    "dy_m": -0.695
+  }
+}

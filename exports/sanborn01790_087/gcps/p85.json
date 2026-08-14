@@ -1,0 +1,159 @@
+{
+  "page": "85",
+  "n_streets": 9,
+  "n_candidates": 9,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. WILLOW",
+      "N. FREMONT"
+    ],
+    [
+      "W. WILLOW",
+      "N. SHEFFIELD AV."
+    ],
+    [
+      "N. SHEFFIELD AV.",
+      "W. CONCORD PL."
+    ],
+    [
+      "N. SHEFFIELD AV.",
+      "W. NORTH AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4667,
+            463
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WILLOW x N. FREMONT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6507873570544,
+            41.91378997576282
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            721,
+            463
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WILLOW x N. SHEFFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65321230417834,
+            41.91373478925521
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            721,
+            4844
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SHEFFIELD AV. x W. CONCORD PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65314105195921,
+            41.91175232229256
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            721,
+            7019
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SHEFFIELD AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65310748102343,
+            41.910839882756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65326563306347,
+            41.913626977617
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5322,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65040931196943,
+            41.91366912937173
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            591,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65319548189638,
+            41.910994533294414
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

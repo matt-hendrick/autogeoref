@@ -1,0 +1,136 @@
+{
+  "page": "38",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 1.91,
+  "auto_residuals_m": [
+    6.15,
+    6.73,
+    6.09,
+    4.62,
+    6.11
+  ],
+  "inlier_streets": [
+    [
+      "E. 104TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 104TH ST.",
+      "S. MICHIGAN AV."
+    ],
+    [
+      "S. WABASH AV.",
+      "E. 105TH ST."
+    ],
+    [
+      "S. MICHIGAN AV.",
+      "E. 104TH PL."
+    ],
+    [
+      "S. MICHIGAN AV.",
+      "E. 105TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1393,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 104TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6223472559771,
+            41.70535669524498
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4297,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 104TH ST. x S. MICHIGAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62055558477597,
+            41.70538609649568
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1393,
+            8277
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. 105TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62229280587842,
+            41.703478444413314
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4297,
+            6750
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. x E. 104TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62065796122111,
+            41.70426283843036
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4297,
+            8277
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. MICHIGAN AV. x E. 105TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62071866572806,
+            41.70350237754505
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -7.044,
+    "dy_m": -0.283
+  }
+}

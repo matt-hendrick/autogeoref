@@ -1,0 +1,109 @@
+{
+  "page": "77",
+  "n_streets": 4,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 0.96,
+  "auto_residuals_m": [
+    2.37,
+    2.38,
+    2.42,
+    2.42
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. THROOP (MC HENRY)"
+    ],
+    [
+      "W. NORTH AV.",
+      "N. MAGNOLIA AV. (FLEETWOOD)"
+    ],
+    [
+      "N. THROOP (MC HENRY)",
+      "W. LE MOYNE (BLANCHE)"
+    ],
+    [
+      "N. MAGNOLIA AV. (FLEETWOOD)",
+      "W. LE MOYNE (BLANCHE)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            126,
+            716
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. THROOP (MC HENRY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66039813426417,
+            41.910742475067735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2078,
+            716
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. MAGNOLIA AV. (FLEETWOOD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65919598685204,
+            41.9107628684599
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            126,
+            4454
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. THROOP (MC HENRY) x W. LE MOYNE (BLANCHE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6603463119247,
+            41.9090618085968
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2078,
+            4454
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAGNOLIA AV. (FLEETWOOD) x W. LE MOYNE (BLANCHE)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6592287748729,
+            41.90907019881595
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

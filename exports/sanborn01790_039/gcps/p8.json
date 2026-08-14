@@ -1,0 +1,155 @@
+{
+  "page": "8",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.07,
+  "auto_residuals_m": [
+    0.28,
+    0.28,
+    0.79,
+    0.75,
+    0.36,
+    0.47
+  ],
+  "inlier_streets": [
+    [
+      "W. HARRISON",
+      "S. LARAMIE AV."
+    ],
+    [
+      "W. HARRISON",
+      "S. LEAMINGTON AV."
+    ],
+    [
+      "FLOURNOY",
+      "S. LARAMIE AV."
+    ],
+    [
+      "S. LARAMIE AV.",
+      "LEXINGTON"
+    ],
+    [
+      "LEXINGTON",
+      "S. LEAMINGTON AV."
+    ],
+    [
+      "S. LEAMINGTON AV.",
+      "POLK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            111,
+            357
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75480598003337,
+            41.87294637538623
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2332,
+            357
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. LEAMINGTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75328121637399,
+            41.872967967126066
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            111,
+            2458
+          ],
+          "username": "autogeoref",
+          "note": "auto: FLOURNOY x S. LARAMIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75476841160622,
+            41.871956461329354
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            111,
+            4365
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LARAMIE AV. x LEXINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75472603110758,
+            41.87104434744062
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2332,
+            4365
+          ],
+          "username": "autogeoref",
+          "note": "auto: LEXINGTON x S. LEAMINGTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75321076427761,
+            41.87106676332776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2332,
+            6274
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LEAMINGTON AV. x POLK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75317755437688,
+            41.870167477269874
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

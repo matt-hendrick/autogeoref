@@ -1,0 +1,109 @@
+{
+  "page": "62",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 1.02,
+  "auto_residuals_m": [
+    0.04,
+    0.07,
+    0.06,
+    0.04
+  ],
+  "inlier_streets": [
+    [
+      "E. 82ND ST.",
+      "S. EAST END AV."
+    ],
+    [
+      "E. 82ND ST.",
+      "RIDGELAND AV."
+    ],
+    [
+      "S. EAST END AV.",
+      "E. 83RD ST."
+    ],
+    [
+      "RIDGELAND AV.",
+      "E. 83RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1016,
+            4144
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 82ND ST. x S. EAST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58295279442655,
+            41.74605801511266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3040,
+            4144
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 82ND ST. x RIDGELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58173458580407,
+            41.746074217620624
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1016,
+            8185
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EAST END AV. x E. 83RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58291210415551,
+            41.74423982977987
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3040,
+            8185
+          ],
+          "username": "autogeoref",
+          "note": "auto: RIDGELAND AV. x E. 83RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58169562354723,
+            41.74425597050014
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

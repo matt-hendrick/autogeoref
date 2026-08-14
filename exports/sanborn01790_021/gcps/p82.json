@@ -1,0 +1,119 @@
+{
+  "page": "82",
+  "n_streets": 9,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 35TH ST.",
+      "COTTAGE GROVE AV."
+    ],
+    [
+      "VINCENNES AV.",
+      "BRYANT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3465,
+            4155
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 35TH ST. x COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61063335815753,
+            41.83118622461782
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2700,
+            6987
+          ],
+          "username": "autogeoref",
+          "note": "auto: VINCENNES AV. x BRYANT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61102601931229,
+            41.82984317288771
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61237274268203,
+            41.83265245686474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5272,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60956938287805,
+            41.83268818717324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61231280430255,
+            41.83004161659039
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.3796,
+    "separation_ratio": 1.284,
+    "best_offset_m": 26.8,
+    "n_junctions": 15
+  }
+}

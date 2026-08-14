@@ -1,0 +1,157 @@
+{
+  "page": "43",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 1.12,
+  "auto_residuals_m": [
+    0.21,
+    0.21,
+    0.24,
+    0.23,
+    0.04,
+    0.15
+  ],
+  "inlier_streets": [
+    [
+      "GARFIELD AV.",
+      "LARRABEE"
+    ],
+    [
+      "GARFIELD AV.",
+      "MOHAWK"
+    ],
+    [
+      "GARFIELD AV.",
+      "CLEVELAND AV."
+    ],
+    [
+      "CENTER",
+      "LARRABEE"
+    ],
+    [
+      "CENTER",
+      "MOHAWK"
+    ],
+    [
+      "CENTER",
+      "CLEVELAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            939,
+            487
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64372839313447,
+            41.92007180535405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2931,
+            487
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x MOHAWK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64251829709605,
+            41.92009106335907
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4919,
+            487
+          ],
+          "username": "autogeoref",
+          "note": "auto: GARFIELD AV. x CLEVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64130482357899,
+            41.92010947376688
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            939,
+            4484
+          ],
+          "username": "autogeoref",
+          "note": "auto: CENTER x LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64366706335835,
+            41.918253159381614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2931,
+            4484
+          ],
+          "username": "autogeoref",
+          "note": "auto: CENTER x MOHAWK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64245547530543,
+            41.91826956288079
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4919,
+            4484
+          ],
+          "username": "autogeoref",
+          "note": "auto: CENTER x CLEVELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64124565347356,
+            41.918285980429864
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

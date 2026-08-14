@@ -1,0 +1,251 @@
+{
+  "page": "56",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 10,
+  "rotation_deg": 0.79,
+  "auto_residuals_m": [
+    1.98,
+    1.7,
+    2.95,
+    4.47,
+    3.63,
+    4.92,
+    2.68,
+    1.5,
+    3.77,
+    1.55
+  ],
+  "inlier_streets": [
+    [
+      "PALMER",
+      "N. LEAMINGTON AV."
+    ],
+    [
+      "PALMER",
+      "LECLAIRE AV."
+    ],
+    [
+      "PALMER",
+      "LAWLER AV."
+    ],
+    [
+      "N. LEAMINGTON AV.",
+      "DICKENS AV."
+    ],
+    [
+      "N. LEAMINGTON AV.",
+      "W. GRAND AV."
+    ],
+    [
+      "LECLAIRE AV.",
+      "DICKENS AV."
+    ],
+    [
+      "LECLAIRE AV.",
+      "W. GRAND AV."
+    ],
+    [
+      "LECLAIRE AV.",
+      "ARMITAGE AV."
+    ],
+    [
+      "LAWLER AV.",
+      "DICKENS AV."
+    ],
+    [
+      "LAWLER AV.",
+      "ARMITAGE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            534,
+            232
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER x N. LEAMINGTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7547962187059,
+            41.92049604276462
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2560,
+            232
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER x LECLAIRE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7535665654993,
+            41.92051188383569
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4560,
+            232
+          ],
+          "username": "autogeoref",
+          "note": "auto: PALMER x LAWLER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75233919692157,
+            41.92052848454557
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            534,
+            4241
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAMINGTON AV. x DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75474532493968,
+            41.91866971654438
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            534,
+            8251
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAMINGTON AV. x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7545835538636,
+            41.91688880726225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2560,
+            4241
+          ],
+          "username": "autogeoref",
+          "note": "auto: LECLAIRE AV. x DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75351792799685,
+            41.918685385745746
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2560,
+            8251
+          ],
+          "username": "autogeoref",
+          "note": "auto: LECLAIRE AV. x W. GRAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75335928712224,
+            41.91686695553689
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2560,
+            8300
+          ],
+          "username": "autogeoref",
+          "note": "auto: LECLAIRE AV. x ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75335928712224,
+            41.91686695553689
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4560,
+            4241
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWLER AV. x DICKENS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7522909811003,
+            41.91870136270776
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4560,
+            8300
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWLER AV. x ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75213973936216,
+            41.91687777566652
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.763,
+    "dy_m": 3.399
+  }
+}

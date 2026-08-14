@@ -1,0 +1,205 @@
+{
+  "page": "55",
+  "n_streets": 7,
+  "n_candidates": 16,
+  "n_inliers": 8,
+  "rotation_deg": -0.46,
+  "auto_residuals_m": [
+    4.85,
+    1.76,
+    0.36,
+    5.87,
+    8.74,
+    1.59,
+    5.46,
+    6.25
+  ],
+  "inlier_streets": [
+    [
+      "W. OHIO (W. ONTARIO)",
+      "N. WALLER AV."
+    ],
+    [
+      "W. OHIO (W. ONTARIO)",
+      "N. PARKSIDE AV. (N. PARK AV.)"
+    ],
+    [
+      "RACE AV. (W. OHIO)",
+      "N. WALLER AV."
+    ],
+    [
+      "RACE AV. (W. OHIO)",
+      "N. WALLER AV."
+    ],
+    [
+      "RACE AV. (W. OHIO)",
+      "N. PARKSIDE AV. (N. PARK AV.)"
+    ],
+    [
+      "N. WALLER AV.",
+      "W. LAKE"
+    ],
+    [
+      "N. PARKSIDE AV. (N. PARK AV.)",
+      "W. LAKE"
+    ],
+    [
+      "W. LAKE",
+      "N. PARKSIDE AV. (N. PARK AV.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2904,
+            244
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO (W. ONTARIO) x N. WALLER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76777364523241,
+            41.891055337281
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4864,
+            244
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. OHIO (W. ONTARIO) x N. PARKSIDE AV. (N. PARK AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76649881710807,
+            41.89106823444653
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2904,
+            2381
+          ],
+          "username": "autogeoref",
+          "note": "auto: RACE AV. (W. OHIO) x N. WALLER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7677368289429,
+            41.89007630100354
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2904,
+            4199
+          ],
+          "username": "autogeoref",
+          "note": "auto: RACE AV. (W. OHIO) x N. WALLER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76770397827717,
+            41.889251218246926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4864,
+            4199
+          ],
+          "username": "autogeoref",
+          "note": "auto: RACE AV. (W. OHIO) x N. PARKSIDE AV. (N. PARK AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76642992864942,
+            41.88926257543943
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2904,
+            7197
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WALLER AV. x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76764638112229,
+            41.88778942947025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4864,
+            7197
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PARKSIDE AV. (N. PARK AV.) x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76637591481636,
+            41.8877509835767
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4186,
+            7197
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. PARKSIDE AV. (N. PARK AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7667471155298,
+            41.887765558684116
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 3.508,
+    "dy_m": -2.299
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "page": "81",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. KINZIE",
+      "N. KARLOV (N. 45TH AV.)"
+    ],
+    [
+      "CARROLL AV.",
+      "N. KARLOV (N. 45TH AV.)"
+    ],
+    [
+      "N. KARLOV (N. 45TH AV.)",
+      "W. LAKE"
+    ],
+    [
+      "N. KARLOV (N. 45TH AV.)",
+      "MAYPOLE (PARK) AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            967
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. KARLOV (N. 45TH AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7283244612768,
+            41.88775665440265
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            3042
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARROLL AV. x N. KARLOV (N. 45TH AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72829655192065,
+            41.88679910542416
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            5485
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KARLOV (N. 45TH AV.) x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72826385545886,
+            41.885598968781615
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5030,
+            7766
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KARLOV (N. 45TH AV.) x MAYPOLE (PARK) AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72823481755447,
+            41.88464994589928
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73105978667255,
+            41.88776048173034
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5257,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72817474341721,
+            41.887795461910194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73099137657294,
+            41.88463341620031
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7372,
+    "separation_ratio": 1.657,
+    "best_offset_m": 3.7,
+    "n_junctions": 23
+  }
+}

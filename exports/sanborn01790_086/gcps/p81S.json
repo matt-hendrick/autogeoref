@@ -1,0 +1,141 @@
+{
+  "page": "81S",
+  "n_streets": 5,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "POLK",
+      "S. CLARK"
+    ],
+    [
+      "POLK",
+      "S. FEDERAL ST."
+    ],
+    [
+      "TAYLOR",
+      "S. CLARK"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2818,
+            1012
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x S. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63061066643498,
+            41.872231685804124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4482,
+            1012
+          ],
+          "username": "autogeoref",
+          "note": "auto: POLK x S. FEDERAL ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62960382953446,
+            41.8722762946191
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2818,
+            6215
+          ],
+          "username": "autogeoref",
+          "note": "auto: TAYLOR x S. CLARK"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63051202721209,
+            41.86989274753179
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63195726602211,
+            41.87236367721546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5242,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62912000177425,
+            41.87239156254289
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            582,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63191017903634,
+            41.869707120462664
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.5513,
+    "separation_ratio": 0.855,
+    "best_offset_m": 95.4,
+    "n_junctions": 8
+  }
+}

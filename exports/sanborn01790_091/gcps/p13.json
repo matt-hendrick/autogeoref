@@ -1,0 +1,163 @@
+{
+  "page": "13",
+  "n_streets": 8,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. MEDILL AV. (CANTON)",
+      "N. LEAVITT"
+    ],
+    [
+      "N. LEAVITT",
+      "W. LYNDALE (KOSCIUSKO)"
+    ],
+    [
+      "N. HAMILTON AV.",
+      "W. LYNDALE (KOSCIUSKO)"
+    ],
+    [
+      "N. HOYNE AV.",
+      "W. LYNDALE (KOSCIUSKO)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            972,
+            2995
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MEDILL AV. (CANTON) x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68273311329328,
+            41.9241965675086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            972,
+            6250
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x W. LYNDALE (KOSCIUSKO)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68268818429277,
+            41.922678793967826
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2982,
+            6250
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HAMILTON AV. x W. LYNDALE (KOSCIUSKO)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68147891197597,
+            41.92269787940787
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4954,
+            6250
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AV. x W. LYNDALE (KOSCIUSKO)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68027395688496,
+            41.922714301318614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68300468696405,
+            41.92518371134302
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5281,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6801464414083,
+            41.92523156429268
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68292442229865,
+            41.9225297725446
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4926,
+    "separation_ratio": 1.133,
+    "best_offset_m": 17.6,
+    "n_junctions": 29
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "page": "76",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.95,
+  "auto_residuals_m": [
+    0.38,
+    0.63,
+    0.49,
+    0.47,
+    0.77,
+    0.52
+  ],
+  "inlier_streets": [
+    [
+      "AINSLIE",
+      "N. HERMITAGE AV."
+    ],
+    [
+      "AINSLIE",
+      "N. PAULINA"
+    ],
+    [
+      "AINSLIE",
+      "N. ASHLAND AV."
+    ],
+    [
+      "N. HERMITAGE AV.",
+      "LAWRENCE AV."
+    ],
+    [
+      "N. PAULINA",
+      "LAWRENCE AV."
+    ],
+    [
+      "N. ASHLAND AV.",
+      "LAWRENCE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            85,
+            1569
+          ],
+          "username": "autogeoref",
+          "note": "auto: AINSLIE x N. HERMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67272455108917,
+            41.971809128103786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2838,
+            1569
+          ],
+          "username": "autogeoref",
+          "note": "auto: AINSLIE x N. PAULINA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67114409026739,
+            41.971830614494046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5562,
+            1569
+          ],
+          "username": "autogeoref",
+          "note": "auto: AINSLIE x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66956338256608,
+            41.971852087025326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            85,
+            8202
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HERMITAGE AV. x LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67264026011448,
+            41.96884078281028
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2838,
+            8202
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67106243482627,
+            41.96886132041639
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5562,
+            8202
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ASHLAND AV. x LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66948225247768,
+            41.96887574374336
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -4.805,
+    "dy_m": -0.185
+  }
+}

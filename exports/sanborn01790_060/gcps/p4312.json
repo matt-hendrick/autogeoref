@@ -1,0 +1,161 @@
+{
+  "page": "4312",
+  "n_streets": 5,
+  "n_candidates": 7,
+  "n_inliers": 6,
+  "rotation_deg": 0.85,
+  "auto_residuals_m": [
+    0.3,
+    6.42,
+    0.11,
+    12.53,
+    0.26,
+    6.18
+  ],
+  "inlier_streets": [
+    [
+      "S. UNION AV.",
+      "W. 122ND ST."
+    ],
+    [
+      "S. UNION AV.",
+      "W. 123RD ST."
+    ],
+    [
+      "S. LOWE AV.",
+      "W. 122ND ST."
+    ],
+    [
+      "S. LOWE AV.",
+      "W. 123RD ST."
+    ],
+    [
+      "S. WALLACE",
+      "W. 122ND ST."
+    ],
+    [
+      "S. WALLACE",
+      "W. 123RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            782,
+            4182
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. UNION AV. x W. 122ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63930458406188,
+            41.67237937929779
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            782,
+            8189
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. UNION AV. x W. 123RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63924158991624,
+            41.670564432811574
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2751,
+            4182
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LOWE AV. x W. 122ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63810019833534,
+            41.67239539486013
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2751,
+            8189
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. LOWE AV. x W. 123RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63820835560604,
+            41.670574982220316
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4715,
+            4182
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WALLACE x W. 122ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63689834886652,
+            41.67240934887364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4715,
+            8189
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WALLACE x W. 123RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63683987991084,
+            41.67058795991979
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 2.301,
+    "dy_m": 0.212
+  }
+}

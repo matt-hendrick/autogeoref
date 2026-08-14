@@ -1,0 +1,116 @@
+{
+  "page": "76",
+  "n_streets": 9,
+  "n_candidates": 3,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 19TH",
+      "S. CALIFORNIA"
+    ],
+    [
+      "W. 21ST",
+      "S. CALIFORNIA"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5532,
+            289
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 19TH x S. CALIFORNIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69556876454497,
+            41.85555168846551
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5532,
+            4201
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 21ST x S. CALIFORNIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69550649824787,
+            41.8537366393602
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            574,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69856997692212,
+            41.85523410701298
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5162,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69577827097092,
+            41.85527301104927
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            574,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69849253967034,
+            41.85215125116004
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

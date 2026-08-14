@@ -1,0 +1,164 @@
+{
+  "page": "92",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "FULTON",
+      "N. CALIFORNIA AV."
+    ],
+    [
+      "FULTON",
+      "N. FAIRFIELD AV."
+    ],
+    [
+      "W. LAKE",
+      "N. CALIFORNIA AV."
+    ],
+    [
+      "W. LAKE",
+      "N. FAIRFIELD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            565,
+            8363
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69642883077324,
+            41.88652394759524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            565,
+            6333
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. FAIRFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6952018280043,
+            41.88653663850046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5359,
+            8363
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69637074996926,
+            41.88423066236476
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5359,
+            6333
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. FAIRFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6951416633986,
+            41.88428297874371
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            567,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69183702927427,
+            41.886511235896045
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5105,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69180892291777,
+            41.884450463395225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            567,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69598668943519,
+            41.88647986787752
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -89.0894,
+  "seam_adjusted": {
+    "dx_m": 0.415,
+    "dy_m": -2.095
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

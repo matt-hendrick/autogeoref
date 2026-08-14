@@ -1,0 +1,157 @@
+{
+  "page": "37",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.42,
+  "auto_residuals_m": [
+    1.07,
+    2.37,
+    1.32,
+    1.27,
+    2.05,
+    0.81
+  ],
+  "inlier_streets": [
+    [
+      "ARMITAGE AV.",
+      "N. WINCHESTER AV."
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. WOLCOTT AV. (N. LINCOLN)"
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. (W.) HONORE (GIRARD)"
+    ],
+    [
+      "N. WINCHESTER AV.",
+      "W. CORTLAND (CLYBOURN PL.)"
+    ],
+    [
+      "N. WOLCOTT AV. (N. LINCOLN)",
+      "W. CORTLAND (CLYBOURN PL.)"
+    ],
+    [
+      "N. (W.) HONORE (GIRARD)",
+      "W. CORTLAND (CLYBOURN PL.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            709,
+            1369
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. WINCHESTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67640352418951,
+            41.91778096144693
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2673,
+            1369
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. WOLCOTT AV. (N. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67518696304025,
+            41.91780411275405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4734,
+            1369
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. (W.) HONORE (GIRARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6739757733423,
+            41.91782699743729
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            709,
+            5243
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WINCHESTER AV. x W. CORTLAND (CLYBOURN PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67636622709952,
+            41.915962135510284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2673,
+            5243
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOLCOTT AV. (N. LINCOLN) x W. CORTLAND (CLYBOURN PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6751505717215,
+            41.91598477767577
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4734,
+            5243
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. (W.) HONORE (GIRARD) x W. CORTLAND (CLYBOURN PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67393181213576,
+            41.91600590396557
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

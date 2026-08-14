@@ -1,0 +1,164 @@
+{
+  "page": "107",
+  "n_streets": 10,
+  "n_candidates": 30,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. 28TH ST.",
+      "S. CANAL"
+    ],
+    [
+      "W. 28TH PL.",
+      "S. CANAL"
+    ],
+    [
+      "W. 29TH ST.",
+      "S. CANAL"
+    ],
+    [
+      "W. 29TH ST.",
+      "S. CANAL"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            536,
+            1263
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 28TH ST. x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63829148956577,
+            41.84361678068918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            536,
+            3405
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 28TH PL. x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63826671323591,
+            41.84270464643554
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            536,
+            5273
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 29TH ST. x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63824409588375,
+            41.841793173294775
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1034,
+            5273
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 29TH ST. x S. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63784578123703,
+            41.84179844490798
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63824636900206,
+            41.84386756607986
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5283,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6353934040232,
+            41.84391278261457
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63817064871986,
+            41.841216060714856
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8138,
+    "separation_ratio": 1.387,
+    "best_offset_m": 13.5,
+    "n_junctions": 17
+  }
+}

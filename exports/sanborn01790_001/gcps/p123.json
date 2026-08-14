@@ -1,0 +1,109 @@
+{
+  "page": "123",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.11,
+  "auto_residuals_m": [
+    0.1,
+    0.13,
+    0.06,
+    0.11
+  ],
+  "inlier_streets": [
+    [
+      "GRACELAND AVE.",
+      "N. LEAVITT"
+    ],
+    [
+      "GRACELAND AVE.",
+      "N. HOYNE AVE."
+    ],
+    [
+      "N. LEAVITT",
+      "GRACE"
+    ],
+    [
+      "N. HOYNE AVE.",
+      "GRACE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            760,
+            250
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACELAND AVE. x N. LEAVITT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68361150836195,
+            41.95408474125807
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4672,
+            250
+          ],
+          "username": "autogeoref",
+          "note": "auto: GRACELAND AVE. x N. HOYNE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68118302300407,
+            41.95412080265796
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            760,
+            7977
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LEAVITT x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68350707580913,
+            41.95044542701841
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4672,
+            7977
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HOYNE AVE. x GRACE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68108091078952,
+            41.95047960774305
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

@@ -1,0 +1,132 @@
+{
+  "page": "24",
+  "n_streets": 8,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 1.43,
+  "auto_residuals_m": [
+    0.59,
+    0.6,
+    0.42,
+    0.24,
+    0.13
+  ],
+  "inlier_streets": [
+    [
+      "W. DICKENS AV.",
+      "N. WINCHESTER AV."
+    ],
+    [
+      "W. DICKENS AV.",
+      "N. WOLCOTT AV. (N. LINCOLN)"
+    ],
+    [
+      "N. WINCHESTER AV.",
+      "ARMITAGE AV."
+    ],
+    [
+      "N. WOLCOTT AV. (N. LINCOLN)",
+      "ARMITAGE AV."
+    ],
+    [
+      "N. HONORE (GIRARD RD.)",
+      "ARMITAGE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            985,
+            2891
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. x N. WINCHESTER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67646489591826,
+            41.91959692975436
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3004,
+            2891
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DICKENS AV. x N. WOLCOTT AV. (N. LINCOLN)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67523208014254,
+            41.91961801320075
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            985,
+            6874
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WINCHESTER AV. x ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67640352418951,
+            41.91778096144693
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3004,
+            6874
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WOLCOTT AV. (N. LINCOLN) x ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67518696304025,
+            41.91780411275405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5003,
+            6874
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HONORE (GIRARD RD.) x ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6739757733423,
+            41.91782699743729
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

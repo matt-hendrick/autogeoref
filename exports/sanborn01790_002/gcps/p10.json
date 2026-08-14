@@ -1,0 +1,182 @@
+{
+  "page": "10",
+  "n_streets": 12,
+  "n_candidates": 13,
+  "n_inliers": 7,
+  "rotation_deg": 0.34,
+  "auto_residuals_m": [
+    1.46,
+    1.75,
+    4.4,
+    1.82,
+    0.78,
+    2.42,
+    3.54
+  ],
+  "inlier_streets": [
+    [
+      "W. BELMONT AVE.",
+      "N. SACRAMENTO AVE."
+    ],
+    [
+      "W. BELMONT AVE.",
+      "N. ALBANY AVE."
+    ],
+    [
+      "W. BELMONT AVE.",
+      "N. WHIPPLE AVE."
+    ],
+    [
+      "W. FLETCHER (LEE AVE.)",
+      "N. SACRAMENTO AVE."
+    ],
+    [
+      "N. SACRAMENTO AVE.",
+      "W. WELLINGTON"
+    ],
+    [
+      "N. ALBANY AVE.",
+      "W. WELLINGTON"
+    ],
+    [
+      "N. WHIPPLE AVE.",
+      "W. WELLINGTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4937,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELMONT AVE. x N. SACRAMENTO AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70274307141506,
+            41.93936329643443
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            604,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELMONT AVE. x N. ALBANY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70519339191942,
+            41.93935092056068
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2676,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BELMONT AVE. x N. WHIPPLE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70396781341418,
+            41.93935693025164
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4937,
+            2260
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FLETCHER (LEE AVE.) x N. SACRAMENTO AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70271886516164,
+            41.9384507574014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4937,
+            8179
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO AVE. x W. WELLINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70263134127968,
+            41.93571197219847
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            604,
+            8179
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ALBANY AVE. x W. WELLINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70509386047588,
+            41.93569755550727
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2676,
+            8179
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WHIPPLE AVE. x W. WELLINGTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70387009605196,
+            41.935705151282264
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.02,
+    "dy_m": -0.015
+  }
+}

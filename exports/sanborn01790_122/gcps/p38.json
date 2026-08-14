@@ -1,0 +1,181 @@
+{
+  "page": "38",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. 93RD ST.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "W. 93RD PL.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "W. 94TH ST.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 95TH ST."
+    ],
+    [
+      "S. CHARLES",
+      "W. 95TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4746,
+            293
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 93RD ST. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66276595151339,
+            41.724846785762736
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4746,
+            2173
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 93RD PL. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66274205870118,
+            41.7239284107553
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4746,
+            4142
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 94TH ST. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66271758339508,
+            41.72303323514437
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4746,
+            7959
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66268341450007,
+            41.72121517447028
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1435,
+            7959
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CHARLES x W. 95TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66474320098871,
+            41.721185104982816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66538401035683,
+            41.72453875072974
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5276,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66241664440155,
+            41.724577562191655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66530856296468,
+            41.72132542407483
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 0 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  }
+}

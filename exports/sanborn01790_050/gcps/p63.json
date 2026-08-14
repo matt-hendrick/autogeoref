@@ -1,0 +1,230 @@
+{
+  "page": "63",
+  "n_streets": 6,
+  "n_candidates": 10,
+  "n_inliers": 9,
+  "rotation_deg": 1.84,
+  "auto_residuals_m": [
+    1.55,
+    2.38,
+    3.0,
+    4.01,
+    6.2,
+    3.94,
+    1.4,
+    2.42,
+    3.03
+  ],
+  "inlier_streets": [
+    [
+      "WILSON AV.",
+      "N. AUSTIN AV."
+    ],
+    [
+      "WILSON AV.",
+      "N. MASON AV."
+    ],
+    [
+      "WILSON AV.",
+      "MARMORA AV."
+    ],
+    [
+      "SUNNYSIDE AV.",
+      "N. AUSTIN AV."
+    ],
+    [
+      "SUNNYSIDE AV.",
+      "N. MASON AV."
+    ],
+    [
+      "SUNNYSIDE AV.",
+      "MARMORA AV."
+    ],
+    [
+      "MONTROSE AV.",
+      "N. AUSTIN AV."
+    ],
+    [
+      "MONTROSE AV.",
+      "N. MASON AV."
+    ],
+    [
+      "MONTROSE AV.",
+      "MARMORA AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            810,
+            404
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILSON AV. x N. AUSTIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7771506249013,
+            41.9639901086171
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2762,
+            404
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILSON AV. x N. MASON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77592799193465,
+            41.964006242411834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4815,
+            404
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILSON AV. x MARMORA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77470226779838,
+            41.96402319116501
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            810,
+            4350
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUNNYSIDE AV. x N. AUSTIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77708865212958,
+            41.962132360589436
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2762,
+            4350
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUNNYSIDE AV. x N. MASON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77586866182426,
+            41.962225777055174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4815,
+            4350
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUNNYSIDE AV. x MARMORA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77464401123564,
+            41.962241884677965
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            810,
+            8296
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. AUSTIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77702809067178,
+            41.96033846785101
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2762,
+            8296
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. MASON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7758062676329,
+            41.96035531731254
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4815,
+            8296
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x MARMORA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77458305943512,
+            41.96037223895905
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -0.972,
+    "dy_m": -1.954
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "page": "85",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "MONTROSE AV.",
+      "N. MAJOR AV."
+    ],
+    [
+      "W. PENSACOLA AV.",
+      "N. MAJOR AV."
+    ],
+    [
+      "N. MAJOR AV.",
+      "CULLOM AV."
+    ],
+    [
+      "N. MAJOR AV.",
+      "BERTEAU AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3463,
+            296
+          ],
+          "username": "autogeoref",
+          "note": "auto: MONTROSE AV. x N. MAJOR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76969008823653,
+            41.96045143883674
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3463,
+            2275
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PENSACOLA AV. x N. MAJOR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7696592067206,
+            41.95953961871395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3463,
+            4173
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAJOR AV. x CULLOM AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76962711710627,
+            41.95862771155395
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3463,
+            8196
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MAJOR AV. x BERTEAU AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76956721342167,
+            41.95679972186911
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77145926269056,
+            41.96017194174388
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5263,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76854097396611,
+            41.960205515049424
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77139360811285,
+            41.95701621063873
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.7281,
+    "separation_ratio": 0.901,
+    "best_offset_m": 98.5,
+    "n_junctions": 4
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "page": "104",
+  "n_streets": 10,
+  "n_candidates": 11,
+  "n_inliers": 8,
+  "rotation_deg": 1.09,
+  "auto_residuals_m": [
+    2.22,
+    3.93,
+    3.42,
+    1.98,
+    2.12,
+    1.76,
+    1.94,
+    0.14
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVISION",
+      "LARRABEE"
+    ],
+    [
+      "W. DIVISION",
+      "MILTON"
+    ],
+    [
+      "W. ELM",
+      "LARRABEE"
+    ],
+    [
+      "W. ELM",
+      "MILTON"
+    ],
+    [
+      "W. ELM",
+      "TOWNSEND"
+    ],
+    [
+      "HOBBIE",
+      "LARRABEE"
+    ],
+    [
+      "HOBBIE",
+      "MILTON"
+    ],
+    [
+      "HOBBIE",
+      "TOWNSEND"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            439,
+            1223
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64321993820914,
+            41.90371649915872
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3735,
+            1223
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x MILTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64117105574735,
+            41.90374828966167
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            439,
+            3574
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64317987551617,
+            41.902651494100475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3735,
+            3574
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x MILTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64119232483989,
+            41.902697908557755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5492,
+            3574
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ELM x TOWNSEND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64011783107878,
+            41.90270536633328
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            439,
+            6300
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOBBIE x LARRABEE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64313447510769,
+            41.90148331006503
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3735,
+            6300
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOBBIE x MILTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64114365681776,
+            41.90151765499637
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5492,
+            6300
+          ],
+          "username": "autogeoref",
+          "note": "auto: HOBBIE x TOWNSEND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64007888953245,
+            41.901519242426346
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

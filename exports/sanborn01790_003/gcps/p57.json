@@ -1,0 +1,159 @@
+{
+  "page": "57",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 0.74,
+  "auto_residuals_m": [
+    3.32,
+    7.05,
+    3.78,
+    3.25,
+    7.02,
+    3.82
+  ],
+  "inlier_streets": [
+    [
+      "W. CHICAGO AV.",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. TRUMBULL AV."
+    ],
+    [
+      "W. CHICAGO AV.",
+      "N. HOMAN AV."
+    ],
+    [
+      "W. HURON",
+      "N. ST. LOUIS AV."
+    ],
+    [
+      "W. HURON",
+      "N. TRUMBULL AV."
+    ],
+    [
+      "W. HURON",
+      "N. HOMAN AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            91,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71385344590385,
+            41.89546481020197
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2351,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. TRUMBULL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71263592696026,
+            41.8954764536316
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4286,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x N. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71141648803822,
+            41.89548810421403
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            91,
+            4331
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7138008928489,
+            41.89363337413632
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2351,
+            4331
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. TRUMBULL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71258257159376,
+            41.89364585685091
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4286,
+            4331
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HURON x N. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71136297609706,
+            41.89365717072253
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.162,
+    "dy_m": -2.769
+  }
+}

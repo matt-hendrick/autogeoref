@@ -1,0 +1,254 @@
+{
+  "page": "7",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (verified: junction+addresses)",
+  "rescue_anchors": [
+    [
+      "W. 47TH ST.",
+      "S. CHRISTIANA AV. (TURNER AV.)"
+    ],
+    [
+      "W. 47TH ST.",
+      "S. CHRISTIANA AV. (TURNER AV.)"
+    ],
+    [
+      "W. 47TH PL.",
+      "S. CHRISTIANA AV. (TURNER AV.)"
+    ],
+    [
+      "W. 48TH PL.",
+      "S. CHRISTIANA AV. (TURNER AV.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2831,
+            317
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 47TH ST. x S. CHRISTIANA AV. (TURNER AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70755767903725,
+            41.80807514138721
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2831,
+            317
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 47TH ST. x S. CHRISTIANA AV. (TURNER AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70765888916183,
+            41.80807401099903
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2831,
+            3218
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 47TH PL. x S. CHRISTIANA AV. (TURNER AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70761899157246,
+            41.806777398362726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2831,
+            5589
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 48TH PL. x S. CHRISTIANA AV. (TURNER AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70758977335933,
+            41.80564720999402
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70901162428177,
+            41.80781459570056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5253,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70613410025244,
+            41.80786102814142
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            7653
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7089208791241,
+            41.80469000789845
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5677,
+    "separation_ratio": 1.4,
+    "best_offset_m": 7.3,
+    "n_junctions": 11
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": null,
+      "junction": true,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 17,
+      "votable": 17,
+      "in_block": 17,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 8.9,
+          "addr_diff": 10.1
+        },
+        {
+          "perp_m": 9.4,
+          "addr_diff": 0.1
+        },
+        {
+          "perp_m": 8.8,
+          "addr_diff": 1.8
+        },
+        {
+          "perp_m": 12.8,
+          "addr_diff": 5.3
+        },
+        {
+          "perp_m": 10.2,
+          "addr_diff": 0.2
+        },
+        {
+          "perp_m": 8.7,
+          "addr_diff": 38.6
+        },
+        {
+          "perp_m": 13.8,
+          "addr_diff": 11.2
+        },
+        {
+          "perp_m": 13.6,
+          "addr_diff": 3.5
+        },
+        {
+          "perp_m": 13.6,
+          "addr_diff": 1.9
+        },
+        {
+          "perp_m": 13.3,
+          "addr_diff": 2.4
+        },
+        {
+          "perp_m": 13.4,
+          "addr_diff": 6.7
+        },
+        {
+          "perp_m": 13.3,
+          "addr_diff": 8.0
+        },
+        {
+          "perp_m": 13.2,
+          "addr_diff": 2.8
+        },
+        {
+          "perp_m": 3.1,
+          "addr_diff": 10.3
+        },
+        {
+          "perp_m": 3.0,
+          "addr_diff": 2.7
+        },
+        {
+          "perp_m": 3.4,
+          "addr_diff": 2.7
+        },
+        {
+          "perp_m": 5.3,
+          "addr_diff": 8.0
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

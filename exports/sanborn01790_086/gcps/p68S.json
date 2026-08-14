@@ -1,0 +1,111 @@
+{
+  "page": "68S",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": 1.06,
+  "auto_residuals_m": [
+    0.7,
+    0.67,
+    0.67,
+    0.68
+  ],
+  "inlier_streets": [
+    [
+      "E. VAN BUREN",
+      "PLYMOUTH CT."
+    ],
+    [
+      "E. VAN BUREN",
+      "S. STATE"
+    ],
+    [
+      "PLYMOUTH CT.",
+      "W HARRISON"
+    ],
+    [
+      "S. STATE",
+      "W HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2054,
+            1228
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. VAN BUREN x PLYMOUTH CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62873959125238,
+            41.87690697946368
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3857,
+            1228
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. VAN BUREN x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62765212002273,
+            41.87692951144422
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2054,
+            6314
+          ],
+          "username": "autogeoref",
+          "note": "auto: PLYMOUTH CT. x W HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62868559875918,
+            41.8745451806989
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3857,
+            6314
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x W HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62761115199737,
+            41.87455239760872
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

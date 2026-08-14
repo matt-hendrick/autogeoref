@@ -1,0 +1,155 @@
+{
+  "page": "125",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 0.32,
+  "auto_residuals_m": [
+    0.86,
+    0.4,
+    1.87,
+    0.41,
+    2.01,
+    1.05
+  ],
+  "inlier_streets": [
+    [
+      "W. 37TH PL.",
+      "NORMAL AV. (BUTLER)"
+    ],
+    [
+      "W. 38TH ST.",
+      "PARNELL AV."
+    ],
+    [
+      "W. 38TH ST.",
+      "NORMAL AV. (BUTLER)"
+    ],
+    [
+      "PARNELL AV.",
+      "W. PERSHING ROAD (W. 39TH ST.)"
+    ],
+    [
+      "NORMAL AV. (BUTLER)",
+      "W. 38TH PL."
+    ],
+    [
+      "NORMAL AV. (BUTLER)",
+      "W. PERSHING ROAD (W. 39TH ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2418,
+            646
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 37TH PL. x NORMAL AV. (BUTLER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63868843140908,
+            41.82629038292393
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            474,
+            2693
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x PARNELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63988167969755,
+            41.82536066986778
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2418,
+            2693
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 38TH ST. x NORMAL AV. (BUTLER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63866564198642,
+            41.8253758469382
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            474,
+            6680
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARNELL AV. x W. PERSHING ROAD (W. 39TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63984075832994,
+            41.82353900534122
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2418,
+            4731
+          ],
+          "username": "autogeoref",
+          "note": "auto: NORMAL AV. (BUTLER) x W. 38TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63864940358653,
+            41.82442183074463
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2418,
+            6680
+          ],
+          "username": "autogeoref",
+          "note": "auto: NORMAL AV. (BUTLER) x W. PERSHING ROAD (W. 39TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63861708001455,
+            41.82355240199459
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

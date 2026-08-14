@@ -1,0 +1,205 @@
+{
+  "page": "80",
+  "n_streets": 9,
+  "n_candidates": 14,
+  "n_inliers": 8,
+  "rotation_deg": 1.05,
+  "auto_residuals_m": [
+    4.14,
+    4.77,
+    9.73,
+    16.93,
+    5.84,
+    10.99,
+    6.98,
+    1.97
+  ],
+  "inlier_streets": [
+    [
+      "S. STEWART AV.",
+      "W. 25TH PL."
+    ],
+    [
+      "S. STEWART AV.",
+      "W. 26TH ST."
+    ],
+    [
+      "PRINCETON AV.",
+      "W. 26TH ST."
+    ],
+    [
+      "W. 25TH PL.",
+      "S. PRINCETON AV."
+    ],
+    [
+      "W. 26TH ST.",
+      "S. SHIELDS AV."
+    ],
+    [
+      "W. 26TH ST.",
+      "S. PRINCETON AV."
+    ],
+    [
+      "S. SHIELDS AV.",
+      "W. 27TH ST."
+    ],
+    [
+      "S. PRINCETON AV.",
+      "W. 27TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            132,
+            2032
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STEWART AV. x W. 25TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63659861329423,
+            41.846357637159734
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            132,
+            4088
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STEWART AV. x W. 26TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63657742437682,
+            41.84544486923812
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3218,
+            4088
+          ],
+          "username": "autogeoref",
+          "note": "auto: PRINCETON AV. x W. 26TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63462965338573,
+            41.84547170406454
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3742,
+            2032
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 25TH PL. x S. PRINCETON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63465292199528,
+            41.846382416876516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1761,
+            4088
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 26TH ST. x S. SHIELDS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63552468354943,
+            41.8454580987498
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3742,
+            4088
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 26TH ST. x S. PRINCETON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63430916291449,
+            41.8454765747473
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1761,
+            7235
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SHIELDS AV. x W. 27TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63548960472556,
+            41.84400776452437
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3742,
+            7235
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. PRINCETON AV. x W. 27TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63427472281298,
+            41.84402763707165
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.487,
+    "dy_m": -2.098
+  }
+}

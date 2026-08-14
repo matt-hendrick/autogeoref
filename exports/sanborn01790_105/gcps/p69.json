@@ -1,0 +1,205 @@
+{
+  "page": "69",
+  "n_streets": 6,
+  "n_candidates": 11,
+  "n_inliers": 8,
+  "rotation_deg": 0.61,
+  "auto_residuals_m": [
+    1.94,
+    0.37,
+    0.96,
+    3.18,
+    0.94,
+    2.7,
+    0.05,
+    1.66
+  ],
+  "inlier_streets": [
+    [
+      "W. LAKE",
+      "N. LOREL (BAIRD AV.)"
+    ],
+    [
+      "W. LAKE",
+      "N. LONG (N. WILLOW AV.)"
+    ],
+    [
+      "W. LAKE",
+      "N. LOTUS (N. WALNUT AV.)"
+    ],
+    [
+      "N. LOREL (BAIRD AV.)",
+      "W. FULTON (FRINK)"
+    ],
+    [
+      "N. LOREL (BAIRD AV.)",
+      "WEST END AV."
+    ],
+    [
+      "W. FULTON (FRINK)",
+      "N. LONG (N. WILLOW AV.)"
+    ],
+    [
+      "W. FULTON (FRINK)",
+      "N. LOTUS (N. WALNUT AV.)"
+    ],
+    [
+      "N. LONG (N. WILLOW AV.)",
+      "WEST END AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4883,
+            955
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. LOREL (BAIRD AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75897264015339,
+            41.887305418275844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2694,
+            955
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. LONG (N. WILLOW AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76032517202094,
+            41.88728494598031
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            395,
+            955
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. LOTUS (N. WALNUT AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76176452457354,
+            41.88726635778609
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4883,
+            4371
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LOREL (BAIRD AV.) x W. FULTON (FRINK)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75891244155198,
+            41.88575071497356
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4883,
+            8357
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LOREL (BAIRD AV.) x WEST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75884665034236,
+            41.883999226341814
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2694,
+            4371
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULTON (FRINK) x N. LONG (N. WILLOW AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76025861717815,
+            41.88577256141548
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            395,
+            4371
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULTON (FRINK) x N. LOTUS (N. WALNUT AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76171163072011,
+            41.885749924809346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2694,
+            8357
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LONG (N. WILLOW AV.) x WEST END AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76023331579837,
+            41.88398483139624
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 2.57,
+    "dy_m": -2.029
+  }
+}

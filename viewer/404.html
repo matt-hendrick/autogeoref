@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Not found</title>
+<!-- This file exists to be PRESENT, more than to be read.
+
+     Cloudflare Pages serves index.html with a 200 for any path that matches no
+     asset when the bundle carries no 404.html — so /robots.txt, /sitemap.xml
+     and every typo answered 200 with the atlas page inside, and a crawler
+     parsing that as robots.txt reported it as invalid. Shipping this file is
+     what switches the platform out of that fallback and gets real 404s.
+
+     Carries no city fact and no script: it is the one page that has to render
+     when whatever the reader asked for does not exist. The styling is inline
+     for the same reason — a 404 that depends on another request is a 404 that
+     can arrive blank.
+
+     The hrefs below are ABSOLUTE, which is the opposite of index.html's rule,
+     and deliberately so. index.html is relative because it is served from two
+     roots. This page is served for a path that DOES NOT EXIST — /a/b/c/typo as
+     readily as /typo — so there is no depth to be relative to, and a relative
+     icon would be looked for under whatever directory the reader mistyped. -->
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#14161B">
+<meta name="robots" content="noindex">
+<style>
+  html { color-scheme: dark; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center;
+    background: #14110c; color: #f4eddd; text-align: center; padding: 2rem;
+    font-family: Georgia, "Times New Roman", serif; line-height: 1.5;
+  }
+  h1 { font-size: 1.6rem; font-weight: 400; margin: 0 0 .6rem; letter-spacing: .04em; }
+  p { margin: 0 0 1.4rem; color: #c9bda6; }
+  a { color: #d9a441; }
+  a:focus-visible { outline: 2px solid #d9a441; outline-offset: 3px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>There is no page here</h1>
+  <p>The address you followed does not name anything this site serves.</p>
+  <p><a href="/">Back to the atlas</a></p>
+</main>
+</body>
+</html>

@@ -1,0 +1,134 @@
+{
+  "page": "57",
+  "n_streets": 8,
+  "n_candidates": 10,
+  "n_inliers": 5,
+  "rotation_deg": 1.0,
+  "auto_residuals_m": [
+    1.95,
+    3.12,
+    5.06,
+    2.87,
+    2.33
+  ],
+  "inlier_streets": [
+    [
+      "WILLOW",
+      "FREMONT"
+    ],
+    [
+      "WILLOW",
+      "SHEFFIELD AV."
+    ],
+    [
+      "SHEFFIELD AV.",
+      "CONCORD PL."
+    ],
+    [
+      "SHEFFIELD AV.",
+      "W. NORTH AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "SMITH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4218,
+            366
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILLOW x FREMONT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6507873570544,
+            41.91378997576282
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            284,
+            366
+          ],
+          "username": "autogeoref",
+          "note": "auto: WILLOW x SHEFFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65321230417834,
+            41.91373478925521
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            284,
+            4800
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHEFFIELD AV. x CONCORD PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65314105195921,
+            41.91175232229256
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            284,
+            6682
+          ],
+          "username": "autogeoref",
+          "note": "auto: SHEFFIELD AV. x W. NORTH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65310748102343,
+            41.910839882756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3627,
+            6682
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x SMITH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65110572367728,
+            41.91087378492588
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

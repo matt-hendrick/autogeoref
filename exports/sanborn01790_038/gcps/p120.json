@@ -1,0 +1,134 @@
+{
+  "page": "120",
+  "n_streets": 9,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 0.92,
+  "auto_residuals_m": [
+    0.14,
+    0.55,
+    1.57,
+    3.34,
+    1.7
+  ],
+  "inlier_streets": [
+    [
+      "HENDERSON ST.",
+      "KIMBALL AV."
+    ],
+    [
+      "KIMBALL AV.",
+      "MELROSE ST."
+    ],
+    [
+      "KIMBALL AV.",
+      "BELMONT AV."
+    ],
+    [
+      "BELMONT AV.",
+      "CHRISTIANA AV."
+    ],
+    [
+      "BELMONT AV.",
+      "N. SPAULDING AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            914,
+            1273
+          ],
+          "username": "autogeoref",
+          "note": "auto: HENDERSON ST. x KIMBALL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71259843851556,
+            41.942247421723955
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            914,
+            5802
+          ],
+          "username": "autogeoref",
+          "note": "auto: KIMBALL AV. x MELROSE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71253437250928,
+            41.94018790695662
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            914,
+            7811
+          ],
+          "username": "autogeoref",
+          "note": "auto: KIMBALL AV. x BELMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71249154165102,
+            41.939279477491894
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2968,
+            7811
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AV. x CHRISTIANA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71127365896564,
+            41.93930181928665
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4890,
+            7811
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELMONT AV. x N. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71005093139222,
+            41.939305832184
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high"
+}

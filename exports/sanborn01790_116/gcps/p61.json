@@ -1,0 +1,184 @@
+{
+  "page": "61",
+  "n_streets": 13,
+  "n_candidates": 15,
+  "n_inliers": 7,
+  "rotation_deg": 0.99,
+  "auto_residuals_m": [
+    1.11,
+    0.36,
+    0.41,
+    1.07,
+    2.85,
+    0.64,
+    1.09
+  ],
+  "inlier_streets": [
+    [
+      "LAWRENCE AV.",
+      "N. KEELER AV."
+    ],
+    [
+      "LAWRENCE AV.",
+      "N. KEDVALE AV."
+    ],
+    [
+      "LAWRENCE AV.",
+      "N. KARLOV AV."
+    ],
+    [
+      "N. KEELER AV.",
+      "LELAND AV."
+    ],
+    [
+      "N. KEDVALE AV.",
+      "LELAND AV."
+    ],
+    [
+      "N. KARLOV AV.",
+      "EASTWOOD AV."
+    ],
+    [
+      "KENNICOTT AV.",
+      "EASTWOOD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1290,
+            897
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x N. KEELER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73298788476637,
+            41.96818525172069
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3215,
+            897
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x N. KEDVALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73175319025334,
+            41.96819881660734
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5156,
+            897
+          ],
+          "username": "autogeoref",
+          "note": "auto: LAWRENCE AV. x N. KARLOV AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73049782464744,
+            41.968214784338606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1290,
+            3236
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEELER AV. x LELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73296263896304,
+            41.96708208817506
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3215,
+            3236
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDVALE AV. x LELAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73173061724066,
+            41.96711879528418
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5156,
+            6382
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KARLOV AV. x EASTWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73040728678838,
+            41.96564094937082
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3991,
+            6382
+          ],
+          "username": "autogeoref",
+          "note": "auto: KENNICOTT AV. x EASTWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73114921174283,
+            41.96563594841196
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -2.237,
+    "dy_m": -0.072
+  }
+}

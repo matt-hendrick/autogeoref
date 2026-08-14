@@ -1,0 +1,159 @@
+{
+  "page": "71",
+  "n_streets": 7,
+  "n_candidates": 12,
+  "n_inliers": 6,
+  "rotation_deg": 0.87,
+  "auto_residuals_m": [
+    5.11,
+    1.45,
+    10.3,
+    5.24,
+    2.58,
+    1.14
+  ],
+  "inlier_streets": [
+    [
+      "ROSCOE BOULEVARD",
+      "N. WESTERN AVE."
+    ],
+    [
+      "ROSCOE BOULEVARD",
+      "N. OAKLEY AVE."
+    ],
+    [
+      "N. WESTERN AVE.",
+      "SCHOOL"
+    ],
+    [
+      "N. WESTERN AVE.",
+      "BELMONT AVE."
+    ],
+    [
+      "N. OAKLEY AVE.",
+      "SCHOOL"
+    ],
+    [
+      "N. OAKLEY AVE.",
+      "BELMONT AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            96,
+            181
+          ],
+          "username": "autogeoref",
+          "note": "auto: ROSCOE BOULEVARD x N. WESTERN AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.688173681555,
+            41.943089297383885
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4140,
+            181
+          ],
+          "username": "autogeoref",
+          "note": "auto: ROSCOE BOULEVARD x N. OAKLEY AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68574746831706,
+            41.943116881673284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            96,
+            4138
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AVE. x SCHOOL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68799012314656,
+            41.94126665801006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            96,
+            8204
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AVE. x BELMONT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68807229982994,
+            41.93945209412154
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4140,
+            4138
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AVE. x SCHOOL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68569426619074,
+            41.94129558451342
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4140,
+            8204
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AVE. x BELMONT AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68564334113907,
+            41.93947643625504
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.25,
+    "dy_m": -1.254
+  }
+}

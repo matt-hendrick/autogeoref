@@ -1,0 +1,163 @@
+{
+  "page": "35",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "63RD",
+      "CALUMET AVE."
+    ],
+    [
+      "63RD",
+      "PRAIRIE AVE."
+    ],
+    [
+      "63RD",
+      "SOUTH PARK AVE."
+    ],
+    [
+      "65TH",
+      "SOUTH PARK AVE."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2830,
+            339
+          ],
+          "username": "autogeoref",
+          "note": "auto: 63RD x CALUMET AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61719506963524,
+            41.780210726875985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            181,
+            339
+          ],
+          "username": "autogeoref",
+          "note": "auto: 63RD x PRAIRIE AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61887368748258,
+            41.78018082732041
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5411,
+            339
+          ],
+          "username": "autogeoref",
+          "note": "auto: 63RD x SOUTH PARK AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61564054900494,
+            41.780238842893034
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5411,
+            8190
+          ],
+          "username": "autogeoref",
+          "note": "auto: 65TH x SOUTH PARK AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61555394214467,
+            41.776603453205816
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61861946612967,
+            41.779963598722524
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4968,
+            832
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61589923022257,
+            41.77999367107197
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            552,
+            7492
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61855864657761,
+            41.77690423226115
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "skipped": "only 1 junctions extracted (need >= 3); the sheet carries too little drawn-street evidence to verify"
+  },
+  "seam_adjusted": {
+    "dx_m": -2.028,
+    "dy_m": -0.044
+  }
+}

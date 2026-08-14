@@ -1,0 +1,120 @@
+{
+  "page": "58",
+  "n_streets": 5,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "N. SPAULDING AV.",
+      "W. THORNDALE"
+    ],
+    [
+      "N. SPAULDING AV.",
+      "W. ARDMORE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            193,
+            4127
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPAULDING AV. x W. THORNDALE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71148652785938,
+            41.988489526629124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            193,
+            8211
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SPAULDING AV. x W. ARDMORE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7114270332588,
+            41.98667385600485
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71128869712658,
+            41.99002751502102
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5120,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70847653356883,
+            41.99006815680315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            569,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71120696012692,
+            41.986903018397136
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6876,
+    "separation_ratio": 1.327,
+    "best_offset_m": 0.3,
+    "n_junctions": 4
+  }
+}

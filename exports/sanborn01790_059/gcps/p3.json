@@ -1,0 +1,185 @@
+{
+  "page": "3",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "E. 114TH ST.",
+      "S. FRONT AV."
+    ],
+    [
+      "E. 114TH ST.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "S. FRONT AV.",
+      "E. 114TH ST."
+    ],
+    [
+      "S. COTTAGE GROVE AV.",
+      "E. 114TH ST."
+    ],
+    [
+      "S. COTTAGE GROVE AV.",
+      "E. 115TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2732,
+            4084
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 114TH ST. x S. FRONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61208455486563,
+            41.68727806030293
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4178,
+            4084
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 114TH ST. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61109036544325,
+            41.68732832267156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2732,
+            4082
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRONT AV. x E. 114TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61208455486563,
+            41.68727806030293
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4178,
+            4082
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. COTTAGE GROVE AV. x E. 114TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61109036544325,
+            41.68732832267156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4178,
+            8015
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. COTTAGE GROVE AV. x E. 115TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6110814683484,
+            41.685445355130945
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            566,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61339777311402,
+            41.68875609990599
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5093,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61060914635883,
+            41.68879228146661
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            566,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6133249641486,
+            41.68562663111117
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.8266,
+    "separation_ratio": 1.432,
+    "best_offset_m": 11.7,
+    "n_junctions": 4
+  }
+}

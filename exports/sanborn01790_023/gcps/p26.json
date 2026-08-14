@@ -1,0 +1,155 @@
+{
+  "page": "26",
+  "n_streets": 9,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.18,
+  "auto_residuals_m": [
+    0.37,
+    0.6,
+    1.2,
+    0.78,
+    0.86,
+    0.21
+  ],
+  "inlier_streets": [
+    [
+      "W. CHICAGO AV.",
+      "NOBLE"
+    ],
+    [
+      "W. CHICAGO AV.",
+      "ARMOUR"
+    ],
+    [
+      "NOBLE",
+      "W. SUPERIOR"
+    ],
+    [
+      "NOBLE",
+      "W. HURON"
+    ],
+    [
+      "W. SUPERIOR",
+      "ARMOUR"
+    ],
+    [
+      "ARMOUR",
+      "W. HURON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5808,
+            2508
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66240460651572,
+            41.896149764873115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            108,
+            2508
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CHICAGO AV. x ARMOUR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66565835544684,
+            41.8960984783889
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5808,
+            4529
+          ],
+          "username": "autogeoref",
+          "note": "auto: NOBLE x W. SUPERIOR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6623799889972,
+            41.89523309808702
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5808,
+            6473
+          ],
+          "username": "autogeoref",
+          "note": "auto: NOBLE x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66235417061603,
+            41.89432808028722
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            108,
+            4529
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SUPERIOR x ARMOUR"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66563254607192,
+            41.8951810810909
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            108,
+            6473
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMOUR x W. HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66560683746853,
+            41.8942822026248
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

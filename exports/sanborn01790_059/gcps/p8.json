@@ -1,0 +1,159 @@
+{
+  "page": "8",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 0.46,
+  "auto_residuals_m": [
+    4.25,
+    4.01,
+    11.37,
+    0.95,
+    11.38,
+    3.15
+  ],
+  "inlier_streets": [
+    [
+      "E. 111TH ST.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "E. 111TH PL.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "E. 111TH PL.",
+      "S. ST. LAWRENCE AV."
+    ],
+    [
+      "E. 112TH ST.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "E. 112TH ST.",
+      "S. ST. LAWRENCE AV."
+    ],
+    [
+      "S. COTTAGE GROVE AV.",
+      "E. 113TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1560,
+            381
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 111TH ST. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60986273186506,
+            41.69280245924037
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1560,
+            2324
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 111TH PL. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61006750684452,
+            41.69185613718988
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4709,
+            2324
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 111TH PL. x S. ST. LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60839652508635,
+            41.69189086287128
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1560,
+            4243
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 112TH ST. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61026474223362,
+            41.690991048725685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4709,
+            4243
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 112TH ST. x S. ST. LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60838086983797,
+            41.69101034736259
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1560,
+            8208
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. COTTAGE GROVE AV. x E. 113TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6106790250488,
+            41.68917722289519
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.248,
+    "dy_m": 4.659
+  }
+}

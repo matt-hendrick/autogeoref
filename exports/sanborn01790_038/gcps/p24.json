@@ -1,0 +1,132 @@
+{
+  "page": "24",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 0.8,
+  "auto_residuals_m": [
+    1.96,
+    0.87,
+    1.95,
+    2.7,
+    1.87
+  ],
+  "inlier_streets": [
+    [
+      "ARGYLE",
+      "N. FRANCISCO AV."
+    ],
+    [
+      "ARGYLE",
+      "N. CALIFORNIA AV."
+    ],
+    [
+      "N. FRANCISCO AV.",
+      "AINSLIE ST."
+    ],
+    [
+      "N. CALIFORNIA AV.",
+      "AINSLIE ST."
+    ],
+    [
+      "N. CALIFORNIA AV.",
+      "LAWRENCE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            914,
+            189
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARGYLE x N. FRANCISCO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70125129564921,
+            41.9721579630649
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4930,
+            189
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARGYLE x N. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69880864822419,
+            41.97217608392631
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            914,
+            3302
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANCISCO AV. x AINSLIE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70120836667584,
+            41.97070312977122
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4930,
+            3302
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CALIFORNIA AV. x AINSLIE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69876216153789,
+            41.97072339832803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4930,
+            8143
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CALIFORNIA AV. x LAWRENCE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69868889963115,
+            41.968531887707805
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

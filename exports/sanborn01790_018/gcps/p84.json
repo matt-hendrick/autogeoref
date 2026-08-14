@@ -1,0 +1,111 @@
+{
+  "page": "84",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": -88.62,
+  "auto_residuals_m": [
+    0.15,
+    0.16,
+    0.16,
+    0.11
+  ],
+  "inlier_streets": [
+    [
+      "W. JACKSON BL'VD",
+      "S. HALSTED"
+    ],
+    [
+      "W. JACKSON BL'VD",
+      "DESPLAINES"
+    ],
+    [
+      "W. VANBUREN",
+      "S. HALSTED"
+    ],
+    [
+      "W. VANBUREN",
+      "DESPLAINES"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1585,
+            6154
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BL'VD x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64724174302188,
+            41.87794739482335
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1585,
+            837
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. JACKSON BL'VD x DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64400300375502,
+            41.877988021851365
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4324,
+            6154
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VANBUREN x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64720241488345,
+            41.87667170953029
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4324,
+            837
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VANBUREN x DESPLAINES"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64396006888947,
+            41.87671513581088
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

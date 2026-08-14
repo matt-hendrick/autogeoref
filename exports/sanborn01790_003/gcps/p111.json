@@ -1,0 +1,159 @@
+{
+  "page": "111",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 6,
+  "rotation_deg": 0.91,
+  "auto_residuals_m": [
+    1.82,
+    1.34,
+    2.79,
+    2.17,
+    1.16,
+    1.05
+  ],
+  "inlier_streets": [
+    [
+      "W. MADISON",
+      "S. HOMAN AV."
+    ],
+    [
+      "W. MADISON",
+      "S. SPAULDING AV."
+    ],
+    [
+      "W. MONROE",
+      "S. HOMAN AV."
+    ],
+    [
+      "W. MONROE",
+      "S. SPAULDING AV."
+    ],
+    [
+      "JACKSON B'LV'D.",
+      "S. HOMAN AV."
+    ],
+    [
+      "JACKSON B'LV'D.",
+      "S. SPAULDING AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            991,
+            149
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71102302648633,
+            41.88091213965865
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5161,
+            149
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70852370543936,
+            41.88093879339255
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            991,
+            3031
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71098298917867,
+            41.87958715231467
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5161,
+            3031
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x S. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70847969672079,
+            41.87962160036031
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            991,
+            8239
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'LV'D. x S. HOMAN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71090356915973,
+            41.877272557159614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5161,
+            8239
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'LV'D. x S. SPAULDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70842251770296,
+            41.87730036061344
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.947,
+    "dy_m": -0.703
+  }
+}

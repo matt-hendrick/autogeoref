@@ -1,0 +1,198 @@
+{
+  "page": "38",
+  "n_streets": 6,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (verified: corroboration+addresses)",
+  "rescue_anchors": [
+    [
+      "W. 49TH ST.",
+      "S. OAKLEY AV."
+    ],
+    [
+      "S. OAKLEY AV.",
+      "W. 50TH ST."
+    ],
+    [
+      "S. OAKLEY AV.",
+      "W. 50TH PL."
+    ],
+    [
+      "S. OAKLEY AV.",
+      "W. 51ST ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            931,
+            213
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 49TH ST. x S. OAKLEY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68192243788565,
+            41.80485747335081
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            931,
+            4158
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY AV. x W. 50TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68183118145424,
+            41.80298200374124
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            931,
+            6212
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY AV. x W. 50TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6818098258749,
+            41.80205938561061
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            931,
+            8274
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. OAKLEY AV. x W. 51ST ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68178562375701,
+            41.80113997379727
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68210128068644,
+            41.80453124439177
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5278,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67921044619817,
+            41.804577894004055
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68201052485661,
+            41.801406128965056
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.5326,
+    "separation_ratio": 0.917,
+    "best_offset_m": 98.5,
+    "n_junctions": 7
+  },
+  "verified_accept": {
+    "votes": {
+      "corroboration": true,
+      "junction": null,
+      "addresses": true
+    },
+    "accepted": true,
+    "addresses": {
+      "models": [
+        "codex:gpt-5.6-sol",
+        "codex:gpt-5.6-terra"
+      ],
+      "consensus_numerals": 3,
+      "votable": 3,
+      "in_block": 3,
+      "perp_tol_m": 50.0,
+      "addr_tol": 75.0,
+      "numerals": [
+        {
+          "perp_m": 10.9,
+          "addr_diff": 3.7
+        },
+        {
+          "perp_m": 15.4,
+          "addr_diff": 4.1
+        },
+        {
+          "perp_m": 15.5,
+          "addr_diff": 2.6
+        }
+      ]
+    },
+    "previous_status": "REJECTED (rescue revoked: anchors share one street)"
+  }
+}

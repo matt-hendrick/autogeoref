@@ -1,0 +1,109 @@
+{
+  "page": "46",
+  "n_streets": 4,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": 1.05,
+  "auto_residuals_m": [
+    0.15,
+    0.18,
+    0.19,
+    0.16
+  ],
+  "inlier_streets": [
+    [
+      "W. 35TH ST.",
+      "S. PARNELL AV."
+    ],
+    [
+      "W. 35TH ST.",
+      "S. NORMAL AV. (BUTLER)"
+    ],
+    [
+      "W. 36TH ST.",
+      "S. PARNELL AV."
+    ],
+    [
+      "W. 36TH ST.",
+      "S. NORMAL AV. (BUTLER)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            370,
+            3048
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x S. PARNELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64001583234496,
+            41.83083140301767
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2400,
+            3048
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 35TH ST. x S. NORMAL AV. (BUTLER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63880238476636,
+            41.830845895563286
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            370,
+            7061
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. PARNELL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63997046048243,
+            41.82900784617834
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2400,
+            7061
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 36TH ST. x S. NORMAL AV. (BUTLER)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63875496537976,
+            41.829026656648914
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

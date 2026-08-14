@@ -1,0 +1,133 @@
+{
+  "page": "39",
+  "n_streets": 9,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "rotation_deg": 1.6,
+  "auto_residuals_m": [
+    9.35,
+    9.35,
+    2.57,
+    1.67,
+    4.11
+  ],
+  "inlier_streets": [
+    [
+      "ARMITAGE AV.",
+      "HOLLY AV"
+    ],
+    [
+      "ARMITAGE AV.",
+      "N. ASHLAND AV."
+    ],
+    [
+      "N. PAULINA",
+      "CORTLAND (CLYBOURN PL.)"
+    ],
+    [
+      "CORTLAND (CLYBOURN PL.)",
+      "N. MARSHFIELD AV."
+    ],
+    [
+      "CORTLAND (CLYBOURN PL.)",
+      "N. ASHLAND AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3361,
+            1249
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x HOLLY AV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66865437530961,
+            41.91792542987439
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4709,
+            1249
+          ],
+          "username": "autogeoref",
+          "note": "auto: ARMITAGE AV. x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66796131731526,
+            41.91793231515161
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            923,
+            5229
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PAULINA x CORTLAND (CLYBOURN PL.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6702767122936,
+            41.916073674675744
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2819,
+            5229
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND (CLYBOURN PL.) x N. MARSHFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66905686883072,
+            41.91609297210285
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4709,
+            5229
+          ],
+          "username": "autogeoref",
+          "note": "auto: CORTLAND (CLYBOURN PL.) x N. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66780082028947,
+            41.91612765178161
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

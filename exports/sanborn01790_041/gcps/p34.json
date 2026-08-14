@@ -1,0 +1,145 @@
+{
+  "page": "34",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 3,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "S. SACRAMENTO AV.",
+      "W. 36TH PL."
+    ],
+    [
+      "S. RICHMOND",
+      "W. 36TH ST."
+    ],
+    [
+      "S. SACRAMENTO AV.",
+      "W. 36TH PL."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3410,
+            6270
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SACRAMENTO AV. x W. 36TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69962459595409,
+            41.8272422530994
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5289,
+            4235
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. RICHMOND x W. 36TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69839892502142,
+            41.8281893962599
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3270,
+            6270
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SACRAMENTO AV. x W. 36TH PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69962459595409,
+            41.8272422530994
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70139283096441,
+            41.82970854916079
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5289,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69848100912525,
+            41.82976011840025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70129268666292,
+            41.826568942585396
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 3.05,
+    "dy_m": -1.035
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6825,
+    "separation_ratio": 1.173,
+    "best_offset_m": 1.1,
+    "n_junctions": 6
+  }
+}

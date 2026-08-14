@@ -1,0 +1,205 @@
+{
+  "page": "41",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": -0.05,
+  "auto_residuals_m": [
+    3.94,
+    2.23,
+    0.6,
+    4.67,
+    6.5,
+    2.78,
+    4.65,
+    4.98
+  ],
+  "inlier_streets": [
+    [
+      "W. PETERSON AV.",
+      "N. FAIRFIELD"
+    ],
+    [
+      "W. PETERSON AV.",
+      "N. CALIFORNIA"
+    ],
+    [
+      "W. PETERSON AV.",
+      "N. MOZART"
+    ],
+    [
+      "W. THORNDALE AV.",
+      "N. FAIRFIELD"
+    ],
+    [
+      "W. THORNDALE AV.",
+      "N. CALIFORNIA"
+    ],
+    [
+      "N. FAIRFIELD",
+      "W. ARDMORE AV."
+    ],
+    [
+      "N. CALIFORNIA",
+      "W. ARDMORE AV."
+    ],
+    [
+      "N. MOZART",
+      "W. ARDMORE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4395,
+            351
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PETERSON AV. x N. FAIRFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6981992683142,
+            41.990455863577004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2367,
+            351
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PETERSON AV. x N. CALIFORNIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6994210859041,
+            41.990448144989195
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            432,
+            351
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PETERSON AV. x N. MOZART"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70063441625545,
+            41.99044169974609
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4395,
+            4238
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. THORNDALE AV. x N. FAIRFIELD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69813981531368,
+            41.988589093922094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2367,
+            4238
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. THORNDALE AV. x N. CALIFORNIA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69935639844341,
+            41.988581913410606
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4395,
+            8231
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FAIRFIELD x W. ARDMORE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.698079987965,
+            41.98676987766802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2367,
+            8231
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CALIFORNIA x W. ARDMORE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69929612605267,
+            41.986762948025
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            432,
+            8231
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MOZART x W. ARDMORE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70058090107956,
+            41.986757597061846
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.059,
+    "dy_m": 0.82
+  }
+}

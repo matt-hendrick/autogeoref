@@ -1,0 +1,142 @@
+{
+  "page": "78",
+  "n_streets": 6,
+  "n_candidates": 3,
+  "n_inliers": 3,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. KINZIE",
+      "N. ELIZABETH"
+    ],
+    [
+      "N. ELIZABETH",
+      "CARROLL AV."
+    ],
+    [
+      "N. ELIZABETH",
+      "FULTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1309,
+            1144
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65892071786473,
+            41.888950205693384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1309,
+            4037
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELIZABETH x CARROLL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65891759914676,
+            41.88767697815061
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1309,
+            6453
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELIZABETH x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65889141676503,
+            41.88664782357842
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65938216782838,
+            41.88914831736563
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5284,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6565802557767,
+            41.88919456500223
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65930467917562,
+            41.886546547727484
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4992,
+    "separation_ratio": 1.158,
+    "best_offset_m": 9.8,
+    "n_junctions": 20
+  }
+}

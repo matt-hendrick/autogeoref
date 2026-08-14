@@ -1,0 +1,132 @@
+{
+  "page": "70",
+  "n_streets": 6,
+  "n_candidates": 7,
+  "n_inliers": 5,
+  "rotation_deg": 0.73,
+  "auto_residuals_m": [
+    1.89,
+    2.67,
+    0.79,
+    0.97,
+    0.93
+  ],
+  "inlier_streets": [
+    [
+      "FULTON",
+      "N. CANAL"
+    ],
+    [
+      "N. CANAL",
+      "W. LAKE"
+    ],
+    [
+      "N. CANAL",
+      "W. RANDOLPH"
+    ],
+    [
+      "W. LAKE",
+      "W. WATER"
+    ],
+    [
+      "W. WATER",
+      "W. RANDOLPH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1391,
+            1120
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. CANAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63989209460694,
+            41.886818269411364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1391,
+            3428
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CANAL x W. LAKE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63985417239921,
+            41.885719386955486
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1391,
+            5993
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CANAL x W. RANDOLPH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63979996275563,
+            41.88444207852079
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3633,
+            3428
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x W. WATER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63857429495842,
+            41.8857202316006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3633,
+            5993
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WATER x W. RANDOLPH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63853057590264,
+            41.8844530206649
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

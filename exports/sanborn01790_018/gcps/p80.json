@@ -1,0 +1,156 @@
+{
+  "page": "80",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.07,
+  "auto_residuals_m": [
+    4.81,
+    5.17,
+    9.31,
+    4.5,
+    9.37,
+    4.2
+  ],
+  "inlier_streets": [
+    [
+      "W. MADISON",
+      "S. JEFFERSON"
+    ],
+    [
+      "W. MADISON",
+      "S. CLINTON"
+    ],
+    [
+      "S. JEFFERSON",
+      "W. MONROE"
+    ],
+    [
+      "S. JEFFERSON",
+      "W. ADAMS"
+    ],
+    [
+      "S. CLINTON",
+      "W. MONROE"
+    ],
+    [
+      "S. CLINTON",
+      "W. ADAMS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1639,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. JEFFERSON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64266103474645,
+            41.88183756905327
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4181,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x S. CLINTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64119315861626,
+            41.88186041760544
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1639,
+            3657
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. JEFFERSON x W. MONROE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64261818510599,
+            41.88054781339179
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1639,
+            6866
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. JEFFERSON x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64257716392913,
+            41.87927354816093
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4181,
+            3657
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLINTON x W. MONROE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6411534598761,
+            41.88056779568833
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4181,
+            6866
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CLINTON x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64110945685262,
+            41.87929195327779
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5"
+}

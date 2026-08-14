@@ -1,0 +1,119 @@
+{
+  "page": "91",
+  "n_streets": 7,
+  "n_candidates": 7,
+  "n_inliers": 2,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "N. LAVERGNE AV.",
+      "PENSACOLA AV."
+    ],
+    [
+      "N. MILWAUKEE AV.",
+      "CULLOM AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3391,
+            2196
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. LAVERGNE AV. x PENSACOLA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75191082439719,
+            41.95975679807046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1896,
+            4112
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MILWAUKEE AV. x CULLOM AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75291923832329,
+            41.958831421467536
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75372154878364,
+            41.960347826603474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5263,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7508032600592,
+            41.96038139981634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75365589420595,
+            41.95719210420843
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7164,
+    "separation_ratio": 1.12,
+    "best_offset_m": 22.2,
+    "n_junctions": 11
+  }
+}

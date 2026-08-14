@@ -1,0 +1,182 @@
+{
+  "page": "11",
+  "n_streets": 9,
+  "n_candidates": 9,
+  "n_inliers": 7,
+  "rotation_deg": 1.26,
+  "auto_residuals_m": [
+    9.81,
+    15.29,
+    1.2,
+    8.99,
+    0.57,
+    2.22,
+    6.58
+  ],
+  "inlier_streets": [
+    [
+      "N. ADA ST.",
+      "W. MADISON"
+    ],
+    [
+      "W. MADISON",
+      "LOOMIS"
+    ],
+    [
+      "W. MADISON",
+      "THROOP"
+    ],
+    [
+      "W. MONROE",
+      "LOOMIS"
+    ],
+    [
+      "W. MONROE",
+      "THROOP"
+    ],
+    [
+      "LOOMIS",
+      "W. ADAMS"
+    ],
+    [
+      "THROOP",
+      "W. ADAMS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3341,
+            908
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ADA ST. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66057903723498,
+            41.88155747421589
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            956,
+            908
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66229382903501,
+            41.88153092270589
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4975,
+            908
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MADISON x THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65963630107947,
+            41.88157156082101
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            956,
+            3767
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66197696343993,
+            41.88024754902567
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4975,
+            3767
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. MONROE x THROOP"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65955102946258,
+            41.88028843577457
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            956,
+            6579
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOOMIS x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66194047812041,
+            41.878975786646876
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4975,
+            6579
+          ],
+          "username": "autogeoref",
+          "note": "auto: THROOP x W. ADAMS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65950963546973,
+            41.87901718808549
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -2.203,
+    "dy_m": -0.298
+  }
+}

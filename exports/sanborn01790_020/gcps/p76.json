@@ -1,0 +1,252 @@
+{
+  "page": "76",
+  "n_streets": 9,
+  "n_candidates": 15,
+  "n_inliers": 10,
+  "rotation_deg": 0.82,
+  "auto_residuals_m": [
+    8.26,
+    9.62,
+    10.64,
+    4.28,
+    6.46,
+    3.53,
+    0.87,
+    6.74,
+    7.85,
+    1.7
+  ],
+  "inlier_streets": [
+    [
+      "W. 25TH PL.",
+      "LOWE AV."
+    ],
+    [
+      "EMERALD AV.",
+      "W. 26TH ST."
+    ],
+    [
+      "EMERALD AV.",
+      "W. 28TH ST."
+    ],
+    [
+      "W. 26TH ST.",
+      "S. HALSTED"
+    ],
+    [
+      "W. 26TH ST.",
+      "EMERALD AV."
+    ],
+    [
+      "W. 26TH ST.",
+      "UNION AV."
+    ],
+    [
+      "S. HALSTED",
+      "W. 28TH ST."
+    ],
+    [
+      "S. HALSTED",
+      "W.27TH St."
+    ],
+    [
+      "EMERALD AV.",
+      "W. 28TH ST."
+    ],
+    [
+      "UNION AV.",
+      "W. 28TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5093,
+            751
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 25TH PL. x LOWE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64352781575342,
+            41.84619813102747
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2223,
+            2805
+          ],
+          "username": "autogeoref",
+          "note": "auto: EMERALD AV. x W. 26TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6454011394923,
+            41.845348895340194
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2223,
+            6979
+          ],
+          "username": "autogeoref",
+          "note": "auto: EMERALD AV. x W. 28TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64516327161314,
+            41.843529003805074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            388,
+            2805
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 26TH ST. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64641647391065,
+            41.84533502451884
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2493,
+            2805
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 26TH ST. x EMERALD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64520454947579,
+            41.84535077923141
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4372,
+            2805
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 26TH ST. x UNION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6439901985751,
+            41.84536670198231
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            388,
+            6979
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. 28TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64637914668958,
+            41.843516701230065
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            388,
+            4555
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W.27TH St."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64639903185684,
+            41.84452088972392
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2493,
+            6979
+          ],
+          "username": "autogeoref",
+          "note": "auto: EMERALD AV. x W. 28TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64516327161314,
+            41.843529003805074
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4372,
+            6979
+          ],
+          "username": "autogeoref",
+          "note": "auto: UNION AV. x W. 28TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64395253932405,
+            41.8435458115138
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": 3.616,
+    "dy_m": 1.132
+  }
+}

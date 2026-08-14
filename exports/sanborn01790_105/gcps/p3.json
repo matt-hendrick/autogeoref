@@ -1,0 +1,228 @@
+{
+  "page": "3",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 9,
+  "rotation_deg": 1.09,
+  "auto_residuals_m": [
+    5.02,
+    5.79,
+    4.91,
+    10.28,
+    5.69,
+    10.43,
+    6.38,
+    10.02,
+    5.5
+  ],
+  "inlier_streets": [
+    [
+      "W. DIVISION",
+      "N. MASSASOIT (LEWIS) AV."
+    ],
+    [
+      "W. DIVISION",
+      "N. WALLER AV."
+    ],
+    [
+      "W. DIVISION",
+      "N. PARKSIDE (N. PARK AV.)"
+    ],
+    [
+      "N. MASSASOIT (LEWIS) AV.",
+      "THOMAS"
+    ],
+    [
+      "N. MASSASOIT (LEWIS) AV.",
+      "W. AUGUSTA BLVD."
+    ],
+    [
+      "N. WALLER AV.",
+      "THOMAS"
+    ],
+    [
+      "N. WALLER AV.",
+      "W. AUGUSTA BLVD."
+    ],
+    [
+      "THOMAS",
+      "N. PARKSIDE (N. PARK AV.)"
+    ],
+    [
+      "N. PARKSIDE (N. PARK AV.)",
+      "W. AUGUSTA BLVD."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            476,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. MASSASOIT (LEWIS) AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76930504205677,
+            41.90204504512935
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2385,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. WALLER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76809147825811,
+            41.90206239104529
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4441,
+            287
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x N. PARKSIDE (N. PARK AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76687712305792,
+            41.90208039037433
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            476,
+            4485
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MASSASOIT (LEWIS) AV. x THOMAS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76924109866177,
+            41.90022226358484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            476,
+            8239
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MASSASOIT (LEWIS) AV. x W. AUGUSTA BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76917834643095,
+            41.898399876145604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2385,
+            4485
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WALLER AV. x THOMAS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76802470831792,
+            41.90023768853143
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2385,
+            8239
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WALLER AV. x W. AUGUSTA BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76795910616276,
+            41.898417630576134
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4441,
+            4485
+          ],
+          "username": "autogeoref",
+          "note": "auto: THOMAS x N. PARKSIDE (N. PARK AV.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76681123018692,
+            41.900254914084904
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4441,
+            8239
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PARKSIDE (N. PARK AV.) x W. AUGUSTA BLVD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76674617785662,
+            41.898434727844915
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.102,
+    "dy_m": -6.771
+  }
+}

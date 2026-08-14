@@ -1,0 +1,228 @@
+{
+  "page": "123",
+  "n_streets": 10,
+  "n_candidates": 12,
+  "n_inliers": 9,
+  "rotation_deg": 0.99,
+  "auto_residuals_m": [
+    5.38,
+    3.63,
+    15.17,
+    4.14,
+    3.13,
+    3.35,
+    9.07,
+    10.09,
+    26.29
+  ],
+  "inlier_streets": [
+    [
+      "JACKSON B'LV'D",
+      "ST. LOUIS AV."
+    ],
+    [
+      "JACKSON B'LV'D",
+      "S. CENTRAL PARK AV."
+    ],
+    [
+      "ST. LOUIS AV.",
+      "W. HARRISON"
+    ],
+    [
+      "S. CENTRAL PARK AV.",
+      "W. VAN BUREN"
+    ],
+    [
+      "S. CENTRAL PARK AV.",
+      "W. CONGRESS"
+    ],
+    [
+      "S. CENTRAL PARK AV.",
+      "W. HARRISON"
+    ],
+    [
+      "W. VAN BUREN",
+      "ST. LOUIS AV."
+    ],
+    [
+      "ST. LOUIS AV.",
+      "W. CONGRESS"
+    ],
+    [
+      "ST. LOUIS AV.",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4315,
+            329
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'LV'D x ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71348591789558,
+            41.87726090924891
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            308,
+            329
+          ],
+          "username": "autogeoref",
+          "note": "auto: JACKSON B'LV'D x S. CENTRAL PARK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71577285727031,
+            41.877231232242835
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4315,
+            8375
+          ],
+          "username": "autogeoref",
+          "note": "auto: ST. LOUIS AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.713221227105,
+            41.87361837012209
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            308,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTRAL PARK AV. x W. VAN BUREN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.715713609304,
+            41.87540612296423
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            308,
+            6250
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTRAL PARK AV. x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71568319950003,
+            41.87450777277633
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            308,
+            8375
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CENTRAL PARK AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7156573834815,
+            41.873587786506384
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4953,
+            4252
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x ST. LOUIS AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71295929078242,
+            41.87544307178617
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4953,
+            6250
+          ],
+          "username": "autogeoref",
+          "note": "auto: ST. LOUIS AV. x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71292947635774,
+            41.87453293402212
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4953,
+            8375
+          ],
+          "username": "autogeoref",
+          "note": "auto: ST. LOUIS AV. x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.713221227105,
+            41.87361837012209
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.111,
+    "dy_m": 2.942
+  }
+}

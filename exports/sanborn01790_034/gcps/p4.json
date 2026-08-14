@@ -1,0 +1,132 @@
+{
+  "page": "4",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 5,
+  "rotation_deg": 1.42,
+  "auto_residuals_m": [
+    1.63,
+    1.84,
+    1.84,
+    4.28,
+    3.74
+  ],
+  "inlier_streets": [
+    [
+      "DEVON AV.",
+      "RIDGE AV."
+    ],
+    [
+      "DEVON AV.",
+      "N.ROBEY"
+    ],
+    [
+      "N. WINCHESTER AV.",
+      "THOME AV."
+    ],
+    [
+      "N. WINCHESTER AV.",
+      "GRANVILLE AV."
+    ],
+    [
+      "N.ROBEY",
+      "GRANVILLE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5513,
+            272
+          ],
+          "username": "autogeoref",
+          "note": "auto: DEVON AV. x RIDGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67683740451474,
+            41.99795931816695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            230,
+            272
+          ],
+          "username": "autogeoref",
+          "note": "auto: DEVON AV. x N.ROBEY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68013563639485,
+            41.99789519693604
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2611,
+            5668
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WINCHESTER AV. x THOME AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67853213607324,
+            41.99546790646329
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2611,
+            8304
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WINCHESTER AV. x GRANVILLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67852522490762,
+            41.99428790469303
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            230,
+            8304
+          ],
+          "username": "autogeoref",
+          "note": "auto: N.ROBEY x GRANVILLE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6799267899748,
+            41.994262705515425
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

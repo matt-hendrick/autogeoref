@@ -1,0 +1,163 @@
+{
+  "page": "70",
+  "n_streets": 7,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "FULLERTON AV.",
+      "N. ALBANY AV."
+    ],
+    [
+      "FULLERTON AV.",
+      "N. SACRAMENTO AV."
+    ],
+    [
+      "N. SACRAMENTO AV.",
+      "LYNDALE"
+    ],
+    [
+      "N. SACRAMENTO AV.",
+      "PALMER SQ."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1621,
+            361
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. ALBANY AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70464325876037,
+            41.92474159475245
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5208,
+            361
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULLERTON AV. x N. SACRAMENTO AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70231833542829,
+            41.924762715904784
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5208,
+            5338
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO AV. x LYNDALE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70223325561503,
+            41.92238492901786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5208,
+            7423
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO AV. x PALMER SQ."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70221212743967,
+            41.921503430108984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70521768773754,
+            41.92451023539713
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5062,
+            825
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70240263992346,
+            41.92453765976746
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            562,
+            7425
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70516362722105,
+            41.921438274792145
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.7566,
+    "separation_ratio": 1.336,
+    "best_offset_m": 5.4,
+    "n_junctions": 9
+  }
+}

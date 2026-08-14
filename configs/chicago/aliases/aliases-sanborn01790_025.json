@@ -1,0 +1,47 @@
+{
+  "_comment": "Vol 25 (Pilsen / Lower West Side, ~1200-2200 S) -> modern renames. VOLUME-SCOPED. Source: 'Chicago Streets', William Martin 1948 (CHM street-name-changes list, http://chsmedia.org/househistory/nameChanges/start.pdf, accessed 2026-07-25). Each entry was spot-checked against the sheets. ROBEY->DAMEN 1927, 22ND->CERMAK 1933, 12TH->ROOSEVELT 1919. The numbered renames key the W-qualified pre-strip form ('W 22ND'): modern 12TH/20TH/22ND PL centerlines are in bounds, and a bare numbered key would re-key them through centerline_key's name-level alias application (all sheet reads are W-prefixed except two bare '22ND' reads, which stay unmatched). Modern 22ND PL and 23RD both cross Halsted in-bounds, matching the John Pl / O'Neil 800-899W ranges.",
+  "_comment2": "Deliberately NOT aliased: DALE CT. (vacated, no modern equivalent), O'BRIEN and BARBER (current streets absent from the centerline reference), (JOHNSON) (parenthetical-only read, unreachable by normalization).",
+  "_generated": [
+    "Entries below were written by `autogeoref alias-sweep` for sanborn01790_025 from the city's pinned rename source: 'Chicago Streets', William Martin 1948 (Chicago History Museum street-name-changes list, http://chsmedia.org/househistory/nameChanges/start.pdf, accessed 2026-07-25). Tier rules and their bars: docs/INTERNALS.md. An auto-written entry is either a UNIQUE in-bounds candidate whose locality is within 400 m on at least 2 sheets, or an ambiguous one the locality decided by 2x / 300 m AND printed address numerals corroborated.",
+    "BURLINGTON -> CLINTON: 5 unmatched read(s); unique in-bounds candidate; locality 82 m over 4 sheets. Source: -Burlington St., 1600 to 1800S Clinton St.",
+    "CONRAD -> 19TH PL: 2 unmatched read(s); unique in-bounds candidate; locality 73 m over 2 sheets. Source: -Conrad St., 19th Pl. 675 to 699W.",
+    "MECHANIC -> STEWART: 5 unmatched read(s); unique in-bounds candidate; locality 97 m over 4 sheets. Source: -Mechanic St., Stewart Ave. 426W 1600 to 1899S.",
+    "SEWARD -> NORMAL: 4 unmatched read(s); unique in-bounds candidate; locality 0 m over 3 sheets. Source: -Seward St., Normal Ave., 1600 to 2000S."
+  ],
+  "_generated_keys": [
+    "BURLINGTON",
+    "CONRAD",
+    "MECHANIC",
+    "SEWARD"
+  ],
+  "_generated_held": [
+    "HELD, not aliased: CENTRE (2 read(s)), best candidate RACINE -- locality decided RACINE 130 m over LOOMIS 406 m, but numerals did not corroborate: no documented along-street range for the runner-up LOOMIS",
+    "HELD, not aliased: 22ND (1 read(s)), best candidate CERMAK -- CERMAK is the evidence's answer, but this key breaks the table's structural rules in this volume: centerline '22ND PL' RE-KEYED to 'CERMAK' (name='22ND')",
+    "HELD, not aliased: ALBERT (1 read(s)), best candidate BISHOP -- locality measured on 1 sheet(s), need 2",
+    "HELD, not aliased: AV RAILROAD PL (1 read(s)), best candidate MARSHFIELD -- locality measured on 1 sheet(s), need 2",
+    "HELD, not aliased: BROWN (1 read(s)), best candidate SANGAMON -- locality measured on 1 sheet(s), need 2",
+    "HELD, not aliased: KROLL (1 read(s)), best candidate SEELEY -- locality measured on 1 sheet(s), need 2",
+    "HELD, not aliased: LOEFFLER CT (1 read(s)), best candidate MILLER -- locality measured on 1 sheet(s), need 2",
+    "HELD, not aliased: RACHINE (1 read(s)), best candidate RACINE -- locality measured on 1 sheet(s), need 2",
+    "HELD, not aliased: RAILROAD PL (1 read(s)), best candidate MARSHFIELD -- locality measured on 1 sheet(s), need 2",
+    "HELD, not aliased: SOLON (1 read(s)), best candidate ABERDEEN -- locality measured on 1 sheet(s), need 2",
+    "HELD, not aliased: TWELFTH (1 read(s)), best candidate ROOSEVELT -- locality measured on 1 sheet(s), need 2",
+    "HELD, not aliased: UNION PL (1 read(s)), best candidate FORD -- locality measured on 1 sheet(s), need 2",
+    "HELD, not aliased: WALLACK CT (1 read(s)), best candidate HAMILTON -- locality measured on 1 sheet(s), need 2",
+    "HELD, not aliased: WALLECK CT (1 read(s)), best candidate HAMILTON -- locality measured on 1 sheet(s), need 2"
+  ],
+  "W 20TH": "CULLERTON",
+  "W 22ND": "CERMAK",
+  "W 12TH": "ROOSEVELT",
+  "ROBEY": "DAMEN",
+  "LINCOLN": "WOLCOTT",
+  "FISK": "CARPENTER",
+  "JOHN PL": "22ND PL",
+  "ONEIL": "23RD",
+  "STRING": "DESPLAINES",
+  "IRVING": "BELL",
+  "BURLINGTON": "CLINTON",
+  "MECHANIC": "STEWART",
+  "SEWARD": "NORMAL",
+  "CONRAD": "19TH PL"
+}

@@ -1,0 +1,109 @@
+{
+  "page": "13",
+  "n_streets": 6,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "rotation_deg": 1.14,
+  "auto_residuals_m": [
+    0.38,
+    0.33,
+    0.36,
+    0.36
+  ],
+  "inlier_streets": [
+    [
+      "W. PRATT AV.",
+      "N. CALIFORNIA AV."
+    ],
+    [
+      "W. PRATT AV.",
+      "N. FAIRFIELD AV."
+    ],
+    [
+      "N. CALIFORNIA AV.",
+      "W. ALBION AV."
+    ],
+    [
+      "N. FAIRFIELD AV.",
+      "W. ALBION AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1316,
+            259
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PRATT AV. x N. CALIFORNIA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69982923914489,
+            42.00485123139324
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3221,
+            259
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PRATT AV. x N. FAIRFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69859864589931,
+            42.00487273687286
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1316,
+            7879
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CALIFORNIA AV. x W. ALBION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.699740947876,
+            42.001201959513004
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3221,
+            7879
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FAIRFIELD AV. x W. ALBION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69851940465756,
+            42.001216702847216
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

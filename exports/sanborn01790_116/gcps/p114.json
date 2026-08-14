@@ -1,0 +1,205 @@
+{
+  "page": "114",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.84,
+  "auto_residuals_m": [
+    3.26,
+    6.4,
+    2.22,
+    4.59,
+    5.8,
+    3.09,
+    4.48,
+    3.58
+  ],
+  "inlier_streets": [
+    [
+      "BERTEAU AV.",
+      "N. KEDVALE AV."
+    ],
+    [
+      "BERTEAU AV.",
+      "N. KEYSTONE AV."
+    ],
+    [
+      "BERTEAU AV.",
+      "N. PULASKI RD."
+    ],
+    [
+      "N. KEDVALE AV.",
+      "BELLE PLAINE AV."
+    ],
+    [
+      "BELLE PLAINE AV.",
+      "N. KEYSTONE AV."
+    ],
+    [
+      "BELLE PLAINE AV.",
+      "N. PULASKI RD."
+    ],
+    [
+      "N. KEYSTONE AV.",
+      "W. IRVING PARK RD. (BLVD)"
+    ],
+    [
+      "N. PULASKI RD.",
+      "W. IRVING PARK RD. (BLVD)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            321,
+            372
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x N. KEDVALE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73094007786743,
+            41.95725520361276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2932,
+            372
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x N. KEYSTONE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72930693944475,
+            41.95727583952011
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5243,
+            372
+          ],
+          "username": "autogeoref",
+          "note": "auto: BERTEAU AV. x N. PULASKI RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72770763349938,
+            41.95729283651415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            321,
+            4324
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEDVALE AV. x BELLE PLAINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73088062137344,
+            41.955431868825436
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2932,
+            4324
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELLE PLAINE AV. x N. KEYSTONE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72925410605296,
+            41.95545088952748
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5243,
+            4324
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELLE PLAINE AV. x N. PULASKI RD."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72765319661707,
+            41.95546884390188
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2932,
+            8255
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KEYSTONE AV. x W. IRVING PARK RD. (BLVD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7291953869867,
+            41.95362664973006
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5243,
+            8255
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. PULASKI RD. x W. IRVING PARK RD. (BLVD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72760164074394,
+            41.95364011785281
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 1.728,
+    "dy_m": -1.148
+  }
+}

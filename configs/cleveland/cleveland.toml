@@ -1,0 +1,45 @@
+# Cleveland city configuration — a second city's honest cold start.
+# Deliberately MINIMAL: this
+# file declares only what a brand-new city legitimately has on day one —
+# a name, an (empty) aliases dir, and one volume bbox read off the volume's
+# own p0 key map. No centerlines key (OSM default: one cached Overpass fetch
+# per volume bbox), no aliases, no renumbering table, no recorded constants,
+# no escalation ladder. Ground truth exists for scoring this probe but is
+# deliberately NOT wired into the run: a real new city has none, and GT
+# extents would otherwise become the bounds source (bounds.py priority 1).
+
+[city]
+name = "Cleveland, Ohio"
+loc_query = "sanborn maps cleveland ohio"
+# Required key, resolved against this directory. A missing per-volume alias
+# file means "no aliases" (names.load_aliases), which is this city's state: it
+# carried a table for its postfixed quadrant ("MILES AV. S.E.") until the
+# normalizer learned to strip one, and the directory's README says why it went.
+aliases_dir = "aliases"
+# Keep the probe's OSM centerline cache inside this worktree (the default
+# would land beside this file in configs/); the shared cache/ symlink stays
+# LOC-only for this experiment.
+osm_cache_dir = "../../work/city2-probe/osm-cache"
+# The junction channel needs only street-name centerline junctions. Overpass
+# carries no node ids, so the OSM converter derives the graph from the vertices
+# two different streets share; the channel fires, on a node set that is a
+# conservative subset of an official file's. The addresses channel is NOT
+# declared: OSM ways carry no address ranges, so it could only abstain — and a
+# declared channel that abstains on every page is a funnel that looks verified
+# and is not.
+evidence_channels = ["junction"]
+
+[volumes.sanborn06648_072]
+# 1952 Vol 14 "NP" (Dec 1952, 99 sheets per its own key map): SE Cleveland —
+# Buckeye Rd / Shaker Heights line (N/NE), E 116th-120th (W), Miles Ave /
+# Puritan Ave (S), ~E 164th + the Lotus drives (E). bounds read off the p0
+# key map's named boundary streets, placed through landmark knowledge
+# (Shaker Square ~41.474,-81.588; Miles Ave corridor ~41.44) with a generous
+# ~1-2 km margin on every edge: bounds are a search area, not a gate, and a
+# generous edge costs only a little candidate discrimination. No recorded
+# constants — stage_match derives scale/rotation two-pass, like Chicago _015.
+bounds_bbox = [-81.625, 41.425, -81.550, 41.495]
+# 1952 printed numbers are today's numbers (Cleveland's house renumbering was
+# 1905-06, half a century before this edition). Declared for the record even
+# though no addresses channel runs here.
+addresses_modern = true

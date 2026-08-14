@@ -1,0 +1,185 @@
+{
+  "page": "105",
+  "n_streets": 6,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "WASHBURN AV.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "WASHBURN AV.",
+      "LAFLIN"
+    ],
+    [
+      "W. 13TH ST.",
+      "S. ASHLAND AV."
+    ],
+    [
+      "S. ASHLAND AV.",
+      "HASTINGS"
+    ],
+    [
+      "S. ASHLAND AV.",
+      "W. 14TH ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            967,
+            1141
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHBURN AV. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66636844305408,
+            41.865989169108616
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4842,
+            1141
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHBURN AV. x LAFLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66397967349134,
+            41.866010703709584
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            967,
+            3134
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 13TH ST. x S. ASHLAND AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66634162745402,
+            41.86508038325975
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            967,
+            5089
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x HASTINGS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66631928323291,
+            41.8641739613359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            967,
+            7116
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND AV. x W. 14TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66629589917501,
+            41.86326770666442
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66659081615782,
+            41.8661428045822
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5272,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6637750343247,
+            41.866186728984204
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66651708334696,
+            41.863521409649465
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.3849,
+    "separation_ratio": 0.902,
+    "best_offset_m": 99.0,
+    "n_junctions": 36
+  }
+}

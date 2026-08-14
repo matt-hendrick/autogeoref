@@ -1,0 +1,184 @@
+{
+  "page": "37",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 7,
+  "rotation_deg": 0.77,
+  "auto_residuals_m": [
+    8.63,
+    5.69,
+    10.73,
+    13.02,
+    5.34,
+    3.43,
+    3.04
+  ],
+  "inlier_streets": [
+    [
+      "W. ARDMORE AV.",
+      "N. AUSTIN AV."
+    ],
+    [
+      "W. ARDMORE AV.",
+      "N. MASON AV."
+    ],
+    [
+      "W. SEMINOLE AV.",
+      "N. AUSTIN AV."
+    ],
+    [
+      "W. SEMINOLE AV.",
+      "N. MASON AV."
+    ],
+    [
+      "N. AUSTIN AV.",
+      "W. BRYN MAWR AV."
+    ],
+    [
+      "N. MASON AV.",
+      "W. BRYN MAWR AV."
+    ],
+    [
+      "N. MARMORA AV.",
+      "W. BRYN MAWR AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            861,
+            296
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARDMORE AV. x N. AUSTIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77795360637865,
+            41.98657746645581
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2845,
+            296
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARDMORE AV. x N. MASON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7766790755326,
+            41.986564153286544
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            861,
+            3937
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SEMINOLE AV. x N. AUSTIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77798775567275,
+            41.98474990020056
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2845,
+            3937
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. SEMINOLE AV. x N. MASON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77677601563224,
+            41.98474701715724
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            861,
+            8072
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. AUSTIN AV. x W. BRYN MAWR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77802869979423,
+            41.98292347268422
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2845,
+            8072
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MASON AV. x W. BRYN MAWR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77681635789575,
+            41.9829236107563
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4856,
+            8072
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. MARMORA AV. x W. BRYN MAWR AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77560419334054,
+            41.982930908582965
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 1.088,
+    "dy_m": 2.788
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "page": "12",
+  "n_streets": 8,
+  "n_candidates": 14,
+  "n_inliers": 7,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "FOSTER AV.",
+      "LINCOLN AV."
+    ],
+    [
+      "FOSTER AV.",
+      "N. ROCKWELL"
+    ],
+    [
+      "LINCOLN AV.",
+      "WINONA"
+    ],
+    [
+      "CARMEN AV.",
+      "N. ROCKWELL"
+    ],
+    [
+      "WINNEMAC AV.",
+      "N. ROCKWELL"
+    ],
+    [
+      "WINNEMAC AV.",
+      "N. ROCKWELL"
+    ],
+    [
+      "N. ROCKWELL",
+      "ARGYLE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5487,
+            317
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x LINCOLN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69231364129922,
+            41.97587074151143
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2749,
+            317
+          ],
+          "username": "autogeoref",
+          "note": "auto: FOSTER AV. x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69404465930323,
+            41.975857927330765
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5487,
+            2583
+          ],
+          "username": "autogeoref",
+          "note": "auto: LINCOLN AV. x WINONA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69222030437177,
+            41.97486413457155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2749,
+            4354
+          ],
+          "username": "autogeoref",
+          "note": "auto: CARMEN AV. x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69395275903888,
+            41.97401916337521
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2749,
+            6314
+          ],
+          "username": "autogeoref",
+          "note": "auto: WINNEMAC AV. x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69392209181929,
+            41.97312719400248
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2749,
+            6693
+          ],
+          "username": "autogeoref",
+          "note": "auto: WINNEMAC AV. x N. ROCKWELL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69391624582939,
+            41.972950078040284
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2749,
+            8198
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ROCKWELL x ARGYLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6938918078449,
+            41.97221627954381
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6952864496391,
+            41.97559479399866
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5290,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69241415278395,
+            41.97561901982208
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            588,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69523930499642,
+            41.97250539873415
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 3.718,
+    "dy_m": 0.512
+  },
+  "junction_snap": {
+    "supports": null,
+    "score_at_prior": 0.6271,
+    "separation_ratio": 0.948,
+    "best_offset_m": 96.9,
+    "n_junctions": 6
+  }
+}

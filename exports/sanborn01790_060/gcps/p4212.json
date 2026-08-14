@@ -1,0 +1,109 @@
+{
+  "page": "4212",
+  "n_streets": 5,
+  "n_candidates": 5,
+  "n_inliers": 4,
+  "rotation_deg": -88.9,
+  "auto_residuals_m": [
+    0.95,
+    0.98,
+    1.73,
+    1.7
+  ],
+  "inlier_streets": [
+    [
+      "S. FRONT AV.",
+      "E. 116TH ST."
+    ],
+    [
+      "E. 116TH ST.",
+      "S. PRAIRIE AV."
+    ],
+    [
+      "S. CALUMET AV.",
+      "E. 117TH ST."
+    ],
+    [
+      "E. 117TH ST.",
+      "S. PRAIRIE AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2100,
+            2213
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRONT AV. x E. 116TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61310772999398,
+            41.68261139813331
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2100,
+            8138
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 116TH ST. x S. PRAIRIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61673383825844,
+            41.68258790771856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4779,
+            4828
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. CALUMET AV. x E. 117TH ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61469343411432,
+            41.6813961489731
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4779,
+            8138
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 117TH ST. x S. PRAIRIE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.61667861866952,
+            41.68138211235593
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

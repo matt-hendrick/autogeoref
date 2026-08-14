@@ -1,0 +1,253 @@
+{
+  "page": "25",
+  "n_streets": 10,
+  "n_candidates": 15,
+  "n_inliers": 10,
+  "rotation_deg": 1.15,
+  "auto_residuals_m": [
+    2.54,
+    14.45,
+    5.3,
+    2.87,
+    5.28,
+    17.57,
+    5.4,
+    14.61,
+    18.44,
+    3.02
+  ],
+  "inlier_streets": [
+    [
+      "E. 91ST ST.",
+      "S. DAUPHIN AV."
+    ],
+    [
+      "E. 91ST ST.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "E. 91ST ST.",
+      "S. DAUPHIN AV."
+    ],
+    [
+      "E. 91ST PL.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "E. 91ST PL.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "S. DAUPHIN AV.",
+      "E. 92ND ST."
+    ],
+    [
+      "S. DAUPHIN AV.",
+      "E. 93RD ST."
+    ],
+    [
+      "E. 92ND ST.",
+      "S. COTTAGE GROVE AV."
+    ],
+    [
+      "E. 92ND ST.",
+      "S. DAUPHIN AV."
+    ],
+    [
+      "S. DAUPHIN AV.",
+      "E. 93RD ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3030,
+            340
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST ST. x S. DAUPHIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60289427528558,
+            41.72937601036983
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            576,
+            340
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST ST. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60469160344097,
+            41.729346822264205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2990,
+            340
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST ST. x S. DAUPHIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60289427528558,
+            41.72937601036983
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            576,
+            2243
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST PL. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60466973548523,
+            41.72843698693777
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            576,
+            2360
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 91ST PL. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60466973548523,
+            41.72843698693777
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3030,
+            4197
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAUPHIN AV. x E. 92ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60297438272504,
+            41.727548235511605
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3030,
+            8218
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAUPHIN AV. x E. 93RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60339808905705,
+            41.72571639482087
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            576,
+            4197
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 92ND ST. x S. COTTAGE GROVE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60465002626223,
+            41.72752561022854
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2990,
+            4197
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 92ND ST. x S. DAUPHIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60331729306094,
+            41.72754357452474
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2990,
+            8218
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. DAUPHIN AV. x E. 93RD ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.60339808905705,
+            41.72571639482087
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -4.924,
+    "dy_m": -1.178
+  }
+}

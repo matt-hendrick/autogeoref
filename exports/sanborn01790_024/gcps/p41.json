@@ -1,0 +1,163 @@
+{
+  "page": "41",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. VAN BUREN",
+      "S. ASHLAND BLV'D"
+    ],
+    [
+      "W. VAN BUREN",
+      "S. LAFLIN"
+    ],
+    [
+      "S. ASHLAND BLV'D",
+      "W. CONGRESS"
+    ],
+    [
+      "S. ASHLAND BLV'D",
+      "W. HARRISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            939,
+            1084
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. ASHLAND BLV'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66666479809402,
+            41.8763510098364
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4961,
+            1084
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. LAFLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66428823909376,
+            41.87639574224496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            939,
+            3692
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND BLV'D x W. CONGRESS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66662640162728,
+            41.87517717910895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            939,
+            6066
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. ASHLAND BLV'D x W. HARRISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66659893094553,
+            41.874200433484944
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66688878390086,
+            41.87652466607648
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5279,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66406915668453,
+            41.87656864332079
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66681506115864,
+            41.8739040547708
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.3673,
+    "separation_ratio": 1.204,
+    "best_offset_m": 30.1,
+    "n_junctions": 37
+  }
+}

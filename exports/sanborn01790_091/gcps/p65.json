@@ -1,0 +1,161 @@
+{
+  "page": "65",
+  "n_streets": 5,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.15,
+  "auto_residuals_m": [
+    0.17,
+    0.2,
+    0.07,
+    0.24,
+    0.46,
+    0.29
+  ],
+  "inlier_streets": [
+    [
+      "W. NORTH AV.",
+      "N. WESTERN AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. CLAREMONT AV."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. OAKLEY AV. (BOULEVARD)"
+    ],
+    [
+      "N. WESTERN AV.",
+      "W. LE MOYNE"
+    ],
+    [
+      "N. CLAREMONT AV.",
+      "W. LE MOYNE"
+    ],
+    [
+      "N. OAKLEY AV. (BOULEVARD)",
+      "W. LE MOYNE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            946,
+            853
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. WESTERN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68722038265011,
+            41.91030555674886
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2966,
+            853
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. CLAREMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68599702472524,
+            41.91032293169586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4965,
+            853
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. OAKLEY AV. (BOULEVARD)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6847818538768,
+            41.910342172172506
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            946,
+            4905
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. WESTERN AV. x W. LE MOYNE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68717336678546,
+            41.90847628622091
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2966,
+            4905
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CLAREMONT AV. x W. LE MOYNE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68595234090273,
+            41.9084921763401
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4965,
+            4905
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. OAKLEY AV. (BOULEVARD) x W. LE MOYNE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68473257813213,
+            41.9085123199329
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-sol",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 0.035,
+    "dy_m": -2.29
+  }
+}

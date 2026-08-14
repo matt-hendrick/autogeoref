@@ -1,0 +1,134 @@
+{
+  "page": "36",
+  "n_streets": 7,
+  "n_candidates": 8,
+  "n_inliers": 5,
+  "rotation_deg": 1.0,
+  "auto_residuals_m": [
+    12.91,
+    7.18,
+    2.11,
+    15.54,
+    7.76
+  ],
+  "inlier_streets": [
+    [
+      "W. FULLERTON AV.",
+      "N. LUNA AV."
+    ],
+    [
+      "W. FULLERTON AV.",
+      "N. LINDER AV."
+    ],
+    [
+      "W. FULLERTON AV.",
+      "N. CENTRAL"
+    ],
+    [
+      "BELDEN AV.",
+      "N. CENTRAL"
+    ],
+    [
+      "N. CENTRAL",
+      "W. PALMER"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3495,
+            310
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. LUNA AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7647619122865,
+            41.92399762300812
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5175,
+            310
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. LINDER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7635283662176,
+            41.92401167994869
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1380,
+            310
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. FULLERTON AV. x N. CENTRAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76599057914966,
+            41.923981108569215
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1380,
+            4265
+          ],
+          "username": "autogeoref",
+          "note": "auto: BELDEN AV. x N. CENTRAL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76592230839222,
+            41.922159696550274
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1380,
+            8251
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CENTRAL x W. PALMER"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76622252757095,
+            41.920326032311685
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high"
+}

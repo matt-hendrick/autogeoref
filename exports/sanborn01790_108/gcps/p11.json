@@ -1,0 +1,159 @@
+{
+  "page": "11",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 6,
+  "rotation_deg": 1.21,
+  "auto_residuals_m": [
+    3.45,
+    9.26,
+    15.3,
+    9.24,
+    17.77,
+    4.27
+  ],
+  "inlier_streets": [
+    [
+      "DIVERSEY AV.",
+      "N. KENTON AV."
+    ],
+    [
+      "PARKER AV.",
+      "N. KILPATRICK AV."
+    ],
+    [
+      "PARKER AV.",
+      "N. KENTON AV."
+    ],
+    [
+      "N. KILPATRICK AV.",
+      "SCHUBERT AV."
+    ],
+    [
+      "SCHUBERT AV.",
+      "N. KENTON AV."
+    ],
+    [
+      "N. KENTON AV.",
+      "WRIGHTWOOD AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5338,
+            897
+          ],
+          "username": "autogeoref",
+          "note": "auto: DIVERSEY AV. x N. KENTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74166144715711,
+            41.931559829619786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2007,
+            3002
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARKER AV. x N. KILPATRICK AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74411737344361,
+            41.930517548798306
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5338,
+            3002
+          ],
+          "username": "autogeoref",
+          "note": "auto: PARKER AV. x N. KENTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74163427121988,
+            41.93054856017843
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2007,
+            5221
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KILPATRICK AV. x SCHUBERT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74407821818077,
+            41.92950737876393
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5338,
+            5221
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHUBERT AV. x N. KENTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7420514429118,
+            41.92950810228573
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5338,
+            7743
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. KENTON AV. x WRIGHTWOOD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74200747822262,
+            41.92838234773747
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.104,
+    "dy_m": -5.658
+  }
+}

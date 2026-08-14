@@ -1,0 +1,161 @@
+{
+  "page": "48",
+  "n_streets": 7,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.06,
+  "auto_residuals_m": [
+    5.61,
+    5.51,
+    10.64,
+    10.42,
+    4.99,
+    4.89
+  ],
+  "inlier_streets": [
+    [
+      "W. 101ST ST.",
+      "S. EMERALD AV."
+    ],
+    [
+      "W. 101ST ST.",
+      "S. UNION"
+    ],
+    [
+      "W. 102ND ST.",
+      "S. EMERALD AV."
+    ],
+    [
+      "W. 102ND ST.",
+      "S. UNION"
+    ],
+    [
+      "W. 103RD ST.",
+      "S. EMERALD AV."
+    ],
+    [
+      "W. 103RD ST.",
+      "S. UNION"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3104,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 101ST ST. x S. EMERALD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64171533861379,
+            41.710597027851804
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4920,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 101ST ST. x S. UNION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64050338309349,
+            41.71061305509172
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3104,
+            4048
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 102ND ST. x S. EMERALD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64166391854008,
+            41.708773488368614
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4920,
+            4048
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 102ND ST. x S. UNION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64045050452843,
+            41.708791730605995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3104,
+            8255
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 103RD ST. x S. EMERALD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64161340232245,
+            41.706949537421316
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4920,
+            8255
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 103RD ST. x S. UNION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64040300719397,
+            41.70696553990748
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 0.346,
+    "dy_m": 2.557
+  }
+}

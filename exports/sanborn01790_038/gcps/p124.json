@@ -1,0 +1,132 @@
+{
+  "page": "124",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 5,
+  "rotation_deg": 0.5,
+  "auto_residuals_m": [
+    0.93,
+    0.51,
+    0.92,
+    1.72,
+    1.33
+  ],
+  "inlier_streets": [
+    [
+      "N. SACRAMENTO AV.",
+      "SCHOOL"
+    ],
+    [
+      "N. SACRAMENTO AV.",
+      "BELMONT AV."
+    ],
+    [
+      "SCHOOL",
+      "N. RICHMOND"
+    ],
+    [
+      "N. RICHMOND",
+      "BELMONT AV."
+    ],
+    [
+      "N. FRANCISCO AV.",
+      "BELMONT AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            889,
+            4088
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO AV. x SCHOOL"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70277383008268,
+            41.94106556563648
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            889,
+            7875
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. SACRAMENTO AV. x BELMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70272492544633,
+            41.93936339666655
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2938,
+            4088
+          ],
+          "username": "autogeoref",
+          "note": "auto: SCHOOL x N. RICHMOND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70154757121736,
+            41.94107888202112
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2938,
+            7875
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. RICHMOND x BELMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7015023818908,
+            41.93936782912783
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4915,
+            7875
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. FRANCISCO AV. x BELMONT AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70027737880446,
+            41.939376547275224
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

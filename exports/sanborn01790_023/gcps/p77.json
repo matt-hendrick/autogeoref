@@ -1,0 +1,206 @@
+{
+  "page": "77",
+  "n_streets": 8,
+  "n_candidates": 11,
+  "n_inliers": 8,
+  "rotation_deg": 0.82,
+  "auto_residuals_m": [
+    1.5,
+    0.83,
+    2.32,
+    18.79,
+    1.51,
+    1.41,
+    24.92,
+    3.74
+  ],
+  "inlier_streets": [
+    [
+      "N. ELIZABETH",
+      "W. KINZIE"
+    ],
+    [
+      "N. ELIZABETH",
+      "CARROLL AV."
+    ],
+    [
+      "N. ELIZABETH",
+      "FULTON"
+    ],
+    [
+      "W. KINZIE",
+      "N. ADA"
+    ],
+    [
+      "N. ADA",
+      "CARROLL AV."
+    ],
+    [
+      "N. ADA",
+      "CARROLL AV"
+    ],
+    [
+      "N. ADA",
+      "ARBOUR PL."
+    ],
+    [
+      "N. ADA",
+      "FULTON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5460,
+            1135
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELIZABETH x W. KINZIE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6588777604278,
+            41.888927983388726
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5460,
+            3972
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELIZABETH x CARROLL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65887464170986,
+            41.88765475540304
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5460,
+            6269
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ELIZABETH x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65884845932813,
+            41.886625600472854
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2323,
+            1135
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. KINZIE x N. ADA"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6606330930044,
+            41.88883900495498
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2323,
+            3972
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ADA x CARROLL AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66077695109168,
+            41.88762537141955
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2323,
+            4366
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ADA x CARROLL AV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66077279229506,
+            41.88745141808336
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2323,
+            2563
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ADA x ARBOUR PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66096281572038,
+            41.88836014933695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2323,
+            6269
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. ADA x FULTON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66075233095599,
+            41.88659561844746
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8",
+  "seam_adjusted": {
+    "dx_m": 4.782,
+    "dy_m": -3.323
+  }
+}

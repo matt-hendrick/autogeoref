@@ -1,0 +1,186 @@
+{
+  "page": "44",
+  "n_streets": 10,
+  "n_candidates": 14,
+  "n_inliers": 5,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "W. VAN BUREN",
+      "S. RACINE"
+    ],
+    [
+      "W. VAN BUREN",
+      "S. RACINE AV."
+    ],
+    [
+      "W. CONGRESS",
+      "S. RACINE"
+    ],
+    [
+      "W. CONGRESS",
+      "S. RACINE AV."
+    ],
+    [
+      "W. HARRISON",
+      "S. RACINE"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4177,
+            1204
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. RACINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65700327018946,
+            41.87651943483818
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4117,
+            1204
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x S. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65700327018946,
+            41.87651943483818
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4177,
+            3776
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONGRESS x S. RACINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65697074865103,
+            41.87534129794066
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4117,
+            3776
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONGRESS x S. RACINE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65697074865103,
+            41.87534129794066
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4177,
+            6136
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x S. RACINE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65681883178375,
+            41.87428162125546
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65916349463957,
+            41.87669707198968
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5263,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65630760130325,
+            41.87674177199465
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            585,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65908832942375,
+            41.87403459069748
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.5367,
+    "separation_ratio": 1.007,
+    "best_offset_m": 40.8,
+    "n_junctions": 29
+  }
+}

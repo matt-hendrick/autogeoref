@@ -1,0 +1,138 @@
+{
+  "page": "77",
+  "n_streets": 18,
+  "n_candidates": 20,
+  "n_inliers": 5,
+  "rotation_deg": 0.19,
+  "auto_residuals_m": [
+    1.46,
+    7.65,
+    6.88,
+    0.48,
+    1.02
+  ],
+  "inlier_streets": [
+    [
+      "W. PRINDIVILLE ST.",
+      "N. STAVE"
+    ],
+    [
+      "N. CALIFORNIA AV.",
+      "W. FRANCIS PL."
+    ],
+    [
+      "N. CALIFORNIA AV.",
+      "W. ARMITAGE AV."
+    ],
+    [
+      "W. ARMITAGE AV.",
+      "N. FAIRFIELD AV."
+    ],
+    [
+      "W. ARMITAGE AV.",
+      "N. WASHTENAW AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2806,
+            629
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. PRINDIVILLE ST. x N. STAVE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69653259545139,
+            41.920709633210095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            444,
+            6688
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CALIFORNIA AV. x W. FRANCIS PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69724422608738,
+            41.91813491051608
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            444,
+            8143
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. CALIFORNIA AV. x W. ARMITAGE AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69722538493028,
+            41.91748198328671
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2436,
+            8143
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARMITAGE AV. x N. FAIRFIELD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69600007667879,
+            41.917495446412204
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4511,
+            8143
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. ARMITAGE AV. x N. WASHTENAW AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69477700736387,
+            41.91750541111683
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": -2.761,
+    "dy_m": -1.122
+  }
+}

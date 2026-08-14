@@ -1,0 +1,159 @@
+{
+  "page": "25",
+  "n_streets": 8,
+  "n_candidates": 6,
+  "n_inliers": 6,
+  "rotation_deg": 1.8,
+  "auto_residuals_m": [
+    0.3,
+    0.87,
+    0.9,
+    0.26,
+    1.15,
+    1.17
+  ],
+  "inlier_streets": [
+    [
+      "W. 18TH ST.",
+      "S. STATE"
+    ],
+    [
+      "W. 18TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "E. 18TH ST.",
+      "S. STATE"
+    ],
+    [
+      "E. 18TH ST.",
+      "S. WABASH AV."
+    ],
+    [
+      "S. STATE",
+      "E. CULLERTON (E. 20TH ST.)"
+    ],
+    [
+      "S. WABASH AV.",
+      "E. CULLERTON (E. 20TH ST.)"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1726,
+            1065
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6272051387648,
+            41.85782328455646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4349,
+            1065
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 18TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6256194479813,
+            41.85786827145469
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1726,
+            1056
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 18TH ST. x S. STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6272051387648,
+            41.85782328455646
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4349,
+            1056
+          ],
+          "username": "autogeoref",
+          "note": "auto: E. 18TH ST. x S. WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6256194479813,
+            41.85786827145469
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1726,
+            6295
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. STATE x E. CULLERTON (E. 20TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62715493804112,
+            41.855459720745785
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4349,
+            6295
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. WABASH AV. x E. CULLERTON (E. 20TH ST.)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62556753207883,
+            41.85548142658977
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.98,
+    "dy_m": 1.971
+  }
+}

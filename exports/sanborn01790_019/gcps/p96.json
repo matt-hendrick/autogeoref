@@ -1,0 +1,207 @@
+{
+  "page": "96",
+  "n_streets": 9,
+  "n_candidates": 12,
+  "n_inliers": 8,
+  "rotation_deg": -87.42,
+  "auto_residuals_m": [
+    4.28,
+    3.77,
+    4.45,
+    4.24,
+    3.21,
+    5.12,
+    3.44,
+    5.91
+  ],
+  "inlier_streets": [
+    [
+      "WELLS",
+      "BEETHOVEN PL."
+    ],
+    [
+      "WELLS",
+      "W. DIVISION"
+    ],
+    [
+      "SEDGWICK",
+      "BEETHOVEN PL."
+    ],
+    [
+      "SEDGWICK",
+      "W. DIVISION"
+    ],
+    [
+      "BEETHOVEN PL.",
+      "ORLEANS ST."
+    ],
+    [
+      "BEETHOVEN PL.",
+      "SEDGWICK CT."
+    ],
+    [
+      "W. DIVISION",
+      "ORLEANS ST."
+    ],
+    [
+      "W. DIVISION",
+      "SEDGWICK CT."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1754,
+            536
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLS x BEETHOVEN PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63451407101773,
+            41.90491547907069
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4116,
+            536
+          ],
+          "username": "autogeoref",
+          "note": "auto: WELLS x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63447370064064,
+            41.90382019048933
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1754,
+            6970
+          ],
+          "username": "autogeoref",
+          "note": "auto: SEDGWICK x BEETHOVEN PL."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63838932280721,
+            41.90479027493473
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4116,
+            6970
+          ],
+          "username": "autogeoref",
+          "note": "auto: SEDGWICK x W. DIVISION"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63833176839918,
+            41.90376028800999
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1754,
+            5496
+          ],
+          "username": "autogeoref",
+          "note": "auto: BEETHOVEN PL. x ORLEANS ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63753744476384,
+            41.90479288380968
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1754,
+            6829
+          ],
+          "username": "autogeoref",
+          "note": "auto: BEETHOVEN PL. x SEDGWICK CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63838932280721,
+            41.90479027493473
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4116,
+            5496
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x ORLEANS ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6374404054043,
+            41.90377117749618
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4116,
+            6829
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. DIVISION x SEDGWICK CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.63833176839918,
+            41.90376028800999
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "codex:gpt-5.6-terra",
+  "escalated_variant": "high",
+  "seam_adjusted": {
+    "dx_m": 0.46,
+    "dy_m": -4.976
+  }
+}

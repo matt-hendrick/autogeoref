@@ -1,0 +1,159 @@
+{
+  "page": "115",
+  "n_streets": 6,
+  "n_candidates": 12,
+  "n_inliers": 6,
+  "rotation_deg": 1.4,
+  "auto_residuals_m": [
+    0.83,
+    4.61,
+    4.67,
+    5.69,
+    3.88,
+    1.11
+  ],
+  "inlier_streets": [
+    [
+      "BLOOMINGDALE AV.",
+      "N. ALBANY AV. (MITCHELL)"
+    ],
+    [
+      "BLOOMINGDALE AV.",
+      "HUMBOLDT B'LV'D."
+    ],
+    [
+      "W. WABANSIA AV.",
+      "N. ALBANY AV. (MITCHELL)"
+    ],
+    [
+      "W. WABANSIA AV.",
+      "HUMBOLDT B'LV'D."
+    ],
+    [
+      "W. NORTH AV.",
+      "N. ALBANY AV. (MITCHELL)"
+    ],
+    [
+      "W. NORTH AV.",
+      "HUMBOLDT B'LV'D."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            803,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. x N. ALBANY AV. (MITCHELL)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70457417922478,
+            41.913689957557196
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4360,
+            308
+          ],
+          "username": "autogeoref",
+          "note": "auto: BLOOMINGDALE AV. x HUMBOLDT B'LV'D."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70227618846,
+            41.913757099702686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            803,
+            4073
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WABANSIA AV. x N. ALBANY AV. (MITCHELL)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70452222123858,
+            41.91196333082273
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4360,
+            4073
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. WABANSIA AV. x HUMBOLDT B'LV'D."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70222272090611,
+            41.91199841110372
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            803,
+            8236
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. ALBANY AV. (MITCHELL)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70446716553381,
+            41.91015195482385
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4360,
+            8236
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x HUMBOLDT B'LV'D."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70216812069286,
+            41.910175328059594
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 5.284,
+    "dy_m": 0.413
+  }
+}

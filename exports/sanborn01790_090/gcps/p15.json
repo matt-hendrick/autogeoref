@@ -1,0 +1,159 @@
+{
+  "page": "15",
+  "n_streets": 6,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 1.37,
+  "auto_residuals_m": [
+    1.21,
+    0.92,
+    0.86,
+    1.69,
+    1.64,
+    0.75
+  ],
+  "inlier_streets": [
+    [
+      "W. 31ST ST.",
+      "S. HALSTED"
+    ],
+    [
+      "W. 31ST ST.",
+      "S. EMERALD AV."
+    ],
+    [
+      "W. 31ST ST.",
+      "S. UNION AV."
+    ],
+    [
+      "S. HALSTED",
+      "W. 32ND ST."
+    ],
+    [
+      "S. EMERALD AV.",
+      "W. 32ND ST."
+    ],
+    [
+      "S. UNION AV.",
+      "W. 32ND ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            441
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x S. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64630842212877,
+            41.838053204230064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2605,
+            441
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x S. EMERALD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64509636128047,
+            41.838067320694115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4593,
+            441
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 31ST ST. x S. UNION AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64387875513779,
+            41.838083992090226
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            3889
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HALSTED x W. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64627025985602,
+            41.83647038913544
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2605,
+            4473
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. EMERALD AV. x W. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64505098253628,
+            41.83624669921913
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4593,
+            4473
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. UNION AV. x W. 32ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64382883228582,
+            41.836261053646574
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -3.369,
+    "dy_m": 1.141
+  }
+}

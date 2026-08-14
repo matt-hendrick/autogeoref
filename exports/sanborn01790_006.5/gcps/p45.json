@@ -1,0 +1,132 @@
+{
+  "page": "45",
+  "n_streets": 8,
+  "n_candidates": 5,
+  "n_inliers": 5,
+  "rotation_deg": 0.76,
+  "auto_residuals_m": [
+    0.88,
+    1.75,
+    0.86,
+    2.81,
+    1.57
+  ],
+  "inlier_streets": [
+    [
+      "63RD",
+      "MADISON AVE."
+    ],
+    [
+      "63RD",
+      "WASHINGTON AVE."
+    ],
+    [
+      "MADISON AVE.",
+      "64TH"
+    ],
+    [
+      "63RD PL.",
+      "WASHINGTON AVE."
+    ],
+    [
+      "WASHINGTON AVE.",
+      "64TH"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            891,
+            233
+          ],
+          "username": "autogeoref",
+          "note": "auto: 63RD x MADISON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.59152811356473,
+            41.78056632268131
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5216,
+            233
+          ],
+          "username": "autogeoref",
+          "note": "auto: 63RD x WASHINGTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58897279773366,
+            41.780580919465415
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            891,
+            4287
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON AVE. x 64TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.59145585216208,
+            41.778754843514186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5216,
+            2196
+          ],
+          "username": "autogeoref",
+          "note": "auto: 63RD PL. x WASHINGTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5889540671455,
+            41.7797332249679
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5216,
+            4287
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON AVE. x 64TH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.5889316700496,
+            41.77877173691683
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

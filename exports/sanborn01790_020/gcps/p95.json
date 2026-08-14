@@ -1,0 +1,186 @@
+{
+  "page": "95",
+  "n_streets": 8,
+  "n_candidates": 9,
+  "n_inliers": 5,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "LOCK",
+      "ARCHER AV."
+    ],
+    [
+      "LOCK",
+      "BONAPARTE ST."
+    ],
+    [
+      "LOCK",
+      "LYMAN ST."
+    ],
+    [
+      "BROAD",
+      "ARCHER AV."
+    ],
+    [
+      "PITNEY CT.",
+      "ARCHER AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            165,
+            860
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOCK x ARCHER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66121332539278,
+            41.840074709861995
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1919,
+            860
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOCK x BONAPARTE ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6606264405444,
+            41.83938624729446
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5507,
+            860
+          ],
+          "username": "autogeoref",
+          "note": "auto: LOCK x LYMAN ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65946126900968,
+            41.83802470824912
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            165,
+            2699
+          ],
+          "username": "autogeoref",
+          "note": "auto: BROAD x ARCHER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66214716226462,
+            41.83962408140838
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            165,
+            4412
+          ],
+          "username": "autogeoref",
+          "note": "auto: PITNEY CT. x ARCHER AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66301620455143,
+            41.83920715039471
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66100747681868,
+            41.83993944392332
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5274,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65945862763525,
+            41.8381581663424
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            586,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6639952950748,
+            41.83849743402488
+          ]
+        }
+      }
+    ]
+  },
+  "rescue_pin_rotation_deg": -57.3642,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.6073,
+    "separation_ratio": 1.348,
+    "best_offset_m": 4.0,
+    "n_junctions": 14
+  }
+}

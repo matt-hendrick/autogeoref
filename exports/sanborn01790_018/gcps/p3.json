@@ -1,0 +1,160 @@
+{
+  "page": "3",
+  "n_streets": 7,
+  "n_candidates": 9,
+  "n_inliers": 6,
+  "rotation_deg": 0.94,
+  "auto_residuals_m": [
+    1.69,
+    1.48,
+    3.56,
+    3.52,
+    1.96,
+    2.14
+  ],
+  "inlier_streets": [
+    [
+      "CHICAGO AV.",
+      "KINGSBURY"
+    ],
+    [
+      "CHICAGO AV.",
+      "TOWNSEND"
+    ],
+    [
+      "SUPERIOR",
+      "KINGSBURY"
+    ],
+    [
+      "SUPERIOR",
+      "TOWNSEND"
+    ],
+    [
+      "KINGSBURY",
+      "HURON"
+    ],
+    [
+      "TOWNSEND",
+      "HURON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            681,
+            684
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHICAGO AV. x KINGSBURY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64153510465421,
+            41.89648085348895
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3332,
+            684
+          ],
+          "username": "autogeoref",
+          "note": "auto: CHICAGO AV. x TOWNSEND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64005128020811,
+            41.896500788247046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            681,
+            2918
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUPERIOR x KINGSBURY"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6415139700789,
+            41.89548758909553
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3332,
+            2918
+          ],
+          "username": "autogeoref",
+          "note": "auto: SUPERIOR x TOWNSEND"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6400398449027,
+            41.89550516203535
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            681,
+            4575
+          ],
+          "username": "autogeoref",
+          "note": "auto: KINGSBURY x HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64149510950533,
+            41.89468820378008
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3332,
+            4575
+          ],
+          "username": "autogeoref",
+          "note": "auto: TOWNSEND x HURON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.640021278242,
+            41.89470482026889
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-sonnet-5",
+  "seam_adjusted": {
+    "dx_m": -1.274,
+    "dy_m": -1.836
+  }
+}

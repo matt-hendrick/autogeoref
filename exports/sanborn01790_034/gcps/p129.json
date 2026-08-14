@@ -1,0 +1,120 @@
+{
+  "page": "129",
+  "n_streets": 10,
+  "n_candidates": 2,
+  "n_inliers": 2,
+  "status": "OK (rescued, neighbor-corroborated)",
+  "rescue_anchors": [
+    [
+      "BUENA AV",
+      "KENMORE AV"
+    ],
+    [
+      "BUENA AV",
+      "SHERIDAN R'D"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2781,
+            94
+          ],
+          "username": "autogeoref",
+          "note": "auto: BUENA AV x KENMORE AV"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65623208619304,
+            41.95841831935869
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5375,
+            94
+          ],
+          "username": "autogeoref",
+          "note": "auto: BUENA AV x SHERIDAN R'D"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6546559849693,
+            41.958428690742224
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65755940641563,
+            41.95805063004921
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5207,
+            850
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65474906274017,
+            41.95809185223028
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            579,
+            7654
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65747793291443,
+            41.954978962067806
+          ]
+        }
+      }
+    ]
+  },
+  "layer": null,
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.79,
+    "separation_ratio": 1.1,
+    "best_offset_m": 13.1,
+    "n_junctions": 4
+  }
+}

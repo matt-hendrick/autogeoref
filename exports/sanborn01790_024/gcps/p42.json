@@ -1,0 +1,163 @@
+{
+  "page": "42",
+  "n_streets": 5,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. VAN BUREN",
+      "LAFLIN"
+    ],
+    [
+      "W. VAN BUREN",
+      "LOOMIS"
+    ],
+    [
+      "W. CONGRESS",
+      "LOOMIS"
+    ],
+    [
+      "W. HARRISON",
+      "LOOMIS"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            937,
+            1100
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x LAFLIN"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66428823909376,
+            41.87639574224496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4909,
+            1100
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. VAN BUREN x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66185300948864,
+            41.87643780360712
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4909,
+            3699
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. CONGRESS x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6618205539879,
+            41.875260459214786
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4909,
+            6055
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. HARRISON x LOOMIS"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66178845727319,
+            41.87420336412345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66446640279395,
+            41.87655257298487
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5279,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66164677557764,
+            41.87659655020998
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            587,
+            6590
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66439268005175,
+            41.87393196282349
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4363,
+    "separation_ratio": 1.151,
+    "best_offset_m": 3.6,
+    "n_junctions": 37
+  }
+}

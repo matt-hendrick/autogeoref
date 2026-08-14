@@ -1,0 +1,205 @@
+{
+  "page": "12",
+  "n_streets": 10,
+  "n_candidates": 11,
+  "n_inliers": 8,
+  "rotation_deg": 1.78,
+  "auto_residuals_m": [
+    6.53,
+    5.98,
+    2.32,
+    11.43,
+    3.27,
+    4.48,
+    1.58,
+    4.8
+  ],
+  "inlier_streets": [
+    [
+      "WRIGHTWOOD AVE.",
+      "N. HALSTED"
+    ],
+    [
+      "WRIGHTWOOD AVE.",
+      "BURLING"
+    ],
+    [
+      "WRIGHTWOOD AVE.",
+      "ORCHARD"
+    ],
+    [
+      "N. HALSTED",
+      "LILL AVE."
+    ],
+    [
+      "N. HALSTED",
+      "FULLERTON AVE."
+    ],
+    [
+      "BURLING",
+      "FULLERTON AVE."
+    ],
+    [
+      "ORCHARD",
+      "FULLERTON AVE."
+    ],
+    [
+      "ORCHARD",
+      "DEMING COURT"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            812,
+            131
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64890260722758,
+            41.92910175219155
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2914,
+            131
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE. x BURLING"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64767784968039,
+            41.929111869232685
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4808,
+            131
+          ],
+          "username": "autogeoref",
+          "note": "auto: WRIGHTWOOD AVE. x ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64647144985959,
+            41.92912690736803
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            812,
+            1884
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x LILL AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64887227440668,
+            41.928199371310825
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            812,
+            8196
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x FULLERTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64877523890048,
+            41.92547204783209
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2914,
+            8196
+          ],
+          "username": "autogeoref",
+          "note": "auto: BURLING x FULLERTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64755387134369,
+            41.92549032021281
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4808,
+            8196
+          ],
+          "username": "autogeoref",
+          "note": "auto: ORCHARD x FULLERTON AVE."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64635025311155,
+            41.92551145773686
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4808,
+            2837
+          ],
+          "username": "autogeoref",
+          "note": "auto: ORCHARD x DEMING COURT"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64642816554783,
+            41.92787533663498
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -1.553,
+    "dy_m": 2.724
+  }
+}

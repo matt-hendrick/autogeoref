@@ -1,0 +1,202 @@
+{
+  "page": "25",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 8,
+  "rotation_deg": 0.74,
+  "auto_residuals_m": [
+    2.43,
+    1.66,
+    0.47,
+    2.51,
+    1.51,
+    2.31,
+    3.57,
+    0.52
+  ],
+  "inlier_streets": [
+    [
+      "RANDOLPH",
+      "WABASH AV."
+    ],
+    [
+      "RANDOLPH",
+      "STATE"
+    ],
+    [
+      "WASHINGTON",
+      "WABASH AV."
+    ],
+    [
+      "WASHINGTON",
+      "STATE"
+    ],
+    [
+      "WASHINGTON",
+      "HOLDEN CT."
+    ],
+    [
+      "MADISON",
+      "WABASH AV."
+    ],
+    [
+      "MADISON",
+      "STATE"
+    ],
+    [
+      "MADISON",
+      "HOLDEN CT."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4364,
+            888
+          ],
+          "username": "autogeoref",
+          "note": "auto: RANDOLPH x WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62624825101203,
+            41.88449592414403
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1677,
+            888
+          ],
+          "username": "autogeoref",
+          "note": "auto: RANDOLPH x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62791068088579,
+            41.88449079134626
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4364,
+            3762
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON x WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62622961179946,
+            41.883221734606245
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1677,
+            3762
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62786972954076,
+            41.88321808845637
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3050,
+            3762
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON x HOLDEN CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62701582650126,
+            41.88321874746677
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4364,
+            6312
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON x WABASH AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62621475896046,
+            41.8820799050458
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1677,
+            6312
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON x STATE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.62780610570387,
+            41.882042038691424
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3050,
+            6312
+          ],
+          "username": "autogeoref",
+          "note": "auto: MADISON x HOLDEN CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6269902237488,
+            41.882072004712334
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "escalated_model": "claude-opus-4-8"
+}

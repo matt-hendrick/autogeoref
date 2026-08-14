@@ -1,0 +1,163 @@
+{
+  "page": "69",
+  "n_streets": 12,
+  "n_candidates": 6,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "W. NORTH AV.",
+      "ORCHARD"
+    ],
+    [
+      "W. NORTH AV.",
+      "N. HALSTED"
+    ],
+    [
+      "WEED",
+      "N. HALSTED"
+    ],
+    [
+      "N. HALSTED",
+      "Weed St."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            4906,
+            483
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x ORCHARD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64584458738625,
+            41.910955609691605
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1051,
+            483
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. NORTH AV. x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64827157387046,
+            41.91091961909867
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1051,
+            2785
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEED x N. HALSTED"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64824822881484,
+            41.909874831668326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1051,
+            2916
+          ],
+          "username": "autogeoref",
+          "note": "auto: N. HALSTED x Weed St."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64824822881484,
+            41.909874831668326
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6485364765446,
+            41.9108150752253
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5253,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6456950792158,
+            41.910861726019014
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.64845783041618,
+            41.90816217130488
+          ]
+        }
+      }
+    ]
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.4363,
+    "separation_ratio": 1.085,
+    "best_offset_m": 11.6,
+    "n_junctions": 10
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "page": "83",
+  "n_streets": 6,
+  "n_candidates": 11,
+  "n_inliers": 9,
+  "rotation_deg": 1.09,
+  "auto_residuals_m": [
+    2.8,
+    1.11,
+    1.14,
+    3.38,
+    6.33,
+    3.37,
+    2.78,
+    15.66,
+    6.08
+  ],
+  "inlier_streets": [
+    [
+      "WEST END AV. (RANDOLPH)",
+      "AUSTIN B'L'VD"
+    ],
+    [
+      "WEST END AV. (RANDOLPH)",
+      "S. HOWARD AV."
+    ],
+    [
+      "WEST END AV. (RANDOLPH)",
+      "S. FRANKLIN AV."
+    ],
+    [
+      "AUSTIN B'L'VD",
+      "WASHINGTON B'L'VD"
+    ],
+    [
+      "AUSTIN B'L'VD",
+      "W. MADISON"
+    ],
+    [
+      "WASHINGTON B'L'VD",
+      "S. HOWARD AV."
+    ],
+    [
+      "WASHINGTON B'L'VD",
+      "S. FRANKLIN AV."
+    ],
+    [
+      "S. HOWARD AV.",
+      "W. MADISON"
+    ],
+    [
+      "S. FRANKLIN AV.",
+      "W. MADISON"
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            200
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. (RANDOLPH) x AUSTIN B'L'VD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77477693883584,
+            41.88407802191832
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2885,
+            200
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. (RANDOLPH) x S. HOWARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77334515444464,
+            41.88408486897008
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5258,
+            200
+          ],
+          "username": "autogeoref",
+          "note": "auto: WEST END AV. (RANDOLPH) x S. FRANKLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77191712862896,
+            41.88410666693408
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            4171
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUSTIN B'L'VD x WASHINGTON B'L'VD"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77471479886354,
+            41.882126089104354
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            500,
+            8381
+          ],
+          "username": "autogeoref",
+          "note": "auto: AUSTIN B'L'VD x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77464847355033,
+            41.88011004354794
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2885,
+            4171
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON B'L'VD x S. HOWARD AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77328143219964,
+            41.88214855622015
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5258,
+            4171
+          ],
+          "username": "autogeoref",
+          "note": "auto: WASHINGTON B'L'VD x S. FRANKLIN AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77184924128991,
+            41.882171887979105
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2885,
+            8381
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HOWARD AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77301564389963,
+            41.8801366244619
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5258,
+            8381
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. FRANKLIN AV. x W. MADISON"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77178024216568,
+            41.88015729599228
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": 0.829,
+    "dy_m": 3.472
+  }
+}

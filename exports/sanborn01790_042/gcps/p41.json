@@ -1,0 +1,109 @@
+{
+  "page": "41",
+  "n_streets": 7,
+  "n_candidates": 4,
+  "n_inliers": 4,
+  "rotation_deg": -178.84,
+  "auto_residuals_m": [
+    0.04,
+    0.06,
+    0.07,
+    0.02
+  ],
+  "inlier_streets": [
+    [
+      "S. SPRINGFIELD AV.",
+      "W. 52ND ST."
+    ],
+    [
+      "S. SPRINGFIELD AV.",
+      "W. 51ST. ST."
+    ],
+    [
+      "W. 52ND ST.",
+      "S. HARDING AV."
+    ],
+    [
+      "S. HARDING AV.",
+      "W. 51ST. ST."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            829,
+            3886
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. x W. 52ND ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72086743593738,
+            41.798749157697756
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            829,
+            7664
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. SPRINGFIELD AV. x W. 51ST. ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7209198380541,
+            41.800586791835656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2654,
+            3886
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. 52ND ST. x S. HARDING AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.7220447255963,
+            41.79873147107562
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            2654,
+            7664
+          ],
+          "username": "autogeoref",
+          "note": "auto: S. HARDING AV. x W. 51ST. ST."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72209563870933,
+            41.80056901420198
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK"
+}

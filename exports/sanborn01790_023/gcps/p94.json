@@ -1,0 +1,167 @@
+{
+  "page": "94",
+  "n_streets": 6,
+  "n_candidates": 8,
+  "n_inliers": 4,
+  "status": "OK (rescued)",
+  "rescue_anchors": [
+    [
+      "FULTON",
+      "N. ELIZABETH"
+    ],
+    [
+      "W. LAKE",
+      "N. ELIZABETH"
+    ],
+    [
+      "W. RANDOLPH",
+      "N. ELIZABETH"
+    ],
+    [
+      "W. RANDOLPH",
+      "WILLARD CT."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1150,
+            981
+          ],
+          "username": "autogeoref",
+          "note": "auto: FULTON x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65886896786606,
+            41.88663597303979
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1150,
+            3616
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. LAKE x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.658835752772,
+            41.885460413696954
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            1150,
+            6444
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x N. ELIZABETH"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65880636792417,
+            41.88420076362632
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            3136,
+            6444
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. RANDOLPH x WILLARD CT."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65766123361706,
+            41.884217294079974
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65922475692815,
+            41.886734301260866
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5260,
+            732
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65643525327594,
+            41.88678034582759
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            584,
+            6591
+          ],
+          "username": "autogeoref",
+          "note": "auto: synthetic x rescue-model-corner"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6591472682754,
+            41.88413243330939
+          ]
+        }
+      }
+    ]
+  },
+  "seam_adjusted": {
+    "dx_m": 2.499,
+    "dy_m": -1.772
+  },
+  "junction_snap": {
+    "supports": true,
+    "score_at_prior": 0.611,
+    "separation_ratio": 1.235,
+    "best_offset_m": 12.7,
+    "n_junctions": 31
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "page": "89",
+  "n_streets": 7,
+  "n_candidates": 11,
+  "n_inliers": 9,
+  "rotation_deg": 1.99,
+  "auto_residuals_m": [
+    10.44,
+    8.37,
+    6.65,
+    9.13,
+    15.18,
+    4.68,
+    4.73,
+    3.77,
+    6.3
+  ],
+  "inlier_streets": [
+    [
+      "W. BLACKHAWK",
+      "NOBLE"
+    ],
+    [
+      "W. BLACKHAWK",
+      "ELSTON AV."
+    ],
+    [
+      "W. BLACKHAWK",
+      "N. ELSTON AV."
+    ],
+    [
+      "NOBLE",
+      "W. EVERGREEN AV. (INGRAHAM)"
+    ],
+    [
+      "NOBLE",
+      "W. POTOMAC AV. (BRADLEY)"
+    ],
+    [
+      "W. EVERGREEN AV. (INGRAHAM)",
+      "ELSTON AV."
+    ],
+    [
+      "W. EVERGREEN AV. (INGRAHAM)",
+      "N. ELSTON AV."
+    ],
+    [
+      "W. POTOMAC AV. (BRADLEY)",
+      "ELSTON AV."
+    ],
+    [
+      "W. POTOMAC AV. (BRADLEY)",
+      "N. ELSTON AV."
+    ]
+  ],
+  "gcps_geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            471,
+            2810
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLACKHAWK x NOBLE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66273556365739,
+            41.907026355875644
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5183,
+            2810
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLACKHAWK x ELSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65992803674861,
+            41.907045143269336
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5146,
+            2810
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. BLACKHAWK x N. ELSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65992803674861,
+            41.907045143269336
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            471,
+            4822
+          ],
+          "username": "autogeoref",
+          "note": "auto: NOBLE x W. EVERGREEN AV. (INGRAHAM)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66271020408423,
+            41.906133929765225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            471,
+            6576
+          ],
+          "username": "autogeoref",
+          "note": "auto: NOBLE x W. POTOMAC AV. (BRADLEY)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.66267833481416,
+            41.905178640088046
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5183,
+            4822
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EVERGREEN AV. (INGRAHAM) x ELSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65976202847526,
+            41.90617943360095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5146,
+            4822
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. EVERGREEN AV. (INGRAHAM) x N. ELSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65976202847526,
+            41.90617943360095
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5183,
+            6576
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POTOMAC AV. (BRADLEY) x ELSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65960994168398,
+            41.90534248359624
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "image": [
+            5146,
+            6576
+          ],
+          "username": "autogeoref",
+          "note": "auto: W. POTOMAC AV. (BRADLEY) x N. ELSTON AV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.65960994168398,
+            41.90534248359624
+          ]
+        }
+      }
+    ]
+  },
+  "status": "OK",
+  "seam_adjusted": {
+    "dx_m": -0.966,
+    "dy_m": -4.49
+  }
+}

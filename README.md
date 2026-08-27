@@ -19,7 +19,7 @@ warps the page onto the map. Most of the work this repo does relates to validati
 
 One terminology note: A **volume** is one Sanborn atlas made up of many sheets. A **sheet** is one page inside a volume.
 
-**[See it running on Chicago](https://autogeoref.com)**
+**[See it running on Chicago](https://autogeoref.com)** and see an explanation of why this project was created [here](WHY.md).
 
 ![The autogeoref viewer showing a Sanborn sheet over Logan Square, Chicago](autogeoref_viewer_chicago.png)
 

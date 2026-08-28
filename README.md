@@ -71,7 +71,7 @@ The pipeline needs street names it can find on a modern map. It does badly when:
 - The street grid has changed a lot since the map was drawn. Highway
   construction, urban renewal, and filled-in shoreline all remove the streets
   the pipeline is looking for.
-- The volume is not a street grid at all. For exampple, the 1933 Chicago world's fair site or the old Chicago stockyards have layouts that have no modern analog.
+- The volume is not a street grid at all. For example, the 1933 Chicago world's fair site or the old Chicago stockyards have layouts that have no modern analog.
 - Streets have been renamed (as was the case in parts of Chicago). This one is fixable by supplying a list that aliases old to
   new names, but the list has to be built per city.
 

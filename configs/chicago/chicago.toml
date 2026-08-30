@@ -152,8 +152,10 @@ now_label = "NOW"
 # stays individually toggleable. Where two eras cover the same ground the newer
 # sheets draw on top, and turning one off reveals the older ones beneath.
 default_eras = ["1890s", "1900s", "1910s", "1920s", "1930s", "1940s", "1950s"]
-# Open at State and Madison so the viewer starts in central Chicago.
-home_point = [-87.6280, 41.8820]
+# Open on the Near West Side. The point selects the volume the viewer opens on —
+# the smallest one covering it, here 1950 Vol. 7 — and the Loop volume it used to
+# land on is one of the rougher placements to meet first.
+home_point = [-87.66207, 41.87007]
 footer_source = "Maps: Library of Congress, Sanborn Maps Collection"
 # Who georeferenced these layers. One line for the whole site: every layer this
 # city serves is placed by this pipeline. `serving_dirs` below is what keeps

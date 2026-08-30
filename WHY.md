@@ -18,11 +18,11 @@ For both the U Chicago and Adam Cox processes I noticed there was a lot of time-
 
 A multi-modal model is provided with an image of a Sanborn map => spits out the street names, railroads, and house numbers it sees in JSON => that JSON is fed to deterministic pipeline => deterministic pipeline attempts to match it to the correct streets or rail lines in the current city.
 
-As far as I am aware, the best performing automated approach to automating Sanborn map georeferencing prior to this approach was able to automatically place 14% of sheets ([using an object detection model](https://www.tandfonline.com/doi/full/10.1080/15420353.2025.2462737)). This approach can place more than 70% of sheets and those placements generally score well when compared to manual human placements (median difference of 5.5 meter from human placement with only 11% greater than 15 meters different). The output of this system generally just looks good on a map (and it has improved as I have iterated on it).
+As far as I am aware, the best performing automated approach to automating Sanborn map georeferencing prior to this approach was able to automatically place 14% of sheets ([using an object detection model](https://www.tandfonline.com/doi/full/10.1080/15420353.2025.2462737)). This approach can place more than 70% of sheets and those placements generally score well when compared to manual human placements (median difference of 5.4 meter from human placement with only 11% greater than 15 meters different). The output of this system generally just looks good on a map (and it has improved as I have iterated on it).
 
 ### Scored Accuracy Rates vs OldInsuranceMaps pins
 
-- Placed ~77% of 3,000+ sheets on the 33 Chicago volumes that had OldInsuranceMaps pins
+- Placed ~78% of 3,000+ sheets on the 35 Chicago volumes that had OldInsuranceMaps pins
 - Placed ~75% of sheets across the digitized Chicago corpus
 - For volumes with placeable sheets, sheet placement rate varied a lot by volume (from 2% to 97%).
 - Running the pipeline against a Cleveland volume, the system placed 64% of sheets

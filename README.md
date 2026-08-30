@@ -26,13 +26,13 @@ One terminology note: A **volume** is one Sanborn atlas made up of many sheets. 
 ## How well it works
 
 Measured 2026-08-28 against human placements from OldInsuranceMaps.net. Of the 79 volumes processed,
-34 volumes have OldInsuranceMaps.net equivalents to grade against.
+36 volumes have OldInsuranceMaps.net equivalents to grade against.
 
-|                                           | Chicago (33 volumes) | Cleveland (1 volume) |
+|                                           | Chicago (35 volumes) | Cleveland (1 volume) |
 | ----------------------------------------- | -------------------- | -------------------- |
-| Sheets placed and published               | 77% of 3,517         | 64%                  |
-| Typical distance from the human placement | 5.5 m                | 9.6 m                |
-| Published sheets more than 15 m off       | 11.0%                | 21%                  |
+| Sheets placed and published               | 78% of 3,773         | 64%                  |
+| Typical distance from the human placement | 5.4 m                | 9.6 m                |
+| Published sheets more than 15 m off       | 10.8%                | 21%                  |
 
 For a sense of scale, a standard Chicago city lot is 25 feet wide, about 7.6 m.
 

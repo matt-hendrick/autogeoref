@@ -430,8 +430,31 @@ const ViewerLib = (function () {
     return { error: null, choose: [] };
   }
 
+  /* Whether this browser will give the map a 3D context.
+
+     `make` takes a context name and returns the context or null, so a test runs
+     this without a canvas. Both names are tried because the map falls back to
+     WebGL 1; a throw counts as a refusal, since a failing driver raises instead
+     of returning null. The probe releases what it opens: browsers cap live
+     contexts and the page builds two maps. */
+  function webglAvailable(make) {
+    for (const name of ["webgl2", "webgl"]) {
+      let gl = null;
+      try {
+        gl = make(name);
+      } catch (err) { /* a refusal, the same answer as null */ }
+      if (!gl) continue;
+      try {
+        const lose = gl.getExtension("WEBGL_lose_context");
+        if (lose) lose.loseContext();
+      } catch (err) { /* best effort: releasing must not change the answer */ }
+      return true;
+    }
+    return false;
+  }
+
   return {
-    UNDATED, eraOf, chooseCity,
+    UNDATED, eraOf, chooseCity, webglAvailable,
     compareErasNewestFirst, selectionLabel, regionLabel, stackOrder, chooseBasemap,
     unionOf, area, startVolume, layerVisibility, hiddenFromLink,
     clampSlider, swipeStep, handleTop, storiesAsked, stopIndex, clampStopIndex,

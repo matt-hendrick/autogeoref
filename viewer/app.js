@@ -4,6 +4,19 @@
 
    City-fact-free by contract: every city-specific string, coordinate and
    credit comes from manifest.json's `site` block. */
+
+/* The overlay's terminal state: reason shown, fade cancelled. File scope so the
+   boot's `.catch()` can reach it after the boot failed. `done` is removed
+   because the deadline may already have fired: a boot slow enough to outlast it
+   and then throw would otherwise leave the reason behind a faded overlay. */
+function overlayStop(message) {
+  const overlay = document.getElementById("loading");
+  if (!overlay) return;
+  overlay.textContent = message;
+  overlay.classList.remove("done");
+  overlay.classList.add("choose");
+}
+
 (async function () {
   // lib.js: the decisions that need no DOM, so a test can run them directly
   const {
@@ -13,21 +26,19 @@
     clampSlider, swipeStep, handleTop, storiesAsked, stopIndex, clampStopIndex,
     hashRead, hashWrite, queryWrite,
     linkNumbers, linkText, viewValue, chooseGeocoder, geocodeHit,
+    webglAvailable,
   } = ViewerLib;
 
   const loading = document.getElementById("loading");
 
   // ---------- which city's page this is ----------
-  // The manifests are per city (`<slug>/manifest.json`) because every field in
-  // one comes from a single city's config. `cities.json` beside the page says
-  // which are published here, and a deploy bundle carries a one-entry copy so
-  // the public page resolves exactly the way the local one does.
+  // Manifests are per city (`<slug>/manifest.json`); `cities.json` lists what
+  // is published here, and a deploy bundle ships a one-entry copy so public and
+  // local resolve identically.
   //
-  // ABSENT and UNREADABLE are different answers and must not collapse into
-  // one. A directory with no index is a one-city directory — a hand-made copy
-  // — and its manifest sits beside the page. An index that 500s or arrives
-  // truncated is a server fault, and reporting it as "manifest.json is
-  // missing" names a file the visitor never asked for and hides the fault.
+  // ABSENT and UNREADABLE must not collapse: no index means a one-city
+  // directory with its manifest beside the page; a 500 or a truncated read is a
+  // server fault, and calling that "manifest.json is missing" hides it.
   async function readJson(href) {
     let response;
     try {
@@ -52,8 +63,7 @@
   /* A page with no atlas to draw still has to say so — the failure this whole
      resolution exists to stop is a blank page with nothing on it. */
   function explain(message, offer) {
-    loading.textContent = message;
-    loading.classList.add("choose");
+    overlayStop(message);
     for (const entry of offer || []) {
       const link = document.createElement("a");
       link.href = "?city=" + encodeURIComponent(entry.slug);
@@ -238,20 +248,17 @@
     return style;
   }
 
-  // Everything that has to wait for the basemap SOURCE, on the one event that
-  // reports it. Neither `load` nor `error` can be used here: a basemap whose
-  // tiles or archive 404 produces neither, ever.
+  // Everything waiting on the basemap SOURCE, on the one event that reports it:
+  // a basemap whose tiles or archive 404 fires neither `load` nor `error`.
   //
-  //  * The credit, when a TILE lands and not a moment earlier. Crediting where
-  //    the style is BUILT, or where a style file this bundle ships is parsed,
-  //    says nothing about whether a visitor can see a basemap — what a
-  //    deployment gets wrong is the ARCHIVE — and a false credit is an
-  //    attribution claim about a third party whose data is not on the page.
-  //  * The max-bounds clamp, whose footprint arrives with the archive's own
-  //    metadata and so is not readable when the style loads.
+  //  * The credit, on a landed TILE. Crediting at style build or parse says
+  //    nothing about whether a visitor can see a basemap — what a deployment
+  //    gets wrong is the ARCHIVE — and a false credit misattributes a third
+  //    party whose data is not on the page.
+  //  * The max-bounds clamp, whose footprint arrives with archive metadata and
+  //    is not readable at style load.
   //
-  // A vector style naming no vector source leaves nothing to watch, and then
-  // nothing is credited: the safe direction.
+  // A vector style naming no vector source credits nothing: the safe direction.
   function watchBasemapSource(map) {
     map.on("sourcedata", (event) => {
       if (event.sourceId !== (vectorBasemapSource || RASTER_BASEMAP)) return;
@@ -272,6 +279,44 @@
   // `drawAtlas` (declared below, hoisted) reads this, so it must exist before
   // the first map event can reach it.
   let atlasDrawn = false;
+
+  // ---------- a browser that cannot draw a map at all ----------
+  // Every map here is WebGL, and a browser can refuse a 3D context: driver
+  // blocked, acceleration off, remote session. Constructing the map anyway
+  // throws inside the vendored library, which took the rest of the boot with it.
+  // No city list: every one would fail identically.
+  if (!webglAvailable(name => document.createElement("canvas").getContext(name))) {
+    explain(
+      "This atlas needs WebGL, and this browser is not providing it. Enabling " +
+      "hardware acceleration, updating the graphics driver, or another browser " +
+      "will show the map.");
+    return;
+  }
+
+  // ---------- when the overlay comes down ----------
+  // On the first tile that PAINTS, not on `style.load`: the style parses long
+  // before anything is on screen, and dismissing there left both panes grey for
+  // another ten to twenty seconds behind a drawn panel. Any tile in the left
+  // map counts, atlas or basemap — the question is whether the pane is empty.
+  //
+  // The deadline is the guarantee, and why a tile is watched rather than `load`
+  // or `idle`: an archive whose bytes never arrive fires none of those. A tile
+  // may only clear the overlay EARLIER, never hold it past the deadline. Armed
+  // here, before any map exists — inside `drawAtlas` it needed a loaded style
+  // first, so it covered a missing archive but not a map never built.
+  //
+  // 20s rather than tighter: past it nothing has loaded and the message beats
+  // the grey pane; cutting a slow-but-working load short is the whole defect.
+  const LOADING_DEADLINE_MS = 20000;
+  let loadingCleared = false;
+  function clearLoading() {
+    // A reason already on screen outranks the fade: fading it would leave a
+    // blank page saying nothing.
+    if (loadingCleared || loading.classList.contains("choose")) return;
+    loadingCleared = true;
+    loading.classList.add("done");
+  }
+  setTimeout(clearLoading, LOADING_DEADLINE_MS);
 
   // Both styles BEFORE either map: a map fires `style.load` a tick after it is
   // constructed, so an await between the two constructors would let the left
@@ -299,6 +344,12 @@
   window.beforeMap = before; window.afterMap = after;  // debugging convenience
   watchBasemapSource(before);
   watchBasemapSource(after);
+
+  // Nothing here handles `webglcontextlost`: the vendored map calls
+  // preventDefault() on it and rebuilds the painter on `webglcontextrestored`,
+  // so a lost context recovers on its own. Reporting it would put an overlay
+  // over a page that heals, and the software rasteriser drops contexts under
+  // load for reasons no page can act on.
 
   // A self-hosted basemap is an EXTRACT: it stops at the coverage box, and a
   // user who zooms out otherwise ends up in an empty void with a city-shaped
@@ -442,38 +493,6 @@
   }
   renderEras();
 
-  // ---------- when the overlay comes down ----------
-  // On the first tile that PAINTS, not on the style being parsed. `style.load`
-  // fires as soon as the style JSON is read, which is all `addSource` needs but
-  // is a long way before anything is on screen: measured on a throttled line,
-  // dismissing there left both panes empty grey for another ten to twenty
-  // seconds behind a fully drawn panel, which reads as a broken page rather
-  // than a loading one.
-  //
-  // Any tile in the left map counts, atlas or basemap, because the question the
-  // overlay answers is "is this pane still empty" and either one ends that.
-  //
-  // The deadline is the guarantee, and it is why a tile is watched for instead
-  // of `load` or `idle`: an archive whose bytes never arrive fires none of
-  // those, ever, and the overlay would stay up forever — the failure this used
-  // to be written the other way round to avoid. So a tile may only bring the
-  // overlay down EARLIER than the deadline, never hold it up past one.
-  //
-  // 20s rather than something tighter: past the deadline the reader is looking
-  // at a page where nothing at all has loaded, and "unrolling the atlas…" is
-  // more use to them than the grey pane underneath it. The cost of waiting is
-  // therefore small, and the cost of cutting a slow-but-working load short is
-  // the whole defect.
-  const LOADING_DEADLINE_MS = 20000;
-  let loadingCleared = false;
-  function clearLoading() {
-    // `choose` is the overlay's other resting state — no atlas here, and a
-    // reason on screen. Fading that out would leave a blank page saying nothing.
-    if (loadingCleared || loading.classList.contains("choose")) return;
-    loadingCleared = true;
-    loading.classList.add("done");
-  }
-
   function drawAtlas() {
     if (atlasDrawn) return;
     atlasDrawn = true;
@@ -487,7 +506,6 @@
       before.off("sourcedata", firstTile);   // one job, done once
     };
     before.on("sourcedata", firstTile);
-    setTimeout(clearLoading, LOADING_DEADLINE_MS);
     const start = startVolume(vols.filter(v => selectedEras.has(eraOf(v))), S.home_point);
     if (start) before.fitBounds(start.bounds, { padding: 60, duration: 0 });
     openFromLink();   // a forwarded link's view or story stop overrides all of it
@@ -743,15 +761,14 @@
   // drain reads `autogeoref status` instead.
 
   // ---------- address search (modern addresses only) ----------
-  // Which provider, and whether to send at all, is `chooseGeocoder` in lib.js:
-  // Mapbox on a token, Nominatim on a dev host, nothing on a public host with
-  // no token. Search bias bbox and the query suffix come from the manifest's
-  // geocoder block.
+  // Provider, and whether to send at all, is `chooseGeocoder` in lib.js: Mapbox
+  // on a token, Nominatim on a dev host, nothing on a public host without one.
+  // Bias bbox and query suffix come from the manifest's geocoder block.
   //
-  // The query is geocoded as typed. Historical street names are deliberately
-  // NOT rewritten here: retired-name search was withdrawn. The alias
-  // tables under configs/<city>/aliases/ remain load-bearing for the
-  // pipeline's name matching — they are simply no longer served to the viewer.
+  // Geocoded as typed. Historical street names are NOT rewritten here —
+  // retired-name search was withdrawn. The alias tables under
+  // configs/<city>/aliases/ still drive the pipeline's name matching; they are
+  // no longer served to the viewer.
   const GEO = S.geocoder;
   let searchMarkers = [];
 
@@ -936,16 +953,13 @@
 
   // The story a permalink names, if this city still configures it.
   const linkedStory = LINK.story ? S.stories.find(s => s.id === LINK.story) : null;
-  // Guided stories are OPT-IN per visit. Configuring them no longer puts an
-  // entry list in front of every visitor: the list is offered to a link that
-  // asks (`?stories`), and to a reader who arrived on a story permalink — who
-  // would otherwise leave that story into a page with no way back into it.
-  // An explicit `?stories=0` beats both. A permalink still opens its story
-  // under every one of those answers; only the LIST is gated.
+  // Guided stories are OPT-IN per visit: the list is offered to a link that
+  // asks (`?stories`) and to a reader arriving on a story permalink, who would
+  // otherwise leave that story with no way back. `?stories=0` beats both. A
+  // permalink still opens its story either way; only the LIST is gated.
   //
-  // On `LINK.story` being PRESENT, not on it resolving: a link naming a story
-  // this city has since renamed is the reader most in need of the list, and
-  // gating on the lookup would leave exactly them with nothing.
+  // Gated on `LINK.story` being PRESENT, not resolving: a link naming a story
+  // since renamed is the reader most in need of the list.
   const QUERY_STORIES = "stories";
   const storiesAsk = storiesAsked(location.search, QUERY_STORIES);   // true/false/null
   const storiesOn = Boolean(S.stories.length) && storiesAsk !== false &&
@@ -1236,4 +1250,9 @@
   }
 
   applySelection();   // paints title, plates, footer, chips, list
-})();
+})().catch((err) => {
+  // One long async function: a throw skips every remaining line, including
+  // whatever would have cleared the overlay, leaving a permanent load.
+  console.error("the viewer could not start", err);
+  overlayStop("This atlas could not start in this browser.");
+});

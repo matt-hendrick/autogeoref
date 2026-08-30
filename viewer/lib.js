@@ -453,8 +453,47 @@ const ViewerLib = (function () {
     return false;
   }
 
+  /* Whether a failed range read is the kind a second attempt fixes.
+
+     An edge that has not served a large archive before answers the FIRST range
+     request with the whole object, and pmtiles rejects that. The library throws
+     a plain Error, so its message is the only discriminator. The match is narrow
+     on purpose: an aborted read, a bad status, and the ETag mismatch the library
+     recovers from itself must all propagate. */
+  function coldRangeFailure(err) {
+    return /byte serving/i.test(String((err && err.message) || ""));
+  }
+
+  /* One range read: retried once on a cold edge, never left streaming.
+
+     `attempt(signal)` performs one read. It is always handed a signal this owns,
+     because the caller's is not enough — pmtiles cancels a rejected response
+     only when it owns the controller, and for tile reads it does not, so the
+     whole archive arrives for bytes nothing reads. Any failure aborts it.
+
+     The caller's own aborts relay in, so cancelling a tile still reaches the
+     network, and the relay is released on both settle paths. */
+  function readWithRetry(attempt, signal) {
+    const once = () => {
+      const own = new AbortController();
+      const relay = () => own.abort();
+      if (signal) {
+        if (signal.aborted) own.abort();
+        else signal.addEventListener("abort", relay, { once: true });
+      }
+      const release = () => { if (signal) signal.removeEventListener("abort", relay); };
+      return attempt(own.signal).then(
+        (value) => { release(); return value; },
+        (err) => { own.abort(); release(); throw err; });
+    };
+    return once().catch((err) => {
+      if (!coldRangeFailure(err)) throw err;
+      return once();
+    });
+  }
+
   return {
-    UNDATED, eraOf, chooseCity, webglAvailable,
+    UNDATED, eraOf, chooseCity, webglAvailable, coldRangeFailure, readWithRetry,
     compareErasNewestFirst, selectionLabel, regionLabel, stackOrder, chooseBasemap,
     unionOf, area, startVolume, layerVisibility, hiddenFromLink,
     clampSlider, swipeStep, handleTop, storiesAsked, stopIndex, clampStopIndex,

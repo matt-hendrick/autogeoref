@@ -5,8 +5,18 @@
    review_ui/affine.js) are plain classic scripts that export to node when
    there is a `module` to export to.
 
+   A promise is awaited, so an expression may be asynchronous; anything else
+   passes through unchanged. A rejection exits non-zero with its stack rather
+   than printing `{}`, which would read as an empty result.
+
    argv: <script path> <expression>, with the script's exports bound to `L`. */
 const path = require("path");
 const L = require(path.resolve(process.argv[2]));
 const value = new Function("L", "return (" + process.argv[3] + ");")(L);
-process.stdout.write(JSON.stringify(value === undefined ? null : value));
+Promise.resolve(value).then(
+  (resolved) => process.stdout.write(JSON.stringify(resolved === undefined ? null : resolved)),
+  (err) => {
+    process.stderr.write(String((err && err.stack) || err));
+    process.exit(1);
+  },
+);

@@ -26,7 +26,7 @@ function overlayStop(message) {
     clampSlider, swipeStep, handleTop, storiesAsked, stopIndex, clampStopIndex,
     hashRead, hashWrite, queryWrite,
     linkNumbers, linkText, viewValue, chooseGeocoder, geocodeHit,
-    webglAvailable,
+    webglAvailable, readWithRetry,
   } = ViewerLib;
 
   const loading = document.getElementById("loading");
@@ -185,13 +185,32 @@ function overlayStop(message) {
   const protocol = new pmtiles.Protocol();
   maplibregl.addProtocol("pmtiles", protocol.tile);
 
+  // The below is a hack because some of the PMTiles are greater than the cacheable
+  // size limit of some edges. To avoid not rendering those on first read, we retry for that failure.
+  // `readWithRetry` owns the retry and the abort; it is in lib.js so a test can
+  // run it without a browser.
+  class RetryingSource extends pmtiles.FetchSource {
+    getBytes(offset, length, signal, etag) {
+      return readWithRetry((owned) => super.getBytes(offset, length, owned, etag), signal);
+    }
+  }
+
+  // Registering is what puts that source in the path: the protocol resolves an
+  // unregistered `pmtiles://` URL by building its own source, so a key that does
+  // not match what `tilev4` strips is a silent no-op. It strips exactly the
+  // scheme, so the key is the href these two functions already build.
+  function pmtilesUrl(href) {
+    if (!protocol.get(href)) protocol.add(new pmtiles.PMTiles(new RetryingSource(href)));
+    return "pmtiles://" + href;
+  }
+
   // Two bases, and the difference is real. Volume archives are written by the
   // manifest builder RELATIVE TO THE MANIFEST, so they resolve against
   // it. The basemap block is verbatim config whose sibling `styles` name files
   // vendored beside the PAGE, so the whole block resolves against the page. In
   // a deploy bundle the two are the same directory and the distinction is moot.
-  const archiveUrl = (path) => "pmtiles://" + new URL(path, manifestBase).href;
-  const basemapArchiveUrl = (path) => "pmtiles://" + new URL(path, location.href).href;
+  const archiveUrl = (path) => pmtilesUrl(new URL(path, manifestBase).href);
+  const basemapArchiveUrl = (path) => pmtilesUrl(new URL(path, location.href).href);
 
   // Two flavors of one basemap: `atlas` sits under the historical sheets and
   // stays muted so their ink reads; `now` is the modern city at full contrast.

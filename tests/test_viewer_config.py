@@ -70,7 +70,7 @@ class TestChicagoViewerConfig:
             "1940s",
             "1950s",
         )
-        assert v.home_point == (-87.6280, 41.8820)  # State & Madison
+        assert v.home_point == (-87.66207, 41.87007)  # Near West Side
 
     def test_geocoder_and_basemap(self) -> None:
         v = load_viewer_config(CHICAGO_TOML)
@@ -369,7 +369,7 @@ def test_site_dict_chicago_round_trip() -> None:
         "1950s",
     ]
     assert "default_era" not in site  # the single-era key is parse-only now
-    assert site["home_point"] == [-87.628, 41.882]
+    assert site["home_point"] == [-87.66207, 41.87007]
     assert site["geocoder"]["suffix"] == ", Chicago, IL"
     # bias only: which geocoder answers is the page's call, from the deployed
     # token and the serving host, and a published `provider` said otherwise
